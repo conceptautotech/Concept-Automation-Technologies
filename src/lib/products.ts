@@ -8,6 +8,7 @@ export interface DbProduct {
   brand: string;
   category: string;
   type: string;
+  price?: string;
   description: string;
   specifications: any; // JSON array of specifications [{label, value}]
   image: string;
@@ -96,8 +97,12 @@ export function mergeProducts(staticProducts: Product[], dbProducts: DbProduct[]
 
   // 1. Load static products
   staticProducts.forEach((p) => {
+    const filteredSpecs = (p.specifications || []).filter(
+      (spec) => spec.value !== "In Stock - Ready for Express Dispatch"
+    );
     mergedMap.set(p.slug || p.id, {
       ...p,
+      specifications: filteredSpecs,
       stockCount: p.stock ? 1000 : 0, // default stock count for static products
       isCustom: false,
       isDeleted: false,
@@ -117,6 +122,10 @@ export function mergeProducts(staticProducts: Product[], dbProducts: DbProduct[]
       specs = dbP.specifications;
     }
 
+    const filteredSpecs = specs.filter(
+      (spec) => spec.value !== "In Stock - Ready for Express Dispatch"
+    );
+
     const key = dbP.slug;
     const existing = mergedMap.get(key);
 
@@ -127,8 +136,9 @@ export function mergeProducts(staticProducts: Product[], dbProducts: DbProduct[]
       brand: dbP.brand,
       category: dbP.category,
       type: dbP.type as any,
+      price: dbP.price || existing?.price || "On Request",
       description: dbP.description || "",
-      specifications: specs,
+      specifications: filteredSpecs,
       image: dbP.image || "",
       slug: dbP.slug,
       stock: dbP.stock,

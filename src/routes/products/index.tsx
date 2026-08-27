@@ -4,10 +4,11 @@ import { Search, SlidersHorizontal, X, Check, Filter } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ProductCard } from "@/components/ProductCard";
-import { allProducts, brands, categories } from "@/data/catalog";
+import { allProducts } from "@/data/catalog";
 import { InquiryModal } from "@/components/InquiryModal";
 import { useQuery } from "@tanstack/react-query";
 import { getDbProducts, mergeProducts } from "@/lib/products";
+import { motion } from "framer-motion";
 
 export const Route = createFileRoute("/products/")({
   head: () => ({
@@ -42,12 +43,15 @@ function Products() {
     if (searchParams.q) setSearchQuery(searchParams.q);
   }, [searchParams.q]);
 
-  const brandCounts = useMemo(() => {
-    const counts: Record<string, number> = {};
-    brands.forEach((b) => {
-      counts[b] = mergedProducts.filter((p) => p.brand.toLowerCase() === b.toLowerCase()).length;
+  const dynamicBrands = useMemo(() => {
+    const brandSet = new Set<string>();
+    mergedProducts.forEach((p) => {
+      const b = (p.brand || "").trim();
+      if (b) {
+        brandSet.add(b);
+      }
     });
-    return counts;
+    return Array.from(brandSet).sort((a, b) => a.localeCompare(b));
   }, [mergedProducts]);
 
   const filteredProducts = useMemo(() => {
@@ -86,105 +90,114 @@ function Products() {
   };
 
   return (
-    <div className="min-h-screen bg-[#f6f4ee] pb-16 sm:pb-0">
+    <div className="min-h-screen bg-background pb-16 sm:pb-0">
       <Header />
 
       <main>
         {/* Page Header Banner */}
-        <div className="border-b border-[#e7e5e4] bg-[#140d09] py-8 sm:py-14 text-white">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 text-center">
-            <span className="text-[10px] sm:text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#b45309]">Complete Catalog</span>
-            <h1 className="mt-1 font-display text-xl font-extrabold text-white sm:text-4xl">
+        <div className="border-b border-border bg-gradient-to-r from-blue-50/40 via-background to-slate-100/40 py-8 sm:py-14 text-foreground">
+          <motion.div 
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="mx-auto max-w-7xl px-4 sm:px-6 text-center"
+          >
+            <span className="text-[10px] sm:text-[11px] font-extrabold uppercase tracking-[0.2em] text-accent">Complete Catalog</span>
+            <h1 className="mt-1 font-display text-xl font-extrabold text-foreground sm:text-4xl uppercase">
               Industrial Automation Products
             </h1>
-            <p className="mt-1 text-xs text-slate-300 max-w-lg mx-auto font-medium">
-              {mergedProducts.length}+ genuine OEM products from {brands.length} global manufacturers. Ready for dispatch.
+            <p className="mt-2 text-xs sm:text-sm text-muted-foreground max-w-lg mx-auto font-semibold">
+              Genuine OEM products from leading global manufacturers. Ready for dispatch.
             </p>
-          </div>
+          </motion.div>
         </div>
 
         {/* ═══════════════════════════════════════════════════════ */}
         {/* TOP FILTER SECTION                                     */}
         {/* ═══════════════════════════════════════════════════════ */}
-        <div className="sticky top-14 sm:top-16 z-30 border-b border-[#e7e5e4] bg-[#f4f1eb]/95 backdrop-blur-md py-3 shadow-sm">
-          <div className="mx-auto max-w-7xl px-3 sm:px-6 space-y-2.5">
+        <div className="sticky top-14 sm:top-16 z-30 border-b border-slate-100 bg-white/90 backdrop-blur-xl py-4 shadow-sm">
+          <div className="mx-auto max-w-7xl px-3 sm:px-6 space-y-4">
             {/* Search Input Bar & Result Count */}
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
               <div className="relative flex-1 max-w-md">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-[#334155]" />
+                <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400" />
                 <input
                   type="text"
                   placeholder="Search model, part number, brand..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full rounded-xl border border-[#e7e5e4] bg-white pl-9 pr-4 py-2 text-xs text-[#1a130f] font-semibold placeholder-[#334155] focus:border-[#1a130f] focus:outline-none focus:ring-1 focus:ring-[#1a130f]/20 shadow-sm"
+                  className="w-full rounded-2xl border border-slate-200 bg-slate-50/50 pl-10 pr-10 py-2.5 text-xs text-slate-800 font-semibold placeholder-slate-400 focus:border-primary focus:bg-white focus:outline-none focus:ring-4 focus:ring-primary/5 transition-all shadow-inner"
                 />
                 {searchQuery && (
-                  <button onClick={() => setSearchQuery("")} className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600">
-                    <X className="h-3.5 w-3.5" />
+                  <button onClick={() => setSearchQuery("")} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 transition-colors">
+                    <X className="h-4 w-4" />
                   </button>
                 )}
               </div>
 
-              <div className="flex items-center justify-between sm:justify-end gap-3 text-xs font-bold text-[#1a130f]">
-                <span>
-                  Found <strong className="text-[#b45309]">{filteredProducts.length}</strong> products
+              <div className="flex items-center justify-between md:justify-end gap-3 text-xs font-bold text-slate-600">
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-50 border border-slate-200/60 px-3.5 py-1.5 text-xs text-slate-600 font-medium">
+                  Genuine OEM Parts Catalog
                 </span>
                 {(selectedBrand !== "All" || selectedType !== "All" || searchQuery) && (
                   <button
                     onClick={resetFilters}
-                    className="rounded-lg border border-[#e7e5e4] bg-white px-2.5 py-1 text-[10px] font-bold text-[#b45309] hover:bg-[#f6f4ee] transition-colors"
+                    className="rounded-full bg-slate-100 hover:bg-slate-200 active:scale-95 px-3.5 py-1.5 text-[10px] font-extrabold uppercase tracking-wider text-slate-600 hover:text-slate-800 transition-all cursor-pointer shadow-sm"
                   >
-                    Reset
+                    Reset Filters
                   </button>
                 )}
               </div>
             </div>
 
             {/* Product Type Filter Pills */}
-            <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
-              <span className="text-[10px] font-extrabold uppercase tracking-wider text-[#334155] mr-1 shrink-0">Type:</span>
-              {productTypes.map((t) => (
-                <button
-                  key={t}
-                  onClick={() => setSelectedType(t)}
-                  className={`shrink-0 rounded-xl px-3 py-1 text-[11px] font-extrabold transition-all ${
-                    selectedType === t
-                      ? "bg-[#1a130f] text-white shadow-sm"
-                      : "bg-white text-[#1a130f] border border-[#e7e5e4] hover:bg-[#f6f4ee]"
-                  }`}
-                >
-                  {t}
-                </button>
-              ))}
+            <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none relative">
+              <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 mr-2 shrink-0 select-none">Type:</span>
+              <div className="flex items-center gap-2 shrink-0">
+                {productTypes.map((t) => (
+                  <button
+                    key={t}
+                    onClick={() => setSelectedType(t)}
+                    className={`shrink-0 rounded-full px-3.5 py-1.5 text-xs font-extrabold transition-all cursor-pointer ${
+                      selectedType === t
+                        ? "bg-primary text-white shadow-md shadow-blue-500/10 scale-[1.02]"
+                        : "bg-slate-50 text-slate-600 border border-slate-200/60 hover:bg-slate-100/60 hover:border-slate-300"
+                    }`}
+                  >
+                    {t}
+                  </button>
+                ))}
+              </div>
             </div>
 
             {/* Brand Filter Pills */}
-            <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
-              <span className="text-[10px] font-extrabold uppercase tracking-wider text-[#334155] mr-1 shrink-0">Brand:</span>
-              <button
-                onClick={() => setSelectedBrand("All")}
-                className={`shrink-0 rounded-xl px-3 py-1 text-[11px] font-extrabold transition-all ${
-                  selectedBrand === "All"
-                    ? "bg-[#b45309] text-white shadow-sm"
-                    : "bg-white text-[#1a130f] border border-[#e7e5e4] hover:bg-[#f6f4ee]"
-                }`}
-              >
-                All Brands ({mergedProducts.length})
-              </button>
-              {brands.map((b) => (
+            <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none relative">
+              <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 mr-2 shrink-0 select-none">Brand:</span>
+              <div className="flex items-center gap-2 shrink-0">
                 <button
-                  key={b}
-                  onClick={() => setSelectedBrand(b)}
-                  className={`shrink-0 rounded-xl px-3 py-1 text-[11px] font-extrabold transition-all ${
-                    selectedBrand === b
-                      ? "bg-[#b45309] text-white shadow-sm"
-                      : "bg-white text-[#1a130f] border border-[#e7e5e4] hover:bg-[#f6f4ee]"
+                  onClick={() => setSelectedBrand("All")}
+                  className={`shrink-0 rounded-full px-3.5 py-1.5 text-xs font-extrabold transition-all cursor-pointer ${
+                    selectedBrand === "All"
+                      ? "bg-accent text-white shadow-md shadow-orange-500/10 scale-[1.02]"
+                      : "bg-slate-50 text-slate-600 border border-slate-200/60 hover:bg-slate-100/60 hover:border-slate-300"
                   }`}
                 >
-                  {b} ({brandCounts[b] || 0})
+                  All Brands
                 </button>
-              ))}
+                {dynamicBrands.map((b) => (
+                  <button
+                    key={b}
+                    onClick={() => setSelectedBrand(b)}
+                    className={`shrink-0 rounded-full px-3.5 py-1.5 text-xs font-extrabold transition-all cursor-pointer ${
+                      selectedBrand === b
+                        ? "bg-accent text-white shadow-md shadow-orange-500/10 scale-[1.02]"
+                        : "bg-slate-50 text-slate-600 border border-slate-200/60 hover:bg-slate-100/60 hover:border-slate-300"
+                    }`}
+                  >
+                    {b}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -192,9 +205,9 @@ function Products() {
         {/* 2-COLUMN MOBILE PRODUCT GRID (User Request: 2 products in mobile view) */}
         <div className="mx-auto max-w-7xl px-3 py-6 sm:px-6">
           {filteredProducts.length === 0 ? (
-            <div className="rounded-3xl border border-[#e7e5e4] bg-white p-12 text-center shadow-sm">
-              <p className="text-[#334155] text-sm font-semibold">No products match your filter criteria.</p>
-              <button onClick={resetFilters} className="mt-4 rounded-xl bg-[#1a130f] px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#b45309]">
+            <div className="rounded-3xl border border-border bg-card p-12 text-center shadow-sm">
+              <p className="text-muted-foreground text-sm font-semibold">No products match your filter criteria.</p>
+              <button onClick={resetFilters} className="mt-4 rounded-xl bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-accent">
                 Clear Filters
               </button>
             </div>

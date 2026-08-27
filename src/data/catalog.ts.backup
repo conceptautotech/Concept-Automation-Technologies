@@ -35,10 +35,10 @@ export const company = {
   "proprietor": "Mr. Gaurang Mahendrabhai Chavda",
   "gst": "24ASYPC3254A1Z0",
   "address": "D-303, Titanium Business Park, Makarba Road, Makarba, Ahmedabad - 380051, Gujarat, India",
-  "phone": "+91 87994 47337",
-  "phoneRaw": "+918799447337",
-  "whatsapp": "+918799447337",
-  "email": "sales@concept-auto-tech.com"
+  "phone": "+91 80454 75169",
+  "phoneRaw": "+918045475169",
+  "whatsapp": "+918045475169",
+  "email": "sales@conceptautotech.com"
 };
 
 export const brands = [
@@ -1708,14 +1708,13 @@ export const allProducts: Product[] = [
     "price": "₹ 17800/Piece"
   },
   {
-    "id": "im-2855147961297",
-    "name": "Abb Vfd Acs560 01 12a6 4",
-    "partNumber": "ABBVFDACS5600112A64",
-    "brand": "Abb",
-    "category": "Abb Vfd",
+    "id": "im-2855147960962",
+    "name": "ABB VFD ACS560-01-12A6-4",
+    "partNumber": "ACS560-01-12A6-4",
+    "brand": "ABB",
+    "category": "Abb VFD",
     "type": "VFD",
-    "price": "₹ 28757/Piece",
-    "description": "ABB ACS560 5.5KW 12.6A IP20 GENERAL PURPOSE DRIVE W/ CP ACS56 \n\n\nCommunication Protocols\nTCP/IP PROFIBUS CAN MODBUS DeviceNet / DeviceNet Safety PROFINET IO EtherNet/IP Other Bus Systems\n\n\nApplication\nFood, Beverage, Mixer &amp; any other variable and basic constant torque application, Pharma, Textile, Automotive\n\n\nContains\nControl Element PC Connection\n\n\nDimensions (mm)\n97W x 223H x 207D\n\n\nEAN\n  &ndash;\n\n\nInput Voltage AC (V)\n380 &ndash; 480\n\n\nMaximum Output Frequency (Hz)\n500\n\n\nMaximum Output Voltage AC (V)\n480\n\n\nNo. of Analogue Inputs\n2\n\n\nNo. of Analogue Outputs\n2\n\n\nNo. of Digital Inputs\n6\n\n\nNo. of Digital Outputs\n3\n\n\nNominal Output Current (A)\n12.6\n\n\nNumber of Other HW Interfaces\n2\n\n\nNumber of Parallel Interfaces\n2\n\n\nNumber of RS-485 Interfaces\n1\n\n\nNumber of USB Interfaces\n0\n\n\nOutput Power &ndash; Normal Duty (kW)\n5.5\n\n\nRelative Symmetric Net Frequency Tolerance\n5%\n\n\nRelative Symmetric Net Voltage Tolerance\n10%\n\n\n0-01-12A6-4+J404",
+    "description": "ABB ACS560-01-12A6-4, Three Phase, 5.5KW/7.5HP, 12.6A, 3Phase 380-480 V, AC Drive\n\n\nInput Suppy Voltage and phase\n3-phase, 380 to 480 V &plusmn; 10%\n\n\nMotor Control Method\nScalar, Vector\n\n\nOverload Capability at Heavy duty use\n150% for 1 minute every 10 minutes t +50&deg;C\n\n\nFrame Size and Dimensions(HXWXD)mm\nR1 (223x97x207 mm)\n\n\nSupported Motor Types\nAsynchronous Motor\n\n\nOutput Power Pn (kW/HP)\n5.5 kW/ 7.5 HP\n\n\nBrake Resistor Value\n32-76 ohm/6 KW\n\n\nDigital Inputs\n6 DI\n\n\nDigital Output\n0\n\n\nAnalog Input\n2 AI\n\n\nAnalog Output\n2 AO\n\n\nRelay Output\n3 RO",
     "specifications": [
       {
         "label": "Output Power(KW / HP)",
@@ -1731,7 +1730,11 @@ export const allProducts: Product[] = [
       },
       {
         "label": "Ventilation space above and below",
-        "value": "The ventilation space above and below the ABB ACS560-01-12A6-4 drive can be any."
+        "value": "There is enough free space above and below the drive to enable cooling air."
+      },
+      {
+        "label": "Ventilation space at sides",
+        "value": "The ABB ACS560-01-12A6-4 has any ventilation space at the sides"
       },
       {
         "label": "Motor Power",
@@ -1742,8 +1745,12 @@ export const allProducts: Product[] = [
         "value": "ABB"
       },
       {
+        "label": "Product Net Height",
+        "value": "223 mm"
+      },
+      {
         "label": "Five digital inputs",
-        "value": "6 Di"
+        "value": "6 DI"
       },
       {
         "label": "Product Net Length",
@@ -1758,12 +1765,8 @@ export const allProducts: Product[] = [
         "value": "1.9 kg"
       },
       {
-        "label": "Product Net Height",
-        "value": "223 mm"
-      },
-      {
         "label": "Input Frequency",
-        "value": "50/60 Hz."
+        "value": "50/60 Hz"
       },
       {
         "label": "Output Current",
@@ -1774,18 +1777,19 @@ export const allProducts: Product[] = [
         "value": "IP20"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459129516/EG/KY/SY/89143389/abb-vfd-acs560-01-12a6-4-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459134974/KE/AE/XG/89143389/abb-vfd-acs560-01-12a6-4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459129516/EG/KY/SY/89143389/abb-vfd-acs560-01-12a6-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459119651/SL/OS/YK/89143389/abb-acs560-01-12a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459119657/XL/NX/JM/89143389/abb-acs560-01-12a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459119660/NC/DW/OO/89143389/abb-acs560-01-12a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459119661/YX/TN/DZ/89143389/abb-acs560-01-12a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459119666/EV/QL/ND/89143389/abb-acs560-01-12a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459126466/QL/DE/QJ/89143389/abb-acs560-01-12a6-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459134974/KE/AE/XG/89143389/abb-vfd-acs560-01-12a6-4-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459131284/HQ/NV/TS/89143389/abb-acs560-01-05a6-4-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459131285/JB/VD/YO/89143389/abb-acs560-01-05a6-4-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459131304/TE/KB/LY/89143389/abb-acs560-01-05a6-4-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459131311/BS/YU/LD/89143389/abb-acs560-01-05a6-4-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459131307/TY/GJ/LZ/89143389/abb-acs560-01-05a6-4-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459131322/IS/CY/CL/89143389/abb-acs560-01-05a6-4-1000x1000.png"
     ],
     "slug": "abb-vfd-acs560-01-12a6-4",
-    "stock": true
+    "stock": true,
+    "price": "₹ 13388/Piece"
   },
   {
     "id": "im-2855151707230",
@@ -2909,18 +2913,18 @@ export const allProducts: Product[] = [
   },
   {
     "id": "im-2857626584262",
-    "name": "2094-EN02D-M01-S0 Allen Bradley",
-    "partNumber": "2094EN02DM01S0ALLENBRADLEY",
+    "name": "</header><div class=\"udg-category-item__priceRow\"><p class=\"udg-category-item__price\"><span class=\"udg-category-item__priceAmount\">₹ 5,000</span><span class=\"udg-category-item__priceUnit\">/Piece</span></p><span class=\"udg-category-item__latestPriceWrap\"><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__latestPrice\",\"ctaName\":\"Get Latest Price\",\"section\":\"Category\",\"position\":\"\",\"heading\":\"Enquiry about 2094-EN02D-M01-S0 Allen Bradley\",\"productId\":2857626584262,\"productName\":\"2094-EN02D-M01-S0 Allen Bradley\",\"productImage\":\"\",\"productMcatId\":\"182623\",\"productCatId\":145092576,\"productPrice\":\"₹ 5,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__latestPrice\" data-cta=\"Get Latest Price\" data-section=\"Category\">Get Latest Price</button></div></span></div><section class=\"udg-category-item__sdescRich\" aria-label=\"Product description\">2094-EN02D-M01-S0 Allen Bradley</section><div class=\"udg-category-item__cta\"><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__primaryCta\",\"ctaName\":\"Yes, I am interested!\",\"section\":\"Category\",\"position\":\"\",\"heading\":\"Enquiry about 2094-EN02D-M01-S0 Allen Bradley\",\"productId\":2857626584262,\"productName\":\"2094-EN02D-M01-S0 Allen Bradley\",\"productImage\":\"\",\"productMcatId\":\"182623\",\"productCatId\":145092576,\"productPrice\":\"₹ 5,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__primaryCta\" data-cta=\"Yes, I am interested!\" data-section=\"Category\">Yes, I am interested!</button></div><div data-island=\"PhoneReveal\" data-props=\"{\"className\":\"udg-category-item__callNow\",\"ctaName\":\"Call Now\",\"section\":\"Category\",\"position\":\"\",\"disablePhoneReveal\":true,\"heading\":\"Enquiry about 2094-EN02D-M01-S0 Allen Bradley\",\"productId\":2857626584262,\"productName\":\"2094-EN02D-M01-S0 Allen Bradley\",\"productImage\":\"\",\"productMcatId\":\"182623\",\"productCatId\":145092576,\"productPrice\":\"₹ 5,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__callNow\" data-cta=\"Call Now\" data-section=\"Category\">Call Now</button></div></div></div></section></article></section></div><section class=\"homepage-ratings\" aria-label=\"Ratings and Reviews\"><div data-island=\"RatingReviews\" data-props=\"{\"sort_type\":\"1\",\"limit\":20,\"pagelinktype\":\"home\",\"is_presnt_tstmonial\":1,\"testimonialPageLink\":\"/conceptautomationtechnologies/testimonial.html\",\"variant\":\"footer\"}\" data-hydrate=\"visible\"><section class=\"rating-reviews rating-reviews--loading\" aria-busy=\"true\"></section></div></section></main></div><section class=\"explore-categories\" aria-labelledby=\"explore-cat-heading\"><div class=\"explore-categories__header\"><h2 class=\"explore-categories__title\" id=\"explore-cat-heading\">Explore more categories</h2></div><div class=\"explore-categories__grid\"><div class=\"explore-categories__card\"><figure class=\"explore-categories__figure\"><a href=\"/conceptautomationtechnologies/mitsubishi-plc.html\"><img src=\"https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-250x250.jpg\" width=\"150\" height=\"150\" alt=\"Mitsubishi PLC\" loading=\"lazy\" data-dataimg=\"https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-250x250.jpg\"/>",
+    "partNumber": "5000spanspan",
     "brand": "Allen Bradley",
     "category": "Allen Bradley PLC",
     "type": "PLC",
     "description": "2094-EN02D-M01-S0 Allen Bradley",
     "specifications": [],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2021/6/YF/IU/WW/11020113/2094-en02d-m01-s0-kinetix-2000-ethernet-ip-cop-1000x1000.jpg",
+    "image": "",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2021/6/YF/IU/WW/11020113/2094-en02d-m01-s0-kinetix-2000-ethernet-ip-cop-1000x1000.jpg"
+      ""
     ],
-    "slug": "2094-en02d-m01-s0-allen-bradley",
+    "slug": "headerdiv-classudg-category-itempricerowp-classudg-category-itempricespan-classudg-category-itempriceamount-5000spanspan-classudg-category-itempriceunitpiecespanpspan-classudg-category-itemlatestpricewrapdiv-data-islandenquirybutton-data-propsclassnameudg-category-itemlatestpricectanameget-latest-pricesectioncategorypositionheadingenquiry-about-2094-en02d-m01-s0-allen-bradleyproductid2857626584262productname2094-en02d-m01-s0-allen-bradleyproductimageproductmcatid182623productcatid145092576productprice-5000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemlatestprice-data-ctaget-latest-price-data-sectioncategoryget-latest-pricebuttondivspandivsection-classudg-category-itemsdescrich-aria-labelproduct-description2094-en02d-m01-s0-allen-bradleysectiondiv-classudg-category-itemctadiv-data-islandenquirybutton-data-propsclassnameudg-category-itemprimaryctactanameyes-i-am-interestedsectioncategorypositionheadingenquiry-about-2094-en02d-m01-s0-allen-bradleyproductid2857626584262productname2094-en02d-m01-s0-allen-bradleyproductimageproductmcatid182623productcatid145092576productprice-5000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemprimarycta-data-ctayes-i-am-interested-data-sectioncategoryyes-i-am-interestedbuttondivdiv-data-islandphonereveal-data-propsclassnameudg-category-itemcallnowctanamecall-nowsectioncategorypositiondisablephonerevealtrueheadingenquiry-about-2094-en02d-m01-s0-allen-bradleyproductid2857626584262productname2094-en02d-m01-s0-allen-bradleyproductimageproductmcatid182623productcatid145092576productprice-5000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemcallnow-data-ctacall-now-data-sectioncategorycall-nowbuttondivdivdivsectionarticlesectiondivsection-classhomepage-ratings-aria-labelratings-and-reviewsdiv-data-islandratingreviews-data-propssorttype1limit20pagelinktypehomeispresnttstmonial1testimonialpagelinkconceptautomationtechnologiestestimonialhtmlvariantfooter-data-hydratevisiblesection-classrating-reviews-rating-reviews-loading-aria-busytruesectiondivsectionmaindivsection-classexplore-categories-aria-labelledbyexplore-cat-headingdiv-classexplore-categoriesheaderh2-classexplore-categoriestitle-idexplore-cat-headingexplore-more-categoriesh2divdiv-classexplore-categoriesgriddiv-classexplore-categoriescardfigure-classexplore-categoriesfigurea-hrefconceptautomationtechnologiesmitsubishi-plchtmlimg-srchttps5imimgcomdata5sellerdefault20249454300714ixylzc89143389melsec-iq-f-series-fx5u-80mt-ess-250x250jpg-width150-height150-altmitsubishi-plc-loadinglazy-data-dataimghttps5imimgcomdata5sellerdefault20249454300714ixylzc89143389melsec-iq-f-series-fx5u-80mt-ess-250x250jpg",
     "stock": true
   },
   {
@@ -3259,34 +3263,45 @@ export const allProducts: Product[] = [
     "price": "₹ 21559/Piece"
   },
   {
-    "id": "im-2855161527733",
-    "name": "Allen Bradley Vfd 22f A1p6n113",
-    "partNumber": "ALLENBRADLEYVFD22FA1P6N113",
+    "id": "im-2855155177288",
+    "name": "ALLEN-BRADLEY VFD - 22F-A1P6N113",
+    "partNumber": "Analog",
     "brand": "Allen Bradley",
-    "category": "Allen Bradley Vfd",
+    "category": "Allen Bradley VFD",
     "type": "VFD",
-    "price": "₹ 14029/Piece",
-    "description": "The 22F-A1P6N113 is an Allen-Bradley PowerFlex 4M AC drive with the following specifications:   \n\nPower rating: 0.2 kW (0.25 HP)\nVoltage: 240 VAC\nPhase: 1\nCurrent: 1.6 Amps\nFrame size: A\nEnclosure: IP20 (open)\nDisplay: LED\nKeypad: Fixed digital \n\nThe 22F-A1P6N113 is part of the PowerFlex 4M drive series, which is known for its compact size, cost-effectiveness, and ease of use. Here are some of the features of the PowerFlex 4M AC drive:   \n\nFlexibility: Feed-through wiring and easy programming allow for a wide range of applications\nTemperature: Can operate in ambient temperatures up to 50 &deg;C (122 &deg;F)\nMounting: A and B frame drives can be mounted on DIN rails\nProtection: Drive overload protection and ramp regulation\nConfiguration: Can be configured and programmed using the integral LCD keypad, remote keypad, or software \n\nYou can find technical documentation for the 22F-A1P6N113 in the Rockwell Automation Technical Documentation Center or Literature Library",
+    "description": "The 22F-A1P6N113 adjustable frequency drive is an AC-powered adjustable frequency drive. It has been designed and manufactured by Allen-Bradley/Rockwell Automation as part of the PowerFlex 4M drive series. The 22F-A1P6N113 adjustable frequency drive has a 1-phase input voltage range from 200 to 240 Volts AC and a 3-phase output voltage range from 0 to 230 Volts AC. This drive comes with a built-in filter which is CE-compliant. The 22F-A1P6N113 adjustable frequency drive has an output power rating of 0.25 Horsepower.",
     "specifications": [
       {
+        "label": "Maximum Input-power",
+        "value": "27 VA"
+      },
+      {
         "label": "Output Type",
-        "value": "Digital"
+        "value": "Analog"
+      },
+      {
+        "label": "Pulse Transmission Output",
+        "value": "24VDC"
+      },
+      {
+        "label": "Communication Port",
+        "value": "Allen-Bradley 22F-A1P6N113"
       },
       {
         "label": "Brand",
-        "value": "ALLEN-BRADLEY - 22F-A1P6N113"
+        "value": "ALLEN-BRADLEY"
       },
       {
         "label": "Manufacturer Series",
         "value": "22F-A1P6N113"
       },
       {
-        "label": "Display Type",
-        "value": "LCD Display"
-      },
-      {
         "label": "Mounting Type",
         "value": "Panel Mount"
+      },
+      {
+        "label": "Display Type",
+        "value": "LCD Display"
       },
       {
         "label": "Usage/Application",
@@ -3295,31 +3310,20 @@ export const allProducts: Product[] = [
       {
         "label": "Number of Inputs",
         "value": "5"
-      },
-      {
-        "label": "Model Name/Number",
-        "value": "ALLEN-BRADLEY - 22F-A1P6N113"
-      },
-      {
-        "label": "Input Voltage",
-        "value": "240 V"
-      },
-      {
-        "label": "Frequency",
-        "value": "50-60 Hz"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459652176/FO/OI/NF/89143389/22f-a1p6n113-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459366376/FD/HZ/PT/89143389/22f-a1p6n113-allen-bradley-22fa1p6n113-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459652176/FO/OI/NF/89143389/22f-a1p6n113-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650285/TV/XB/LM/89143389/22f-a1p6n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650290/JG/BO/PJ/89143389/22f-a1p6n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650296/FV/ZF/MN/89143389/22f-a1p6n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650297/HL/LK/IF/89143389/22f-a1p6n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650301/ZM/HI/JQ/89143389/22f-a1p6n113-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459366376/FD/HZ/PT/89143389/22f-a1p6n113-allen-bradley-22fa1p6n113-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459366038/ID/XR/PD/89143389/22f-a1p6n113-allen-bradley-22fa1p6n113-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459366049/EB/HT/QH/89143389/22f-a1p6n113-allen-bradley-22fa1p6n113-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459366061/BM/YG/JH/89143389/22f-a1p6n113-allen-bradley-22fa1p6n113-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459366063/IN/TK/LK/89143389/22f-a1p6n113-allen-bradley-22fa1p6n113-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459366068/TO/TG/ZG/89143389/22f-a1p6n113-allen-bradley-22fa1p6n113-1000x1000.png"
     ],
     "slug": "allen-bradley-vfd-22f-a1p6n113",
-    "stock": true
+    "stock": true,
+    "price": "₹ 14029/Piece"
   },
   {
     "id": "im-2855155177362",
@@ -5354,18 +5358,18 @@ export const allProducts: Product[] = [
   },
   {
     "id": "im-2859509301473",
-    "name": "Danfoss FC 300 525-600 V VLT Automation Drive",
-    "partNumber": "DANFOSSFC300525600VVLTAUTOMATIONDRIVE",
-    "brand": "Danfoss",
+    "name": "</header><div class=\"udg-category-item__priceRow\"><span class=\"udg-category-item__latestPriceWrap\"><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__latestPrice\",\"ctaName\":\"Get Latest Price\",\"section\":\"Category\",\"position\":\"\",\"heading\":\"Enquiry about Danfoss FC 300 525-600 V VLT Automation Drive\",\"productId\":2859509301473,\"productName\":\"Danfoss FC 300 525-600 V VLT Automation Drive\",\"productImage\":\"\",\"productMcatId\":\"182093\",\"productCatId\":149370976,\"productPrice\":\"\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__latestPrice\" data-cta=\"Get Latest Price\" data-section=\"Category\">Get Latest Price</button></div></span></div><section class=\"udg-category-item__sdescRich\" aria-label=\"Product description\">Danfoss FC 300 525-600 V VLT Automation Drive</section><div class=\"udg-category-item__cta\"><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__primaryCta\",\"ctaName\":\"Yes, I am interested!\",\"section\":\"Category\",\"position\":\"\",\"heading\":\"Enquiry about Danfoss FC 300 525-600 V VLT Automation Drive\",\"productId\":2859509301473,\"productName\":\"Danfoss FC 300 525-600 V VLT Automation Drive\",\"productImage\":\"\",\"productMcatId\":\"182093\",\"productCatId\":149370976,\"productPrice\":\"\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__primaryCta\" data-cta=\"Yes, I am interested!\" data-section=\"Category\">Yes, I am interested!</button></div><div data-island=\"PhoneReveal\" data-props=\"{\"className\":\"udg-category-item__callNow\",\"ctaName\":\"Call Now\",\"section\":\"Category\",\"position\":\"\",\"disablePhoneReveal\":true,\"heading\":\"Enquiry about Danfoss FC 300 525-600 V VLT Automation Drive\",\"productId\":2859509301473,\"productName\":\"Danfoss FC 300 525-600 V VLT Automation Drive\",\"productImage\":\"\",\"productMcatId\":\"182093\",\"productCatId\":149370976,\"productPrice\":\"\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__callNow\" data-cta=\"Call Now\" data-section=\"Category\">Call Now</button></div></div></div></section></article></section></div><section class=\"homepage-ratings\" aria-label=\"Ratings and Reviews\"><div data-island=\"RatingReviews\" data-props=\"{\"sort_type\":\"1\",\"limit\":20,\"pagelinktype\":\"home\",\"is_presnt_tstmonial\":1,\"testimonialPageLink\":\"/conceptautomationtechnologies/testimonial.html\",\"variant\":\"footer\"}\" data-hydrate=\"visible\"><section class=\"rating-reviews rating-reviews--loading\" aria-busy=\"true\"></section></div></section></main></div><section class=\"explore-categories\" aria-labelledby=\"explore-cat-heading\"><div class=\"explore-categories__header\"><h2 class=\"explore-categories__title\" id=\"explore-cat-heading\">Explore more categories</h2></div><div class=\"explore-categories__grid\"><div class=\"explore-categories__card\"><figure class=\"explore-categories__figure\"><a href=\"/conceptautomationtechnologies/mitsubishi-plc.html\"><img src=\"https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-250x250.jpg\" width=\"150\" height=\"150\" alt=\"Mitsubishi PLC\" loading=\"lazy\" data-dataimg=\"https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-250x250.jpg\"/>",
+    "partNumber": "DriveproductId2859509301473productNameDanfoss",
+    "brand": "Mitsubishi",
     "category": "Danfoss VFD",
     "type": "VFD",
     "description": "Danfoss FC 300 525-600 V VLT Automation Drive",
     "specifications": [],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/7/439243764/AX/QZ/WI/4183864/danfoss-vlt-automation-drive-fc-302.jpg",
+    "image": "",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/7/439243764/AX/QZ/WI/4183864/danfoss-vlt-automation-drive-fc-302.jpg"
+      ""
     ],
-    "slug": "danfoss-fc-300-525-600-v-vlt-automation-drive",
+    "slug": "headerdiv-classudg-category-itempricerowspan-classudg-category-itemlatestpricewrapdiv-data-islandenquirybutton-data-propsclassnameudg-category-itemlatestpricectanameget-latest-pricesectioncategorypositionheadingenquiry-about-danfoss-fc-300-525-600-v-vlt-automation-driveproductid2859509301473productnamedanfoss-fc-300-525-600-v-vlt-automation-driveproductimageproductmcatid182093productcatid149370976productprice-data-hydratevisiblebutton-typebutton-classudg-category-itemlatestprice-data-ctaget-latest-price-data-sectioncategoryget-latest-pricebuttondivspandivsection-classudg-category-itemsdescrich-aria-labelproduct-descriptiondanfoss-fc-300-525-600-v-vlt-automation-drivesectiondiv-classudg-category-itemctadiv-data-islandenquirybutton-data-propsclassnameudg-category-itemprimaryctactanameyes-i-am-interestedsectioncategorypositionheadingenquiry-about-danfoss-fc-300-525-600-v-vlt-automation-driveproductid2859509301473productnamedanfoss-fc-300-525-600-v-vlt-automation-driveproductimageproductmcatid182093productcatid149370976productprice-data-hydratevisiblebutton-typebutton-classudg-category-itemprimarycta-data-ctayes-i-am-interested-data-sectioncategoryyes-i-am-interestedbuttondivdiv-data-islandphonereveal-data-propsclassnameudg-category-itemcallnowctanamecall-nowsectioncategorypositiondisablephonerevealtrueheadingenquiry-about-danfoss-fc-300-525-600-v-vlt-automation-driveproductid2859509301473productnamedanfoss-fc-300-525-600-v-vlt-automation-driveproductimageproductmcatid182093productcatid149370976productprice-data-hydratevisiblebutton-typebutton-classudg-category-itemcallnow-data-ctacall-now-data-sectioncategorycall-nowbuttondivdivdivsectionarticlesectiondivsection-classhomepage-ratings-aria-labelratings-and-reviewsdiv-data-islandratingreviews-data-propssorttype1limit20pagelinktypehomeispresnttstmonial1testimonialpagelinkconceptautomationtechnologiestestimonialhtmlvariantfooter-data-hydratevisiblesection-classrating-reviews-rating-reviews-loading-aria-busytruesectiondivsectionmaindivsection-classexplore-categories-aria-labelledbyexplore-cat-headingdiv-classexplore-categoriesheaderh2-classexplore-categoriestitle-idexplore-cat-headingexplore-more-categoriesh2divdiv-classexplore-categoriesgriddiv-classexplore-categoriescardfigure-classexplore-categoriesfigurea-hrefconceptautomationtechnologiesmitsubishi-plchtmlimg-srchttps5imimgcomdata5sellerdefault20249454300714ixylzc89143389melsec-iq-f-series-fx5u-80mt-ess-250x250jpg-width150-height150-altmitsubishi-plc-loadinglazy-data-dataimghttps5imimgcomdata5sellerdefault20249454300714ixylzc89143389melsec-iq-f-series-fx5u-80mt-ess-250x250jpg",
     "stock": true
   },
   {
@@ -6167,18 +6171,18 @@ export const allProducts: Product[] = [
   },
   {
     "id": "im-2859306941797",
-    "name": "Sick Photoelectric Sensor",
-    "partNumber": "SICKPHOTOELECTRICSENSOR",
-    "brand": "Sick",
+    "name": "</header><div class=\"udg-category-item__priceRow\"><p class=\"udg-category-item__price\"><span class=\"udg-category-item__priceAmount\">₹ 10,000</span><span class=\"udg-category-item__priceUnit\">/Piece</span></p><span class=\"udg-category-item__latestPriceWrap\"><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__latestPrice\",\"ctaName\":\"Get Latest Price\",\"section\":\"Category\",\"position\":\"\",\"heading\":\"Enquiry about Sick Photoelectric Sensor\",\"productId\":2859306941797,\"productName\":\"Sick Photoelectric Sensor\",\"productImage\":\"\",\"productMcatId\":\"205736\",\"productCatId\":156578058,\"productPrice\":\"₹ 10,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__latestPrice\" data-cta=\"Get Latest Price\" data-section=\"Category\">Get Latest Price</button></div></span></div><section class=\"udg-category-item__sdescRich\" aria-label=\"Product description\">Sick Photoelectric Sensor</section><div class=\"udg-category-item__cta\"><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__primaryCta\",\"ctaName\":\"Yes, I am interested!\",\"section\":\"Category\",\"position\":\"\",\"heading\":\"Enquiry about Sick Photoelectric Sensor\",\"productId\":2859306941797,\"productName\":\"Sick Photoelectric Sensor\",\"productImage\":\"\",\"productMcatId\":\"205736\",\"productCatId\":156578058,\"productPrice\":\"₹ 10,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__primaryCta\" data-cta=\"Yes, I am interested!\" data-section=\"Category\">Yes, I am interested!</button></div><div data-island=\"PhoneReveal\" data-props=\"{\"className\":\"udg-category-item__callNow\",\"ctaName\":\"Call Now\",\"section\":\"Category\",\"position\":\"\",\"disablePhoneReveal\":true,\"heading\":\"Enquiry about Sick Photoelectric Sensor\",\"productId\":2859306941797,\"productName\":\"Sick Photoelectric Sensor\",\"productImage\":\"\",\"productMcatId\":\"205736\",\"productCatId\":156578058,\"productPrice\":\"₹ 10,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__callNow\" data-cta=\"Call Now\" data-section=\"Category\">Call Now</button></div></div></div></section></article></section></div><section class=\"homepage-ratings\" aria-label=\"Ratings and Reviews\"><div data-island=\"RatingReviews\" data-props=\"{\"sort_type\":\"1\",\"limit\":20,\"pagelinktype\":\"home\",\"is_presnt_tstmonial\":1,\"testimonialPageLink\":\"/conceptautomationtechnologies/testimonial.html\",\"variant\":\"footer\"}\" data-hydrate=\"visible\"><section class=\"rating-reviews rating-reviews--loading\" aria-busy=\"true\"></section></div></section></main></div><section class=\"explore-categories\" aria-labelledby=\"explore-cat-heading\"><div class=\"explore-categories__header\"><h2 class=\"explore-categories__title\" id=\"explore-cat-heading\">Explore more categories</h2></div><div class=\"explore-categories__grid\"><div class=\"explore-categories__card\"><figure class=\"explore-categories__figure\"><a href=\"/conceptautomationtechnologies/mitsubishi-plc.html\"><img src=\"https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-250x250.jpg\" width=\"150\" height=\"150\" alt=\"Mitsubishi PLC\" loading=\"lazy\" data-dataimg=\"https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-250x250.jpg\"/>",
+    "partNumber": "10000spanspan",
+    "brand": "Mitsubishi",
     "category": "Encoder",
     "type": "Sensor",
     "description": "Sick Photoelectric Sensor",
     "specifications": [],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
+    "image": "",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg"
+      ""
     ],
-    "slug": "sick-photoelectric-sensor",
+    "slug": "headerdiv-classudg-category-itempricerowp-classudg-category-itempricespan-classudg-category-itempriceamount-10000spanspan-classudg-category-itempriceunitpiecespanpspan-classudg-category-itemlatestpricewrapdiv-data-islandenquirybutton-data-propsclassnameudg-category-itemlatestpricectanameget-latest-pricesectioncategorypositionheadingenquiry-about-sick-photoelectric-sensorproductid2859306941797productnamesick-photoelectric-sensorproductimageproductmcatid205736productcatid156578058productprice-10000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemlatestprice-data-ctaget-latest-price-data-sectioncategoryget-latest-pricebuttondivspandivsection-classudg-category-itemsdescrich-aria-labelproduct-descriptionsick-photoelectric-sensorsectiondiv-classudg-category-itemctadiv-data-islandenquirybutton-data-propsclassnameudg-category-itemprimaryctactanameyes-i-am-interestedsectioncategorypositionheadingenquiry-about-sick-photoelectric-sensorproductid2859306941797productnamesick-photoelectric-sensorproductimageproductmcatid205736productcatid156578058productprice-10000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemprimarycta-data-ctayes-i-am-interested-data-sectioncategoryyes-i-am-interestedbuttondivdiv-data-islandphonereveal-data-propsclassnameudg-category-itemcallnowctanamecall-nowsectioncategorypositiondisablephonerevealtrueheadingenquiry-about-sick-photoelectric-sensorproductid2859306941797productnamesick-photoelectric-sensorproductimageproductmcatid205736productcatid156578058productprice-10000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemcallnow-data-ctacall-now-data-sectioncategorycall-nowbuttondivdivdivsectionarticlesectiondivsection-classhomepage-ratings-aria-labelratings-and-reviewsdiv-data-islandratingreviews-data-propssorttype1limit20pagelinktypehomeispresnttstmonial1testimonialpagelinkconceptautomationtechnologiestestimonialhtmlvariantfooter-data-hydratevisiblesection-classrating-reviews-rating-reviews-loading-aria-busytruesectiondivsectionmaindivsection-classexplore-categories-aria-labelledbyexplore-cat-headingdiv-classexplore-categoriesheaderh2-classexplore-categoriestitle-idexplore-cat-headingexplore-more-categoriesh2divdiv-classexplore-categoriesgriddiv-classexplore-categoriescardfigure-classexplore-categoriesfigurea-hrefconceptautomationtechnologiesmitsubishi-plchtmlimg-srchttps5imimgcomdata5sellerdefault20249454300714ixylzc89143389melsec-iq-f-series-fx5u-80mt-ess-250x250jpg-width150-height150-altmitsubishi-plc-loadinglazy-data-dataimghttps5imimgcomdata5sellerdefault20249454300714ixylzc89143389melsec-iq-f-series-fx5u-80mt-ess-250x250jpg",
     "stock": true
   },
   {
@@ -15898,7 +15902,7 @@ export const allProducts: Product[] = [
     "id": "im-2854616679230",
     "name": "Mitsubishi Servo Drives",
     "partNumber": "",
-    "brand": "Mitsubishi",
+    "brand": "Siemens",
     "category": "Mitsubishi Servo Drives",
     "type": "VFD",
     "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
@@ -15940,7 +15944,7 @@ export const allProducts: Product[] = [
     "id": "im-2852121650773",
     "name": "Mitsubishi VFD FR-D740-022-E16",
     "partNumber": "FR-D740-022-E16",
-    "brand": "Mitsubishi",
+    "brand": "Siemens",
     "category": "Mitsubishi VFD",
     "type": "VFD",
     "description": "FR-D700 SERIESMAGNETIC FLUX VECTOR CONTROL  SOFT-PWM/HIGH FREQUENCY PWM   V/F CONTROL",
@@ -15984,18 +15988,18 @@ export const allProducts: Product[] = [
   },
   {
     "id": "im-2858076541755",
-    "name": "Mitsubishi VFD",
-    "partNumber": "MITSUBISHIVFD",
+    "name": "</header><div class=\"udg-category-item__priceRow\"><p class=\"udg-category-item__price\"><span class=\"udg-category-item__priceAmount\">₹ 19,999</span><span class=\"udg-category-item__priceUnit\">/Piece</span></p><span class=\"udg-category-item__latestPriceWrap\"><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__latestPrice\",\"ctaName\":\"Get Latest Price\",\"section\":\"Category\",\"position\":\"\",\"heading\":\"Enquiry about Mitsubishi VFD\",\"productId\":2858076541755,\"productName\":\"Mitsubishi VFD\",\"productImage\":\"\",\"productMcatId\":\"182090\",\"productCatId\":149221655,\"productPrice\":\"₹ 19,999/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__latestPrice\" data-cta=\"Get Latest Price\" data-section=\"Category\">Get Latest Price</button></div></span></div><section class=\"udg-category-item__sdescRich\" aria-label=\"Product description\">Mitsubishi VFD</section><div class=\"udg-category-item__cta\"><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__primaryCta\",\"ctaName\":\"Yes, I am interested!\",\"section\":\"Category\",\"position\":\"\",\"heading\":\"Enquiry about Mitsubishi VFD\",\"productId\":2858076541755,\"productName\":\"Mitsubishi VFD\",\"productImage\":\"\",\"productMcatId\":\"182090\",\"productCatId\":149221655,\"productPrice\":\"₹ 19,999/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__primaryCta\" data-cta=\"Yes, I am interested!\" data-section=\"Category\">Yes, I am interested!</button></div><div data-island=\"PhoneReveal\" data-props=\"{\"className\":\"udg-category-item__callNow\",\"ctaName\":\"Call Now\",\"section\":\"Category\",\"position\":\"\",\"disablePhoneReveal\":true,\"heading\":\"Enquiry about Mitsubishi VFD\",\"productId\":2858076541755,\"productName\":\"Mitsubishi VFD\",\"productImage\":\"\",\"productMcatId\":\"182090\",\"productCatId\":149221655,\"productPrice\":\"₹ 19,999/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__callNow\" data-cta=\"Call Now\" data-section=\"Category\">Call Now</button></div></div></div></section></article></section></div><section class=\"homepage-ratings\" aria-label=\"Ratings and Reviews\"><div data-island=\"RatingReviews\" data-props=\"{\"sort_type\":\"1\",\"limit\":20,\"pagelinktype\":\"home\",\"is_presnt_tstmonial\":1,\"testimonialPageLink\":\"/conceptautomationtechnologies/testimonial.html\",\"variant\":\"footer\"}\" data-hydrate=\"visible\"><section class=\"rating-reviews rating-reviews--loading\" aria-busy=\"true\"></section></div></section></main></div><section class=\"explore-categories\" aria-labelledby=\"explore-cat-heading\"><div class=\"explore-categories__header\"><h2 class=\"explore-categories__title\" id=\"explore-cat-heading\">Explore more categories</h2></div><div class=\"explore-categories__grid\"><div class=\"explore-categories__card\"><figure class=\"explore-categories__figure\"><a href=\"/conceptautomationtechnologies/mitsubishi-plc.html\"><img src=\"https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-250x250.jpg\" width=\"150\" height=\"150\" alt=\"Mitsubishi PLC\" loading=\"lazy\" data-dataimg=\"https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-250x250.jpg\"/>",
+    "partNumber": "19999spanspan",
     "brand": "Mitsubishi",
     "category": "Mitsubishi VFD",
     "type": "VFD",
     "description": "Mitsubishi VFD",
     "specifications": [],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/455791716/UA/AQ/WU/89143389/mitsubishi-vfd-fr-d740-050-e16-1000x1000.jpg",
+    "image": "",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455791716/UA/AQ/WU/89143389/mitsubishi-vfd-fr-d740-050-e16-1000x1000.jpg"
+      ""
     ],
-    "slug": "mitsubishi-vfd",
+    "slug": "headerdiv-classudg-category-itempricerowp-classudg-category-itempricespan-classudg-category-itempriceamount-19999spanspan-classudg-category-itempriceunitpiecespanpspan-classudg-category-itemlatestpricewrapdiv-data-islandenquirybutton-data-propsclassnameudg-category-itemlatestpricectanameget-latest-pricesectioncategorypositionheadingenquiry-about-mitsubishi-vfdproductid2858076541755productnamemitsubishi-vfdproductimageproductmcatid182090productcatid149221655productprice-19999piece-data-hydratevisiblebutton-typebutton-classudg-category-itemlatestprice-data-ctaget-latest-price-data-sectioncategoryget-latest-pricebuttondivspandivsection-classudg-category-itemsdescrich-aria-labelproduct-descriptionmitsubishi-vfdsectiondiv-classudg-category-itemctadiv-data-islandenquirybutton-data-propsclassnameudg-category-itemprimaryctactanameyes-i-am-interestedsectioncategorypositionheadingenquiry-about-mitsubishi-vfdproductid2858076541755productnamemitsubishi-vfdproductimageproductmcatid182090productcatid149221655productprice-19999piece-data-hydratevisiblebutton-typebutton-classudg-category-itemprimarycta-data-ctayes-i-am-interested-data-sectioncategoryyes-i-am-interestedbuttondivdiv-data-islandphonereveal-data-propsclassnameudg-category-itemcallnowctanamecall-nowsectioncategorypositiondisablephonerevealtrueheadingenquiry-about-mitsubishi-vfdproductid2858076541755productnamemitsubishi-vfdproductimageproductmcatid182090productcatid149221655productprice-19999piece-data-hydratevisiblebutton-typebutton-classudg-category-itemcallnow-data-ctacall-now-data-sectioncategorycall-nowbuttondivdivdivsectionarticlesectiondivsection-classhomepage-ratings-aria-labelratings-and-reviewsdiv-data-islandratingreviews-data-propssorttype1limit20pagelinktypehomeispresnttstmonial1testimonialpagelinkconceptautomationtechnologiestestimonialhtmlvariantfooter-data-hydratevisiblesection-classrating-reviews-rating-reviews-loading-aria-busytruesectiondivsectionmaindivsection-classexplore-categories-aria-labelledbyexplore-cat-headingdiv-classexplore-categoriesheaderh2-classexplore-categoriestitle-idexplore-cat-headingexplore-more-categoriesh2divdiv-classexplore-categoriesgriddiv-classexplore-categoriescardfigure-classexplore-categoriesfigurea-hrefconceptautomationtechnologiesmitsubishi-plchtmlimg-srchttps5imimgcomdata5sellerdefault20249454300714ixylzc89143389melsec-iq-f-series-fx5u-80mt-ess-250x250jpg-width150-height150-altmitsubishi-plc-loadinglazy-data-dataimghttps5imimgcomdata5sellerdefault20249454300714ixylzc89143389melsec-iq-f-series-fx5u-80mt-ess-250x250jpg",
     "stock": true
   },
   {
@@ -17329,9 +17333,9 @@ export const allProducts: Product[] = [
   },
   {
     "id": "im-2854060512662",
-    "name": "Omron Plc Module",
-    "partNumber": "OMRONPLCMODULE",
-    "brand": "Omron",
+    "name": "</header><div class=\"udg-category-item__priceRow\"><p class=\"udg-category-item__price\"><span class=\"udg-category-item__priceAmount\">₹ 15,000</span><span class=\"udg-category-item__priceUnit\">/Piece</span></p><span class=\"udg-category-item__latestPriceWrap\"><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__latestPrice\",\"ctaName\":\"Get Latest Price\",\"section\":\"Category\",\"position\":\"\",\"heading\":\"Enquiry about Omron Plc Module\",\"productId\":2854060512662,\"productName\":\"Omron Plc Module\",\"productImage\":\"https://5.imimg.com/data5/SELLER/Default/2023/5/309408098/QT/GR/EH/89143389/6es79720ab010xa0-diagnostic-repeater-f-profibus-dp--500x500.png\",\"productMcatId\":\"192745\",\"productCatId\":149370670,\"productPrice\":\"₹ 15,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__latestPrice\" data-cta=\"Get Latest Price\" data-section=\"Category\">Get Latest Price</button></div></span></div><p class=\"udg-category-item__moq\">Minimum Order Quantity: <strong>10 Piece</strong></p><section class=\"udg-category-item__specs\" aria-label=\"Product specifications\"><table class=\"udg-category-item__specsTable\"><tbody><tr class=\"udg-category-item__specRow\"><th scope=\"row\" class=\"udg-category-item__specKey\">Power</th><td class=\"udg-category-item__specVal\">12V DC</td></tr><tr class=\"udg-category-item__specRow\"><th scope=\"row\" class=\"udg-category-item__specKey\">Output Type</th><td class=\"udg-category-item__specVal\">Analog</td></tr><tr class=\"udg-category-item__specRow\"><th scope=\"row\" class=\"udg-category-item__specKey\">Mounting Type</th><td class=\"udg-category-item__specVal\">Panel Mount</td></tr><tr class=\"udg-category-item__specRow\"><th scope=\"row\" class=\"udg-category-item__specKey\">Usage/Application</th><td class=\"udg-category-item__specVal\">Automation</td></tr><tr class=\"udg-category-item__specRow\"><th scope=\"row\" class=\"udg-category-item__specKey\">Country of Origin</th><td class=\"udg-category-item__specVal\">Made in India</td></tr><tr class=\"udg-category-item__specRow\"><th scope=\"row\" class=\"udg-category-item__specKey\">Number of Inputs</th><td class=\"udg-category-item__specVal\">24 Digits</td></tr></tbody></table></section><section class=\"udg-category-item__sdescRich\" aria-label=\"Product description\">Programmable Logic Controllers, along with easy-to-use Support Software, are available to flexibly handle applications from small-scale equipment to entire production lines with Programmable Logic Controllers such as those in the CJ1, CS1 and other series.</section><div class=\"udg-category-item__cta\"><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__primaryCta\",\"ctaName\":\"Yes, I am interested!\",\"section\":\"Category\",\"position\":\"\",\"heading\":\"Enquiry about Omron Plc Module\",\"productId\":2854060512662,\"productName\":\"Omron Plc Module\",\"productImage\":\"https://5.imimg.com/data5/SELLER/Default/2023/5/309408098/QT/GR/EH/89143389/6es79720ab010xa0-diagnostic-repeater-f-profibus-dp--500x500.png\",\"productMcatId\":\"192745\",\"productCatId\":149370670,\"productPrice\":\"₹ 15,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__primaryCta\" data-cta=\"Yes, I am interested!\" data-section=\"Category\">Yes, I am interested!</button></div><div data-island=\"PhoneReveal\" data-props=\"{\"className\":\"udg-category-item__callNow\",\"ctaName\":\"Call Now\",\"section\":\"Category\",\"position\":\"\",\"disablePhoneReveal\":true,\"heading\":\"Enquiry about Omron Plc Module\",\"productId\":2854060512662,\"productName\":\"Omron Plc Module\",\"productImage\":\"https://5.imimg.com/data5/SELLER/Default/2023/5/309408098/QT/GR/EH/89143389/6es79720ab010xa0-diagnostic-repeater-f-profibus-dp--500x500.png\",\"productMcatId\":\"192745\",\"productCatId\":149370670,\"productPrice\":\"₹ 15,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__callNow\" data-cta=\"Call Now\" data-section=\"Category\">Call Now</button></div></div></div></section></article></section></div><section class=\"homepage-ratings\" aria-label=\"Ratings and Reviews\"><div data-island=\"RatingReviews\" data-props=\"{\"sort_type\":\"1\",\"limit\":20,\"pagelinktype\":\"home\",\"is_presnt_tstmonial\":1,\"testimonialPageLink\":\"/conceptautomationtechnologies/testimonial.html\",\"variant\":\"footer\"}\" data-hydrate=\"visible\"><section class=\"rating-reviews rating-reviews--loading\" aria-busy=\"true\"></section></div></section></main></div><section class=\"explore-categories\" aria-labelledby=\"explore-cat-heading\"><div class=\"explore-categories__header\"><h2 class=\"explore-categories__title\" id=\"explore-cat-heading\">Explore more categories</h2></div><div class=\"explore-categories__grid\"><div class=\"explore-categories__card\"><figure class=\"explore-categories__figure\"><a href=\"/conceptautomationtechnologies/mitsubishi-plc.html\"><img src=\"https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-250x250.jpg\" width=\"150\" height=\"150\" alt=\"Mitsubishi PLC\" loading=\"lazy\" data-dataimg=\"https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-250x250.jpg\"/>",
+    "partNumber": "Analog",
+    "brand": "Mitsubishi",
     "category": "Omron PLC",
     "type": "Software",
     "description": "Programmable Logic Controllers, along with easy-to-use Support Software, are available to flexibly handle applications from small-scale equipment to entire production lines with Programmable Logic Controllers such as those in the CJ1, CS1 and other series.",
@@ -17365,7 +17369,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2023/5/309408098/QT/GR/EH/89143389/6es79720ab010xa0-diagnostic-repeater-f-profibus-dp--1000x1000.png"
     ],
-    "slug": "omron-plc-module",
+    "slug": "headerdiv-classudg-category-itempricerowp-classudg-category-itempricespan-classudg-category-itempriceamount-15000spanspan-classudg-category-itempriceunitpiecespanpspan-classudg-category-itemlatestpricewrapdiv-data-islandenquirybutton-data-propsclassnameudg-category-itemlatestpricectanameget-latest-pricesectioncategorypositionheadingenquiry-about-omron-plc-moduleproductid2854060512662productnameomron-plc-moduleproductimagehttps5imimgcomdata5sellerdefault20235309408098qtgreh891433896es79720ab010xa0-diagnostic-repeater-f-profibus-dp-500x500pngproductmcatid192745productcatid149370670productprice-15000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemlatestprice-data-ctaget-latest-price-data-sectioncategoryget-latest-pricebuttondivspandivp-classudg-category-itemmoqminimum-order-quantity-strong10-piecestrongpsection-classudg-category-itemspecs-aria-labelproduct-specificationstable-classudg-category-itemspecstabletbodytr-classudg-category-itemspecrowth-scoperow-classudg-category-itemspeckeypowerthtd-classudg-category-itemspecval12v-dctdtrtr-classudg-category-itemspecrowth-scoperow-classudg-category-itemspeckeyoutput-typethtd-classudg-category-itemspecvalanalogtdtrtr-classudg-category-itemspecrowth-scoperow-classudg-category-itemspeckeymounting-typethtd-classudg-category-itemspecvalpanel-mounttdtrtr-classudg-category-itemspecrowth-scoperow-classudg-category-itemspeckeyusageapplicationthtd-classudg-category-itemspecvalautomationtdtrtr-classudg-category-itemspecrowth-scoperow-classudg-category-itemspeckeycountry-of-originthtd-classudg-category-itemspecvalmade-in-indiatdtrtr-classudg-category-itemspecrowth-scoperow-classudg-category-itemspeckeynumber-of-inputsthtd-classudg-category-itemspecval24-digitstdtrtbodytablesectionsection-classudg-category-itemsdescrich-aria-labelproduct-descriptionprogrammable-logic-controllers-along-with-easy-to-use-support-software-are-available-to-flexibly-handle-applications-from-small-scale-equipment-to-entire-production-lines-with-programmable-logic-controllers-such-as-those-in-the-cj1-cs1-and-other-seriessectiondiv-classudg-category-itemctadiv-data-islandenquirybutton-data-propsclassnameudg-category-itemprimaryctactanameyes-i-am-interestedsectioncategorypositionheadingenquiry-about-omron-plc-moduleproductid2854060512662productnameomron-plc-moduleproductimagehttps5imimgcomdata5sellerdefault20235309408098qtgreh891433896es79720ab010xa0-diagnostic-repeater-f-profibus-dp-500x500pngproductmcatid192745productcatid149370670productprice-15000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemprimarycta-data-ctayes-i-am-interested-data-sectioncategoryyes-i-am-interestedbuttondivdiv-data-islandphonereveal-data-propsclassnameudg-category-itemcallnowctanamecall-nowsectioncategorypositiondisablephonerevealtrueheadingenquiry-about-omron-plc-moduleproductid2854060512662productnameomron-plc-moduleproductimagehttps5imimgcomdata5sellerdefault20235309408098qtgreh891433896es79720ab010xa0-diagnostic-repeater-f-profibus-dp-500x500pngproductmcatid192745productcatid149370670productprice-15000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemcallnow-data-ctacall-now-data-sectioncategorycall-nowbuttondivdivdivsectionarticlesectiondivsection-classhomepage-ratings-aria-labelratings-and-reviewsdiv-data-islandratingreviews-data-propssorttype1limit20pagelinktypehomeispresnttstmonial1testimonialpagelinkconceptautomationtechnologiestestimonialhtmlvariantfooter-data-hydratevisiblesection-classrating-reviews-rating-reviews-loading-aria-busytruesectiondivsectionmaindivsection-classexplore-categories-aria-labelledbyexplore-cat-headingdiv-classexplore-categoriesheaderh2-classexplore-categoriestitle-idexplore-cat-headingexplore-more-categoriesh2divdiv-classexplore-categoriesgriddiv-classexplore-categoriescardfigure-classexplore-categoriesfigurea-hrefconceptautomationtechnologiesmitsubishi-plchtmlimg-srchttps5imimgcomdata5sellerdefault20249454300714ixylzc89143389melsec-iq-f-series-fx5u-80mt-ess-250x250jpg-width150-height150-altmitsubishi-plc-loadinglazy-data-dataimghttps5imimgcomdata5sellerdefault20249454300714ixylzc89143389melsec-iq-f-series-fx5u-80mt-ess-250x250jpg",
     "stock": true
   },
   {
@@ -18870,8 +18874,8 @@ export const allProducts: Product[] = [
   },
   {
     "id": "im-2859112309248",
-    "name": "PNOZ X7 Safety Relay",
-    "partNumber": "PNOZX7SAFETYRELAY",
+    "name": "</header><div class=\"udg-category-item__priceRow\"><p class=\"udg-category-item__price\"><span class=\"udg-category-item__priceAmount\">₹ 21,000</span><span class=\"udg-category-item__priceUnit\">/Piece</span></p><span class=\"udg-category-item__latestPriceWrap\"><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__latestPrice\",\"ctaName\":\"Get Latest Price\",\"section\":\"Category\",\"position\":\"\",\"heading\":\"Enquiry about PNOZ X7 Safety Relay\",\"productId\":2859112309248,\"productName\":\"PNOZ X7 Safety Relay\",\"productImage\":\"https://5.imimg.com/data5/SELLER/Default/2026/4/600344764/TA/EH/ZI/89143389/pnoz-x7-safety-relay-500x500.png\",\"productMcatId\":\"654662\",\"productCatId\":166988910,\"productPrice\":\"₹ 21,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__latestPrice\" data-cta=\"Get Latest Price\" data-section=\"Category\">Get Latest Price</button></div></span></div><div><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__brochure\",\"ctaName\":\"Product Brochure\",\"formCtaName\":\"PDF-BROCHURE-PRICE\",\"htmlLabel\":\"<span class=\\\"udg-category-item__brochureIcon\\\" aria-hidden=\\\"true\\\"><img src=\\\"https://hm.imimg.com/dist/client/spriteCompanyDesktop_5.svg#icon-pdf\\\" width=\\\"14.859\\\" height=\\\"19.352\\\" alt=\\\"\\\" aria-hidden=\\\"true\\\"/></span><span class=\\\"udg-category-item__brochureText\\\">Product Brochure</span>\",\"href\":\"https://5.imimg.com/data5/SELLER/Doc/2026/4/600345985/DD/XH/PD/89143389/pnoz-x7-safety-relay.pdf\",\"ctaType\":\"pdf\",\"pdfurl\":\"https://5.imimg.com/data5/SELLER/Doc/2026/4/600345985/DD/XH/PD/89143389/pnoz-x7-safety-relay.pdf\",\"section\":\"Category\",\"heading\":\"Send your enquiry to this supplier\",\"productId\":2859112309248,\"productName\":\"PNOZ X7 Safety Relay\",\"productImage\":\"https://5.imimg.com/data5/SELLER/Default/2026/4/600344764/TA/EH/ZI/89143389/pnoz-x7-safety-relay-500x500.png\",\"productMcatId\":\"654662\",\"productCatId\":166988910,\"productPrice\":\"₹ 21,000/Piece\",\"modId\":\"\",\"formType\":\"Enq\",\"position\":\"\",\"multipleImageVideo\":[{\"type\":\"Image\",\"displayImage\":\"https://5.imimg.com/data5/SELLER/Default/2026/4/600344764/TA/EH/ZI/89143389/pnoz-x7-safety-relay-500x500.png\",\"zoomImage\":\"https://5.imimg.com/data5/SELLER/Default/2026/4/600344764/TA/EH/ZI/89143389/pnoz-x7-safety-relay-500x500.png\",\"vidUrl\":\"\"},{\"type\":\"Image\",\"displayImage\":\"https://5.imimg.com/data5/SELLER/Default/2026/4/600345504/OF/EW/NG/89143389/pnoz-x7-safety-relay-500x500.png\",\"zoomImage\":\"https://5.imimg.com/data5/SELLER/Default/2026/4/600345504/OF/EW/NG/89143389/pnoz-x7-safety-relay-500x500.png\",\"vidUrl\":\"\"},{\"type\":\"Image\",\"displayImage\":\"https://5.imimg.com/data5/SELLER/PDFImage/2026/4/600346018/QP/OM/DF/89143389/pnoz-x7-safety-relay-500x500.png\",\"zoomImage\":\"https://5.imimg.com/data5/SELLER/PDFImage/2026/4/600346018/QP/OM/DF/89143389/pnoz-x7-safety-relay-500x500.png\",\"vidUrl\":\"\"},{\"type\":\"pdf\",\"mainImg\":\"\",\"zoomImg\":\"\",\"pdfUrl\":\"https://5.imimg.com/data5/SELLER/Doc/2026/4/600345985/DD/XH/PD/89143389/pnoz-x7-safety-relay.pdf\"}]}\" data-hydrate=\"visible\"><a class=\"udg-category-item__brochure\" href=\"https://5.imimg.com/data5/SELLER/Doc/2026/4/600345985/DD/XH/PD/89143389/pnoz-x7-safety-relay.pdf\" data-cta=\"Product Brochure\" data-section=\"Category\"><span><span class=\"udg-category-item__brochureIcon\" aria-hidden=\"true\"><img src=\"https://hm.imimg.com/dist/client/spriteCompanyDesktop_5.svg#icon-pdf\" width=\"14.859\" height=\"19.352\" alt=\"\" aria-hidden=\"true\"/></span><span class=\"udg-category-item__brochureText\">Product Brochure</span></span>",
+    "partNumber": "Panel mount",
     "brand": "PILZ",
     "category": "Pilz Safety Relay",
     "type": "PLC",
@@ -18916,7 +18920,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2026/4/600344764/TA/EH/ZI/89143389/pnoz-x7-safety-relay-1000x1000.png",
       "https://5.imimg.com/data5/SELLER/Default/2026/4/600345504/OF/EW/NG/89143389/pnoz-x7-safety-relay-1000x1000.png"
     ],
-    "slug": "pnoz-x7-safety-relay",
+    "slug": "headerdiv-classudg-category-itempricerowp-classudg-category-itempricespan-classudg-category-itempriceamount-21000spanspan-classudg-category-itempriceunitpiecespanpspan-classudg-category-itemlatestpricewrapdiv-data-islandenquirybutton-data-propsclassnameudg-category-itemlatestpricectanameget-latest-pricesectioncategorypositionheadingenquiry-about-pnoz-x7-safety-relayproductid2859112309248productnamepnoz-x7-safety-relayproductimagehttps5imimgcomdata5sellerdefault20264600344764taehzi89143389pnoz-x7-safety-relay-500x500pngproductmcatid654662productcatid166988910productprice-21000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemlatestprice-data-ctaget-latest-price-data-sectioncategoryget-latest-pricebuttondivspandivdivdiv-data-islandenquirybutton-data-propsclassnameudg-category-itembrochurectanameproduct-brochureformctanamepdf-brochure-pricehtmllabelspan-classudg-category-itembrochureicon-aria-hiddentrueimg-srchttpshmimimgcomdistclientspritecompanydesktop5svgicon-pdf-width14859-height19352-alt-aria-hiddentruespanspan-classudg-category-itembrochuretextproduct-brochurespanhrefhttps5imimgcomdata5sellerdoc20264600345985ddxhpd89143389pnoz-x7-safety-relaypdfctatypepdfpdfurlhttps5imimgcomdata5sellerdoc20264600345985ddxhpd89143389pnoz-x7-safety-relaypdfsectioncategoryheadingsend-your-enquiry-to-this-supplierproductid2859112309248productnamepnoz-x7-safety-relayproductimagehttps5imimgcomdata5sellerdefault20264600344764taehzi89143389pnoz-x7-safety-relay-500x500pngproductmcatid654662productcatid166988910productprice-21000piecemodidformtypeenqpositionmultipleimagevideotypeimagedisplayimagehttps5imimgcomdata5sellerdefault20264600344764taehzi89143389pnoz-x7-safety-relay-500x500pngzoomimagehttps5imimgcomdata5sellerdefault20264600344764taehzi89143389pnoz-x7-safety-relay-500x500pngvidurltypeimagedisplayimagehttps5imimgcomdata5sellerdefault20264600345504ofewng89143389pnoz-x7-safety-relay-500x500pngzoomimagehttps5imimgcomdata5sellerdefault20264600345504ofewng89143389pnoz-x7-safety-relay-500x500pngvidurltypeimagedisplayimagehttps5imimgcomdata5sellerpdfimage20264600346018qpomdf89143389pnoz-x7-safety-relay-500x500pngzoomimagehttps5imimgcomdata5sellerpdfimage20264600346018qpomdf89143389pnoz-x7-safety-relay-500x500pngvidurltypepdfmainimgzoomimgpdfurlhttps5imimgcomdata5sellerdoc20264600345985ddxhpd89143389pnoz-x7-safety-relaypdf-data-hydratevisiblea-classudg-category-itembrochure-hrefhttps5imimgcomdata5sellerdoc20264600345985ddxhpd89143389pnoz-x7-safety-relaypdf-data-ctaproduct-brochure-data-sectioncategoryspanspan-classudg-category-itembrochureicon-aria-hiddentrueimg-srchttpshmimimgcomdistclientspritecompanydesktop5svgicon-pdf-width14859-height19352-alt-aria-hiddentruespanspan-classudg-category-itembrochuretextproduct-brochurespanspan",
     "stock": true
   },
   {
@@ -19325,7 +19329,7 @@ export const allProducts: Product[] = [
     "id": "im-27145113930",
     "name": "Proface PFXGP4114T2D 4.3 Inch HMI Touch Panel",
     "partNumber": "Panel Mount",
-    "brand": "Proface",
+    "brand": "Schneider",
     "category": "Proface HMI",
     "type": "HMI",
     "description": "Proface GP4100 4.3 Inch HMI In the IIoT age there is a growing need for on-site information. With Ethernet and USB Type A interfaces included, the GP4100 Series allows you to easily keep a range of information on site such as alarms, recipes and sampling, dispite its small size.",
@@ -22297,18 +22301,18 @@ export const allProducts: Product[] = [
   },
   {
     "id": "im-2858076555097",
-    "name": "Slot Sensor",
-    "partNumber": "SLOTSENSOR",
+    "name": "</header><div class=\"udg-category-item__priceRow\"><p class=\"udg-category-item__price\"><span class=\"udg-category-item__priceAmount\">₹ 10,000</span><span class=\"udg-category-item__priceUnit\">/Piece</span></p><span class=\"udg-category-item__latestPriceWrap\"><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__latestPrice\",\"ctaName\":\"Get Latest Price\",\"section\":\"Category\",\"position\":\"\",\"heading\":\"Enquiry about Slot Sensor\",\"productId\":2858076555097,\"productName\":\"Slot Sensor\",\"productImage\":\"\",\"productMcatId\":\"81174\",\"productCatId\":150450945,\"productPrice\":\"₹ 10,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__latestPrice\" data-cta=\"Get Latest Price\" data-section=\"Category\">Get Latest Price</button></div></span></div><section class=\"udg-category-item__sdescRich\" aria-label=\"Product description\">Slot Sensor</section><div class=\"udg-category-item__cta\"><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__primaryCta\",\"ctaName\":\"Yes, I am interested!\",\"section\":\"Category\",\"position\":\"\",\"heading\":\"Enquiry about Slot Sensor\",\"productId\":2858076555097,\"productName\":\"Slot Sensor\",\"productImage\":\"\",\"productMcatId\":\"81174\",\"productCatId\":150450945,\"productPrice\":\"₹ 10,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__primaryCta\" data-cta=\"Yes, I am interested!\" data-section=\"Category\">Yes, I am interested!</button></div><div data-island=\"PhoneReveal\" data-props=\"{\"className\":\"udg-category-item__callNow\",\"ctaName\":\"Call Now\",\"section\":\"Category\",\"position\":\"\",\"disablePhoneReveal\":true,\"heading\":\"Enquiry about Slot Sensor\",\"productId\":2858076555097,\"productName\":\"Slot Sensor\",\"productImage\":\"\",\"productMcatId\":\"81174\",\"productCatId\":150450945,\"productPrice\":\"₹ 10,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__callNow\" data-cta=\"Call Now\" data-section=\"Category\">Call Now</button></div></div></div></section></article></section></div><section class=\"homepage-ratings\" aria-label=\"Ratings and Reviews\"><div data-island=\"RatingReviews\" data-props=\"{\"sort_type\":\"1\",\"limit\":20,\"pagelinktype\":\"home\",\"is_presnt_tstmonial\":1,\"testimonialPageLink\":\"/conceptautomationtechnologies/testimonial.html\",\"variant\":\"footer\"}\" data-hydrate=\"visible\"><section class=\"rating-reviews rating-reviews--loading\" aria-busy=\"true\"></section></div></section></main></div><section class=\"explore-categories\" aria-labelledby=\"explore-cat-heading\"><div class=\"explore-categories__header\"><h2 class=\"explore-categories__title\" id=\"explore-cat-heading\">Explore more categories</h2></div><div class=\"explore-categories__grid\"><div class=\"explore-categories__card\"><figure class=\"explore-categories__figure\"><a href=\"/conceptautomationtechnologies/mitsubishi-plc.html\"><img src=\"https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-250x250.jpg\" width=\"150\" height=\"150\" alt=\"Mitsubishi PLC\" loading=\"lazy\" data-dataimg=\"https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-250x250.jpg\"/>",
+    "partNumber": "10000spanspan",
     "brand": "Mitsubishi",
     "category": "Sensor",
     "type": "Sensor",
     "description": "Slot Sensor",
     "specifications": [],
-    "image": "https://5.imimg.com/data5/ANDROID/Default/2023/8/337190013/YJ/ST/LI/195317772/product-jpeg-500x500.jpg",
+    "image": "",
     "images": [
-      "https://5.imimg.com/data5/ANDROID/Default/2023/8/337190013/YJ/ST/LI/195317772/product-jpeg-500x500.jpg"
+      ""
     ],
-    "slug": "slot-sensor",
+    "slug": "headerdiv-classudg-category-itempricerowp-classudg-category-itempricespan-classudg-category-itempriceamount-10000spanspan-classudg-category-itempriceunitpiecespanpspan-classudg-category-itemlatestpricewrapdiv-data-islandenquirybutton-data-propsclassnameudg-category-itemlatestpricectanameget-latest-pricesectioncategorypositionheadingenquiry-about-slot-sensorproductid2858076555097productnameslot-sensorproductimageproductmcatid81174productcatid150450945productprice-10000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemlatestprice-data-ctaget-latest-price-data-sectioncategoryget-latest-pricebuttondivspandivsection-classudg-category-itemsdescrich-aria-labelproduct-descriptionslot-sensorsectiondiv-classudg-category-itemctadiv-data-islandenquirybutton-data-propsclassnameudg-category-itemprimaryctactanameyes-i-am-interestedsectioncategorypositionheadingenquiry-about-slot-sensorproductid2858076555097productnameslot-sensorproductimageproductmcatid81174productcatid150450945productprice-10000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemprimarycta-data-ctayes-i-am-interested-data-sectioncategoryyes-i-am-interestedbuttondivdiv-data-islandphonereveal-data-propsclassnameudg-category-itemcallnowctanamecall-nowsectioncategorypositiondisablephonerevealtrueheadingenquiry-about-slot-sensorproductid2858076555097productnameslot-sensorproductimageproductmcatid81174productcatid150450945productprice-10000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemcallnow-data-ctacall-now-data-sectioncategorycall-nowbuttondivdivdivsectionarticlesectiondivsection-classhomepage-ratings-aria-labelratings-and-reviewsdiv-data-islandratingreviews-data-propssorttype1limit20pagelinktypehomeispresnttstmonial1testimonialpagelinkconceptautomationtechnologiestestimonialhtmlvariantfooter-data-hydratevisiblesection-classrating-reviews-rating-reviews-loading-aria-busytruesectiondivsectionmaindivsection-classexplore-categories-aria-labelledbyexplore-cat-headingdiv-classexplore-categoriesheaderh2-classexplore-categoriestitle-idexplore-cat-headingexplore-more-categoriesh2divdiv-classexplore-categoriesgriddiv-classexplore-categoriescardfigure-classexplore-categoriesfigurea-hrefconceptautomationtechnologiesmitsubishi-plchtmlimg-srchttps5imimgcomdata5sellerdefault20249454300714ixylzc89143389melsec-iq-f-series-fx5u-80mt-ess-250x250jpg-width150-height150-altmitsubishi-plc-loadinglazy-data-dataimghttps5imimgcomdata5sellerdefault20249454300714ixylzc89143389melsec-iq-f-series-fx5u-80mt-ess-250x250jpg",
     "stock": true
   },
   {
@@ -25416,8 +25420,8 @@ export const allProducts: Product[] = [
   },
   {
     "id": "im-2859173405248",
-    "name": "Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\\",
-    "partNumber": "SIEMENSIPC6AV72415BC000DA0SIMATICIPC477E15",
+    "name": "</header><div class=\"udg-category-item__priceRow\"><p class=\"udg-category-item__price\"><span class=\"udg-category-item__priceAmount\">₹ 3,00,000</span><span class=\"udg-category-item__priceUnit\">/Piece</span></p><span class=\"udg-category-item__latestPriceWrap\"><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__latestPrice\",\"ctaName\":\"Get Latest Price\",\"section\":\"Category\",\"position\":\"\",\"heading\":\"Enquiry about Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\\\" Multitouch)\",\"productId\":2859173405248,\"productName\":\"Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\\\" Multitouch)\",\"productImage\":\"https://5.imimg.com/data5/SELLER/Default/2026/4/603845492/EW/JN/SF/89143389/siemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouch-500x500.jpg\",\"productMcatId\":\"221615\",\"productCatId\":167161863,\"productPrice\":\"₹ 3,00,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__latestPrice\" data-cta=\"Get Latest Price\" data-section=\"Category\">Get Latest Price</button></div></span></div><section class=\"udg-category-item__specs\" aria-label=\"Product specifications\"><table class=\"udg-category-item__specsTable\"><tbody><tr class=\"udg-category-item__specRow\"><th scope=\"row\" class=\"udg-category-item__specKey\">Screen Size</th><td class=\"udg-category-item__specVal\">15\" Multitouch TFT</td></tr><tr class=\"udg-category-item__specRow\"><th scope=\"row\" class=\"udg-category-item__specKey\">Resolution</th><td class=\"udg-category-item__specVal\">1280 × 800</td></tr><tr class=\"udg-category-item__specRow\"><th scope=\"row\" class=\"udg-category-item__specKey\">CPU</th><td class=\"udg-category-item__specVal\">Intel Core i5-6442EQ</td></tr><tr class=\"udg-category-item__specRow\"><th scope=\"row\" class=\"udg-category-item__specKey\">RAM</th><td class=\"udg-category-item__specVal\">16 GB</td></tr><tr class=\"udg-category-item__specRow\"><th scope=\"row\" class=\"udg-category-item__specKey\">Storage</th><td class=\"udg-category-item__specVal\">256 GB Eco SSD</td></tr></tbody></table></section><section class=\"udg-category-item__sdescRich\" aria-label=\"Product description\">Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)</section><div class=\"udg-category-item__cta\"><div data-island=\"EnquiryButton\" data-props=\"{\"className\":\"udg-category-item__primaryCta\",\"ctaName\":\"Yes, I am interested!\",\"section\":\"Category\",\"position\":\"\",\"heading\":\"Enquiry about Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\\\" Multitouch)\",\"productId\":2859173405248,\"productName\":\"Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\\\" Multitouch)\",\"productImage\":\"https://5.imimg.com/data5/SELLER/Default/2026/4/603845492/EW/JN/SF/89143389/siemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouch-500x500.jpg\",\"productMcatId\":\"221615\",\"productCatId\":167161863,\"productPrice\":\"₹ 3,00,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__primaryCta\" data-cta=\"Yes, I am interested!\" data-section=\"Category\">Yes, I am interested!</button></div><div data-island=\"PhoneReveal\" data-props=\"{\"className\":\"udg-category-item__callNow\",\"ctaName\":\"Call Now\",\"section\":\"Category\",\"position\":\"\",\"disablePhoneReveal\":true,\"heading\":\"Enquiry about Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\\\" Multitouch)\",\"productId\":2859173405248,\"productName\":\"Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\\\" Multitouch)\",\"productImage\":\"https://5.imimg.com/data5/SELLER/Default/2026/4/603845492/EW/JN/SF/89143389/siemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouch-500x500.jpg\",\"productMcatId\":\"221615\",\"productCatId\":167161863,\"productPrice\":\"₹ 3,00,000/Piece\"}\" data-hydrate=\"visible\"><button type=\"button\" class=\"udg-category-item__callNow\" data-cta=\"Call Now\" data-section=\"Category\">Call Now</button></div></div></div></section></article></section></div><section class=\"homepage-ratings\" aria-label=\"Ratings and Reviews\"><div data-island=\"RatingReviews\" data-props=\"{\"sort_type\":\"1\",\"limit\":20,\"pagelinktype\":\"home\",\"is_presnt_tstmonial\":1,\"testimonialPageLink\":\"/conceptautomationtechnologies/testimonial.html\",\"variant\":\"footer\"}\" data-hydrate=\"visible\"><section class=\"rating-reviews rating-reviews--loading\" aria-busy=\"true\"></section></div></section></main></div><section class=\"explore-categories\" aria-labelledby=\"explore-cat-heading\"><div class=\"explore-categories__header\"><h2 class=\"explore-categories__title\" id=\"explore-cat-heading\">Explore more categories</h2></div><div class=\"explore-categories__grid\"><div class=\"explore-categories__card\"><figure class=\"explore-categories__figure\"><a href=\"/conceptautomationtechnologies/mitsubishi-plc.html\"><img src=\"https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-250x250.jpg\" width=\"150\" height=\"150\" alt=\"Mitsubishi PLC\" loading=\"lazy\" data-dataimg=\"https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-250x250.jpg\"/>",
+    "partNumber": "300000spanspan",
     "brand": "Siemens",
     "category": "Siemens IPC",
     "type": "PLC",
@@ -25448,7 +25452,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2026/4/603845492/EW/JN/SF/89143389/siemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouch-1000x1000.jpg"
     ],
-    "slug": "siemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15",
+    "slug": "headerdiv-classudg-category-itempricerowp-classudg-category-itempricespan-classudg-category-itempriceamount-300000spanspan-classudg-category-itempriceunitpiecespanpspan-classudg-category-itemlatestpricewrapdiv-data-islandenquirybutton-data-propsclassnameudg-category-itemlatestpricectanameget-latest-pricesectioncategorypositionheadingenquiry-about-siemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchproductid2859173405248productnamesiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchproductimagehttps5imimgcomdata5sellerdefault20264603845492ewjnsf89143389siemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouch-500x500jpgproductmcatid221615productcatid167161863productprice-300000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemlatestprice-data-ctaget-latest-price-data-sectioncategoryget-latest-pricebuttondivspandivsection-classudg-category-itemspecs-aria-labelproduct-specificationstable-classudg-category-itemspecstabletbodytr-classudg-category-itemspecrowth-scoperow-classudg-category-itemspeckeyscreen-sizethtd-classudg-category-itemspecval15-multitouch-tfttdtrtr-classudg-category-itemspecrowth-scoperow-classudg-category-itemspeckeyresolutionthtd-classudg-category-itemspecval1280-800tdtrtr-classudg-category-itemspecrowth-scoperow-classudg-category-itemspeckeycputhtd-classudg-category-itemspecvalintel-core-i5-6442eqtdtrtr-classudg-category-itemspecrowth-scoperow-classudg-category-itemspeckeyramthtd-classudg-category-itemspecval16-gbtdtrtr-classudg-category-itemspecrowth-scoperow-classudg-category-itemspeckeystoragethtd-classudg-category-itemspecval256-gb-eco-ssdtdtrtbodytablesectionsection-classudg-category-itemsdescrich-aria-labelproduct-descriptionsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchsectiondiv-classudg-category-itemctadiv-data-islandenquirybutton-data-propsclassnameudg-category-itemprimaryctactanameyes-i-am-interestedsectioncategorypositionheadingenquiry-about-siemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchproductid2859173405248productnamesiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchproductimagehttps5imimgcomdata5sellerdefault20264603845492ewjnsf89143389siemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouch-500x500jpgproductmcatid221615productcatid167161863productprice-300000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemprimarycta-data-ctayes-i-am-interested-data-sectioncategoryyes-i-am-interestedbuttondivdiv-data-islandphonereveal-data-propsclassnameudg-category-itemcallnowctanamecall-nowsectioncategorypositiondisablephonerevealtrueheadingenquiry-about-siemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchproductid2859173405248productnamesiemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouchproductimagehttps5imimgcomdata5sellerdefault20264603845492ewjnsf89143389siemens-ipc-6av7241-5bc00-0da0-simatic-ipc477e-15-multitouch-500x500jpgproductmcatid221615productcatid167161863productprice-300000piece-data-hydratevisiblebutton-typebutton-classudg-category-itemcallnow-data-ctacall-now-data-sectioncategorycall-nowbuttondivdivdivsectionarticlesectiondivsection-classhomepage-ratings-aria-labelratings-and-reviewsdiv-data-islandratingreviews-data-propssorttype1limit20pagelinktypehomeispresnttstmonial1testimonialpagelinkconceptautomationtechnologiestestimonialhtmlvariantfooter-data-hydratevisiblesection-classrating-reviews-rating-reviews-loading-aria-busytruesectiondivsectionmaindivsection-classexplore-categories-aria-labelledbyexplore-cat-headingdiv-classexplore-categoriesheaderh2-classexplore-categoriestitle-idexplore-cat-headingexplore-more-categoriesh2divdiv-classexplore-categoriesgriddiv-classexplore-categoriescardfigure-classexplore-categoriesfigurea-hrefconceptautomationtechnologiesmitsubishi-plchtmlimg-srchttps5imimgcomdata5sellerdefault20249454300714ixylzc89143389melsec-iq-f-series-fx5u-80mt-ess-250x250jpg-width150-height150-altmitsubishi-plc-loadinglazy-data-dataimghttps5imimgcomdata5sellerdefault20249454300714ixylzc89143389melsec-iq-f-series-fx5u-80mt-ess-250x250jpg",
     "stock": true
   },
   {
@@ -29732,10 +29736,349 @@ export const allProducts: Product[] = [
     "price": "₹ 10000/Piece"
   },
   {
+    "id": "im-2855043201333",
+    "name": "Proface Hmi Pfxgp4601tmd",
+    "partNumber": "PROFACEHMIPFXGP4601TMD",
+    "brand": "Proface",
+    "category": "Proface HMI",
+    "type": "HMI",
+    "price": "₹ 186860/Piece",
+    "description": "PFXGP4601TMDStandard product informationFamilyHMISeriesGP4000 SeriesSize12\"ModelPFXGP4601TMDGlobal CodePFXGP4601TMDProduct Features12\" DC MatrixDisplay specificationsDisplay typeTFT Color LCDDisplay size12.1\"Resolution800 x 600 pixels (SVGA)Effective display areaW246.0 x H184.5 mm [W9.69 x H7.26 in.]Display colors65,536 colors (No blink) / 16,384 colors (Blink)BacklightWhite LED (Not user replaceable. When replacement is required, contact your local distributor.)Backlight service life50,000 hrs. or more (each in continuous operation at 25 &deg;C [77 &deg;F] before backlight brightness decreases to 50%)Brightness control16 Levels (Adjusted with touch panel or software)Touch panel typeResistive Film (matrix)Touch panel resolution40 x 30 keys/screenTouch panel lifetime1,000,000 times or moreLanguage fontsJapanese: 6,962 (JIS Standards 1 &amp; 2) (including 607 non-kanji characters), ANK: 158 (Korean, Traditional Chinese, Simplified Chinese, Thai and Cyrillic can be added from the font setting of the screen editor. )Character sizesStandard font: 8 x 8, 8 x 16, 16 x 16 and 32 x 32 pixel fonts, Stroke font: 6 to 127 pixel fonts, Image font: 8 to 72 pixel fontsFont sizesStandard font: Width can be expanded up to 8 times. Height can be expanded up to 8 times.*18 x 8 dots100 char. x 75 rows8 x 16 dots100 char. x 37 rows16 x 16 dots50 char. x 37 rows32 x 32 dots25 char. x 18 rows\n1Other font sizes can be set up with the Editor software.\nElectrical specificationsRated input voltage24 VdcInput voltage limits19.2 to 28.8 VdcAllowable voltage drop10 ms or lessPower consumption17 W or lessIn-rush current30 A or lessNoise immunityNoise Voltage : 1,000 Vp-pPulse Duration : 1 &micro;sRise Time : 1 ns(via noise simulator)Voltage endurance1,000 Vac, 20 mA for 1 minute (between power terminal and FG terminals)Insulation resistance500 Vdc, 10 M&Omega; or more (between power terminal and FG terminals)",
+    "specifications": [
+      {
+        "label": "Mounting Type",
+        "value": "Panel Mount"
+      },
+      {
+        "label": "Display Size",
+        "value": "12 inch"
+      },
+      {
+        "label": "Phase",
+        "value": "Single Phase"
+      },
+      {
+        "label": "Control Type",
+        "value": "Touch Screen"
+      },
+      {
+        "label": "Display Colors",
+        "value": "64k"
+      },
+      {
+        "label": "Configuration Software",
+        "value": "Configuration in GP-Pro EX: Screen Design: Use GP-Pro EX software to design and configure the HMI sc"
+      },
+      {
+        "label": "Memory",
+        "value": "When using GP-Pro EX: - Media: FLASH EPROM - Screen Area: 32MB *Use the screen area when the user fo"
+      }
+    ],
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/455226854/AX/CA/HE/89143389/hmi-proface-pfxgp4601taa-1000x1000.jpg",
+    "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455226854/AX/CA/HE/89143389/hmi-proface-pfxgp4601taa-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455226725/RF/CL/GQ/89143389/hmi-proface-pfxgp4601taa-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455223209/FY/ZF/TI/89143389/download-9-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455223203/HI/LU/VM/89143389/download-8-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455124751/RS/JE/CQ/89143389/download-10-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455124744/BJ/BB/LT/89143389/download-5-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455124740/ZD/NS/PG/89143389/download-4-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455237444/PK/DF/PP/89143389/hmi-proface-pfxgp4601tmd-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455237448/GT/VT/YP/89143389/hmi-proface-pfxgp4601tmd-1000x1000.png"
+    ],
+    "slug": "proface-hmi-pfxgp4601tmd",
+    "stock": true
+  },
+  {
+    "id": "im-2855040601162",
+    "name": "Hmi Proface Pfxgp4601tad",
+    "partNumber": "HMIPROFACEPFXGP4601TAD",
+    "brand": "Proface",
+    "category": "Proface HMI",
+    "type": "HMI",
+    "price": "₹ 10000/Piece",
+    "description": "PFXGP4601TADStandard product informationFamilyHMISeriesGP4000 SeriesSize12\"ModelPFXGP4601TADGlobal CodePFXGP4601TADProduct Features12\" DC AnalogDisplay specificationsDisplay typeTFT Color LCDDisplay size12.1\"Resolution800 x 600 pixels (SVGA)Effective display areaW246.0 x H184.5 mm [W9.69 x H7.26 in.]Display colors65,536 colors (No blink) / 16,384 colors (Blink)BacklightWhite LED (Not user replaceable. When replacement is required, contact your local distributor.)Backlight service life50,000 hrs. or more (each in continuous operation at 25 &deg;C [77 &deg;F] before backlight brightness decreases to 50%)Brightness control16 Levels (Adjusted with touch panel or software)Touch panel typeResistive Film (analog)Touch panel resolution1,024 x 1,024Touch panel lifetime1,000,000 times or moreLanguage fontsJapanese: 6,962 (JIS Standards 1 &amp; 2) (including 607 non-kanji characters), ANK: 158 (Korean, Traditional Chinese, Simplified Chinese, Thai and Cyrillic can be added from the font setting of the screen editor. )Character sizesStandard font: 8 x 8, 8 x 16, 16 x 16 and 32 x 32 pixel fonts, Stroke font: 6 to 127 pixel fonts, Image font: 8 to 72 pixel fontsFont sizesStandard font: Width can be expanded up to 8 times. Height can be expanded up to 8 times.*1 8 x 8 dots100 char. x 75 rows8 x 16 dots100 char. x 37 rows16 x 16 dots50 char. x 37 rows32 x 32 dots25 char. x 18 rows\n1Other font sizes can be set up with the Editor software.\nElectrical specificationsRated input voltage24 VdcInput voltage limits19.2 to 28.8 VdcAllowable voltage drop10 ms or lessPower consumption17 W or lessIn-rush current30 A or lessNoise immunityNoise Voltage : 1,000 Vp-pPulse Duration : 1 &micro;sRise Time : 1 ns(via noise simulator)Voltage endurance1,000 Vac, 20 mA for 1 minute (between power terminal and FG terminals)Insulation resistance500 Vdc, 10 M&Omega; or more (between power terminal and FG terminals)",
+    "specifications": [
+      {
+        "label": "Mounting Type",
+        "value": "Panel Mount"
+      },
+      {
+        "label": "Brand",
+        "value": "Proface"
+      },
+      {
+        "label": "Display Size",
+        "value": "12.1&quot;"
+      },
+      {
+        "label": "Model Name/Number",
+        "value": "HMI Proface PFXGP4601TAD"
+      },
+      {
+        "label": "Phase",
+        "value": "Single Phase"
+      },
+      {
+        "label": "Resolution",
+        "value": "800 x 480 Pixels"
+      },
+      {
+        "label": "Control Type",
+        "value": "Touch Screen"
+      },
+      {
+        "label": "Display Colors",
+        "value": "64k"
+      }
+    ],
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/455111375/WA/JT/ZK/89143389/hmi-proface-pfxgp4601tad-1000x1000.jpg",
+    "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455111375/WA/JT/ZK/89143389/hmi-proface-pfxgp4601tad-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455111394/FR/EL/DP/89143389/hmi-proface-pfxgp4601tad-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455111385/RX/KR/ET/89143389/hmi-proface-pfxgp4601tad-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455111430/YA/XF/KH/89143389/hmi-proface-pfxgp4601tad-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455111415/JB/RX/SK/89143389/hmi-proface-pfxgp4601tad-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455111442/RO/QF/RC/89143389/hmi-proface-pfxgp4601tad-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455111448/AP/TB/FC/89143389/hmi-proface-pfxgp4601tad-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455111422/ZB/NX/BA/89143389/hmi-proface-pfxgp4601tad-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455112778/PG/DJ/IC/89143389/hmi-proface-pfxgp4601tad-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455112793/YQ/CF/NY/89143389/hmi-proface-pfxgp4601tad-1000x1000.png"
+    ],
+    "slug": "hmi-proface-pfxgp4601tad",
+    "stock": true
+  },
+  {
+    "id": "im-2856863946648",
+    "name": "Proface Hmi Pfxgp4621taa",
+    "partNumber": "PROFACEHMIPFXGP4621TAA",
+    "brand": "Proface",
+    "category": "Proface HMI",
+    "type": "HMI",
+    "price": "₹ 95000/Piece",
+    "description": "HMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inchHMI Proface PFXGP4621TAA, Single Phase, 12 inch",
+    "specifications": [
+      {
+        "label": "Mounting Type",
+        "value": "Panel Mount"
+      },
+      {
+        "label": "Display Size",
+        "value": "12 inch"
+      },
+      {
+        "label": "Phase",
+        "value": "Single Phase"
+      },
+      {
+        "label": "Resolution",
+        "value": "1920 x 720 Pixels"
+      },
+      {
+        "label": "Control Type",
+        "value": "Touch Screen"
+      },
+      {
+        "label": "Display Colors",
+        "value": "64k"
+      },
+      {
+        "label": "Configuration Software",
+        "value": "GP PRO EX"
+      },
+      {
+        "label": "Memory",
+        "value": "1 GB"
+      }
+    ],
+    "image": "https://5.imimg.com/data5/SELLER/Default/2025/7/525432155/QS/RZ/QH/89143389/proface-hmi-pfxgp4621taa-1000x1000.jpg",
+    "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/7/525432155/QS/RZ/QH/89143389/proface-hmi-pfxgp4621taa-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2025/7/525434576/DX/GI/MC/89143389/proface-hmi-pfxgp4621taa-1000x1000.jpg"
+    ],
+    "slug": "proface-hmi-pfxgp4621taa",
+    "stock": true
+  },
+  {
+    "id": "im-2855161527212",
+    "name": "Allen Bradley Vfd 22f A011n103",
+    "partNumber": "ALLENBRADLEYVFD22FA011N103",
+    "brand": "Allen",
+    "category": "Allen Bradley Vfd",
+    "type": "VFD",
+    "price": "₹ 16450/Piece",
+    "description": "DESCRIPTION\n22F-A011N103 AC Drive2.2 kW (3 HP)240V AC Input1 PH50 60 Hz11 A OutputIP20UL NEMA Type OpenPanel MountingOmit Brake IGBT Frame B 0.98PFIntegral Keypad With Potentiometer And Led Display RS485 Fixed Terminal Block Connections.\nSPECIFICATIONS \n\n\nOutput Current\n:\n11 Amps\n\n\nVoltage Rating\n:\n240VAC, 1PH",
+    "specifications": [
+      {
+        "label": "Power",
+        "value": "3 HP"
+      },
+      {
+        "label": "Brand",
+        "value": "Allen Bradley"
+      },
+      {
+        "label": "Phase",
+        "value": "1  Phase"
+      },
+      {
+        "label": "Field Amps",
+        "value": "11 Amp"
+      },
+      {
+        "label": "Frame Size",
+        "value": "B"
+      },
+      {
+        "label": "Model Name/Number",
+        "value": "Allen Bradley VFD - 22F-A011N103"
+      },
+      {
+        "label": "Catalog Reference",
+        "value": "Catalog # 22F-A011N103"
+      },
+      {
+        "label": "Motor Power",
+        "value": "2.2 to 11 KW"
+      },
+      {
+        "label": "Maximum Amps",
+        "value": "11 amps"
+      },
+      {
+        "label": "Input Voltage",
+        "value": "240VAC."
+      },
+      {
+        "label": "Input Frequency",
+        "value": "50-60 Hz"
+      },
+      {
+        "label": "Output Current",
+        "value": "11 A"
+      }
+    ],
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459651786/XZ/JY/OA/89143389/22f-a011n103-1000x1000.jpg",
+    "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459651786/XZ/JY/OA/89143389/22f-a011n103-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459651284/PW/ED/SK/89143389/22f-a011n103-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459651289/VH/UG/HZ/89143389/22f-a011n103-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459651291/TV/XB/VH/89143389/22f-a011n103-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459651293/OO/VZ/BP/89143389/22f-a011n103-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459651295/VF/TF/JZ/89143389/22f-a011n103-1000x1000.png"
+    ],
+    "slug": "allen-bradley-vfd-22f-a011n103",
+    "stock": true
+  },
+  {
+    "id": "im-2855161527733",
+    "name": "Allen Bradley Vfd 22f A1p6n113",
+    "partNumber": "ALLENBRADLEYVFD22FA1P6N113",
+    "brand": "Allen",
+    "category": "Allen Bradley Vfd",
+    "type": "VFD",
+    "price": "₹ 14029/Piece",
+    "description": "The 22F-A1P6N113 is an Allen-Bradley PowerFlex 4M AC drive with the following specifications:   \n\nPower rating: 0.2 kW (0.25 HP)\nVoltage: 240 VAC\nPhase: 1\nCurrent: 1.6 Amps\nFrame size: A\nEnclosure: IP20 (open)\nDisplay: LED\nKeypad: Fixed digital \n\nThe 22F-A1P6N113 is part of the PowerFlex 4M drive series, which is known for its compact size, cost-effectiveness, and ease of use. Here are some of the features of the PowerFlex 4M AC drive:   \n\nFlexibility: Feed-through wiring and easy programming allow for a wide range of applications\nTemperature: Can operate in ambient temperatures up to 50 &deg;C (122 &deg;F)\nMounting: A and B frame drives can be mounted on DIN rails\nProtection: Drive overload protection and ramp regulation\nConfiguration: Can be configured and programmed using the integral LCD keypad, remote keypad, or software \n\nYou can find technical documentation for the 22F-A1P6N113 in the Rockwell Automation Technical Documentation Center or Literature Library",
+    "specifications": [
+      {
+        "label": "Output Type",
+        "value": "Digital"
+      },
+      {
+        "label": "Brand",
+        "value": "ALLEN-BRADLEY - 22F-A1P6N113"
+      },
+      {
+        "label": "Manufacturer Series",
+        "value": "22F-A1P6N113"
+      },
+      {
+        "label": "Display Type",
+        "value": "LCD Display"
+      },
+      {
+        "label": "Mounting Type",
+        "value": "Panel Mount"
+      },
+      {
+        "label": "Usage/Application",
+        "value": "Industrial"
+      },
+      {
+        "label": "Number of Inputs",
+        "value": "5"
+      },
+      {
+        "label": "Model Name/Number",
+        "value": "ALLEN-BRADLEY - 22F-A1P6N113"
+      },
+      {
+        "label": "Input Voltage",
+        "value": "240 V"
+      },
+      {
+        "label": "Frequency",
+        "value": "50-60 Hz"
+      }
+    ],
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459652176/FO/OI/NF/89143389/22f-a1p6n113-1000x1000.jpg",
+    "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459652176/FO/OI/NF/89143389/22f-a1p6n113-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650285/TV/XB/LM/89143389/22f-a1p6n113-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650290/JG/BO/PJ/89143389/22f-a1p6n113-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650296/FV/ZF/MN/89143389/22f-a1p6n113-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650297/HL/LK/IF/89143389/22f-a1p6n113-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650301/ZM/HI/JQ/89143389/22f-a1p6n113-1000x1000.png"
+    ],
+    "slug": "allen-bradley-vfd-22f-a1p6n113",
+    "stock": true
+  },
+  {
+    "id": "im-2855683539188",
+    "name": "Powerflex 750 Ethernet Ip Adapter",
+    "partNumber": "POWERFLEX750ETHERNETIPADAPTER",
+    "brand": "Allen",
+    "category": "Allen Bradley PLC",
+    "type": "PLC",
+    "price": "₹ 10000/Piece",
+    "description": "Allen-Bradley PowerFlex 750 EtherNet-IP Adapter\nEnhance your industrial automation with the Allen-Bradley PowerFlex 750 EtherNet-IP Adapter, featuring a dual-port EtherNet/IP module for seamless connectivity and control.",
+    "specifications": [
+      {
+        "label": "Manufacturer Series",
+        "value": "Micro800"
+      },
+      {
+        "label": "Mounting Type",
+        "value": "Panel Mount"
+      },
+      {
+        "label": "Output Type",
+        "value": "Digital"
+      },
+      {
+        "label": "Pulse Transmission Output",
+        "value": "DeviceNet Option Module"
+      },
+      {
+        "label": "Communication Port",
+        "value": "5"
+      }
+    ],
+    "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497863284/YA/PK/JX/89143389/powerflex-750-ethernet-ip-adapter-1000x1000.jpg",
+    "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497863284/YA/PK/JX/89143389/powerflex-750-ethernet-ip-adapter-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496701752/ZO/MG/EX/89143389/powerflex-750-ethernet-ip-adapter-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496701751/UM/LX/CO/89143389/powerflex-750-ethernet-ip-adapter-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496701762/HD/YE/DM/89143389/powerflex-750-ethernet-ip-adapter-1000x1000.png"
+    ],
+    "slug": "powerflex-750-ethernet-ip-adapter",
+    "stock": true
+  },
+  {
     "id": "im-2850756566933",
     "name": "Allen Bradley Plc",
     "partNumber": "ALLENBRADLEYPLC",
-    "brand": "Allen Bradley",
+    "brand": "Allen",
     "category": "Allen Bradley PLC",
     "type": "PLC",
     "price": "₹ 1111/Piece",
@@ -29762,16 +30105,163 @@ export const allProducts: Product[] = [
         "value": "14 Digits"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/455791406/PL/CC/HP/89143389/allen-bradley-plc-500x500.jpg",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455791406/PL/CC/HP/89143389/allen-bradley-plc-500x500.jpg",
-      "https://5.imimg.com/data5/SELLER/Logo/2023/5/309197612/RL/SG/SX/89143389/c-90x90.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455791406/PL/CC/HP/89143389/allen-bradley-plc-125x125.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455791406/PL/CC/HP/89143389/allen-bradley-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455791406/PL/CC/HP/89143389/allen-bradley-plc.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455791406/PL/CC/HP/89143389/allen-bradley-plc-250x250.jpg"
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80"
     ],
     "slug": "allen-bradley-plc",
+    "stock": true
+  },
+  {
+    "id": "im-2855147960762",
+    "name": "Abb Vfd Acs560 01 033a 4",
+    "partNumber": "ABBVFDACS56001033A4",
+    "brand": "Abb",
+    "category": "Abb Vfd",
+    "type": "VFD",
+    "price": "₹ 39966/Piece",
+    "description": "ABB ACS560-01-033A-4, Three Phase, 15KW/20HP, 33A, 3Phase 380-480 V, AC Drive\n\n\nInput Suppy Voltage and phase\n3-phase, 380 to 480 V &plusmn; 10%\n\n\nMotor Control Method\nScalar, Vector\n\n\nOverload Capability at Heavy duty use\n150% for 1 minute every 10 minutes t +40&deg;C\n\n\nFrame Size and Dimensions(HXWXD)mm\nR3 (490x203x229 mm)\n\n\nSupported Motor Types\nAsynchronous Motor\n\n\nOutput Power Pn (kW/HP)\n15 kW/ 20 HP\n\n\nBrake Resistor Value\n16-37 ohm/15 KW\n\n\nDigital Inputs\n6 DI\n\n\nDigital Output\n0\n\n\nAnalog Input\n2 AI\n\n\nAnalog Output\n2 AO\n\n\nRelay Output\n3 RO",
+    "specifications": [
+      {
+        "label": "Output Power(KW / HP)",
+        "value": "0.75KW / 1HP"
+      },
+      {
+        "label": "Input Voltage",
+        "value": "415 V"
+      },
+      {
+        "label": "Phase",
+        "value": "3 Phase"
+      },
+      {
+        "label": "Ventilation space at sides",
+        "value": "Yes, the ABB ACS560-01-033A-4 has ventilation space at the sides."
+      },
+      {
+        "label": "Brand",
+        "value": "ABB"
+      },
+      {
+        "label": "Motor Power",
+        "value": "15 kW, 20 HP"
+      },
+      {
+        "label": "Five digital inputs",
+        "value": "6 DI"
+      },
+      {
+        "label": "Product Net Length",
+        "value": "229 mm"
+      },
+      {
+        "label": "Product Net Height",
+        "value": "490 mm"
+      },
+      {
+        "label": "Product Net Weight",
+        "value": "14.9 kg"
+      },
+      {
+        "label": "Model Name/Number",
+        "value": "Abb Acs560 01 033a 4"
+      },
+      {
+        "label": "Input Frequency",
+        "value": "50-60 Hz"
+      }
+    ],
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459152382/XH/NP/YZ/89143389/abb-acs560-01-033a-4-1000x1000.jpg",
+    "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459152382/XH/NP/YZ/89143389/abb-acs560-01-033a-4-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459149263/SY/OV/PY/89143389/abb-acs560-01-033a-4-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459149266/QZ/AS/GM/89143389/abb-acs560-01-033a-4-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459149276/JY/ZM/LA/89143389/abb-acs560-01-033a-4-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459149273/EF/OH/TC/89143389/abb-acs560-01-033a-4-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459149292/AP/CZ/IR/89143389/abb-acs560-01-033a-4-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459149283/JD/IU/XX/89143389/abb-acs560-01-033a-4-1000x1000.png"
+    ],
+    "slug": "abb-vfd-acs560-01-033a-4",
+    "stock": true
+  },
+  {
+    "id": "im-2855147961297",
+    "name": "Abb Vfd Acs560 01 12a6 4",
+    "partNumber": "ABBVFDACS5600112A64",
+    "brand": "Abb",
+    "category": "Abb Vfd",
+    "type": "VFD",
+    "price": "₹ 28757/Piece",
+    "description": "ABB ACS560 5.5KW 12.6A IP20 GENERAL PURPOSE DRIVE W/ CP ACS56 \n\n\nCommunication Protocols\nTCP/IP PROFIBUS CAN MODBUS DeviceNet / DeviceNet Safety PROFINET IO EtherNet/IP Other Bus Systems\n\n\nApplication\nFood, Beverage, Mixer &amp; any other variable and basic constant torque application, Pharma, Textile, Automotive\n\n\nContains\nControl Element PC Connection\n\n\nDimensions (mm)\n97W x 223H x 207D\n\n\nEAN\n  &ndash;\n\n\nInput Voltage AC (V)\n380 &ndash; 480\n\n\nMaximum Output Frequency (Hz)\n500\n\n\nMaximum Output Voltage AC (V)\n480\n\n\nNo. of Analogue Inputs\n2\n\n\nNo. of Analogue Outputs\n2\n\n\nNo. of Digital Inputs\n6\n\n\nNo. of Digital Outputs\n3\n\n\nNominal Output Current (A)\n12.6\n\n\nNumber of Other HW Interfaces\n2\n\n\nNumber of Parallel Interfaces\n2\n\n\nNumber of RS-485 Interfaces\n1\n\n\nNumber of USB Interfaces\n0\n\n\nOutput Power &ndash; Normal Duty (kW)\n5.5\n\n\nRelative Symmetric Net Frequency Tolerance\n5%\n\n\nRelative Symmetric Net Voltage Tolerance\n10%\n\n\n0-01-12A6-4+J404",
+    "specifications": [
+      {
+        "label": "Output Power(KW / HP)",
+        "value": "0.75KW / 1HP"
+      },
+      {
+        "label": "Input Voltage",
+        "value": "415 V"
+      },
+      {
+        "label": "Phase",
+        "value": "3 Phase"
+      },
+      {
+        "label": "Ventilation space above and below",
+        "value": "The ventilation space above and below the ABB ACS560-01-12A6-4 drive can be any."
+      },
+      {
+        "label": "Motor Power",
+        "value": "5.5 kW, 7.5 HP"
+      },
+      {
+        "label": "Brand",
+        "value": "ABB"
+      },
+      {
+        "label": "Five digital inputs",
+        "value": "6 Di"
+      },
+      {
+        "label": "Product Net Length",
+        "value": "207 mm"
+      },
+      {
+        "label": "Model Name/Number",
+        "value": "ABB VFD ACS560-01-12A6-4"
+      },
+      {
+        "label": "Product Net Weight",
+        "value": "1.9 kg"
+      },
+      {
+        "label": "Product Net Height",
+        "value": "223 mm"
+      },
+      {
+        "label": "Input Frequency",
+        "value": "50/60 Hz."
+      },
+      {
+        "label": "Output Current",
+        "value": "12.6 A"
+      },
+      {
+        "label": "Degree of Protection",
+        "value": "IP20"
+      }
+    ],
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459129516/EG/KY/SY/89143389/abb-vfd-acs560-01-12a6-4-1000x1000.jpg",
+    "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459129516/EG/KY/SY/89143389/abb-vfd-acs560-01-12a6-4-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459119651/SL/OS/YK/89143389/abb-acs560-01-12a6-4-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459119657/XL/NX/JM/89143389/abb-acs560-01-12a6-4-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459119660/NC/DW/OO/89143389/abb-acs560-01-12a6-4-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459119661/YX/TN/DZ/89143389/abb-acs560-01-12a6-4-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459119666/EV/QL/ND/89143389/abb-acs560-01-12a6-4-1000x1000.png",
+      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459126466/QL/DE/QJ/89143389/abb-acs560-01-12a6-4-1000x1000.png"
+    ],
+    "slug": "abb-vfd-acs560-01-12a6-4",
     "stock": true
   },
   {
@@ -29960,14 +30450,9 @@ export const allProducts: Product[] = [
         "value": "Made in India"
       }
     ],
-    "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-500x500.jpg",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
     "images": [
-      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-500x500.jpg",
-      "https://5.imimg.com/data5/SELLER/Logo/2023/5/309197612/RL/SG/SX/89143389/c-90x90.jpg",
-      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-125x125.jpg",
-      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
-      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw.jpg",
-      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-250x250.jpg"
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80"
     ],
     "slug": "schneider-vfd",
     "stock": true

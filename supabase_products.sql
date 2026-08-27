@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS public.products (
     brand TEXT NOT NULL,
     category TEXT NOT NULL,
     type TEXT NOT NULL,
+    price TEXT NOT NULL DEFAULT 'On Request',
     description TEXT,
     specifications JSONB NOT NULL DEFAULT '[]'::jsonb,
     image TEXT,
@@ -21,6 +22,7 @@ CREATE TABLE IF NOT EXISTS public.products (
 
 -- Migration query to add column to existing tables:
 -- ALTER TABLE public.products ADD COLUMN IF NOT EXISTS is_deleted BOOLEAN NOT NULL DEFAULT false;
+-- ALTER TABLE public.products ADD COLUMN IF NOT EXISTS price TEXT NOT NULL DEFAULT 'On Request';
 
 -- Enable Row Level Security (RLS)
 ALTER TABLE public.products ENABLE ROW LEVEL SECURITY;

@@ -2916,9 +2916,9 @@ export const allProducts: Product[] = [
     "type": "PLC",
     "description": "2094-EN02D-M01-S0 Allen Bradley",
     "specifications": [],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2021/6/YF/IU/WW/11020113/2094-en02d-m01-s0-kinetix-2000-ethernet-ip-cop-1000x1000.jpg",
+    "image": "",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2021/6/YF/IU/WW/11020113/2094-en02d-m01-s0-kinetix-2000-ethernet-ip-cop-1000x1000.jpg"
+      ""
     ],
     "slug": "2094-en02d-m01-s0-allen-bradley",
     "stock": true
@@ -3262,7 +3262,7 @@ export const allProducts: Product[] = [
     "id": "im-2855161527733",
     "name": "Allen Bradley Vfd 22f A1p6n113",
     "partNumber": "ALLENBRADLEYVFD22FA1P6N113",
-    "brand": "Allen Bradley",
+    "brand": "Allen",
     "category": "Allen Bradley Vfd",
     "type": "VFD",
     "price": "₹ 14029/Piece",
@@ -5356,14 +5356,14 @@ export const allProducts: Product[] = [
     "id": "im-2859509301473",
     "name": "Danfoss FC 300 525-600 V VLT Automation Drive",
     "partNumber": "DANFOSSFC300525600VVLTAUTOMATIONDRIVE",
-    "brand": "Danfoss",
+    "brand": "Mitsubishi",
     "category": "Danfoss VFD",
     "type": "VFD",
     "description": "Danfoss FC 300 525-600 V VLT Automation Drive",
     "specifications": [],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/7/439243764/AX/QZ/WI/4183864/danfoss-vlt-automation-drive-fc-302.jpg",
+    "image": "",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/7/439243764/AX/QZ/WI/4183864/danfoss-vlt-automation-drive-fc-302.jpg"
+      ""
     ],
     "slug": "danfoss-fc-300-525-600-v-vlt-automation-drive",
     "stock": true
@@ -6169,14 +6169,14 @@ export const allProducts: Product[] = [
     "id": "im-2859306941797",
     "name": "Sick Photoelectric Sensor",
     "partNumber": "SICKPHOTOELECTRICSENSOR",
-    "brand": "Sick",
+    "brand": "Mitsubishi",
     "category": "Encoder",
     "type": "Sensor",
     "description": "Sick Photoelectric Sensor",
     "specifications": [],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
+    "image": "",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg"
+      ""
     ],
     "slug": "sick-photoelectric-sensor",
     "stock": true
@@ -15898,7 +15898,7 @@ export const allProducts: Product[] = [
     "id": "im-2854616679230",
     "name": "Mitsubishi Servo Drives",
     "partNumber": "",
-    "brand": "Mitsubishi",
+    "brand": "Siemens",
     "category": "Mitsubishi Servo Drives",
     "type": "VFD",
     "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
@@ -15940,7 +15940,7 @@ export const allProducts: Product[] = [
     "id": "im-2852121650773",
     "name": "Mitsubishi VFD FR-D740-022-E16",
     "partNumber": "FR-D740-022-E16",
-    "brand": "Mitsubishi",
+    "brand": "Siemens",
     "category": "Mitsubishi VFD",
     "type": "VFD",
     "description": "FR-D700 SERIESMAGNETIC FLUX VECTOR CONTROL  SOFT-PWM/HIGH FREQUENCY PWM   V/F CONTROL",
@@ -15991,9 +15991,9 @@ export const allProducts: Product[] = [
     "type": "VFD",
     "description": "Mitsubishi VFD",
     "specifications": [],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/455791716/UA/AQ/WU/89143389/mitsubishi-vfd-fr-d740-050-e16-1000x1000.jpg",
+    "image": "",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455791716/UA/AQ/WU/89143389/mitsubishi-vfd-fr-d740-050-e16-1000x1000.jpg"
+      ""
     ],
     "slug": "mitsubishi-vfd",
     "stock": true
@@ -17331,7 +17331,7 @@ export const allProducts: Product[] = [
     "id": "im-2854060512662",
     "name": "Omron Plc Module",
     "partNumber": "OMRONPLCMODULE",
-    "brand": "Omron",
+    "brand": "Mitsubishi",
     "category": "Omron PLC",
     "type": "Software",
     "description": "Programmable Logic Controllers, along with easy-to-use Support Software, are available to flexibly handle applications from small-scale equipment to entire production lines with Programmable Logic Controllers such as those in the CJ1, CS1 and other series.",
@@ -19325,7 +19325,7 @@ export const allProducts: Product[] = [
     "id": "im-27145113930",
     "name": "Proface PFXGP4114T2D 4.3 Inch HMI Touch Panel",
     "partNumber": "Panel Mount",
-    "brand": "Proface",
+    "brand": "Schneider",
     "category": "Proface HMI",
     "type": "HMI",
     "description": "Proface GP4100 4.3 Inch HMI In the IIoT age there is a growing need for on-site information. With Ethernet and USB Type A interfaces included, the GP4100 Series allows you to easily keep a range of information on site such as alarms, recipes and sampling, dispite its small size.",
@@ -22304,9 +22304,9 @@ export const allProducts: Product[] = [
     "type": "Sensor",
     "description": "Slot Sensor",
     "specifications": [],
-    "image": "https://5.imimg.com/data5/ANDROID/Default/2023/8/337190013/YJ/ST/LI/195317772/product-jpeg-500x500.jpg",
+    "image": "",
     "images": [
-      "https://5.imimg.com/data5/ANDROID/Default/2023/8/337190013/YJ/ST/LI/195317772/product-jpeg-500x500.jpg"
+      ""
     ],
     "slug": "slot-sensor",
     "stock": true
@@ -29735,7 +29735,7 @@ export const allProducts: Product[] = [
     "id": "im-2850756566933",
     "name": "Allen Bradley Plc",
     "partNumber": "ALLENBRADLEYPLC",
-    "brand": "Allen Bradley",
+    "brand": "Allen",
     "category": "Allen Bradley PLC",
     "type": "PLC",
     "price": "₹ 1111/Piece",
@@ -29762,14 +29762,9 @@ export const allProducts: Product[] = [
         "value": "14 Digits"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/455791406/PL/CC/HP/89143389/allen-bradley-plc-500x500.jpg",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455791406/PL/CC/HP/89143389/allen-bradley-plc-500x500.jpg",
-      "https://5.imimg.com/data5/SELLER/Logo/2023/5/309197612/RL/SG/SX/89143389/c-90x90.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455791406/PL/CC/HP/89143389/allen-bradley-plc-125x125.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455791406/PL/CC/HP/89143389/allen-bradley-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455791406/PL/CC/HP/89143389/allen-bradley-plc.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455791406/PL/CC/HP/89143389/allen-bradley-plc-250x250.jpg"
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80"
     ],
     "slug": "allen-bradley-plc",
     "stock": true
@@ -29960,14 +29955,9 @@ export const allProducts: Product[] = [
         "value": "Made in India"
       }
     ],
-    "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-500x500.jpg",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
     "images": [
-      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-500x500.jpg",
-      "https://5.imimg.com/data5/SELLER/Logo/2023/5/309197612/RL/SG/SX/89143389/c-90x90.jpg",
-      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-125x125.jpg",
-      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
-      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw.jpg",
-      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-250x250.jpg"
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80"
     ],
     "slug": "schneider-vfd",
     "stock": true

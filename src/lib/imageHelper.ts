@@ -1,14 +1,14 @@
 // Robust image URL helper with proxies and brand-specific fallback images
 
 const FALLBACK_IMAGES: Record<string, string> = {
-  "siemens-plc": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&auto=format&fit=crop&q=80",
-  "siemens-vfd": "https://images.unsplash.com/photo-1581092335397-9583fe92d232?w=600&auto=format&fit=crop&q=80",
-  "siemens-hmi": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&auto=format&fit=crop&q=80",
-  "mitsubishi-plc": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&auto=format&fit=crop&q=80",
-  "omron-plc": "https://images.unsplash.com/photo-1581092335397-9583fe92d232?w=600&auto=format&fit=crop&q=80",
-  "pepperl+fuchs-sensor": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=600&auto=format&fit=crop&q=80",
-  "allen bradley-plc": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&auto=format&fit=crop&q=80",
-  "default": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&auto=format&fit=crop&q=80",
+  "siemens-plc": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
+  "siemens-vfd": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
+  "siemens-hmi": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
+  "mitsubishi-plc": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
+  "omron-plc": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
+  "pepperl+fuchs-sensor": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
+  "allen bradley-plc": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
+  "default": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
 };
 
 export function getFallbackImageUrl(brand?: string, type?: string): string {
@@ -16,22 +16,32 @@ export function getFallbackImageUrl(brand?: string, type?: string): string {
   const t = (type || "").toLowerCase();
   const key = `${b}-${t}`;
 
-  if (FALLBACK_IMAGES[key]) return FALLBACK_IMAGES[key];
-  if (b.includes("siemens")) return FALLBACK_IMAGES["siemens-plc"];
-  if (b.includes("mitsubishi")) return FALLBACK_IMAGES["mitsubishi-plc"];
-  if (b.includes("omron")) return FALLBACK_IMAGES["omron-plc"];
-  if (b.includes("pepperl")) return FALLBACK_IMAGES["pepperl+fuchs-sensor"];
-  if (b.includes("allen")) return FALLBACK_IMAGES["allen bradley-plc"];
+  const val = FALLBACK_IMAGES[key];
+  if (val) return val;
+  if (b.includes("siemens")) return FALLBACK_IMAGES["siemens-plc"] ?? FALLBACK_IMAGES["default"]!;
+  if (b.includes("mitsubishi")) return FALLBACK_IMAGES["mitsubishi-plc"] ?? FALLBACK_IMAGES["default"]!;
+  if (b.includes("omron")) return FALLBACK_IMAGES["omron-plc"] ?? FALLBACK_IMAGES["default"]!;
+  if (b.includes("pepperl")) return FALLBACK_IMAGES["pepperl+fuchs-sensor"] ?? FALLBACK_IMAGES["default"]!;
+  if (b.includes("allen")) return FALLBACK_IMAGES["allen bradley-plc"] ?? FALLBACK_IMAGES["default"]!;
 
-  return FALLBACK_IMAGES["default"];
+  return FALLBACK_IMAGES["default"] ?? "";
 }
 
 export function getProxiedImageUrl(rawUrl?: string): string {
-  if (!rawUrl) return FALLBACK_IMAGES["default"];
+  if (!rawUrl) return FALLBACK_IMAGES["default"] ?? "";
   if (!rawUrl.startsWith("http")) return rawUrl;
   
-  // Use wsrv.nl image proxy to bypass CORS / hotlinking restrictions
-  return `https://wsrv.nl/?url=${encodeURIComponent(rawUrl)}&w=600&output=webp`;
+  let cleanUrl = rawUrl;
+  if (cleanUrl.includes("imimg.com")) {
+    // Ensure we use the 500x500 version for card thumbnails (good quality + fast loading)
+    // If no size suffix exists, add -500x500 before the extension
+    if (!/-\d+x\d+\./.test(cleanUrl)) {
+      cleanUrl = cleanUrl.replace(/\.([a-z]+)$/i, '-500x500.$1');
+    }
+  }
+
+  // Load directly from IndiaMART CDNs as they support CORS with access-control-allow-origin: *
+  return cleanUrl;
 }
 
 // Generate inline SVG placeholder data URL when network images fail completely

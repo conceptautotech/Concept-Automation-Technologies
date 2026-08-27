@@ -4,7 +4,8 @@ import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { 
   Plus, Edit, Trash2, RotateCcw, Check, Search, LogOut, Lock, 
   Package, Layers, Eye, RefreshCw, X, AlertTriangle, LayoutDashboard,
-  CheckCircle, ShieldAlert, SlidersHorizontal, Upload, FileImage, Copy
+  CheckCircle, ShieldAlert, SlidersHorizontal, Upload, FileImage, Copy,
+  Cpu, Monitor, Zap, Radio
 } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -43,11 +44,30 @@ function AdminPortal() {
 
   // Check auth state on mount
   useEffect(() => {
-    const auth = sessionStorage.getItem("concept_admin_auth");
-    if (auth === "true") {
-      setIsAuthenticated(true);
-    }
-    setIsLoadingAuth(false);
+    const checkAuth = async () => {
+      const auth = sessionStorage.getItem("concept_admin_auth");
+      if (auth === "true") {
+        setIsAuthenticated(true);
+      } else {
+        // Check if they just returned from a magic link login redirect
+        try {
+          const { data: { session } } = await supabase.auth.getSession();
+          if (session && session.user) {
+            const settings = await getGlobalSettings();
+            const adminEmail = settings['admin_email'] || "jiya@scalezix.com";
+            if (session.user.email === adminEmail) {
+              sessionStorage.setItem("concept_admin_auth", "true");
+              setIsAuthenticated(true);
+              toast.success("Logged in automatically via Email Link!");
+            }
+          }
+        } catch (e) {
+          console.warn("Supabase session check skipped:", e);
+        }
+      }
+      setIsLoadingAuth(false);
+    };
+    checkAuth();
   }, []);
 
   const handleLogin = async (e: React.FormEvent) => {
@@ -89,26 +109,25 @@ function AdminPortal() {
     }
   };
 
-  const handleLogout = () => {
+  const handleLogout = async () => {
     sessionStorage.removeItem("concept_admin_auth");
     setIsAuthenticated(false);
+    try {
+      await supabase.auth.signOut();
+    } catch (e) {
+      console.warn("Supabase sign out warning:", e);
+    }
     toast.success("Logged out successfully.");
   };
 
   // Recovery wizard state
-  const [recoveryStep, setRecoveryStep] = useState<1 | 2 | 3>(1);
+  const [isLinkSent, setIsLinkSent] = useState(false);
   const [adminEmail, setAdminEmail] = useState("");
-  const [enteredOtp, setEnteredOtp] = useState("");
-  const [recoveryNewUsername, setRecoveryNewUsername] = useState("");
-  const [recoveryNewPassword, setRecoveryNewPassword] = useState("");
-  const [recoveryConfirmPassword, setRecoveryConfirmPassword] = useState("");
-  const [isSendingOtp, setIsSendingOtp] = useState(false);
-  const [isVerifyingOtp, setIsVerifyingOtp] = useState(false);
+  const [isSendingLink, setIsSendingLink] = useState(false);
 
   const handleOpenForgotModal = async () => {
     setIsForgotOpen(true);
-    setRecoveryStep(1);
-    setEnteredOtp("");
+    setIsLinkSent(false);
     try {
       const settings = await getGlobalSettings();
       setAdminEmail(settings['admin_email'] || "jiya@scalezix.com");
@@ -117,120 +136,55 @@ function AdminPortal() {
     }
   };
 
-  const handleSendOtp = async (e: React.FormEvent) => {
+  const handleSendLoginLink = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSendingOtp(true);
-    toast.loading(`Sending verification code to ${adminEmail}...`, { id: "sendOtp" });
+    setIsSendingLink(true);
+    toast.loading(`Sending login link to ${adminEmail}...`, { id: "sendLink" });
     try {
       const { error } = await supabase.auth.signInWithOtp({
         email: adminEmail,
+        options: {
+          emailRedirectTo: window.location.origin + "/admin",
+        }
       });
       if (error) {
-        toast.error(`Failed to send code: ${error.message}`, { id: "sendOtp" });
+        toast.error(`Failed to send login link: ${error.message}`, { id: "sendLink" });
       } else {
-        toast.success(`Verification code sent to ${adminEmail}!`, { id: "sendOtp" });
-        setRecoveryStep(2);
+        toast.success(`Login link sent to ${adminEmail}!`, { id: "sendLink" });
+        setIsLinkSent(true);
       }
     } catch (err) {
-      console.error("OTP send error:", err);
-      toast.error("Failed to send OTP code. Please check console.", { id: "sendOtp" });
+      console.error("Login link send error:", err);
+      toast.error("Failed to send login link. Please check console.", { id: "sendLink" });
     } finally {
-      setIsSendingOtp(false);
-    }
-  };
-
-  const handleVerifyOtp = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!enteredOtp.trim()) {
-      toast.error("Please enter the verification code.");
-      return;
-    }
-    setIsVerifyingOtp(true);
-    toast.loading("Verifying code...", { id: "verifyOtp" });
-    try {
-      const { error } = await supabase.auth.verifyOtp({
-        email: adminEmail,
-        token: enteredOtp.trim(),
-        type: 'email',
-      });
-      if (error) {
-        toast.error(`Invalid verification code: ${error.message}`, { id: "verifyOtp" });
-      } else {
-        toast.success("Code verified successfully!", { id: "verifyOtp" });
-        setRecoveryStep(3);
-      }
-    } catch (err) {
-      console.error("OTP verify error:", err);
-      toast.error("An error occurred during verification.", { id: "verifyOtp" });
-    } finally {
-      setIsVerifyingOtp(false);
-    }
-  };
-
-  const handleResetCredentials = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!recoveryNewUsername.trim()) {
-      toast.error("Username cannot be empty.");
-      return;
-    }
-    if (recoveryNewPassword !== recoveryConfirmPassword) {
-      toast.error("Passwords do not match.");
-      return;
-    }
-    if (recoveryNewPassword.length < 6) {
-      toast.error("Password must be at least 6 characters long.");
-      return;
-    }
-    
-    toast.loading("Resetting credentials...", { id: "resetCredentials" });
-    
-    try {
-      const userRes = await saveGlobalSetting("admin_username", recoveryNewUsername.trim());
-      const passHash = await sha256(recoveryNewPassword);
-      const passRes = await saveGlobalSetting("admin_password_hash", passHash);
-      
-      if (userRes.success && passRes.success) {
-        toast.success("Credentials reset successfully! Please log in now.", { id: "resetCredentials" });
-        setIsForgotOpen(false);
-        // Reset states
-        setRecoveryStep(1);
-        setEnteredOtp("");
-        setRecoveryNewUsername("");
-        setRecoveryNewPassword("");
-        setRecoveryConfirmPassword("");
-      } else {
-        toast.error("Failed to reset credentials. Database error.", { id: "resetCredentials" });
-      }
-    } catch (err) {
-      console.error("Reset error:", err);
-      toast.error("An error occurred during reset.", { id: "resetCredentials" });
+      setIsSendingLink(false);
     }
   };
 
   if (isLoadingAuth) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-[#f6f4ee]">
-        <RefreshCw className="h-8 w-8 animate-spin text-[#b45309]" />
+      <div className="flex min-h-screen items-center justify-center bg-background">
+        <RefreshCw className="h-8 w-8 animate-spin text-accent" />
       </div>
     );
   }
 
   if (!isAuthenticated) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-[#f6f4ee] px-4 py-12 sm:px-6 lg:px-8 font-sans">
-        <div className="w-full max-w-md space-y-8 rounded-3xl border border-[#e7e5e4] bg-white p-8 sm:p-10 shadow-lg">
+      <div className="flex min-h-screen items-center justify-center bg-background px-4 py-12 sm:px-6 lg:px-8 font-sans">
+        <div className="w-full max-w-md space-y-8 rounded-3xl border border-border bg-card p-8 sm:p-10 shadow-lg">
           <div className="text-center">
-            <span className="inline-flex rounded-full bg-[#fbe5d6] p-3 text-[#b45309]">
+            <span className="inline-flex rounded-full bg-accent/10 p-3 text-accent">
               <Lock className="h-6 w-6" />
             </span>
-            <h2 className="mt-4 font-display text-2xl font-extrabold text-[#1a130f]">
+            <h2 className="mt-4 font-display text-2xl font-extrabold text-foreground">
               Admin Portal
             </h2>
             <p className="mt-1 text-xs font-semibold text-slate-500 uppercase tracking-wider mb-4">
               Concept Automation Technologies
             </p>
             <div className="rounded-2xl bg-amber-50/50 border border-amber-200/60 p-3.5 text-left text-[11px] text-amber-900/90 font-medium">
-              <span className="font-bold text-[#b45309]">Default Access:</span>
+              <span className="font-bold text-accent">Default Access:</span>
               <ul className="mt-1 space-y-0.5 list-disc list-inside">
                 <li>Username: <code className="bg-amber-100/80 px-1 py-0.5 rounded font-mono text-[10px] font-bold text-amber-950">admin</code></li>
                 <li>Password: <code className="bg-amber-100/80 px-1 py-0.5 rounded font-mono text-[10px] font-bold text-amber-950">concept@admin123</code></li>
@@ -241,7 +195,7 @@ function AdminPortal() {
           <form className="mt-6 space-y-5" onSubmit={handleLogin}>
             <div className="space-y-3.5 rounded-md">
               <div>
-                <label className="text-xs font-bold text-[#1a130f] block mb-1">
+                <label className="text-xs font-bold text-foreground block mb-1">
                   Username
                 </label>
                 <input
@@ -250,11 +204,11 @@ function AdminPortal() {
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
                   placeholder="e.g. admin"
-                  className="w-full rounded-xl border border-[#e7e5e4] bg-white px-4 py-2.5 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none focus:ring-1 focus:ring-[#1a130f]/20 shadow-sm"
+                  className="w-full rounded-xl border border-border bg-card px-4 py-2.5 text-xs text-foreground font-semibold focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary/20 shadow-sm"
                 />
               </div>
               <div>
-                <label className="text-xs font-bold text-[#1a130f] block mb-1">
+                <label className="text-xs font-bold text-foreground block mb-1">
                   Password
                 </label>
                 <input
@@ -263,7 +217,7 @@ function AdminPortal() {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="e.g. concept@admin123"
-                  className="w-full rounded-xl border border-[#e7e5e4] bg-white px-4 py-2.5 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none focus:ring-1 focus:ring-[#1a130f]/20 shadow-sm"
+                  className="w-full rounded-xl border border-border bg-card px-4 py-2.5 text-xs text-foreground font-semibold focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary/20 shadow-sm"
                 />
               </div>
             </div>
@@ -271,7 +225,7 @@ function AdminPortal() {
             <div>
               <button
                 type="submit"
-                className="group relative flex w-full justify-center rounded-xl bg-[#1a130f] px-4 py-3 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#b45309] focus:outline-none focus:ring-2 focus:ring-[#b45309] focus:ring-offset-2 transition-all cursor-pointer shadow-md"
+                className="group relative flex w-full justify-center rounded-xl bg-primary px-4 py-3 text-xs font-bold uppercase tracking-wider text-white hover:bg-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 transition-all cursor-pointer shadow-md"
               >
                 Log In
               </button>
@@ -282,7 +236,7 @@ function AdminPortal() {
             <button
               type="button"
               onClick={handleOpenForgotModal}
-              className="text-xs font-bold text-[#b45309] hover:underline transition-colors"
+              className="text-xs font-bold text-accent hover:underline transition-colors"
             >
               Forgot Password?
             </button>
@@ -301,7 +255,7 @@ function AdminPortal() {
                     <AlertTriangle className="h-4 w-4" />
                   </span>
                   <h3 className="text-sm font-extrabold text-[#1a130f]">
-                    {recoveryStep === 1 ? "Send Verification Code" : recoveryStep === 2 ? "Verify OTP Code" : "Reset Admin Credentials"}
+                    Forgot Admin Credentials
                   </h3>
                 </div>
                 <button onClick={() => setIsForgotOpen(false)} className="rounded-full p-1 hover:bg-stone-100 transition-colors">
@@ -309,10 +263,10 @@ function AdminPortal() {
                 </button>
               </div>
 
-              {recoveryStep === 1 ? (
-                <form onSubmit={handleSendOtp} className="space-y-4">
+              {!isLinkSent ? (
+                <form onSubmit={handleSendLoginLink} className="space-y-4">
                   <p className="text-xs text-stone-600 leading-relaxed">
-                    To reset your credentials, we will send a 6-digit OTP verification code to your registered admin email.
+                    To access the admin dashboard directly, we will email you a secure login link (Magic Link).
                   </p>
                   
                   <div>
@@ -338,106 +292,29 @@ function AdminPortal() {
                     </button>
                     <button
                       type="submit"
-                      disabled={isSendingOtp}
+                      disabled={isSendingLink}
                       className="rounded-xl bg-[#1a130f] hover:bg-[#b45309] text-white px-4 py-2 text-xs font-bold transition-all cursor-pointer shadow-md disabled:opacity-50"
                     >
-                      {isSendingOtp ? "Sending..." : "Send OTP Code"}
-                    </button>
-                  </div>
-                </form>
-              ) : recoveryStep === 2 ? (
-                <form onSubmit={handleVerifyOtp} className="space-y-4">
-                  <p className="text-xs text-stone-600 leading-relaxed">
-                    A 6-digit OTP verification code has been sent to <strong>{adminEmail}</strong>. Please enter it below.
-                  </p>
-                  
-                  <div>
-                    <label className="text-[11px] font-bold text-[#1a130f] block mb-1">6-Digit OTP Code</label>
-                    <input
-                      type="text"
-                      required
-                      value={enteredOtp}
-                      onChange={(e) => setEnteredOtp(e.target.value)}
-                      placeholder="Enter 6-digit OTP"
-                      className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
-                    />
-                  </div>
-
-                  <div className="flex justify-end gap-2 pt-3 border-t border-[#e7e5e4]">
-                    <button
-                      type="button"
-                      onClick={() => setRecoveryStep(1)}
-                      className="rounded-xl border border-[#e7e5e4] bg-white px-4 py-2 text-xs font-bold text-[#1a130f] hover:bg-stone-50 transition-all cursor-pointer"
-                    >
-                      Back
-                    </button>
-                    <button
-                      type="submit"
-                      disabled={isVerifyingOtp}
-                      className="rounded-xl bg-[#1a130f] hover:bg-[#b45309] text-white px-4 py-2 text-xs font-bold transition-all cursor-pointer shadow-md disabled:opacity-50"
-                    >
-                      {isVerifyingOtp ? "Verifying..." : "Verify Code"}
+                      {isSendingLink ? "Sending..." : "Send Login Link"}
                     </button>
                   </div>
                 </form>
               ) : (
-                <form onSubmit={handleResetCredentials} className="space-y-4">
-                  <p className="text-xs text-stone-600 leading-relaxed">
-                    Verification successful! Enter your new admin credentials to overwrite the forgotten settings.
-                  </p>
+                <div className="space-y-4">
+                  <div className="rounded-xl bg-emerald-50 p-4 border border-emerald-200 text-emerald-800 text-xs font-semibold leading-relaxed">
+                    ✓ A secure login link has been sent to <strong>{adminEmail}</strong>. Please check your email inbox and click the link to log in directly.
+                  </div>
                   
-                  <div>
-                    <label className="text-[11px] font-bold text-[#1a130f] block mb-1">New Username *</label>
-                    <input
-                      type="text"
-                      required
-                      value={recoveryNewUsername}
-                      onChange={(e) => setRecoveryNewUsername(e.target.value)}
-                      placeholder="e.g. admin"
-                      className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="text-[11px] font-bold text-[#1a130f] block mb-1">New Password *</label>
-                    <input
-                      type="password"
-                      required
-                      value={recoveryNewPassword}
-                      onChange={(e) => setRecoveryNewPassword(e.target.value)}
-                      placeholder="Enter secure new password"
-                      className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="text-[11px] font-bold text-[#1a130f] block mb-1">Confirm New Password *</label>
-                    <input
-                      type="password"
-                      required
-                      value={recoveryConfirmPassword}
-                      onChange={(e) => setRecoveryConfirmPassword(e.target.value)}
-                      placeholder="Confirm new password"
-                      className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
-                    />
-                  </div>
-
-                  <div className="flex justify-end gap-2 pt-3 border-t border-[#e7e5e4]">
+                  <div className="flex justify-end pt-3 border-t border-[#e7e5e4]">
                     <button
                       type="button"
-                      onClick={() => setRecoveryStep(2)}
-                      className="rounded-xl border border-[#e7e5e4] bg-white px-4 py-2 text-xs font-bold text-[#1a130f] hover:bg-stone-50 transition-all cursor-pointer"
+                      onClick={() => setIsForgotOpen(false)}
+                      className="rounded-xl bg-[#1a130f] hover:bg-[#b45309] text-white px-5 py-2 text-xs font-bold transition-all cursor-pointer shadow-md"
                     >
-                      Back
-                    </button>
-                    <button
-                      type="submit"
-                      className="rounded-xl bg-[#b45309] hover:bg-stone-900 text-white px-4 py-2 text-xs font-bold transition-all cursor-pointer shadow-md"
-                    >
-                      Reset Credentials
+                      Close Window
                     </button>
                   </div>
-                </form>
+                </div>
               )}
             </div>
           </div>
@@ -457,7 +334,6 @@ function DashboardView({ onLogout }: DashboardViewProps) {
   const queryClient = useQueryClient();
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedBrand, setSelectedBrand] = useState("All");
-  const [selectedStockFilter, setSelectedStockFilter] = useState("All");
 
   const { data: globalSettings = { show_stock_status: true } } = useQuery({
     queryKey: ["globalSettings"],
@@ -477,11 +353,121 @@ function DashboardView({ onLogout }: DashboardViewProps) {
   // Metrics calculations
   const metrics = useMemo(() => {
     const total = mergedProducts.length;
-    const inStock = mergedProducts.filter((p) => p.stock).length;
-    const outOfStock = total - inStock;
-    const customized = dbProducts.length;
-    return { total, inStock, outOfStock, customized };
-  }, [mergedProducts, dbProducts]);
+
+    const countByType = (typeKey: string) => {
+      return mergedProducts.filter((p) => {
+        const pType = (p.type || "").toLowerCase().trim();
+        const pCat = (p.category || "").toLowerCase().trim();
+        const sType = typeKey.toLowerCase().trim();
+        if (sType === "sensors" || sType === "sensor") {
+          return pType.includes("sensor") || pCat.includes("sensor");
+        }
+        return pType === sType || pType.includes(sType) || pCat.includes(sType);
+      }).length;
+    };
+
+    const plcCount = countByType("PLC");
+    const hmiCount = countByType("HMI");
+    const vfdCount = countByType("VFD");
+    const sensorCount = countByType("Sensor");
+
+    return { total, plcCount, hmiCount, vfdCount, sensorCount };
+  }, [mergedProducts]);
+
+  // Inline editing state
+  const [inlineProductEdits, setInlineProductEdits] = useState<Record<string, {
+    name?: string;
+    partNumber?: string;
+    brand?: string;
+    category?: string;
+    type?: string;
+    price?: string;
+  }>>({});
+
+  const handleInlineChange = (slug: string, field: string, value: string) => {
+    setInlineProductEdits((prev) => {
+      const current = prev[slug] || {};
+      return {
+        ...prev,
+        [slug]: {
+          ...current,
+          [field]: value,
+        },
+      };
+    });
+  };
+
+  const handleSaveInlineEdit = async (p: ExtendedProduct) => {
+    const edits = inlineProductEdits[p.slug];
+    if (!edits) return;
+
+    const finalName = edits.name !== undefined ? edits.name.trim() : p.name;
+    const finalPartNumber = edits.partNumber !== undefined ? edits.partNumber.trim() : p.partNumber;
+    const finalCategory = edits.category !== undefined ? edits.category.trim() : p.category;
+
+    if (!finalName || !finalPartNumber || !finalCategory) {
+      toast.error("Name, Part Number, and Category cannot be empty.");
+      return;
+    }
+
+    const dbPayload: Partial<DbProduct> = {
+      name: finalName,
+      part_number: finalPartNumber,
+      brand: edits.brand !== undefined ? edits.brand.trim() : p.brand,
+      category: finalCategory,
+      type: edits.type !== undefined ? edits.type.trim() : p.type,
+      price: edits.price !== undefined ? edits.price.trim() : p.price || "On Request",
+      description: p.description || "",
+      image: p.image || "",
+      slug: p.slug,
+      stock: true,
+      stock_count: 1000,
+      is_custom: p.isCustom,
+      is_deleted: p.isDeleted || false,
+      specifications: p.specifications || [],
+    };
+
+    if (!p.isCustom) {
+      dbPayload.id = p.id;
+    }
+
+    toast.loading("Saving inline edits...", { id: "saveInlineEdit" });
+    const res = await saveProductOverride(dbPayload);
+
+    if (res.success) {
+      toast.success("Changes saved successfully!", { id: "saveInlineEdit" });
+      setInlineProductEdits((prev) => {
+        const next = { ...prev };
+        delete next[p.slug];
+        return next;
+      });
+      queryClient.invalidateQueries({ queryKey: ["dbProducts"] });
+    } else {
+      toast.error(`Failed to save inline changes: ${res.error}`, { id: "saveInlineEdit" });
+    }
+  };
+
+  const dynamicBrands = useMemo(() => {
+    const brandSet = new Set<string>();
+    mergedProducts.forEach((p) => {
+      const b = (p.brand || "").trim();
+      if (b) {
+        brandSet.add(b);
+      }
+    });
+    return Array.from(brandSet).sort((a, b) => a.localeCompare(b));
+  }, [mergedProducts]);
+
+  const dynamicTypes = useMemo(() => {
+    const typeSet = new Set<string>();
+    mergedProducts.forEach((p) => {
+      const t = (p.type || "").trim();
+      if (t) {
+        typeSet.add(t);
+      }
+    });
+    return Array.from(typeSet).sort((a, b) => a.localeCompare(b));
+  }, [mergedProducts]);
 
   // Form State
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -490,14 +476,13 @@ function DashboardView({ onLogout }: DashboardViewProps) {
   // Fields state
   const [name, setName] = useState("");
   const [partNumber, setPartNumber] = useState("");
+  const [price, setPrice] = useState("On Request");
   const [brand, setBrand] = useState("Siemens");
   const [category, setCategory] = useState("");
   const [type, setType] = useState("PLC");
   const [description, setDescription] = useState("");
   const [imageUrl, setImageUrl] = useState("");
   const [slug, setSlug] = useState("");
-  const [stock, setStock] = useState(true);
-  const [stockCount, setStockCount] = useState(5);
   const [specifications, setSpecifications] = useState<{ label: string; value: string }[]>([]);
   const [isUploading, setIsUploading] = useState(false);
   const [showUrlInput, setShowUrlInput] = useState(false);
@@ -507,7 +492,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
 
   useEffect(() => {
     setCurrentPage(1);
-  }, [searchQuery, selectedBrand, selectedStockFilter, selectedCustomFilter, selectedTypeFilter]);
+  }, [searchQuery, selectedBrand, selectedCustomFilter, selectedTypeFilter]);
 
   // Account settings state
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
@@ -598,8 +583,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
     }
   };
 
-  // Inline Quick Stock Edits State (tracking changes by slug)
-  const [inlineStockState, setInlineStockState] = useState<Record<string, { stock: boolean; stockCount: number }>>({});
+
 
   const handleNameChange = (val: string) => {
     setName(val);
@@ -616,14 +600,13 @@ function DashboardView({ onLogout }: DashboardViewProps) {
     setEditingProduct(null);
     setName("");
     setPartNumber("");
-    setBrand("Siemens");
+    setPrice("On Request");
+    setBrand("");
     setCategory("");
-    setType("PLC");
+    setType("");
     setDescription("");
     setImageUrl("");
     setSlug("");
-    setStock(true);
-    setStockCount(5);
     setSpecifications([
       { label: "Warranty", value: "1 Year Official Warranty" },
       { label: "Dispatch", value: "Makarba, Ahmedabad, Gujarat" },
@@ -637,14 +620,13 @@ function DashboardView({ onLogout }: DashboardViewProps) {
     setEditingProduct(p);
     setName(p.name);
     setPartNumber(p.partNumber || "");
+    setPrice(p.price || "On Request");
     setBrand(p.brand || "Siemens");
     setCategory(p.category || "");
     setType(p.type || "PLC");
     setDescription(p.description || "");
     setImageUrl(p.image || "");
     setSlug(p.slug || "");
-    setStock(p.stock);
-    setStockCount(p.stockCount);
     setSpecifications(p.specifications || []);
     setShowUrlInput(false);
     setIsFormOpen(true);
@@ -686,11 +668,12 @@ function DashboardView({ onLogout }: DashboardViewProps) {
       brand: brand,
       category: category.trim(),
       type: type,
+      price: price.trim() || "On Request",
       description: description.trim(),
       image: imageUrl.trim(),
       slug: productSlug,
-      stock: stock,
-      stock_count: stockCount,
+      stock: true,
+      stock_count: 1000,
       is_custom: editingProduct ? editingProduct.isCustom : true,
       specifications: cleanSpecs,
     };
@@ -754,8 +737,8 @@ function DashboardView({ onLogout }: DashboardViewProps) {
       description: p.description || "",
       image: p.image || "",
       slug: p.slug,
-      stock: p.stock,
-      stock_count: p.stockCount,
+      stock: true,
+      stock_count: 1000,
       is_custom: false,
       is_deleted: true,
     };
@@ -774,78 +757,10 @@ function DashboardView({ onLogout }: DashboardViewProps) {
     }
   };
 
-  const handleInlineStockChange = (slug: string, key: "stock" | "stockCount", val: any) => {
-    const existingInline = inlineStockState[slug] || {
-      stock: mergedProducts.find(p => p.slug === slug)?.stock ?? true,
-      stockCount: mergedProducts.find(p => p.slug === slug)?.stockCount ?? 5
-    };
-
-    const updated = {
-      ...existingInline,
-      [key]: val
-    };
-
-    // Auto set stock boolean if stock count becomes 0 or vice versa
-    if (key === "stockCount") {
-      updated.stock = val > 0;
-    } else if (key === "stock") {
-      updated.stockCount = val ? (updated.stockCount === 0 ? 5 : updated.stockCount) : 0;
-    }
-
-    setInlineStockState({
-      ...inlineStockState,
-      [slug]: updated
-    });
-  };
-
-  const handleSaveInlineStock = async (p: ExtendedProduct) => {
-    const inline = inlineStockState[p.slug];
-    if (!inline) return;
-
-    const dbPayload: Partial<DbProduct> = {
-      name: p.name,
-      part_number: p.partNumber || "",
-      brand: p.brand || "Siemens",
-      category: p.category || "",
-      type: p.type || "PLC",
-      description: p.description || "",
-      image: p.image || "",
-      slug: p.slug,
-      stock: inline.stock,
-      stock_count: inline.stockCount,
-      is_custom: p.isCustom,
-      specifications: p.specifications || []
-    };
-
-    if (!p.isCustom) {
-      dbPayload.is_custom = false;
-      // Fetch matching DB item ID if it was already modified before
-      const dbMatch = dbProducts.find(dbp => dbp.slug === p.slug);
-      if (dbMatch && dbMatch.id) dbPayload.id = dbMatch.id;
-    }
-
-    toast.loading("Saving stock...", { id: `inline-${p.slug}` });
-    const res = await saveProductOverride(dbPayload);
-
-    if (res.success) {
-      toast.success("Stock details updated!", { id: `inline-${p.slug}` });
-      // Clear inline changes state for this product
-      const copy = { ...inlineStockState };
-      delete copy[p.slug];
-      setInlineStockState(copy);
-      queryClient.invalidateQueries({ queryKey: ["dbProducts"] });
-    } else {
-      toast.error(`Error saving stock: ${res.error}`, { id: `inline-${p.slug}` });
-    }
-  };
-
   // Filter products list
   const filteredProductsList = useMemo(() => {
     return mergedProducts.filter((p) => {
       const matchBrand = selectedBrand === "All" || p.brand.toLowerCase() === selectedBrand.toLowerCase();
-      const matchStock = selectedStockFilter === "All" 
-        ? true 
-        : selectedStockFilter === "InStock" ? p.stock : !p.stock;
 
       const isModifiedOrCustom = p.isCustom || dbProducts.some(dbp => dbp.slug === p.slug);
       const matchCustom = selectedCustomFilter === "All"
@@ -874,9 +789,9 @@ function DashboardView({ onLogout }: DashboardViewProps) {
         searchableText.includes(cleanQuery) ||
         searchQuery.toLowerCase().trim().split(/\s+/).every(term => searchableText.includes(term));
 
-      return matchBrand && matchStock && matchCustom && matchesType && matchSearch;
+      return matchBrand && matchCustom && matchesType && matchSearch;
     });
-  }, [mergedProducts, selectedBrand, selectedStockFilter, selectedCustomFilter, selectedTypeFilter, searchQuery, dbProducts]);
+  }, [mergedProducts, selectedBrand, selectedCustomFilter, selectedTypeFilter, searchQuery, dbProducts]);
 
   // Pagination Configuration
   const ITEMS_PER_PAGE = 15;
@@ -913,57 +828,22 @@ function DashboardView({ onLogout }: DashboardViewProps) {
   };
 
   return (
-    <div className="min-h-screen bg-[#f6f4ee] pb-16 font-sans">
+    <div className="min-h-screen bg-background pb-16 font-sans">
       <Header />
 
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
         {/* Dashboard Title & Actions */}
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between border-b border-[#e7e5e4] pb-6 mb-8">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between border-b border-border pb-6 mb-8">
           <div>
-            <span className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-[#b45309] block">
+            <span className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-accent block">
               Control Panel
             </span>
-            <h1 className="mt-1 font-display text-2xl font-extrabold text-[#1a130f] sm:text-3xl flex items-center gap-2">
-              <LayoutDashboard className="h-6 w-6 text-[#b45309]" /> Catalog Administration
+            <h1 className="mt-1 font-display text-2xl font-extrabold text-foreground sm:text-3xl flex items-center gap-2">
+              <LayoutDashboard className="h-6 w-6 text-accent" /> Catalog Administration
             </h1>
           </div>
 
           <div className="flex flex-wrap items-center gap-3">
-            <div className="flex items-center gap-2 rounded-xl bg-white border border-[#e7e5e4] px-3.5 py-2 shadow-sm h-[38px]">
-              <label className="relative inline-flex items-center cursor-pointer select-none">
-                <input
-                  type="checkbox"
-                  checked={globalSettings.show_stock_status}
-                  onChange={async (e) => {
-                    toast.loading("Updating stock visibility...", { id: "settingsToggle" });
-                    const res = await saveGlobalSetting("show_stock_status", e.target.checked);
-                    if (res.success) {
-                      if (res.warning) {
-                        toast.warning(
-                          "Saved locally! Run the SQL scripts in your Supabase SQL Editor to make this setting active for all visitors.",
-                          { id: "settingsToggle", duration: 8000 }
-                        );
-                      } else {
-                        toast.success(
-                          e.target.checked 
-                            ? "Stock visibility enabled on website!" 
-                            : "Stock visibility disabled on website!", 
-                          { id: "settingsToggle" }
-                        );
-                      }
-                      queryClient.invalidateQueries({ queryKey: ["globalSettings"] });
-                    } else {
-                      toast.error("Failed to update settings.", { id: "settingsToggle" });
-                    }
-                  }}
-                  className="sr-only peer"
-                />
-                <div className="w-8 h-4 bg-stone-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-stone-300 after:border after:rounded-full after:h-3 after:w-3 after:transition-all peer-checked:bg-[#b45309]"></div>
-                <span className="ml-2 text-[10px] font-extrabold uppercase tracking-wider text-[#1a130f]">
-                  Show Stock on Web
-                </span>
-              </label>
-            </div>
             <button
               onClick={() => setIsSettingsOpen(true)}
               className="inline-flex items-center gap-1.5 rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs font-bold uppercase tracking-wider text-[#1a130f] hover:bg-stone-50 transition-all cursor-pointer shadow-sm"
@@ -994,15 +874,15 @@ function DashboardView({ onLogout }: DashboardViewProps) {
         </div>
 
         {/* Dashboard Summary Metrics */}
-        <div className="grid gap-4 grid-cols-2 lg:grid-cols-4 mb-8">
+        <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 mb-8">
           <div 
             onClick={() => {
-              setSelectedStockFilter("All");
+              setSelectedTypeFilter("All");
               setSelectedCustomFilter("All");
               toast.info("Showing all products in catalog.");
             }}
             className={`rounded-2xl border p-5 shadow-sm cursor-pointer select-none transition-all duration-200 hover:shadow-md hover:scale-[1.02] ${
-              selectedStockFilter === "All" && selectedCustomFilter === "All"
+              selectedTypeFilter === "All"
                 ? "border-[#b45309] bg-[#b45309]/5 ring-1 ring-[#b45309]/30"
                 : "border-[#e7e5e4] bg-white hover:border-[#b45309]/50"
             }`}
@@ -1012,67 +892,87 @@ function DashboardView({ onLogout }: DashboardViewProps) {
               <span className="text-xs font-bold uppercase tracking-wider">Total Catalog</span>
             </div>
             <p className="text-3xl font-extrabold text-[#1a130f]">{metrics.total}</p>
-            <p className="text-[10px] text-slate-400 font-semibold mt-1">Click to view all products</p>
+            <p className="text-[10px] text-slate-400 font-semibold mt-1">Click to view all</p>
           </div>
 
           <div 
             onClick={() => {
-              setSelectedStockFilter("InStock");
+              setSelectedTypeFilter("PLC");
               setSelectedCustomFilter("All");
-              toast.info("Filtered by In Stock products.");
+              toast.info("Filtered by PLC products.");
             }}
             className={`rounded-2xl border p-5 shadow-sm cursor-pointer select-none transition-all duration-200 hover:shadow-md hover:scale-[1.02] ${
-              selectedStockFilter === "InStock"
-                ? "border-emerald-500 bg-emerald-50/40 ring-1 ring-emerald-500/30"
-                : "border-[#e7e5e4] bg-white hover:border-emerald-500/50"
-            }`}
-          >
-            <div className="flex items-center gap-3 text-emerald-600 mb-2">
-              <CheckCircle className="h-5 w-5" />
-              <span className="text-xs font-bold uppercase tracking-wider text-slate-500">In Stock</span>
-            </div>
-            <p className="text-3xl font-extrabold text-emerald-600">{metrics.inStock}</p>
-            <p className="text-[10px] text-slate-400 font-semibold mt-1">Click to filter in stock</p>
-          </div>
-
-          <div 
-            onClick={() => {
-              setSelectedStockFilter("OutOfStock");
-              setSelectedCustomFilter("All");
-              toast.info("Filtered by Out of Stock products.");
-            }}
-            className={`rounded-2xl border p-5 shadow-sm cursor-pointer select-none transition-all duration-200 hover:shadow-md hover:scale-[1.02] ${
-              selectedStockFilter === "OutOfStock"
-                ? "border-rose-500 bg-rose-50/40 ring-1 ring-rose-500/30"
-                : "border-[#e7e5e4] bg-white hover:border-rose-500/50"
-            }`}
-          >
-            <div className="flex items-center gap-3 text-rose-600 mb-2">
-              <ShieldAlert className="h-5 w-5" />
-              <span className="text-xs font-bold uppercase tracking-wider text-slate-500">Out of Stock</span>
-            </div>
-            <p className="text-3xl font-extrabold text-rose-600">{metrics.outOfStock}</p>
-            <p className="text-[10px] text-slate-400 font-semibold mt-1">Click to filter out of stock</p>
-          </div>
-
-          <div 
-            onClick={() => {
-              setSelectedStockFilter("All");
-              setSelectedCustomFilter("CustomOnly");
-              toast.info("Filtered by custom added and modified products.");
-            }}
-            className={`rounded-2xl border p-5 shadow-sm cursor-pointer select-none transition-all duration-200 hover:shadow-md hover:scale-[1.02] ${
-              selectedCustomFilter === "CustomOnly"
+              selectedTypeFilter === "PLC"
                 ? "border-blue-500 bg-blue-50/40 ring-1 ring-blue-500/30"
                 : "border-[#e7e5e4] bg-white hover:border-blue-500/50"
             }`}
           >
             <div className="flex items-center gap-3 text-blue-600 mb-2">
-              <Layers className="h-5 w-5" />
-              <span className="text-xs font-bold uppercase tracking-wider text-slate-500">Custom / Overrides</span>
+              <Cpu className="h-5 w-5" />
+              <span className="text-xs font-bold uppercase tracking-wider text-slate-500">PLC Controllers</span>
             </div>
-            <p className="text-3xl font-extrabold text-blue-600">{metrics.customized}</p>
-            <p className="text-[10px] text-slate-400 font-semibold mt-1">Click to filter overrides</p>
+            <p className="text-3xl font-extrabold text-blue-600">{metrics.plcCount}</p>
+            <p className="text-[10px] text-slate-400 font-semibold mt-1">Click to filter PLCs</p>
+          </div>
+
+          <div 
+            onClick={() => {
+              setSelectedTypeFilter("HMI");
+              setSelectedCustomFilter("All");
+              toast.info("Filtered by HMI panels.");
+            }}
+            className={`rounded-2xl border p-5 shadow-sm cursor-pointer select-none transition-all duration-200 hover:shadow-md hover:scale-[1.02] ${
+              selectedTypeFilter === "HMI"
+                ? "border-indigo-500 bg-indigo-50/40 ring-1 ring-indigo-500/30"
+                : "border-[#e7e5e4] bg-white hover:border-indigo-500/50"
+            }`}
+          >
+            <div className="flex items-center gap-3 text-indigo-600 mb-2">
+              <Monitor className="h-5 w-5" />
+              <span className="text-xs font-bold uppercase tracking-wider text-slate-500">HMI & Touch</span>
+            </div>
+            <p className="text-3xl font-extrabold text-indigo-600">{metrics.hmiCount}</p>
+            <p className="text-[10px] text-slate-400 font-semibold mt-1">Click to filter HMIs</p>
+          </div>
+
+          <div 
+            onClick={() => {
+              setSelectedTypeFilter("VFD");
+              setSelectedCustomFilter("All");
+              toast.info("Filtered by VFD frequency drives.");
+            }}
+            className={`rounded-2xl border p-5 shadow-sm cursor-pointer select-none transition-all duration-200 hover:shadow-md hover:scale-[1.02] ${
+              selectedTypeFilter === "VFD"
+                ? "border-amber-500 bg-amber-50/40 ring-1 ring-amber-500/30"
+                : "border-[#e7e5e4] bg-white hover:border-[#b45309]/50"
+            }`}
+          >
+            <div className="flex items-center gap-3 text-[#b45309] mb-2">
+              <Zap className="h-5 w-5" />
+              <span className="text-xs font-bold uppercase tracking-wider text-slate-500">VFDs & Drives</span>
+            </div>
+            <p className="text-3xl font-extrabold text-[#b45309]">{metrics.vfdCount}</p>
+            <p className="text-[10px] text-slate-400 font-semibold mt-1">Click to filter VFDs</p>
+          </div>
+
+          <div 
+            onClick={() => {
+              setSelectedTypeFilter("Sensor");
+              setSelectedCustomFilter("All");
+              toast.info("Filtered by sensor devices.");
+            }}
+            className={`rounded-2xl border p-5 shadow-sm cursor-pointer select-none transition-all duration-200 hover:shadow-md hover:scale-[1.02] ${
+              selectedTypeFilter === "Sensor"
+                ? "border-emerald-500 bg-emerald-50/40 ring-1 ring-emerald-500/30"
+                : "border-[#e7e5e4] bg-white hover:border-emerald-500/50"
+            }`}
+          >
+            <div className="flex items-center gap-3 text-emerald-600 mb-2">
+              <Radio className="h-5 w-5" />
+              <span className="text-xs font-bold uppercase tracking-wider text-slate-500">Sensors & Fields</span>
+            </div>
+            <p className="text-3xl font-extrabold text-emerald-600">{metrics.sensorCount}</p>
+            <p className="text-[10px] text-slate-400 font-semibold mt-1">Click to filter sensors</p>
           </div>
         </div>
 
@@ -1098,24 +998,13 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                 className="rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs font-bold text-[#1a130f] focus:border-[#1a130f] focus:outline-none"
               >
                 <option value="All">All Brands</option>
-                {staticBrands.map((b) => (
+                {dynamicBrands.map((b) => (
                   <option key={b} value={b}>{b}</option>
                 ))}
               </select>
             </div>
 
-            <div className="flex items-center gap-2">
-              <span className="text-[10px] font-extrabold uppercase text-slate-500">Stock:</span>
-              <select
-                value={selectedStockFilter}
-                onChange={(e) => setSelectedStockFilter(e.target.value)}
-                className="rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs font-bold text-[#1a130f] focus:border-[#1a130f] focus:outline-none"
-              >
-                <option value="All">All Statuses</option>
-                <option value="InStock">In Stock</option>
-                <option value="OutOfStock">Out of Stock</option>
-              </select>
-            </div>
+
 
             <div className="flex items-center gap-2">
               <span className="text-[10px] font-extrabold uppercase text-slate-500">Type:</span>
@@ -1125,18 +1014,17 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                 className="rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs font-bold text-[#1a130f] focus:border-[#1a130f] focus:outline-none"
               >
                 <option value="All">All Types</option>
-                {productTypesList.map((t) => (
+                {dynamicTypes.map((t) => (
                   <option key={t} value={t}>{t}</option>
                 ))}
               </select>
             </div>
  
-            {searchQuery || selectedBrand !== "All" || selectedStockFilter !== "All" || selectedCustomFilter !== "All" || selectedTypeFilter !== "All" ? (
+            {searchQuery || selectedBrand !== "All" || selectedCustomFilter !== "All" || selectedTypeFilter !== "All" ? (
               <button
                 onClick={() => {
                   setSearchQuery("");
                   setSelectedBrand("All");
-                  setSelectedStockFilter("All");
                   setSelectedCustomFilter("All");
                   setSelectedTypeFilter("All");
                 }}
@@ -1150,30 +1038,33 @@ function DashboardView({ onLogout }: DashboardViewProps) {
 
         {/* Products Management Table */}
         <div className="overflow-x-auto rounded-2xl border border-[#e7e5e4] bg-white shadow-sm">
-          <table className="w-full text-left border-collapse text-xs hidden sm:table">
+          <table className="w-full text-left border-collapse text-xs hidden sm:table font-sans">
             <thead>
               <tr className="bg-stone-50 border-b border-[#e7e5e4] text-[10px] font-extrabold uppercase tracking-wider text-slate-500">
                 <th className="p-4 w-16">Preview</th>
                 <th className="p-4 w-28">Part Number</th>
-                <th className="p-4">Product Details</th>
-                <th className="p-4 w-32">Stock Status</th>
-                <th className="p-4 w-24">In Stock Count</th>
+                <th className="p-4">Product Details (Double Click to Edit)</th>
+                <th className="p-4 w-32 text-center">Price</th>
                 <th className="p-4 w-32 text-right">Actions</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-[#e7e5e4]">
               {filteredProductsList.length === 0 ? (
                 <tr>
-                  <td colSpan={6} className="p-8 text-center text-slate-400 font-semibold">
+                  <td colSpan={5} className="p-8 text-center text-slate-400 font-semibold">
                     No products found matching filters.
                   </td>
                 </tr>
               ) : (
                 paginatedProducts.map((p) => {
-                  const inline = inlineStockState[p.slug];
-                  const currentStock = inline !== undefined ? inline.stock : p.stock;
-                  const currentCount = inline !== undefined ? inline.stockCount : p.stockCount;
-                  const hasInlineChanges = inline !== undefined;
+                  const edits = inlineProductEdits[p.slug] || {};
+                  const currentName = edits.name !== undefined ? edits.name : p.name || "";
+                  const currentPartNumber = edits.partNumber !== undefined ? edits.partNumber : p.partNumber || "";
+                  const currentBrand = edits.brand !== undefined ? edits.brand : p.brand || "";
+                  const currentCategory = edits.category !== undefined ? edits.category : p.category || "";
+                  const currentType = edits.type !== undefined ? edits.type : p.type || "";
+                  const currentPrice = edits.price !== undefined ? edits.price : p.price || "On Request";
+                  const hasInlineChanges = inlineProductEdits[p.slug] !== undefined;
 
                   return (
                     <tr key={p.slug} className={`hover:bg-stone-50/50 transition-colors ${p.isDeleted ? "opacity-60 bg-red-50/30 line-through decoration-red-500/40" : ""}`}>
@@ -1181,39 +1072,74 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                         <div className="h-16 w-16 overflow-hidden rounded-lg border border-stone-200 bg-white p-1 flex items-center justify-center shadow-sm">
                           <img
                             src={p.image || "/fallback-img.png"}
-                            alt={p.name}
+                            alt={currentName}
                             className="h-full w-full object-contain"
                             onError={(e) => {
-                              (e.target as HTMLImageElement).src = `https://placehold.co/100x100/ffffff/1a130f?text=${p.brand}`;
+                              (e.target as HTMLImageElement).src = `https://placehold.co/100x100/ffffff/1a130f?text=${currentBrand}`;
                             }}
                           />
                         </div>
                       </td>
                       <td className="p-4 font-mono font-bold text-[#1a130f]">
-                        {p.partNumber || "—"}
+                        <input
+                          type="text"
+                          value={currentPartNumber}
+                          onChange={(e) => handleInlineChange(p.slug, "partNumber", e.target.value)}
+                          className="bg-transparent hover:bg-stone-100/60 hover:border-stone-200 focus:bg-white focus:border-stone-300 border border-transparent rounded px-2 py-1 text-xs font-mono font-bold text-[#1a130f] w-full transition-all focus:outline-none focus:ring-1 focus:ring-[#1a130f]/10"
+                          placeholder="Part Number"
+                        />
                       </td>
                       <td className="p-4 space-y-1">
-                        <div className="font-bold text-[#1a130f] text-sm line-clamp-1 flex items-center gap-2">
-                          {p.name}
+                        <div className="font-bold text-[#1a130f] text-sm flex items-center gap-2">
+                          <input
+                            type="text"
+                            value={currentName}
+                            onChange={(e) => handleInlineChange(p.slug, "name", e.target.value)}
+                            className="bg-transparent hover:bg-stone-100/60 hover:border-stone-200 focus:bg-white focus:border-stone-300 border border-transparent rounded px-2 py-1 text-xs font-bold text-[#1a130f] w-full transition-all focus:outline-none focus:ring-1 focus:ring-[#1a130f]/10"
+                            placeholder="Product Name"
+                          />
                           {p.isDeleted && (
-                            <span className="rounded bg-rose-100 border border-rose-200 px-1.5 py-0.5 text-[8px] font-extrabold uppercase text-rose-700 tracking-wider line-clamp-1 no-underline">
+                            <span className="rounded bg-rose-100 border border-rose-200 px-1.5 py-0.5 text-[8px] font-extrabold uppercase text-rose-700 tracking-wider line-clamp-1 no-underline shrink-0">
                               Hidden from Web
                             </span>
                           )}
                         </div>
                         <div className="flex flex-wrap items-center gap-2 no-underline">
-                          <span className="rounded bg-stone-100 border border-stone-200 px-1.5 py-0.5 text-[9px] font-extrabold text-[#1a130f]">
-                            {p.brand}
-                          </span>
-                          <span className="rounded bg-amber-50 border border-amber-200 px-1.5 py-0.5 text-[9px] font-extrabold text-[#b45309]">
-                            {p.category}
-                          </span>
+                          <div className="relative">
+                            <input
+                              type="text"
+                              value={currentBrand}
+                              onChange={(e) => handleInlineChange(p.slug, "brand", e.target.value)}
+                              className="rounded bg-stone-100 border border-stone-200/60 hover:border-stone-300 px-1.5 py-0.5 text-[9px] font-extrabold text-[#1a130f] w-24 text-center focus:bg-white focus:outline-none transition-all"
+                              placeholder="Brand"
+                              list="brands-datalist"
+                            />
+                          </div>
+                          <div className="relative">
+                            <input
+                              type="text"
+                              value={currentCategory}
+                              onChange={(e) => handleInlineChange(p.slug, "category", e.target.value)}
+                              className="rounded bg-amber-50 border border-amber-200/60 hover:border-amber-300 px-1.5 py-0.5 text-[9px] font-extrabold text-[#b45309] w-28 text-center focus:bg-white focus:outline-none transition-all"
+                              placeholder="Category"
+                            />
+                          </div>
+                          <div className="relative">
+                            <input
+                              type="text"
+                              value={currentType}
+                              onChange={(e) => handleInlineChange(p.slug, "type", e.target.value)}
+                              className="rounded bg-blue-50 border border-blue-200/60 hover:border-blue-300 px-1.5 py-0.5 text-[9px] font-bold text-blue-700 w-24 text-center focus:bg-white focus:outline-none transition-all"
+                              placeholder="Type"
+                              list="types-datalist"
+                            />
+                          </div>
                           {p.isCustom ? (
-                            <span className="rounded bg-blue-50 border border-blue-200 px-1.5 py-0.5 text-[9px] font-bold text-blue-700">
+                            <span className="rounded bg-blue-50 border border-blue-200 px-1.5 py-0.5 text-[9px] font-bold text-blue-700 select-none">
                               Custom Added
                             </span>
                           ) : dbProducts.some(dbp => dbp.slug === p.slug) ? (
-                            <span className={`rounded border px-1.5 py-0.5 text-[9px] font-bold ${
+                            <span className={`rounded border px-1.5 py-0.5 text-[9px] font-bold select-none ${
                               p.isDeleted
                                 ? "bg-rose-50 border-rose-200 text-rose-700"
                                 : "bg-amber-50 border-amber-200 text-amber-800"
@@ -1221,42 +1147,28 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                               {p.isDeleted ? "Deleted Override" : "Modified Defaults"}
                             </span>
                           ) : (
-                            <span className="rounded bg-slate-50 border border-slate-200 px-1.5 py-0.5 text-[9px] font-bold text-slate-500">
+                            <span className="rounded bg-slate-50 border border-slate-200 px-1.5 py-0.5 text-[9px] font-bold text-slate-500 select-none">
                               Static Catalog
                             </span>
                           )}
                         </div>
                       </td>
                       <td className="p-4">
-                        <label className="relative inline-flex items-center cursor-pointer">
-                          <input
-                            type="checkbox"
-                            checked={currentStock}
-                            onChange={(e) => handleInlineStockChange(p.slug, "stock", e.target.checked)}
-                            className="sr-only peer"
-                          />
-                          <div className="w-9 h-5 bg-stone-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-stone-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-emerald-500"></div>
-                          <span className={`ml-2 text-[10px] font-bold ${currentStock ? "text-emerald-700" : "text-slate-500"}`}>
-                            {currentStock ? "In Stock" : "Out of Stock"}
-                          </span>
-                        </label>
-                      </td>
-                      <td className="p-4">
                         <input
-                          type="number"
-                          min="0"
-                          value={currentCount}
-                          onChange={(e) => handleInlineStockChange(p.slug, "stockCount", parseInt(e.target.value) || 0)}
-                          className="w-16 rounded-lg border border-stone-200 bg-white px-2 py-1 text-xs text-center font-bold text-[#1a130f]"
+                          type="text"
+                          value={currentPrice}
+                          onChange={(e) => handleInlineChange(p.slug, "price", e.target.value)}
+                          className="bg-transparent hover:bg-stone-100/60 hover:border-stone-200 focus:bg-white focus:border-stone-300 border border-transparent rounded px-2 py-1 text-xs font-bold text-[#1a130f] w-full text-center transition-all focus:outline-none focus:ring-1 focus:ring-[#1a130f]/10 font-semibold"
+                          placeholder="Price"
                         />
                       </td>
                       <td className="p-4 text-right">
                         <div className="flex items-center justify-end gap-2">
                           {hasInlineChanges && (
                             <button
-                              onClick={() => handleSaveInlineStock(p)}
+                              onClick={() => handleSaveInlineEdit(p)}
                               className="inline-flex items-center justify-center h-7 w-7 rounded-lg bg-emerald-600 text-white hover:bg-emerald-700 transition-colors shadow-sm"
-                              title="Save Stock Edit"
+                              title="Save Inline Edits"
                             >
                               <Check className="h-3.5 w-3.5" />
                             </button>
@@ -1317,11 +1229,6 @@ function DashboardView({ onLogout }: DashboardViewProps) {
               </div>
             ) : (
               paginatedProducts.map((p) => {
-                const inline = inlineStockState[p.slug];
-                const currentStock = inline !== undefined ? inline.stock : p.stock;
-                const currentCount = inline !== undefined ? inline.stockCount : p.stockCount;
-                const hasInlineChanges = inline !== undefined;
-
                 return (
                   <div key={p.slug} className={`p-4 bg-white space-y-3 ${p.isDeleted ? "opacity-60 bg-red-50/20 line-through decoration-red-500/20" : ""}`}>
                     <div className="flex gap-3">
@@ -1371,82 +1278,48 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                       </div>
                     </div>
 
-                    {/* Stock Status Inline edit */}
-                    <div className="flex items-center justify-between bg-[#faf9f6] p-2.5 rounded-xl border border-[#e7e5e4]/60 gap-2">
-                      <label className="relative inline-flex items-center cursor-pointer">
-                        <input
-                          type="checkbox"
-                          checked={currentStock}
-                          onChange={(e) => handleInlineStockChange(p.slug, "stock", e.target.checked)}
-                          className="sr-only peer"
-                        />
-                        <div className="w-8 h-4 bg-stone-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-stone-300 after:border after:rounded-full after:h-3 after:w-3 after:transition-all peer-checked:bg-emerald-500"></div>
-                        <span className={`ml-1.5 text-[9px] font-bold ${currentStock ? "text-emerald-700" : "text-slate-500"}`}>
-                          {currentStock ? "Stock" : "Out"}
-                        </span>
-                      </label>
-                      
-                      <div className="flex items-center gap-1.5">
-                        <span className="text-[9px] font-bold text-slate-500">Qty:</span>
-                        <input
-                          type="number"
-                          min="0"
-                          value={currentCount}
-                          onChange={(e) => handleInlineStockChange(p.slug, "stockCount", parseInt(e.target.value) || 0)}
-                          className="w-10 rounded-lg border border-stone-200 bg-white py-0.5 text-center text-xs font-bold text-[#1a130f]"
-                        />
-                      </div>
-
-                      <div className="flex items-center gap-1">
-                        {hasInlineChanges && (
-                          <button
-                            type="button"
-                            onClick={() => handleSaveInlineStock(p)}
-                            className="inline-flex items-center justify-center h-6 w-6 rounded-lg bg-emerald-600 text-white hover:bg-emerald-700 transition-colors shadow-sm"
-                          >
-                            <Check className="h-3 w-3" />
-                          </button>
-                        )}
-                        {!p.isDeleted && (
-                          <button
-                            type="button"
-                            onClick={() => handleOpenEdit(p)}
-                            className="inline-flex items-center justify-center h-6 w-6 rounded-lg bg-white text-[#1a130f] hover:bg-slate-100 border border-stone-200 transition-colors"
-                          >
-                            <Edit className="h-3 w-3" />
-                          </button>
-                        )}
-                        {p.isCustom ? (
-                          <button
-                            type="button"
-                            onClick={() => handleDeleteRevert(p)}
-                            className="inline-flex items-center justify-center h-6 w-6 rounded-lg bg-rose-50 text-rose-700 border border-rose-200 hover:bg-rose-100 transition-colors"
-                          >
-                            <Trash2 className="h-3 w-3" />
-                          </button>
-                        ) : (
-                          <>
-                            {!p.isDeleted && (
-                              <button
-                                type="button"
-                                onClick={() => handleDeleteStatic(p)}
-                                className="inline-flex items-center justify-center h-6 w-6 rounded-lg bg-rose-50 text-rose-700 border border-rose-200 hover:bg-rose-100 transition-colors"
-                              >
-                                <Trash2 className="h-3 w-3" />
-                              </button>
-                            )}
-                            {dbProducts.some(dbp => dbp.slug === p.slug) && (
-                              <button
-                                type="button"
-                                onClick={() => handleDeleteRevert(p)}
-                                className="inline-flex items-center justify-center h-6 w-6 rounded-lg bg-amber-50 text-amber-800 border border-amber-200 hover:bg-amber-100 transition-colors"
-                              >
-                                <RotateCcw className="h-3 w-3" />
-                              </button>
-                            )}
-                          </>
-                        )}
-                      </div>
+                    {/* Action Buttons */}
+                    <div className="flex items-center justify-end bg-[#faf9f6] p-2 rounded-xl border border-[#e7e5e4]/60 gap-1.5">
+                      {!p.isDeleted && (
+                        <button
+                          type="button"
+                          onClick={() => handleOpenEdit(p)}
+                          className="inline-flex items-center justify-center h-7 px-3 rounded-lg bg-white text-[#1a130f] hover:bg-slate-100 border border-stone-200 transition-colors text-[10px] font-bold uppercase tracking-wider gap-1"
+                        >
+                          <Edit className="h-3 w-3" /> Edit
+                        </button>
+                      )}
+                      {p.isCustom ? (
+                        <button
+                          type="button"
+                          onClick={() => handleDeleteRevert(p)}
+                          className="inline-flex items-center justify-center h-7 px-3 rounded-lg bg-rose-50 text-rose-700 border border-rose-200 hover:bg-rose-100 transition-colors text-[10px] font-bold uppercase tracking-wider gap-1"
+                        >
+                          <Trash2 className="h-3 w-3" /> Delete
+                        </button>
+                      ) : (
+                        <>
+                          {!p.isDeleted && (
+                            <button
+                              type="button"
+                              onClick={() => handleDeleteStatic(p)}
+                              className="inline-flex items-center justify-center h-7 px-3 rounded-lg bg-rose-50 text-rose-700 border border-rose-200 hover:bg-rose-100 transition-colors text-[10px] font-bold uppercase tracking-wider gap-1"
+                            >
+                              <Trash2 className="h-3 w-3" /> Hide
+                            </button>
+                          )}
+                          {dbProducts.some(dbp => dbp.slug === p.slug) && (
+                            <button
+                              type="button"
+                              onClick={() => handleDeleteRevert(p)}
+                              className="inline-flex items-center justify-center h-7 px-3 rounded-lg bg-amber-50 text-amber-800 border border-amber-200 hover:bg-amber-100 transition-colors text-[10px] font-bold uppercase tracking-wider gap-1"
+                              title={p.isDeleted ? "Restore Product" : "Revert"}
+                            >
+                              <RotateCcw className="h-3 w-3" /> {p.isDeleted ? "Restore" : "Revert"}
+                            </button>
+                          )}
+                        </>
+                      )}
                     </div>
                   </div>
                 );
@@ -1609,16 +1482,20 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                       <label className="text-[11px] font-bold text-[#1a130f] block mb-1">
                         Brand *
                       </label>
-                      <select
+                      <input
+                        type="text"
+                        required
                         value={brand}
                         onChange={(e) => setBrand(e.target.value)}
-                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs font-bold text-[#1a130f] focus:border-[#1a130f] focus:outline-none shadow-sm"
-                      >
-                        {staticBrands.map((b) => (
-                          <option key={b} value={b}>{b}</option>
+                        placeholder="e.g. Siemens or Delta"
+                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-[#1a130f] font-bold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                        list="brands-datalist"
+                      />
+                      <datalist id="brands-datalist">
+                        {dynamicBrands.map((b) => (
+                          <option key={b} value={b} />
                         ))}
-                        <option value="Custom">Custom Brand...</option>
-                      </select>
+                      </datalist>
                     </div>
 
                     <div>
@@ -1645,51 +1522,35 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                       <label className="text-[11px] font-bold text-[#1a130f] block mb-1">
                         Product Type *
                       </label>
-                      <select
+                      <input
+                        type="text"
+                        required
                         value={type}
                         onChange={(e) => setType(e.target.value)}
-                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs font-bold text-[#1a130f] focus:border-[#1a130f] focus:outline-none shadow-sm"
-                      >
-                        {productTypesList.map((t) => (
-                          <option key={t} value={t}>{t}</option>
+                        placeholder="e.g. PLC, HMI, VFD, Sensor"
+                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-[#1a130f] font-bold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                        list="types-datalist"
+                      />
+                      <datalist id="types-datalist">
+                        {dynamicTypes.map((t) => (
+                          <option key={t} value={t} />
                         ))}
-                      </select>
+                      </datalist>
                     </div>
                   </div>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 gap-4">
                     <div>
                       <label className="text-[11px] font-bold text-[#1a130f] block mb-1">
-                        In Stock Quantity
+                        Price (e.g. ₹ 8,000/Piece or On Request)
                       </label>
                       <input
-                        type="number"
-                        min="0"
-                        value={stockCount}
-                        onChange={(e) => {
-                          const val = parseInt(e.target.value) || 0;
-                          setStockCount(val);
-                          setStock(val > 0);
-                        }}
-                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs font-bold text-[#1a130f] focus:border-[#1a130f] focus:outline-none shadow-sm"
+                        type="text"
+                        value={price}
+                        onChange={(e) => setPrice(e.target.value)}
+                        placeholder="On Request"
+                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
                       />
-                    </div>
-
-                    <div className="flex items-center gap-2 h-9 pb-1">
-                      <input
-                        type="checkbox"
-                        id="form-stock"
-                        checked={stock}
-                        onChange={(e) => {
-                          setStock(e.target.checked);
-                          if (!e.target.checked) setStockCount(0);
-                          else if (stockCount === 0) setStockCount(5);
-                        }}
-                        className="rounded text-[#b45309] focus:ring-[#b45309]"
-                      />
-                      <label htmlFor="form-stock" className="text-xs font-bold text-[#1a130f]">
-                        Is In Stock
-                      </label>
                     </div>
                   </div>
                 </div>
@@ -1810,6 +1671,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                             onChange={(e) => handleUpdateSpecField(idx, "label", e.target.value)}
                             placeholder="Label (e.g. Supply Voltage)"
                             className="flex-1 rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                            list="specs-labels-datalist"
                           />
                           <input
                             type="text"
@@ -1927,7 +1789,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                   required
                   value={newEmail}
                   onChange={(e) => setNewEmail(e.target.value)}
-                  placeholder="e.g. sales@conceptautotech.com"
+                  placeholder="e.g. sales@concept-auto-tech.com"
                   className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
                 />
                 <span className="text-[9px] text-slate-400 mt-1 block">
@@ -1954,6 +1816,24 @@ function DashboardView({ onLogout }: DashboardViewProps) {
           </div>
         </div>
       )}
+      {/* Specification labels suggestion datalist */}
+      <datalist id="specs-labels-datalist">
+        <option value="Warranty" />
+        <option value="Condition" />
+        <option value="Dispatch" />
+        <option value="Origin" />
+        <option value="Series" />
+        <option value="Model" />
+        <option value="Input Voltage" />
+        <option value="Output Voltage" />
+        <option value="Power Rating" />
+        <option value="Screen Size" />
+        <option value="Resolution" />
+        <option value="Mounting Type" />
+        <option value="HSN Code" />
+        <option value="Operating Temp" />
+        <option value="Protection Class" />
+      </datalist>
     </div>
   );
 }

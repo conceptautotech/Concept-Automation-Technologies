@@ -103,8 +103,8 @@ const reviews = [
 ];
 
 function Index() {
-  const [activeBrandTab, setActiveBrandTab] = useState(heroBrandTabs[0]);
-  const [activeIndustry, setActiveIndustry] = useState(keyIndustries[0]);
+  const [activeBrandTab, setActiveBrandTab] = useState<(typeof heroBrandTabs)[number]>(heroBrandTabs[0]!);
+  const [activeIndustry, setActiveIndustry] = useState<(typeof keyIndustries)[number]>(keyIndustries[0]!);
   const [catalogBrandFilter, setCatalogBrandFilter] = useState("All");
   const [heroSearch, setHeroSearch] = useState("");
   const [inquiryModalOpen, setInquiryModalOpen] = useState(false);
@@ -116,7 +116,8 @@ function Index() {
     const timer = setInterval(() => {
       setActiveBrandTab((prev) => {
         const currIndex = heroBrandTabs.findIndex((t) => t.id === prev.id);
-        return heroBrandTabs[(currIndex + 1) % heroBrandTabs.length];
+        const nextIndex = currIndex === -1 ? 0 : (currIndex + 1) % heroBrandTabs.length;
+        return heroBrandTabs[nextIndex] || heroBrandTabs[0]!;
       });
     }, 6000);
     return () => clearInterval(timer);
@@ -135,7 +136,8 @@ function Index() {
   const previewProducts = useMemo(() => {
     const activeProducts = mergedProducts.filter((p) => !p.isDeleted);
     if (catalogBrandFilter === "All") return activeProducts.slice(0, 4);
-    return activeProducts.filter((p) => p.brand.toLowerCase() === catalogBrandFilter.toLowerCase()).slice(0, 4);
+    const targetBrand = catalogBrandFilter.toLowerCase() === "probase" ? "proface" : catalogBrandFilter.toLowerCase();
+    return activeProducts.filter((p) => p.brand.toLowerCase() === targetBrand).slice(0, 4);
   }, [catalogBrandFilter, mergedProducts]);
 
   const openQuote = (name = "", part = "") => {
@@ -151,66 +153,76 @@ function Index() {
   };
 
   return (
-    <div className="min-h-screen bg-[#f6f4ee] text-[#1a130f] font-sans selection:bg-[#b45309] selection:text-white pb-16 sm:pb-0">
+    <div className="min-h-screen bg-background text-foreground font-sans selection:bg-accent selection:text-white pb-16 sm:pb-0">
       <Header />
 
       <main>
         {/* ═══════════════════════════════════════════════════════ */}
         {/* HERO SECTION — Animated Ambient Background & Sharp Text */}
         {/* ═══════════════════════════════════════════════════════ */}
-        <section className="relative overflow-hidden bg-gradient-to-b from-[#f4f1eb] via-[#f6f4ee] to-[#f6f4ee] pt-8 pb-14 sm:py-20 border-b border-[#e7e5e4]">
+        <section className="relative overflow-hidden bg-gradient-to-b from-muted via-background to-background pt-8 pb-14 sm:py-20 border-b border-border">
           {/* Animated Background Glowing Orbs */}
-          <div className="absolute top-10 left-10 w-96 h-96 bg-[#b45309]/10 rounded-full blur-3xl pointer-events-none animate-orb-1" />
-          <div className="absolute bottom-10 right-10 w-[30rem] h-[30rem] bg-[#0f2a4a]/5 rounded-full blur-3xl pointer-events-none animate-orb-2" />
+          <div className="absolute top-10 left-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl pointer-events-none animate-orb-1" />
+          <div className="absolute bottom-10 right-10 w-[30rem] h-[30rem] bg-primary/5 rounded-full blur-3xl pointer-events-none animate-orb-2" />
           
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,#1a130f05_1px,transparent_1px),linear-gradient(to_bottom,#1a130f05_1px,transparent_1px)] bg-[size:40px_40px]" />
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,var(--color-primary)/0.03_1px,transparent_1px),linear-gradient(to_bottom,var(--color-primary)/0.03_1px,transparent_1px)] bg-[size:40px_40px]" />
 
           <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6">
             {/* Top Bar Status */}
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 border-b border-[#e7e5e4] pb-5 mb-8">
+            <motion.div 
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 border-b border-border pb-5 mb-8"
+            >
               <div className="flex items-center gap-3">
                 <span className="flex h-2.5 w-2.5 relative">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
                   <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-600" />
                 </span>
-                <span className="text-xs font-extrabold uppercase tracking-wider text-[#1a130f]">
+                <span className="text-xs font-extrabold uppercase tracking-wider text-foreground">
                   Makarba Warehouse Active · 1,500+ Original Parts Ready
                 </span>
               </div>
 
               <form onSubmit={handleHeroSearchSubmit} className="flex items-center gap-2">
                 <div className="relative w-full sm:w-auto">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-[#334155]" />
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground" />
                   <input
                     type="text"
                     placeholder="Search part code (e.g. S7-1200)..."
                     value={heroSearch}
                     onChange={(e) => setHeroSearch(e.target.value)}
-                    className="w-full sm:w-72 rounded-xl border border-[#e7e5e4] bg-white pl-9 pr-3 py-2 text-xs text-[#1a130f] font-semibold placeholder-[#334155] focus:outline-none focus:ring-2 focus:ring-[#1a130f]/20 focus:border-[#1a130f] shadow-sm"
+                    className="w-full sm:w-72 rounded-xl border border-border bg-card pl-9 pr-3 py-2 text-xs text-foreground font-semibold placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary shadow-sm"
                   />
                 </div>
-                <button type="submit" className="rounded-xl bg-[#1a130f] px-4 py-2 text-xs font-bold text-white hover:bg-[#b45309] transition-colors shadow shrink-0">
+                <button type="submit" className="rounded-xl bg-primary px-4 py-2 text-xs font-bold text-primary-foreground hover:bg-accent transition-colors shadow shrink-0">
                   Search
                 </button>
               </form>
-            </div>
+            </motion.div>
 
             {/* Brand Tabs */}
-            <div className="flex overflow-x-auto gap-2 pb-2 mb-8 scrollbar-none">
+            <motion.div 
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.15 }}
+              className="flex overflow-x-auto gap-2 pb-2 mb-8 scrollbar-none"
+            >
               {heroBrandTabs.map((tab) => (
                 <button
                   key={tab.id}
                   onClick={() => setActiveBrandTab(tab)}
                   className={`shrink-0 rounded-xl px-5 py-2.5 text-xs font-extrabold uppercase tracking-wider transition-all duration-300 ${
                     activeBrandTab.id === tab.id
-                      ? "bg-[#1a130f] text-white shadow-lg scale-105"
-                      : "bg-white text-[#1a130f] border border-[#e7e5e4] hover:bg-[#f4f1eb]"
+                      ? "bg-primary text-primary-foreground shadow-lg scale-105"
+                      : "bg-card text-foreground border border-border hover:bg-muted"
                   }`}
                 >
                   {tab.name} Automation
                 </button>
               ))}
-            </div>
+            </motion.div>
 
             {/* Hero Main Content */}
             <div className="grid gap-10 lg:grid-cols-12 lg:items-center">
@@ -224,50 +236,60 @@ function Index() {
                     transition={{ duration: 0.3 }}
                     className="space-y-4"
                   >
-                    <span className="inline-flex items-center gap-2 rounded-full border border-[#b45309]/30 bg-[#f4f1eb] px-3.5 py-1 text-xs font-extrabold uppercase tracking-widest text-[#b45309] shadow-sm">
-                      <Sparkles className="h-3.5 w-3.5 text-[#b45309]" /> {activeBrandTab.badge}
+                    <span className="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-muted px-3.5 py-1 text-xs font-extrabold uppercase tracking-widest text-accent shadow-sm">
+                      <Sparkles className="h-3.5 w-3.5 text-accent" /> {activeBrandTab.badge}
                     </span>
 
-                    <h1 className="font-display text-3xl font-extrabold text-[#1a130f] sm:text-5xl leading-[1.1] tracking-tight">
+                    <h1 className="font-display text-3xl font-extrabold text-foreground sm:text-5xl leading-[1.1] tracking-tight">
                       {activeBrandTab.title}
                     </h1>
 
-                    <p className="text-base text-[#334155] font-medium leading-relaxed max-w-xl sm:text-lg">
+                    <p className="text-base text-muted-foreground font-medium leading-relaxed max-w-xl sm:text-lg">
                       {activeBrandTab.desc}
                     </p>
                   </motion.div>
                 </AnimatePresence>
 
-                <div className="flex flex-wrap items-center gap-3.5 pt-2">
+                <motion.div 
+                  initial={{ opacity: 0, y: 15 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.25 }}
+                  className="flex flex-wrap items-center gap-3.5 pt-2"
+                >
                   <button
                     onClick={() => openQuote(activeBrandTab.title, activeBrandTab.highlightPart)}
-                    className="group rounded-xl bg-[#1a130f] px-8 py-3.5 sm:py-4 text-xs font-bold uppercase tracking-wider text-white shadow-xl hover:bg-[#b45309] transition-all flex items-center gap-2"
+                    className="group rounded-xl bg-primary px-8 py-3.5 sm:py-4 text-xs font-bold uppercase tracking-wider text-primary-foreground shadow-xl hover:bg-accent transition-all flex items-center gap-2"
                   >
                     Get Price Quote <ArrowRight className="h-4 w-4 text-amber-400 group-hover:text-white transition-transform group-hover:translate-x-1" />
                   </button>
 
                   <a
                     href={`tel:${company.phoneRaw}`}
-                    className="rounded-xl border border-[#e7e5e4] bg-white px-7 py-3.5 sm:py-4 text-xs font-bold uppercase tracking-wider text-[#1a130f] hover:border-[#1a130f] hover:bg-[#f4f1eb] transition-all shadow-sm flex items-center gap-2"
+                    className="rounded-xl border border-border bg-card px-7 py-3.5 sm:py-4 text-xs font-bold uppercase tracking-wider text-foreground hover:border-primary hover:bg-muted transition-all shadow-sm flex items-center gap-2"
                   >
-                    <Phone className="h-4 w-4 text-[#b45309]" /> {company.phone}
+                    <Phone className="h-4 w-4 text-accent" /> {company.phone}
                   </a>
-                </div>
+                </motion.div>
 
-                <div className="grid grid-cols-3 gap-3 pt-6 border-t border-[#e7e5e4]">
-                  <div className="flex items-center gap-2 text-xs font-extrabold text-[#1a130f]">
-                    <ShieldCheck className="h-4 w-4 text-[#b45309] shrink-0" />
+                <motion.div 
+                  initial={{ opacity: 0, y: 15 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.35 }}
+                  className="grid grid-cols-3 gap-3 pt-6 border-t border-border"
+                >
+                  <div className="flex items-center gap-2 text-xs font-extrabold text-foreground">
+                    <ShieldCheck className="h-4 w-4 text-accent shrink-0" />
                     <span>100% Genuine OEM</span>
                   </div>
-                  <div className="flex items-center gap-2 text-xs font-extrabold text-[#1a130f]">
-                    <Truck className="h-4 w-4 text-[#b45309] shrink-0" />
+                  <div className="flex items-center gap-2 text-xs font-extrabold text-foreground">
+                    <Truck className="h-4 w-4 text-accent shrink-0" />
                     <span>24-48 Hr Dispatch</span>
                   </div>
-                  <div className="flex items-center gap-2 text-xs font-extrabold text-[#1a130f]">
-                    <Award className="h-4 w-4 text-[#b45309] shrink-0" />
+                  <div className="flex items-center gap-2 text-xs font-extrabold text-foreground">
+                    <Award className="h-4 w-4 text-accent shrink-0" />
                     <span>1 Year Warranty</span>
                   </div>
-                </div>
+                </motion.div>
               </div>
 
               {/* Showcase Card */}
@@ -279,18 +301,15 @@ function Index() {
                     animate={{ opacity: 1, scale: 1 }}
                     exit={{ opacity: 0, scale: 0.95 }}
                     transition={{ duration: 0.3 }}
-                    className="relative overflow-hidden rounded-3xl bg-[#140d09] p-6 sm:p-8 shadow-2xl text-white border border-white/10"
+                    className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-50/50 to-slate-50/50 p-6 sm:p-8 shadow-md text-foreground border border-border"
                   >
-                    <div className="flex items-center justify-between border-b border-white/15 pb-4 mb-5">
-                      <div className="text-[11px] font-extrabold uppercase tracking-widest text-[#b45309]">
-                        Verified Stock Item
+                    <div className="flex items-center justify-between border-b border-border pb-4 mb-5">
+                      <div className="text-[11px] font-extrabold uppercase tracking-widest text-accent">
+                        Genuine OEM Hardware
                       </div>
-                      <span className="rounded-full bg-emerald-500/20 border border-emerald-500/40 px-3 py-0.5 text-[10px] font-extrabold uppercase text-emerald-400">
-                        In Stock
-                      </span>
                     </div>
 
-                    <div className="rounded-2xl bg-white p-6 shadow-xl text-center">
+                    <div className="rounded-2xl bg-white p-6 shadow-md border border-border/60 text-center">
                       <div className="h-44 sm:h-52 w-full flex items-center justify-center p-2">
                         <img
                           src={activeBrandTab.image}
@@ -299,21 +318,21 @@ function Index() {
                           className="h-full w-full object-contain transition-transform duration-500 hover:scale-105"
                         />
                       </div>
-                      <div className="mt-3 pt-3 border-t border-[#e7e5e4]">
-                        <div className="font-display text-sm font-extrabold text-[#1a130f] uppercase">
+                      <div className="mt-3 pt-3 border-t border-border">
+                        <div className="font-display text-sm font-extrabold text-foreground uppercase">
                           {activeBrandTab.name} Hardware Module
                         </div>
-                        <div className="text-xs font-mono font-bold text-[#b45309] mt-0.5">
+                        <div className="text-xs font-mono font-bold text-accent mt-0.5">
                           PN: {activeBrandTab.highlightPart}
                         </div>
                       </div>
                     </div>
 
-                    <div className="mt-5 flex items-center justify-between pt-4 border-t border-white/15 text-xs text-slate-300 font-semibold">
+                    <div className="mt-5 flex items-center justify-between pt-4 border-t border-border text-xs text-muted-foreground font-semibold">
                       <span>Dispatch: Makarba, Ahmedabad</span>
                       <button
                         onClick={() => openQuote(activeBrandTab.name, activeBrandTab.highlightPart)}
-                        className="text-[#b45309] font-extrabold uppercase hover:underline flex items-center gap-1"
+                        className="text-accent font-extrabold uppercase hover:underline flex items-center gap-1"
                       >
                         Inquire Now <ArrowUpRight className="h-3.5 w-3.5" />
                       </button>
@@ -328,7 +347,7 @@ function Index() {
         {/* ═══════════════════════════════════════════════════════ */}
         {/* INFINITE MARQUEE STRIP                                  */}
         {/* ═══════════════════════════════════════════════════════ */}
-        <section className="border-b border-[#e7e5e4] bg-[#140d09] py-4 overflow-hidden text-white">
+        <section className="border-b border-border bg-muted py-4 overflow-hidden text-foreground">
           <div className="animate-marquee flex items-center gap-12 whitespace-nowrap">
             {[...brands, ...brands, ...brands].map((b, idx) => (
               <div
@@ -336,8 +355,8 @@ function Index() {
                 onClick={() => navigate({ to: "/products", search: { q: b } as any })}
                 className="flex items-center gap-3 cursor-pointer group"
               >
-                <span className="h-2 w-2 rounded-full bg-[#b45309] group-hover:scale-125 transition-transform" />
-                <span className="font-display text-sm font-extrabold uppercase tracking-widest text-[#f6f4ee] group-hover:text-white transition-colors">
+                <span className="h-2 w-2 rounded-full bg-accent group-hover:scale-125 transition-transform" />
+                <span className="font-display text-sm font-extrabold uppercase tracking-widest text-foreground/80 group-hover:text-primary transition-colors">
                   {b}
                 </span>
               </div>
@@ -348,28 +367,28 @@ function Index() {
         {/* ═══════════════════════════════════════════════════════ */}
         {/* CATALOG PREVIEW (Sharp Contrast & Clean Spacing)        */}
         {/* ═══════════════════════════════════════════════════════ */}
-        <section className="py-14 sm:py-20 bg-[#f4f1eb] border-b border-[#e7e5e4]">
+        <section className="py-14 sm:py-20 bg-muted border-b border-border">
           <div className="mx-auto max-w-7xl px-4 sm:px-6">
             <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8">
               <div>
                 <span className="eyebrow">INVENTORY CATALOG</span>
-                <h2 className="mt-1 font-display text-2xl sm:text-4xl font-extrabold text-[#1a130f]">
+                <h2 className="mt-1 font-display text-2xl sm:text-4xl font-extrabold text-foreground">
                   Explore Original Hardware
                 </h2>
-                <p className="mt-2 text-xs sm:text-sm text-[#334155] font-medium">
+                <p className="mt-2 text-xs sm:text-sm text-muted-foreground font-medium">
                   Showing selected high-demand PLCs, HMIs, VFDs & Sensors.
                 </p>
               </div>
 
               <div className="flex items-center gap-1.5 overflow-x-auto pb-2 scrollbar-none">
-                {["All", "Siemens", "Mitsubishi", "Omron", "Allen Bradley"].map((b) => (
+                {["All", "Siemens", "Mitsubishi", "Omron", "Probase"].map((b) => (
                   <button
                     key={b}
                     onClick={() => setCatalogBrandFilter(b)}
                     className={`shrink-0 rounded-xl px-4 py-2 text-xs font-bold uppercase transition-all ${
                       catalogBrandFilter === b
-                        ? "bg-[#1a130f] text-white shadow"
-                        : "bg-white text-[#1a130f] border border-[#e7e5e4] hover:bg-[#f6f4ee]"
+                        ? "bg-primary text-primary-foreground shadow"
+                        : "bg-card text-foreground border border-border hover:bg-muted"
                     }`}
                   >
                     {b}
@@ -387,9 +406,9 @@ function Index() {
             <div className="mt-10 text-center">
               <Link
                 to="/products"
-                className="inline-flex items-center gap-2 rounded-xl bg-[#1a130f] px-8 py-4 text-xs font-extrabold uppercase tracking-wider text-white hover:bg-[#b45309] transition-all shadow-lg hover:shadow-xl"
+                className="inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-4 text-xs font-extrabold uppercase tracking-wider text-primary-foreground hover:bg-accent transition-all shadow-lg hover:shadow-xl"
               >
-                View Full {mergedProducts.length}+ Products Catalog <ArrowRight className="h-4 w-4 text-amber-400" />
+                View Full Products Catalog <ArrowRight className="h-4 w-4 text-amber-400" />
               </Link>
             </div>
           </div>
@@ -398,16 +417,16 @@ function Index() {
         {/* ═══════════════════════════════════════════════════════ */}
         {/* SUPPLY NETWORK BENTO GRID                               */}
         {/* ═══════════════════════════════════════════════════════ */}
-        <section className="py-16 sm:py-24 bg-[#f6f4ee] relative overflow-hidden">
-          <div className="absolute top-1/4 right-0 w-80 h-80 bg-[#b45309]/10 rounded-full blur-3xl pointer-events-none animate-orb-2" />
+        <section className="py-16 sm:py-24 bg-background relative overflow-hidden">
+          <div className="absolute top-1/4 right-0 w-80 h-80 bg-accent/10 rounded-full blur-3xl pointer-events-none animate-orb-2" />
 
           <div className="mx-auto max-w-7xl px-4 sm:px-6 relative z-10">
             <div className="text-center max-w-2xl mx-auto mb-10">
               <span className="eyebrow">SUPPLY INFRASTRUCTURE</span>
-              <h2 className="mt-2 font-display text-3xl font-extrabold text-[#1a130f] sm:text-4xl">
+              <h2 className="mt-2 font-display text-3xl font-extrabold text-foreground sm:text-4xl">
                 Connected Industrial Network
               </h2>
-              <p className="mt-2 text-xs sm:text-sm text-[#334155] font-medium">
+              <p className="mt-2 text-xs sm:text-sm text-muted-foreground font-medium">
                 Supplying OEM hardware to over 10,000+ manufacturing ecosystem partners across India.
               </p>
             </div>
@@ -420,60 +439,72 @@ function Index() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.3, delay: i * 0.05 }}
-                  className="rounded-2xl border border-[#e7e5e4] bg-white p-4 text-center shadow-sm hover:border-[#b45309] transition-all"
+                  className="rounded-2xl border border-border bg-card p-4 text-center shadow-sm hover:border-accent transition-all"
                 >
-                  <div className="text-[11px] font-extrabold uppercase text-[#334155]">{st.label}</div>
-                  <div className="mt-1.5 font-display text-2xl sm:text-3xl font-extrabold text-[#1a130f]">{st.value}</div>
-                  <div className="mt-1 text-[9px] font-extrabold text-[#b45309] uppercase tracking-wider">Verified Stock</div>
+                  <div className="text-[11px] font-extrabold uppercase text-muted-foreground">{st.label}</div>
+                  <div className="mt-1.5 font-display text-2xl sm:text-3xl font-extrabold text-foreground">{st.value}</div>
+                  <div className="mt-1 text-[9px] font-extrabold text-accent uppercase tracking-wider">Verified Stock</div>
                 </motion.div>
               ))}
             </div>
 
             <div className="grid gap-6 lg:grid-cols-12">
-              <div className="lg:col-span-8 rounded-3xl bg-[#140d09] p-7 sm:p-10 text-white flex flex-col justify-between shadow-xl relative overflow-hidden">
+              <motion.div 
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.5 }}
+                className="lg:col-span-8 rounded-3xl bg-gradient-to-br from-primary to-[#002e5c] p-7 sm:p-10 text-white flex flex-col justify-between shadow-xl relative overflow-hidden"
+              >
                 <div>
-                  <span className="rounded-full bg-[#b45309] px-3.5 py-1 text-[10px] font-extrabold uppercase tracking-widest text-white">
+                  <span className="rounded-full bg-accent px-3.5 py-1 text-[10px] font-extrabold uppercase tracking-widest text-white">
                     Direct Warehouse Hub
                   </span>
                   <h3 className="mt-4 font-display text-2xl sm:text-4xl font-extrabold uppercase leading-tight">
                     Titanium Business Park · Makarba, Ahmedabad
                   </h3>
-                  <p className="mt-4 text-xs sm:text-sm text-slate-300 leading-relaxed max-w-2xl font-medium">
+                  <p className="mt-4 text-xs sm:text-sm text-slate-200 leading-relaxed max-w-2xl font-medium">
                     Our central stockist facility maintains extensive inventories of Siemens S7-1200/S7-1500 CPUs, Mitsubishi FREQROL VFDs, Omron micro controllers, and Pepperl+Fuchs sensors for immediate emergency dispatch.
                   </p>
                 </div>
-                <div className="mt-8 pt-6 border-t border-white/15 flex flex-wrap items-center justify-between gap-4 text-xs text-slate-300 font-semibold">
-                  <span>Proprietor: <strong>{company.owner}</strong></span>
+                <div className="mt-8 pt-6 border-t border-white/15 flex flex-wrap items-center justify-between gap-4 text-xs text-slate-200 font-semibold">
+                  <span>Proprietor: <strong>{company.proprietor}</strong></span>
                   <button
                     onClick={() => openQuote("General Inquiry", "")}
-                    className="rounded-xl bg-[#b45309] px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#d97706] transition-colors"
+                    className="rounded-xl bg-accent px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#d97706] transition-colors"
                   >
                     Contact Sales Desk
                   </button>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="lg:col-span-4 space-y-4 sm:space-y-6">
-                <div className="rounded-3xl border border-[#e7e5e4] bg-white p-6 shadow-sm hover:shadow-md transition-all">
-                  <div className="h-10 w-10 rounded-xl bg-[#f4f1eb] flex items-center justify-center mb-3">
-                    <ShieldCheck className="h-5 w-5 text-[#1a130f]" />
+              <motion.div 
+                initial={{ opacity: 0, x: 30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+                className="lg:col-span-4 space-y-4 sm:space-y-6"
+              >
+                <div className="rounded-3xl border border-border bg-card p-6 shadow-sm hover:shadow-md transition-all">
+                  <div className="h-10 w-10 rounded-xl bg-muted flex items-center justify-center mb-3">
+                    <ShieldCheck className="h-5 w-5 text-foreground" />
                   </div>
-                  <h4 className="font-display text-base font-extrabold uppercase text-[#1a130f]">100% Genuine OEM Guarantee</h4>
-                  <p className="mt-1.5 text-xs text-[#334155] font-medium leading-relaxed">
+                  <h4 className="font-display text-base font-extrabold uppercase text-foreground">100% Genuine OEM Guarantee</h4>
+                  <p className="mt-1.5 text-xs text-muted-foreground font-medium leading-relaxed">
                     Every PLC, HMI, and drive includes official factory seal, serial number validation, and 12-month coverage.
                   </p>
                 </div>
 
-                <div className="rounded-3xl border border-[#e7e5e4] bg-white p-6 shadow-sm hover:shadow-md transition-all">
-                  <div className="h-10 w-10 rounded-xl bg-[#f4f1eb] flex items-center justify-center mb-3">
-                    <Truck className="h-5 w-5 text-[#b45309]" />
+                <div className="rounded-3xl border border-border bg-card p-6 shadow-sm hover:shadow-md transition-all">
+                  <div className="h-10 w-10 rounded-xl bg-muted flex items-center justify-center mb-3">
+                    <Truck className="h-5 w-5 text-accent" />
                   </div>
-                  <h4 className="font-display text-base font-extrabold uppercase text-[#1a130f]">Pan-India Breakdown Express</h4>
-                  <p className="mt-1.5 text-xs text-[#334155] font-medium leading-relaxed">
+                  <h4 className="font-display text-base font-extrabold uppercase text-foreground">Pan-India Breakdown Express</h4>
+                  <p className="mt-1.5 text-xs text-muted-foreground font-medium leading-relaxed">
                     Urgent 24-48 hour courier dispatch to manufacturing units across Gujarat, Maharashtra, South, and North India.
                   </p>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </section>
@@ -481,11 +512,11 @@ function Index() {
         {/* ═══════════════════════════════════════════════════════ */}
         {/* SERVING KEY INDUSTRIES                                 */}
         {/* ═══════════════════════════════════════════════════════ */}
-        <section className="py-16 sm:py-24 bg-[#f4f1eb] border-t border-[#e7e5e4]">
+        <section className="py-16 sm:py-24 bg-muted border-t border-border">
           <div className="mx-auto max-w-7xl px-4 sm:px-6">
             <div className="text-center max-w-2xl mx-auto mb-8">
               <span className="eyebrow">INDUSTRIES WE SUPPLY</span>
-              <h2 className="mt-1 font-display text-2xl sm:text-4xl font-extrabold text-[#1a130f]">
+              <h2 className="mt-1 font-display text-2xl sm:text-4xl font-extrabold text-foreground">
                 Where We Supply Products
               </h2>
             </div>
@@ -497,8 +528,8 @@ function Index() {
                   onClick={() => setActiveIndustry(ind)}
                   className={`shrink-0 rounded-xl px-5 py-3 text-xs font-bold uppercase tracking-wider transition-all ${
                     activeIndustry.id === ind.id
-                      ? "bg-[#1a130f] text-white shadow-lg scale-105"
-                      : "bg-white text-[#1a130f] border border-[#e7e5e4] hover:bg-[#f6f4ee]"
+                      ? "bg-primary text-primary-foreground shadow-lg scale-105"
+                      : "bg-card text-foreground border border-border hover:bg-muted"
                   }`}
                 >
                   {ind.title}
@@ -513,22 +544,22 @@ function Index() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -15 }}
                 transition={{ duration: 0.3 }}
-                className="rounded-3xl border border-[#e7e5e4] bg-white p-6 sm:p-8 shadow-lg"
+                className="rounded-3xl border border-border bg-card p-6 sm:p-8 shadow-lg"
               >
                 <div className="grid gap-6 lg:grid-cols-12 items-center">
                   <div className="lg:col-span-7 space-y-4">
-                    <span className="text-[10px] font-extrabold uppercase tracking-widest text-[#b45309]">
+                    <span className="text-[10px] font-extrabold uppercase tracking-widest text-accent">
                       Targeted Industry Supply
                     </span>
-                    <h3 className="font-display text-2xl sm:text-3xl font-extrabold uppercase text-[#1a130f]">
+                    <h3 className="font-display text-2xl sm:text-3xl font-extrabold uppercase text-foreground">
                       {activeIndustry.title}
                     </h3>
-                    <p className="text-xs sm:text-sm text-[#334155] font-medium leading-relaxed">
+                    <p className="text-xs sm:text-sm text-muted-foreground font-medium leading-relaxed">
                       {activeIndustry.desc}
                     </p>
                     <button
                       onClick={() => openQuote(activeIndustry.title, "")}
-                      className="inline-flex items-center gap-2 rounded-xl bg-[#1a130f] px-6 py-3 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#b45309] transition-colors"
+                      className="inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-accent transition-colors"
                     >
                       Inquire for Bulk Supply <ArrowRight className="h-4 w-4 text-amber-400" />
                     </button>
@@ -537,7 +568,7 @@ function Index() {
                     <img
                       src={activeIndustry.image}
                       alt={activeIndustry.title}
-                      className="h-44 sm:h-56 w-full max-w-xs object-contain rounded-2xl bg-[#f6f4ee] p-4 border border-[#e7e5e4]"
+                      className="h-44 sm:h-56 w-full max-w-xs object-contain rounded-2xl bg-background p-4 border border-border"
                     />
                   </div>
                 </div>
@@ -549,51 +580,63 @@ function Index() {
         {/* ═══════════════════════════════════════════════════════ */}
         {/* TESTIMONIALS                                           */}
         {/* ═══════════════════════════════════════════════════════ */}
-        <section className="py-16 sm:py-24 bg-[#f6f4ee]">
+        <section className="py-16 sm:py-24 bg-background">
           <div className="mx-auto max-w-7xl px-4 sm:px-6">
             <div className="grid gap-8 lg:grid-cols-5 lg:items-center">
-              <div className="lg:col-span-2">
+              <motion.div 
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.5 }}
+                className="lg:col-span-2"
+              >
                 <span className="eyebrow">CLIENT VERIFICATION</span>
-                <h2 className="mt-2 font-display text-2xl sm:text-3xl font-extrabold text-[#1a130f]">
+                <h2 className="mt-2 font-display text-2xl sm:text-3xl font-extrabold text-foreground">
                   What Engineers Say
                 </h2>
-                <p className="mt-2 text-xs sm:text-sm text-[#334155] font-medium leading-relaxed">
+                <p className="mt-2 text-xs sm:text-sm text-muted-foreground font-medium leading-relaxed">
                   Trusted by plant managers and OEM builders across Gujarat & India.
                 </p>
 
                 <div className="mt-6 flex items-center gap-3">
                   <button onClick={() => setReviewIndex((prev) => (prev - 1 + reviews.length) % reviews.length)}
-                    className="h-10 w-10 rounded-xl border border-[#e7e5e4] bg-white flex items-center justify-center text-[#1a130f] hover:bg-[#f4f1eb] transition-colors">
+                    className="h-10 w-10 rounded-xl border border-border bg-card flex items-center justify-center text-foreground hover:bg-muted transition-colors">
                     <ChevronLeft className="h-5 w-5" />
                   </button>
                   <button onClick={() => setReviewIndex((prev) => (prev + 1) % reviews.length)}
-                    className="h-10 w-10 rounded-xl border border-[#e7e5e4] bg-white flex items-center justify-center text-[#1a130f] hover:bg-[#f4f1eb] transition-colors">
+                    className="h-10 w-10 rounded-xl border border-border bg-card flex items-center justify-center text-foreground hover:bg-muted transition-colors">
                     <ChevronRight className="h-5 w-5" />
                   </button>
-                  <span className="text-xs font-extrabold text-[#334155] ml-2">{reviewIndex + 1} / {reviews.length}</span>
+                  <span className="text-xs font-extrabold text-muted-foreground ml-2">{reviewIndex + 1} / {reviews.length}</span>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="lg:col-span-3">
+              <motion.div 
+                initial={{ opacity: 0, scale: 0.95 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+                className="lg:col-span-3"
+              >
                 <motion.div
                   key={reviewIndex}
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.3 }}
-                  className="rounded-3xl bg-white border border-[#e7e5e4] p-6 sm:p-10 shadow-sm"
+                  className="rounded-3xl bg-card border border-border p-6 sm:p-10 shadow-sm"
                 >
-                  <div className="flex text-[#b45309] mb-4">
+                  <div className="flex text-accent mb-4">
                     {[...Array(5)].map((_, i) => <Star key={i} className="h-4 w-4 fill-current" />)}
                   </div>
                   <p className="text-sm sm:text-base text-slate-800 leading-relaxed italic font-medium">
-                    "{reviews[reviewIndex].quote}"
+                    "{(reviews[reviewIndex] || reviews[0]!).quote}"
                   </p>
-                  <div className="mt-6 pt-4 border-t border-[#e7e5e4]">
-                    <div className="font-display text-sm font-bold uppercase text-[#1a130f]">{reviews[reviewIndex].author}</div>
-                    <div className="text-xs text-[#b45309] font-bold mt-0.5">{reviews[reviewIndex].company}</div>
+                  <div className="mt-6 pt-4 border-t border-border">
+                    <div className="font-display text-sm font-bold uppercase text-foreground">{(reviews[reviewIndex] || reviews[0]!).author}</div>
+                    <div className="text-xs text-accent font-bold mt-0.5">{(reviews[reviewIndex] || reviews[0]!).company}</div>
                   </div>
                 </motion.div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </section>
@@ -601,39 +644,45 @@ function Index() {
         {/* ═══════════════════════════════════════════════════════ */}
         {/* REDESIGNED CTA CARD — Light Warm Sand Glass Card        */}
         {/* ═══════════════════════════════════════════════════════ */}
-        <section className="py-16 sm:py-24 bg-[#f4f1eb] relative overflow-hidden border-t border-[#e7e5e4]">
+        <section className="py-16 sm:py-24 bg-muted relative overflow-hidden border-t border-border">
           {/* Animated Background Glowing Orbs */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[35rem] h-[35rem] bg-[#b45309]/10 rounded-full blur-3xl pointer-events-none animate-orb-1" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[35rem] h-[35rem] bg-accent/10 rounded-full blur-3xl pointer-events-none animate-orb-1" />
 
           <div className="relative z-10 mx-auto max-w-5xl px-4 sm:px-6">
-            <div className="rounded-3xl border border-[#e7e5e4] bg-white p-8 sm:p-14 shadow-xl text-center relative overflow-hidden">
-              <span className="inline-flex items-center gap-2 rounded-full border border-[#b45309]/30 bg-[#f4f1eb] px-4 py-1.5 text-xs font-extrabold uppercase tracking-widest text-[#b45309]">
-                <Zap className="h-3.5 w-3.5 text-[#b45309]" /> Breakdown & Order Support Desk
+            <motion.div 
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6 }}
+              className="rounded-3xl border border-border bg-card p-8 sm:p-14 shadow-xl text-center relative overflow-hidden"
+            >
+              <span className="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-muted px-4 py-1.5 text-xs font-extrabold uppercase tracking-widest text-accent">
+                <Zap className="h-3.5 w-3.5 text-accent" /> Breakdown & Order Support Desk
               </span>
 
-              <h2 className="mt-4 font-display text-2xl sm:text-4xl lg:text-5xl font-extrabold text-[#1a130f] leading-tight">
+              <h2 className="mt-4 font-display text-2xl sm:text-4xl lg:text-5xl font-extrabold text-foreground leading-tight">
                 Plant Breakdown or Urgent Automation Order?
               </h2>
 
-              <p className="mt-4 text-xs sm:text-base text-[#334155] font-medium max-w-2xl mx-auto leading-relaxed">
+              <p className="mt-4 text-xs sm:text-base text-muted-foreground font-medium max-w-2xl mx-auto leading-relaxed">
                 Contact our technical desk in Makarba, Ahmedabad for immediate stock verification and express 24-48 hour dispatch.
               </p>
 
               <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3.5">
                 <button
                   onClick={() => openQuote("General Inquiry", "")}
-                  className="w-full sm:w-auto rounded-xl bg-[#1a130f] px-8 py-4 text-xs font-extrabold uppercase tracking-wider text-white shadow-xl hover:bg-[#b45309] transition-all flex items-center justify-center gap-2"
+                  className="w-full sm:w-auto rounded-xl bg-primary px-8 py-4 text-xs font-extrabold uppercase tracking-wider text-primary-foreground shadow-xl hover:bg-accent transition-all flex items-center justify-center gap-2"
                 >
                   <MessageSquare className="h-4 w-4 text-amber-400" /> Request Instant Quote
                 </button>
                 <a
                   href={`tel:${company.phoneRaw}`}
-                  className="w-full sm:w-auto rounded-xl border border-[#e7e5e4] bg-[#f4f1eb] px-8 py-4 text-xs font-extrabold uppercase tracking-wider text-[#1a130f] hover:border-[#1a130f] hover:bg-white transition-all shadow-sm flex items-center justify-center gap-2"
+                  className="w-full sm:w-auto rounded-xl border border-border bg-muted px-8 py-4 text-xs font-extrabold uppercase tracking-wider text-foreground hover:border-primary hover:bg-card transition-all shadow-sm flex items-center justify-center gap-2"
                 >
-                  <Phone className="h-4 w-4 text-[#b45309]" /> Call {company.phone}
+                  <Phone className="h-4 w-4 text-accent" /> Call {company.phone}
                 </a>
               </div>
-            </div>
+            </motion.div>
           </div>
         </section>
       </main>

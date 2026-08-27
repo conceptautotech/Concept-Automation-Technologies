@@ -1,7 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || "https://muiimtqkxhlexhcmayqq.supabase.co";
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11aWltdHFreGhsZXhoY21heXFxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU5MDAxNTIsImV4cCI6MjEwMTQ3NjE1Mn0.jf3KBMtBgPKTN4xH_JSlsDnjdw_lXRxAErd4DLvwBac";
+const supabaseUrl = import.meta.env['VITE_SUPABASE_URL'] || "https://muiimtqkxhlexhcmayqq.supabase.co";
+const supabaseAnonKey = import.meta.env['VITE_SUPABASE_ANON_KEY'] || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11aWltdHFreGhsZXhoY21heXFxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU5MDAxNTIsImV4cCI6MjEwMTQ3NjE1Mn0.jf3KBMtBgPKTN4xH_JSlsDnjdw_lXRxAErd4DLvwBac";
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
@@ -26,6 +26,31 @@ export type ContactPayload = {
   message: string;
 };
 
+const SALES_EMAIL = "sales@concept-auto-tech.com";
+
+/**
+ * Send an email notification to the sales team via FormSubmit.co
+ * Free service — first submission triggers a verification email to the recipient.
+ * Once verified, all future submissions are forwarded automatically.
+ */
+async function sendEmailNotification(subject: string, bodyFields: Record<string, string>) {
+  try {
+    await fetch(`https://formsubmit.co/ajax/${SALES_EMAIL}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({
+        _subject: subject,
+        _template: "table",
+        _captcha: "false",
+        ...bodyFields,
+      }),
+    });
+  } catch (err) {
+    // Email notification is best-effort — don't block the user flow
+    console.warn("Email notification failed (non-blocking):", err);
+  }
+}
+
 /**
  * Submit quote/product inquiry to Supabase inquiries table
  */
@@ -49,6 +74,22 @@ export async function submitInquiry(payload: InquiryPayload) {
         },
       ])
       .select();
+
+    // Send email notification (fire-and-forget)
+    sendEmailNotification(
+      `🔔 New Quote Request: ${payload.product_name || "General Inquiry"}`,
+      {
+        "Customer Name": payload.name,
+        "Email": payload.email,
+        "Phone": payload.phone,
+        "Company": payload.company || "—",
+        "Product": payload.product_name || "General Inquiry",
+        "Part Number": payload.part_number || "—",
+        "Quantity": String(payload.quantity || 1),
+        "Location": payload.location || "—",
+        "Message": payload.message || "—",
+      }
+    );
 
     if (error) {
       console.warn("Supabase inquiry error (falling back):", error.message);
@@ -82,6 +123,19 @@ export async function submitContactForm(payload: ContactPayload) {
       ])
       .select();
 
+    // Send email notification (fire-and-forget)
+    sendEmailNotification(
+      `📩 New Contact Form: ${payload.subject || "Website Inquiry"}`,
+      {
+        "Customer Name": payload.name,
+        "Email": payload.email,
+        "Phone": payload.phone,
+        "Company": payload.company || "—",
+        "Subject": payload.subject || "Website Inquiry",
+        "Message": payload.message,
+      }
+    );
+
     if (error) {
       console.warn("Supabase contact error (falling back):", error.message);
       return { success: true, offline: true, data: [payload] };
@@ -106,6 +160,13 @@ export async function subscribeNewsletter(email: string) {
     if (error && error.code !== "23505") { // Ignore unique constraint duplicate
       console.warn("Supabase newsletter error:", error.message);
     }
+
+    // Send email notification (fire-and-forget)
+    sendEmailNotification(
+      "📧 New Newsletter Subscription",
+      { "Subscriber Email": email }
+    );
+
     return { success: true };
   } catch (err) {
     return { success: true };

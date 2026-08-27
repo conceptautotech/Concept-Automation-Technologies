@@ -36,24 +36,24 @@ export function Footer() {
 
   return (
     <>
-      {/* SOLID BLACK FOOTER — #000000 / #140d09 */}
-      <footer className="bg-[#140d09] text-white border-t border-white/10">
+      {/* WARM LIGHT SAND FOOTER */}
+      <footer className="bg-slate-100 text-slate-800 border-t border-slate-200">
         {/* Ochre Gold Top Accent Bar */}
-        <div className="h-1.5 w-full bg-[#b45309]" />
+        <div className="h-1.5 w-full bg-accent" />
 
         {/* Newsletter Banner */}
-        <div className="border-b border-white/10 bg-black/60">
-          <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-8 sm:px-6 md:flex-row">
+        <div className="border-b border-slate-200 bg-slate-200/40">
+          <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-5 sm:px-6 md:flex-row">
             <div>
-              <h3 className="font-display text-base sm:text-lg font-extrabold uppercase tracking-wider text-white">
+              <h3 className="font-display text-xs sm:text-sm font-extrabold uppercase tracking-wider text-slate-950">
                 Subscribe for OEM Stock & Price Updates
               </h3>
-              <p className="mt-1 text-xs text-slate-300">
+              <p className="mt-0.5 text-[11px] text-slate-700 font-bold">
                 Monthly availability reports for Siemens, Mitsubishi, Omron, P+F & Allen Bradley.
               </p>
             </div>
             {subscribed ? (
-              <div className="flex items-center gap-2 rounded-xl bg-emerald-500/20 px-4 py-2.5 text-xs font-bold text-emerald-400 border border-emerald-500/30">
+              <div className="flex items-center gap-2 rounded-xl bg-emerald-500/10 px-4 py-1.5 text-xs font-bold text-emerald-700 border border-emerald-500/20">
                 <CheckCircle2 className="h-4 w-4" /> Subscribed!
               </div>
             ) : (
@@ -64,11 +64,11 @@ export function Footer() {
                   placeholder="Your work email..."
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full rounded-xl border border-white/20 bg-black/50 px-4 py-2.5 text-xs text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-[#b45309]"
+                  className="w-full rounded-xl border border-slate-300 bg-white px-4 py-1.5 text-xs text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-accent"
                 />
                 <button
                   type="submit"
-                  className="shrink-0 inline-flex items-center gap-1.5 rounded-xl bg-[#b45309] px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#d97706] transition-colors shadow"
+                  className="shrink-0 inline-flex items-center gap-1.5 rounded-xl bg-accent px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-accent/90 transition-colors shadow"
                 >
                   <Send className="h-3.5 w-3.5" /> Join
                 </button>
@@ -78,38 +78,38 @@ export function Footer() {
         </div>
 
         {/* Navigation Columns */}
-        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 sm:py-16 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-8 sm:px-6 sm:grid-cols-2 lg:grid-cols-5">
           {/* Col 1 */}
-          <div className="lg:col-span-2 space-y-4">
-            <div className="flex items-center gap-3">
-              <img
-                src="/logo.jpg"
-                alt="Concept Automation"
-                className="h-14 w-14 sm:h-16 sm:w-16 rounded-2xl object-contain bg-white p-1 border border-white/20 shadow-sm"
-                width={64}
-                height={64}
-              />
-              <span className="font-display text-xl sm:text-2xl font-extrabold uppercase tracking-tight text-white">
-                Concept Automation <span className="text-[#b45309]">Technologies</span>
+          <div className="lg:col-span-2 space-y-3">
+            <div className="flex items-center gap-2.5">
+               <img
+                 src="/logo.jpg"
+                 alt="Concept Automation"
+                 className="h-10 w-10 sm:h-12 sm:w-12 rounded-xl object-contain bg-white p-1 border border-slate-200 shadow-sm"
+                 width={48}
+                 height={48}
+               />
+              <span className="font-display text-base sm:text-lg font-extrabold uppercase tracking-tight text-slate-950">
+                Concept Automation <span className="text-accent">Technologies</span>
               </span>
             </div>
-            <p className="text-xs leading-relaxed text-slate-300">
-              Importer, exporter, trader and supplier of factory automation hardware — PLC, HMI, VFD, DC drives, servo systems and industrial sensors in Ahmedabad.
+            <p className="text-xs leading-relaxed text-slate-700 font-bold">
+              Importer, exporter, stockist and supplier of factory automation hardware — PLC, HMI, VFD, DC drives, servo systems and industrial sensors.
             </p>
-            <p className="text-xs uppercase tracking-widest text-[#b45309] font-extrabold font-mono">GSTIN: {company.gst}</p>
+            <p className="text-xs uppercase tracking-widest text-slate-950 font-extrabold font-mono">GSTIN: {company.gst}</p>
 
-            <div className="flex flex-wrap gap-2 pt-2">
+            <div className="flex flex-wrap gap-2 pt-1">
               <button
                 onClick={() => setInquiryOpen(true)}
-                className="inline-flex items-center gap-2 rounded-xl bg-white/10 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-white border border-white/20 hover:bg-[#b45309] hover:border-[#b45309] transition-all"
+                className="inline-flex items-center gap-2 rounded-xl bg-white px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-slate-800 border border-slate-300 hover:bg-accent hover:text-white hover:border-accent transition-all shadow-sm"
               >
-                <MessageSquare className="h-3.5 w-3.5 text-[#b45309]" /> Direct Inquiry
+                <MessageSquare className="h-3.5 w-3.5 text-accent" /> Direct Inquiry
               </button>
               <a
                 href={`https://wa.me/${company.whatsapp.replace(/[^0-9]/g, "")}?text=Hello%20Concept%20Automation%20team,%20I%20need%20a%20price%20quotation.`}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-1.5 rounded-xl bg-emerald-500/20 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600 hover:text-white transition-all"
+                className="inline-flex items-center gap-1.5 rounded-xl bg-emerald-500/10 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-emerald-800 border border-emerald-500/20 hover:bg-emerald-600 hover:text-white transition-all"
               >
                 WhatsApp Us
               </a>
@@ -118,10 +118,10 @@ export function Footer() {
 
           {/* Col 2 */}
           <div>
-            <h3 className="text-xs font-extrabold uppercase tracking-[0.15em] text-[#b45309] mb-4">
+            <h3 className="text-xs font-extrabold uppercase tracking-[0.15em] text-slate-950 mb-2">
               Quick Navigation
             </h3>
-            <ul className="space-y-2.5 text-xs font-semibold text-white">
+            <ul className="space-y-1.5 text-xs font-extrabold">
               {[
                 { to: "/", label: "Home" },
                 { to: "/about", label: "Company Profile" },
@@ -129,8 +129,8 @@ export function Footer() {
                 { to: "/contact", label: "Contact & Location" },
               ].map(item => (
                 <li key={item.to}>
-                  <Link to={item.to} className="flex items-center gap-2 text-slate-300 hover:text-[#b45309] transition-colors">
-                    <ArrowRight className="h-3 w-3 text-[#b45309]" /> {item.label}
+                  <Link to={item.to} className="flex items-center gap-2 text-slate-700 hover:text-primary transition-colors">
+                    <ArrowRight className="h-3 w-3 text-accent" /> {item.label}
                   </Link>
                 </li>
               ))}
@@ -139,14 +139,14 @@ export function Footer() {
 
           {/* Col 3 */}
           <div>
-            <h3 className="text-xs font-extrabold uppercase tracking-[0.15em] text-[#b45309] mb-4">
+            <h3 className="text-xs font-extrabold uppercase tracking-[0.15em] text-slate-950 mb-2">
               Popular Hardware
             </h3>
-            <ul className="space-y-2 text-xs font-semibold text-white">
+            <ul className="space-y-1.5 text-xs font-extrabold">
               {POPULAR_CATEGORIES.map((cat) => (
                 <li key={cat.name}>
                   <Link to="/products" search={{ q: cat.query }}
-                    className="text-slate-300 hover:text-[#b45309] transition-colors block text-[11px]">
+                    className="text-slate-700 hover:text-primary transition-colors block text-[11px]">
                     {cat.name}
                   </Link>
                 </li>
@@ -156,43 +156,43 @@ export function Footer() {
 
           {/* Col 4 */}
           <div>
-            <h3 className="text-xs font-extrabold uppercase tracking-[0.15em] text-[#b45309] mb-3">
+            <h3 className="text-xs font-extrabold uppercase tracking-[0.15em] text-slate-950 mb-2">
               OEM Brands
             </h3>
-            <div className="flex flex-wrap gap-1.5 text-xs mb-6">
-              {brands.map((brand) => (
+            <div className="flex flex-wrap gap-1.5 text-xs mb-3">
+              {brands.slice(0, 8).map((brand) => (
                 <Link key={brand} to="/products" search={{ q: brand }}
-                  className="rounded-lg bg-white/10 px-2.5 py-1 text-[11px] font-bold text-slate-200 hover:bg-[#b45309] hover:text-white transition-all border border-white/10">
+                  className="rounded-lg bg-white px-2 py-0.5 text-[11px] font-extrabold text-slate-800 hover:bg-accent hover:text-white transition-all border border-slate-300">
                   {brand}
                 </Link>
               ))}
             </div>
 
-            <h3 className="text-xs font-extrabold uppercase tracking-[0.15em] text-[#b45309] mb-3">
+            <h3 className="text-xs font-extrabold uppercase tracking-[0.15em] text-slate-950 mb-2">
               Headquarters
             </h3>
-            <ul className="space-y-2 text-xs font-semibold text-white">
+            <ul className="space-y-1.5 text-xs font-extrabold">
               <li className="flex items-start gap-2">
-                <MapPin className="h-3.5 w-3.5 shrink-0 text-[#b45309] mt-0.5" />
+                <MapPin className="h-3.5 w-3.5 shrink-0 text-accent mt-0.5" />
                 <a href="https://maps.google.com/?q=Titanium+Business+Park+Makarba+Ahmedabad" target="_blank" rel="noreferrer"
-                  className="hover:text-[#b45309] text-slate-300 flex items-center gap-1 transition-colors leading-snug">
+                  className="hover:text-primary text-slate-700 flex items-center gap-1 transition-colors leading-snug">
                   Makarba, Ahmedabad <ExternalLink className="h-2.5 w-2.5 text-slate-400" />
                 </a>
               </li>
               <li className="flex items-center gap-2">
-                <Phone className="h-3.5 w-3.5 shrink-0 text-[#b45309]" />
-                <a href={`tel:${company.phoneRaw}`} className="hover:text-[#b45309] font-mono text-[11px] text-slate-300">{company.phone}</a>
+                <Phone className="h-3.5 w-3.5 shrink-0 text-accent" />
+                <a href={`tel:${company.phoneRaw}`} className="hover:text-primary font-mono text-[11px] text-slate-700">{company.phone}</a>
               </li>
               <li className="flex items-center gap-2">
-                <Mail className="h-3.5 w-3.5 shrink-0 text-[#b45309]" />
-                <a href={`mailto:${company.email}`} className="hover:text-[#b45309] text-[11px] text-slate-300">{company.email}</a>
+                <Mail className="h-3.5 w-3.5 shrink-0 text-accent" />
+                <a href={`mailto:${company.email}`} className="hover:text-primary text-[11px] text-slate-700">{company.email}</a>
               </li>
             </ul>
           </div>
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-white/10 bg-black/80 py-4 text-center text-xs font-semibold text-slate-400">
+        <div className="border-t border-slate-200 bg-slate-200/50 py-3 text-center text-xs font-extrabold text-slate-600">
           <p>© {new Date().getFullYear()} Concept Automation Technologies. All rights reserved.</p>
         </div>
       </footer>

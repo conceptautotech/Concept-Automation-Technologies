@@ -6,12 +6,13 @@ import { Footer } from "@/components/Footer";
 import { company } from "@/data/catalog";
 import { submitContactForm } from "@/lib/supabase";
 import { toast } from "sonner";
+import { motion } from "framer-motion";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact Us | Concept Automation Technologies, Ahmedabad" },
-      { name: "description", content: "Contact Concept Automation Technologies for PLC, HMI, VFD and servo system inquiries. Call +91 80454 75169." },
+      { name: "description", content: "Contact Concept Automation Technologies for PLC, HMI, VFD and servo system inquiries. Call +91 87994 47337." },
     ],
   }),
   component: Contact,
@@ -32,7 +33,7 @@ function Contact() {
     }
     setLoading(true);
     const res = await submitContactForm({
-      name: formData.name, email: formData.email || "no-email@conceptautotech.com",
+      name: formData.name, email: formData.email || "no-email@concept-auto-tech.com",
       phone: formData.phone, company: formData.companyName, subject: formData.subject, message: formData.message,
     });
     setLoading(false);
@@ -50,63 +51,73 @@ function Contact() {
 
       <main>
         {/* Banner */}
-        <section className="bg-stone-950 py-12 sm:py-16 text-white">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 animate-fade-up">
-            <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-amber-400">Direct Support & Inquiries</span>
+        <section className="bg-gradient-to-r from-blue-50/50 to-slate-50/50 py-12 sm:py-16 text-foreground border-b border-border">
+          <motion.div 
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="mx-auto max-w-7xl px-4 sm:px-6"
+          >
+            <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-accent">Direct Support & Inquiries</span>
             <h1 className="mt-2 font-display text-3xl font-extrabold tracking-tight sm:text-5xl">
               Contact Concept Automation
             </h1>
-            <p className="mt-3 max-w-2xl text-sm text-stone-300 leading-relaxed sm:text-base">
+            <p className="mt-3 max-w-2xl text-sm text-muted-foreground leading-relaxed sm:text-base">
               Send your part number or technical specs. Our sales desk responds with stock availability and quotations.
             </p>
-          </div>
+          </motion.div>
         </section>
 
         <section className="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 sm:py-14 lg:grid-cols-[1fr_1.4fr]">
           {/* Left: Company Details */}
-          <div className="space-y-4 animate-fade-up">
+          <motion.div 
+            initial={{ opacity: 0, x: -25 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="space-y-4"
+          >
             <div className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm">
               <div className="flex items-center gap-3 border-b border-stone-100 pb-4">
-                <Building2 className="h-5 w-5 text-amber-600 shrink-0" />
+                <Building2 className="h-5 w-5 text-accent shrink-0" />
                 <div>
                   <h3 className="font-display text-sm font-bold text-stone-900">{company.name}</h3>
-                  <p className="text-xs text-amber-600 font-semibold font-mono">GSTIN: {company.gst}</p>
+                  <p className="text-xs text-accent font-semibold font-mono">GSTIN: {company.gst}</p>
                 </div>
               </div>
 
               <ul className="mt-4 space-y-4 text-sm">
                 <li className="flex items-start gap-3">
-                  <User className="h-4 w-4 text-amber-600 shrink-0 mt-0.5" />
+                  <User className="h-4 w-4 text-accent shrink-0 mt-0.5" />
                   <div>
-                    <div className="font-semibold text-stone-900">{company.owner}</div>
-                    <div className="text-stone-500 text-xs">{company.role}</div>
+                    <div className="font-semibold text-stone-900">{company.proprietor}</div>
+                    <div className="text-stone-500 text-xs">Proprietor</div>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Phone className="h-4 w-4 text-amber-600 shrink-0 mt-0.5" />
+                  <Phone className="h-4 w-4 text-accent shrink-0 mt-0.5" />
                   <div>
                     <div className="text-[10px] font-bold uppercase tracking-[0.15em] text-stone-400">Phone / WhatsApp</div>
-                    <a href={`tel:${company.phoneRaw}`} className="font-mono font-semibold text-stone-900 hover:text-amber-600 transition-colors">
+                    <a href={`tel:${company.phoneRaw}`} className="font-mono font-semibold text-stone-900 hover:text-primary transition-colors">
                       {company.phone}
                     </a>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Mail className="h-4 w-4 text-amber-600 shrink-0 mt-0.5" />
+                  <Mail className="h-4 w-4 text-accent shrink-0 mt-0.5" />
                   <div>
                     <div className="text-[10px] font-bold uppercase tracking-[0.15em] text-stone-400">Sales Email</div>
-                    <a href={`mailto:${company.email}`} className="font-semibold text-stone-900 hover:text-amber-600 transition-colors">
+                    <a href={`mailto:${company.email}`} className="font-semibold text-stone-900 hover:text-primary transition-colors">
                       {company.email}
                     </a>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <MapPin className="h-4 w-4 text-amber-600 shrink-0 mt-0.5" />
+                  <MapPin className="h-4 w-4 text-accent shrink-0 mt-0.5" />
                   <div>
                     <div className="text-[10px] font-bold uppercase tracking-[0.15em] text-stone-400">Office & Warehouse</div>
                     <div className="font-medium text-stone-700 leading-relaxed text-sm">{company.address}</div>
-                    <a href={company.googleMapsUrl} target="_blank" rel="noreferrer"
-                      className="mt-1 inline-flex items-center gap-1 text-xs font-semibold text-amber-600 hover:text-amber-700">
+                    <a href={`https://maps.google.com/?q=${encodeURIComponent(company.address)}`} target="_blank" rel="noreferrer"
+                      className="mt-1 inline-flex items-center gap-1 text-xs font-semibold text-accent hover:text-accent/90">
                       View on Google Maps <ExternalLink className="h-3 w-3" />
                     </a>
                   </div>
@@ -130,10 +141,15 @@ function Contact() {
                 Chat on WhatsApp
               </a>
             </div>
-          </div>
+          </motion.div>
 
           {/* Right: Contact Form */}
-          <div className="rounded-2xl border border-stone-200 bg-white p-6 sm:p-8 shadow-sm animate-fade-up stagger-2">
+          <motion.div 
+            initial={{ opacity: 0, x: 25 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="rounded-2xl border border-stone-200 bg-white p-6 sm:p-8 shadow-sm"
+          >
             <h2 className="font-display text-xl font-bold text-stone-900 sm:text-2xl">
               Send Your Inquiry & Part List
             </h2>
@@ -143,14 +159,14 @@ function Contact() {
 
             {sent ? (
               <div className="mt-8 rounded-2xl border border-amber-200 bg-amber-50 p-8 text-center animate-scale-in">
-                <CheckCircle2 className="mx-auto h-10 w-10 text-amber-600" />
+                <CheckCircle2 className="mx-auto h-10 w-10 text-accent" />
                 <h3 className="mt-3 font-display text-xl font-bold text-stone-900">Message Received!</h3>
                 <p className="mt-2 text-sm text-stone-500">
                   Thank you <strong className="text-stone-900">{formData.name}</strong>. An automation engineer will contact you shortly.
                 </p>
                 <button
                   onClick={() => { setSent(false); setFormData({ name: "", phone: "", email: "", companyName: "", subject: "Industrial Automation Inquiry", message: "" }); }}
-                  className="mt-5 rounded-xl bg-stone-950 px-6 py-2.5 text-xs font-semibold text-white hover:bg-amber-600 transition-colors"
+                  className="mt-5 rounded-xl bg-primary px-6 py-2.5 text-xs font-semibold text-white hover:bg-accent transition-colors"
                 >
                   Send Another Message
                 </button>
@@ -197,12 +213,12 @@ function Contact() {
                 </div>
 
                 <button type="submit" disabled={loading}
-                  className="w-full flex items-center justify-center gap-2 rounded-xl bg-stone-950 py-3.5 text-sm font-semibold text-white hover:bg-amber-600 transition-colors disabled:opacity-50">
+                  className="w-full flex items-center justify-center gap-2 rounded-xl bg-primary py-3.5 text-sm font-semibold text-white hover:bg-accent transition-colors disabled:opacity-50">
                   {loading ? "Submitting..." : <><Send className="h-4 w-4" /> Send Message</>}
                 </button>
               </form>
             )}
-          </div>
+          </motion.div>
         </section>
       </main>
 
