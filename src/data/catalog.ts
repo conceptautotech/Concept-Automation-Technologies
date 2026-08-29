@@ -2916,9 +2916,9 @@ export const allProducts: Product[] = [
     "type": "PLC",
     "description": "2094-EN02D-M01-S0 Allen Bradley",
     "specifications": [],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2021/6/YF/IU/WW/11020113/2094-en02d-m01-s0-kinetix-2000-ethernet-ip-cop-1000x1000.jpg",
+    "image": "https://www.rockwellautomation.com/resources/images/productinfo/IDW_1000x1000/2094/2094-EN02D-M01-S0_1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2021/6/YF/IU/WW/11020113/2094-en02d-m01-s0-kinetix-2000-ethernet-ip-cop-1000x1000.jpg"
+      "https://www.rockwellautomation.com/resources/images/productinfo/IDW_1000x1000/2094/2094-EN02D-M01-S0_1000x1000.jpg"
     ],
     "slug": "2094-en02d-m01-s0-allen-bradley",
     "stock": true
@@ -5361,9 +5361,9 @@ export const allProducts: Product[] = [
     "type": "VFD",
     "description": "Danfoss FC 300 525-600 V VLT Automation Drive",
     "specifications": [],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/7/439243764/AX/QZ/WI/4183864/danfoss-vlt-automation-drive-fc-302.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/6/430388251/WI/HG/IQ/89143389/136n8936-15-hp-danfoss-drive-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/7/439243764/AX/QZ/WI/4183864/danfoss-vlt-automation-drive-fc-302.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2024/6/430388251/WI/HG/IQ/89143389/136n8936-15-hp-danfoss-drive-1000x1000.jpg"
     ],
     "slug": "danfoss-fc-300-525-600-v-vlt-automation-drive",
     "stock": true

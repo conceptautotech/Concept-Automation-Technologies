@@ -1,5 +1,5 @@
 import { createFileRoute, useSearch } from "@tanstack/react-router";
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useRef, useCallback } from "react";
 import { Search, SlidersHorizontal, X, Check, Filter } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -89,6 +89,39 @@ function Products() {
     setSearchQuery("");
   };
 
+  // ── Scroll-direction tracker: hide filters on scroll-down, show on scroll-up ──
+  const [filterBarHidden, setFilterBarHidden] = useState(false);
+  const lastScrollY = useRef(0);
+  const ticking = useRef(false);
+
+  useEffect(() => {
+    const THRESHOLD = 10; // px of scroll before toggling
+
+    const onScroll = () => {
+      if (ticking.current) return;
+      ticking.current = true;
+
+      requestAnimationFrame(() => {
+        const currentY = window.scrollY;
+        const delta = currentY - lastScrollY.current;
+
+        if (delta > THRESHOLD && currentY > 120) {
+          // scrolling DOWN past the hero — hide the filter bar
+          setFilterBarHidden(true);
+        } else if (delta < -THRESHOLD) {
+          // scrolling UP — show the filter bar
+          setFilterBarHidden(false);
+        }
+
+        lastScrollY.current = currentY;
+        ticking.current = false;
+      });
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
     <div className="min-h-screen bg-background pb-16 sm:pb-0">
       <Header />
@@ -115,7 +148,7 @@ function Products() {
         {/* ═══════════════════════════════════════════════════════ */}
         {/* TOP FILTER SECTION                                     */}
         {/* ═══════════════════════════════════════════════════════ */}
-        <div className="sticky top-14 sm:top-16 z-30 border-b border-slate-100 bg-white/90 backdrop-blur-xl py-4 shadow-sm">
+        <div className={`sticky top-14 sm:top-16 z-30 border-b border-slate-100 bg-white/90 backdrop-blur-xl py-4 shadow-sm transition-transform duration-300 ease-in-out ${filterBarHidden ? "-translate-y-full" : "translate-y-0"}`}>
           <div className="mx-auto max-w-7xl px-3 sm:px-6 space-y-4">
             {/* Search Input Bar & Result Count */}
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3">

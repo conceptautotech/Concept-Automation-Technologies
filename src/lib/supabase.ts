@@ -26,7 +26,8 @@ export type ContactPayload = {
   message: string;
 };
 
-const SALES_EMAIL = "sales@concept-auto-tech.com";
+// Secure token provided by FormSubmit.co for sales@concept-auto-tech.com to hide the raw email address
+const FORM_ENDPOINT = "7a7eec4c7cee793aa638d5fe95f8e05";
 
 /**
  * Send an email notification to the sales team via FormSubmit.co
@@ -35,7 +36,7 @@ const SALES_EMAIL = "sales@concept-auto-tech.com";
  */
 async function sendEmailNotification(subject: string, bodyFields: Record<string, string>) {
   try {
-    await fetch(`https://formsubmit.co/ajax/${SALES_EMAIL}`, {
+    await fetch(`https://formsubmit.co/ajax/${FORM_ENDPOINT}`, {
       method: "POST",
       headers: { "Content-Type": "application/json", Accept: "application/json" },
       body: JSON.stringify({
