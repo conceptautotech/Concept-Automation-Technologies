@@ -26,8 +26,10 @@ export type ContactPayload = {
   message: string;
 };
 
-// Secure token provided by FormSubmit.co for sales@concept-auto-tech.com to hide the raw email address
-const FORM_ENDPOINT = "7a7eec4c7cee793aa638d5fe95f8e05";
+// The sales email endpoint for FormSubmit.co.
+// Note: FormSubmit will send a one-time activation email for each new domain (including Vercel).
+// Once you click "Activate Form" in that email, submissions from that domain are active.
+const FORM_ENDPOINT = "sales@concept-auto-tech.com";
 
 /**
  * Send an email notification to the sales team via FormSubmit.co
