@@ -1,7 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
 
-const supabaseUrl = import.meta.env['VITE_SUPABASE_URL'] || "https://muiimtqkxhlexhcmayqq.supabase.co";
-const supabaseAnonKey = import.meta.env['VITE_SUPABASE_ANON_KEY'] || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11aWltdHFreGhsZXhoY21heXFxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU5MDAxNTIsImV4cCI6MjEwMTQ3NjE1Mn0.jf3KBMtBgPKTN4xH_JSlsDnjdw_lXRxAErd4DLvwBac";
+const supabaseUrl = import.meta.env['VITE_SUPABASE_URL'] || "https://bzlrkijwfcpslrqpumsw.supabase.co";
+const supabaseAnonKey = import.meta.env['VITE_SUPABASE_ANON_KEY'] || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ6bHJraWp3ZmNwc2xycXB1bXN3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc4NDU4NTEsImV4cCI6MjEwMzQyMTg1MX0.zAWuX_b3eXpLT-5opmS3B71T2cvgKbQAHa02GVeDnVA";
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
@@ -58,6 +58,22 @@ async function sendEmailNotification(subject: string, bodyFields: Record<string,
  * Submit quote/product inquiry to Supabase inquiries table
  */
 export async function submitInquiry(payload: InquiryPayload) {
+  // Send email notification immediately (fire-and-forget) so it isn't blocked by database errors
+  sendEmailNotification(
+    `🔔 New Quote Request: ${payload.product_name || "General Inquiry"}`,
+    {
+      "Customer Name": payload.name,
+      "Email": payload.email,
+      "Phone": payload.phone,
+      "Company": payload.company || "—",
+      "Product": payload.product_name || "General Inquiry",
+      "Part Number": payload.part_number || "—",
+      "Quantity": String(payload.quantity || 1),
+      "Location": payload.location || "—",
+      "Message": payload.message || "—",
+    }
+  );
+
   try {
     const { data, error } = await supabase
       .from("inquiries")
@@ -78,22 +94,6 @@ export async function submitInquiry(payload: InquiryPayload) {
       ])
       .select();
 
-    // Send email notification (fire-and-forget)
-    sendEmailNotification(
-      `🔔 New Quote Request: ${payload.product_name || "General Inquiry"}`,
-      {
-        "Customer Name": payload.name,
-        "Email": payload.email,
-        "Phone": payload.phone,
-        "Company": payload.company || "—",
-        "Product": payload.product_name || "General Inquiry",
-        "Part Number": payload.part_number || "—",
-        "Quantity": String(payload.quantity || 1),
-        "Location": payload.location || "—",
-        "Message": payload.message || "—",
-      }
-    );
-
     if (error) {
       console.warn("Supabase inquiry error (falling back):", error.message);
       return { success: true, offline: true, data: [payload] };
@@ -110,6 +110,19 @@ export async function submitInquiry(payload: InquiryPayload) {
  * Submit contact form to Supabase contact_submissions table
  */
 export async function submitContactForm(payload: ContactPayload) {
+  // Send email notification immediately (fire-and-forget) so it isn't blocked by database errors
+  sendEmailNotification(
+    `📩 New Contact Form: ${payload.subject || "Website Inquiry"}`,
+    {
+      "Customer Name": payload.name,
+      "Email": payload.email,
+      "Phone": payload.phone,
+      "Company": payload.company || "—",
+      "Subject": payload.subject || "Website Inquiry",
+      "Message": payload.message,
+    }
+  );
+
   try {
     const { data, error } = await supabase
       .from("contact_submissions")
@@ -125,19 +138,6 @@ export async function submitContactForm(payload: ContactPayload) {
         },
       ])
       .select();
-
-    // Send email notification (fire-and-forget)
-    sendEmailNotification(
-      `📩 New Contact Form: ${payload.subject || "Website Inquiry"}`,
-      {
-        "Customer Name": payload.name,
-        "Email": payload.email,
-        "Phone": payload.phone,
-        "Company": payload.company || "—",
-        "Subject": payload.subject || "Website Inquiry",
-        "Message": payload.message,
-      }
-    );
 
     if (error) {
       console.warn("Supabase contact error (falling back):", error.message);
