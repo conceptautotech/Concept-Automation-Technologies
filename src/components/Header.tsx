@@ -59,18 +59,25 @@ export function Header() {
 
         {/* Main Header Row */}
         <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-3 sm:px-6">
-          {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 shrink-0">
-            <img
-              src="/logo.jpg"
-              alt="Concept Automation Technologies"
-              className="h-14 w-14 sm:h-16 sm:w-16 rounded-xl object-contain border border-border p-0.5 bg-white shadow-sm"
-              width={64}
-              height={64}
-            />
-            <span className="font-display text-xl sm:text-2xl font-extrabold tracking-tight text-foreground hidden sm:block">
-              Concept Automation <span className="text-accent">Technologies</span>
-            </span>
+          {/* Logo & Brand Name */}
+          <Link to="/" className="flex items-center gap-3 shrink-0 group">
+            <div className="relative rounded-2xl bg-white p-1 border-2 border-slate-200 shadow-md group-hover:border-accent group-hover:shadow-lg transition-all">
+              <img
+                src="/logo.jpg"
+                alt="Concept Automation Technologies"
+                className="h-12 w-12 sm:h-14 sm:w-14 rounded-xl object-contain"
+                width={56}
+                height={56}
+              />
+            </div>
+            <div className="flex flex-col">
+              <span className="font-display text-lg sm:text-2xl font-extrabold tracking-tight text-slate-900 leading-none">
+                CONCEPT <span className="text-accent">AUTOMATION</span>
+              </span>
+              <span className="text-[10px] sm:text-[11px] font-extrabold uppercase tracking-[0.25em] text-slate-500 mt-0.5">
+                TECHNOLOGIES
+              </span>
+            </div>
           </Link>
           {/* Desktop Navigation — Aligned Right next to actions */}
           <nav className="ml-auto hidden items-center gap-1.5 lg:flex shrink-0">

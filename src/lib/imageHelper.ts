@@ -33,15 +33,41 @@ export function getProxiedImageUrl(rawUrl?: string): string {
   
   let cleanUrl = rawUrl;
   if (cleanUrl.includes("imimg.com")) {
-    // Ensure we use the 500x500 version for card thumbnails (good quality + fast loading)
-    // If no size suffix exists, add -500x500 before the extension
-    if (!/-\d+x\d+\./.test(cleanUrl)) {
-      cleanUrl = cleanUrl.replace(/\.([a-z]+)$/i, '-500x500.$1');
+    // Force maximum 1000x1000 Ultra HD resolution for crisp clarity
+    if (/-\d+x\d+\./.test(cleanUrl)) {
+      cleanUrl = cleanUrl.replace(/-\d+x\d+\./, '-1000x1000.');
+    } else {
+      cleanUrl = cleanUrl.replace(/\.([a-z]+)$/i, '-1000x1000.$1');
     }
   }
 
-  // Load directly from IndiaMART CDNs as they support CORS with access-control-allow-origin: *
   return cleanUrl;
+}
+
+// Deduplicate image URLs by base filename (ignoring -1000x1000, -500x500, -250x250, -125x125 size suffixes and non-product document scans)
+export function getUniqueImages(images?: string[]): string[] {
+  if (!images || images.length === 0) return [];
+  const seenBases = new Set<string>();
+  const result: string[] = [];
+
+  images.forEach((rawUrl) => {
+    if (!rawUrl) return;
+    if (rawUrl.includes("PDFImage") || rawUrl.includes("c-120x120") || rawUrl.includes("logo")) return;
+
+    // Normalize base key by removing size resolution suffixes
+    const baseKey = rawUrl
+      .replace(/-\d+x\d+\.[a-z]+$/i, '')
+      .replace(/\.[a-z]+$/i, '')
+      .toLowerCase()
+      .trim();
+
+    if (!seenBases.has(baseKey)) {
+      seenBases.add(baseKey);
+      result.push(rawUrl);
+    }
+  });
+
+  return result;
 }
 
 // Generate inline SVG placeholder data URL when network images fail completely
@@ -57,7 +83,7 @@ export function getSvgDataUrl(name: string, brand?: string): string {
     <rect x="50" y="240" width="300" height="28" rx="6" fill="#F97316" fill-opacity="0.2"/>
     <text x="200" y="259" fill="#F97316" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="2">${cleanBrand}</text>
     <text x="200" y="300" fill="#F8FAFC" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle">${cleanName}</text>
-    <text x="200" y="330" fill="#94A3B8" font-family="sans-serif" font-size="11" text-anchor="middle">100% Genuine OEM Stock</text>
+    <text x="200" y="330" fill="#94A3B8" font-family="sans-serif" font-size="11" text-anchor="middle">100% Original Stock</text>
   </svg>`;
 
   return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;

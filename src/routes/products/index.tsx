@@ -20,7 +20,15 @@ export const Route = createFileRoute("/products/")({
   component: Products,
 });
 
-const productTypes = ["All", "PLC", "HMI", "VFD", "Sensors"] as const;
+const productTypes = [
+  "All",
+  "PLC",
+  "HMI",
+  "VFD",
+  "SERVO DRIVE SYSTEM",
+  "SENSORS",
+  "ENCODERS",
+] as const;
 
 function Products() {
   const searchParams = useSearch({ strict: false }) as { q?: string };
@@ -57,13 +65,33 @@ function Products() {
   const filteredProducts = useMemo(() => {
     const searchTerms = searchQuery.toLowerCase().trim().split(/\s+/).filter(Boolean);
     return mergedProducts.filter((product) => {
-      const matchesBrand = selectedBrand === "All" || product.brand.toLowerCase() === selectedBrand.toLowerCase();
+      const matchesBrand = selectedBrand === "All" || (product.brand || "").toLowerCase() === selectedBrand.toLowerCase();
       const matchesType = selectedType === "All" || (() => {
         const pType = (product.type || "").toLowerCase().trim();
         const pCat = (product.category || "").toLowerCase().trim();
+        const pName = (product.name || "").toLowerCase().trim();
+        const pDesc = (product.description || "").toLowerCase().trim();
         const sType = selectedType.toLowerCase().trim();
+
+        if (sType === "encoders" || sType === "encoder") {
+          return pType.includes("encoder") || pCat.includes("encoder") || pName.includes("encoder") || pDesc.includes("encoder");
+        }
         if (sType === "sensors" || sType === "sensor") {
-          return pType.includes("sensor") || pCat.includes("sensor");
+          const isEncoder = pType.includes("encoder") || pCat.includes("encoder") || pName.includes("encoder");
+          if (isEncoder) return false;
+          return pType.includes("sensor") || pCat.includes("sensor") || pName.includes("sensor") || pDesc.includes("sensor");
+        }
+        if (sType === "servo drive system" || sType === "servo") {
+          return pType.includes("servo") || pCat.includes("servo") || pName.includes("servo");
+        }
+        if (sType === "vfd") {
+          return pType.includes("vfd") || pCat.includes("vfd") || pName.includes("vfd") || pName.includes("drive") || pName.includes("frenic") || pName.includes("freqrol") || pName.includes("sinamics");
+        }
+        if (sType === "plc") {
+          return pType === "plc" || pCat.includes("plc") || pName.includes("plc") || pName.includes("simatic") || pName.includes("melsec") || pName.includes("compactlogix");
+        }
+        if (sType === "hmi") {
+          return pType === "hmi" || pCat.includes("hmi") || pName.includes("hmi") || pName.includes("touch") || pName.includes("panelview") || pName.includes("comfort panel");
         }
         return pType === sType || pType.includes(sType) || pCat.includes(sType);
       })();
@@ -140,7 +168,7 @@ function Products() {
               Industrial Automation Products
             </h1>
             <p className="mt-2 text-xs sm:text-sm text-muted-foreground max-w-lg mx-auto font-semibold">
-              Genuine OEM products from leading global manufacturers. Ready for dispatch.
+              Original factory products from leading global manufacturers. Ready for dispatch.
             </p>
           </motion.div>
         </div>
@@ -148,8 +176,8 @@ function Products() {
         {/* ═══════════════════════════════════════════════════════ */}
         {/* TOP FILTER SECTION                                     */}
         {/* ═══════════════════════════════════════════════════════ */}
-        <div className={`sticky top-14 sm:top-16 z-30 border-b border-slate-100 bg-white/90 backdrop-blur-xl py-4 shadow-sm transition-transform duration-300 ease-in-out ${filterBarHidden ? "-translate-y-full" : "translate-y-0"}`}>
-          <div className="mx-auto max-w-7xl px-3 sm:px-6 space-y-4">
+        <div className={`sticky top-14 sm:top-16 z-30 border-b border-slate-100 bg-white/95 backdrop-blur-xl py-3.5 shadow-sm transition-transform duration-300 ease-in-out ${filterBarHidden ? "-translate-y-full" : "translate-y-0"}`}>
+          <div className="mx-auto max-w-7xl px-3 sm:px-6 space-y-3">
             {/* Search Input Bar & Result Count */}
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
               <div className="relative flex-1 max-w-md">
@@ -169,8 +197,8 @@ function Products() {
               </div>
 
               <div className="flex items-center justify-between md:justify-end gap-3 text-xs font-bold text-slate-600">
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-50 border border-slate-200/60 px-3.5 py-1.5 text-xs text-slate-600 font-medium">
-                  Genuine OEM Parts Catalog
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 border border-slate-200/80 px-3.5 py-1.5 text-xs text-slate-700 font-bold">
+                  Original Parts Catalog
                 </span>
                 {(selectedBrand !== "All" || selectedType !== "All" || searchQuery) && (
                   <button
@@ -184,17 +212,17 @@ function Products() {
             </div>
 
             {/* Product Type Filter Pills */}
-            <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none relative">
-              <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 mr-2 shrink-0 select-none">Type:</span>
-              <div className="flex items-center gap-2 shrink-0">
+            <div className="flex flex-wrap items-center gap-2 pt-1">
+              <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500 mr-1 shrink-0 select-none">TYPE:</span>
+              <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
                 {productTypes.map((t) => (
                   <button
                     key={t}
                     onClick={() => setSelectedType(t)}
-                    className={`shrink-0 rounded-full px-3.5 py-1.5 text-xs font-extrabold transition-all cursor-pointer ${
+                    className={`rounded-full px-3.5 py-1.5 text-xs font-extrabold transition-all cursor-pointer ${
                       selectedType === t
                         ? "bg-primary text-white shadow-md shadow-blue-500/10 scale-[1.02]"
-                        : "bg-slate-50 text-slate-600 border border-slate-200/60 hover:bg-slate-100/60 hover:border-slate-300"
+                        : "bg-slate-50 text-slate-700 border border-slate-200 hover:bg-slate-100 hover:border-slate-300"
                     }`}
                   >
                     {t}
@@ -203,34 +231,32 @@ function Products() {
               </div>
             </div>
 
-            {/* Brand Filter Pills */}
-            <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none relative">
-              <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 mr-2 shrink-0 select-none">Brand:</span>
-              <div className="flex items-center gap-2 shrink-0">
+            {/* Brand Filter Pills — Wrap across 2nd line, not horizontally scrollable */}
+            <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 pt-1">
+              <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500 mr-1 shrink-0 select-none">BRAND:</span>
+              <button
+                onClick={() => setSelectedBrand("All")}
+                className={`rounded-full px-3.5 py-1 text-xs font-extrabold transition-all cursor-pointer ${
+                  selectedBrand === "All"
+                    ? "bg-accent text-white shadow-md shadow-orange-500/10 scale-[1.02]"
+                    : "bg-slate-50 text-slate-700 border border-slate-200 hover:bg-slate-100 hover:border-slate-300"
+                }`}
+              >
+                All Brands
+              </button>
+              {dynamicBrands.map((b) => (
                 <button
-                  onClick={() => setSelectedBrand("All")}
-                  className={`shrink-0 rounded-full px-3.5 py-1.5 text-xs font-extrabold transition-all cursor-pointer ${
-                    selectedBrand === "All"
+                  key={b}
+                  onClick={() => setSelectedBrand(b)}
+                  className={`rounded-full px-3.5 py-1 text-xs font-extrabold transition-all cursor-pointer ${
+                    selectedBrand === b
                       ? "bg-accent text-white shadow-md shadow-orange-500/10 scale-[1.02]"
-                      : "bg-slate-50 text-slate-600 border border-slate-200/60 hover:bg-slate-100/60 hover:border-slate-300"
+                      : "bg-slate-50 text-slate-700 border border-slate-200 hover:bg-slate-100 hover:border-slate-300"
                   }`}
                 >
-                  All Brands
+                  {b}
                 </button>
-                {dynamicBrands.map((b) => (
-                  <button
-                    key={b}
-                    onClick={() => setSelectedBrand(b)}
-                    className={`shrink-0 rounded-full px-3.5 py-1.5 text-xs font-extrabold transition-all cursor-pointer ${
-                      selectedBrand === b
-                        ? "bg-accent text-white shadow-md shadow-orange-500/10 scale-[1.02]"
-                        : "bg-slate-50 text-slate-600 border border-slate-200/60 hover:bg-slate-100/60 hover:border-slate-300"
-                    }`}
-                  >
-                    {b}
-                  </button>
-                ))}
-              </div>
+              ))}
             </div>
           </div>
         </div>

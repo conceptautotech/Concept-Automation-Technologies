@@ -354,22 +354,26 @@ function DashboardView({ onLogout }: DashboardViewProps) {
   const metrics = useMemo(() => {
     const total = mergedProducts.length;
 
-    const countByType = (typeKey: string) => {
-      return mergedProducts.filter((p) => {
-        const pType = (p.type || "").toLowerCase().trim();
-        const pCat = (p.category || "").toLowerCase().trim();
-        const sType = typeKey.toLowerCase().trim();
-        if (sType === "sensors" || sType === "sensor") {
-          return pType.includes("sensor") || pCat.includes("sensor");
-        }
-        return pType === sType || pType.includes(sType) || pCat.includes(sType);
-      }).length;
-    };
+    let plcCount = 0;
+    let hmiCount = 0;
+    let vfdCount = 0;
+    let sensorCount = 0;
 
-    const plcCount = countByType("PLC");
-    const hmiCount = countByType("HMI");
-    const vfdCount = countByType("VFD");
-    const sensorCount = countByType("Sensor");
+    mergedProducts.forEach((p) => {
+      const pType = (p.type || "").toUpperCase().trim();
+      const pCat = (p.category || "").toUpperCase().trim();
+      const full = `${pType} ${pCat}`;
+
+      if (full.includes("PLC") || full.includes("CPU")) {
+        plcCount++;
+      } else if (full.includes("HMI") || full.includes("TOUCH") || full.includes("PANEL")) {
+        hmiCount++;
+      } else if (full.includes("VFD") || full.includes("DRIVE") || full.includes("INVERTER")) {
+        vfdCount++;
+      } else {
+        sensorCount++;
+      }
+    });
 
     return { total, plcCount, hmiCount, vfdCount, sensorCount };
   }, [mergedProducts]);
@@ -610,7 +614,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
     setSpecifications([
       { label: "Warranty", value: "1 Year Official Warranty" },
       { label: "Dispatch", value: "Makarba, Ahmedabad, Gujarat" },
-      { label: "Condition", value: "100% Brand New, Genuine OEM" }
+      { label: "Condition", value: "100% Brand New Original" }
     ]);
     setShowUrlInput(false);
     setIsFormOpen(true);
@@ -760,7 +764,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
   // Filter products list
   const filteredProductsList = useMemo(() => {
     return mergedProducts.filter((p) => {
-      const matchBrand = selectedBrand === "All" || p.brand.toLowerCase() === selectedBrand.toLowerCase();
+      const matchBrand = selectedBrand === "All" || (p?.brand || "").toLowerCase() === selectedBrand.toLowerCase();
 
       const isModifiedOrCustom = p.isCustom || dbProducts.some(dbp => dbp.slug === p.slug);
       const matchCustom = selectedCustomFilter === "All"

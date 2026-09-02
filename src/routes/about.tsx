@@ -63,7 +63,7 @@ function About() {
           <div className="mx-auto max-w-6xl grid gap-4 grid-cols-2 md:grid-cols-4">
             {[
               { icon: Award, label: "IndiaMART Certified", val: "Trust Seal Verified", color: "text-amber-600 bg-amber-50 border-amber-200" },
-              { icon: ShieldCheck, label: "OEM Guarantee", val: "100% Genuine Parts", color: "text-emerald-600 bg-emerald-50 border-emerald-200" },
+              { icon: ShieldCheck, label: "Original Guarantee", val: "100% Genuine Parts", color: "text-emerald-600 bg-emerald-50 border-emerald-200" },
               { icon: FileText, label: "GST Compliant", val: company.gst, mono: true, color: "text-blue-600 bg-blue-50 border-blue-200" },
               { icon: Globe, label: "Global Trade Code", val: "IEC: ********54A", color: "text-purple-600 bg-purple-50 border-purple-200" },
             ].map((badge, idx) => (
@@ -120,7 +120,7 @@ function About() {
                   <p className="text-xs sm:text-sm text-stone-700 italic font-semibold">
                     "We are aiming to play a vital, reliable role in the global supply chain for complete industrial automation systems, supporting panel builders, traders, and manufacturing plants with verified components."
                   </p>
-                  <span className="text-[10px] text-stone-400 block font-bold uppercase tracking-wider mt-2">— Gaurang Patel, Proprietor</span>
+                  <span className="text-[10px] text-stone-400 block font-bold uppercase tracking-wider mt-2">— Gaurang Chavda, Proprietor</span>
                 </div>
 
                 <p className="text-sm sm:text-base text-stone-600 leading-relaxed font-medium">
@@ -207,14 +207,14 @@ function About() {
               </div>
 
               {/* Brands Handled Block */}
-              <div className="rounded-3xl border border-stone-200 bg-gradient-to-br from-primary to-[#002e5c] p-6 text-white shadow-lg">
-                <div className="flex items-center gap-2 border-b border-white/10 pb-3 mb-4">
+              <div className="rounded-3xl border border-stone-200 bg-white p-6 text-slate-900 shadow-md">
+                <div className="flex items-center gap-2 border-b border-stone-200 pb-3 mb-4">
                   <Globe className="h-4 w-4 text-accent" />
-                  <h3 className="text-xs font-extrabold uppercase tracking-widest text-white">Genuine OEM Brands Stocked</h3>
+                  <h3 className="text-xs font-extrabold uppercase tracking-widest text-slate-900">Top Hardware Brands Stocked</h3>
                 </div>
                 <div className="flex flex-wrap gap-2">
                   {brands.map((b) => (
-                    <span key={b} className="rounded-lg bg-white/5 border border-white/10 px-3 py-1.5 text-xs font-semibold text-stone-300">
+                    <span key={b} className="rounded-lg bg-stone-100 border border-stone-200 px-3 py-1.5 text-xs font-semibold text-slate-700">
                       {b}
                     </span>
                   ))}

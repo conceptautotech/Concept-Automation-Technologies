@@ -12,6 +12,8 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { ThemeProvider } from "../lib/theme";
 import { Toaster } from "../components/ui/sonner";
+import { Header } from "../components/Header";
+import { Footer } from "../components/Footer";
 
 
 function NotFoundComponent() {
@@ -37,36 +39,53 @@ function NotFoundComponent() {
 }
 
 function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
-  console.error(error);
+  console.error("Router Caught Error:", error);
   const router = useRouter();
 
+  const handleReset = () => {
+    try {
+      router.invalidate();
+      reset();
+    } catch {
+      window.location.href = "/products";
+    }
+  };
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background px-4">
-      <div className="max-w-md text-center">
-        <h1 className="text-xl font-semibold tracking-tight text-foreground">
-          This page didn't load
-        </h1>
-        <p className="mt-2 text-sm text-muted-foreground">
-          Something went wrong on our end. You can try refreshing or head back home.
-        </p>
-        <div className="mt-6 flex flex-wrap justify-center gap-2">
-          <button
-            onClick={() => {
-              router.invalidate();
-              reset();
-            }}
-            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
-          >
-            Try again
-          </button>
-          <a
-            href="/"
-            className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent"
-          >
-            Go home
-          </a>
+    <div className="min-h-screen bg-background flex flex-col justify-between">
+      <Header />
+
+      <main className="flex-1 flex items-center justify-center py-16 px-4">
+        <div className="max-w-lg w-full text-center bg-white p-8 rounded-3xl border border-slate-200 shadow-xl">
+          <div className="mx-auto h-16 w-16 rounded-2xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-600 mb-4 font-black text-xl">
+            !
+          </div>
+          <h1 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
+            Product Details Refreshing
+          </h1>
+          <p className="mt-2 text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
+            {error?.message && !error.message.includes("Object")
+              ? error.message
+              : "We're updating product stock & specifications. Click below to view the catalog."}
+          </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
+            <button
+              onClick={handleReset}
+              className="inline-flex items-center justify-center rounded-xl bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all hover:bg-blue-700 shadow-md cursor-pointer"
+            >
+              Reload Page
+            </button>
+            <a
+              href="/products"
+              className="inline-flex items-center justify-center rounded-xl border border-slate-300 bg-slate-50 px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-slate-800 transition-all hover:bg-slate-100 shadow-2xs"
+            >
+              Browse 725+ Catalog Items
+            </a>
+          </div>
         </div>
-      </div>
+      </main>
+
+      <Footer />
     </div>
   );
 }

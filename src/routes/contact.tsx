@@ -27,8 +27,8 @@ function Contact() {
 
   const onSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    if (!formData.name || !formData.phone || !formData.message) {
-      toast.error("Please fill in your Name, Phone, and Requirement.");
+    if (!formData.name || !formData.phone || !formData.email || !formData.message) {
+      toast.error("Please fill in your Name, Mobile, Email, and Requirement.");
       return;
     }
     setLoading(true);
@@ -188,8 +188,8 @@ function Contact() {
 
                 <div className="grid gap-4 sm:grid-cols-2">
                   <div>
-                    <label className="block text-xs font-semibold text-stone-700 mb-1.5">Email</label>
-                    <input type="email" placeholder="name@company.com" value={formData.email}
+                    <label className="block text-xs font-semibold text-stone-700 mb-1.5">Email Address *</label>
+                    <input type="email" required placeholder="name@company.com" value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })} className={inputClass} />
                   </div>
                   <div>

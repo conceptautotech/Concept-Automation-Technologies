@@ -456,16 +456,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459045515/XB/PU/GR/89143389/abb-acs560-01-206a-4-vfd-150hp-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459045515/XB/PU/GR/89143389/abb-acs560-01-206a-4-vfd-150hp-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459041868/GM/UA/NV/89143389/abb-acs560-01-206a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459041870/IY/JT/BP/89143389/abb-acs560-01-206a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459041875/GH/VX/MT/89143389/abb-acs560-01-206a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459041876/MJ/MJ/SK/89143389/abb-acs560-01-206a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459041877/QQ/BY/GS/89143389/abb-acs560-01-206a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459041878/JN/AA/RF/89143389/abb-acs560-01-206a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459041880/FO/LJ/FW/89143389/abb-acs560-01-206a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459041881/SQ/NC/HG/89143389/abb-acs560-01-206a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459041882/JE/WO/OQ/89143389/abb-acs560-01-206a-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459045515/XB/PU/GR/89143389/abb-acs560-01-206a-4-vfd-150hp-1000x1000.jpg"
     ],
     "slug": "abb-vfd-acs560-01-206a-4-vfd-150hp",
     "stock": true,
@@ -535,13 +526,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459105417/TR/EJ/UE/89143389/abb-440v-acs560-01-025a-4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459105417/TR/EJ/UE/89143389/abb-440v-acs560-01-025a-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459105000/ZH/RK/AJ/89143389/abb-440v-acs560-01-025a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459105004/QB/RA/LN/89143389/abb-440v-acs560-01-025a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459105046/VN/PZ/KF/89143389/abb-440v-acs560-01-025a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459105052/JV/RS/ZE/89143389/abb-440v-acs560-01-025a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459105057/VE/PX/LA/89143389/abb-440v-acs560-01-025a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459105074/IH/DT/VI/89143389/abb-440v-acs560-01-025a-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459105417/TR/EJ/UE/89143389/abb-440v-acs560-01-025a-4-1000x1000.jpg"
     ],
     "slug": "abb-vfd-440v-acs560-01-025a-4",
     "stock": true,
@@ -615,12 +600,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459058823/GN/YG/ZT/89143389/abb-acs560-01-073a-4-vfd-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459058823/GN/YG/ZT/89143389/abb-acs560-01-073a-4-vfd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459055877/LJ/VQ/IO/89143389/abb-acs560-01-073a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459055880/BL/FX/SF/89143389/abb-acs560-01-073a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459055884/WU/MI/ZT/89143389/abb-acs560-01-073a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459055883/GT/UD/HA/89143389/abb-acs560-01-073a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459055887/GW/NA/BV/89143389/abb-acs560-01-073a-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459058823/GN/YG/ZT/89143389/abb-acs560-01-073a-4-vfd-1000x1000.jpg"
     ],
     "slug": "abb-vfd-acs560-01-073a-4-vfd",
     "stock": true,
@@ -662,19 +642,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459039838/UH/KQ/ZH/89143389/abb-acs560-01-293a-4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459039838/UH/KQ/ZH/89143389/abb-acs560-01-293a-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459034168/LO/BL/QP/89143389/abb-acs560-01-293a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459034179/PY/XO/LN/89143389/abb-acs560-01-293a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459034242/IZ/PH/ES/89143389/abb-acs560-01-293a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459034246/AH/HD/HX/89143389/abb-acs560-01-293a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459034248/KI/TN/PT/89143389/abb-acs560-01-293a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459034258/LN/BV/WV/89143389/abb-acs560-01-293a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459034260/HB/IQ/NS/89143389/abb-acs560-01-293a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459034266/NG/IL/IN/89143389/abb-acs560-01-293a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459034275/FK/JY/QA/89143389/abb-acs560-01-293a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459034277/FU/UR/XF/89143389/abb-acs560-01-293a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459034284/NP/RT/GW/89143389/abb-acs560-01-293a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459034315/EN/PE/GH/89143389/abb-acs560-01-293a-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459039838/UH/KQ/ZH/89143389/abb-acs560-01-293a-4-1000x1000.jpg"
     ],
     "slug": "abb-vfd-general-purpose-drives-acs560-075-to-160-kw",
     "stock": true,
@@ -716,13 +684,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459109922/EN/OT/NB/89143389/abb-vfd-acs560-01-033a-4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459109922/EN/OT/NB/89143389/abb-vfd-acs560-01-033a-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459109016/XE/JU/IJ/89143389/abb-acs560-01-033a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459109020/XH/OJ/MI/89143389/abb-acs560-01-033a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459109027/TR/SF/VW/89143389/abb-acs560-01-033a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459109029/YJ/PP/PV/89143389/abb-acs560-01-033a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459109030/KF/NV/AK/89143389/abb-acs560-01-033a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459109034/QS/QM/QC/89143389/abb-acs560-01-033a-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459109922/EN/OT/NB/89143389/abb-vfd-acs560-01-033a-4-1000x1000.jpg"
     ],
     "slug": "abb-vfd-acs560-01-033a-4",
     "stock": true,
@@ -800,12 +762,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459053343/IJ/BM/SE/89143389/abb-acs560-01-169a-4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459053343/IJ/BM/SE/89143389/abb-acs560-01-169a-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459052392/MQ/ST/ZU/89143389/abb-acs560-01-169a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459052395/ZU/YF/PK/89143389/abb-acs560-01-169a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459052404/AC/CN/NV/89143389/abb-acs560-01-169a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459052406/RB/GI/UQ/89143389/abb-acs560-01-169a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459052408/GJ/BX/TO/89143389/abb-acs560-01-169a-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459053343/IJ/BM/SE/89143389/abb-acs560-01-169a-4-1000x1000.jpg"
     ],
     "slug": "abb-vfd-acs560-01-169a-4-vfd",
     "stock": true,
@@ -884,13 +841,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459131514/XA/JS/WI/89143389/abb-acs560-01-039a-4-1000x1000.jpg",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/459131514/XA/JS/WI/89143389/abb-acs560-01-039a-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459026946/ZO/QB/QH/89143389/abb-acs560-01-246a-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459114487/IS/GY/MK/89143389/abb-acs560-01-039a-4-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459114490/ZP/HW/UK/89143389/abb-acs560-01-039a-4-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459114502/HL/OT/TB/89143389/abb-acs560-01-039a-4-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459114501/LQ/NI/LV/89143389/abb-acs560-01-039a-4-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459114504/ZP/ZQ/AI/89143389/abb-acs560-01-039a-4-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459114506/EX/VG/JQ/89143389/abb-acs560-01-039a-4-vfd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459026946/ZO/QB/QH/89143389/abb-acs560-01-246a-4-1000x1000.jpg"
     ],
     "slug": "abb-vfd-acs560-01-039a-4-abb-vfd",
     "stock": true,
@@ -968,13 +919,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459069706/BT/ON/UN/89143389/abb-acs560-01-046a-4-vfd-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459069706/BT/ON/UN/89143389/abb-acs560-01-046a-4-vfd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459067640/HT/FV/TV/89143389/abb-acs560-01-046a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459067643/NS/LD/LD/89143389/abb-acs560-01-046a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459067655/HY/CJ/LL/89143389/abb-acs560-01-046a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459067657/FX/XA/NE/89143389/abb-acs560-01-046a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459067658/EO/GE/QI/89143389/abb-acs560-01-046a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459067666/MU/ID/RB/89143389/abb-acs560-01-046a-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459069706/BT/ON/UN/89143389/abb-acs560-01-046a-4-vfd-1000x1000.jpg"
     ],
     "slug": "abb-vfd-acs560-01-046a-4-vfd",
     "stock": true,
@@ -1064,13 +1009,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459103541/EN/VC/QL/89143389/abb-make-vfd-acs560-01-062a-4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459103541/EN/VC/QL/89143389/abb-make-vfd-acs560-01-062a-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459099842/GI/TN/AS/89143389/abb-acs560-01-062a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459099847/TS/NE/RY/89143389/abb-acs560-01-062a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459099862/DQ/YB/JY/89143389/abb-acs560-01-062a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459099865/UF/DE/VM/89143389/abb-acs560-01-062a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459099871/TX/UE/QV/89143389/abb-acs560-01-062a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459099876/ZS/XG/PD/89143389/abb-acs560-01-062a-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459103541/EN/VC/QL/89143389/abb-make-vfd-acs560-01-062a-4-1000x1000.jpg"
     ],
     "slug": "abb-vfd-make-vfd-acs560-01-062a-4",
     "stock": true,
@@ -1112,15 +1051,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459046477/SF/PI/DD/89143389/abb-acs560-01-246a-4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459046477/SF/PI/DD/89143389/abb-acs560-01-246a-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459046723/RL/UC/CQ/89143389/abb-acs560-01-246a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459046720/AD/BA/VF/89143389/abb-acs560-01-246a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459046731/FC/MP/TH/89143389/abb-acs560-01-246a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459046736/CL/XK/RO/89143389/abb-acs560-01-246a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459046740/PN/TI/SB/89143389/abb-acs560-01-246a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459046741/BI/WF/JK/89143389/abb-acs560-01-246a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459046743/IM/ZL/DL/89143389/abb-acs560-01-246a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459046748/BD/RU/JX/89143389/abb-acs560-01-246a-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459046477/SF/PI/DD/89143389/abb-acs560-01-246a-4-1000x1000.jpg"
     ],
     "slug": "abb-vfd-drive-acs560-01-246a-4-110kw",
     "stock": true,
@@ -1198,13 +1129,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459064400/YJ/DO/ET/89143389/abb-acs560-01-106a-4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459064400/YJ/DO/ET/89143389/abb-acs560-01-106a-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459064014/YO/ON/IR/89143389/abb-acs560-01-106a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459064019/TV/VQ/EN/89143389/abb-acs560-01-106a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459064037/JB/OM/MB/89143389/abb-acs560-01-106a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459064042/HX/LJ/QO/89143389/abb-acs560-01-106a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459064049/RC/KW/VJ/89143389/abb-acs560-01-106a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459064061/AS/RW/OM/89143389/abb-acs560-01-106a-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459064400/YJ/DO/ET/89143389/abb-acs560-01-106a-4-1000x1000.jpg"
     ],
     "slug": "abb-vfd-acs560-01-106a-4-vfd",
     "stock": true,
@@ -1254,13 +1179,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459051940/JH/ZZ/YD/89143389/abb-acs560-01-145a-4-vfd-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459051940/JH/ZZ/YD/89143389/abb-acs560-01-145a-4-vfd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459050776/LE/NW/UO/89143389/abb-acs560-01-145a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459050779/IW/GP/MK/89143389/abb-acs560-01-145a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459050787/WD/LW/DY/89143389/abb-acs560-01-145a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459050790/OO/OW/EW/89143389/abb-acs560-01-145a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459050792/WI/HL/CL/89143389/abb-acs560-01-145a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459050799/ZZ/JR/AD/89143389/abb-acs560-01-145a-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459051940/JH/ZZ/YD/89143389/abb-acs560-01-145a-4-vfd-1000x1000.jpg"
     ],
     "slug": "abb-vfd-acs560-01-145a-4-vfd",
     "stock": true,
@@ -1330,13 +1249,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459063289/FA/UT/JZ/89143389/abb-vfd-acs560-01-088a-4-3-phase-45kw-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459063289/FA/UT/JZ/89143389/abb-vfd-acs560-01-088a-4-3-phase-45kw-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459060500/PK/GM/AQ/89143389/abb-acs560-01-088a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459060502/NU/NE/UU/89143389/abb-acs560-01-088a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459060522/IG/GU/HC/89143389/abb-acs560-01-088a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459060525/IQ/JQ/PY/89143389/abb-acs560-01-088a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459060526/DT/BR/HF/89143389/abb-acs560-01-088a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459060532/YD/BV/WW/89143389/abb-acs560-01-088a-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459063289/FA/UT/JZ/89143389/abb-vfd-acs560-01-088a-4-3-phase-45kw-1000x1000.jpg"
     ],
     "slug": "abb-vfd-acs560-01-088a-4-3-phase-45kw",
     "stock": true,
@@ -1387,18 +1300,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459033637/QM/QL/MO/89143389/abb-vfd-acs560-01-02a6-4-1000x1000.jpg",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/459033637/QM/QL/MO/89143389/abb-vfd-acs560-01-02a6-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459015297/WD/PF/BM/89143389/abb-vfd-acs560-01-02a6-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459015779/XQ/TU/GZ/89143389/abb-vfd-acs560-01-02a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459015783/KN/XH/EZ/89143389/abb-vfd-acs560-01-02a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459015793/MX/MM/HY/89143389/abb-vfd-acs560-01-02a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459015795/WW/WE/OD/89143389/abb-vfd-acs560-01-02a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459015796/IZ/OK/FP/89143389/abb-vfd-acs560-01-02a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459015799/FT/IS/FK/89143389/abb-vfd-acs560-01-02a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459015803/IY/LI/TC/89143389/abb-vfd-acs560-01-02a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459015806/JS/QK/VP/89143389/abb-vfd-acs560-01-02a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459015807/JZ/SE/HD/89143389/abb-vfd-acs560-01-02a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459015810/MS/OR/ZU/89143389/abb-vfd-acs560-01-02a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459015816/VG/FB/DV/89143389/abb-vfd-acs560-01-02a6-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459015297/WD/PF/BM/89143389/abb-vfd-acs560-01-02a6-4-1000x1000.jpg"
     ],
     "slug": "abb-vfd-acs560-01-02a6-4",
     "stock": true,
@@ -1472,13 +1374,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459121061/YE/CB/OF/89143389/abb-vfd-acs560-01-017a-4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459121061/YE/CB/OF/89143389/abb-vfd-acs560-01-017a-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459112042/UJ/SZ/NI/89143389/abb-acs560-01-017a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459112055/GK/DF/AC/89143389/abb-acs560-01-017a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459112054/JL/SS/FW/89143389/abb-acs560-01-017a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459112056/QR/GR/AI/89143389/abb-acs560-01-017a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459112059/AB/GG/FI/89143389/abb-acs560-01-017a-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459118450/CR/OB/CZ/89143389/abb-acs560-01-017a-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459121061/YE/CB/OF/89143389/abb-vfd-acs560-01-017a-4-1000x1000.jpg"
     ],
     "slug": "abb-vfd-acs560-01-017a-4",
     "stock": true,
@@ -1548,13 +1444,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459148587/QH/MM/PV/89143389/acs560-01-07a2-4-abb-vfd-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459148587/QH/MM/PV/89143389/acs560-01-07a2-4-abb-vfd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459145751/FZ/IO/JA/89143389/abb-acs560-01-07a2-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459145753/VI/YT/KQ/89143389/abb-acs560-01-07a2-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459145770/AE/LG/FX/89143389/abb-acs560-01-07a2-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459145771/PO/UR/LY/89143389/abb-acs560-01-07a2-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459145777/MD/OY/YX/89143389/abb-acs560-01-07a2-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459145786/NO/YG/PZ/89143389/abb-acs560-01-07a2-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459148587/QH/MM/PV/89143389/acs560-01-07a2-4-abb-vfd-1000x1000.jpg"
     ],
     "slug": "abb-vfd-acs560-01-07a2-4-abb-vfd",
     "stock": true,
@@ -1624,13 +1514,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459143763/FT/ZS/UZ/89143389/abb-vfd-acs560-01-04a0-4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459143763/FT/ZS/UZ/89143389/abb-vfd-acs560-01-04a0-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459138434/RH/AE/QU/89143389/abb-acs560-01-04a0-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459138438/SV/GI/YR/89143389/abb-acs560-01-04a0-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459138458/OS/YW/MB/89143389/abb-acs560-01-04a0-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459138462/YH/RQ/TC/89143389/abb-acs560-01-04a0-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459138468/GS/DD/XZ/89143389/abb-acs560-01-04a0-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459138492/MB/SN/MN/89143389/abb-acs560-01-04a0-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459143763/FT/ZS/UZ/89143389/abb-vfd-acs560-01-04a0-4-1000x1000.jpg"
     ],
     "slug": "abb-vfd-acs560-01-04a0-4",
     "stock": true,
@@ -1696,12 +1580,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459129001/ZV/WH/NM/89143389/abb-acs560-01-09a4-4-vfd-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459129001/ZV/WH/NM/89143389/abb-acs560-01-09a4-4-vfd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459124303/GB/QF/IC/89143389/abb-acs560-01-09a4-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459124300/CF/VH/OD/89143389/abb-acs560-01-09a4-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459124315/XM/QU/VZ/89143389/abb-acs560-01-09a4-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459124318/MZ/OM/UQ/89143389/abb-acs560-01-09a4-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459124320/SJ/YP/JL/89143389/abb-acs560-01-09a4-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459129001/ZV/WH/NM/89143389/abb-acs560-01-09a4-4-vfd-1000x1000.jpg"
     ],
     "slug": "abb-vfd-acs560-01-09a4-4-vfd",
     "stock": true,
@@ -1776,13 +1655,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459129516/EG/KY/SY/89143389/abb-vfd-acs560-01-12a6-4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459129516/EG/KY/SY/89143389/abb-vfd-acs560-01-12a6-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459119651/SL/OS/YK/89143389/abb-acs560-01-12a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459119657/XL/NX/JM/89143389/abb-acs560-01-12a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459119660/NC/DW/OO/89143389/abb-acs560-01-12a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459119661/YX/TN/DZ/89143389/abb-acs560-01-12a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459119666/EV/QL/ND/89143389/abb-acs560-01-12a6-4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459126466/QL/DE/QJ/89143389/abb-acs560-01-12a6-4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459129516/EG/KY/SY/89143389/abb-vfd-acs560-01-12a6-4-1000x1000.jpg"
     ],
     "slug": "abb-vfd-acs560-01-12a6-4",
     "stock": true
@@ -1819,12 +1692,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459210232/SC/TB/EH/89143389/allen-bradley-panelview-800-2711r-t7t-7-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459210232/SC/TB/EH/89143389/allen-bradley-panelview-800-2711r-t7t-7-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459207769/CA/OC/FZ/89143389/allen-bradley-panelview-800-2711r-t7t-7-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459207776/MU/XT/UY/89143389/allen-bradley-panelview-800-2711r-t7t-7-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459207777/PP/AR/ST/89143389/allen-bradley-panelview-800-2711r-t7t-7-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459207778/SQ/ZN/RY/89143389/allen-bradley-panelview-800-2711r-t7t-7-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459207780/IC/UI/RI/89143389/allen-bradley-panelview-800-2711r-t7t-7-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459210232/SC/TB/EH/89143389/allen-bradley-panelview-800-2711r-t7t-7-1000x1000.jpg"
     ],
     "slug": "allen-bradley-hmi-panelview-800-2711r-t7t-7",
     "stock": true,
@@ -1974,19 +1842,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459180447/PZ/AY/QD/89143389/allen-bradley-1766-l32bwa-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459180447/PZ/AY/QD/89143389/allen-bradley-1766-l32bwa-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177484/RF/SF/XQ/89143389/allen-bradley-1766-l32bwa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177495/ZD/HQ/TY/89143389/allen-bradley-1766-l32bwa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177501/FB/ZA/UE/89143389/allen-bradley-1766-l32bwa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177503/ZW/GB/FI/89143389/allen-bradley-1766-l32bwa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177506/PU/IQ/TI/89143389/allen-bradley-1766-l32bwa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177505/VF/EB/KV/89143389/allen-bradley-1766-l32bwa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177507/PE/OE/CJ/89143389/allen-bradley-1766-l32bwa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177508/DY/GA/DY/89143389/allen-bradley-1766-l32bwa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177509/RI/DM/MH/89143389/allen-bradley-1766-l32bwa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177511/WG/KX/TG/89143389/allen-bradley-1766-l32bwa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177512/RY/NU/OF/89143389/allen-bradley-1766-l32bwa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177513/EK/CN/AW/89143389/allen-bradley-1766-l32bwa-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459180447/PZ/AY/QD/89143389/allen-bradley-1766-l32bwa-1000x1000.jpg"
     ],
     "slug": "allen-bradley-plc-1766-l32bwa",
     "stock": true,
@@ -2028,12 +1884,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459180215/NM/XZ/ZU/89143389/allen-bradley-1762-ir4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459180215/NM/XZ/ZU/89143389/allen-bradley-1762-ir4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459178247/GP/LZ/CE/89143389/allen-bradley-1762-ir4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459178253/XB/PS/XB/89143389/allen-bradley-1762-ir4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459178257/BS/FO/BM/89143389/allen-bradley-1762-ir4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459178258/SQ/SI/LZ/89143389/allen-bradley-1762-ir4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459178259/VN/DB/IM/89143389/allen-bradley-1762-ir4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459180215/NM/XZ/ZU/89143389/allen-bradley-1762-ir4-1000x1000.jpg"
     ],
     "slug": "allen-bradley-plc-1762-ir4",
     "stock": true,
@@ -2095,19 +1946,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/12/474573023/PI/GB/QA/89143389/1766-l32bwaa-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/12/474573023/PI/GB/QA/89143389/1766-l32bwaa-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/474573821/HP/UO/SU/89143389/1766-l32bwaa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/474573826/UM/SR/PW/89143389/1766-l32bwaa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/474573831/JQ/IW/SN/89143389/1766-l32bwaa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/474573836/RD/JN/YP/89143389/1766-l32bwaa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/474573835/YW/NF/LW/89143389/1766-l32bwaa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/474573838/EB/XP/OV/89143389/1766-l32bwaa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/474573840/BT/VH/XB/89143389/1766-l32bwaa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/474573842/ZP/QS/WF/89143389/1766-l32bwaa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/474573843/HA/ES/NB/89143389/1766-l32bwaa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/474573844/IU/NM/CK/89143389/1766-l32bwaa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/474573845/XX/BV/EM/89143389/1766-l32bwaa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/474573846/EX/UJ/HC/89143389/1766-l32bwaa-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/12/474573023/PI/GB/QA/89143389/1766-l32bwaa-1000x1000.jpg"
     ],
     "slug": "micrologix-1400-32-point-controller-1766-l32bwaa",
     "stock": true,
@@ -2149,11 +1988,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497569123/FI/CZ/YO/89143389/allen-bradley-plc-1769-of4ci-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497569123/FI/CZ/YO/89143389/allen-bradley-plc-1769-of4ci-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496863763/YV/MR/OV/89143389/allen-bradley-plc-1769-of4ci-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496863762/SV/JD/BZ/89143389/allen-bradley-plc-1769-of4ci-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496863764/OR/ZY/CZ/89143389/allen-bradley-plc-1769-of4ci-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496863771/BP/VP/OJ/89143389/allen-bradley-plc-1769-of4ci-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497569123/FI/CZ/YO/89143389/allen-bradley-plc-1769-of4ci-1000x1000.jpg"
     ],
     "slug": "allen-bradley-plc-1769-of4ci",
     "stock": true,
@@ -2199,12 +2034,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497570250/VS/VX/RN/89143389/allen-bradley-1734-ib8s-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497570250/VS/VX/RN/89143389/allen-bradley-1734-ib8s-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496861403/EI/WK/SJ/89143389/allen-bradley-1734-ib8s-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496861404/RS/DB/RM/89143389/allen-bradley-1734-ib8s-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496861406/MH/MU/JO/89143389/allen-bradley-1734-ib8s-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496861405/DX/WB/FA/89143389/allen-bradley-1734-ib8s-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496861409/PX/CR/JQ/89143389/allen-bradley-1734-ib8s-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497570250/VS/VX/RN/89143389/allen-bradley-1734-ib8s-1000x1000.jpg"
     ],
     "slug": "allen-bradley-1734-ib8s",
     "stock": true,
@@ -2297,13 +2127,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459179994/HA/BI/UB/89143389/allen-bradley-1762-ow16-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459179994/HA/BI/UB/89143389/allen-bradley-1762-ow16-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177986/JQ/QN/MW/89143389/allen-bradley-1762-ow16-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177992/GL/JV/CB/89143389/allen-bradley-1762-ow16-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177995/QH/YA/EA/89143389/allen-bradley-1762-ow16-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459177999/MC/OC/XQ/89143389/allen-bradley-1762-ow16-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459178000/KR/GL/IJ/89143389/allen-bradley-1762-ow16-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459178001/SH/AK/JQ/89143389/allen-bradley-1762-ow16-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459179994/HA/BI/UB/89143389/allen-bradley-1762-ow16-1000x1000.jpg"
     ],
     "slug": "allen-bradley-plc-1762-ow16",
     "stock": true,
@@ -2345,12 +2169,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459205420/GP/WE/MA/89143389/allen-bradley-1762-ob16-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459205420/GP/WE/MA/89143389/allen-bradley-1762-ob16-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459200259/LC/QQ/DD/89143389/allen-bradley-1762-ob16-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459200274/YT/AK/SP/89143389/allen-bradley-1762-ob16-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459200279/EK/MC/EL/89143389/allen-bradley-1762-ob16-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459200282/UI/UR/SL/89143389/allen-bradley-1762-ob16-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459200284/RW/JN/JI/89143389/allen-bradley-1762-ob16-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459205420/GP/WE/MA/89143389/allen-bradley-1762-ob16-1000x1000.jpg"
     ],
     "slug": "allen-bradley-plc-1762-ob16-digital-output-module",
     "stock": true,
@@ -2380,10 +2199,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497567257/SB/AU/IK/89143389/powerflex-750-ethernet-ip-adapter-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497567257/SB/AU/IK/89143389/powerflex-750-ethernet-ip-adapter-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496885174/DY/ZX/VX/89143389/powerflex-750-ethernet-ip-adapter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496885175/RF/QT/RQ/89143389/powerflex-750-ethernet-ip-adapter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496885198/FB/XD/NN/89143389/powerflex-750-ethernet-ip-adapter-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497567257/SB/AU/IK/89143389/powerflex-750-ethernet-ip-adapter-1000x1000.jpg"
     ],
     "slug": "powerflex-750-ethernet-ip-adapter",
     "stock": true,
@@ -2429,11 +2245,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497851035/LE/LF/SG/89143389/allen-bradley-1769-l19er-bb1b-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497851035/LE/LF/SG/89143389/allen-bradley-1769-l19er-bb1b-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496859319/XL/UX/MM/89143389/allen-bradley-1769-l19er-bb1b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496859322/PS/NU/GY/89143389/allen-bradley-1769-l19er-bb1b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496859329/GB/PB/VT/89143389/allen-bradley-1769-l19er-bb1b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496859330/UZ/CB/DT/89143389/allen-bradley-1769-l19er-bb1b-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497851035/LE/LF/SG/89143389/allen-bradley-1769-l19er-bb1b-1000x1000.jpg"
     ],
     "slug": "allen-bradley-1769-l19er-bb1b",
     "stock": true,
@@ -2467,10 +2279,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497568299/PT/JD/KQ/89143389/allen-bradley-plc-1783-us8t-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497568299/PT/JD/KQ/89143389/allen-bradley-plc-1783-us8t-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496881841/IO/BD/IV/89143389/allen-bradley-plc-1783-us8t-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496881842/HO/YD/ST/89143389/allen-bradley-plc-1783-us8t-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496881843/HV/UX/QW/89143389/allen-bradley-plc-1783-us8t-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497568299/PT/JD/KQ/89143389/allen-bradley-plc-1783-us8t-1000x1000.jpg"
     ],
     "slug": "allen-bradley-plc-1783-us8t",
     "stock": true,
@@ -2517,10 +2326,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497866495/GC/FZ/FN/89143389/allen-bradley-plc-2080-lc30-24qwb-1000x1000.jpg",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2025/3/497866495/GC/FZ/FN/89143389/allen-bradley-plc-2080-lc30-24qwb-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497867362/IK/OX/AM/89143389/allen-bradley-plc-2080-lc30-24qwb-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/484498066/NE/UC/UW/89143389/allen-bradley-plc-2080-lc30-24qwb-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/484498068/JU/MI/UF/89143389/allen-bradley-plc-2080-lc30-24qwb-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/484498069/SP/EE/FV/89143389/allen-bradley-plc-2080-lc30-24qwb-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497867362/IK/OX/AM/89143389/allen-bradley-plc-2080-lc30-24qwb-1000x1000.jpg"
     ],
     "slug": "allen-bradley-plc-2080-lc30-24qwb",
     "stock": true,
@@ -2570,12 +2376,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497852095/XY/BC/RH/89143389/allen-bradley-input-module-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497852095/XY/BC/RH/89143389/allen-bradley-input-module-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496852372/KP/YM/QR/89143389/allen-bradley-input-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496852371/ZH/EC/BC/89143389/allen-bradley-input-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496852373/YJ/JU/OW/89143389/allen-bradley-input-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496852374/EP/LH/MV/89143389/allen-bradley-input-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496852375/OH/XL/UX/89143389/allen-bradley-input-module-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497852095/XY/BC/RH/89143389/allen-bradley-input-module-1000x1000.jpg"
     ],
     "slug": "allen-bradley-input-module",
     "stock": true,
@@ -2617,19 +2418,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497859724/UV/WI/SB/89143389/compactlogix-5370-controllers-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497859724/UV/WI/SB/89143389/compactlogix-5370-controllers-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496723329/NF/SO/JE/89143389/compactlogix-5370-controllers-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496723331/OQ/IM/DF/89143389/compactlogix-5370-controllers-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496723337/OL/YM/XG/89143389/compactlogix-5370-controllers-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496723350/WY/TJ/KO/89143389/compactlogix-5370-controllers-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496723366/CW/JO/TR/89143389/compactlogix-5370-controllers-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496723387/CF/RK/BE/89143389/compactlogix-5370-controllers-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496723445/ON/AL/VH/89143389/compactlogix-5370-controllers-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496723444/GU/VE/XB/89143389/compactlogix-5370-controllers-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496723448/MT/IR/ZR/89143389/compactlogix-5370-controllers-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496723463/GO/MX/YC/89143389/compactlogix-5370-controllers-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496723473/SY/NL/IF/89143389/compactlogix-5370-controllers-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496723485/CA/UC/SS/89143389/compactlogix-5370-controllers-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497859724/UV/WI/SB/89143389/compactlogix-5370-controllers-1000x1000.jpg"
     ],
     "slug": "compactlogix-5370-controllers",
     "stock": true,
@@ -2671,11 +2460,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497853981/ZR/CR/MB/89143389/allen-bradley-compactlogix-5480-controllers-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497853981/ZR/CR/MB/89143389/allen-bradley-compactlogix-5480-controllers-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496843911/FS/JT/XS/89143389/allen-bradley-compactlogix-5480-controllers-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496843914/NR/CJ/GK/89143389/allen-bradley-compactlogix-5480-controllers-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496843925/BF/EA/FQ/89143389/allen-bradley-compactlogix-5480-controllers-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496843922/NV/HN/KP/89143389/allen-bradley-compactlogix-5480-controllers-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497853981/ZR/CR/MB/89143389/allen-bradley-compactlogix-5480-controllers-1000x1000.jpg"
     ],
     "slug": "allen-bradley-compactlogix-5480-controllers",
     "stock": true,
@@ -2713,10 +2498,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497855067/UU/DB/OC/89143389/allen-bradley-2085ep24vdc-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497855067/UU/DB/OC/89143389/allen-bradley-2085ep24vdc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496841143/GS/KP/LD/89143389/allen-bradley-2085ep24vdc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496841144/SR/IN/DC/89143389/allen-bradley-2085ep24vdc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496841145/EO/TX/OP/89143389/allen-bradley-2085ep24vdc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497855067/UU/DB/OC/89143389/allen-bradley-2085ep24vdc-1000x1000.jpg"
     ],
     "slug": "allen-bradley-2085ep24vdc",
     "stock": true,
@@ -2754,9 +2536,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/9/541811869/ZK/XU/XD/89143389/1756-en2t-allen-bradley-plc-compactlogix-5370-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/9/541811869/ZK/XU/XD/89143389/1756-en2t-allen-bradley-plc-compactlogix-5370-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541815547/XZ/BM/SI/89143389/1756-en2t-allen-bradley-plc-compactlogix-5370-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541815552/EN/BB/UW/89143389/1756-en2t-allen-bradley-plc-compactlogix-5370-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/9/541811869/ZK/XU/XD/89143389/1756-en2t-allen-bradley-plc-compactlogix-5370-1000x1000.jpg"
     ],
     "slug": "1756-en2t-allen-bradley-plc-compactlogix-5370",
     "stock": true,
@@ -2798,19 +2578,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497896838/XJ/JI/YG/89143389/allen-bradley-powerflex-750-ethernet-ip-adapter-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497896838/XJ/JI/YG/89143389/allen-bradley-powerflex-750-ethernet-ip-adapter-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/483693684/GL/ID/JI/89143389/allen-bradley-powerflex-750-ethernet-ip-adapter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/483693686/NB/EY/SD/89143389/allen-bradley-powerflex-750-ethernet-ip-adapter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/483693683/FX/EG/QY/89143389/allen-bradley-powerflex-750-ethernet-ip-adapter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/483693680/SQ/RE/UF/89143389/allen-bradley-powerflex-750-ethernet-ip-adapter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/483693690/DT/SA/OU/89143389/allen-bradley-powerflex-750-ethernet-ip-adapter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/483693677/YS/XU/ZP/89143389/allen-bradley-powerflex-750-ethernet-ip-adapter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/483693691/FW/PJ/LG/89143389/allen-bradley-powerflex-750-ethernet-ip-adapter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/483693693/UJ/PF/JL/89143389/allen-bradley-powerflex-750-ethernet-ip-adapter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/483693694/CP/QM/DD/89143389/allen-bradley-powerflex-750-ethernet-ip-adapter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/483693696/QL/LH/BP/89143389/allen-bradley-powerflex-750-ethernet-ip-adapter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/483693697/KI/SZ/CZ/89143389/allen-bradley-powerflex-750-ethernet-ip-adapter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/483693698/KT/YQ/MZ/89143389/allen-bradley-powerflex-750-ethernet-ip-adapter-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497896838/XJ/JI/YG/89143389/allen-bradley-powerflex-750-ethernet-ip-adapter-1000x1000.jpg"
     ],
     "slug": "allen-bradley-powerflex-750-ethernet-ip-adapter",
     "stock": true,
@@ -2844,12 +2612,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497852954/OW/AS/HR/89143389/allen-bradley-slc-500-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497852954/OW/AS/HR/89143389/allen-bradley-slc-500-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496847510/EJ/DZ/OX/89143389/allen-bradley-slc-500-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496847511/JH/CA/GE/89143389/allen-bradley-slc-500-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496847514/PU/PN/YF/89143389/allen-bradley-slc-500-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496847512/IW/LB/XV/89143389/allen-bradley-slc-500-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496847517/YI/HD/UJ/89143389/allen-bradley-slc-500-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497852954/OW/AS/HR/89143389/allen-bradley-slc-500-1000x1000.jpg"
     ],
     "slug": "allen-bradley-slc-500",
     "stock": true,
@@ -2899,9 +2662,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497856538/DP/HX/LL/89143389/allen-bradley-power-supply-input-voltage-ac-100-120-200-240v-output-voltage-dc-24-28v-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497856538/DP/HX/LL/89143389/allen-bradley-power-supply-input-voltage-ac-100-120-200-240v-output-voltage-dc-24-28v-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496840298/QK/BK/HG/89143389/allen-bradley-power-supply-input-voltage-ac-100-120-200-240v-output-voltage-dc-24-28v-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496840300/CH/CW/OW/89143389/allen-bradley-power-supply-input-voltage-ac-100-120-200-240v-output-voltage-dc-24-28v-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497856538/DP/HX/LL/89143389/allen-bradley-power-supply-input-voltage-ac-100-120-200-240v-output-voltage-dc-24-28v-1000x1000.jpg"
     ],
     "slug": "allen-bradley-power-supply-input-voltage-ac-100-120200-240v-output-voltage-dc-24-28v",
     "stock": true,
@@ -2963,11 +2724,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460029765/TE/CE/QJ/89143389/allen-bradley-vfd-powerflex-vfd-ac-drive-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460029765/TE/CE/QJ/89143389/allen-bradley-vfd-powerflex-vfd-ac-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460029760/PG/BW/GQ/89143389/allen-bradley-vfd-powerflex-vfd-ac-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460029759/RE/FJ/MQ/89143389/allen-bradley-vfd-powerflex-vfd-ac-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460029761/VH/WI/NZ/89143389/allen-bradley-vfd-powerflex-vfd-ac-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460029762/WN/LQ/KS/89143389/allen-bradley-vfd-powerflex-vfd-ac-drive-1000x1000.png"
+      
     ],
     "slug": "allen-bradley-vfd-powerflex-vfd-ac-drive",
     "stock": true,
@@ -3041,12 +2798,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459426296/VM/WP/YV/89143389/allen-bradley-22f-a011n103-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459426296/VM/WP/YV/89143389/allen-bradley-22f-a011n103-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459423599/QC/QS/AW/89143389/allen-bradley-power-flex-4m-ac-drives-22f-a011n103-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459423598/QD/ZD/US/89143389/allen-bradley-power-flex-4m-ac-drives-22f-a011n103-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459423601/EQ/HF/RR/89143389/allen-bradley-power-flex-4m-ac-drives-22f-a011n103-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459423604/HM/JZ/JX/89143389/allen-bradley-power-flex-4m-ac-drives-22f-a011n103-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459423605/VU/YI/RJ/89143389/allen-bradley-power-flex-4m-ac-drives-22f-a011n103-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459426296/VM/WP/YV/89143389/allen-bradley-22f-a011n103-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-22f-a011n103",
     "stock": true,
@@ -3104,10 +2856,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459422634/TF/QJ/ZZ/89143389/allen-bradley-22f-d6p0n103-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459422634/TF/QJ/ZZ/89143389/allen-bradley-22f-d6p0n103-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459419589/QK/JM/LN/89143389/allen-bradley-power-flex-4m-ac-drive-22f-d6p0n103-480vac-3ph-6-amps-2-2-kw-3-hp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459419588/QP/UM/SF/89143389/allen-bradley-power-flex-4m-ac-drive-22f-d6p0n103-480vac-3ph-6-amps-2-2-kw-3-hp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459419594/AV/WN/NT/89143389/allen-bradley-power-flex-4m-ac-drive-22f-d6p0n103-480vac-3ph-6-amps-2-2-kw-3-hp-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459422634/TF/QJ/ZZ/89143389/allen-bradley-22f-d6p0n103-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-22f-d6p0n103",
     "stock": true,
@@ -3173,12 +2922,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459363553/IP/AH/PL/89143389/allen-bradley-power-flex-4m-ac-drives-22f-a4p2n103-240vac-1ph-4-2-amps-0-75-kw-1-hp-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459363553/IP/AH/PL/89143389/allen-bradley-power-flex-4m-ac-drives-22f-a4p2n103-240vac-1ph-4-2-amps-0-75-kw-1-hp-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459363399/YV/VT/MP/89143389/allen-bradley-power-flex-4m-ac-drives-22f-a4p2n103-240vac-1ph-4-2-amps-0-75-kw-1-hp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459363401/RD/AS/SY/89143389/allen-bradley-power-flex-4m-ac-drives-22f-a4p2n103-240vac-1ph-4-2-amps-0-75-kw-1-hp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459363406/XJ/MQ/AI/89143389/allen-bradley-power-flex-4m-ac-drives-22f-a4p2n103-240vac-1ph-4-2-amps-0-75-kw-1-hp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459363408/EB/KZ/CJ/89143389/allen-bradley-power-flex-4m-ac-drives-22f-a4p2n103-240vac-1ph-4-2-amps-0-75-kw-1-hp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459363409/AV/MU/RC/89143389/allen-bradley-power-flex-4m-ac-drives-22f-a4p2n103-240vac-1ph-4-2-amps-0-75-kw-1-hp-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459363553/IP/AH/PL/89143389/allen-bradley-power-flex-4m-ac-drives-22f-a4p2n103-240vac-1ph-4-2-amps-0-75-kw-1-hp-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-22f-a4p2n103",
     "stock": true,
@@ -3248,11 +2992,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459365005/NO/KI/VQ/89143389/22f-a4p2n113-allen-bradley-22fa4p2n113-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459365005/NO/KI/VQ/89143389/22f-a4p2n113-allen-bradley-22fa4p2n113-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459364224/YY/CV/ZY/89143389/22f-a4p2n113-allen-bradley-22fa4p2n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459364226/QY/PS/MW/89143389/22f-a4p2n113-allen-bradley-22fa4p2n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459364235/XW/EQ/UB/89143389/22f-a4p2n113-allen-bradley-22fa4p2n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459364234/DE/RY/PA/89143389/22f-a4p2n113-allen-bradley-22fa4p2n113-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459365005/NO/KI/VQ/89143389/22f-a4p2n113-allen-bradley-22fa4p2n113-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-22f-a4p2n113",
     "stock": true,
@@ -3311,12 +3051,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459652176/FO/OI/NF/89143389/22f-a1p6n113-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459652176/FO/OI/NF/89143389/22f-a1p6n113-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650285/TV/XB/LM/89143389/22f-a1p6n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650290/JG/BO/PJ/89143389/22f-a1p6n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650296/FV/ZF/MN/89143389/22f-a1p6n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650297/HL/LK/IF/89143389/22f-a1p6n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650301/ZM/HI/JQ/89143389/22f-a1p6n113-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459652176/FO/OI/NF/89143389/22f-a1p6n113-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-22f-a1p6n113",
     "stock": true
@@ -3389,12 +3124,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459404137/EK/JT/KW/89143389/0-75-kw-22f-d2p5n103-allen-bradley-vfd-for-industrial-digital-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459404137/EK/JT/KW/89143389/0-75-kw-22f-d2p5n103-allen-bradley-vfd-for-industrial-digital-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459368994/JW/CP/FO/89143389/0-75-kw-22f-d2p5n103-allen-bradley-vfd-for-industrial-digital-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459368999/CA/FY/DP/89143389/0-75-kw-22f-d2p5n103-allen-bradley-vfd-for-industrial-digital-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459369006/ER/CG/YS/89143389/0-75-kw-22f-d2p5n103-allen-bradley-vfd-for-industrial-digital-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459369007/XO/ZX/MD/89143389/0-75-kw-22f-d2p5n103-allen-bradley-vfd-for-industrial-digital-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459369010/MY/PX/EJ/89143389/0-75-kw-22f-d2p5n103-allen-bradley-vfd-for-industrial-digital-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459404137/EK/JT/KW/89143389/0-75-kw-22f-d2p5n103-allen-bradley-vfd-for-industrial-digital-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-075-kw-22f-d2p5n103-for-industrial-digital",
     "stock": true,
@@ -3464,12 +3194,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459402004/FS/IS/BK/89143389/22f-a011n113-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459402004/FS/IS/BK/89143389/22f-a011n113-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459398169/DB/XV/PM/89143389/22f-a011n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459398176/CG/KY/TU/89143389/22f-a011n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459398183/EJ/JL/LJ/89143389/22f-a011n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459398185/MS/UH/GH/89143389/22f-a011n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459398191/GH/UN/ME/89143389/22f-a011n113-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459402004/FS/IS/BK/89143389/22f-a011n113-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-22f-a011n113-powerflex4m-ac-drive",
     "stock": true,
@@ -3507,12 +3232,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459358115/GL/MZ/QL/89143389/allen-bradley-powerflex-4m-ac-drives-22f-a2p5n113-240vac-1ph-2-5-amps-0-37-kw-0-5-hpwith-filter-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459358115/GL/MZ/QL/89143389/allen-bradley-powerflex-4m-ac-drives-22f-a2p5n113-240vac-1ph-2-5-amps-0-37-kw-0-5-hpwith-filter-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459357926/YC/MR/NY/89143389/allen-bradley-powerflex-4m-ac-drives-22f-a2p5n113-240vac-1ph-2-5-amps-0-37-kw-0-5-hpwith-filter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459357925/BC/DX/FM/89143389/allen-bradley-powerflex-4m-ac-drives-22f-a2p5n113-240vac-1ph-2-5-amps-0-37-kw-0-5-hpwith-filter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459357927/NY/IX/VO/89143389/allen-bradley-powerflex-4m-ac-drives-22f-a2p5n113-240vac-1ph-2-5-amps-0-37-kw-0-5-hpwith-filter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459357928/HN/GN/LH/89143389/allen-bradley-powerflex-4m-ac-drives-22f-a2p5n113-240vac-1ph-2-5-amps-0-37-kw-0-5-hpwith-filter-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459357932/HF/FF/WH/89143389/allen-bradley-powerflex-4m-ac-drives-22f-a2p5n113-240vac-1ph-2-5-amps-0-37-kw-0-5-hpwith-filter-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459358115/GL/MZ/QL/89143389/allen-bradley-powerflex-4m-ac-drives-22f-a2p5n113-240vac-1ph-2-5-amps-0-37-kw-0-5-hpwith-filter-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-powerflex-4m-ac-drives-22f-a2p5n113-240vac-1ph25-amps037-kw05",
     "stock": true,
@@ -3582,12 +3302,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459651712/MD/IU/NN/89143389/allen-bradley-22f-a4p2n103-ac-drives-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459651712/MD/IU/NN/89143389/allen-bradley-22f-a4p2n103-ac-drives-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459649397/ZU/LS/RI/89143389/allen-bradley-22f-a4p2n103-ac-drives-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459649400/AH/FQ/CH/89143389/allen-bradley-22f-a4p2n103-ac-drives-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459649401/RJ/RL/RM/89143389/allen-bradley-22f-a4p2n103-ac-drives-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459649402/OE/FW/QL/89143389/allen-bradley-22f-a4p2n103-ac-drives-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459649403/LL/KE/SG/89143389/allen-bradley-22f-a4p2n103-ac-drives-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459651712/MD/IU/NN/89143389/allen-bradley-22f-a4p2n103-ac-drives-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-22f-a4p2n103-ac-drives",
     "stock": true,
@@ -3653,12 +3368,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459652237/XV/TM/BH/89143389/22f-a2p5n103-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459652237/XV/TM/BH/89143389/22f-a2p5n103-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650025/AN/MQ/LX/89143389/22f-a2p5n103-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650031/ER/EL/TW/89143389/22f-a2p5n103-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650033/WZ/GL/SF/89143389/22f-a2p5n103-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650034/OJ/MD/XJ/89143389/22f-a2p5n103-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650036/JH/DB/GX/89143389/22f-a2p5n103-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459652237/XV/TM/BH/89143389/22f-a2p5n103-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-22f-a2p5n103-vfd-ac-drive",
     "stock": true,
@@ -3724,12 +3434,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459651999/UK/TL/KT/89143389/22f-a1p6n103-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459651999/UK/TL/KT/89143389/22f-a1p6n103-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650528/OT/OR/BH/89143389/22f-a1p6n103-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650532/ET/VW/FN/89143389/22f-a1p6n103-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650539/XC/BZ/RP/89143389/22f-a1p6n103-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650538/LO/YF/KX/89143389/22f-a1p6n103-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650543/EF/XL/JG/89143389/22f-a1p6n103-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459651999/UK/TL/KT/89143389/22f-a1p6n103-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-22f-a1p6n103",
     "stock": true,
@@ -3807,12 +3512,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459652345/EJ/YG/JI/89143389/22f-a2p5n113-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459652345/EJ/YG/JI/89143389/22f-a2p5n113-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459649780/DO/QT/LZ/89143389/22f-a2p5n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459649785/PO/VP/MN/89143389/22f-a2p5n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459649788/RV/EB/CP/89143389/22f-a2p5n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459649789/NY/RY/RG/89143389/22f-a2p5n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459649791/IN/BZ/BK/89143389/22f-a2p5n113-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459652345/EJ/YG/JI/89143389/22f-a2p5n113-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-22f-a2p5n113",
     "stock": true,
@@ -3858,13 +3558,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459226824/GQ/BC/EJ/89143389/allen-bradley-25b-d024n114-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459226824/GQ/BC/EJ/89143389/allen-bradley-25b-d024n114-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222720/YA/QH/FS/89143389/allen-bradley-25b-d024n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222724/MB/QZ/PM/89143389/allen-bradley-25b-d024n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222725/WU/GO/FP/89143389/allen-bradley-25b-d024n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222727/JP/WJ/BX/89143389/allen-bradley-25b-d024n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222726/XH/MH/MI/89143389/allen-bradley-25b-d024n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222731/OJ/HH/KQ/89143389/allen-bradley-25b-d024n114-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459226824/GQ/BC/EJ/89143389/allen-bradley-25b-d024n114-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-25b-d024n114",
     "stock": true,
@@ -3918,12 +3612,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223706/UV/IG/DP/89143389/allen-bradley-25b-d013n104-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223706/UV/IG/DP/89143389/allen-bradley-25b-d013n104-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223700/EU/WF/RW/89143389/allen-bradley-25b-d013n104-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223699/SZ/PU/XJ/89143389/allen-bradley-25b-d013n104-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223701/OU/RM/UO/89143389/allen-bradley-25b-d013n104-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223702/OP/EC/PL/89143389/allen-bradley-25b-d013n104-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223696/JS/RW/UY/89143389/allen-bradley-25b-d013n104-1000x1000.png"
+      
     ],
     "slug": "allen-bradley-vfd-25b-d013n104",
     "stock": true,
@@ -3961,17 +3650,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459210366/NJ/TY/IP/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459210366/NJ/TY/IP/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459326798/RW/NG/MW/89143389/allen-bradley-258-0037n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459326813/IH/BS/ZU/89143389/allen-bradley-258-0037n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459326812/IP/GJ/TI/89143389/allen-bradley-258-0037n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459326814/WM/IY/WM/89143389/allen-bradley-258-0037n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459326817/DO/KE/FJ/89143389/allen-bradley-258-0037n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459326818/MH/CO/HA/89143389/allen-bradley-258-0037n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459326823/NU/VM/BU/89143389/allen-bradley-258-0037n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459326824/KS/PX/XD/89143389/allen-bradley-258-0037n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459326825/SV/HJ/GG/89143389/allen-bradley-258-0037n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459326828/WB/LS/RK/89143389/allen-bradley-258-0037n114-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459210366/NJ/TY/IP/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-258-0037n114",
     "stock": true,
@@ -4029,13 +3708,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459225179/AS/ST/VH/89143389/allen-bradley-25b-d013n114-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459225179/AS/ST/VH/89143389/allen-bradley-25b-d013n114-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459224007/YO/WT/WV/89143389/allen-bradley-25b-d013n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459224010/CG/OC/NV/89143389/allen-bradley-25b-d013n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459224011/JJ/LD/OX/89143389/allen-bradley-25b-d013n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459224014/VN/PU/KL/89143389/allen-bradley-25b-d013n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459224012/RV/CF/LZ/89143389/allen-bradley-25b-d013n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459224017/SL/LR/XR/89143389/allen-bradley-25b-d013n114-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459225179/AS/ST/VH/89143389/allen-bradley-25b-d013n114-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-25b-d013n114",
     "stock": true,
@@ -4093,13 +3766,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459225028/AI/DS/NO/89143389/allen-bradley-25b-d043n114-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459225028/AI/DS/NO/89143389/allen-bradley-25b-d043n114-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459221994/XQ/VZ/HF/89143389/allen-bradley-25b-d043n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459221999/NL/AC/SM/89143389/allen-bradley-25b-d043n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222001/FF/WL/IL/89143389/allen-bradley-25b-d043n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222005/ZW/SK/XT/89143389/allen-bradley-25b-d043n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222006/BV/NS/GJ/89143389/allen-bradley-25b-d043n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222008/NK/EX/LG/89143389/allen-bradley-25b-d043n114-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459225028/AI/DS/NO/89143389/allen-bradley-25b-d043n114-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-25b-d043n114",
     "stock": true,
@@ -4149,13 +3816,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459210366/NJ/TY/IP/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459210366/NJ/TY/IP/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223497/RW/RD/VC/89143389/allen-bradley-25b-d010n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223505/FV/ZF/WB/89143389/allen-bradley-25b-d010n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223503/BX/QL/AR/89143389/allen-bradley-25b-d010n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223501/DB/TF/UJ/89143389/allen-bradley-25b-d010n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223506/KW/JS/GV/89143389/allen-bradley-25b-d010n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223507/PB/BT/HM/89143389/allen-bradley-25b-d010n114-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459210366/NJ/TY/IP/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-25b-d010n114",
     "stock": true,
@@ -4205,13 +3866,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459226371/TC/LR/YS/89143389/allen-bradley-25b-d017n114-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459226371/TC/LR/YS/89143389/allen-bradley-25b-d017n114-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223350/CF/WY/HG/89143389/allen-bradley-25b-d017n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223353/VM/OZ/VS/89143389/allen-bradley-25b-d017n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223355/OC/XI/DH/89143389/allen-bradley-25b-d017n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223356/PT/ED/IS/89143389/allen-bradley-25b-d017n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223354/RO/MR/EE/89143389/allen-bradley-25b-d017n114-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223358/WC/RE/ZQ/89143389/allen-bradley-25b-d017n114-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459226371/TC/LR/YS/89143389/allen-bradley-25b-d017n114-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-25b-d017n114",
     "stock": true,
@@ -4265,13 +3920,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459210366/NJ/TY/IP/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459210366/NJ/TY/IP/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223030/BO/SH/SO/89143389/allen-bradley-25b-d017n104-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223024/GM/VU/ZA/89143389/allen-bradley-25b-d017n104-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223029/QL/IY/HD/89143389/allen-bradley-25b-d017n104-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223031/NM/FV/FW/89143389/allen-bradley-25b-d017n104-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223034/PQ/SH/VR/89143389/allen-bradley-25b-d017n104-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459223036/KM/FY/OL/89143389/allen-bradley-25b-d017n104-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459210366/NJ/TY/IP/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-25b-d017n104",
     "stock": true,
@@ -4317,13 +3966,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459325926/WD/JT/GW/89143389/allen-bradley-25b-d024n104-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459325926/WD/JT/GW/89143389/allen-bradley-25b-d024n104-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222314/RD/EL/FC/89143389/allen-bradley-25b-d024n104-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222319/LN/CI/DS/89143389/allen-bradley-25b-d024n104-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222318/JO/NP/LR/89143389/allen-bradley-25b-d024n104-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222321/QU/NV/VG/89143389/allen-bradley-25b-d024n104-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222322/HX/AR/ZA/89143389/allen-bradley-25b-d024n104-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459222324/EU/TB/UC/89143389/allen-bradley-25b-d024n104-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459325926/WD/JT/GW/89143389/allen-bradley-25b-d024n104-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-25b-d024n104",
     "stock": true,
@@ -4361,13 +4004,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459210366/NJ/TY/IP/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459210366/NJ/TY/IP/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459202582/BX/LW/LY/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459202587/FG/YR/DC/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459202588/JV/BN/LC/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459202591/VU/NP/SR/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459202597/MC/UK/IY/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459202603/DQ/BV/PF/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459210366/NJ/TY/IP/89143389/allen-bradley-25b-d010n104-vfd-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-25b-d010n104-vfd",
     "stock": true,
@@ -4437,12 +4074,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459651893/LU/OW/ZF/89143389/22f-a011n113-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459651893/LU/OW/ZF/89143389/22f-a011n113-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650968/EY/XN/WV/89143389/22f-a011n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650975/DD/CM/XW/89143389/22f-a011n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650978/GC/GS/EQ/89143389/22f-a011n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650980/PR/QB/KO/89143389/22f-a011n113-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459650986/CU/FW/OZ/89143389/22f-a011n113-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459651893/LU/OW/ZF/89143389/22f-a011n113-1000x1000.jpg"
     ],
     "slug": "allen-bradley-vfd-22f-a011n113",
     "stock": true,
@@ -4480,8 +4112,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497893048/EJ/TN/EW/89143389/power-flex-525-ac-drives-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497893048/EJ/TN/EW/89143389/power-flex-525-ac-drives-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/484492763/JK/KB/LP/89143389/power-flex-525-ac-drives-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497893048/EJ/TN/EW/89143389/power-flex-525-ac-drives-1000x1000.jpg"
     ],
     "slug": "power-flex-525-ac-drives",
     "stock": true,
@@ -4523,9 +4154,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497864310/HB/CC/BZ/89143389/optic-rotary-incremental-encoder-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497864310/HB/CC/BZ/89143389/optic-rotary-incremental-encoder-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496700923/YF/LA/TF/89143389/optic-rotary-incremental-encoder-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496700924/JM/FE/YE/89143389/optic-rotary-incremental-encoder-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497864310/HB/CC/BZ/89143389/optic-rotary-incremental-encoder-1000x1000.jpg"
     ],
     "slug": "autonics-optic-rotary-incremental-encoder",
     "stock": true,
@@ -5410,9 +5039,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500332963/PX/PY/SY/89143389/dop-112wx-delta-hmi-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500332964/KO/QH/YB/89143389/dop-112wx-delta-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2025/4/500332965/SH/LO/LC/89143389/dop-112wx-delta-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500333722/UI/VH/ZG/89143389/dop-112wx-delta-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500333728/NX/LG/TM/89143389/dop-112wx-delta-hmi-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500332965/SH/LO/LC/89143389/dop-112wx-delta-hmi-1000x1000.jpg"
     ],
     "slug": "dop-112wx-delta-hmi",
     "stock": true,
@@ -5464,9 +5091,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500339287/AH/XX/EP/89143389/delta-hmi-tp04g-as2-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500339291/CC/AV/MJ/89143389/delta-hmi-tp04g-as2-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2025/4/500339292/QV/QP/EF/89143389/delta-hmi-tp04g-as2-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500340160/ZF/TC/OA/89143389/delta-hmi-tp04g-as2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500340163/IE/JJ/WH/89143389/delta-hmi-tp04g-as2-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500339292/QV/QP/EF/89143389/delta-hmi-tp04g-as2-1000x1000.jpg"
     ],
     "slug": "delta-hmi-tp04g-as2",
     "stock": true,
@@ -5511,11 +5136,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500366636/OM/SV/CX/89143389/delta-hmi-dop-b-series-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500366634/YJ/RI/BS/89143389/delta-hmi-dop-b-series-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500366632/JU/VK/PW/89143389/delta-hmi-dop-b-series-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2025/4/500366631/IW/WU/GD/89143389/delta-hmi-dop-b-series-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500370198/AR/JQ/RL/89143389/delta-dop-w-series-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500370218/EY/AL/TM/89143389/delta-dop-w-series-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500370228/OE/BJ/YC/89143389/delta-dop-w-series-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500370235/WK/MN/PG/89143389/delta-dop-w-series-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500366631/IW/WU/GD/89143389/delta-hmi-dop-b-series-1000x1000.jpg"
     ],
     "slug": "delta-dop-w-series",
     "stock": true,
@@ -5560,11 +5181,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500366631/IW/WU/GD/89143389/delta-hmi-dop-b-series-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500366632/JU/VK/PW/89143389/delta-hmi-dop-b-series-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500366634/YJ/RI/BS/89143389/delta-hmi-dop-b-series-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2025/4/500366636/OM/SV/CX/89143389/delta-hmi-dop-b-series-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500367302/GK/LQ/DX/89143389/delta-hmi-dop-b-series-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500367304/WT/TL/IK/89143389/delta-hmi-dop-b-series-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500367307/TO/GV/UA/89143389/delta-hmi-dop-b-series-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500367309/TS/PX/QD/89143389/delta-hmi-dop-b-series-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500366636/OM/SV/CX/89143389/delta-hmi-dop-b-series-1000x1000.jpg"
     ],
     "slug": "delta-hmi-dop-b-series",
     "stock": true,
@@ -5613,9 +5230,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500359861/QD/SL/XN/89143389/delta-hmi-text-panel-series-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500359864/JC/LC/UJ/89143389/delta-hmi-text-panel-series-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500359862/JR/KT/FU/89143389/delta-hmi-text-panel-series-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2025/4/500359863/ME/LI/ZY/89143389/delta-hmi-text-panel-series-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500360457/CH/VW/OB/89143389/delta-hmi-text-panel-series-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500360458/UW/FP/VT/89143389/delta-hmi-text-panel-series-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500359863/ME/LI/ZY/89143389/delta-hmi-text-panel-series-1000x1000.jpg"
     ],
     "slug": "delta-hmi-text-panel-series",
     "stock": true,
@@ -5662,12 +5277,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/4/500355903/RB/CD/IE/89143389/delta-hmi-tp04p-32tp1r-1000x1000.jpg",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500355903/RB/CD/IE/89143389/delta-hmi-tp04p-32tp1r-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2025/4/500355906/BL/HR/HX/89143389/delta-hmi-tp04p-32tp1r-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500356383/HJ/IW/NK/89143389/delta-hmi-tp04p-32tp1r-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500356385/FD/XV/SC/89143389/delta-hmi-tp04p-32tp1r-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500356388/DQ/EH/YN/89143389/delta-hmi-tp04p-32tp1r-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500356390/BY/GE/OO/89143389/delta-hmi-tp04p-32tp1r-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500356389/JL/KV/AI/89143389/delta-hmi-tp04p-32tp1r-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500355906/BL/HR/HX/89143389/delta-hmi-tp04p-32tp1r-1000x1000.jpg"
     ],
     "slug": "delta-hmi-tp04p-32tp1r",
     "stock": true,
@@ -5715,9 +5325,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500336111/PE/CQ/MT/89143389/dop-w127b-delta-hmi-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500336113/IN/CY/RW/89143389/dop-w127b-delta-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2025/4/500336114/ZV/TW/SQ/89143389/dop-w127b-delta-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500336244/IK/ZJ/RI/89143389/dop-w127b-delta-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500336249/YU/EJ/WE/89143389/dop-w127b-delta-hmi-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500336114/ZV/TW/SQ/89143389/dop-w127b-delta-hmi-1000x1000.jpg"
     ],
     "slug": "dop-w127b-delta-hmi",
     "stock": true,
@@ -5763,10 +5371,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2026/6/617493911/ML/JR/CE/89143389/ac61-0012eq-72olb-hengstler-acuro-absolute-encoder-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2026/6/617493911/ML/JR/CE/89143389/ac61-0012eq-72olb-hengstler-acuro-absolute-encoder-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/6/617496771/NB/GM/TU/89143389/ac61-0012eq-72olb-hengstler-acuro-absolute-encoder-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/6/617496770/EM/MO/YE/89143389/ac61-0012eq-72olb-hengstler-acuro-absolute-encoder-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/6/617496769/JS/AN/SY/89143389/ac61-0012eq-72olb-hengstler-acuro-absolute-encoder-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2026/6/617493911/ML/JR/CE/89143389/ac61-0012eq-72olb-hengstler-acuro-absolute-encoder-1000x1000.png"
     ],
     "slug": "ac610012eq72olb-hengstler-acuro-absolute-encoder",
     "stock": true,
@@ -5812,12 +5417,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2026/6/617489977/ZK/ES/JD/89143389/rc58-0012ek-42sgb-absolute-rotary-encoder-from-hengstler-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2026/6/617489977/ZK/ES/JD/89143389/rc58-0012ek-42sgb-absolute-rotary-encoder-from-hengstler-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/6/617490940/NQ/OL/NA/89143389/rc58-0012ek-42sgb-absolute-rotary-encoder-from-hengstler-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/6/617490939/CA/VA/TG/89143389/rc58-0012ek-42sgb-absolute-rotary-encoder-from-hengstler-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/6/617490937/YX/UL/AL/89143389/rc58-0012ek-42sgb-absolute-rotary-encoder-from-hengstler-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/6/617490938/IH/CZ/AN/89143389/rc58-0012ek-42sgb-absolute-rotary-encoder-from-hengstler-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/6/617490936/UH/TB/TP/89143389/rc58-0012ek-42sgb-absolute-rotary-encoder-from-hengstler-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2026/6/617489977/ZK/ES/JD/89143389/rc58-0012ek-42sgb-absolute-rotary-encoder-from-hengstler-1000x1000.png"
     ],
     "slug": "rc580012ek42sgb-absolute-rotary-encoder-from-hengstler",
     "stock": true,
@@ -5875,9 +5475,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2026/6/618330464/QU/LE/HN/89143389/e40s6-1000-3-t-24-autonics-encoder-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2026/6/618330464/QU/LE/HN/89143389/e40s6-1000-3-t-24-autonics-encoder-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/6/618332711/NK/QG/FX/89143389/e40s6-1000-3-t-24-autonics-encoder-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/6/618332710/TA/TB/TL/89143389/e40s6-1000-3-t-24-autonics-encoder-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2026/6/618330464/QU/LE/HN/89143389/e40s6-1000-3-t-24-autonics-encoder-1000x1000.png"
     ],
     "slug": "e40s6-1000-3-t-24-autonics-encoder",
     "stock": true,
@@ -5931,11 +5529,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/12/472587944/DZ/IE/SY/89143389/solid-hollow-baumer-incremental-encoders-eil580-sc10-5ln-02500-a-8-to-30-vdc-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/12/472587944/DZ/IE/SY/89143389/solid-hollow-baumer-incremental-encoders-eil580-sc10-5ln-02500-a-8-to-30-vdc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/472568659/BV/TN/GB/89143389/eil580-sc10-5ln-02500-a-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/472568667/KH/FH/WB/89143389/eil580-sc10-5ln-02500-a-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/472568669/QL/MR/VZ/89143389/eil580-sc10-5ln-02500-a-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/12/472568672/PE/IW/XK/89143389/eil580-sc10-5ln-02500-a-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/12/472587944/DZ/IE/SY/89143389/solid-hollow-baumer-incremental-encoders-eil580-sc10-5ln-02500-a-8-to-30-vdc-1000x1000.jpg"
     ],
     "slug": "baumer-incremental-encoders-eil580-sc105ln02500a-8-to-30-vdc",
     "stock": true,
@@ -6167,13 +5761,46 @@ export const allProducts: Product[] = [
   },
   {
     "id": "im-2859306941797",
-    "name": "Sick Photoelectric Sensor",
-    "partNumber": "SICKPHOTOELECTRICSENSOR",
+    "name": "Sick Photoelectric Sensor GTB6-P1212",
+    "partNumber": "GTB6-P1212",
     "brand": "Sick",
-    "category": "Encoder",
+    "category": "Sensor",
     "type": "Sensor",
-    "description": "Sick Photoelectric Sensor",
-    "specifications": [],
+    "description": "Sick GTB6-P1212 high-performance miniature photoelectric sensor with PinPoint LED light source, precise background suppression, M8 connector / pre-wired cable connection, 10-30V DC operating voltage, and IP67 waterproof enclosure. Engineered for reliable non-contact object detection on high-speed conveyor lines and packaging automation systems.",
+    "specifications": [
+      {
+        "label": "Model Series",
+        "value": "Sick GTB6-P1212 Mini Photoelectric"
+      },
+      {
+        "label": "Sensing Range",
+        "value": "5 mm to 250 mm"
+      },
+      {
+        "label": "Light Source",
+        "value": "PinPoint LED (Red light ~650nm)"
+      },
+      {
+        "label": "Supply Voltage",
+        "value": "10 to 30 V DC"
+      },
+      {
+        "label": "Output Type",
+        "value": "PNP Light-ON / Dark-ON Selectable"
+      },
+      {
+        "label": "Protection Rating",
+        "value": "IP67 Dust & Water Resistant"
+      },
+      {
+        "label": "Response Time",
+        "value": "< 625 microseconds"
+      },
+      {
+        "label": "Brand",
+        "value": "Sick Sensor Intelligence"
+      }
+    ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg"
@@ -6251,12 +5878,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461871311/TV/FE/LO/89143389/fuji-vfd-frn0002c2s-4u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461871311/TV/FE/LO/89143389/fuji-vfd-frn0002c2s-4u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461840837/ZG/IV/RI/89143389/fuji-vfd-frn0002c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461840840/IY/IY/LX/89143389/fuji-vfd-frn0002c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461840842/FR/FZ/OX/89143389/fuji-vfd-frn0002c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461840845/WS/TU/RA/89143389/fuji-vfd-frn0002c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461840844/RG/MN/XL/89143389/fuji-vfd-frn0002c2s-4u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461871311/TV/FE/LO/89143389/fuji-vfd-frn0002c2s-4u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0002c2s-4u",
     "stock": true,
@@ -6338,15 +5960,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/PD/EE/TX/89143389/fuji-frenic-ace-ac-drive-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/PD/EE/TX/89143389/fuji-frenic-ace-ac-drive-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461897594/TM/VE/BX/89143389/fuji-frenic-ace-ac-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461897593/QX/DU/NN/89143389/fuji-frenic-ace-ac-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461897597/FU/ED/AQ/89143389/fuji-frenic-ace-ac-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461897601/KB/LE/UF/89143389/fuji-frenic-ace-ac-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461897600/WE/KM/PQ/89143389/fuji-frenic-ace-ac-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461897605/UF/HT/DX/89143389/fuji-frenic-ace-ac-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461897606/YU/HB/AY/89143389/fuji-frenic-ace-ac-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461897607/KR/CQ/TZ/89143389/fuji-frenic-ace-ac-drive-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/PD/EE/TX/89143389/fuji-frenic-ace-ac-drive-1000x1000.jpg"
     ],
     "slug": "fuji-frenic-ace-ac-drive",
     "stock": true,
@@ -6388,12 +6002,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461528736/ZT/XN/NU/89143389/fuji-vfd-frn0001c2s-6u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461528736/ZT/XN/NU/89143389/fuji-vfd-frn0001c2s-6u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461520600/GN/IW/QN/89143389/fuji-vfd-frn0001c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461520602/AI/DX/CO/89143389/fuji-vfd-frn0001c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461520604/VL/EV/WD/89143389/fuji-vfd-frn0001c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461520607/RR/QU/BV/89143389/fuji-vfd-frn0001c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461520608/ZI/JI/NN/89143389/fuji-vfd-frn0001c2s-6u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461528736/ZT/XN/NU/89143389/fuji-vfd-frn0001c2s-6u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0001c2s-6u",
     "stock": true,
@@ -6435,12 +6044,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461527294/RJ/OF/JY/89143389/fuji-vfd-frn0004c2s-7u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461527294/RJ/OF/JY/89143389/fuji-vfd-frn0004c2s-7u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461518973/AA/EP/PL/89143389/fuji-vfd-frn0004c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461518975/KM/JN/LQ/89143389/fuji-vfd-frn0004c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461518976/BJ/FE/KQ/89143389/fuji-vfd-frn0004c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461518979/WQ/UE/XE/89143389/fuji-vfd-frn0004c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461518977/JK/JR/MN/89143389/fuji-vfd-frn0004c2s-7u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461527294/RJ/OF/JY/89143389/fuji-vfd-frn0004c2s-7u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0004c2s-7u",
     "stock": true,
@@ -6482,12 +6086,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461528826/WV/NL/PJ/89143389/fuji-vfd-frn0002c2s-6u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461528826/WV/NL/PJ/89143389/fuji-vfd-frn0002c2s-6u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461520346/HY/RF/PZ/89143389/fuji-vfd-frn0002c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461520348/LR/CQ/XN/89143389/fuji-vfd-frn0002c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461520351/AL/LY/HK/89143389/fuji-vfd-frn0002c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461520350/PU/LY/XW/89143389/fuji-vfd-frn0002c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461520347/XB/MU/JG/89143389/fuji-vfd-frn0002c2s-6u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461528826/WV/NL/PJ/89143389/fuji-vfd-frn0002c2s-6u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0002c2s-6u",
     "stock": true,
@@ -6537,15 +6136,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461529527/MP/OX/UL/89143389/fuji-vfd-frn0010c2s-7u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461529527/MP/OX/UL/89143389/fuji-vfd-frn0010c2s-7u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461519493/GT/SX/GE/89143389/fuji-vfd-frn0010c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461519490/EI/XS/PM/89143389/fuji-vfd-frn0010c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461519495/MV/HO/BE/89143389/fuji-vfd-frn0010c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461519496/NQ/CX/ZD/89143389/fuji-vfd-frn0010c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461519488/LH/KL/UL/89143389/fuji-vfd-frn0010c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461519489/YJ/LS/ZZ/89143389/fuji-vfd-frn0010c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461519491/BJ/SL/XO/89143389/fuji-vfd-frn0010c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461519492/HJ/XS/XM/89143389/fuji-vfd-frn0010c2s-7u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461529527/MP/OX/UL/89143389/fuji-vfd-frn0010c2s-7u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0010c2s-7u",
     "stock": true,
@@ -6591,12 +6182,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461529430/RY/WG/SC/89143389/fuji-vfd-frn0006c2s-7u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461529430/RY/WG/SC/89143389/fuji-vfd-frn0006c2s-7u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461513944/YS/OS/JI/89143389/fuji-vfd-frn0006c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461513945/QJ/DK/JP/89143389/fuji-vfd-frn0006c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461513946/AX/NN/RZ/89143389/fuji-vfd-frn0006c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461513948/ND/VX/EL/89143389/fuji-vfd-frn0006c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461513947/WD/PG/LE/89143389/fuji-vfd-frn0006c2s-7u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461529430/RY/WG/SC/89143389/fuji-vfd-frn0006c2s-7u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0006c2s-7u",
     "stock": true,
@@ -6638,12 +6224,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461529326/PM/AZ/FB/89143389/fuji-vfd-frn0012c2s-7u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461529326/PM/AZ/FB/89143389/fuji-vfd-frn0012c2s-7u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461513814/YY/AX/FR/89143389/fuji-vfd-frn0012c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461513815/AG/LQ/QE/89143389/fuji-vfd-frn0012c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461513820/TX/DF/SJ/89143389/fuji-vfd-frn0012c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461513818/JJ/UX/KH/89143389/fuji-vfd-frn0012c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461513816/SC/DW/WK/89143389/fuji-vfd-frn0012c2s-7u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461529326/PM/AZ/FB/89143389/fuji-vfd-frn0012c2s-7u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0012c2s-7u",
     "stock": true,
@@ -6685,12 +6266,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461529251/PG/VW/HF/89143389/fuji-vfd-frn0002c2s-7u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461529251/PG/VW/HF/89143389/fuji-vfd-frn0002c2s-7u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461518397/SD/CN/OT/89143389/fuji-vfd-frn0002c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461518399/HM/LG/PC/89143389/fuji-vfd-frn0002c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461518396/OT/WW/EK/89143389/fuji-vfd-frn0002c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461518401/NB/KC/SY/89143389/fuji-vfd-frn0002c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461518400/ME/UZ/LC/89143389/fuji-vfd-frn0002c2s-7u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461529251/PG/VW/HF/89143389/fuji-vfd-frn0002c2s-7u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0002c2s-7u",
     "stock": true,
@@ -6740,12 +6316,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461529156/OH/DP/LA/89143389/fuji-vfd-frn0001c2s-7u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461529156/OH/DP/LA/89143389/fuji-vfd-frn0001c2s-7u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461518062/VN/HR/EU/89143389/fuji-vfd-frn0001c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461518061/OU/VD/TI/89143389/fuji-vfd-frn0001c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461518059/SB/MB/AR/89143389/fuji-vfd-frn0001c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461518058/LU/VL/YR/89143389/fuji-vfd-frn0001c2s-7u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461518063/LZ/IR/ZJ/89143389/fuji-vfd-frn0001c2s-7u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461529156/OH/DP/LA/89143389/fuji-vfd-frn0001c2s-7u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0001c2s-7u",
     "stock": true,
@@ -6787,12 +6358,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461529057/DL/QA/PE/89143389/fuji-vfd-frn0005c2s-6u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461529057/DL/QA/PE/89143389/fuji-vfd-frn0005c2s-6u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461517813/KR/QX/CM/89143389/fuji-vfd-frn0005c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461517811/TL/IJ/FH/89143389/fuji-vfd-frn0005c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461517812/ZI/KG/YO/89143389/fuji-vfd-frn0005c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461517815/GY/XX/FM/89143389/fuji-vfd-frn0005c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461517816/OS/GL/OQ/89143389/fuji-vfd-frn0005c2s-6u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461529057/DL/QA/PE/89143389/fuji-vfd-frn0005c2s-6u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0005c2s-6u",
     "stock": true,
@@ -6842,12 +6408,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461528952/NQ/VO/FI/89143389/fuji-vfd-frn0003c2s-6u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461528952/NQ/VO/FI/89143389/fuji-vfd-frn0003c2s-6u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461517219/ZS/IX/CO/89143389/fuji-vfd-frn0003c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461517222/ZV/VR/BH/89143389/fuji-vfd-frn0003c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461517224/OU/YY/QQ/89143389/fuji-vfd-frn0003c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461517220/OL/OW/AL/89143389/fuji-vfd-frn0003c2s-6u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461517223/ES/VB/VE/89143389/fuji-vfd-frn0003c2s-6u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461528952/NQ/VO/FI/89143389/fuji-vfd-frn0003c2s-6u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0003c2s-6u",
     "stock": true,
@@ -6897,16 +6458,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461806213/VW/QB/HL/89143389/fuji-vfd-frn0002c2s-2u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461806213/VW/QB/HL/89143389/fuji-vfd-frn0002c2s-2u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461806557/SQ/UC/WZ/89143389/fuji-vfd-frn0002c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461806560/VT/NV/EF/89143389/fuji-vfd-frn0002c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461806561/YW/VE/BH/89143389/fuji-vfd-frn0002c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461806562/KW/TS/GH/89143389/fuji-vfd-frn0002c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461806564/DV/MY/PB/89143389/fuji-vfd-frn0002c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461806565/SA/JP/DC/89143389/fuji-vfd-frn0002c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461806566/UD/MU/NC/89143389/fuji-vfd-frn0002c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461806567/AI/TV/OG/89143389/fuji-vfd-frn0002c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461806563/VA/KH/FE/89143389/fuji-vfd-frn0002c2s-2u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461806213/VW/QB/HL/89143389/fuji-vfd-frn0002c2s-2u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0002c2s-2u",
     "stock": true,
@@ -6956,14 +6508,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461811493/PS/TI/AU/89143389/fuji-vfd-frn0004c2s-2u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461811493/PS/TI/AU/89143389/fuji-vfd-frn0004c2s-2u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461808894/LL/UG/VA/89143389/fuji-vfd-frn0004c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461808888/HN/IG/MB/89143389/fuji-vfd-frn0004c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461808889/OR/HQ/ZT/89143389/fuji-vfd-frn0004c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461808892/PT/ZJ/IW/89143389/fuji-vfd-frn0004c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461808891/QA/OD/WK/89143389/fuji-vfd-frn0004c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461808890/NB/II/VN/89143389/fuji-vfd-frn0004c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461808893/QV/UO/SG/89143389/fuji-vfd-frn0004c2s-2u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461811493/PS/TI/AU/89143389/fuji-vfd-frn0004c2s-2u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0004c2s-2u",
     "stock": true,
@@ -7013,13 +6558,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461815958/IX/TT/JD/89143389/fuji-vfd-frn0006c2s-2u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461815958/IX/TT/JD/89143389/fuji-vfd-frn0006c2s-2u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461812964/YO/EW/XL/89143389/fuji-vfd-frn0006c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461812966/UZ/SU/LL/89143389/fuji-vfd-frn0006c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461812967/UM/OG/CL/89143389/fuji-vfd-frn0006c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461812960/DW/EY/UK/89143389/fuji-vfd-frn0006c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461812961/XM/YV/UF/89143389/fuji-vfd-frn0006c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461812962/QQ/ZQ/NV/89143389/fuji-vfd-frn0006c2s-2u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461815958/IX/TT/JD/89143389/fuji-vfd-frn0006c2s-2u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0006c2s-2u",
     "stock": true,
@@ -7069,14 +6608,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461821846/DL/IZ/JU/89143389/fuji-vfd-frn0010c2s-2u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461821846/DL/IZ/JU/89143389/fuji-vfd-frn0010c2s-2u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461820562/JH/IT/DF/89143389/fuji-vfd-frn0010c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461820563/FV/NP/MU/89143389/fuji-vfd-frn0010c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461820565/BY/HH/PR/89143389/fuji-vfd-frn0010c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461820567/PW/WA/NX/89143389/fuji-vfd-frn0010c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461820561/HE/NR/XH/89143389/fuji-vfd-frn0010c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461820560/FL/NY/AY/89143389/fuji-vfd-frn0010c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461820566/WK/HG/CB/89143389/fuji-vfd-frn0010c2s-2u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461821846/DL/IZ/JU/89143389/fuji-vfd-frn0010c2s-2u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0010c2s-2u",
     "stock": true,
@@ -7126,12 +6658,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461834114/HF/JV/QA/89143389/fuji-vfd-frn0020c2s-2u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461834114/HF/JV/QA/89143389/fuji-vfd-frn0020c2s-2u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461832905/MO/XS/SF/89143389/fuji-vfd-frn0020c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461832902/OP/RO/YY/89143389/fuji-vfd-frn0020c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461832907/RO/XO/LD/89143389/fuji-vfd-frn0020c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461832908/VT/SX/AS/89143389/fuji-vfd-frn0020c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461832904/UW/SN/RM/89143389/fuji-vfd-frn0020c2s-2u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461834114/HF/JV/QA/89143389/fuji-vfd-frn0020c2s-2u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0020c2s-2u",
     "stock": true,
@@ -7181,11 +6708,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461838015/XP/RE/TU/89143389/fuji-vfd-frn0033c2s-2u-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461838015/XP/RE/TU/89143389/fuji-vfd-frn0033c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461838023/PP/VM/TL/89143389/fuji-vfd-frn0033c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461838018/DZ/JK/OD/89143389/fuji-vfd-frn0033c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461838016/VW/MH/HX/89143389/fuji-vfd-frn0033c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461838020/JQ/WL/MR/89143389/fuji-vfd-frn0033c2s-2u-1000x1000.png"
+      
     ],
     "slug": "fuji-vfd-frn0033c2s-2u",
     "stock": true,
@@ -7231,12 +6754,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461870999/RP/ZE/SO/89143389/fuji-vfd-frn0047c2s-2u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461870999/RP/ZE/SO/89143389/fuji-vfd-frn0047c2s-2u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461838688/ZJ/EY/CV/89143389/fuji-vfd-frn0047c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461838691/ZP/BX/WH/89143389/fuji-vfd-frn0047c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461838689/EN/EG/RE/89143389/fuji-vfd-frn0047c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461838690/FK/LC/US/89143389/fuji-vfd-frn0047c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461838692/DE/BV/MN/89143389/fuji-vfd-frn0047c2s-2u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461870999/RP/ZE/SO/89143389/fuji-vfd-frn0047c2s-2u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0047c2s-2u",
     "stock": true,
@@ -7286,12 +6804,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461871134/SC/NR/ZZ/89143389/fuji-vfd-frn0060c2s-2u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461871134/SC/NR/ZZ/89143389/fuji-vfd-frn0060c2s-2u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461839219/XZ/WI/YO/89143389/fuji-vfd-frn0060c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461839220/AM/OG/ZD/89143389/fuji-vfd-frn0060c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461839217/FF/RY/OF/89143389/fuji-vfd-frn0060c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461839218/XY/QS/YE/89143389/fuji-vfd-frn0060c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461839223/MA/GZ/FC/89143389/fuji-vfd-frn0060c2s-2u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461871134/SC/NR/ZZ/89143389/fuji-vfd-frn0060c2s-2u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0060c2s-2u",
     "stock": true,
@@ -7337,12 +6850,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461871422/PO/VH/SL/89143389/fuji-vfd-frn0005c2s-4u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461871422/PO/VH/SL/89143389/fuji-vfd-frn0005c2s-4u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461864731/DZ/ER/GE/89143389/fuji-vfd-frn0005c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461864736/ZQ/AI/MD/89143389/fuji-vfd-frn0005c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461864734/YP/BD/EY/89143389/fuji-vfd-frn0005c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461864732/OD/RQ/MG/89143389/fuji-vfd-frn0005c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461864735/QL/HR/ZR/89143389/fuji-vfd-frn0005c2s-4u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461871422/PO/VH/SL/89143389/fuji-vfd-frn0005c2s-4u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0005c2s-4u",
     "stock": true,
@@ -7384,12 +6892,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461871509/HF/VO/WU/89143389/fuji-vfd-frn0007c2s-4u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461871509/HF/VO/WU/89143389/fuji-vfd-frn0007c2s-4u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461865396/BH/SQ/MT/89143389/fuji-vfd-frn0007c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461865393/BF/CM/LW/89143389/fuji-vfd-frn0007c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461865395/BU/SR/CT/89143389/fuji-vfd-frn0007c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461865398/FH/DQ/YG/89143389/fuji-vfd-frn0007c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461865397/MS/RB/CC/89143389/fuji-vfd-frn0007c2s-4u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461871509/HF/VO/WU/89143389/fuji-vfd-frn0007c2s-4u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0007c2s-4u",
     "stock": true,
@@ -7435,12 +6938,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461871626/TL/YV/WX/89143389/fuji-vfd-frn0011c2s-4u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461871626/TL/YV/WX/89143389/fuji-vfd-frn0011c2s-4u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461866425/FC/XF/OH/89143389/fuji-vfd-frn0011c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461866427/UD/YQ/BQ/89143389/fuji-vfd-frn0011c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461866426/RD/EA/UN/89143389/fuji-vfd-frn0011c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461866428/QJ/VT/AQ/89143389/fuji-vfd-frn0011c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461866429/JP/DO/QK/89143389/fuji-vfd-frn0011c2s-4u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461871626/TL/YV/WX/89143389/fuji-vfd-frn0011c2s-4u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0011c2s-4u",
     "stock": true,
@@ -7490,14 +6988,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461871741/EL/NA/IA/89143389/fuji-vfd-frn0013c2s-4u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461871741/EL/NA/IA/89143389/fuji-vfd-frn0013c2s-4u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461868644/VL/HD/BJ/89143389/fuji-vfd-frn0013c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461868642/US/OB/GS/89143389/fuji-vfd-frn0013c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461868640/QP/CH/SM/89143389/fuji-vfd-frn0013c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461868639/OG/GJ/GF/89143389/fuji-vfd-frn0013c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461868646/ZH/IW/TF/89143389/fuji-vfd-frn0013c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461868647/MZ/TQ/ZC/89143389/fuji-vfd-frn0013c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461868648/UY/DD/WR/89143389/fuji-vfd-frn0013c2s-4u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461871741/EL/NA/IA/89143389/fuji-vfd-frn0013c2s-4u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0013c2s-4u",
     "stock": true,
@@ -7551,19 +7042,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461871916/DS/YX/WH/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461871916/DS/YX/WH/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461869821/HS/VO/QY/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461869831/ML/NB/FO/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461869836/GB/ZV/AP/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461869834/KQ/AO/VT/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461869833/SK/XC/QI/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461869840/BQ/TQ/IS/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461869839/HY/MQ/CU/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461869841/NG/ZL/GB/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461869843/IG/YP/MP/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461869844/BP/LN/DV/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461869846/HL/VM/ZE/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461869845/LW/SD/ZP/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461871916/DS/YX/WH/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0024c2s-4u",
     "stock": true,
@@ -7617,19 +7096,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461583068/DU/KI/HL/89143389/fuji-vfd-frn0018c2s-4u-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461583068/DU/KI/HL/89143389/fuji-vfd-frn0018c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461583044/HC/AZ/YM/89143389/fuji-vfd-frn0018c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461583051/JL/TI/YL/89143389/fuji-vfd-frn0018c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461583058/WD/GR/LW/89143389/fuji-vfd-frn0018c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461583059/OK/FV/TM/89143389/fuji-vfd-frn0018c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461583060/AZ/EP/FE/89143389/fuji-vfd-frn0018c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461583061/RT/TA/NS/89143389/fuji-vfd-frn0018c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461583064/QZ/CH/YQ/89143389/fuji-vfd-frn0018c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461583062/EU/YB/BC/89143389/fuji-vfd-frn0018c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461583065/AG/QU/WE/89143389/fuji-vfd-frn0018c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461583066/PE/DL/PA/89143389/fuji-vfd-frn0018c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461583067/UZ/KP/OO/89143389/fuji-vfd-frn0018c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461583045/LH/XV/JD/89143389/fuji-vfd-frn0018c2s-4u-1000x1000.png"
+      
     ],
     "slug": "fuji-vfd-frn0018c2s-4u",
     "stock": true,
@@ -7679,14 +7146,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461796007/OF/YY/BG/89143389/fuji-vfd-frn0030c2s-4u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461796007/OF/YY/BG/89143389/fuji-vfd-frn0030c2s-4u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461579071/EI/TA/FN/89143389/frn0030c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461579067/QV/GO/YC/89143389/frn0030c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461579070/RO/DW/LM/89143389/frn0030c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461579076/PN/OH/IL/89143389/frn0030c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461579078/YP/GX/VJ/89143389/frn0030c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461579069/RW/AK/UY/89143389/frn0030c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461579075/GO/SQ/BN/89143389/frn0030c2s-4u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461796007/OF/YY/BG/89143389/fuji-vfd-frn0030c2s-4u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0030c2s-4u",
     "stock": true,
@@ -7736,12 +7196,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461829955/HV/AT/LI/89143389/fuji-vfd-frn0012c2s-2u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461829955/HV/AT/LI/89143389/fuji-vfd-frn0012c2s-2u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461823520/SK/TK/WZ/89143389/fuji-vfd-frn0012c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461823521/XG/DY/OL/89143389/fuji-vfd-frn0012c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461823519/NS/RQ/NA/89143389/fuji-vfd-frn0012c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461823524/EP/OM/RX/89143389/fuji-vfd-frn0012c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461823525/OI/NI/JN/89143389/fuji-vfd-frn0012c2s-2u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461829955/HV/AT/LI/89143389/fuji-vfd-frn0012c2s-2u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0012c2s-2u",
     "stock": true,
@@ -7791,15 +7246,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461870820/CV/LV/NX/89143389/fuji-vfd-frn0025c2s-2u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461870820/CV/LV/NX/89143389/fuji-vfd-frn0025c2s-2u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461837073/DT/UJ/OD/89143389/fuji-vfd-frn0025c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461837070/QV/AP/IJ/89143389/fuji-vfd-frn0025c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461837072/AL/AV/EQ/89143389/fuji-vfd-frn0025c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461837074/TI/JT/TK/89143389/fuji-vfd-frn0025c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461837079/IZ/GP/VS/89143389/fuji-vfd-frn0025c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461869846/HL/VM/ZE/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461869845/LW/SD/ZP/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461869847/EA/WV/HS/89143389/fuji-vfd-frn0024c2s-4u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461870820/CV/LV/NX/89143389/fuji-vfd-frn0025c2s-2u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0025c2s-2u",
     "stock": true,
@@ -7849,12 +7296,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461881202/BY/RR/JX/89143389/fuji-vfd-frn0004c2s-4u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461881202/BY/RR/JX/89143389/fuji-vfd-frn0004c2s-4u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461839803/DX/ZN/VH/89143389/fuji-vfd-frn0004c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461839804/OX/RX/FB/89143389/fuji-vfd-frn0004c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461839806/TH/YJ/KX/89143389/fuji-vfd-frn0004c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461839801/WX/KC/KJ/89143389/fuji-vfd-frn0004c2s-4u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461881590/HS/UH/JZ/89143389/fuji-vfd-frn0004c2s-4u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461881202/BY/RR/JX/89143389/fuji-vfd-frn0004c2s-4u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0004c2s-4u",
     "stock": true,
@@ -8106,13 +7548,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461804207/BU/YJ/MQ/89143389/fuji-vfd-frn0001c2s-2u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461804207/BU/YJ/MQ/89143389/fuji-vfd-frn0001c2s-2u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461803831/SS/KJ/GL/89143389/fuji-vfd-frn0001c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461803832/JZ/EI/IE/89143389/fuji-vfd-frn0001c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461803835/GP/XI/CW/89143389/fuji-vfd-frn0001c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461803838/NZ/LV/TU/89143389/fuji-vfd-frn0001c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461803839/BQ/UO/IG/89143389/fuji-vfd-frn0001c2s-2u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461803840/CA/QN/LY/89143389/fuji-vfd-frn0001c2s-2u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461804207/BU/YJ/MQ/89143389/fuji-vfd-frn0001c2s-2u-1000x1000.jpg"
     ],
     "slug": "fuji-vfd-frn0001c2s-2u",
     "stock": true,
@@ -8162,9 +7598,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497565569/XA/HZ/SE/89143389/fuji-7-inch-hmi-ts1070s-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497565569/XA/HZ/SE/89143389/fuji-7-inch-hmi-ts1070s-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496897512/QG/GF/DG/89143389/fuji-7-inch-hmi-ts1070s-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496897562/CK/AI/FC/89143389/fuji-7-inch-hmi-ts1070s-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497565569/XA/HZ/SE/89143389/fuji-7-inch-hmi-ts1070s-1000x1000.jpg"
     ],
     "slug": "fuji-7-inch-hmi-ts1070s",
     "stock": true,
@@ -8207,8 +7641,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2026/3/588991220/HB/JL/WQ/89143389/ifm-al1402-io-link-master-pfl-pn-8p-ip67-io-link-master-with-profinet-interface-1000x1000.jpg",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2026/3/588991220/HB/JL/WQ/89143389/ifm-al1402-io-link-master-pfl-pn-8p-ip67-io-link-master-with-profinet-interface-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2026/3/589368328/FB/OH/YM/89143389/ifm-al1402-io-link-master-pfl-pn-8p-ip67-io-link-master-with-profinet-interface-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/589370469/AR/IZ/VN/89143389/ifm-al1402-io-link-master-pfl-pn-8p-ip67-io-link-master-with-profinet-interface-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2026/3/589368328/FB/OH/YM/89143389/ifm-al1402-io-link-master-pfl-pn-8p-ip67-io-link-master-with-profinet-interface-1000x1000.jpg"
     ],
     "slug": "ifm-al1402-io-link-master-pfl-pn-8p-ip67-io-link-master-with-profinet-interface",
     "stock": true,
@@ -8276,10 +7709,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/8/540920077/HT/LU/YD/89143389/obstacle-avoidance-sensors-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/8/540920077/HT/LU/YD/89143389/obstacle-avoidance-sensors-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540921109/RQ/UQ/KS/89143389/obstacle-avoidance-sensors-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540921110/QE/SW/SH/89143389/obstacle-avoidance-sensors-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540921111/IQ/DF/AK/89143389/obstacle-avoidance-sensors-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/8/540920077/HT/LU/YD/89143389/obstacle-avoidance-sensors-1000x1000.jpg"
     ],
     "slug": "obstacle-avoidance-sensors",
     "stock": true,
@@ -8309,9 +7739,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/8/540784992/IX/FK/BR/89143389/ib5124-ifm-sensor-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/8/540784992/IX/FK/BR/89143389/ib5124-ifm-sensor-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540794528/EK/QV/ZN/89143389/ib5124-ifm-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540794529/AD/VR/VR/89143389/ib5124-ifm-sensor-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/8/540784992/IX/FK/BR/89143389/ib5124-ifm-sensor-1000x1000.jpg"
     ],
     "slug": "ib5124-ifm-sensor",
     "stock": true,
@@ -8361,10 +7789,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/8/540816915/LU/WJ/OX/89143389/inductive-proximity-sensor-1000x1000.webp",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/8/540816915/LU/WJ/OX/89143389/inductive-proximity-sensor-1000x1000.webp",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540821626/PQ/BQ/BY/89143389/inductive-proximity-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540821627/PJ/PB/CO/89143389/inductive-proximity-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540821628/MW/UG/XB/89143389/inductive-proximity-sensor-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/8/540816915/LU/WJ/OX/89143389/inductive-proximity-sensor-1000x1000.webp"
     ],
     "slug": "inductive-proximity-sensor",
     "stock": true,
@@ -8390,11 +7815,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/8/540776983/GU/RF/MM/89143389/ifm-pressure-sensor-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/8/540776983/GU/RF/MM/89143389/ifm-pressure-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540783513/DO/NK/YV/89143389/ifm-pressure-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540783514/CG/AB/DH/89143389/ifm-pressure-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540783518/QW/HR/AK/89143389/ifm-pressure-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540783517/IV/SA/PL/89143389/ifm-pressure-sensor-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/8/540776983/GU/RF/MM/89143389/ifm-pressure-sensor-1000x1000.png"
     ],
     "slug": "ifm-sensor",
     "stock": true,
@@ -8424,10 +7845,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/8/540657483/EQ/LW/VB/89143389/ifm-cylinder-sensor-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/8/540657483/EQ/LW/VB/89143389/ifm-cylinder-sensor-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540659368/OX/BD/DY/89143389/ifm-cylinder-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540659369/OZ/JV/AP/89143389/ifm-cylinder-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540659370/AJ/KE/SA/89143389/ifm-cylinder-sensor-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/8/540657483/EQ/LW/VB/89143389/ifm-cylinder-sensor-1000x1000.jpg"
     ],
     "slug": "ifm-cylinder-sensor",
     "stock": true,
@@ -8585,9 +8003,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540560366/KJ/MB/PR/89143389/ac5205-ifm-sensor-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540560366/KJ/MB/PR/89143389/ac5205-ifm-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540560365/IV/YS/BN/89143389/ac5205-ifm-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540560364/KP/WH/AY/89143389/ac5205-ifm-sensor-1000x1000.png"
+      
     ],
     "slug": "ac5205-ifm-sensor",
     "stock": true,
@@ -8617,10 +8033,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/8/540620590/EB/EO/VR/89143389/sby332-ifm-sensor-1000x1000.jpeg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/8/540620590/EB/EO/VR/89143389/sby332-ifm-sensor-1000x1000.jpeg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540622100/KJ/HZ/KX/89143389/sby332-ifm-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540622101/ND/II/GJ/89143389/sby332-ifm-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540622102/IH/SI/HK/89143389/sby332-ifm-sensor-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/8/540620590/EB/EO/VR/89143389/sby332-ifm-sensor-1000x1000.jpeg"
     ],
     "slug": "sby332-ifm-sensor",
     "stock": true,
@@ -8650,11 +8063,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/8/540597252/RJ/AB/RN/89143389/ifm-temp-sensor-1000x1000.jpeg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/8/540597252/RJ/AB/RN/89143389/ifm-temp-sensor-1000x1000.jpeg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540601830/BL/QP/ZW/89143389/ifm-temperature-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540601829/MK/OE/QW/89143389/ifm-temperature-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540601833/SU/BP/QT/89143389/ifm-temperature-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540601832/IA/UX/KE/89143389/ifm-temperature-sensor-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/8/540597252/RJ/AB/RN/89143389/ifm-temp-sensor-1000x1000.jpeg"
     ],
     "slug": "ifm-temperature-sensor",
     "stock": true,
@@ -8750,9 +8159,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497870626/VE/NI/RI/89143389/micrologic-digital-output-module-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497870626/VE/NI/RI/89143389/micrologic-digital-output-module-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/484496932/CN/DN/LQ/89143389/micrologic-digital-output-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/484496934/PA/DN/YD/89143389/micrologic-digital-output-module-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497870626/VE/NI/RI/89143389/micrologic-digital-output-module-1000x1000.jpg"
     ],
     "slug": "micrologic-digital-output-module",
     "stock": true,
@@ -8802,10 +8209,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456735331/ZF/JM/HA/89143389/mitsubishi-hmi-gt2710-vtbd-10-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456735333/SJ/ZS/ZR/89143389/mitsubishi-hmi-gt2710-vtbd-10-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456735336/CP/CM/CM/89143389/mitsubishi-hmi-gt2710-vtbd-10-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456735339/TS/YN/KI/89143389/mitsubishi-hmi-gt2710-vtbd-10-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456735495/UO/AL/MC/89143389/mitsubishi-hmi-gt2710-vtbd-10-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456735500/LE/RW/LB/89143389/mitsubishi-hmi-gt2710-vtbd-10-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456735507/XD/NQ/XE/89143389/mitsubishi-hmi-gt2710-vtbd-10-4-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456735339/TS/YN/KI/89143389/mitsubishi-hmi-gt2710-vtbd-10-4-inch-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2710-vtbd-104-inch",
     "stock": true,
@@ -8859,11 +8263,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456726322/CI/RA/AY/89143389/mitsubishi-hmi-gt2710-stba-8-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456726324/PR/YU/OQ/89143389/mitsubishi-hmi-gt2710-stba-8-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456726332/AH/FD/XQ/89143389/mitsubishi-hmi-gt2710-stba-8-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456726333/DO/GY/TV/89143389/mitsubishi-hmi-gt2710-stba-8-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456729697/WO/KV/RD/89143389/mitsubishi-hmi-gt2710-stba-8-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456729701/ET/RN/VA/89143389/mitsubishi-hmi-gt2710-stba-8-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456729707/JY/JK/MQ/89143389/mitsubishi-hmi-gt2710-stba-8-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456729706/JE/EP/RB/89143389/mitsubishi-hmi-gt2710-stba-8-4-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456726333/DO/GY/TV/89143389/mitsubishi-hmi-gt2710-stba-8-4-inch-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2710-stba-84-inch",
     "stock": true,
@@ -8913,10 +8313,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456732970/RM/JD/WN/89143389/mitsubishi-hmi-gt2710-vtba-10-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456732971/FV/HN/QJ/89143389/mitsubishi-hmi-gt2710-vtba-10-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456732976/QL/NM/AR/89143389/mitsubishi-hmi-gt2710-vtba-10-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456732977/GV/GS/OJ/89143389/mitsubishi-hmi-gt2710-vtba-10-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456733156/SX/FF/OA/89143389/mitsubishi-hmi-gt2710-vtba-10-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456733161/PL/LP/KH/89143389/mitsubishi-hmi-gt2710-vtba-10-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456733165/PS/VR/HW/89143389/mitsubishi-hmi-gt2710-vtba-10-4-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456732977/GV/GS/OJ/89143389/mitsubishi-hmi-gt2710-vtba-10-4-inch-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2710-vtba-104-inch",
     "stock": true,
@@ -8974,11 +8371,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456664622/DY/OT/WH/89143389/mitsubishi-hmi-gt2510-vtbd-10-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456664624/RL/KS/OG/89143389/mitsubishi-hmi-gt2510-vtbd-10-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456664625/FS/MV/SR/89143389/mitsubishi-hmi-gt2510-vtbd-10-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456664611/KM/FB/KO/89143389/mitsubishi-hmi-gt2510-vtbd-10-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456668573/TO/KS/UG/89143389/mitsubishi-hmi-gt2510-vtbd-10-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456668730/BA/HM/XM/89143389/mitsubishi-hmi-gt2510-vtbd-10-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456668893/AY/ZB/VJ/89143389/mitsubishi-hmi-gt2510-vtbd-10-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456668897/HT/EX/GT/89143389/mitsubishi-hmi-gt2510-vtbd-10-4-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456664611/KM/FB/KO/89143389/mitsubishi-hmi-gt2510-vtbd-10-4-inch-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2510-vtbd-104-inch",
     "stock": true,
@@ -9040,11 +8433,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456673214/FP/CR/YM/89143389/mitsubishi-hmi-gt2107-wtbd-7-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456673219/VP/TF/UR/89143389/mitsubishi-hmi-gt2107-wtbd-7-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456673217/FA/JL/EE/89143389/mitsubishi-hmi-gt2107-wtbd-7-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456673220/IA/GW/GU/89143389/mitsubishi-hmi-gt2107-wtbd-7-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456676415/YB/OV/JW/89143389/mitsubishi-hmi-gt2107-wtbd-7-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456676503/XE/OS/RP/89143389/mitsubishi-hmi-gt2107-wtbd-7-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456676547/TH/NS/IK/89143389/mitsubishi-hmi-gt2107-wtbd-7-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456676549/SJ/ST/VE/89143389/mitsubishi-hmi-gt2107-wtbd-7-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456673220/IA/GW/GU/89143389/mitsubishi-hmi-gt2107-wtbd-7-inch-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2107-wtbd-7-inch",
     "stock": true,
@@ -9105,11 +8494,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456600428/ZK/EY/AX/89143389/mitsubishi-hmi-gt2105-qmbds-5-7-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456600432/LJ/QQ/GQ/89143389/mitsubishi-hmi-gt2105-qmbds-5-7-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456600435/ME/PP/RA/89143389/mitsubishi-hmi-gt2105-qmbds-5-7-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456600436/NT/SB/WM/89143389/mitsubishi-hmi-gt2105-qmbds-5-7-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456600778/BT/YZ/ON/89143389/mitsubishi-hmi-gt2105-qmbds-5-7-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456600784/UL/LU/SZ/89143389/mitsubishi-hmi-gt2105-qmbds-5-7-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456600785/IK/FH/DN/89143389/mitsubishi-hmi-gt2105-qmbds-5-7-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456600788/JV/VB/PV/89143389/mitsubishi-hmi-gt2105-qmbds-5-7-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456600436/NT/SB/WM/89143389/mitsubishi-hmi-gt2105-qmbds-5-7-inch-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2105-qmbds-57-inch",
     "stock": true,
@@ -9161,11 +8546,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456585453/RD/LQ/IC/89143389/mitsubishi-hmi-gt2103-pmbd-3-8-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456585454/MO/HY/CA/89143389/mitsubishi-hmi-gt2103-pmbd-3-8-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456585455/GG/VU/ES/89143389/mitsubishi-hmi-gt2103-pmbd-3-8-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456585458/ML/ZX/YD/89143389/mitsubishi-hmi-gt2103-pmbd-3-8-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456586131/QR/UD/WO/89143389/mitsubishi-hmi-gt2103-pmbd-3-8-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456586145/DY/AN/DE/89143389/mitsubishi-hmi-gt2103-pmbd-3-8-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456586158/LW/NP/QO/89143389/mitsubishi-hmi-gt2103-pmbd-3-8-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456586161/PF/KK/KS/89143389/mitsubishi-hmi-gt2103-pmbd-3-8-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456585458/ML/ZX/YD/89143389/mitsubishi-hmi-gt2103-pmbd-3-8-inch-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2103-pmbd-38-inch",
     "stock": true,
@@ -9219,11 +8600,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456695337/SS/UZ/SI/89143389/mitsubishi-hmi-gt2705-vtbd-5-7-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456695339/RN/GO/NS/89143389/mitsubishi-hmi-gt2705-vtbd-5-7-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456695338/ZR/PA/IL/89143389/mitsubishi-hmi-gt2705-vtbd-5-7-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456695336/JL/SY/BC/89143389/mitsubishi-hmi-gt2705-vtbd-5-7-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456707937/VT/TS/VP/89143389/mitsubishi-hmi-gt2705-vtbd-5-7-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456707940/RG/EA/EK/89143389/mitsubishi-hmi-gt2705-vtbd-5-7-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456707943/YQ/HY/EE/89143389/mitsubishi-hmi-gt2705-vtbd-5-7-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456707944/TW/NS/RL/89143389/mitsubishi-hmi-gt2705-vtbd-5-7-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456695336/JL/SY/BC/89143389/mitsubishi-hmi-gt2705-vtbd-5-7-inch-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2705-vtbd-57-inch",
     "stock": true,
@@ -9281,11 +8658,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456597292/GU/DX/FG/89143389/mitsubishi-hmi-gt2104-rtbd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456597297/VQ/PN/VK/89143389/mitsubishi-hmi-gt2104-rtbd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456597309/RO/PR/RQ/89143389/mitsubishi-hmi-gt2104-rtbd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456597315/PQ/JF/LA/89143389/mitsubishi-hmi-gt2104-rtbd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456597086/YJ/VG/YW/89143389/mitsubishi-hmi-gt2104-rtbd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456597088/MV/XY/IE/89143389/mitsubishi-hmi-gt2104-rtbd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456597090/SF/SC/WC/89143389/mitsubishi-hmi-gt2104-rtbd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456597091/VJ/EV/YC/89143389/mitsubishi-hmi-gt2104-rtbd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456597315/PQ/JF/LA/89143389/mitsubishi-hmi-gt2104-rtbd-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2104-rtbd-43-inch",
     "stock": true,
@@ -9347,10 +8720,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456604039/DI/QQ/CW/89143389/mitsubishi-hmi-gt2105-qtbds-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456604041/ZA/NH/KO/89143389/mitsubishi-hmi-gt2105-qtbds-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456604043/AG/XX/CU/89143389/mitsubishi-hmi-gt2105-qtbds-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456604050/GA/IL/FH/89143389/mitsubishi-hmi-gt2105-qtbds-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456604474/TG/WE/FJ/89143389/mitsubishi-hmi-gt2105-qtbds-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456604479/ZP/OX/YR/89143389/mitsubishi-hmi-gt2105-qtbds-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456604481/YN/AW/RA/89143389/mitsubishi-hmi-gt2105-qtbds-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456604050/GA/IL/FH/89143389/mitsubishi-hmi-gt2105-qtbds-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2105-qtbds-57-inch",
     "stock": true,
@@ -9403,10 +8773,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456724816/IJ/IP/YE/89143389/mitsubishi-hmi-gt2708-vtbd-8-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456722257/BB/XL/WL/89143389/mitsubishi-hmi-gt2708-vtbd-8-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456722265/JE/FL/LK/89143389/mitsubishi-hmi-gt2708-vtbd-8-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456722271/DL/TI/UR/89143389/mitsubishi-hmi-gt2708-vtbd-8-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456722451/CS/CP/LX/89143389/mitsubishi-hmi-gt2708-vtbd-8-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456722460/XZ/EU/NW/89143389/mitsubishi-hmi-gt2708-vtbd-8-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456722467/UJ/UQ/VW/89143389/mitsubishi-hmi-gt2708-vtbd-8-4-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456722271/DL/TI/UR/89143389/mitsubishi-hmi-gt2708-vtbd-8-4-inch-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2708-vtbd-84-inch",
     "stock": true,
@@ -9460,10 +8827,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456690148/CC/BX/HH/89143389/mitsubishi-hmi-gt2512-wxtbd-12-1-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456690152/YF/AY/SS/89143389/mitsubishi-hmi-gt2512-wxtbd-12-1-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456690156/WS/IK/IE/89143389/mitsubishi-hmi-gt2512-wxtbd-12-1-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456690157/DY/WJ/XE/89143389/mitsubishi-hmi-gt2512-wxtbd-12-1-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456690543/FP/HE/HT/89143389/mitsubishi-hmi-gt2512-wxtbd-12-1-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456690631/GV/JQ/ZU/89143389/mitsubishi-hmi-gt2512-wxtbd-12-1-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456690706/JX/JP/PB/89143389/mitsubishi-hmi-gt2512-wxtbd-12-1-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456690157/DY/WJ/XE/89143389/mitsubishi-hmi-gt2512-wxtbd-12-1-inch-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2512-wxtbd-121-inch",
     "stock": true,
@@ -9521,11 +8885,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456648428/HO/UH/VQ/89143389/mitsubishi-hmi-gt2508-vtbd-8-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456648429/VV/OH/DN/89143389/mitsubishi-hmi-gt2508-vtbd-8-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456648431/AF/ZU/TX/89143389/mitsubishi-hmi-gt2508-vtbd-8-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456648430/NT/UU/UR/89143389/mitsubishi-hmi-gt2508-vtbd-8-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456649809/OQ/GA/HS/89143389/mitsubishi-hmi-gt2508-vtbd-8-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456649814/WC/AZ/FE/89143389/mitsubishi-hmi-gt2508-vtbd-8-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456649832/DC/SZ/AX/89143389/mitsubishi-hmi-gt2508-vtbd-8-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456649836/AQ/GE/OQ/89143389/mitsubishi-hmi-gt2508-vtbd-8-4-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456648430/NT/UU/UR/89143389/mitsubishi-hmi-gt2508-vtbd-8-4-inch-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2508-vtbd-84-inch",
     "stock": true,
@@ -9578,11 +8938,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456591646/CI/QD/LP/89143389/mitsubishi-hmi-gt2103-pmbds-3-8-in-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456591649/AI/RJ/OE/89143389/mitsubishi-hmi-gt2103-pmbds-3-8-in-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456591650/RB/TE/GV/89143389/mitsubishi-hmi-gt2103-pmbds-3-8-in-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456591651/OP/AL/CY/89143389/mitsubishi-hmi-gt2103-pmbds-3-8-in-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456591988/XI/YY/TF/89143389/mitsubishi-hmi-gt2103-pmbds-3-8-in-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456591992/RW/QK/MH/89143389/mitsubishi-hmi-gt2103-pmbds-3-8-in-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456591979/YH/EK/FZ/89143389/mitsubishi-hmi-gt2103-pmbds-3-8-in-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456591983/QT/TD/TQ/89143389/mitsubishi-hmi-gt2103-pmbds-3-8-in-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456591651/OP/AL/CY/89143389/mitsubishi-hmi-gt2103-pmbds-3-8-in-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2103-pmbds-38-in",
     "stock": true,
@@ -9631,9 +8987,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456730544/DB/MP/RO/89143389/mitsubishi-hmi-gt2710-stbd-8-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456730548/CG/HC/TZ/89143389/mitsubishi-hmi-gt2710-stbd-8-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456730549/JC/TG/LB/89143389/mitsubishi-hmi-gt2710-stbd-8-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456730554/CH/QD/SK/89143389/mitsubishi-hmi-gt2710-stbd-8-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456730731/DO/QP/UU/89143389/mitsubishi-hmi-gt2710-stbd-8-4-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456730735/TS/QS/ND/89143389/mitsubishi-hmi-gt2710-stbd-8-4-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456730554/CH/QD/SK/89143389/mitsubishi-hmi-gt2710-stbd-8-4-inch-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2710-stbd-84-inch",
     "stock": true,
@@ -9679,11 +9033,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456611718/RK/BI/DW/89143389/mitsubishi-hmi-gt2505-vtbd-5-7-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456611719/NN/QK/TD/89143389/mitsubishi-hmi-gt2505-vtbd-5-7-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456611720/WD/FE/KO/89143389/mitsubishi-hmi-gt2505-vtbd-5-7-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456611724/UT/LO/VG/89143389/mitsubishi-hmi-gt2505-vtbd-5-7-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456616920/VI/AK/MH/89143389/mitsubishi-hmi-gt2505-vtbd-5-7-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456616927/ZV/US/JL/89143389/mitsubishi-hmi-gt2505-vtbd-5-7-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456616934/TS/AX/WD/89143389/mitsubishi-hmi-gt2505-vtbd-5-7-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456616936/OM/NH/OW/89143389/mitsubishi-hmi-gt2505-vtbd-5-7-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456611724/UT/LO/VG/89143389/mitsubishi-hmi-gt2505-vtbd-5-7-inch-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2505-vtbd-57-inch",
     "stock": true,
@@ -9734,8 +9084,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456654126/FP/GJ/ES/89143389/mitsubishi-hmi-gt2510-vtba-10-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456654127/FJ/OD/GD/89143389/mitsubishi-hmi-gt2510-vtba-10-4-inch-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456654130/JY/VL/KA/89143389/mitsubishi-hmi-gt2510-vtba-10-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456654131/AJ/HG/FR/89143389/mitsubishi-hmi-gt2510-vtba-10-4-inch-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456656061/SE/LX/WM/89143389/mitsubishi-hmi-gt2510-vtba-10-4-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456654131/AJ/HG/FR/89143389/mitsubishi-hmi-gt2510-vtba-10-4-inch-1000x1000.jpg"
     ],
     "slug": "mitsubishi-hmi-gt2510-vtba-104-inch",
     "stock": true,
@@ -9793,13 +9142,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/8/336638004/IX/FS/KJ/89143389/gc-4da-12-mitsubishi-plc-hmi-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/8/336638004/IX/FS/KJ/89143389/gc-4da-12-mitsubishi-plc-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336629660/UQ/XG/PJ/89143389/gc-4da-12-mitsubishi-plc-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336629662/JP/FG/WX/89143389/gc-4da-12-mitsubishi-plc-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336629663/LV/BT/DQ/89143389/gc-4da-12-mitsubishi-plc-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336629658/YN/TM/WR/89143389/gc-4da-12-mitsubishi-plc-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336629666/ZM/HZ/TK/89143389/gc-4da-12-mitsubishi-plc-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336629669/DO/RN/HJ/89143389/gc-4da-12-mitsubishi-plc-hmi-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/336638004/IX/FS/KJ/89143389/gc-4da-12-mitsubishi-plc-hmi-1000x1000.jpg"
     ],
     "slug": "gc-4da-12-mitsubishi-plchmi",
     "stock": true,
@@ -10137,8 +9480,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454413416/PQ/TI/TN/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454413420/GH/ES/DJ/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454413422/EM/VQ/ZJ/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454413423/XI/SU/DX/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454491130/BB/RF/PS/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454413423/XI/SU/DX/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-melsec-iq-f-series-fx5u-80mt-ess",
     "stock": true,
@@ -10211,8 +9553,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454496219/CE/YD/VG/89143389/fx3s-10mr-ds-mitsubishi-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454496218/PJ/HR/SV/89143389/fx3s-10mr-ds-mitsubishi-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454496217/LT/AN/QB/89143389/fx3s-10mr-ds-mitsubishi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454442308/ZM/KD/IY/89143389/fx5u-32mr-ds-mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454507527/FO/PJ/HR/89143389/fx3s-10mr-es-mitsubishi-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454442308/ZM/KD/IY/89143389/fx5u-32mr-ds-mitsubishi-plc-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3s-10mres",
     "stock": true,
@@ -10275,8 +9616,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454798304/RW/FL/RM/89143389/download-3-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454798303/GS/GM/EG/89143389/download-2-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454798301/IR/OJ/DL/89143389/images-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454798299/SQ/DD/XL/89143389/images-1-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454810543/GE/GJ/YO/89143389/fx3s-14mt-dss-mitsubishi-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454798299/SQ/DD/XL/89143389/images-1-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3s-14mtdss",
     "stock": true,
@@ -10356,10 +9696,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454883731/PB/MY/XF/89143389/fx3s-30mt-dss-mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454883733/IN/TF/FL/89143389/fx3s-30mt-dss-mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454883735/CW/EL/EL/89143389/fx3s-30mt-dss-mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454883738/CS/CV/VP/89143389/fx3s-30mt-dss-mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454884115/LV/RF/FO/89143389/fx3s-30mt-dss-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454884119/GR/UT/AW/89143389/fx3s-30mt-dss-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454884120/KO/DN/SD/89143389/fx3s-30mt-dss-mitsubishi-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454883738/CS/CV/VP/89143389/fx3s-30mt-dss-mitsubishi-plc-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3s-30mtdss",
     "stock": true,
@@ -10451,9 +9788,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454811686/VS/CB/CY/89143389/fx3s-14mt-es-mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454811687/HA/KP/WD/89143389/fx3s-14mt-es-mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454811690/QE/YM/FJ/89143389/fx3s-14mt-es-mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454811692/LP/SG/OH/89143389/fx3s-14mt-es-mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454812500/TP/KO/WD/89143389/fx3s-14mt-es-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454812505/QM/SO/UU/89143389/fx3s-14mt-es-mitsubishi-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454811692/LP/SG/OH/89143389/fx3s-14mt-es-mitsubishi-plc-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3s-14mtes",
     "stock": true,
@@ -10541,10 +9876,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454867024/OV/YU/NB/89143389/fx3s-30mr-ds-mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454867022/CI/IG/HY/89143389/fx3s-30mr-ds-mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454867025/DZ/FN/XG/89143389/fx3s-30mr-ds-mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454867027/PJ/CS/FU/89143389/fx3s-30mr-ds-mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454867660/RB/RO/RS/89143389/fx3s-30mr-ds-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454867668/NC/EK/UL/89143389/fx3s-30mr-ds-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454867672/EE/RW/JC/89143389/fx3s-30mr-ds-mitsubishi-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454867027/PJ/CS/FU/89143389/fx3s-30mr-ds-mitsubishi-plc-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3s-30mrds",
     "stock": true,
@@ -10612,10 +9944,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455512000/PI/ZA/IH/89143389/mitsubishi-plc-fx3g-14mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455512001/HE/NU/BJ/89143389/mitsubishi-plc-fx3g-14mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455512005/XJ/OI/VZ/89143389/mitsubishi-plc-fx3g-14mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455512009/QP/RL/OI/89143389/mitsubishi-plc-fx3g-14mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455514832/OP/TM/ND/89143389/mitsubishi-plc-fx3g-14mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455514834/FX/DA/LW/89143389/mitsubishi-plc-fx3g-14mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455514835/OB/AW/RL/89143389/mitsubishi-plc-fx3g-14mr-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455512009/QP/RL/OI/89143389/mitsubishi-plc-fx3g-14mr-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-14mres",
     "stock": true,
@@ -10676,10 +10005,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455742369/UR/EG/AJ/89143389/mitsubishi-plc-fx3u-48mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455742380/UR/TF/DX/89143389/mitsubishi-plc-fx3u-48mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455742379/RF/IM/KS/89143389/mitsubishi-plc-fx3u-48mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455742615/PU/IR/TH/89143389/mitsubishi-plc-fx3u-48mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455742848/UI/IR/WR/89143389/mitsubishi-plc-fx3u-48mt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455742871/IG/ET/VN/89143389/mitsubishi-plc-fx3u-48mt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455742876/OP/II/PA/89143389/mitsubishi-plc-fx3u-48mt-ess-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455742615/PU/IR/TH/89143389/mitsubishi-plc-fx3u-48mt-ess-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-48mtess",
     "stock": true,
@@ -10747,10 +10073,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455736429/TF/LE/WJ/89143389/mitsubishi-plc-fx3u-48mt-dss-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455736427/RS/AJ/MG/89143389/mitsubishi-plc-fx3u-48mt-dss-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455736420/WV/ZY/MW/89143389/mitsubishi-plc-fx3u-48mt-dss-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455736413/AX/WC/BY/89143389/mitsubishi-plc-fx3u-48mt-dss-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455739418/US/FZ/ZG/89143389/mitsubishi-plc-fx3u-48mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455739436/LS/OE/JU/89143389/mitsubishi-plc-fx3u-48mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455739451/XU/GZ/FJ/89143389/mitsubishi-plc-fx3u-48mt-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455736413/AX/WC/BY/89143389/mitsubishi-plc-fx3u-48mt-dss-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-48mtes",
     "stock": true,
@@ -10814,10 +10137,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455736429/TF/LE/WJ/89143389/mitsubishi-plc-fx3u-48mt-dss-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455736628/VY/SE/YN/89143389/mitsubishi-plc-fx3u-48mt-dss-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455736633/BO/GX/HM/89143389/mitsubishi-plc-fx3u-48mt-dss-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455736643/XB/MH/DM/89143389/mitsubishi-plc-fx3u-48mt-dss-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455736946/LM/ST/QC/89143389/mitsubishi-plc-fx3u-48mt-dss-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455736967/UD/CP/NI/89143389/mitsubishi-plc-fx3u-48mt-dss-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455736971/UL/HA/UB/89143389/mitsubishi-plc-fx3u-48mt-dss-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455736643/XB/MH/DM/89143389/mitsubishi-plc-fx3u-48mt-dss-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-48mtdss",
     "stock": true,
@@ -10881,10 +10201,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455733780/ZI/AL/QY/89143389/mitsubishi-plc-fx3u-48mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455733913/NO/KM/HC/89143389/mitsubishi-plc-fx3u-48mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455733922/IA/ZH/UN/89143389/mitsubishi-plc-fx3u-48mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455733923/WB/XK/YL/89143389/mitsubishi-plc-fx3u-48mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455734064/AW/OA/QN/89143389/mitsubishi-plc-fx3u-48mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455734087/BB/SD/PJ/89143389/mitsubishi-plc-fx3u-48mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455734093/GL/MK/EK/89143389/mitsubishi-plc-fx3u-48mr-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455733923/WB/XK/YL/89143389/mitsubishi-plc-fx3u-48mr-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-48mres",
     "stock": true,
@@ -10952,10 +10269,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455731198/CW/BE/WW/89143389/mitsubishi-plc-fx3u-32mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455731336/WB/IE/ZD/89143389/mitsubishi-plc-fx3u-32mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455731340/AL/OQ/RN/89143389/mitsubishi-plc-fx3u-32mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455731341/DY/XW/KQ/89143389/mitsubishi-plc-fx3u-32mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455731493/PO/WK/RJ/89143389/mitsubishi-plc-fx3u-32mt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455731519/VS/MF/AM/89143389/mitsubishi-plc-fx3u-32mt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455731528/GI/GC/DU/89143389/mitsubishi-plc-fx3u-32mt-ess-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455731341/DY/XW/KQ/89143389/mitsubishi-plc-fx3u-32mt-ess-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-32mtess",
     "stock": true,
@@ -11018,10 +10332,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455728283/AL/ZF/WX/89143389/mitsubishi-plc-fx3u-32mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455728405/DE/YZ/AY/89143389/mitsubishi-plc-fx3u-32mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455728406/HZ/DO/ME/89143389/mitsubishi-plc-fx3u-32mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455728411/MQ/YJ/OS/89143389/mitsubishi-plc-fx3u-32mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455728845/TT/PK/BQ/89143389/mitsubishi-plc-fx3u-32mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455728872/ZG/XY/GO/89143389/mitsubishi-plc-fx3u-32mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455728877/SP/RC/HS/89143389/mitsubishi-plc-fx3u-32mt-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455728411/MQ/YJ/OS/89143389/mitsubishi-plc-fx3u-32mt-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-32mtes",
     "stock": true,
@@ -11082,10 +10393,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455623717/TX/LN/RO/89143389/images-2-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455623711/DS/ST/XW/89143389/images-1-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455623706/US/NP/AW/89143389/download-3-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455623702/NA/VK/BJ/89143389/download-2-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455723696/QF/FU/TN/89143389/mitsubishi-plc-fx3u-32mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455723697/BU/WX/XM/89143389/mitsubishi-plc-fx3u-32mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455723700/OQ/PX/MU/89143389/mitsubishi-plc-fx3u-32mr-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455623702/NA/VK/BJ/89143389/download-2-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-32mres",
     "stock": true,
@@ -11135,8 +10443,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455647609/RC/NX/QJ/89143389/mitsubishi-plc-fx3ge-24mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455647603/HR/UT/QQ/89143389/mitsubishi-plc-fx3ge-24mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455647602/NH/SM/GX/89143389/mitsubishi-plc-fx3ge-24mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455623718/IH/PF/QE/89143389/images-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455716463/OX/XT/TA/89143389/mitsubishi-plc-fx3u-16mt-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455623718/IH/PF/QE/89143389/images-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-16mtes",
     "stock": true,
@@ -11194,10 +10501,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455650513/SK/WT/WQ/89143389/mitsubishi-plc-fx3g-1da-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455647620/BU/LD/IL/89143389/mitsubishi-plc-fx3ge-24mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455647617/KX/JL/NY/89143389/mitsubishi-plc-fx3ge-24mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455647613/XI/DW/SV/89143389/mitsubishi-plc-fx3ge-24mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455710454/JZ/HB/WS/89143389/mitsubishi-plc-fx3u-16mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455710457/UQ/EW/IP/89143389/mitsubishi-plc-fx3u-16mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455710461/TB/KL/DT/89143389/mitsubishi-plc-fx3u-16mr-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455647613/XI/DW/SV/89143389/mitsubishi-plc-fx3ge-24mr-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-16mres",
     "stock": true,
@@ -11247,10 +10551,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455650527/FY/MF/KO/89143389/mitsubishi-plc-fx3g-1da-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455650522/WK/EA/HF/89143389/mitsubishi-plc-fx3g-1da-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455650519/YR/MY/ML/89143389/mitsubishi-plc-fx3g-1da-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455650513/SK/WT/WQ/89143389/mitsubishi-plc-fx3g-1da-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455704214/ZJ/TZ/DZ/89143389/mitsubishi-plc-fx3g-eeprom-32l-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455704225/NO/IX/SS/89143389/mitsubishi-plc-fx3g-eeprom-32l-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455704227/JN/AU/NE/89143389/mitsubishi-plc-fx3g-eeprom-32l-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455650513/SK/WT/WQ/89143389/mitsubishi-plc-fx3g-1da-bd-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-eeprom-32l",
     "stock": true,
@@ -11304,10 +10605,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455663350/IP/PG/HG/89143389/mitsubishi-plc-fx3g-485-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455663345/QA/OF/PG/89143389/mitsubishi-plc-fx3g-485-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455663343/NW/TN/FA/89143389/mitsubishi-plc-fx3g-485-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455663228/YF/AS/ZY/89143389/mitsubishi-plc-fx3g-485-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455668250/VN/MV/WR/89143389/mitsubishi-plc-fx3g-cnv-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455668253/DJ/IG/XI/89143389/mitsubishi-plc-fx3g-cnv-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455668254/SM/KN/RQ/89143389/mitsubishi-plc-fx3g-cnv-adp-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455663228/YF/AS/ZY/89143389/mitsubishi-plc-fx3g-485-bd-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-cnv-adp",
     "stock": true,
@@ -11367,10 +10665,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455663343/NW/TN/FA/89143389/mitsubishi-plc-fx3g-485-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455663345/QA/OF/PG/89143389/mitsubishi-plc-fx3g-485-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455663350/IP/PG/HG/89143389/mitsubishi-plc-fx3g-485-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455663442/WA/RF/WB/89143389/mitsubishi-plc-fx3g-485-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455663549/UW/QB/RI/89143389/mitsubishi-plc-fx3g-485-bd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455663550/MU/CR/SE/89143389/mitsubishi-plc-fx3g-485-bd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455663552/BO/VD/KM/89143389/mitsubishi-plc-fx3g-485-bd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455663442/WA/RF/WB/89143389/mitsubishi-plc-fx3g-485-bd-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-485-bd",
     "stock": true,
@@ -11432,10 +10727,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455653452/IX/IE/AL/89143389/mitsubishi-plc-fx3g-2ad-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455653451/DE/FN/YA/89143389/mitsubishi-plc-fx3g-2ad-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455650533/GH/KF/GD/89143389/mitsubishi-plc-fx3g-1da-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455623700/JL/EN/ZC/89143389/download-1-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455660985/NS/RF/ZI/89143389/mitsubishi-plc-fx3g-422-bd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455660992/RJ/JV/MF/89143389/mitsubishi-plc-fx3g-422-bd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455660996/ZI/OH/UV/89143389/mitsubishi-plc-fx3g-422-bd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455623700/JL/EN/ZC/89143389/download-1-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-422-bd",
     "stock": true,
@@ -11496,10 +10788,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455653454/VM/HP/NT/89143389/mitsubishi-plc-fx3g-2ad-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455653453/GK/LG/MW/89143389/mitsubishi-plc-fx3g-2ad-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455653452/IX/IE/AL/89143389/mitsubishi-plc-fx3g-2ad-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455653451/DE/FN/YA/89143389/mitsubishi-plc-fx3g-2ad-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455658246/MX/TN/JT/89143389/mitsubishi-plc-fx3g-232-bd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455658249/QQ/XV/YT/89143389/mitsubishi-plc-fx3g-232-bd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455658250/NB/UF/RV/89143389/mitsubishi-plc-fx3g-232-bd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455653451/DE/FN/YA/89143389/mitsubishi-plc-fx3g-2ad-bd-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-232-bd",
     "stock": true,
@@ -11563,10 +10852,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455653912/UT/NK/TE/89143389/mitsubishi-plc-fx3g-2ad-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455653915/YK/DL/IW/89143389/mitsubishi-plc-fx3g-2ad-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455653918/QC/VJ/AD/89143389/mitsubishi-plc-fx3g-2ad-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455653988/NX/SF/NQ/89143389/mitsubishi-plc-fx3g-2ad-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455654121/BU/KE/BF/89143389/mitsubishi-plc-fx3g-2ad-bd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455654123/ZQ/PB/QF/89143389/mitsubishi-plc-fx3g-2ad-bd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455654124/WN/GQ/ST/89143389/mitsubishi-plc-fx3g-2ad-bd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455653988/NX/SF/NQ/89143389/mitsubishi-plc-fx3g-2ad-bd-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-2ad-bd",
     "stock": true,
@@ -11630,8 +10916,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455651223/IY/TK/JE/89143389/mitsubishi-plc-fx3g-1da-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455651226/HD/SP/OR/89143389/mitsubishi-plc-fx3g-1da-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455651232/RL/NH/SI/89143389/mitsubishi-plc-fx3g-1da-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455651380/LI/OL/ZF/89143389/mitsubishi-plc-fx3g-1da-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455651455/JI/ER/WG/89143389/mitsubishi-plc-fx3g-1da-bd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455651380/LI/OL/ZF/89143389/mitsubishi-plc-fx3g-1da-bd-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-1da-bd",
     "stock": true,
@@ -11699,9 +10984,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455648346/OS/FG/QP/89143389/mitsubishi-plc-fx3ge-24mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455648348/LJ/RX/FF/89143389/mitsubishi-plc-fx3ge-24mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455648353/JJ/PC/XS/89143389/mitsubishi-plc-fx3ge-24mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455648358/GE/PO/XP/89143389/mitsubishi-plc-fx3ge-24mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455648451/YL/BW/PI/89143389/mitsubishi-plc-fx3ge-24mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455648467/QE/DM/XU/89143389/mitsubishi-plc-fx3ge-24mr-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455648358/GE/PO/XP/89143389/mitsubishi-plc-fx3ge-24mr-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3ge-24mres",
     "stock": true,
@@ -11769,8 +11052,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455646041/TU/RU/JR/89143389/mitsubishi-plc-fx3g-60mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455646042/LG/RC/KD/89143389/mitsubishi-plc-fx3g-60mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455646045/BZ/ZR/JT/89143389/mitsubishi-plc-fx3g-60mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455646046/OR/RH/OF/89143389/mitsubishi-plc-fx3g-60mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455646134/TB/GI/AE/89143389/mitsubishi-plc-fx3g-60mt-ess-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455646046/OR/RH/OF/89143389/mitsubishi-plc-fx3g-60mt-ess-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-60mtess",
     "stock": true,
@@ -11837,10 +11119,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455643180/ZA/UD/OE/89143389/mitsubishi-plc-fx3g-60mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455643184/JB/GR/GA/89143389/mitsubishi-plc-fx3g-60mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455643185/TV/FS/FS/89143389/mitsubishi-plc-fx3g-60mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455643188/CD/WE/LA/89143389/mitsubishi-plc-fx3g-60mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455643380/YK/XR/AX/89143389/mitsubishi-plc-fx3g-60mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455643400/SF/HZ/LS/89143389/mitsubishi-plc-fx3g-60mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455643401/EG/XO/IJ/89143389/mitsubishi-plc-fx3g-60mt-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455643188/CD/WE/LA/89143389/mitsubishi-plc-fx3g-60mt-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-60mtes",
     "stock": true,
@@ -11904,10 +11183,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455635029/BA/BA/XC/89143389/mitsubishi-plc-fx3g-60mt-dss-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455635033/GC/KR/ML/89143389/mitsubishi-plc-fx3g-60mt-dss-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455635037/VN/RB/GV/89143389/mitsubishi-plc-fx3g-60mt-dss-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455635039/SK/QU/BT/89143389/mitsubishi-plc-fx3g-60mt-dss-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455635598/HH/HR/SV/89143389/mitsubishi-plc-fx3g-60mt-dss-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455635603/BV/FX/EO/89143389/mitsubishi-plc-fx3g-60mt-dss-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455635608/IM/VV/NG/89143389/mitsubishi-plc-fx3g-60mt-dss-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455635039/SK/QU/BT/89143389/mitsubishi-plc-fx3g-60mt-dss-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-60mtdss",
     "stock": true,
@@ -11975,10 +11251,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455631566/CV/AA/QE/89143389/mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455631564/NI/WC/DQ/89143389/mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455631567/GW/BN/FJ/89143389/mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455631568/VN/QX/KX/89143389/mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455631719/NA/MT/OC/89143389/mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455631730/UQ/GN/SS/89143389/mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455631736/YQ/BT/AO/89143389/mitsubishi-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455631568/VN/QX/KX/89143389/mitsubishi-plc-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-60mres",
     "stock": true,
@@ -12046,10 +11319,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455629911/LJ/GD/UA/89143389/mitsubishi-plc-fx3g-40mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455629887/DW/GO/GG/89143389/mitsubishi-plc-fx3g-40mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455629912/ZB/JN/DO/89143389/mitsubishi-plc-fx3g-40mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455629913/TC/RB/IG/89143389/mitsubishi-plc-fx3g-40mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455630221/BQ/RH/AP/89143389/mitsubishi-plc-fx3g-40mt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455630255/XP/HY/JW/89143389/mitsubishi-plc-fx3g-40mt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455630265/HB/FJ/SB/89143389/mitsubishi-plc-fx3g-40mt-ess-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455629913/TC/RB/IG/89143389/mitsubishi-plc-fx3g-40mt-ess-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-40mtess",
     "stock": true,
@@ -12117,10 +11387,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455628313/OD/VD/RG/89143389/mitsubishi-plc-fx3g-40mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455628309/MS/XO/OB/89143389/mitsubishi-plc-fx3g-40mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455628320/VQ/UC/LP/89143389/mitsubishi-plc-fx3g-40mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455628322/VA/LB/CY/89143389/mitsubishi-plc-fx3g-40mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455628686/HW/ME/YW/89143389/mitsubishi-plc-fx3g-40mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455628707/YZ/SC/QR/89143389/mitsubishi-plc-fx3g-40mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455628714/TU/BB/UX/89143389/mitsubishi-plc-fx3g-40mt-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455628322/VA/LB/CY/89143389/mitsubishi-plc-fx3g-40mt-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-40mtes",
     "stock": true,
@@ -12184,10 +11451,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455626870/CE/EF/XE/89143389/mitsubishi-plc-fx3g-40mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455626864/WG/ZU/TJ/89143389/mitsubishi-plc-fx3g-40mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455626871/HB/RK/VM/89143389/mitsubishi-plc-fx3g-40mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455626873/NK/KQ/LT/89143389/mitsubishi-plc-fx3g-40mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455627139/DF/RW/WU/89143389/mitsubishi-plc-fx3g-40mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455627148/QO/XH/ZI/89143389/mitsubishi-plc-fx3g-40mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455627152/WB/DD/AT/89143389/mitsubishi-plc-fx3g-40mr-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455626873/NK/KQ/LT/89143389/mitsubishi-plc-fx3g-40mr-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-40mres",
     "stock": true,
@@ -12255,10 +11519,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455625235/OK/BS/HM/89143389/mitsubishi-plc-fx3g-24mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455625242/AW/XQ/VB/89143389/mitsubishi-plc-fx3g-24mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455625249/AO/LV/IN/89143389/mitsubishi-plc-fx3g-24mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455625250/DQ/VX/CM/89143389/mitsubishi-plc-fx3g-24mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455625343/AM/KJ/DF/89143389/mitsubishi-plc-fx3g-24mt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455625354/QR/ZL/QI/89143389/mitsubishi-plc-fx3g-24mt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455625358/LB/DD/TO/89143389/mitsubishi-plc-fx3g-24mt-ess-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455625250/DQ/VX/CM/89143389/mitsubishi-plc-fx3g-24mt-ess-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-24mtess",
     "stock": true,
@@ -12330,8 +11591,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455621905/SE/OZ/VU/89143389/mitsubishi-plc-fx3g-24mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455621904/IC/SL/HV/89143389/mitsubishi-plc-fx3g-24mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455621909/WD/JV/XI/89143389/mitsubishi-plc-fx3g-24mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455621911/PS/JW/TF/89143389/mitsubishi-plc-fx3g-24mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455622012/QX/RD/NV/89143389/mitsubishi-plc-fx3g-24mt-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455621911/PS/JW/TF/89143389/mitsubishi-plc-fx3g-24mt-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-24mtes",
     "stock": true,
@@ -12399,10 +11659,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455618149/ND/UI/JP/89143389/mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455618147/FC/YT/DL/89143389/mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455618152/AR/TF/FN/89143389/mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455618153/UC/RD/PV/89143389/mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455618355/JV/BF/DM/89143389/mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455618362/AQ/OH/TU/89143389/mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455618366/TG/CB/KB/89143389/mitsubishi-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455618153/UC/RD/PV/89143389/mitsubishi-plc-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3g-14mtess",
     "stock": true,
@@ -12440,12 +11697,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459505551/CE/PS/NT/89143389/mitsubishi-plc-fx3u-48-mr-es-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459505551/CE/PS/NT/89143389/mitsubishi-plc-fx3u-48-mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459621104/NX/VI/TR/89143389/mitsubishi-plc-fx3u-48-mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459621105/VX/BG/CC/89143389/mitsubishi-plc-fx3u-48-mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459621106/UR/FS/IY/89143389/mitsubishi-plc-fx3u-48-mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459621108/PE/XS/KF/89143389/mitsubishi-plc-fx3u-48-mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459621109/HC/AJ/FQ/89143389/mitsubishi-plc-fx3u-48-mr-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459505551/CE/PS/NT/89143389/mitsubishi-plc-fx3u-48-mr-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-48-mr-es",
     "stock": true,
@@ -12509,8 +11761,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455801137/YM/HA/FW/89143389/mitsubishi-plc-fx3u-128mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455801139/PK/KQ/ZW/89143389/mitsubishi-plc-fx3u-128mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455801140/NK/HK/ZE/89143389/mitsubishi-plc-fx3u-128mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455801143/XF/QU/NP/89143389/mitsubishi-plc-fx3u-128mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455801404/AO/VI/AV/89143389/mitsubishi-plc-fx3u-128mt-ess-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455801143/XF/QU/NP/89143389/mitsubishi-plc-fx3u-128mt-ess-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-128mtess",
     "stock": true,
@@ -12563,11 +11814,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456338551/TO/AD/SF/89143389/mitsubishi-plc-fx5-4ad-adp-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456314107/NT/HZ/FC/89143389/mitsubishi-plc-fx5-232adp-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456255653/UM/IV/NU/89143389/mitsubishi-plc-fx5-20pg-p-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456255647/AH/GO/KV/89143389/mitsubishi-plc-fx5-20pg-p-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456336599/NE/RQ/NV/89143389/mitsubishi-plc-fx5-4ad-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456336601/MZ/DY/NH/89143389/mitsubishi-plc-fx5-4ad-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456336602/JG/OP/ZJ/89143389/mitsubishi-plc-fx5-4ad-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456336603/EC/GP/JB/89143389/mitsubishi-plc-fx5-4ad-adp-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456255647/AH/GO/KV/89143389/mitsubishi-plc-fx5-20pg-p-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5-4ad-adp",
     "stock": true,
@@ -12620,12 +11867,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456322652/HT/WA/AQ/89143389/mitsubishi-plc-fx5-32er-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456052100/MN/WX/LK/89143389/mitsubishi-plc-fx5u-64mr-ds-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456052096/AP/MQ/AY/89143389/mitsubishi-plc-fx5u-64mr-ds-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456052088/GT/RV/ON/89143389/mitsubishi-plc-fx5u-64mr-ds-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456319363/DT/BA/JK/89143389/mitsubishi-plc-fx5-32er-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456319366/TN/QI/UF/89143389/mitsubishi-plc-fx5-32er-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456319368/WU/LE/JR/89143389/mitsubishi-plc-fx5-32er-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456319371/NC/EW/RB/89143389/mitsubishi-plc-fx5-32er-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456319372/CZ/CM/IG/89143389/mitsubishi-plc-fx5-32er-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456052088/GT/RV/ON/89143389/mitsubishi-plc-fx5u-64mr-ds-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5-32eres",
     "stock": true,
@@ -12681,12 +11923,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456249268/EC/HX/FN/89143389/mitsubishi-plc-fx5-16eyt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456249272/JP/PU/IL/89143389/mitsubishi-plc-fx5-16eyt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456249277/SG/OR/BP/89143389/mitsubishi-plc-fx5-16eyt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456249698/RB/NO/WA/89143389/mitsubishi-plc-fx5-16eyt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456249701/SL/RG/VI/89143389/mitsubishi-plc-fx5-16eyt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456249703/XR/WV/ED/89143389/mitsubishi-plc-fx5-16eyt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456249707/ZG/LD/MH/89143389/mitsubishi-plc-fx5-16eyt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456249708/LX/AU/FT/89143389/mitsubishi-plc-fx5-16eyt-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456249277/SG/OR/BP/89143389/mitsubishi-plc-fx5-16eyt-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5-16eytes",
     "stock": true,
@@ -12742,12 +11979,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456251305/EF/GZ/ZM/89143389/mitsubishi-plc-fx5-16eyt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456251312/RY/XA/YM/89143389/mitsubishi-plc-fx5-16eyt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456251308/WW/RU/GO/89143389/mitsubishi-plc-fx5-16eyt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456251482/RE/MB/RP/89143389/mitsubishi-plc-fx5-16eyt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456251484/RT/DF/VM/89143389/mitsubishi-plc-fx5-16eyt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456251487/WB/PN/XU/89143389/mitsubishi-plc-fx5-16eyt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456251489/AP/GD/DT/89143389/mitsubishi-plc-fx5-16eyt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456251491/WU/XA/FN/89143389/mitsubishi-plc-fx5-16eyt-ess-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456251308/WW/RU/GO/89143389/mitsubishi-plc-fx5-16eyt-ess-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5-16eytess",
     "stock": true,
@@ -12831,12 +12063,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454875792/LZ/BU/UU/89143389/fx3s-30mr-es-2ad-mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454875795/IS/SD/YW/89143389/fx3s-30mr-es-2ad-mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454875814/KG/VK/GY/89143389/fx3s-30mr-es-2ad-mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454875816/GM/WT/FQ/89143389/fx3s-30mr-es-2ad-mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454876986/FR/WX/QD/89143389/fx3s-30mr-es-2ad-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454876990/JP/KN/SX/89143389/fx3s-30mr-es-2ad-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454876992/OY/HS/UR/89143389/fx3s-30mr-es-2ad-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454876994/TM/JH/IT/89143389/fx3s-30mr-es-2ad-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454877006/OO/BP/UN/89143389/fx3s-30mr-es-2ad-mitsubishi-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454875816/GM/WT/FQ/89143389/fx3s-30mr-es-2ad-mitsubishi-plc-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3s-30mres-2ad",
     "stock": true,
@@ -12916,12 +12143,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454894584/IT/TL/BB/89143389/fx3s-30mt-ess-2ad-mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454894587/AF/PT/CV/89143389/fx3s-30mt-ess-2ad-mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454894591/HT/QZ/DN/89143389/fx3s-30mt-ess-2ad-mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454894596/OF/NW/OP/89143389/fx3s-30mt-ess-2ad-mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454895418/LM/NC/FR/89143389/fx3s-30mt-ess-2ad-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454895422/GB/BH/BG/89143389/fx3s-30mt-ess-2ad-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454895424/TG/NZ/MH/89143389/fx3s-30mt-ess-2ad-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454895425/HG/FT/MG/89143389/fx3s-30mt-ess-2ad-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454895442/BY/RT/WQ/89143389/fx3s-30mt-ess-2ad-mitsubishi-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454894596/OF/NW/OP/89143389/fx3s-30mt-ess-2ad-mitsubishi-plc-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3s-30mtess-2ad",
     "stock": true,
@@ -12993,12 +12215,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454898073/NN/VZ/TK/89143389/fx3s-cnv-adp-mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454898080/VL/BD/NP/89143389/fx3s-cnv-adp-mitsubishi-plc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454898081/CW/VY/JT/89143389/fx3s-cnv-adp-mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454898083/AR/LJ/XM/89143389/fx3s-cnv-adp-mitsubishi-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454899231/PR/FF/YP/89143389/fx3s-cnv-adp-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454899235/LI/MO/QM/89143389/fx3s-cnv-adp-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454899237/FK/GN/WZ/89143389/fx3s-cnv-adp-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454899239/MF/QV/BC/89143389/fx3s-cnv-adp-mitsubishi-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454899241/NC/TS/AW/89143389/fx3s-cnv-adp-mitsubishi-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454898083/AR/LJ/XM/89143389/fx3s-cnv-adp-mitsubishi-plc-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3s-cnv-adp",
     "stock": true,
@@ -13061,8 +12278,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455765818/KT/UB/JX/89143389/mitsubishi-plc-fx3u-64mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455765817/RF/DP/TI/89143389/mitsubishi-plc-fx3u-64mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455765808/RL/XO/WK/89143389/mitsubishi-plc-fx3u-64mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455765806/XR/QV/YX/89143389/mitsubishi-plc-fx3u-64mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455768982/BC/LJ/ZL/89143389/mitsubishi-plc-fx3u-64mt-ess-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455765806/XR/QV/YX/89143389/mitsubishi-plc-fx3u-64mt-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-64mtess",
     "stock": true,
@@ -13126,10 +12342,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455784400/WA/NB/RX/89143389/mitsubishi-plc-fx3u-80mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455784403/TK/JA/JG/89143389/mitsubishi-plc-fx3u-80mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455784406/DE/TS/HL/89143389/mitsubishi-plc-fx3u-80mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455784422/AI/OB/KM/89143389/mitsubishi-plc-fx3u-80mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455784593/XL/BY/RW/89143389/mitsubishi-plc-fx3u-80mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455784599/SZ/JR/HT/89143389/mitsubishi-plc-fx3u-80mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455784600/AH/YZ/LH/89143389/mitsubishi-plc-fx3u-80mr-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455784422/AI/OB/KM/89143389/mitsubishi-plc-fx3u-80mr-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-80mres",
     "stock": true,
@@ -13193,10 +12406,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455786236/NS/CN/MP/89143389/mitsubishi-plc-fx3u-80mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455786240/KW/KF/GC/89143389/mitsubishi-plc-fx3u-80mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455786249/RQ/NB/BU/89143389/mitsubishi-plc-fx3u-80mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455786254/XV/JN/GB/89143389/mitsubishi-plc-fx3u-80mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455786371/QH/ZA/GQ/89143389/mitsubishi-plc-fx3u-80mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455786374/HK/FB/BG/89143389/mitsubishi-plc-fx3u-80mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455786377/QG/OR/AT/89143389/mitsubishi-plc-fx3u-80mt-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455786254/XV/JN/GB/89143389/mitsubishi-plc-fx3u-80mt-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-80mtes",
     "stock": true,
@@ -13332,10 +12542,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455903702/RN/QY/MI/89143389/mitsubishi-plc-fx3u-4ad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455903704/HI/OB/IE/89143389/mitsubishi-plc-fx3u-4ad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455903705/GT/ZF/UA/89143389/mitsubishi-plc-fx3u-4ad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455903706/HQ/SJ/JX/89143389/mitsubishi-plc-fx3u-4ad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455903805/JW/IO/BR/89143389/mitsubishi-plc-fx3u-4ad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455903807/JU/GU/YL/89143389/mitsubishi-plc-fx3u-4ad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455903808/DG/UN/TG/89143389/mitsubishi-plc-fx3u-4ad-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455903706/HQ/SJ/JX/89143389/mitsubishi-plc-fx3u-4ad-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-4ad",
     "stock": true,
@@ -13391,10 +12598,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455905619/JL/IC/VH/89143389/mitsubishi-plc-fx3u-4ad-adp-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455905616/MV/QV/RT/89143389/mitsubishi-plc-fx3u-4ad-adp-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455905623/BB/SB/ZT/89143389/mitsubishi-plc-fx3u-4ad-adp-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455905624/VU/CW/JP/89143389/mitsubishi-plc-fx3u-4ad-adp-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455905705/BL/MB/TH/89143389/mitsubishi-plc-fx3u-4ad-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455905708/EE/EV/TT/89143389/mitsubishi-plc-fx3u-4ad-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455905709/DY/ZG/VD/89143389/mitsubishi-plc-fx3u-4ad-adp-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455905624/VU/CW/JP/89143389/mitsubishi-plc-fx3u-4ad-adp-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-4ad-adp",
     "stock": true,
@@ -13454,9 +12658,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455907027/FA/YZ/MD/89143389/mitsubishi-plc-fx3u-4ad-pt-adp-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455907028/SB/BY/NH/89143389/mitsubishi-plc-fx3u-4ad-pt-adp-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455907031/TH/BK/CA/89143389/mitsubishi-plc-fx3u-4ad-pt-adp-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455907035/LT/CN/SO/89143389/mitsubishi-plc-fx3u-4ad-pt-adp-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455907130/EK/FD/RG/89143389/mitsubishi-plc-fx3u-4ad-pt-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455907136/BO/OA/AA/89143389/mitsubishi-plc-fx3u-4ad-pt-adp-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455907035/LT/CN/SO/89143389/mitsubishi-plc-fx3u-4ad-pt-adp-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-4ad-pt-adp",
     "stock": true,
@@ -13512,10 +12714,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455908960/DV/BM/IU/89143389/mitsubishi-plc-fx3u-4ad-ptw-adp-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455908959/ND/IQ/IF/89143389/mitsubishi-plc-fx3u-4ad-ptw-adp-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455908956/DJ/JD/EJ/89143389/mitsubishi-plc-fx3u-4ad-ptw-adp-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455908952/DY/SQ/MP/89143389/mitsubishi-plc-fx3u-4ad-ptw-adp-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455909587/VH/EF/QX/89143389/mitsubishi-plc-fx3u-4ad-ptw-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455909589/MX/UR/VC/89143389/mitsubishi-plc-fx3u-4ad-ptw-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455909590/GU/RX/JL/89143389/mitsubishi-plc-fx3u-4ad-ptw-adp-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455908952/DY/SQ/MP/89143389/mitsubishi-plc-fx3u-4ad-ptw-adp-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-4ad-ptw-adp",
     "stock": true,
@@ -13571,10 +12770,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455789739/DP/OW/CO/89143389/mitsubishi-plc-fx3u-128mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455789738/IR/RW/ZW/89143389/mitsubishi-plc-fx3u-128mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455789737/TI/BE/ZP/89143389/mitsubishi-plc-fx3u-128mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455789735/LN/OJ/SO/89143389/mitsubishi-plc-fx3u-128mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455910766/PX/RC/YY/89143389/mitsubishi-plc-fx3u-4ad-tc-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455910768/PM/IG/NA/89143389/mitsubishi-plc-fx3u-4ad-tc-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455910771/OG/JT/AW/89143389/mitsubishi-plc-fx3u-4ad-tc-adp-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455789735/LN/OJ/SO/89143389/mitsubishi-plc-fx3u-128mr-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-4ad-tc-adp",
     "stock": true,
@@ -13638,10 +12834,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455912113/VJ/BS/TH/89143389/mitsubishi-plc-fx3u-4da-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455912117/MW/AR/RS/89143389/mitsubishi-plc-fx3u-4da-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455912121/RE/GY/MO/89143389/mitsubishi-plc-fx3u-4da-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455912125/LG/AR/IK/89143389/mitsubishi-plc-fx3u-4da-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455912255/TH/DV/RX/89143389/mitsubishi-plc-fx3u-4da-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455912257/KE/PG/TB/89143389/mitsubishi-plc-fx3u-4da-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455912258/WU/MH/MD/89143389/mitsubishi-plc-fx3u-4da-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455912125/LG/AR/IK/89143389/mitsubishi-plc-fx3u-4da-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-4da",
     "stock": true,
@@ -13705,10 +12898,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455915085/TH/CQ/KC/89143389/mitsubishi-plc-fx3u-4da-adp-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455915086/TW/YI/VL/89143389/mitsubishi-plc-fx3u-4da-adp-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455915090/XV/PQ/KP/89143389/mitsubishi-plc-fx3u-4da-adp-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455915093/GO/ZS/YT/89143389/mitsubishi-plc-fx3u-4da-adp-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455915152/RJ/JX/IK/89143389/mitsubishi-plc-fx3u-4da-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455915156/YT/TY/CQ/89143389/mitsubishi-plc-fx3u-4da-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455915157/UI/BD/LQ/89143389/mitsubishi-plc-fx3u-4da-adp-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455915093/GO/ZS/YT/89143389/mitsubishi-plc-fx3u-4da-adp-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-4da-adp",
     "stock": true,
@@ -13763,10 +12953,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455922757/RW/HO/GT/89143389/mitsubishi-plc-fx3u-64ccl-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455922756/RQ/TO/MS/89143389/mitsubishi-plc-fx3u-64ccl-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455922751/ZX/HB/IB/89143389/mitsubishi-plc-fx3u-64ccl-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455922750/DZ/BM/YJ/89143389/mitsubishi-plc-fx3u-64ccl-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455923566/IS/UJ/RP/89143389/mitsubishi-plc-fx3u-64ccl-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455923579/PB/ZN/OH/89143389/mitsubishi-plc-fx3u-64ccl-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455923582/LL/IL/UY/89143389/mitsubishi-plc-fx3u-64ccl-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455922750/DZ/BM/YJ/89143389/mitsubishi-plc-fx3u-64ccl-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-64ccl",
     "stock": true,
@@ -13830,10 +13017,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455927073/ZK/TY/WH/89143389/mitsu-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455927074/LS/QL/MC/89143389/mitsu-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455927079/ED/KK/QH/89143389/mitsu-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455927080/UM/CK/LI/89143389/mitsu-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455926310/PL/MZ/XQ/89143389/mitsubishi-plc-fx3u-232adp-mb-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455927178/RR/NG/RW/89143389/mitsu-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455927187/ZL/LM/AZ/89143389/mitsu-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455927080/UM/CK/LI/89143389/mitsu-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-232-bd",
     "stock": true,
@@ -13885,10 +13069,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455929375/AN/BR/RU/89143389/mitsubishi-plc-fx3u-422-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455929374/WN/LY/CZ/89143389/mitsubishi-plc-fx3u-422-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455929373/WN/JG/IJ/89143389/mitsubishi-plc-fx3u-422-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455929372/MM/TI/RG/89143389/mitsubishi-plc-fx3u-422-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455930776/SU/AE/AI/89143389/mitsubishi-plc-fx3u-422-bd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455930780/VN/OF/AW/89143389/mitsubishi-plc-fx3u-422-bd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455930781/TB/LW/DJ/89143389/mitsubishi-plc-fx3u-422-bd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455929372/MM/TI/RG/89143389/mitsubishi-plc-fx3u-422-bd-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-422-bd",
     "stock": true,
@@ -13948,10 +13129,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455935298/QF/UQ/MK/89143389/mitsubishi-plc-fx3u-485adp-mb-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455935300/NU/ZX/XH/89143389/mitsubishi-plc-fx3u-485adp-mb-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455935303/SO/WK/GV/89143389/mitsubishi-plc-fx3u-485adp-mb-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455935306/YF/PP/PO/89143389/mitsubishi-plc-fx3u-485adp-mb-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455935367/CR/CJ/TV/89143389/mitsubishi-plc-fx3u-485adp-mb-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455935369/VS/EV/CH/89143389/mitsubishi-plc-fx3u-485adp-mb-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455935370/HF/NI/SY/89143389/mitsubishi-plc-fx3u-485adp-mb-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455935306/YF/PP/PO/89143389/mitsubishi-plc-fx3u-485adp-mb-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-485adp-mb",
     "stock": true,
@@ -14003,8 +13181,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455938594/JW/UK/XM/89143389/mitsubishi-plc-fx3u-485-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455938595/ZD/IO/AX/89143389/mitsubishi-plc-fx3u-485-bd-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455938596/ZD/GK/DM/89143389/mitsubishi-plc-fx3u-485-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455938603/JX/UT/FA/89143389/mitsubishi-plc-fx3u-485-bd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455938710/WM/SB/YA/89143389/mitsubishi-plc-fx3u-485-bd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455938603/JX/UT/FA/89143389/mitsubishi-plc-fx3u-485-bd-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-485-bd",
     "stock": true,
@@ -14060,10 +13237,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455946820/JY/CE/EV/89143389/mitsubishi-plc-fx3u-1psu-5v-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455946822/WX/FL/HM/89143389/mitsubishi-plc-fx3u-1psu-5v-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455946828/PG/WK/LE/89143389/mitsubishi-plc-fx3u-1psu-5v-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455946830/MS/TH/JD/89143389/mitsubishi-plc-fx3u-1psu-5v-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455946964/FJ/JN/JR/89143389/mitsubishi-plc-fx3u-1psu-5v-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455946967/GJ/CB/IE/89143389/mitsubishi-plc-fx3u-1psu-5v-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455946968/XE/VQ/XP/89143389/mitsubishi-plc-fx3u-1psu-5v-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455946830/MS/TH/JD/89143389/mitsubishi-plc-fx3u-1psu-5v-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-1psu-5v",
     "stock": true,
@@ -14111,10 +13285,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455949215/SA/XE/HI/89143389/mitsubishi-plc-fx3u-20ssc-h-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455949212/JZ/OB/KN/89143389/mitsubishi-plc-fx3u-20ssc-h-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455949216/JJ/BY/OD/89143389/mitsubishi-plc-fx3u-20ssc-h-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455949217/TO/DT/OB/89143389/mitsubishi-plc-fx3u-20ssc-h-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455949286/LR/MD/XY/89143389/mitsubishi-plc-fx3u-20ssc-h-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455949292/VV/YE/WL/89143389/mitsubishi-plc-fx3u-20ssc-h-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455949293/ZW/MO/NQ/89143389/mitsubishi-plc-fx3u-20ssc-h-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455949217/TO/DT/OB/89143389/mitsubishi-plc-fx3u-20ssc-h-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-20ssc-h",
     "stock": true,
@@ -14170,10 +13341,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455955873/DA/IM/OM/89143389/mitsubishi-plc-fx3u-2hsy-adp-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455955877/AI/ED/JI/89143389/mitsubishi-plc-fx3u-2hsy-adp-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455955892/LK/RD/KI/89143389/mitsubishi-plc-fx3u-2hsy-adp-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455955903/RE/EG/VD/89143389/mitsubishi-plc-fx3u-2hsy-adp-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455956026/JO/FQ/NN/89143389/mitsubishi-plc-fx3u-2hsy-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455956028/JE/CX/ZY/89143389/mitsubishi-plc-fx3u-2hsy-adp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455956029/JW/YE/LT/89143389/mitsubishi-plc-fx3u-2hsy-adp-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455955903/RE/EG/VD/89143389/mitsubishi-plc-fx3u-2hsy-adp-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-2hsy-adp",
     "stock": true,
@@ -14229,10 +13397,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455961003/IM/RA/GO/89143389/mitsubishi-plc-fx3u-32bl-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455961009/CH/QX/KE/89143389/mitsubishi-plc-fx3u-32bl-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455961012/DS/KM/YR/89143389/mitsubishi-plc-fx3u-32bl-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455961015/GI/FR/ZD/89143389/mitsubishi-plc-fx3u-32bl-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455961170/CU/ID/FR/89143389/mitsubishi-plc-fx3u-32bl-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455961172/SL/ZF/BK/89143389/mitsubishi-plc-fx3u-32bl-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455961173/AG/MA/NU/89143389/mitsubishi-plc-fx3u-32bl-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455961015/GI/FR/ZD/89143389/mitsubishi-plc-fx3u-32bl-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-can",
     "stock": true,
@@ -14283,10 +13448,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455953284/XR/HO/JB/89143389/mitsubishi-plc-fx3u-2hc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456011153/CH/UO/ZB/89143389/mitsubishi-plc-fx3u-2hc-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456011157/ON/CQ/TQ/89143389/mitsubishi-plc-fx3u-2hc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456011159/UV/DF/KE/89143389/mitsubishi-plc-fx3u-2hc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455953408/JC/CY/JB/89143389/mitsubishi-plc-fx3u-2hc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455953409/WA/UC/QB/89143389/mitsubishi-plc-fx3u-2hc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455953410/PG/UQ/HH/89143389/mitsubishi-plc-fx3u-2hc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456011159/UV/DF/KE/89143389/mitsubishi-plc-fx3u-2hc-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-2hc",
     "stock": true,
@@ -14345,10 +13507,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456020524/BO/AT/PF/89143389/mitsubishi-plc-fx3u-flrom-16-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456020520/GS/WM/NQ/89143389/mitsubishi-plc-fx3u-flrom-16-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456020523/JX/HG/ZA/89143389/mitsubishi-plc-fx3u-flrom-16-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456020525/LL/NR/SE/89143389/mitsubishi-plc-fx3u-flrom-16-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456020875/YJ/AL/EQ/89143389/mitsubishi-plc-fx3u-flrom-16-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456020887/OT/GK/SV/89143389/mitsubishi-plc-fx3u-flrom-16-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456020891/VJ/UN/GM/89143389/mitsubishi-plc-fx3u-flrom-16-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456020525/LL/NR/SE/89143389/mitsubishi-plc-fx3u-flrom-16-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-flrom-16",
     "stock": true,
@@ -14407,12 +13566,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456023700/LU/GL/NS/89143389/mitsubishi-plc-fx3u-j1939-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456023704/AY/ZU/QZ/89143389/mitsubishi-plc-fx3u-j1939-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456023705/GJ/UY/ZU/89143389/mitsubishi-plc-fx3u-j1939-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456023706/GN/DC/OY/89143389/mitsubishi-plc-fx3u-j1939-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456024047/FB/MI/QK/89143389/mitsubishi-plc-fx3u-j1939-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456024052/RJ/DT/QP/89143389/mitsubishi-plc-fx3u-j1939-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456024057/PX/FS/TD/89143389/mitsubishi-plc-fx3u-j1939-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456024060/NZ/HP/DH/89143389/mitsubishi-plc-fx3u-j1939-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456024063/OL/WH/KY/89143389/mitsubishi-plc-fx3u-j1939-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456023706/GN/DC/OY/89143389/mitsubishi-plc-fx3u-j1939-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx3u-j1939",
     "stock": true,
@@ -14467,8 +13621,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456029378/AN/CO/MP/89143389/mitsubishi-plc-fx5u-32mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456029380/IU/SE/YC/89143389/mitsubishi-plc-fx5u-32mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456029385/HC/MG/MK/89143389/mitsubishi-plc-fx5u-32mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456029386/QJ/DX/HM/89143389/mitsubishi-plc-fx5u-32mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456029501/BY/AC/KL/89143389/mitsubishi-plc-fx5u-32mr-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456029386/QJ/DX/HM/89143389/mitsubishi-plc-fx5u-32mr-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5u-32mres",
     "stock": true,
@@ -14533,10 +13686,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456035599/NH/NL/WB/89143389/mitsubishi-plc-fx5u-32mt-ds-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456032397/NR/PH/UC/89143389/mitsubishi-plc-fx5u-32mt-ds-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456032396/UJ/SP/VC/89143389/mitsubishi-plc-fx5u-32mt-ds-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456032400/NZ/DL/SG/89143389/mitsubishi-plc-fx5u-32mt-ds-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456032562/WF/UG/FA/89143389/mitsubishi-plc-fx5u-32mt-ds-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456032569/AV/VR/PC/89143389/mitsubishi-plc-fx5u-32mt-ds-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456032571/GQ/IY/CM/89143389/mitsubishi-plc-fx5u-32mt-ds-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456032400/NZ/DL/SG/89143389/mitsubishi-plc-fx5u-32mt-ds-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5u-32mtds",
     "stock": true,
@@ -14599,10 +13749,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456037434/CB/VM/GJ/89143389/mitsubishi-plc-fx5u-32mt-dss-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456037436/VT/QY/MM/89143389/mitsubishi-plc-fx5u-32mt-dss-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456037439/XH/LQ/QL/89143389/mitsubishi-plc-fx5u-32mt-dss-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456037442/MR/HN/AQ/89143389/mitsubishi-plc-fx5u-32mt-dss-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456037578/OO/CU/UU/89143389/mitsubishi-plc-fx5u-32mt-dss-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456037582/JA/PN/EP/89143389/mitsubishi-plc-fx5u-32mt-dss-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456037583/QV/CY/AM/89143389/mitsubishi-plc-fx5u-32mt-dss-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456037442/MR/HN/AQ/89143389/mitsubishi-plc-fx5u-32mt-dss-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5u-32mtdss",
     "stock": true,
@@ -14657,10 +13804,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456039350/BT/MP/MH/89143389/mitsubishi-plc-fx5u-32mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456039352/PW/NN/WP/89143389/mitsubishi-plc-fx5u-32mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456039355/IO/VJ/RO/89143389/mitsubishi-plc-fx5u-32mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456039357/UN/YU/RC/89143389/mitsubishi-plc-fx5u-32mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456039465/VK/YO/YL/89143389/mitsubishi-plc-fx5u-32mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456039473/DB/IO/TJ/89143389/mitsubishi-plc-fx5u-32mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456039475/CQ/FE/QO/89143389/mitsubishi-plc-fx5u-32mt-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456039357/UN/YU/RC/89143389/mitsubishi-plc-fx5u-32mt-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5u-32mtes",
     "stock": true,
@@ -14723,10 +13867,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456041768/CY/TN/SR/89143389/mitsubishi-plc-fx5u-32mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456041778/MM/MS/HL/89143389/mitsubishi-plc-fx5u-32mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456041785/QZ/KF/WU/89143389/mitsubishi-plc-fx5u-32mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456041786/IM/ND/RX/89143389/mitsubishi-plc-fx5u-32mt-ess-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456041974/JS/PM/IR/89143389/mitsubishi-plc-fx5u-32mt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456041981/SI/EJ/LY/89143389/mitsubishi-plc-fx5u-32mt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456041985/PC/RQ/NH/89143389/mitsubishi-plc-fx5u-32mt-ess-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456041786/IM/ND/RX/89143389/mitsubishi-plc-fx5u-32mt-ess-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5u-32mtess",
     "stock": true,
@@ -14785,9 +13926,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456046494/RZ/GV/MS/89143389/mitsubishi-plc-fx5u-32mt-ess-bs-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456046497/XB/RY/QR/89143389/mitsubishi-plc-fx5u-32mt-ess-bs-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456046503/EF/CW/VP/89143389/mitsubishi-plc-fx5u-32mt-ess-bs-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456046507/QP/AW/AR/89143389/mitsubishi-plc-fx5u-32mt-ess-bs-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456046733/OV/PA/FF/89143389/mitsubishi-plc-fx5u-32mt-ess-bs-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456046737/YN/VS/JY/89143389/mitsubishi-plc-fx5u-32mt-ess-bs-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456046507/QP/AW/AR/89143389/mitsubishi-plc-fx5u-32mt-ess-bs-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5u-32mtess-bs",
     "stock": true,
@@ -14840,12 +13979,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456070944/HU/TJ/QX/89143389/mitsubishi-plc-fx5u-64mr-ds-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456068861/LO/CN/KN/89143389/mitsubishi-plc-fx5u-64mr-ds-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456068873/OR/DG/TH/89143389/mitsubishi-plc-fx5u-64mr-ds-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456068878/NF/TG/IU/89143389/mitsubishi-plc-fx5u-64mr-ds-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456069160/GW/TZ/IF/89143389/mitsubishi-plc-fx5u-64mr-ds-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456069162/NP/WJ/DD/89143389/mitsubishi-plc-fx5u-64mr-ds-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456069169/GK/TL/UZ/89143389/mitsubishi-plc-fx5u-64mr-ds-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456069174/GO/EL/OK/89143389/mitsubishi-plc-fx5u-64mr-ds-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456069175/OV/HZ/IR/89143389/mitsubishi-plc-fx5u-64mr-ds-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456068878/NF/TG/IU/89143389/mitsubishi-plc-fx5u-64mr-ds-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5u-64mrds",
     "stock": true,
@@ -14903,10 +14037,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456072530/VJ/VK/SI/89143389/mitsubishi-plc-fx5u-64mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456072531/JB/VW/TX/89143389/mitsubishi-plc-fx5u-64mr-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456072534/ZD/UC/LL/89143389/mitsubishi-plc-fx5u-64mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456072537/MW/PB/WC/89143389/mitsubishi-plc-fx5u-64mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456072703/VT/HA/PW/89143389/mitsubishi-plc-fx5u-64mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456072708/JV/YB/UB/89143389/mitsubishi-plc-fx5u-64mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456072711/GH/BV/KK/89143389/mitsubishi-plc-fx5u-64mr-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456072537/MW/PB/WC/89143389/mitsubishi-plc-fx5u-64mr-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5u-64mres",
     "stock": true,
@@ -14976,10 +14107,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456075374/KF/BJ/AE/89143389/mitsubishi-plc-fx5u-64mt-ds-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456075379/OH/RC/BX/89143389/mitsubishi-plc-fx5u-64mt-ds-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456075381/YR/AK/AU/89143389/mitsubishi-plc-fx5u-64mt-ds-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456075387/QO/XP/NN/89143389/mitsubishi-plc-fx5u-64mt-ds-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456075514/HL/FR/WU/89143389/mitsubishi-plc-fx5u-64mt-ds-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456075519/VO/KZ/LB/89143389/mitsubishi-plc-fx5u-64mt-ds-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456075521/NP/QO/RW/89143389/mitsubishi-plc-fx5u-64mt-ds-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456075387/QO/XP/NN/89143389/mitsubishi-plc-fx5u-64mt-ds-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5u-64mtds",
     "stock": true,
@@ -15038,12 +14166,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/456080136/AG/NF/NF/89143389/mitsubishi-plc-fx5u-64mt-dss-1000x1000.jpg",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456080136/AG/NF/NF/89143389/mitsubishi-plc-fx5u-64mt-dss-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456075385/OV/NM/WM/89143389/mitsubishi-plc-fx5u-64mt-ds-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456078115/GJ/DT/SV/89143389/mitsubishi-plc-fx5u-64mt-dss-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456078126/EK/ET/XT/89143389/mitsubishi-plc-fx5u-64mt-dss-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456078128/NL/RL/LI/89143389/mitsubishi-plc-fx5u-64mt-dss-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456078133/AT/FN/YG/89143389/mitsubishi-plc-fx5u-64mt-dss-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456078134/CV/FD/CX/89143389/mitsubishi-plc-fx5u-64mt-dss-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456075385/OV/NM/WM/89143389/mitsubishi-plc-fx5u-64mt-ds-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5u-64mtdss",
     "stock": true,
@@ -15103,12 +14226,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456081130/BB/EF/PH/89143389/mitsubishi-plc-fx5u-64mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456081009/EK/WS/OU/89143389/mitsubishi-plc-fx5u-64mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456081013/PN/XK/FR/89143389/mitsubishi-plc-fx5u-64mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456081380/DS/AO/OD/89143389/mitsubishi-plc-fx5u-64mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456081383/YO/AX/VT/89143389/mitsubishi-plc-fx5u-64mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456081387/GX/LG/UZ/89143389/mitsubishi-plc-fx5u-64mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456081393/KY/FA/JK/89143389/mitsubishi-plc-fx5u-64mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456081394/MP/RI/NQ/89143389/mitsubishi-plc-fx5u-64mt-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456081013/PN/XK/FR/89143389/mitsubishi-plc-fx5u-64mt-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5u-64mtes",
     "stock": true,
@@ -15164,11 +14282,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456081130/BB/EF/PH/89143389/mitsubishi-plc-fx5u-64mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456081013/PN/XK/FR/89143389/mitsubishi-plc-fx5u-64mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456081009/EK/WS/OU/89143389/mitsubishi-plc-fx5u-64mt-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456085086/WW/LD/LT/89143389/mitsubishi-plc-fx5u-64mt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456085089/YW/HP/WN/89143389/mitsubishi-plc-fx5u-64mt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456085090/VS/JF/HF/89143389/mitsubishi-plc-fx5u-64mt-ess-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456085093/KK/EZ/DB/89143389/mitsubishi-plc-fx5u-64mt-ess-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456081009/EK/WS/OU/89143389/mitsubishi-plc-fx5u-64mt-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5u-64mtess",
     "stock": true,
@@ -15227,10 +14341,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/456090442/QM/PZ/KT/89143389/mitsubishi-plc-fx5u-80mr-es-1000x1000.jpg",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456090442/QM/PZ/KT/89143389/mitsubishi-plc-fx5u-80mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456087127/DT/PS/PQ/89143389/mitsubishi-plc-fx5u-80mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456088140/IF/HP/QE/89143389/mitsubishi-plc-fx5u-80mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456088145/NP/EM/QJ/89143389/mitsubishi-plc-fx5u-80mr-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456088147/UW/AL/AC/89143389/mitsubishi-plc-fx5u-80mr-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456087127/DT/PS/PQ/89143389/mitsubishi-plc-fx5u-80mr-es-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5u-80mres",
     "stock": true,
@@ -15290,10 +14401,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456091215/BW/FR/JR/89143389/mitsubishi-plc-fx5u-80mt-es-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/456090442/QM/PZ/KT/89143389/mitsubishi-plc-fx5u-80mr-es-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/456075387/QO/XP/NN/89143389/mitsubishi-plc-fx5u-64mt-ds-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456091665/BW/ZS/JS/89143389/mitsubishi-plc-fx5u-80mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456091670/UU/IH/UH/89143389/mitsubishi-plc-fx5u-80mt-es-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/456091672/FJ/QB/VS/89143389/mitsubishi-plc-fx5u-80mt-es-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/456075387/QO/XP/NN/89143389/mitsubishi-plc-fx5u-64mt-ds-1000x1000.jpg"
     ],
     "slug": "mitsubishi-plc-fx5u-80mtes",
     "stock": true,
@@ -15351,12 +14459,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459490274/NA/DV/JJ/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459490274/NA/DV/JJ/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459490819/ZK/FZ/DS/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459490831/SQ/KI/EH/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459490845/AH/VB/QZ/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459490848/NZ/SO/KJ/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459490849/KC/LE/ZR/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459490274/NA/DV/JJ/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.jpg"
     ],
     "slug": "mitsubishi-servo-drive-mr-j4-350b",
     "stock": true,
@@ -15410,12 +14513,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459493579/PR/AI/EX/89143389/mr-j4-100a-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459493579/PR/AI/EX/89143389/mr-j4-100a-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459492589/EG/IQ/KP/89143389/mr-j4-100a-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459492587/AU/NM/FY/89143389/mr-j4-100a-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459492594/EM/RL/JF/89143389/mr-j4-100a-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459492595/JQ/HS/JW/89143389/mr-j4-100a-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459492596/AI/BH/AV/89143389/mr-j4-100a-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459493579/PR/AI/EX/89143389/mr-j4-100a-1000x1000.jpg"
     ],
     "slug": "mitsubishi-servo-drive-mr-j4-100a",
     "stock": true,
@@ -15473,12 +14571,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459638411/OB/XE/NW/89143389/mitsubishi-mr-j4-20a-rj-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459638411/OB/XE/NW/89143389/mitsubishi-mr-j4-20a-rj-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619813/GG/MS/EQ/89143389/mr-j4-20a-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619814/JR/DD/GK/89143389/mr-j4-20a-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619818/KJ/TL/BE/89143389/mr-j4-20a-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619819/MD/BP/ZL/89143389/mr-j4-20a-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619827/ET/SX/HM/89143389/mr-j4-20a-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459638411/OB/XE/NW/89143389/mitsubishi-mr-j4-20a-rj-1000x1000.jpg"
     ],
     "slug": "mitsubishi-servo-drives-mr-j4-20a-rj",
     "stock": true,
@@ -15540,12 +14633,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459623002/MS/XI/JR/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459623002/MS/XI/JR/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459620541/SP/AC/OH/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459620542/FY/VN/NV/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459620544/BC/UW/GP/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459620548/KF/VJ/IY/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459620552/LM/UC/EZ/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459623002/MS/XI/JR/89143389/mitsubishi-servo-mr-j4-350b-1000x1000.jpg"
     ],
     "slug": "mitsubishi-servo-mr-j4-350b",
     "stock": true,
@@ -15607,12 +14695,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459638604/EN/JB/NV/89143389/mr-j4-350b-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459638604/EN/JB/NV/89143389/mr-j4-350b-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459620002/KC/DP/YN/89143389/mr-j4-350b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619994/SA/MU/WH/89143389/mr-j4-350b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619999/GZ/LD/PV/89143389/mr-j4-350b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619996/YF/SL/TS/89143389/mr-j4-350b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459620011/AR/NX/DK/89143389/mr-j4-350b-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459638604/EN/JB/NV/89143389/mr-j4-350b-1000x1000.jpg"
     ],
     "slug": "mitsubishi-servo-drives-mr-j4-350b-rj",
     "stock": true,
@@ -15666,12 +14749,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459641002/GR/NF/VI/89143389/mitsubishi-make-mr-j4-40b-amplifier-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459641002/GR/NF/VI/89143389/mitsubishi-make-mr-j4-40b-amplifier-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459620397/YU/KT/ZQ/89143389/mitsubishi-make-mr-j4-40b-amplifier-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459620398/WY/FC/GB/89143389/mitsubishi-make-mr-j4-40b-amplifier-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459620400/VG/SF/BN/89143389/mitsubishi-make-mr-j4-40b-amplifier-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459620404/RU/WK/AI/89143389/mitsubishi-make-mr-j4-40b-amplifier-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459620408/IP/RD/FA/89143389/mitsubishi-make-mr-j4-40b-amplifier-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459641002/GR/NF/VI/89143389/mitsubishi-make-mr-j4-40b-amplifier-1000x1000.jpg"
     ],
     "slug": "mitsubishi-servo-drives-make-mr-j4-40b-amplifier",
     "stock": true,
@@ -15741,12 +14819,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459631235/PC/XP/SM/89143389/mr-j4-70b-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459631235/PC/XP/SM/89143389/mr-j4-70b-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619639/HP/EV/GT/89143389/mr-j4-70b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619637/AY/US/EU/89143389/mr-j4-70b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619644/RT/YM/UZ/89143389/mr-j4-70b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619646/JS/BX/QL/89143389/mr-j4-70b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619660/XU/DZ/ZI/89143389/mr-j4-70b-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459631235/PC/XP/SM/89143389/mr-j4-70b-1000x1000.jpg"
     ],
     "slug": "mitsubishi-servo-drives-mr-j4-70b-rj",
     "stock": true,
@@ -15812,19 +14885,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459616839/ZL/BR/SL/89143389/mitsubishi-servo-mr-j4-200b-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459616839/ZL/BR/SL/89143389/mitsubishi-servo-mr-j4-200b-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619043/ZF/KT/RW/89143389/mitsubishi-servo-mr-j4-200b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619045/FN/AM/JV/89143389/mitsubishi-servo-mr-j4-200b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619047/CT/TF/CJ/89143389/mitsubishi-servo-mr-j4-200b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619048/QK/WW/VK/89143389/mitsubishi-servo-mr-j4-200b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619049/VP/NZ/WB/89143389/mitsubishi-servo-mr-j4-200b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619050/CA/CU/OL/89143389/mitsubishi-servo-mr-j4-200b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619051/JI/VS/ZT/89143389/mitsubishi-servo-mr-j4-200b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619053/AK/AK/PL/89143389/mitsubishi-servo-mr-j4-200b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619056/VT/CU/EZ/89143389/mitsubishi-servo-mr-j4-200b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619057/PG/SJ/BO/89143389/mitsubishi-servo-mr-j4-200b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619058/YB/MA/VL/89143389/mitsubishi-servo-mr-j4-200b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619067/AY/KN/TP/89143389/mitsubishi-servo-mr-j4-200b-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459616839/ZL/BR/SL/89143389/mitsubishi-servo-mr-j4-200b-1000x1000.jpg"
     ],
     "slug": "mitsubishi-servo-drives-mr-j4-200b",
     "stock": true,
@@ -15878,17 +14939,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459642862/XP/FV/FU/89143389/mitsubishi-mr-j4-60b-servo-drive-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459642862/XP/FV/FU/89143389/mitsubishi-mr-j4-60b-servo-drive-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619231/DU/PR/KN/89143389/mitsubishi-mr-j4-60b-servo-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619233/MT/XR/PZ/89143389/mitsubishi-mr-j4-60b-servo-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619234/RD/BJ/AH/89143389/mitsubishi-mr-j4-60b-servo-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619236/GD/GB/GT/89143389/mitsubishi-mr-j4-60b-servo-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619237/KH/CD/AK/89143389/mitsubishi-mr-j4-60b-servo-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619238/HH/PG/BM/89143389/mitsubishi-mr-j4-60b-servo-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619239/IL/AI/FM/89143389/mitsubishi-mr-j4-60b-servo-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619241/GZ/XF/US/89143389/mitsubishi-mr-j4-60b-servo-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619244/NI/MW/IV/89143389/mitsubishi-mr-j4-60b-servo-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459619251/HN/NN/XK/89143389/mitsubishi-mr-j4-60b-servo-drive-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459642862/XP/FV/FU/89143389/mitsubishi-mr-j4-60b-servo-drive-1000x1000.jpg"
     ],
     "slug": "mitsubishi-servo-drives-mr-j4-60b",
     "stock": true,
@@ -16046,14 +15097,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336621248/SP/IV/JT/89143389/nb10w-tw01b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336621250/TW/PP/ZF/89143389/nb10w-tw01b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336621252/ZW/PJ/RY/89143389/nb10w-tw01b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336621256/HR/PA/PN/89143389/nb10w-tw01b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336621258/CM/DL/OB/89143389/nb10w-tw01b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336621263/HU/PC/DN/89143389/nb10w-tw01b-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336621266/WS/CR/BX/89143389/nb10w-tw01b-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg"
     ],
     "slug": "omron-hmi-nb10w-tw01b-omron-10inch-hmi",
     "stock": true,
@@ -16103,15 +15147,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/8/336612184/KP/PT/AN/89143389/nb7w-tw00b-omron-7inch-hmi-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/8/336612184/KP/PT/AN/89143389/nb7w-tw00b-omron-7inch-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336614921/FL/CY/WH/89143389/nb7w-tw00b-omron-7inch-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336614895/QW/UC/WD/89143389/nb7w-tw00b-omron-7inch-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336614906/TW/ES/RI/89143389/nb7w-tw00b-omron-7inch-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336614928/WG/QV/LX/89143389/nb7w-tw00b-omron-7inch-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336614902/PY/PA/IC/89143389/nb7w-tw00b-omron-7inch-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336614905/JG/IB/VW/89143389/nb7w-tw00b-omron-7inch-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336614916/PE/DQ/BZ/89143389/nb7w-tw00b-omron-7inch-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/8/336614907/BT/JB/EE/89143389/nb7w-tw00b-omron-7inch-hmi-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/336612184/KP/PT/AN/89143389/nb7w-tw00b-omron-7inch-hmi-1000x1000.jpg"
     ],
     "slug": "omron-hmi-nb7w-tw00b-omron-7inch-hmi",
     "stock": true,
@@ -16157,9 +15193,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/8/446176335/OY/KY/KH/89143389/ns-12-copy-2-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/8/446176335/OY/KY/KH/89143389/ns-12-copy-2-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/8/446181590/OV/JM/ZF/89143389/omron-12-1-inch-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/8/446181592/GH/QK/WU/89143389/omron-12-1-inch-hmi-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/8/446176335/OY/KY/KH/89143389/ns-12-copy-2-1000x1000.jpg"
     ],
     "slug": "omron-hmi-121-inch-hmi",
     "stock": true,
@@ -16209,11 +15243,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455479281/ZF/BJ/IB/89143389/images-3-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455479364/EN/FG/TC/89143389/images-5-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455479365/UI/QZ/RG/89143389/images-6-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455479366/VJ/MX/BZ/89143389/images-4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455479858/AA/AF/TB/89143389/omron-hmi-ns15-tx01s-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455479860/ZY/DY/DA/89143389/omron-hmi-ns15-tx01s-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455479863/JD/PY/LV/89143389/omron-hmi-ns15-tx01s-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455479864/QJ/WZ/ZO/89143389/omron-hmi-ns15-tx01s-v2-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455479366/VJ/MX/BZ/89143389/images-4-1000x1000.jpg"
     ],
     "slug": "omron-hmi-ns15-tx01s-v2",
     "stock": true,
@@ -16258,15 +15288,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455490908/JQ/UU/SC/89143389/omron-hmi-ns15-tx01b-v2-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455475947/XQ/PW/RB/89143389/omron-hmi-ns15-tx01b-v2-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455475986/EP/FK/UZ/89143389/omron-hmi-ns15-tx01b-v2-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455475987/KZ/WP/TK/89143389/omron-hmi-ns15-tx01b-v2-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455476419/YV/AV/VM/89143389/omron-hmi-ns15-tx01b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455476420/HQ/OR/BC/89143389/omron-hmi-ns15-tx01b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455476421/SB/SJ/VP/89143389/omron-hmi-ns15-tx01b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455476423/TY/JR/BH/89143389/omron-hmi-ns15-tx01b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455476424/NZ/IE/NI/89143389/omron-hmi-ns15-tx01b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455476426/IG/NV/MV/89143389/omron-hmi-ns15-tx01b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455476427/ZS/KW/YF/89143389/omron-hmi-ns15-tx01b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455476428/YD/PP/SY/89143389/omron-hmi-ns15-tx01b-v2-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455475987/KZ/WP/TK/89143389/omron-hmi-ns15-tx01b-v2-1000x1000.jpg"
     ],
     "slug": "omron-hmi-ns15-tx01b-v2",
     "stock": true,
@@ -16312,11 +15334,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455445117/AJ/ZO/LU/89143389/omron-hmi-ns12-ts01b-v2-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455445119/GG/KT/IV/89143389/omron-hmi-ns12-ts01b-v2-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455445120/LG/DS/IB/89143389/omron-hmi-ns12-ts01b-v2-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455447427/YZ/PC/MN/89143389/omron-hmi-ns12-ts01b-v2-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455446943/YE/IP/XU/89143389/omron-hmi-ns12-ts01b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455446945/IF/SY/YL/89143389/omron-hmi-ns12-ts01b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455446948/OB/WD/FU/89143389/omron-hmi-ns12-ts01b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455446949/FR/KT/VZ/89143389/omron-hmi-ns12-ts01b-v2-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455447427/YZ/PC/MN/89143389/omron-hmi-ns12-ts01b-v2-1000x1000.jpg"
     ],
     "slug": "omron-hmi-ns12-ts01b-v2",
     "stock": true,
@@ -16366,10 +15384,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455492143/QG/IF/AJ/89143389/omron-hmi-ns10-tv00b-v2-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455492144/DZ/CM/ZG/89143389/omron-hmi-ns10-tv00b-v2-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455492145/KG/KS/GB/89143389/omron-hmi-ns10-tv00b-v2-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455492146/AJ/NA/LO/89143389/omron-hmi-ns10-tv00b-v2-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455492452/OJ/IX/IF/89143389/omron-hmi-ns10-tv00b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455492453/SR/VZ/IM/89143389/omron-hmi-ns10-tv00b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455492454/SH/SA/NP/89143389/omron-hmi-ns10-tv00b-v2-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455492146/AJ/NA/LO/89143389/omron-hmi-ns10-tv00b-v2-1000x1000.jpg"
     ],
     "slug": "omron-hmi-ns10-tv00b-v2",
     "stock": true,
@@ -16415,11 +15430,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455496919/YO/SW/OU/89143389/omron-hmi-ns10-tv01b-v-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455496921/DF/ZH/GY/89143389/omron-hmi-ns10-tv01b-v-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455496922/AQ/AO/DV/89143389/omron-hmi-ns10-tv01b-v-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455496923/JX/SD/OV/89143389/omron-hmi-ns10-tv01b-v-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455497093/WD/DS/YF/89143389/omron-hmi-ns10-tv01b-v-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455497094/KW/FL/XE/89143389/omron-hmi-ns10-tv01b-v-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455497095/IS/JU/GF/89143389/omron-hmi-ns10-tv01b-v-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455497096/XM/RP/ZZ/89143389/omron-hmi-ns10-tv01b-v-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455496923/JX/SD/OV/89143389/omron-hmi-ns10-tv01b-v-1000x1000.jpg"
     ],
     "slug": "omron-hmi-ns10-tv01b-v2",
     "stock": true,
@@ -16465,11 +15476,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455500760/TH/RI/CM/89143389/omron-hmi-ns8-tv00b-v2-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455500762/ML/ZP/KZ/89143389/omron-hmi-ns8-tv00b-v2-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455500765/YC/RH/DX/89143389/omron-hmi-ns8-tv00b-v2-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455500766/HJ/AQ/YB/89143389/omron-hmi-ns8-tv00b-v2-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455500817/NK/IT/TY/89143389/omron-hmi-ns8-tv00b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455500816/SV/AZ/XL/89143389/omron-hmi-ns8-tv00b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455500818/US/XY/DT/89143389/omron-hmi-ns8-tv00b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455500820/AL/ND/VZ/89143389/omron-hmi-ns8-tv00b-v2-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455500766/HJ/AQ/YB/89143389/omron-hmi-ns8-tv00b-v2-1000x1000.jpg"
     ],
     "slug": "omron-hmi-ns8-tv00b-v2",
     "stock": true,
@@ -16518,11 +15525,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455501889/GG/HK/KA/89143389/omron-hmi-ns8-tv01b-v2-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455501892/GV/WQ/JZ/89143389/omron-hmi-ns8-tv01b-v2-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455501895/DK/PO/RA/89143389/omron-hmi-ns8-tv01b-v2-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455501877/CH/RC/BK/89143389/omron-hmi-ns8-tv01b-v2-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455501945/JG/IJ/BU/89143389/omron-hmi-ns8-tv01b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455501942/RD/YJ/ZS/89143389/omron-hmi-ns8-tv01b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455501943/RF/RR/WU/89143389/omron-hmi-ns8-tv01b-v2-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455501944/CM/SU/DL/89143389/omron-hmi-ns8-tv01b-v2-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455501877/CH/RC/BK/89143389/omron-hmi-ns8-tv01b-v2-1000x1000.jpg"
     ],
     "slug": "omron-hmi-ns8-tv01b-v2",
     "stock": true,
@@ -16580,9 +15583,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2026/3/592853114/KH/VD/KF/89143389/omron-photoelectric-sensor-e3fa-dp12-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2026/3/592853114/KH/VD/KF/89143389/omron-photoelectric-sensor-e3fa-dp12-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/592910437/KX/WI/EX/89143389/omron-photoelectric-sensor-e3fa-dp12-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/592910438/FG/QP/SF/89143389/omron-photoelectric-sensor-e3fa-dp12-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2026/3/592853114/KH/VD/KF/89143389/omron-photoelectric-sensor-e3fa-dp12-1000x1000.jpg"
     ],
     "slug": "omron-photoelectric-sensor-e3fa-dp12",
     "stock": true,
@@ -16636,12 +15637,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2026/3/592965712/VQ/GO/WG/89143389/11-om-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2026/3/592965712/VQ/GO/WG/89143389/11-om-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/592970777/TJ/WF/EZ/89143389/omron-retro-reflective-photoelectric-sensor-e3fa-rp11-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/592970775/DV/FY/PU/89143389/omron-retro-reflective-photoelectric-sensor-e3fa-rp11-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/592970774/MN/CS/IP/89143389/omron-retro-reflective-photoelectric-sensor-e3fa-rp11-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/592970770/KK/JM/AK/89143389/omron-retro-reflective-photoelectric-sensor-e3fa-rp11-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/592970767/LK/QN/FG/89143389/omron-retro-reflective-photoelectric-sensor-e3fa-rp11-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2026/3/592965712/VQ/GO/WG/89143389/11-om-1000x1000.png"
     ],
     "slug": "omron-retro-reflective-photoelectric-sensor-e3fa-rp11",
     "stock": true,
@@ -16758,11 +15754,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2026/3/593002140/YI/BE/AE/89143389/omron-retro-reflective-photoelectric-sensor-e3fa-rn11-1000x1000.png",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2026/3/593002140/YI/BE/AE/89143389/omron-retro-reflective-photoelectric-sensor-e3fa-rn11-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/Default/2026/3/593003242/WM/OA/NI/89143389/omron-retro-reflective-photoelectric-sensor-e3fa-rn11-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/593005094/VG/NU/PN/89143389/omron-retro-reflective-photoelectric-sensor-e3fa-rn11-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/593005092/ZE/MZ/PR/89143389/omron-retro-reflective-photoelectric-sensor-e3fa-rn11-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/593005098/WA/WY/EV/89143389/omron-retro-reflective-photoelectric-sensor-e3fa-rn11-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/593005097/OD/LK/IX/89143389/omron-retro-reflective-photoelectric-sensor-e3fa-rn11-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2026/3/593003242/WM/OA/NI/89143389/omron-retro-reflective-photoelectric-sensor-e3fa-rn11-1000x1000.png"
     ],
     "slug": "omron-retro-reflective-photoelectric-sensor-e3fa-rn11",
     "stock": true,
@@ -16878,11 +15870,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2026/3/593009401/MT/HT/RI/89143389/omron-e3fa-rp21-e3fa-rp21-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2026/3/593009401/MT/HT/RI/89143389/omron-e3fa-rp21-e3fa-rp21-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/593009474/XL/JK/YS/89143389/omron-e3fa-rp21-e3fa-rp21-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/593009473/SY/EN/KI/89143389/omron-e3fa-rp21-e3fa-rp21-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/593009472/YW/QX/JA/89143389/omron-e3fa-rp21-e3fa-rp21-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/593009469/QS/KM/DZ/89143389/omron-e3fa-rp21-e3fa-rp21-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2026/3/593009401/MT/HT/RI/89143389/omron-e3fa-rp21-e3fa-rp21-1000x1000.png"
     ],
     "slug": "omron-e3fa-rp21-e3fa-rp21",
     "stock": true,
@@ -17151,9 +16139,7 @@ export const allProducts: Product[] = [
     "specifications": [],
     "image": "https://5.imimg.com/data5/SELLER/Default/2026/3/592980158/LR/KN/PK/89143389/omron-photoelectric-sensor-e3fa-rp22-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2026/3/592980158/LR/KN/PK/89143389/omron-photoelectric-sensor-e3fa-rp22-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/592980719/GM/WE/CZ/89143389/omron-photoelectric-sensor-e3fa-rp22-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/592980717/TF/JD/DJ/89143389/omron-photoelectric-sensor-e3fa-rp22-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2026/3/592980158/LR/KN/PK/89143389/omron-photoelectric-sensor-e3fa-rp22-1000x1000.png"
     ],
     "slug": "omron-photoelectric-sensor-e3fa-rp22",
     "stock": true,
@@ -17311,17 +16297,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459431665/BB/KE/WJ/89143389/omron-plc-cp2e-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459431667/NT/KL/PR/89143389/omron-plc-cp2e-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459431668/BN/BA/LD/89143389/omron-plc-cp2e-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459431671/SD/QN/TE/89143389/omron-plc-cp2e-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459431672/LI/YP/YU/89143389/omron-plc-cp2e-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459431673/DX/PJ/QV/89143389/omron-plc-cp2e-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459431674/CG/WV/SC/89143389/omron-plc-cp2e-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459431677/VD/LM/LB/89143389/omron-plc-cp2e-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459431679/MY/LD/YD/89143389/omron-plc-cp2e-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459431678/KW/AK/CY/89143389/omron-plc-cp2e-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
     ],
     "slug": "omron-plc-cp2e",
     "stock": true,
@@ -17400,11 +16376,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497566189/MD/IM/RE/89143389/3g3mx2-a4015-v1-omron-vfd-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497566189/MD/IM/RE/89143389/3g3mx2-a4015-v1-omron-vfd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496900671/QO/QY/MR/89143389/3g3mx2-a4015-v1-omron-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496900713/VN/QY/UZ/89143389/3g3mx2-a4015-v1-omron-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496900715/FC/IJ/KS/89143389/3g3mx2-a4015-v1-omron-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496900721/VO/XO/IX/89143389/3g3mx2-a4015-v1-omron-vfd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497566189/MD/IM/RE/89143389/3g3mx2-a4015-v1-omron-vfd-1000x1000.jpg"
     ],
     "slug": "3g3mx2-a4015-v1-omron-vfd",
     "stock": true,
@@ -17457,11 +16429,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/461959017/AB/UU/NT/89143389/pepperl-and-fuchs-obd500-18gm60-e5-ir-1c-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458188254/QR/FQ/EW/89143389/obd500-18gm60-e5-ir-1c-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458174565/OT/RM/OO/89143389/pepperl-fuchs-nbb2-8gm40-e2-v3-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458168447/BW/IW/OT/89143389/ub1000-18gm75-i-v15-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458224710/GF/AG/ZX/89143389/obd500-18gm60-e5-ir-1c-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461959409/FI/SN/AX/89143389/pepperl-and-fuchs-obd500-18gm60-e5-ir-1c-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461959408/PC/BQ/UD/89143389/pepperl-and-fuchs-obd500-18gm60-e5-ir-1c-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461959410/KY/GC/AG/89143389/pepperl-and-fuchs-obd500-18gm60-e5-ir-1c-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458168447/BW/IW/OT/89143389/ub1000-18gm75-i-v15-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-obd500-18gm60-e5-ir-1c",
     "stock": true,
@@ -17511,11 +16479,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461960128/LD/DP/QF/89143389/pepperl-and-fuchs-obd200-18gm60-e4-ir-1c-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461960128/LD/DP/QF/89143389/pepperl-and-fuchs-obd200-18gm60-e4-ir-1c-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458229680/RX/WZ/YY/89143389/obd200-18gm60-e4-ir-1c-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458229682/PK/QI/PX/89143389/obd200-18gm60-e4-ir-1c-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458229684/TS/XU/AZ/89143389/obd200-18gm60-e4-ir-1c-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458229685/MB/XN/XD/89143389/obd200-18gm60-e4-ir-1c-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461960128/LD/DP/QF/89143389/pepperl-and-fuchs-obd200-18gm60-e4-ir-1c-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-obd200-18gm60-e4-ir-1c",
     "stock": true,
@@ -17567,11 +16531,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458320161/CL/EA/FJ/89143389/pepperl-and-fuchs-rlk39-54-z-31-40a-116-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458317629/ZY/ZT/DQ/89143389/pepperl-and-fuchs-rlk39-54-z-31-40a-116-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458317631/OO/GV/AU/89143389/pepperl-and-fuchs-rlk39-54-z-31-40a-116-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458315512/UI/OW/TV/89143389/pepperl-and-fuchs-rlk39-54-z-31-40a-116-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458315515/WO/JZ/JT/89143389/pepperl-and-fuchs-rlk39-54-z-31-40a-116-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458315517/ZE/MN/XJ/89143389/pepperl-and-fuchs-rlk39-54-z-31-40a-116-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458317733/FQ/QS/CZ/89143389/pepperl-and-fuchs-rlk39-54-z-31-40a-116-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458317631/OO/GV/AU/89143389/pepperl-and-fuchs-rlk39-54-z-31-40a-116-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-rlk39-54-z3140a116",
     "stock": true,
@@ -17613,12 +16573,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458532229/HM/WS/SS/89143389/ml100-55-103-115-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458532229/HM/WS/SS/89143389/ml100-55-103-115-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458606343/NS/PX/WW/89143389/pepperl-fuchs-ml100-55-102-115-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458606336/UF/TW/EV/89143389/pepperl-fuchs-ml100-55-102-115-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458606335/IY/SJ/YH/89143389/pepperl-fuchs-ml100-55-102-115-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458606337/TL/HW/ZG/89143389/pepperl-fuchs-ml100-55-102-115-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458606342/BM/RZ/FV/89143389/pepperl-fuchs-ml100-55-102-115-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458532229/HM/WS/SS/89143389/ml100-55-103-115-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-sensors-ml100-55102115",
     "stock": true,
@@ -17660,9 +16615,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458468139/ZV/HC/XY/89143389/pepperl-fuchs-glv18-8-450-115-120-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458468139/ZV/HC/XY/89143389/pepperl-fuchs-glv18-8-450-115-120-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458468138/TX/DK/YL/89143389/pepperl-fuchs-glv18-8-450-115-120-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458468137/EF/BU/YG/89143389/pepperl-fuchs-glv18-8-450-115-120-1000x1000.png"
+      
     ],
     "slug": "pepperl-and-fuchs-sensors-glv18-8-450115120",
     "stock": true,
@@ -17715,9 +16668,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458252336/RM/ES/TI/89143389/obd500-18gm60-e5-v1-ir-1c-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458252342/HJ/TH/SE/89143389/obd500-18gm60-e5-v1-ir-1c-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458252343/UZ/RW/BZ/89143389/obd500-18gm60-e5-v1-ir-1c-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458255891/OE/KL/ZX/89143389/pepperl-and-fuchs-obd500-18gm60-e5-v1-ir-1c-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458253747/RA/PM/NK/89143389/obd500-18gm60-e5-v1-ir-1c-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458253748/JG/FZ/OW/89143389/obd500-18gm60-e5-v1-ir-1c-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458255891/OE/KL/ZX/89143389/pepperl-and-fuchs-obd500-18gm60-e5-v1-ir-1c-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-obd500-18gm60-e5-v1-ir-1c",
     "stock": true,
@@ -17756,8 +16707,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458476091/CX/CA/DI/89143389/pepperl-fuchs-ref-h50-1000x1000.jpg",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458476091/CX/CA/DI/89143389/pepperl-fuchs-ref-h50-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458461277/QB/QW/UP/89143389/pepperl-fuchs-ref-h50-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458476631/YZ/HO/RP/89143389/pepperl-fuchs-ref-h50-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458461277/QB/QW/UP/89143389/pepperl-fuchs-ref-h50-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-sensors-ref-h50",
     "stock": true,
@@ -17795,11 +16745,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458588913/MM/BD/HS/89143389/pepperl-fuchs-rlk31-8-2500-ir-31-115-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458588913/MM/BD/HS/89143389/pepperl-fuchs-rlk31-8-2500-ir-31-115-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458585488/YN/BT/MC/89143389/pepperl-fuchs-rlk31-8-2500-ir-31-115-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458585490/WM/RD/XZ/89143389/pepperl-fuchs-rlk31-8-2500-ir-31-115-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458585493/FD/WJ/PP/89143389/pepperl-fuchs-rlk31-8-2500-ir-31-115-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458585491/OP/UL/LF/89143389/pepperl-fuchs-rlk31-8-2500-ir-31-115-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458588913/MM/BD/HS/89143389/pepperl-fuchs-rlk31-8-2500-ir-31-115-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-sensors-rlk31-8-2500-ir31115",
     "stock": true,
@@ -17854,11 +16800,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458533859/CA/GV/EA/89143389/pepperl-fuchs-ml100-55-103-115-1000x1000.jpg",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458533859/CA/GV/EA/89143389/pepperl-fuchs-ml100-55-103-115-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458532230/JS/IU/IY/89143389/ml100-55-103-115-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458532618/SE/KV/IW/89143389/ml100-55-103-115-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458532619/CY/ZD/BL/89143389/ml100-55-103-115-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458532620/BE/SG/KW/89143389/ml100-55-103-115-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458532622/FI/WR/GO/89143389/ml100-55-103-115-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458532230/JS/IU/IY/89143389/ml100-55-103-115-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-sensors-ml100-55103115",
     "stock": true,
@@ -17892,10 +16834,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458616283/TW/OW/VD/89143389/pepperl-fuchs-v1-w-10m-pur-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458616283/TW/OW/VD/89143389/pepperl-fuchs-v1-w-10m-pur-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458615584/PP/YT/EC/89143389/pepperl-fuchs-v1-w-10m-pur-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458615585/AH/LD/OR/89143389/pepperl-fuchs-v1-w-10m-pur-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458615586/GZ/UC/AV/89143389/pepperl-fuchs-v1-w-10m-pur-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458616283/TW/OW/VD/89143389/pepperl-fuchs-v1-w-10m-pur-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-sensors-v1-w-10m-pur",
     "stock": true,
@@ -17937,12 +16876,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458474492/DA/HM/VI/89143389/pepperl-fuchs-rlk39-8-2000-z-31-40a-116-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458474492/DA/HM/VI/89143389/pepperl-fuchs-rlk39-8-2000-z-31-40a-116-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458474013/DC/OU/XL/89143389/pepperl-fuchs-rlk39-8-2000-z-31-40a-116-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458474015/JQ/PQ/UB/89143389/pepperl-fuchs-rlk39-8-2000-z-31-40a-116-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458474017/XH/LY/QB/89143389/pepperl-fuchs-rlk39-8-2000-z-31-40a-116-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458474021/HY/MV/IN/89143389/pepperl-fuchs-rlk39-8-2000-z-31-40a-116-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458474023/BM/YK/JO/89143389/pepperl-fuchs-rlk39-8-2000-z-31-40a-116-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458474492/DA/HM/VI/89143389/pepperl-fuchs-rlk39-8-2000-z-31-40a-116-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-sensors-rlk39-8-2000-z3140a116",
     "stock": true,
@@ -17991,9 +16925,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458183786/XT/KL/GY/89143389/pepperl-and-fuchs-obt300-18gm60-e5-v1-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458183382/FE/RF/LO/89143389/pepperl-and-fuchs-obt300-18gm60-e5-v1-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458183385/MC/JS/PE/89143389/pepperl-and-fuchs-obt300-18gm60-e5-v1-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458183390/ER/RN/GX/89143389/pepperl-and-fuchs-obt300-18gm60-e5-v1-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458185062/KR/MQ/DG/89143389/pepperl-and-fuchs-obt300-18gm60-e5-v1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458185066/MV/UK/JM/89143389/pepperl-and-fuchs-obt300-18gm60-e5-v1-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458183390/ER/RN/GX/89143389/pepperl-and-fuchs-obt300-18gm60-e5-v1-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-obt300-18gm60-e5-v1",
     "stock": true,
@@ -18031,12 +16963,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458585020/NE/VC/XF/89143389/pepperl-fuchs-tvi40n-09tk2t6tn-00100-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458585020/NE/VC/XF/89143389/pepperl-fuchs-tvi40n-09tk2t6tn-00100-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458582713/KH/II/BT/89143389/pepperl-fuchs-tvi40n-09tk2t6tn-00100-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458582715/KC/PJ/PY/89143389/pepperl-fuchs-tvi40n-09tk2t6tn-00100-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458582718/SU/CE/ZW/89143389/pepperl-fuchs-tvi40n-09tk2t6tn-00100-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458582721/EG/WQ/HU/89143389/pepperl-fuchs-tvi40n-09tk2t6tn-00100-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458582722/QC/RX/KD/89143389/pepperl-fuchs-tvi40n-09tk2t6tn-00100-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458585020/NE/VC/XF/89143389/pepperl-fuchs-tvi40n-09tk2t6tn-00100-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-sensors-tvi40n-09tk2t6tn-00100",
     "stock": true,
@@ -18085,12 +17012,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458171115/SR/ZI/LN/89143389/pepperl-fuchs-ub1000-18gm75-i-v15-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458168448/UK/HL/XD/89143389/ub1000-18gm75-i-v15-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458168445/PC/CK/NK/89143389/ub1000-18gm75-i-v15-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458168446/CO/KV/GA/89143389/ub1000-18gm75-i-v15-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458168706/OD/YU/EV/89143389/ub1000-18gm75-i-v15-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458168707/SV/TT/BJ/89143389/ub1000-18gm75-i-v15-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458168709/LJ/BO/ZF/89143389/ub1000-18gm75-i-v15-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458168710/TT/YQ/VX/89143389/ub1000-18gm75-i-v15-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458168711/VJ/NC/UG/89143389/ub1000-18gm75-i-v15-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458168446/CO/KV/GA/89143389/ub1000-18gm75-i-v15-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-sensors-ub1000-18gm75-i-v15",
     "stock": true,
@@ -18128,10 +17050,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458602372/MO/QJ/RA/89143389/pepperl-fuchs-rlk31-54-31-115-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458602372/MO/QJ/RA/89143389/pepperl-fuchs-rlk31-54-31-115-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458600507/VY/WE/QZ/89143389/pepperl-fuchs-rlk31-54-31-115-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458600508/LM/FR/VS/89143389/pepperl-fuchs-rlk31-54-31-115-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458600511/CQ/DV/WB/89143389/pepperl-fuchs-rlk31-54-31-115-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458602372/MO/QJ/RA/89143389/pepperl-fuchs-rlk31-54-31-115-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-sensors-rlk31-5431115",
     "stock": true,
@@ -18176,10 +17095,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458236567/EJ/NM/MA/89143389/glv18-55-73-120-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458236569/GG/UL/LQ/89143389/glv18-55-73-120-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458236570/BI/PS/CK/89143389/glv18-55-73-120-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458236571/EE/WZ/FP/89143389/glv18-55-73-120-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458237139/GT/NE/XJ/89143389/glv18-55-73-120-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458237140/HH/IC/WK/89143389/glv18-55-73-120-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458237141/ZP/TK/VO/89143389/glv18-55-73-120-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458236571/EE/WZ/FP/89143389/glv18-55-73-120-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-glv18-5573120",
     "stock": true,
@@ -18221,10 +17137,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458553703/VF/HJ/WX/89143389/rlk31-8-2500-ir-31-59-115-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458553703/VF/HJ/WX/89143389/rlk31-8-2500-ir-31-59-115-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458553699/OJ/NR/II/89143389/rlk31-8-2500-ir-31-59-115-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458553700/CH/KA/YB/89143389/rlk31-8-2500-ir-31-59-115-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458553698/OJ/DX/YM/89143389/rlk31-8-2500-ir-31-59-115-1000x1000.png"
+      
     ],
     "slug": "pepperl-and-fuchs-sensors-rlk31-8-2500-ir3159115",
     "stock": true,
@@ -18269,9 +17182,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/457010754/NX/IX/KY/89143389/pepperl-and-fuchs-rlk31-8-2500-ir-31-115-205234-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/457005939/KL/ZB/ER/89143389/pepperl-and-fuchs-rlk31-8-2500-ir-31-115-205234-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/457005941/NY/SU/OL/89143389/pepperl-and-fuchs-rlk31-8-2500-ir-31-115-205234-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/457005945/MG/GF/BR/89143389/pepperl-and-fuchs-rlk31-8-2500-ir-31-115-205234-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/457006293/PW/AS/SI/89143389/pepperl-and-fuchs-rlk31-8-2500-ir-31-115-205234-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/457006294/WP/FD/GM/89143389/pepperl-and-fuchs-rlk31-8-2500-ir-31-115-205234-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/457005945/MG/GF/BR/89143389/pepperl-and-fuchs-rlk31-8-2500-ir-31-115-205234-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-rlk31-8-2500-ir31115-205234",
     "stock": true,
@@ -18395,7 +17306,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458534828/FI/NM/TO/89143389/ref-h60x50-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458534828/FI/NM/TO/89143389/ref-h60x50-1000x1000.png"
+      
     ],
     "slug": "pepperl-and-fuchs-sensors-ref-h60x50",
     "stock": true
@@ -18428,10 +17339,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458218570/YG/XC/YH/89143389/pepperl-and-fuchs-inx360d-f99-i2e2-v15-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458218571/RZ/IZ/FQ/89143389/pepperl-and-fuchs-inx360d-f99-i2e2-v15-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458218572/AZ/ZA/NV/89143389/pepperl-and-fuchs-inx360d-f99-i2e2-v15-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458218575/TR/HP/NO/89143389/pepperl-and-fuchs-inx360d-f99-i2e2-v15-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458193304/CT/IS/OZ/89143389/inx360d-f99-i2e2-v15-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458193306/KU/KZ/BO/89143389/inx360d-f99-i2e2-v15-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458193307/UQ/BJ/JO/89143389/inx360d-f99-i2e2-v15-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458218575/TR/HP/NO/89143389/pepperl-and-fuchs-inx360d-f99-i2e2-v15-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-inx360d-f99-i2e2-v15",
     "stock": true,
@@ -18478,10 +17386,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458282662/GN/JE/SV/89143389/nbb2-12gm50-e2-v1-1000x1000.jpg",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458282662/GN/JE/SV/89143389/nbb2-12gm50-e2-v1-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458244034/IC/IG/QB/89143389/nbb15-30gm50-ws-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458333191/QZ/MU/FR/89143389/pepperl-and-fuchs-obt150-18gm60-e4-v1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458333192/TI/EH/LS/89143389/pepperl-and-fuchs-obt150-18gm60-e4-v1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458333193/BI/BT/XJ/89143389/pepperl-and-fuchs-obt150-18gm60-e4-v1-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458244034/IC/IG/QB/89143389/nbb15-30gm50-ws-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-obt150-18gm60-e4-v1",
     "stock": true,
@@ -18523,9 +17428,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458552622/LQ/LV/BM/89143389/pepperl-fuchs-v1s-g-bk-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458552622/LQ/LV/BM/89143389/pepperl-fuchs-v1s-g-bk-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458551465/WQ/QF/ZC/89143389/v1s-g-bk-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458551468/EX/CB/CO/89143389/v1s-g-bk-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458552622/LQ/LV/BM/89143389/pepperl-fuchs-v1s-g-bk-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-sensors-v1s-g-bk",
     "stock": true,
@@ -18555,16 +17458,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/9/541649834/YP/ZX/GT/89143389/1085256-fl-switch-1008n-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/9/541649834/YP/ZX/GT/89143389/1085256-fl-switch-1008n-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541650430/LE/PL/UP/89143389/1085256-fl-switch-1008n-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541650431/SR/XJ/PI/89143389/1085256-fl-switch-1008n-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541650432/FO/KW/VE/89143389/1085256-fl-switch-1008n-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541650434/HA/SG/TW/89143389/1085256-fl-switch-1008n-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541650437/IT/GV/LX/89143389/1085256-fl-switch-1008n-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541650438/LP/WC/AM/89143389/1085256-fl-switch-1008n-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541650440/QA/OJ/OV/89143389/1085256-fl-switch-1008n-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541650441/IJ/FN/BF/89143389/1085256-fl-switch-1008n-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541650442/YX/FI/IT/89143389/1085256-fl-switch-1008n-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/9/541649834/YP/ZX/GT/89143389/1085256-fl-switch-1008n-1000x1000.jpg"
     ],
     "slug": "1085256-fl-switch-1008n",
     "stock": true,
@@ -18594,12 +17488,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/9/541656827/XF/YU/IU/89143389/1085039-fl-switch-1005n-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/9/541656827/XF/YU/IU/89143389/1085039-fl-switch-1005n-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541657425/EE/EJ/AE/89143389/1085039-fl-switch-1005n-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541657427/BP/EI/CM/89143389/1085039-fl-switch-1005n-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541657430/DU/PG/HT/89143389/1085039-fl-switch-1005n-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541657431/LE/SV/VB/89143389/1085039-fl-switch-1005n-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541657433/PH/UO/SD/89143389/1085039-fl-switch-1005n-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/9/541656827/XF/YU/IU/89143389/1085039-fl-switch-1005n-1000x1000.jpg"
     ],
     "slug": "phoenix-contact-1085039-fl-switch-1005n",
     "stock": true,
@@ -18625,12 +17514,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/9/541660765/TA/WA/GN/89143389/2891002-fl-switch-sfnb-8tx-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/9/541660765/TA/WA/GN/89143389/2891002-fl-switch-sfnb-8tx-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541661353/HR/AK/GL/89143389/2891002-fl-switch-sfnb-8tx-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541661354/CM/CE/RH/89143389/2891002-fl-switch-sfnb-8tx-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541661357/IV/WI/EN/89143389/2891002-fl-switch-sfnb-8tx-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541661359/KT/YS/VN/89143389/2891002-fl-switch-sfnb-8tx-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541661360/LN/ZJ/RB/89143389/2891002-fl-switch-sfnb-8tx-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/9/541660765/TA/WA/GN/89143389/2891002-fl-switch-sfnb-8tx-1000x1000.jpg"
     ],
     "slug": "phoenix-contact-2891002-fl-switch-sfnb-8tx",
     "stock": true,
@@ -18652,12 +17536,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/9/541703563/ZX/ZM/LZ/89143389/2891001-fl-switch-sfnb-5tx-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/9/541703563/ZX/ZM/LZ/89143389/2891001-fl-switch-sfnb-5tx-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541704279/UE/WZ/VK/89143389/2891001-fl-switch-sfnb-5tx-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541704286/SQ/KF/TI/89143389/2891001-fl-switch-sfnb-5tx-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541704288/UP/NR/OZ/89143389/2891001-fl-switch-sfnb-5tx-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541704290/JL/ZF/PX/89143389/2891001-fl-switch-sfnb-5tx-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541704293/XQ/TZ/FW/89143389/2891001-fl-switch-sfnb-5tx-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/9/541703563/ZX/ZM/LZ/89143389/2891001-fl-switch-sfnb-5tx-1000x1000.jpg"
     ],
     "slug": "2891001-fl-switch-sfnb-5tx",
     "stock": true,
@@ -18735,9 +17614,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458531345/ZN/YW/DO/89143389/pepperl-fuchs-ml100-55-95-103-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/458528023/SO/PX/DJ/89143389/ml100-55-95-103-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/458528026/CD/EA/TX/89143389/ml100-55-95-103-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458528732/WA/QP/TL/89143389/ml100-55-95-103-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458528734/QH/FL/TA/89143389/ml100-55-95-103-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458528026/CD/EA/TX/89143389/ml100-55-95-103-1000x1000.jpg"
     ],
     "slug": "pepperl-and-fuchs-sensors-ml100-5595103",
     "stock": true,
@@ -18775,12 +17652,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465613725/SI/EI/DK/89143389/autonics-make-sensors-photoelectric-sensors-bh300-ddt-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/11/465613725/SI/EI/DK/89143389/autonics-make-sensors-photoelectric-sensors-bh300-ddt-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/11/465611541/ZN/DH/MX/89143389/autonics-make-sensors-photoelectric-sensors-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/11/465611545/KC/IV/RC/89143389/autonics-make-sensors-photoelectric-sensors-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/11/465611546/VE/CU/NC/89143389/autonics-make-sensors-photoelectric-sensors-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/11/465611547/QE/KS/QP/89143389/autonics-make-sensors-photoelectric-sensors-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/11/465611548/MJ/BM/RE/89143389/autonics-make-sensors-photoelectric-sensors-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/11/465613725/SI/EI/DK/89143389/autonics-make-sensors-photoelectric-sensors-bh300-ddt-1000x1000.jpg"
     ],
     "slug": "autonics-make-sensors-photo-sensors-bh300-ddt",
     "stock": true,
@@ -18861,8 +17733,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2026/4/600220837/WG/KI/II/89143389/pnoz-x2-8p-safety-relay-1000x1000.png",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2026/4/600220837/WG/KI/II/89143389/pnoz-x2-8p-safety-relay-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/Default/2026/4/600221541/TH/LP/LF/89143389/pnoz-x2-8p-safety-relay-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/4/600223252/US/LI/AC/89143389/pnoz-x2-8p-safety-relay-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2026/4/600221541/TH/LP/LF/89143389/pnoz-x2-8p-safety-relay-1000x1000.png"
     ],
     "slug": "pnoz-x28p-safety-relay",
     "stock": true,
@@ -18912,7 +17783,6 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/PDFImage/2026/4/600346018/QP/OM/DF/89143389/pnoz-x7-safety-relay-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/4/600346018/QP/OM/DF/89143389/pnoz-x7-safety-relay-1000x1000.png",
       "https://5.imimg.com/data5/SELLER/Default/2026/4/600344764/TA/EH/ZI/89143389/pnoz-x7-safety-relay-1000x1000.png",
       "https://5.imimg.com/data5/SELLER/Default/2026/4/600345504/OF/EW/NG/89143389/pnoz-x7-safety-relay-1000x1000.png"
     ],
@@ -18972,8 +17842,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2026/4/600214827/HW/AC/IP/89143389/pnoz-x2-1-safety-relay-1000x1000.png",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2026/4/600214827/HW/AC/IP/89143389/pnoz-x2-1-safety-relay-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/Default/2026/4/600215473/BA/QN/CQ/89143389/pnoz-x2-1-safety-relay-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/4/600216171/RS/PE/QW/89143389/pnoz-x2-1-safety-relay-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2026/4/600215473/BA/QN/CQ/89143389/pnoz-x2-1-safety-relay-1000x1000.png"
     ],
     "slug": "pnoz-x21-safety-relay",
     "stock": true,
@@ -19024,8 +17893,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2026/4/600434060/HG/VX/NN/89143389/pnoz-c1-safety-relay-1000x1000.png",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2026/4/600434060/HG/VX/NN/89143389/pnoz-c1-safety-relay-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/Default/2026/4/600437949/ES/YM/PE/89143389/pnoz-c1-safety-relay-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/4/600438558/EO/CJ/HP/89143389/pnoz-c1-safety-relay-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2026/4/600437949/ES/YM/PE/89143389/pnoz-c1-safety-relay-1000x1000.png"
     ],
     "slug": "pnoz-c1-safety-relay",
     "stock": true,
@@ -19052,8 +17920,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2026/4/600227569/YU/YF/QE/89143389/pnoz-x3-safety-relay-1000x1000.png",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2026/4/600227569/YU/YF/QE/89143389/pnoz-x3-safety-relay-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/Default/2026/4/600225936/GW/HI/ZE/89143389/pnoz-x3-safety-relay-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/4/600226565/KV/UD/LP/89143389/pnoz-x3-safety-relay-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2026/4/600225936/GW/HI/ZE/89143389/pnoz-x3-safety-relay-1000x1000.png"
     ],
     "slug": "pnoz-x3-safety-relay",
     "stock": true,
@@ -19145,15 +18012,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2026/3/589178834/RC/HB/HX/89143389/presage-products-vibo-vibration-sensor-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2026/3/589178834/RC/HB/HX/89143389/presage-products-vibo-vibration-sensor-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/589178975/HN/WF/AV/89143389/presage-products-vibo-vibration-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/589178978/HM/UN/XZ/89143389/presage-products-vibo-vibration-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/589178989/BE/WS/TD/89143389/presage-products-vibo-vibration-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/589178984/XT/NJ/ME/89143389/presage-products-vibo-vibration-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/589178983/QW/SD/GM/89143389/presage-products-vibo-vibration-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/589178979/GE/TA/TK/89143389/presage-products-vibo-vibration-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/589178990/DY/SZ/SA/89143389/presage-products-vibo-vibration-sensor-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/3/589178988/FK/UH/BZ/89143389/presage-products-vibo-vibration-sensor-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2026/3/589178834/RC/HB/HX/89143389/presage-products-vibo-vibration-sensor-1000x1000.jpg"
     ],
     "slug": "presage-products-vibo-vibration-sensor",
     "stock": true,
@@ -19483,13 +18342,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/5/309120443/NX/CD/BN/89143389/images-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/5/309120443/NX/CD/BN/89143389/images-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461953423/PT/GK/NQ/89143389/proface-hmi-pfxgp4502wadw-proface-10-inch-wide-hmi-gp4000e-series-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461953424/BI/AF/HW/89143389/proface-hmi-pfxgp4502wadw-proface-10-inch-wide-hmi-gp4000e-series-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461953419/UX/YQ/YX/89143389/proface-hmi-pfxgp4502wadw-proface-10-inch-wide-hmi-gp4000e-series-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461953431/HP/WI/LP/89143389/proface-hmi-pfxgp4502wadw-proface-10-inch-wide-hmi-gp4000e-series-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461953428/RI/SX/MO/89143389/proface-hmi-pfxgp4502wadw-proface-10-inch-wide-hmi-gp4000e-series-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461953432/UP/TJ/KU/89143389/proface-hmi-pfxgp4502wadw-proface-10-inch-wide-hmi-gp4000e-series-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/5/309120443/NX/CD/BN/89143389/images-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxgp4502wadw-proface-10-inch-wide-hmi-gp4000e-series",
     "stock": true,
@@ -19542,10 +18395,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454950969/VN/QV/XE/89143389/proface-hmi-pfxet6500wad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454950972/FT/CE/OT/89143389/proface-hmi-pfxet6500wad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454950980/HE/AJ/WV/89143389/proface-hmi-pfxet6500wad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454950973/OE/KK/OM/89143389/proface-hmi-pfxet6500wad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454952350/JQ/UD/WE/89143389/proface-hmi-pfxet6500wad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454952352/GO/IL/AF/89143389/proface-hmi-pfxet6500wad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454952353/EY/ED/VJ/89143389/proface-hmi-pfxet6500wad-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454950973/OE/KK/OM/89143389/proface-hmi-pfxet6500wad-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxet6500wad",
     "stock": true,
@@ -19602,9 +18452,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455101255/QZ/NI/RU/89143389/hmi-proface-pfxgp4601tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455101261/RM/QP/OS/89143389/hmi-proface-pfxgp4601tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455101265/HY/RZ/GP/89143389/hmi-proface-pfxgp4601tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455101266/DM/VC/QT/89143389/hmi-proface-pfxgp4601tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455101676/OK/QF/VI/89143389/hmi-proface-pfxgp4601tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455101677/IK/MB/QM/89143389/hmi-proface-pfxgp4601tad-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455101266/DM/VC/QT/89143389/hmi-proface-pfxgp4601tad-1000x1000.jpg"
     ],
     "slug": "hmi-proface-pfxgp4601tad",
     "stock": true,
@@ -19652,9 +18500,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455280172/QL/MN/IG/89143389/hmi-proface-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455280171/HG/KI/LW/89143389/hmi-proface-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455280159/GS/AE/FT/89143389/hmi-proface-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455280153/LP/IG/EP/89143389/hmi-proface-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461952922/UR/KM/JR/89143389/proface-hmi-pfxgp4501tad-10-4-quot-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461952923/IB/OC/FX/89143389/proface-hmi-pfxgp4501tad-10-4-quot-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455280153/LP/IG/EP/89143389/hmi-proface-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxgp4501tad-104",
     "stock": true,
@@ -19699,9 +18545,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455428375/PW/CX/WQ/89143389/5-proface-hmi-pfxgp4301tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455428379/JF/GZ/BC/89143389/5-proface-hmi-pfxgp4301tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455428380/ZO/IP/XZ/89143389/5-proface-hmi-pfxgp4301tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455428381/ZW/KX/CP/89143389/5-proface-hmi-pfxgp4301tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455428830/OW/DX/UV/89143389/5-proface-hmi-pfxgp4301tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455428831/DG/JF/SP/89143389/5-proface-hmi-pfxgp4301tad-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455428381/ZW/KX/CP/89143389/5-proface-hmi-pfxgp4301tad-1000x1000.jpg"
     ],
     "slug": "proface-hmi-5-pfxgp4301tad",
     "stock": true,
@@ -19750,9 +18594,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455420928/PB/UK/WE/89143389/proface-hmi-pfxgp4501tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455420929/TN/EQ/BJ/89143389/proface-hmi-pfxgp4501tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455420931/TM/EF/YA/89143389/proface-hmi-pfxgp4501tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455420933/MK/FD/VI/89143389/proface-hmi-pfxgp4501tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455421673/XN/BD/PE/89143389/proface-hmi-pfxgp4501tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455421674/GT/JL/YE/89143389/proface-hmi-pfxgp4501tad-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455420933/MK/FD/VI/89143389/proface-hmi-pfxgp4501tad-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxgp4501tad",
     "stock": true,
@@ -19797,12 +18639,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455472739/FG/BY/ZJ/89143389/download-11-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455472811/ED/BT/OZ/89143389/download-4-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455472812/GP/RH/MS/89143389/download-5-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455472814/SE/PK/OQ/89143389/download-6-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455472999/XI/OI/KW/89143389/datasheet-lt4000-35-en-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455472998/GG/VK/FV/89143389/datasheet-lt4000-35-en-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455473000/JC/QR/SD/89143389/datasheet-lt4000-35-en-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455473001/MO/DA/LD/89143389/datasheet-lt4000-35-en-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455473002/BG/RU/RK/89143389/datasheet-lt4000-35-en-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455472814/SE/PK/OQ/89143389/download-6-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxlm4201taddk",
     "stock": true,
@@ -19859,8 +18696,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455437688/OZ/FU/GB/89143389/-3-proface-hmi-pfxgp4201tadw-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455437690/GO/KJ/WP/89143389/-3-proface-hmi-pfxgp4201tadw-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455437693/JN/XN/SD/89143389/-3-proface-hmi-pfxgp4201tadw-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455437695/MV/HH/CQ/89143389/-3-proface-hmi-pfxgp4201tadw-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455438231/CK/DP/NR/89143389/-3-proface-hmi-pfxgp4201tadw-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455437695/MV/HH/CQ/89143389/-3-proface-hmi-pfxgp4201tadw-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxgp4201tadw",
     "stock": true,
@@ -19913,9 +18749,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455432771/AC/HR/CB/89143389/download-8-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455432775/EL/CM/ZT/89143389/download-9-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455432779/YK/ES/QR/89143389/download-10-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455432780/UB/ID/ET/89143389/download-11-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455433358/QL/PM/OL/89143389/10-proface-hmi-pfxgp4501tadw-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455433360/PX/FH/DS/89143389/10-proface-hmi-pfxgp4501tadw-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455432780/UB/ID/ET/89143389/download-11-1000x1000.jpg"
     ],
     "slug": "10-proface-hmi-pfxgp4501tadw",
     "stock": true,
@@ -20021,12 +18855,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455468590/YT/NP/HM/89143389/download-8-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455468594/KL/JV/GS/89143389/download-9-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455468597/DX/FJ/SS/89143389/download-10-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455468593/DY/VO/KQ/89143389/download-11-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455468795/ZQ/YF/EZ/89143389/proface-hmi-pfxlm4301taddk-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455468796/BS/OT/LF/89143389/proface-hmi-pfxlm4301taddk-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455468797/AB/FP/UI/89143389/proface-hmi-pfxlm4301taddk-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455468798/HW/VY/JC/89143389/proface-hmi-pfxlm4301taddk-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455468799/YW/XD/UV/89143389/proface-hmi-pfxlm4301taddk-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455468593/DY/VO/KQ/89143389/download-11-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxlm4301taddk",
     "stock": true,
@@ -20075,9 +18904,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455146950/CK/BX/LI/89143389/hmi-proface-pfxgp4521tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455146955/GB/TN/ZL/89143389/hmi-proface-pfxgp4521tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455146959/FR/KN/RA/89143389/hmi-proface-pfxgp4521tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455146956/ZX/NM/LS/89143389/hmi-proface-pfxgp4521tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455147936/MB/ZK/ZP/89143389/hmi-proface-pfxgp4521tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455147938/JD/MQ/LA/89143389/hmi-proface-pfxgp4521tad-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455146956/ZX/NM/LS/89143389/hmi-proface-pfxgp4521tad-1000x1000.jpg"
     ],
     "slug": "proface-hmi-hmipfxgp4521tad",
     "stock": true,
@@ -20126,12 +18953,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455105186/XR/KK/KC/89143389/hmi-proface-pfxgp4621taa-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455105188/PB/KG/AM/89143389/hmi-proface-pfxgp4621taa-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455105193/LE/YK/UY/89143389/hmi-proface-pfxgp4621taa-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455105192/OV/MJ/SI/89143389/hmi-proface-pfxgp4621taa-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455109674/HQ/GG/CC/89143389/hmi-proface-pfxgp4521tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455109689/SJ/IB/GI/89143389/hmi-proface-pfxgp4521tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455109701/HL/XJ/PS/89143389/hmi-proface-pfxgp4521tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455109715/YN/FY/CD/89143389/hmi-proface-pfxgp4521tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455109724/WJ/EK/FW/89143389/hmi-proface-pfxgp4521tad-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455105192/OV/MJ/SI/89143389/hmi-proface-pfxgp4621taa-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxgp4521tad",
     "stock": true,
@@ -20245,9 +19067,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455426823/XO/IU/IL/89143389/hmi-proface-pfxgp4401tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455426893/ZP/CO/NF/89143389/hmi-proface-pfxgp4401tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455426894/GP/EE/YQ/89143389/hmi-proface-pfxgp4401tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455426895/GP/TX/QU/89143389/hmi-proface-pfxgp4401tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455427240/KW/LD/HK/89143389/hmi-proface-pfxgp4401tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455427241/ED/DU/GU/89143389/hmi-proface-pfxgp4401tad-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455426895/GP/TX/QU/89143389/hmi-proface-pfxgp4401tad-1000x1000.jpg"
     ],
     "slug": "hmi-proface-pfxgp4401tad",
     "stock": true,
@@ -20340,9 +19160,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455430506/JK/XD/BP/89143389/proface-hmi-pfxgp4201tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455430509/RP/RI/AR/89143389/proface-hmi-pfxgp4201tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455430511/ID/GG/ZM/89143389/proface-hmi-pfxgp4201tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455430515/EJ/HR/EH/89143389/proface-hmi-pfxgp4201tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455430843/DP/ZA/PT/89143389/proface-hmi-pfxgp4201tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455430844/QU/LU/IE/89143389/proface-hmi-pfxgp4201tad-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455430515/EJ/HR/EH/89143389/proface-hmi-pfxgp4201tad-1000x1000.jpg"
     ],
     "slug": "proface-hmi-3-pfxgp4201tad",
     "stock": true,
@@ -20391,9 +19209,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455210907/SI/RK/PE/89143389/hmi-proface-pfxgp4601taa-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455210912/EO/JQ/GF/89143389/hmi-proface-pfxgp4601taa-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455210915/GC/EN/XE/89143389/hmi-proface-pfxgp4601taa-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455210917/AG/IK/TS/89143389/hmi-proface-pfxgp4601taa-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455211666/VU/FY/FU/89143389/hmi-proface-pfxgp4601taa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455211667/QN/FF/FB/89143389/hmi-proface-pfxgp4601taa-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455210917/AG/IK/TS/89143389/hmi-proface-pfxgp4601taa-1000x1000.jpg"
     ],
     "slug": "hmi-proface-pfxgp4601taa",
     "stock": true,
@@ -20442,10 +19258,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454957352/DM/DK/AE/89143389/download-8-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454957354/VS/GL/BB/89143389/download-9-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454957356/EB/IJ/EI/89143389/download-10-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454957355/TH/RU/XG/89143389/download-11-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454958402/KM/MH/BK/89143389/hmi-proface-pfxet6400wad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454958405/SW/PP/PQ/89143389/hmi-proface-pfxet6400wad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454958409/ME/MF/YK/89143389/hmi-proface-pfxet6400wad-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454957355/TH/RU/XG/89143389/download-11-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxet6400wad",
     "stock": true,
@@ -20494,10 +19307,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454937867/RF/LR/LT/89143389/pfxet6600wad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454937876/QY/FI/BK/89143389/pfxet6600wad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454937866/BQ/FX/YI/89143389/pfxet6600wad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454937877/JH/NI/NG/89143389/pfxet6600wad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454945409/BL/XS/TB/89143389/-proface-hmi-pfxet6600wad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454945412/UA/NF/FL/89143389/-proface-hmi-pfxet6600wad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454945413/FZ/LD/KA/89143389/-proface-hmi-pfxet6600wad-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454937877/JH/NI/NG/89143389/pfxet6600wad-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxet6600wad",
     "stock": true,
@@ -20539,9 +19349,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455425017/GL/EJ/AS/89143389/hmi-proface-pfxgp4503tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455425018/OR/QD/CY/89143389/hmi-proface-pfxgp4503tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455425020/WH/NV/XQ/89143389/hmi-proface-pfxgp4503tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455425022/OM/OR/RU/89143389/hmi-proface-pfxgp4503tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455425818/CR/XC/GY/89143389/hmi-proface-pfxgp4503tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455425820/NH/NY/ZS/89143389/hmi-proface-pfxgp4503tad-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455425022/OM/OR/RU/89143389/hmi-proface-pfxgp4503tad-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxgp4503tad",
     "stock": true,
@@ -20777,10 +19585,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454928772/FL/YG/MM/89143389/pfxet6700wad-proface-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454928775/HP/OC/QQ/89143389/pfxet6700wad-proface-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454928777/BX/DR/GN/89143389/pfxet6700wad-proface-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454928783/OI/LZ/KV/89143389/pfxet6700wad-proface-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454931039/SO/FZ/ZD/89143389/pfxet6700wad-proface-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454931040/TR/DA/MM/89143389/pfxet6700wad-proface-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/9/454931042/OA/GB/II/89143389/pfxet6700wad-proface-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454928783/OI/LZ/KV/89143389/pfxet6700wad-proface-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxet6700wad",
     "stock": true,
@@ -20824,8 +19629,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455226828/OL/QV/UI/89143389/hmi-proface-pfxgp4601taa-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455223210/EP/GE/KO/89143389/download-10-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455124746/GX/AY/DY/89143389/download-7-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455124745/VI/HY/AI/89143389/download-6-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455233259/YM/FB/EZ/89143389/hmi-proface-pfxgp4601taa-1-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455124745/VI/HY/AI/89143389/download-6-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxgp4601taa",
     "stock": true,
@@ -20872,14 +19676,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455418245/CG/RK/GK/89143389/hmi-proface-pfxgp4603tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455418371/IJ/JF/KC/89143389/hmi-proface-pfxgp4603tad-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455418373/OY/XY/ZY/89143389/hmi-proface-pfxgp4603tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455418375/QP/XT/IP/89143389/hmi-proface-pfxgp4603tad-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455419237/HQ/XD/MZ/89143389/hmi-proface-pfxgp4603tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455419238/CX/TT/JS/89143389/hmi-proface-pfxgp4603tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455419239/QM/QX/UF/89143389/hmi-proface-pfxgp4603tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455419241/ZY/PI/ZB/89143389/hmi-proface-pfxgp4603tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455419242/MQ/KG/ZL/89143389/hmi-proface-pfxgp4603tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455419244/HF/DX/ZN/89143389/hmi-proface-pfxgp4603tad-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455419243/QI/QU/NG/89143389/hmi-proface-pfxgp4603tad-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455418375/QP/XT/IP/89143389/hmi-proface-pfxgp4603tad-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxgp4603tad",
     "stock": true,
@@ -20928,12 +19725,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455143278/MM/KL/ZK/89143389/hmi-proface-pfxgp4621taa-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455143279/KR/QE/RH/89143389/hmi-proface-pfxgp4621taa-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455143282/NB/YR/WU/89143389/hmi-proface-pfxgp4621taa-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455143284/KF/KJ/LA/89143389/hmi-proface-pfxgp4621taa-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455143961/DB/SA/VS/89143389/hmi-proface-pfxgp4621taa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455144014/JE/WD/MN/89143389/hmi-proface-pfxgp4621taa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455144095/AU/ZD/NE/89143389/hmi-proface-pfxgp4621taa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455144099/LA/OE/NM/89143389/hmi-proface-pfxgp4621taa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455144100/CO/EY/KN/89143389/hmi-proface-pfxgp4621taa-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455143284/KF/KJ/LA/89143389/hmi-proface-pfxgp4621taa-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxgp4621taa",
     "stock": true,
@@ -20978,12 +19770,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455200341/ON/UQ/YL/89143389/hmi-proface-pfxgp4521taa-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455200343/TS/XJ/PP/89143389/hmi-proface-pfxgp4521taa-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/10/455200346/AB/CZ/CP/89143389/hmi-proface-pfxgp4521taa-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/455200347/UY/PD/TY/89143389/hmi-proface-pfxgp4521taa-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455201762/QN/ZP/ZN/89143389/hmi-proface-pfxgp4521taa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455201766/ZS/WW/LS/89143389/hmi-proface-pfxgp4521taa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455201767/WB/PR/YQ/89143389/hmi-proface-pfxgp4521taa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455201768/TE/ZL/SL/89143389/hmi-proface-pfxgp4521taa-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/455201769/CT/HR/HD/89143389/hmi-proface-pfxgp4521taa-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/455200347/UY/PD/TY/89143389/hmi-proface-pfxgp4521taa-1000x1000.jpg"
     ],
     "slug": "proface-hmi-pfxgp4521taa",
     "stock": true,
@@ -21114,9 +19901,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/GLADMIN/Default/2023/1/XO/QH/BR/89143389/proface-gp4000-e-series-7-inch-hmi-pfxgp4402wadw-1000x1000.jpg",
       "https://5.imimg.com/data5/GLADMIN/Default/2023/1/QD/NG/CC/89143389/proface-gp4000-e-series-7-inch-hmi-pfxgp4402wadw-1000x1000.jpg",
       "https://5.imimg.com/data5/GLADMIN/Default/2023/1/YN/RK/LM/89143389/proface-gp4000-e-series-7-inch-hmi-pfxgp4402wadw-1000x1000.jpg",
-      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DG/VC/FR/89143389/proface-gp4000-e-series-7-inch-hmi-pfxgp4402wadw-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423273105/KX/YY/MW/89143389/proface-pfxgp4402wadw-gp4000-e-series-7-inch-hmi-touch-panel-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423273103/FF/MB/II/89143389/proface-pfxgp4402wadw-gp4000-e-series-7-inch-hmi-touch-panel-1000x1000.png"
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DG/VC/FR/89143389/proface-gp4000-e-series-7-inch-hmi-pfxgp4402wadw-1000x1000.jpg"
     ],
     "slug": "schneider-proface-pfxgp4402wadw-gp4000-e-series-7-inch-hmi-touch-panel",
     "stock": true,
@@ -21211,13 +19996,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/8/535335453/OC/RN/DE/89143389/rotary-encoders-1000x1000.jpeg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/8/535335453/OC/RN/DE/89143389/rotary-encoders-1000x1000.jpeg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540610668/AB/HB/ZB/89143389/rotary-encoders-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540610665/MS/SO/RX/89143389/rotary-encoders-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540610669/JQ/PS/CQ/89143389/rotary-encoders-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540610671/VO/CQ/QT/89143389/rotary-encoders-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540610670/ML/QP/QZ/89143389/rotary-encoders-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/8/540610666/XV/MD/UQ/89143389/rotary-encoders-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/8/535335453/OC/RN/DE/89143389/rotary-encoders-1000x1000.jpeg"
     ],
     "slug": "rotary-encoders",
     "stock": true,
@@ -21259,12 +20038,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461272802/UM/NP/UF/89143389/schneider-vfd-atv610d15n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272802/UM/NP/UF/89143389/schneider-vfd-atv610d15n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461298667/AI/RC/IT/89143389/schneider-vfd-atv610d11n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461298684/HM/WA/YO/89143389/schneider-vfd-atv610d11n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461298685/EN/NJ/GB/89143389/schneider-vfd-atv610d11n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461298692/RT/VK/HO/89143389/schneider-vfd-atv610d11n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461298694/SX/RZ/PC/89143389/schneider-vfd-atv610d11n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272802/UM/NP/UF/89143389/schneider-vfd-atv610d15n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610d11n4",
     "stock": true,
@@ -21310,13 +20084,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461299923/NU/IG/SY/89143389/schneider-vfd-atv610u22n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461299923/NU/IG/SY/89143389/schneider-vfd-atv610u22n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461293914/DS/WG/IM/89143389/schneider-vfd-atv610u22n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461293924/SZ/CA/KR/89143389/schneider-vfd-atv610u22n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461293928/UJ/HD/XA/89143389/schneider-vfd-atv610u22n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461293922/TU/NW/BT/89143389/schneider-vfd-atv610u22n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461293930/ZX/LG/IX/89143389/schneider-vfd-atv610u22n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461293931/OX/LA/ZT/89143389/schneider-vfd-atv610u22n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461299923/NU/IG/SY/89143389/schneider-vfd-atv610u22n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610u22n4",
     "stock": true,
@@ -21362,15 +20130,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461299787/YR/KI/SQ/89143389/schneider-vfd-atv610u30n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461299787/YR/KI/SQ/89143389/schneider-vfd-atv610u30n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461294251/KG/IE/NM/89143389/schneider-vfd-atv610u30n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461294256/EV/PX/JB/89143389/schneider-vfd-atv610u30n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461294259/GA/FD/AL/89143389/schneider-vfd-atv610u30n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461294262/KG/YG/UB/89143389/schneider-vfd-atv610u30n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461294258/BU/BB/RU/89143389/schneider-vfd-atv610u30n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461294263/CR/LU/XU/89143389/schneider-vfd-atv610u30n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461294264/YV/FI/KO/89143389/schneider-vfd-atv610u30n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461294265/CE/AZ/XQ/89143389/schneider-vfd-atv610u30n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461299787/YR/KI/SQ/89143389/schneider-vfd-atv610u30n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610u30n4",
     "stock": true,
@@ -21416,15 +20176,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461299432/EA/YY/JZ/89143389/schneider-vfd-atv610u07n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461299432/EA/YY/JZ/89143389/schneider-vfd-atv610u07n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461296500/FG/QQ/CA/89143389/schneider-vfd-atv610u07n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461296510/MD/IF/AK/89143389/schneider-vfd-atv610u07n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461296515/DN/BJ/GM/89143389/schneider-vfd-atv610u07n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461296517/XW/MX/FG/89143389/schneider-vfd-atv610u07n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461296516/OH/KR/RH/89143389/schneider-vfd-atv610u07n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461296518/TI/XD/JR/89143389/schneider-vfd-atv610u07n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461296519/ZV/XN/IX/89143389/schneider-vfd-atv610u07n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461296520/RY/HB/JY/89143389/schneider-vfd-atv610u07n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461299432/EA/YY/JZ/89143389/schneider-vfd-atv610u07n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610u07n4",
     "stock": true,
@@ -21466,15 +20218,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461271721/RO/ZK/MT/89143389/schneider-vfd-atv610d37n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461271721/RO/ZK/MT/89143389/schneider-vfd-atv610d37n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461253176/RV/JF/OT/89143389/schneider-vfd-atv610d37n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461253179/QH/AQ/FC/89143389/schneider-vfd-atv610d37n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461253182/LQ/UP/AG/89143389/schneider-vfd-atv610d37n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461253186/IP/CC/RC/89143389/schneider-vfd-atv610d37n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461253185/KU/LQ/JV/89143389/schneider-vfd-atv610d37n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461253190/CT/VM/HH/89143389/schneider-vfd-atv610d37n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461253189/MO/GY/SP/89143389/schneider-vfd-atv610d37n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461253188/IU/QS/QB/89143389/schneider-vfd-atv610d37n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461271721/RO/ZK/MT/89143389/schneider-vfd-atv610d37n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610d37n4",
     "stock": true,
@@ -21520,13 +20264,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461271646/OQ/FR/DX/89143389/schneider-vfd-atv610d18n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461271646/OQ/FR/DX/89143389/schneider-vfd-atv610d18n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461252784/NU/WJ/WE/89143389/schneider-vfd-atv610d18n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461252789/XC/KE/HO/89143389/schneider-vfd-atv610d18n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461252777/GT/UT/OU/89143389/schneider-vfd-atv610d18n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461252794/CF/NO/NA/89143389/schneider-vfd-atv610d18n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461252795/PI/QW/YP/89143389/schneider-vfd-atv610d18n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461252796/ZR/QW/QH/89143389/schneider-vfd-atv610d18n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461271646/OQ/FR/DX/89143389/schneider-vfd-atv610d18n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610d18n4",
     "stock": true,
@@ -21568,15 +20306,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461272802/UM/NP/UF/89143389/schneider-vfd-atv610d15n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272802/UM/NP/UF/89143389/schneider-vfd-atv610d15n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461252098/ST/RF/MS/89143389/schneider-vfd-atv610d15n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461252101/MA/EU/ZQ/89143389/schneider-vfd-atv610d15n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461252105/GZ/EM/TL/89143389/schneider-vfd-atv610d15n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461252106/CH/SF/SU/89143389/schneider-vfd-atv610d15n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461252107/KK/GV/FG/89143389/schneider-vfd-atv610d15n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461252110/FK/ZW/MY/89143389/schneider-vfd-atv610d15n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461252109/NL/YB/SI/89143389/schneider-vfd-atv610d15n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461252111/BC/NS/JA/89143389/schneider-vfd-atv610d15n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272802/UM/NP/UF/89143389/schneider-vfd-atv610d15n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610d15n4",
     "stock": true,
@@ -21622,13 +20352,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461272722/BE/ZF/GB/89143389/schneider-vfd-atv610d90n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272722/BE/ZF/GB/89143389/schneider-vfd-atv610d90n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256808/VX/OR/WL/89143389/schneider-vfd-atv610d90n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256805/GR/JH/BX/89143389/schneider-vfd-atv610d90n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256812/NU/ES/IE/89143389/schneider-vfd-atv610d90n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256814/AZ/TV/SW/89143389/schneider-vfd-atv610d90n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256816/TL/ZS/NF/89143389/schneider-vfd-atv610d90n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256817/UR/CQ/BA/89143389/schneider-vfd-atv610d90n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272722/BE/ZF/GB/89143389/schneider-vfd-atv610d90n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610d90n4",
     "stock": true,
@@ -21674,13 +20398,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461272614/CB/ZX/FP/89143389/schneider-vfd-atv610c11n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272614/CB/ZX/FP/89143389/schneider-vfd-atv610c11n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256358/FK/UY/EX/89143389/schneider-vfd-atv610c11n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256359/KS/IQ/NX/89143389/schneider-vfd-atv610c11n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256360/WL/KA/HE/89143389/schneider-vfd-atv610c11n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256363/PD/HT/KM/89143389/schneider-vfd-atv610c11n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256365/ZO/MY/RD/89143389/schneider-vfd-atv610c11n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256366/XW/UF/FG/89143389/schneider-vfd-atv610c11n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272614/CB/ZX/FP/89143389/schneider-vfd-atv610c11n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610c11n4",
     "stock": true,
@@ -21722,13 +20440,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461272497/BL/ZR/JB/89143389/schneider-vfd-atv610c13n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272497/BL/ZR/JB/89143389/schneider-vfd-atv610c13n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256046/HF/GA/WY/89143389/schneider-vfd-atv610c13n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256047/QK/SE/TK/89143389/schneider-vfd-atv610c13n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256043/RR/FE/JK/89143389/schneider-vfd-atv610c13n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256050/FM/TE/HQ/89143389/schneider-vfd-atv610c13n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256051/YD/KA/EI/89143389/schneider-vfd-atv610c13n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461256049/ZG/XG/NX/89143389/schneider-vfd-atv610c13n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272497/BL/ZR/JB/89143389/schneider-vfd-atv610c13n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610c13n4",
     "stock": true,
@@ -21766,13 +20478,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461272395/MC/HC/WN/89143389/schneider-vfd-atv610d55n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272395/MC/HC/WN/89143389/schneider-vfd-atv610d55n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461255735/FY/YH/XX/89143389/schneider-vfd-atv610d55n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461255740/EP/WU/XO/89143389/schneider-vfd-atv610d55n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461255742/MY/YH/RD/89143389/schneider-vfd-atv610d55n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461255743/CK/OL/IB/89143389/schneider-vfd-atv610d55n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461255745/BY/RT/UU/89143389/schneider-vfd-atv610d55n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461255744/LL/TS/MG/89143389/schneider-vfd-atv610d55n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272395/MC/HC/WN/89143389/schneider-vfd-atv610d55n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610d55n4",
     "stock": true,
@@ -21814,13 +20520,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461272286/AK/FE/BS/89143389/schneider-vfd-atv610d22n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272286/AK/FE/BS/89143389/schneider-vfd-atv610d22n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461255391/XV/WS/RB/89143389/schneider-vfd-atv610d22n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461255398/GV/HD/CJ/89143389/schneider-vfd-atv610d22n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461255400/NS/XH/KW/89143389/schneider-vfd-atv610d22n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461255403/DP/KY/QC/89143389/schneider-vfd-atv610d22n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461255405/WQ/QY/ZW/89143389/schneider-vfd-atv610d22n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461255407/FA/YI/RJ/89143389/schneider-vfd-atv610d22n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272286/AK/FE/BS/89143389/schneider-vfd-atv610d22n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610d22n4",
     "stock": true,
@@ -21862,15 +20562,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461272193/VP/XC/GD/89143389/schneider-vfd-atv610d30n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272193/VP/XC/GD/89143389/schneider-vfd-atv610d30n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254980/GO/NM/ZE/89143389/schneider-vfd-atv610d30n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254981/RN/MB/UK/89143389/schneider-vfd-atv610d30n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254982/HT/FD/OV/89143389/schneider-vfd-atv610d30n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254983/CK/QW/HS/89143389/schneider-vfd-atv610d30n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254984/EV/MV/LU/89143389/schneider-vfd-atv610d30n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254985/QM/PS/UJ/89143389/schneider-vfd-atv610d30n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254987/KG/JG/XI/89143389/schneider-vfd-atv610d30n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254986/NP/AB/ZP/89143389/schneider-vfd-atv610d30n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272193/VP/XC/GD/89143389/schneider-vfd-atv610d30n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610d30n4",
     "stock": true,
@@ -21916,14 +20608,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461271998/NG/UT/DU/89143389/schneider-vfd-atv610d45n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461271998/NG/UT/DU/89143389/schneider-vfd-atv610d45n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254616/AZ/BI/GZ/89143389/schneider-vfd-atv610d45n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254618/RS/RL/GJ/89143389/schneider-vfd-atv610d45n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254621/FY/AE/UO/89143389/schneider-vfd-atv610d45n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254624/EU/ZP/HB/89143389/schneider-vfd-atv610d45n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254625/EU/XN/NK/89143389/schneider-vfd-atv610d45n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254627/MN/AC/DD/89143389/schneider-vfd-atv610d45n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254626/JJ/AP/WP/89143389/schneider-vfd-atv610d45n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461271998/NG/UT/DU/89143389/schneider-vfd-atv610d45n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610d45n4",
     "stock": true,
@@ -21965,15 +20650,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461271882/BD/NU/UL/89143389/schneider-vfd-atv610c16n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461271882/BD/NU/UL/89143389/schneider-vfd-atv610c16n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254084/HQ/FB/JQ/89143389/schneider-vfd-atv610c16n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254094/MJ/QF/CJ/89143389/schneider-vfd-atv610c16n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254095/YH/OX/CB/89143389/schneider-vfd-atv610c16n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254096/RO/LV/AX/89143389/schneider-vfd-atv610c16n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254097/GA/ZO/BA/89143389/schneider-vfd-atv610c16n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254099/OA/OR/GR/89143389/schneider-vfd-atv610c16n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254101/WJ/PE/JX/89143389/schneider-vfd-atv610c16n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461254102/ZV/XL/AY/89143389/schneider-vfd-atv610c16n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461271882/BD/NU/UL/89143389/schneider-vfd-atv610c16n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610c16n4",
     "stock": true,
@@ -22015,13 +20692,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461271795/KY/IS/XQ/89143389/schneider-vfd-atv610d75n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461271795/KY/IS/XQ/89143389/schneider-vfd-atv610d75n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461253524/KS/DN/SJ/89143389/schneider-vfd-atv610d75n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461253528/JL/OB/SA/89143389/schneider-vfd-atv610d75n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461253529/QZ/QE/SJ/89143389/schneider-vfd-atv610d75n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461253535/XN/QG/RY/89143389/schneider-vfd-atv610d75n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461253536/SD/VV/SR/89143389/schneider-vfd-atv610d75n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461253537/RF/KI/PO/89143389/schneider-vfd-atv610d75n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461271795/KY/IS/XQ/89143389/schneider-vfd-atv610d75n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610d75n4",
     "stock": true,
@@ -22063,13 +20734,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461299635/YQ/II/JG/89143389/schneider-vfd-atv610u55n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461299635/YQ/II/JG/89143389/schneider-vfd-atv610u55n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461294770/KM/AR/WH/89143389/schneider-vfd-atv610u55n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461294774/VV/CB/XO/89143389/schneider-vfd-atv610u55n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461294779/UF/JE/CO/89143389/schneider-vfd-atv610u55n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461294785/UF/GF/UP/89143389/schneider-vfd-atv610u55n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461294787/FJ/XL/VP/89143389/schneider-vfd-atv610u55n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461294788/SJ/SF/IK/89143389/schneider-vfd-atv610u55n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461299635/YQ/II/JG/89143389/schneider-vfd-atv610u55n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610u55n4",
     "stock": true,
@@ -22111,12 +20776,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461272802/UM/NP/UF/89143389/schneider-vfd-atv610d15n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272802/UM/NP/UF/89143389/schneider-vfd-atv610d15n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461297679/EY/QP/FC/89143389/schneider-vfd-atv610u40n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461297694/DZ/KD/YF/89143389/schneider-vfd-atv610u40n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461297695/WT/HH/QL/89143389/schneider-vfd-atv610u40n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461297699/VU/OD/RJ/89143389/schneider-vfd-atv610u40n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461297700/PD/HX/IE/89143389/schneider-vfd-atv610u40n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461272802/UM/NP/UF/89143389/schneider-vfd-atv610d15n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610u40n4",
     "stock": true,
@@ -22158,12 +20818,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461299301/BA/TQ/YN/89143389/schneider-vfd-atv610u15n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461299301/BA/TQ/YN/89143389/schneider-vfd-atv610u15n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461297159/UV/WW/MX/89143389/schneider-vfd-atv610u15n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461297160/LX/FA/OO/89143389/schneider-vfd-atv610u15n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461297163/AS/PC/QB/89143389/schneider-vfd-atv610u15n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461297167/GI/QR/IP/89143389/schneider-vfd-atv610u15n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461297168/DW/DY/LN/89143389/schneider-vfd-atv610u15n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461299301/BA/TQ/YN/89143389/schneider-vfd-atv610u15n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610u15n4",
     "stock": true,
@@ -22205,12 +20860,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461299076/UV/KZ/SQ/89143389/schneider-vfd-atv610u75n4-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461299076/UV/KZ/SQ/89143389/schneider-vfd-atv610u75n4-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461298369/AO/MS/PX/89143389/schneider-vfd-atv610u75n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461298381/HP/GD/MH/89143389/schneider-vfd-atv610u75n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461298383/RF/QY/VM/89143389/schneider-vfd-atv610u75n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461298388/FU/SS/TK/89143389/schneider-vfd-atv610u75n4-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461298389/TW/BU/VR/89143389/schneider-vfd-atv610u75n4-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461299076/UV/KZ/SQ/89143389/schneider-vfd-atv610u75n4-1000x1000.jpg"
     ],
     "slug": "schneider-vfd-atv610u75n4",
     "stock": true,
@@ -22284,12 +20934,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/496559343/WH/DL/YR/89143389/tm200ce40u-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/496559343/WH/DL/YR/89143389/tm200ce40u-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496559929/HY/GR/RO/89143389/tm200ce40u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496559934/WZ/JU/GF/89143389/tm200ce40u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496559936/CZ/DK/GS/89143389/tm200ce40u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496559937/WW/KV/CZ/89143389/tm200ce40u-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496559939/HH/PI/NK/89143389/tm200ce40u-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/496559343/WH/DL/YR/89143389/tm200ce40u-1000x1000.jpg"
     ],
     "slug": "ethernetrs485-tm200ce40u-schneider-plc-40io-24-di-16-do-npn-with-ethernet",
     "stock": true,
@@ -22390,12 +21035,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/11/465615926/RZ/UD/UM/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/11/465615928/XQ/TL/TQ/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/11/465615929/EQ/XO/NZ/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/11/465615930/UI/CW/RU/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/11/465615931/VB/MU/OF/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg"
     ],
     "slug": "photoelectric-sensors-gtb6-p1212",
     "stock": true,
@@ -22437,9 +21077,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/VG/KR/DT/89143389/simatic-s7-300-cpu-314c-2-dp-1--1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/VG/KR/DT/89143389/simatic-s7-300-cpu-314c-2-dp-1--1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460044342/TX/DN/JT/89143389/6es71951gc000xa0et200m-mounting-rail-2000-mm-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460044344/WY/DM/AO/89143389/6es71951gc000xa0et200m-mounting-rail-2000-mm-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/VG/KR/DT/89143389/simatic-s7-300-cpu-314c-2-dp-1--1000x1000.png"
     ],
     "slug": "siemens-plc-6es71951gc000xa0et200m-mounting-rail-2000-mm",
     "stock": true,
@@ -22726,9 +21364,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/422400335/YW/WA/UG/89143389/siemens-s7-300-analog-module-sm-334-6es73340ce010aa0-1000x1000.png",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/5/422400335/YW/WA/UG/89143389/siemens-s7-300-analog-module-sm-334-6es73340ce010aa0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/Default/2024/5/422400479/TY/KP/TV/89143389/6es7234-4he32-0xb0-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460044071/BV/AT/ZH/89143389/6es73325hd010ab0sm332-4ao-u-i-11-12bit-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460044073/ZJ/QR/IE/89143389/6es73325hd010ab0sm332-4ao-u-i-11-12bit-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/422400479/TY/KP/TV/89143389/6es7234-4he32-0xb0-1000x1000.jpg"
     ],
     "slug": "siemens-plc-6es73325hd010ab0sm332-4ao-ui-1112bit",
     "stock": true,
@@ -22782,11 +21418,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/485101709/XM/IZ/PW/89143389/siemens-s7-200-smart-cpu-st60-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/1/485101709/XM/IZ/PW/89143389/siemens-s7-200-smart-cpu-st60-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496697816/HW/QG/JL/89143389/siemens-s7-200-smart-cpu-st60-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496697819/BE/GP/BT/89143389/siemens-s7-200-smart-cpu-st60-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496697818/VG/WM/NB/89143389/siemens-s7-200-smart-cpu-st60-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496697824/BY/BL/GM/89143389/siemens-s7-200-smart-cpu-st60-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/485101709/XM/IZ/PW/89143389/siemens-s7-200-smart-cpu-st60-1000x1000.jpg"
     ],
     "slug": "siemens-s7-200-smart-cpu-st60",
     "stock": true,
@@ -22856,12 +21488,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/YH/TR/TF/89143389/siemens-s7-300-cpu-319-3-pn-dp-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/YH/TR/TF/89143389/siemens-s7-300-cpu-319-3-pn-dp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013552/YK/EX/IF/89143389/siemens-plc-siemens-cpu-319-3-pn-dp-s7-300-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013553/BJ/RH/WE/89143389/siemens-plc-siemens-cpu-319-3-pn-dp-s7-300-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013554/MX/HC/OO/89143389/siemens-plc-siemens-cpu-319-3-pn-dp-s7-300-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013556/IV/ZZ/IN/89143389/siemens-plc-siemens-cpu-319-3-pn-dp-s7-300-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013557/KI/YV/VG/89143389/siemens-plc-siemens-cpu-319-3-pn-dp-s7-300-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/YH/TR/TF/89143389/siemens-s7-300-cpu-319-3-pn-dp-1000x1000.png"
     ],
     "slug": "siemens-plc-siemens-cpu-319-3-pndp-s7-300-plc",
     "stock": true,
@@ -22941,8 +21568,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/6/314069533/VR/MV/ZQ/89143389/6es73225hf000ab0sm322-8do-relay-24vdc-120-230v-ac-5a-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/6/314069533/VR/MV/ZQ/89143389/6es73225hf000ab0sm322-8do-relay-24vdc-120-230v-ac-5a-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418076435/QH/YP/OG/89143389/6es71951ga000xa0-et200m-mounting-rail-482-6-mm-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/6/314069533/VR/MV/ZQ/89143389/6es73225hf000ab0sm322-8do-relay-24vdc-120-230v-ac-5a-1000x1000.png"
     ],
     "slug": "siemens-plc-6es71951ga000xa0-et200m-mounting-rail-4826-mm",
     "stock": true,
@@ -23000,12 +21626,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/CJ/RS/PC/89143389/siemens-simatic-s7-300-plc-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/CJ/RS/PC/89143389/siemens-simatic-s7-300-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042843/UR/FW/TL/89143389/siemens-plc-simatic-s7-300-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042849/YU/LQ/KX/89143389/siemens-plc-simatic-s7-300-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042845/LJ/SN/TD/89143389/siemens-plc-simatic-s7-300-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042844/QI/UG/VF/89143389/siemens-plc-simatic-s7-300-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042850/VX/PW/BV/89143389/siemens-plc-simatic-s7-300-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/CJ/RS/PC/89143389/siemens-simatic-s7-300-plc-1000x1000.jpg"
     ],
     "slug": "siemens-plc-simatic-s7-300-plc",
     "stock": true,
@@ -23080,12 +21701,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/GM/KU/EI/89143389/simatic-s7-300-314c-2-dp-cpu-1--1000x1000.png",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2023/1/GM/KU/EI/89143389/simatic-s7-300-314c-2-dp-cpu-1--1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/OC/MG/LF/89143389/simatic-s7-300-314c-2-dp-cpu-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013286/FH/ON/LR/89143389/siemens-plc-simatic-s7-300-cpu314c-2-ptp-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013287/DO/UC/NY/89143389/siemens-plc-simatic-s7-300-cpu314c-2-ptp-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013288/AO/XM/XE/89143389/siemens-plc-simatic-s7-300-cpu314c-2-ptp-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013291/OO/NI/ZB/89143389/siemens-plc-simatic-s7-300-cpu314c-2-ptp-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013292/CG/XN/NN/89143389/siemens-plc-simatic-s7-300-cpu314c-2-ptp-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/OC/MG/LF/89143389/simatic-s7-300-314c-2-dp-cpu-1000x1000.png"
     ],
     "slug": "siemens-plc-simatic-s7-300-cpu314c-2-ptp-plc",
     "stock": true,
@@ -23129,9 +21745,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/5/423001437/MF/JU/WR/89143389/siemens-s7-300-cpu-317-2-pn-dp-6es73172ek140ab0-1000x1000.png",
       "https://5.imimg.com/data5/SELLER/Default/2024/5/423001542/MG/IO/SM/89143389/siemens-s7-300-cpu-314c-2-ptp-6es73146bh040ab0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/Default/2024/5/423001676/BC/WF/LQ/89143389/siemens-s7-300-cpu-314-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/6/426603995/EM/QG/IJ/89143389/6es71580ad010xa0-dp-dp-coupler-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/6/426603996/PO/RC/HQ/89143389/6es71580ad010xa0-dp-dp-coupler-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/423001676/BC/WF/LQ/89143389/siemens-s7-300-cpu-314-1000x1000.png"
     ],
     "slug": "siemens-plc-6es71580ad010xa0-dpdp-coupler",
     "stock": true,
@@ -23216,14 +21830,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/4/410922299/YQ/BW/PD/89143389/siemens-s7-300-cpu-312-1000x1000.jpg",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/4/410922299/YQ/BW/PD/89143389/siemens-s7-300-cpu-312-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/4/410910452/QO/NR/EU/89143389/1-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418063139/JC/RX/MP/89143389/siemens-s7-300-cpu-312-model-no-6es7312-1ae14-0ab0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418063147/KY/RI/OO/89143389/siemens-s7-300-cpu-312-model-no-6es7312-1ae14-0ab0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418063146/XZ/LE/OR/89143389/siemens-s7-300-cpu-312-model-no-6es7312-1ae14-0ab0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418063148/QJ/DW/IT/89143389/siemens-s7-300-cpu-312-model-no-6es7312-1ae14-0ab0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418063149/KG/DP/WW/89143389/siemens-s7-300-cpu-312-model-no-6es7312-1ae14-0ab0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418063153/OD/BN/GG/89143389/siemens-s7-300-cpu-312-model-no-6es7312-1ae14-0ab0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418063150/TS/SU/KW/89143389/siemens-s7-300-cpu-312-model-no-6es7312-1ae14-0ab0-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/4/410910452/QO/NR/EU/89143389/1-1000x1000.jpg"
     ],
     "slug": "siemens-plc-siemens-s7-300-cpu-312-model-no-6es7312-1ae14-0ab0",
     "stock": true,
@@ -23300,9 +21907,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/422401163/QE/LK/QX/89143389/siemens-s7-300-analog-module-sm-334-6es73340ce010aa0-1000x1000.png",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/5/422401163/QE/LK/QX/89143389/siemens-s7-300-analog-module-sm-334-6es73340ce010aa0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/Default/2024/5/422401494/PQ/ZB/TE/89143389/6es7234-4he32-0xb0-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/6/426606117/HV/II/YL/89143389/6es73317pf110ab0sm331-8ai-16bit-thermocouples-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/6/426606118/MQ/KD/DK/89143389/6es73317pf110ab0sm331-8ai-16bit-thermocouples-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/422401494/PQ/ZB/TE/89143389/6es7234-4he32-0xb0-1000x1000.jpg"
     ],
     "slug": "siemens-plc-6es73317pf110ab0sm331-8ai-16bit-thermocouples",
     "stock": true,
@@ -23345,9 +21950,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/423013173/JK/XA/PL/89143389/siemens-s7-300-cpu-314c-2-ptp-6es73146bh040ab0-1000x1000.png",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/5/423013173/JK/XA/PL/89143389/siemens-s7-300-cpu-314c-2-ptp-6es73146bh040ab0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/Default/2024/5/423013401/ZH/FK/EI/89143389/siemens-s7-300-cpu-314-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423627935/VZ/VG/DF/89143389/6es73411bh020ae0-cp341-20ma-interface-tty-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423627937/NE/SV/PC/89143389/6es73411bh020ae0-cp341-20ma-interface-tty-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/423013401/ZH/FK/EI/89143389/siemens-s7-300-cpu-314-1000x1000.png"
     ],
     "slug": "siemens-plc-6es73411bh020ae0-cp341-20ma-interface-tty",
     "stock": true,
@@ -23397,11 +22000,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/5/309199895/MC/LM/YD/89143389/1-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/5/309199895/MC/LM/YD/89143389/1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/6/321003158/CE/SA/GE/89143389/6es73317kf020ab0-sm331-8ai-9-12-14bit-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/6/321003156/XF/XV/ZO/89143389/6es73317kf020ab0-sm331-8ai-9-12-14bit-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/6/321003159/FO/FL/UO/89143389/6es73317kf020ab0-sm331-8ai-9-12-14bit-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/6/321003160/PV/UF/AV/89143389/6es73317kf020ab0-sm331-8ai-9-12-14bit-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/5/309199895/MC/LM/YD/89143389/1-1000x1000.png"
     ],
     "slug": "siemens-plc-6es73317kf020ab0-sm331-8ai-91214bit",
     "stock": true,
@@ -23478,9 +22077,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/422401701/QD/MB/RC/89143389/siemens-s7-300-analog-module-sm-334-6es73340ce010aa0-1000x1000.png",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/5/422401701/QD/MB/RC/89143389/siemens-s7-300-analog-module-sm-334-6es73340ce010aa0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/Default/2024/5/422401752/KV/GK/PB/89143389/6es7234-4he32-0xb0-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/6/426604313/RV/JT/UN/89143389/6es73317pe100ab0sm331-6ai-16bit-thermocouple-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/6/426604314/RZ/BL/SB/89143389/6es73317pe100ab0sm331-6ai-16bit-thermocouple-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/422401752/KV/GK/PB/89143389/6es7234-4he32-0xb0-1000x1000.jpg"
     ],
     "slug": "siemens-plc-6es73317pe100ab0sm331-6ai-16bit-thermocouple",
     "stock": true,
@@ -23595,10 +22192,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/422400817/UK/XR/CQ/89143389/siemens-s7-300-analog-module-sm-334-6es73340ce010aa0-1000x1000.png",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/5/422400817/UK/XR/CQ/89143389/siemens-s7-300-analog-module-sm-334-6es73340ce010aa0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/Default/2024/5/422400965/EA/XT/AO/89143389/6es7234-4he32-0xb0-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460015608/IU/HR/XI/89143389/siemens-plc-6es73325hb010ab0sm332-2aa-u-i-11-12bit-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460015609/YQ/XX/CK/89143389/siemens-plc-6es73325hb010ab0sm332-2aa-u-i-11-12bit-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460015610/VI/RM/NL/89143389/siemens-plc-6es73325hb010ab0sm332-2aa-u-i-11-12bit-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/422400965/EA/XT/AO/89143389/6es7234-4he32-0xb0-1000x1000.jpg"
     ],
     "slug": "siemens-plc-6es73325hb010ab0sm332-2aa-ui-1112bit",
     "stock": true,
@@ -23636,9 +22230,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/422398143/PG/FN/RZ/89143389/siemens-s7-300-analog-module-sm-334-6es73340ce010aa0-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/5/422398143/PG/FN/RZ/89143389/siemens-s7-300-analog-module-sm-334-6es73340ce010aa0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460014315/HX/JX/XO/89143389/siemens-plc-6es73340ce010aa0sm334-4ai-2ao-non-isolated-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460014316/QM/MV/YA/89143389/siemens-plc-6es73340ce010aa0sm334-4ai-2ao-non-isolated-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/422398143/PG/FN/RZ/89143389/siemens-s7-300-analog-module-sm-334-6es73340ce010aa0-1000x1000.png"
     ],
     "slug": "siemens-plc-6es73340ce010aa0sm334-4ai-2ao-non-isolated",
     "stock": true,
@@ -23750,14 +22342,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/HS/TR/SR/89143389/siemens-simatic-et-200sp-distributed-plc-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/HS/TR/SR/89143389/siemens-simatic-et-200sp-distributed-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042599/QR/GC/NE/89143389/siemens-plc-simatic-et-200sp-distributed-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042600/RR/JQ/JQ/89143389/siemens-plc-simatic-et-200sp-distributed-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042602/VM/WB/RX/89143389/siemens-plc-simatic-et-200sp-distributed-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042604/TM/EO/ZZ/89143389/siemens-plc-simatic-et-200sp-distributed-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042605/DB/KV/YP/89143389/siemens-plc-simatic-et-200sp-distributed-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042606/OX/EF/BB/89143389/siemens-plc-simatic-et-200sp-distributed-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042607/VN/CB/ZW/89143389/siemens-plc-simatic-et-200sp-distributed-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/HS/TR/SR/89143389/siemens-simatic-et-200sp-distributed-plc-1000x1000.jpg"
     ],
     "slug": "siemens-plc-simatic-et-200sp-distributed-plc",
     "stock": true,
@@ -23827,12 +22412,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/TR/VQ/PX/89143389/siemens-et200sp-tm-posinput-module-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/TR/VQ/PX/89143389/siemens-et200sp-tm-posinput-module-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042357/TZ/QD/HL/89143389/siemens-plc-et200sp-tm-posinput-module-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042361/GY/IO/NN/89143389/siemens-plc-et200sp-tm-posinput-module-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042362/EM/PY/DF/89143389/siemens-plc-et200sp-tm-posinput-module-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042359/UW/GM/VW/89143389/siemens-plc-et200sp-tm-posinput-module-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460042365/NK/VF/EW/89143389/siemens-plc-et200sp-tm-posinput-module-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/TR/VQ/PX/89143389/siemens-et200sp-tm-posinput-module-1000x1000.jpg"
     ],
     "slug": "siemens-plc-et200sp-tm-posinput-module-plc",
     "stock": true,
@@ -23870,16 +22450,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/6/321040862/XT/RQ/VM/89143389/et200sp-4-a0-copy-2--1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/6/321040862/XT/RQ/VM/89143389/et200sp-4-a0-copy-2--1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017338/XY/CK/UU/89143389/siemens-plc-6es71316bf010ba0et-200sp-di-8x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017341/NI/WY/ZW/89143389/siemens-plc-6es71316bf010ba0et-200sp-di-8x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017340/KT/NE/PH/89143389/siemens-plc-6es71316bf010ba0et-200sp-di-8x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017342/TZ/TT/NE/89143389/siemens-plc-6es71316bf010ba0et-200sp-di-8x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017347/CD/OI/MJ/89143389/siemens-plc-6es71316bf010ba0et-200sp-di-8x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017351/KX/JY/SL/89143389/siemens-plc-6es71316bf010ba0et-200sp-di-8x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017352/SE/WL/MG/89143389/siemens-plc-6es71316bf010ba0et-200sp-di-8x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017353/OM/GR/PX/89143389/siemens-plc-6es71316bf010ba0et-200sp-di-8x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017354/DW/JJ/NG/89143389/siemens-plc-6es71316bf010ba0et-200sp-di-8x-24v-dc-st-pu-1-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/6/321040862/XT/RQ/VM/89143389/et200sp-4-a0-copy-2--1000x1000.jpg"
     ],
     "slug": "siemens-plc-6es71316bf010ba0et-200sp-di-8x-24v-dc-st-pu-1",
     "stock": true,
@@ -23989,8 +22560,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/9/541830292/QG/OA/FR/89143389/siemens-simatic-s7-6es7972-0aa02-0xa0-plc-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/9/541830292/QG/OA/FR/89143389/siemens-simatic-s7-6es7972-0aa02-0xa0-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/9/541831148/SA/TL/KV/89143389/siemens-simatic-s7-6es7972-0aa02-0xa0-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/9/541830292/QG/OA/FR/89143389/siemens-simatic-s7-6es7972-0aa02-0xa0-plc-1000x1000.jpg"
     ],
     "slug": "siemens-simatic-s7-6es7972-0aa02-0xa0-plc",
     "stock": true,
@@ -24082,9 +22652,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/422401494/PQ/ZB/TE/89143389/6es7234-4he32-0xb0-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/5/422401494/PQ/ZB/TE/89143389/6es7234-4he32-0xb0-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460014685/DC/PG/EM/89143389/siemens-plc-6es73317pf010ab0sm331-8ai-resistor-pt100-200-1000-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460014686/YH/PW/CF/89143389/siemens-plc-6es73317pf010ab0sm331-8ai-resistor-pt100-200-1000-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/422401494/PQ/ZB/TE/89143389/6es7234-4he32-0xb0-1000x1000.jpg"
     ],
     "slug": "siemens-plc-6es73317pf010ab0sm331-8ai-resistor-pt1002001000",
     "stock": true,
@@ -24421,12 +22989,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/XV/QL/MS/SELLER-89143389/siemens-hmi-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417805474/RL/CV/UE/89143389/siemens-hmi-touch-panel-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417805475/VF/NQ/DG/89143389/siemens-hmi-touch-panel-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417805476/ZE/GM/YO/89143389/siemens-hmi-touch-panel-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417805478/VB/XD/JK/89143389/siemens-hmi-touch-panel-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417805479/ZR/UZ/SJ/89143389/siemens-hmi-touch-panel-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417805482/JP/XN/DV/89143389/siemens-hmi-touch-panel-1000x1000.png"
+      
     ],
     "slug": "siemens-hmi-touch-panel",
     "stock": true,
@@ -24476,12 +23039,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/6/321013139/VV/RC/FK/89143389/6av2124-1gc01-0ax0-siemens-simatic-hmi-kp700-comfort-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/6/321013139/VV/RC/FK/89143389/6av2124-1gc01-0ax0-siemens-simatic-hmi-kp700-comfort-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/6/321014242/OG/TR/WM/89143389/6av2124-1gc01-0ax0-siemens-simatic-hmi-kp700-comfort-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/6/321014247/XD/LN/DR/89143389/6av2124-1gc01-0ax0-siemens-simatic-hmi-kp700-comfort-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/6/321014239/NB/XH/PQ/89143389/6av2124-1gc01-0ax0-siemens-simatic-hmi-kp700-comfort-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/6/321014241/BT/PJ/GP/89143389/6av2124-1gc01-0ax0-siemens-simatic-hmi-kp700-comfort-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2023/6/321014243/DL/WC/VP/89143389/6av2124-1gc01-0ax0-siemens-simatic-hmi-kp700-comfort-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/6/321013139/VV/RC/FK/89143389/6av2124-1gc01-0ax0-siemens-simatic-hmi-kp700-comfort-1000x1000.jpg"
     ],
     "slug": "siemens-hmi-6av2124-1gc01-0ax0-siemens-hmi-simatic-kp700-comfort",
     "stock": true,
@@ -24690,12 +23248,7 @@ export const allProducts: Product[] = [
       "https://5.imimg.com/data5/SELLER/Default/2022/11/ZT/UK/OP/89143389/6av2123-2db03-0ax0-siemens-ktp-400-basic-hmi-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2023/3/OP/PI/QX/89143389/siemens-simatic-ktp700-hmi-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2023/3/YM/WZ/WF/89143389/siemens-simatic-ktp700-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2023/3/AC/WV/CG/89143389/siemens-simatic-ktp700-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460036936/JU/TQ/BQ/89143389/siemens-hmi-simatic-ktp700-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460036937/SC/JH/LQ/89143389/siemens-hmi-simatic-ktp700-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460036939/SR/JP/QL/89143389/siemens-hmi-simatic-ktp700-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460036938/OM/QV/ZX/89143389/siemens-hmi-simatic-ktp700-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460036941/GR/GD/HC/89143389/siemens-hmi-simatic-ktp700-hmi-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/3/AC/WV/CG/89143389/siemens-simatic-ktp700-hmi-1000x1000.jpg"
     ],
     "slug": "siemens-hmi-simatic-ktp700-basic-profinet-hmi-6av2123-2gb03-0ax0",
     "stock": true,
@@ -24753,13 +23306,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/OF/TH/KG/89143389/6av7863-2ta00-0aa0-500x500-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/OF/TH/KG/89143389/6av7863-2ta00-0aa0-500x500-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460037592/JX/PM/PC/89143389/-siemens-hmi-siemens-simatic-ifp1500-flat-panel-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460037594/XA/OT/AL/89143389/-siemens-hmi-siemens-simatic-ifp1500-flat-panel-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460037595/PB/DQ/UQ/89143389/-siemens-hmi-siemens-simatic-ifp1500-flat-panel-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460037596/LB/EO/WE/89143389/-siemens-hmi-siemens-simatic-ifp1500-flat-panel-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460037597/BN/IG/NF/89143389/-siemens-hmi-siemens-simatic-ifp1500-flat-panel-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460037598/AU/XL/ZC/89143389/-siemens-hmi-siemens-simatic-ifp1500-flat-panel-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/OF/TH/KG/89143389/6av7863-2ta00-0aa0-500x500-1000x1000.jpg"
     ],
     "slug": "siemens-hmi-siemens-simatic-ifp1500-flat-panel",
     "stock": true,
@@ -24826,16 +23373,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/MU/PW/XT/89143389/siemens-simatic-tp1200-hmi-1000x1000.png",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2023/1/MU/PW/XT/89143389/siemens-simatic-tp1200-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/Default/2023/3/WO/RM/OC/89143389/siemens-simatic-tp1200-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418066396/HT/FR/EI/89143389/siemens-hmi-simatic-tp1200-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418066416/UG/FT/MP/89143389/siemens-hmi-simatic-tp1200-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418066421/LP/QA/RR/89143389/siemens-hmi-simatic-tp1200-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418066423/BC/QQ/GG/89143389/siemens-hmi-simatic-tp1200-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418066427/BV/EZ/NH/89143389/siemens-hmi-simatic-tp1200-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418066428/QT/HL/PM/89143389/siemens-hmi-simatic-tp1200-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418066432/WC/JN/GG/89143389/siemens-hmi-simatic-tp1200-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418066435/MC/NE/DU/89143389/siemens-hmi-simatic-tp1200-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418066434/NZ/WG/SZ/89143389/siemens-hmi-simatic-tp1200-hmi-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/3/WO/RM/OC/89143389/siemens-simatic-tp1200-hmi-1000x1000.jpg"
     ],
     "slug": "siemens-hmi-simatic-tp1200-hmi",
     "stock": true,
@@ -24894,18 +23432,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/VJ/TX/IS/89143389/6es7155-6aa01-0bn0-500x500-500x500-1000x1000.jpg",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2023/1/VJ/TX/IS/89143389/6es7155-6aa01-0bn0-500x500-500x500-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/WK/HR/ID/89143389/simatic-ipc-427e-6ag4141-5bb07-0ga0-500x500-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418065323/NJ/YK/BJ/89143389/siemens-hmi-simatic-ktp1000-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418065328/GV/MW/SE/89143389/siemens-hmi-simatic-ktp1000-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418065329/XR/FY/UZ/89143389/siemens-hmi-simatic-ktp1000-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418065331/LR/EF/WN/89143389/siemens-hmi-simatic-ktp1000-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418065333/WW/PS/UT/89143389/siemens-hmi-simatic-ktp1000-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418065334/LG/IV/FI/89143389/siemens-hmi-simatic-ktp1000-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418065339/UA/TY/FW/89143389/siemens-hmi-simatic-ktp1000-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418065347/EK/BL/GX/89143389/siemens-hmi-simatic-ktp1000-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418065348/EN/SL/IZ/89143389/siemens-hmi-simatic-ktp1000-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418065350/HY/NG/GA/89143389/siemens-hmi-simatic-ktp1000-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418065357/ZK/EH/MV/89143389/siemens-hmi-simatic-ktp1000-hmi-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/WK/HR/ID/89143389/simatic-ipc-427e-6ag4141-5bb07-0ga0-500x500-1000x1000.jpg"
     ],
     "slug": "siemens-hmi-simatic-ktp1000-hmi",
     "stock": true,
@@ -24947,13 +23474,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/417494937/OQ/GC/MS/89143389/model-name-number-6av2123-2mb03-0ax0-siemens-simatic-hmi-ktp1200-basic-pn-12-inch-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/5/417494937/OQ/GC/MS/89143389/model-name-number-6av2123-2mb03-0ax0-siemens-simatic-hmi-ktp1200-basic-pn-12-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417496639/HJ/BW/WP/89143389/model-name-number-6av2123-2mb03-0ax0-siemens-simatic-hmi-ktp1200-basic-pn-12-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417496640/CO/KI/VT/89143389/model-name-number-6av2123-2mb03-0ax0-siemens-simatic-hmi-ktp1200-basic-pn-12-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417496648/GF/YN/EH/89143389/model-name-number-6av2123-2mb03-0ax0-siemens-simatic-hmi-ktp1200-basic-pn-12-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417496650/YO/VR/TF/89143389/model-name-number-6av2123-2mb03-0ax0-siemens-simatic-hmi-ktp1200-basic-pn-12-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417496651/LD/HZ/QR/89143389/model-name-number-6av2123-2mb03-0ax0-siemens-simatic-hmi-ktp1200-basic-pn-12-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417496653/HT/YS/ID/89143389/model-name-number-6av2123-2mb03-0ax0-siemens-simatic-hmi-ktp1200-basic-pn-12-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/417494937/OQ/GC/MS/89143389/model-name-number-6av2123-2mb03-0ax0-siemens-simatic-hmi-ktp1200-basic-pn-12-inch-1000x1000.png"
     ],
     "slug": "siemens-hmi-6av2123-2mb03-0ax0-siemens-simatic-hmi-ktp1200-basic-pn-12-inch",
     "stock": true,
@@ -25188,11 +23709,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459427752/IQ/PO/NU/89143389/simatic-operator-panel-op-77b-6av6641-0ca01-0ax1-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459427752/IQ/PO/NU/89143389/simatic-operator-panel-op-77b-6av6641-0ca01-0ax1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459427746/ZI/AS/XZ/89143389/simatic-operator-panel-op-77b-6av6641-0ca01-0ax1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459427748/RF/HO/AF/89143389/simatic-operator-panel-op-77b-6av6641-0ca01-0ax1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459427750/JA/QF/GN/89143389/simatic-operator-panel-op-77b-6av6641-0ca01-0ax1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459427744/BR/AU/PJ/89143389/simatic-operator-panel-op-77b-6av6641-0ca01-0ax1-1000x1000.png"
+      
     ],
     "slug": "siemens-hmi-simatic-operator-panel-op-77b-6av6641-0ca01-0ax1",
     "stock": true,
@@ -25407,8 +23924,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2026/5/608080719/DA/BX/KP/89143389/6av6648-0dc11-3ax0-simatic-hmi-smart-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2026/5/608080719/DA/BX/KP/89143389/6av6648-0dc11-3ax0-simatic-hmi-smart-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2026/5/608082333/IU/IU/GG/89143389/6av6648-0dc11-3ax0-simatic-hmi-smart-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2026/5/608080719/DA/BX/KP/89143389/6av6648-0dc11-3ax0-simatic-hmi-smart-1000x1000.png"
     ],
     "slug": "6av6648-0dc11-3ax0-simatic-hmi-smart",
     "stock": true,
@@ -25488,9 +24004,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461920670/KZ/DF/FA/89143389/siemens-plc-6es73327nd020ab0-sm332-4aa-0-10v-0-5v-10v-20ma-1000x1000.jpg",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/10/461920670/KZ/DF/FA/89143389/siemens-plc-6es73327nd020ab0-sm332-4aa-0-10v-0-5v-10v-20ma-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2024/5/422399670/GG/FW/PF/89143389/siemens-s7-300-analog-module-sm-334-6es73340ce010aa0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/6/424825036/US/CV/NS/89143389/6es73327nd020ab0-sm332-4aa-0-10v-0-5v-10v-20ma-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/6/424825033/ZT/NA/WY/89143389/6es73327nd020ab0-sm332-4aa-0-10v-0-5v-10v-20ma-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/422399670/GG/FW/PF/89143389/siemens-s7-300-analog-module-sm-334-6es73340ce010aa0-1000x1000.png"
     ],
     "slug": "siemens-plc-6es73327nd020ab0-sm332-4aa-0-10v-0-5v-10v-20ma",
     "stock": true,
@@ -25544,17 +24058,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/JS/CW/MA/89143389/siemens-et200s-im151-8-pn-dp-cpu-500x500-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/JS/CW/MA/89143389/siemens-et200s-im151-8-pn-dp-cpu-500x500-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460010672/QA/GE/MM/89143389/siemens-plc-im151-8-pn-dp-cpu-interface-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460010689/UW/AZ/HH/89143389/siemens-plc-im151-8-pn-dp-cpu-interface-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460010688/GW/TJ/PU/89143389/siemens-plc-im151-8-pn-dp-cpu-interface-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460010693/DT/RA/WW/89143389/siemens-plc-im151-8-pn-dp-cpu-interface-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460010691/XP/CF/GC/89143389/siemens-plc-im151-8-pn-dp-cpu-interface-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460010692/KI/HZ/GH/89143389/siemens-plc-im151-8-pn-dp-cpu-interface-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460010695/CP/NK/UJ/89143389/siemens-plc-im151-8-pn-dp-cpu-interface-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460010696/PS/WW/RY/89143389/siemens-plc-im151-8-pn-dp-cpu-interface-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460010698/RA/EQ/RL/89143389/siemens-plc-im151-8-pn-dp-cpu-interface-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460010700/UH/AK/IS/89143389/siemens-plc-im151-8-pn-dp-cpu-interface-module-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/JS/CW/MA/89143389/siemens-et200s-im151-8-pn-dp-cpu-500x500-1000x1000.jpg"
     ],
     "slug": "siemens-plc-im151-8-pndp-cpu-interface-module",
     "stock": true,
@@ -25664,17 +24168,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/423012150/LZ/YO/OJ/89143389/siemens-s7-300-cpu-314-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/5/423012150/LZ/YO/OJ/89143389/siemens-s7-300-cpu-314-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423274576/SY/RM/VJ/89143389/6sl3244-0bb12-1fa0-cu240e-2pn-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423274575/ZM/YW/ML/89143389/6sl3244-0bb12-1fa0-cu240e-2pn-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423274578/IS/IZ/YH/89143389/6sl3244-0bb12-1fa0-cu240e-2pn-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423274574/BM/XE/NX/89143389/6sl3244-0bb12-1fa0-cu240e-2pn-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423274579/XQ/PX/MJ/89143389/6sl3244-0bb12-1fa0-cu240e-2pn-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423274577/ST/HZ/VK/89143389/6sl3244-0bb12-1fa0-cu240e-2pn-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423274582/BM/AU/RC/89143389/6sl3244-0bb12-1fa0-cu240e-2pn-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423274580/NB/SN/AI/89143389/6sl3244-0bb12-1fa0-cu240e-2pn-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423274581/CM/YR/VK/89143389/6sl3244-0bb12-1fa0-cu240e-2pn-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423274584/JM/OG/TB/89143389/6sl3244-0bb12-1fa0-cu240e-2pn-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/423012150/LZ/YO/OJ/89143389/siemens-s7-300-cpu-314-1000x1000.png"
     ],
     "slug": "siemens-plc-6sl3244-0bb12-1fa0-cu240e-2pn",
     "stock": true,
@@ -25819,10 +24313,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/5/309215862/UC/DC/XS/89143389/1-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/5/309215862/UC/DC/XS/89143389/1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417808368/UR/SD/LA/89143389/6es73211bp000aa0sm321-64-di-dc-24v-3ms-p-m-reading-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417808361/US/QK/NY/89143389/6es73211bp000aa0sm321-64-di-dc-24v-3ms-p-m-reading-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417808386/GL/FQ/YO/89143389/6es73211bp000aa0sm321-64-di-dc-24v-3ms-p-m-reading-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/5/309215862/UC/DC/XS/89143389/1-1000x1000.png"
     ],
     "slug": "siemens-plc-6es73211bp000aa0sm321-64-di-dc-24v-3ms-pm-reading",
     "stock": true,
@@ -25865,9 +24356,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/423002279/LB/QC/HE/89143389/siemens-s7-300-cpu-314c-2-ptp-6es73146bh040ab0-1000x1000.png",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/5/423002279/LB/QC/HE/89143389/siemens-s7-300-cpu-314c-2-ptp-6es73146bh040ab0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/Default/2024/5/423002105/MR/QN/VP/89143389/siemens-s7-300-cpu-314-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423265671/ZH/VW/SG/89143389/6es71534ba000xb0-im153-4-pn-io-hf-for-12-modules-s7-300-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423265670/CD/MB/ZM/89143389/6es71534ba000xb0-im153-4-pn-io-hf-for-12-modules-s7-300-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/423002105/MR/QN/VP/89143389/siemens-s7-300-cpu-314-1000x1000.png"
     ],
     "slug": "siemens-plc-6es71534ba000xb0-im153-4-pn-io-hf-for-12-modules-s7-300",
     "stock": true,
@@ -25929,9 +24418,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2022/10/PM/QF/HV/89143389/new-product-1000x1000.jpeg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2022/10/PM/QF/HV/89143389/new-product-1000x1000.jpeg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013679/AM/FC/IR/89143389/siemens-plc-6es7-972-0ba52-0xa0-profibus-dp-interface-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013680/UZ/IB/HX/89143389/siemens-plc-6es7-972-0ba52-0xa0-profibus-dp-interface-module-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2022/10/PM/QF/HV/89143389/new-product-1000x1000.jpeg"
     ],
     "slug": "siemens-plc-6es7-972-0ba52-0xa0-profibus-dp-interface-module",
     "stock": true,
@@ -26085,10 +24572,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/5/309214647/DV/ZJ/WK/89143389/1-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/5/309214647/DV/ZJ/WK/89143389/1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417834674/IE/LO/CF/89143389/6es73221bh010aa0-sm322-16do-24v-dc-0-5a-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417834673/ER/QK/AU/89143389/6es73221bh010aa0-sm322-16do-24v-dc-0-5a-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417834677/UX/LC/ZO/89143389/6es73221bh010aa0-sm322-16do-24v-dc-0-5a-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/5/309214647/DV/ZJ/WK/89143389/1-1000x1000.png"
     ],
     "slug": "siemens-plc-6es73221bh010aa0-sm322-16do-24v-dc-05a",
     "stock": true,
@@ -26130,17 +24614,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/6/321040410/AU/EI/LK/89143389/et200sp-4-a0-copy-2--1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/6/321040410/AU/EI/LK/89143389/et200sp-4-a0-copy-2--1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418114657/HJ/QD/OK/89143389/6es71316bf010aa0et-200sp-di-8x-24v-dc-basic-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418114659/OO/PF/BD/89143389/6es71316bf010aa0et-200sp-di-8x-24v-dc-basic-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418114658/RW/VS/IA/89143389/6es71316bf010aa0et-200sp-di-8x-24v-dc-basic-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418114666/WB/LY/XU/89143389/6es71316bf010aa0et-200sp-di-8x-24v-dc-basic-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418114668/HS/WN/QY/89143389/6es71316bf010aa0et-200sp-di-8x-24v-dc-basic-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418114669/YR/ZL/VC/89143389/6es71316bf010aa0et-200sp-di-8x-24v-dc-basic-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418114671/KD/EB/FU/89143389/6es71316bf010aa0et-200sp-di-8x-24v-dc-basic-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418114672/UH/ZS/ZW/89143389/6es71316bf010aa0et-200sp-di-8x-24v-dc-basic-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418114673/IR/EX/XH/89143389/6es71316bf010aa0et-200sp-di-8x-24v-dc-basic-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418114675/YQ/ZP/MJ/89143389/6es71316bf010aa0et-200sp-di-8x-24v-dc-basic-pu-1-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/6/321040410/AU/EI/LK/89143389/et200sp-4-a0-copy-2--1000x1000.jpg"
     ],
     "slug": "siemens-plc-6es71316bf010aa0et-200sp-di-8x-24v-dc-basic-pu-1",
     "stock": true,
@@ -26182,17 +24656,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/6/321040577/NE/GA/IA/89143389/et200sp-4-a0-copy-2--1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/6/321040577/NE/GA/IA/89143389/et200sp-4-a0-copy-2--1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418116653/OG/WW/PX/89143389/6es71316bf000ca0et-200sp-di-8x24vdc-hf-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418116655/OT/VN/BA/89143389/6es71316bf000ca0et-200sp-di-8x24vdc-hf-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418116656/OU/LW/JB/89143389/6es71316bf000ca0et-200sp-di-8x24vdc-hf-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418116662/CH/SC/LA/89143389/6es71316bf000ca0et-200sp-di-8x24vdc-hf-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418116663/IA/EN/QZ/89143389/6es71316bf000ca0et-200sp-di-8x24vdc-hf-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418116664/RW/SG/VR/89143389/6es71316bf000ca0et-200sp-di-8x24vdc-hf-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418116669/RM/QY/VB/89143389/6es71316bf000ca0et-200sp-di-8x24vdc-hf-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418116671/YO/IO/QK/89143389/6es71316bf000ca0et-200sp-di-8x24vdc-hf-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418116672/GT/DU/BQ/89143389/6es71316bf000ca0et-200sp-di-8x24vdc-hf-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418116675/ZV/NY/ZZ/89143389/6es71316bf000ca0et-200sp-di-8x24vdc-hf-pu-1-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/6/321040577/NE/GA/IA/89143389/et200sp-4-a0-copy-2--1000x1000.jpg"
     ],
     "slug": "siemens-plc-6es71316bf000ca0et-200sp-di-8x24vdc-hf-pu-1",
     "stock": true,
@@ -26254,14 +24718,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/DM/LC/KY/89143389/simatic-ipc-427e-6ag4141-5bb07-0ga0-500x500-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/DM/LC/KY/89143389/simatic-ipc-427e-6ag4141-5bb07-0ga0-500x500-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460011815/FG/QR/ZO/89143389/siemens-plc-siemens-simatic-ipc427e-microbox-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460011811/SR/BT/JC/89143389/siemens-plc-siemens-simatic-ipc427e-microbox-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460011805/UZ/WS/VF/89143389/siemens-plc-siemens-simatic-ipc427e-microbox-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460011812/YD/BQ/HP/89143389/siemens-plc-siemens-simatic-ipc427e-microbox-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460011809/CJ/WX/YY/89143389/siemens-plc-siemens-simatic-ipc427e-microbox-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460011820/NI/XG/IS/89143389/siemens-plc-siemens-simatic-ipc427e-microbox-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460011822/LE/CL/BY/89143389/siemens-plc-siemens-simatic-ipc427e-microbox-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/DM/LC/KY/89143389/simatic-ipc-427e-6ag4141-5bb07-0ga0-500x500-1000x1000.jpg"
     ],
     "slug": "siemens-plc-siemens-simatic-ipc427e-microbox-plc",
     "stock": true,
@@ -26517,12 +24974,7 @@ export const allProducts: Product[] = [
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/423013401/ZH/FK/EI/89143389/siemens-s7-300-cpu-314-1000x1000.png",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/5/423013401/ZH/FK/EI/89143389/siemens-s7-300-cpu-314-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/Default/2024/5/423015015/QK/BA/DM/89143389/siemens-s7-300-cpu-314c-2-ptp-6es73146bh040ab0-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423281891/IV/IC/DY/89143389/6es73135bg040ab0-cpu313c-24di-16do-5ai-2ao-128-kb-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423281887/OH/DW/OS/89143389/6es73135bg040ab0-cpu313c-24di-16do-5ai-2ao-128-kb-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423281890/NH/OI/GS/89143389/6es73135bg040ab0-cpu313c-24di-16do-5ai-2ao-128-kb-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423281889/IM/VY/FX/89143389/6es73135bg040ab0-cpu313c-24di-16do-5ai-2ao-128-kb-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423281886/OS/GG/RG/89143389/6es73135bg040ab0-cpu313c-24di-16do-5ai-2ao-128-kb-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/423015015/QK/BA/DM/89143389/siemens-s7-300-cpu-314c-2-ptp-6es73146bh040ab0-1000x1000.png"
     ],
     "slug": "siemens-plc-6es73135bg040ab0-cpu313c-24di16do5ai2ao-128-kb",
     "stock": true,
@@ -26572,19 +25024,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/5/309212162/YH/ET/XL/89143389/simatic-s7-400-cpu-414-3-pn-dp-1000x1000.jpeg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/5/309212162/YH/ET/XL/89143389/simatic-s7-400-cpu-414-3-pn-dp-1000x1000.jpeg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418089415/OI/GC/PE/89143389/6es71326bd200ba0-et-200sp-dq-4x24vdc-2a-st-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418089423/IK/QM/YG/89143389/6es71326bd200ba0-et-200sp-dq-4x24vdc-2a-st-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418089429/TN/EK/VF/89143389/6es71326bd200ba0-et-200sp-dq-4x24vdc-2a-st-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418089430/OG/CU/VF/89143389/6es71326bd200ba0-et-200sp-dq-4x24vdc-2a-st-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418089437/CG/BL/ZF/89143389/6es71326bd200ba0-et-200sp-dq-4x24vdc-2a-st-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418089438/CG/IN/MP/89143389/6es71326bd200ba0-et-200sp-dq-4x24vdc-2a-st-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418089454/TS/QA/UW/89143389/6es71326bd200ba0-et-200sp-dq-4x24vdc-2a-st-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418089456/AW/PE/HF/89143389/6es71326bd200ba0-et-200sp-dq-4x24vdc-2a-st-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418089461/LS/HM/LA/89143389/6es71326bd200ba0-et-200sp-dq-4x24vdc-2a-st-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418089462/XS/PK/RW/89143389/6es71326bd200ba0-et-200sp-dq-4x24vdc-2a-st-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418089467/PM/QG/BD/89143389/6es71326bd200ba0-et-200sp-dq-4x24vdc-2a-st-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418089468/SM/NX/WO/89143389/6es71326bd200ba0-et-200sp-dq-4x24vdc-2a-st-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/5/309212162/YH/ET/XL/89143389/simatic-s7-400-cpu-414-3-pn-dp-1000x1000.jpeg"
     ],
     "slug": "siemens-plc-6es71326bd200ba0-et-200sp-dq-4x24vdc2a-st",
     "stock": true,
@@ -26626,10 +25066,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/5/309199895/MC/LM/YD/89143389/1-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/5/309199895/MC/LM/YD/89143389/1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417843405/XG/KR/BI/89143389/6es73317kb020ab0-sm331-2ai-9-12-14bit-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417843407/WK/QR/JU/89143389/6es73317kb020ab0-sm331-2ai-9-12-14bit-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/417843406/GZ/ZV/NY/89143389/6es73317kb020ab0-sm331-2ai-9-12-14bit-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/5/309199895/MC/LM/YD/89143389/1-1000x1000.png"
     ],
     "slug": "siemens-plc-6es73317kb020ab0-sm331-2ai-91214bit",
     "stock": true,
@@ -26675,11 +25112,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/ZA/NC/BK/89143389/6es7155-6aa01-0bn0-500x500-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/ZA/NC/BK/89143389/6es7155-6aa01-0bn0-500x500-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461910011/BN/QB/YH/89143389/siemens-plc-et200sp-im-155-6pn-st-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461910010/JV/VE/PG/89143389/siemens-plc-et200sp-im-155-6pn-st-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461908765/QW/ZZ/EJ/89143389/siemens-plc-simatic-et-200sp-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461908771/VA/GE/NO/89143389/siemens-plc-simatic-et-200sp-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/ZA/NC/BK/89143389/6es7155-6aa01-0bn0-500x500-1000x1000.jpg"
     ],
     "slug": "siemens-plc-et200sp-im-155-6pn-st-plc",
     "stock": true,
@@ -26729,19 +25162,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/QB/KL/FJ/89143389/siemens-et200sp-im155-6pn-2-hf-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/QB/KL/FJ/89143389/siemens-et200sp-im155-6pn-2-hf-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418086193/JC/PT/II/89143389/siemens-et200sp-im155-6pn-2-hf-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418086195/PX/BH/QQ/89143389/siemens-et200sp-im155-6pn-2-hf-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418086200/CB/FN/PL/89143389/siemens-et200sp-im155-6pn-2-hf-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418086208/XB/SS/KV/89143389/siemens-et200sp-im155-6pn-2-hf-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418086217/SE/AI/MG/89143389/siemens-et200sp-im155-6pn-2-hf-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418086220/JC/DI/ZA/89143389/siemens-et200sp-im155-6pn-2-hf-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418086221/JC/XB/DU/89143389/siemens-et200sp-im155-6pn-2-hf-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418086225/IE/FJ/AP/89143389/siemens-et200sp-im155-6pn-2-hf-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418086226/YJ/PH/QM/89143389/siemens-et200sp-im155-6pn-2-hf-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418086227/GI/HL/PJ/89143389/siemens-et200sp-im155-6pn-2-hf-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418086234/OY/NU/EH/89143389/siemens-et200sp-im155-6pn-2-hf-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418086242/MT/BT/AV/89143389/siemens-et200sp-im155-6pn-2-hf-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/QB/KL/FJ/89143389/siemens-et200sp-im155-6pn-2-hf-1000x1000.jpg"
     ],
     "slug": "siemens-plc-et200sp-im155-6pn2-hf",
     "stock": true,
@@ -26787,15 +25208,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/HI/ZT/TO/89143389/siemens-s7-300-cpu-313-2-dp-500x500-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/HI/ZT/TO/89143389/siemens-s7-300-cpu-313-2-dp-500x500-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423254985/QZ/JA/IZ/89143389/siemens-s7-300-cpu-313-2-dp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423254986/FX/TS/KN/89143389/siemens-s7-300-cpu-313-2-dp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423254987/VH/ZS/DU/89143389/siemens-s7-300-cpu-313-2-dp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423254988/WT/MC/LN/89143389/siemens-s7-300-cpu-313-2-dp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423254989/MF/CG/QF/89143389/siemens-s7-300-cpu-313-2-dp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423254992/MG/XY/UB/89143389/siemens-s7-300-cpu-313-2-dp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423254991/UO/PO/AK/89143389/siemens-s7-300-cpu-313-2-dp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423254995/KR/ON/GR/89143389/siemens-s7-300-cpu-313-2-dp-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/HI/ZT/TO/89143389/siemens-s7-300-cpu-313-2-dp-500x500-1000x1000.jpg"
     ],
     "slug": "siemens-plc-s7-300-cpu-313-2-dp",
     "stock": true,
@@ -26861,11 +25274,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/OM/TU/RW/89143389/6es7532-5nb00-0ab0-500x500-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/OM/TU/RW/89143389/6es7532-5nb00-0ab0-500x500-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459750600/HB/PK/DG/89143389/siemens-plc-s7-1500-2ao-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459750604/TZ/OU/IS/89143389/siemens-plc-s7-1500-2ao-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459750607/DM/CN/SV/89143389/siemens-plc-s7-1500-2ao-module-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459750615/FT/HY/ED/89143389/siemens-plc-s7-1500-2ao-module-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/OM/TU/RW/89143389/6es7532-5nb00-0ab0-500x500-1000x1000.jpg"
     ],
     "slug": "siemens-plc-s7-1500-2ao-module",
     "stock": true,
@@ -27005,19 +25414,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461912227/EH/IT/SA/89143389/siemens-plc-simatic-et200sp-plc-expansion-modules-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/461912227/EH/IT/SA/89143389/siemens-plc-simatic-et200sp-plc-expansion-modules-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423251762/EV/XR/DZ/89143389/simatic-et200sp-plc-expansion-modules-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423251761/GO/SO/XG/89143389/simatic-et200sp-plc-expansion-modules-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423251764/BP/WN/FE/89143389/simatic-et200sp-plc-expansion-modules-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423251759/XG/CC/CF/89143389/simatic-et200sp-plc-expansion-modules-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423251757/SR/JR/NZ/89143389/simatic-et200sp-plc-expansion-modules-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423251758/AN/VY/BL/89143389/simatic-et200sp-plc-expansion-modules-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423251763/GX/PU/PT/89143389/simatic-et200sp-plc-expansion-modules-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423251760/NH/RK/GJ/89143389/simatic-et200sp-plc-expansion-modules-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423251765/UR/FP/JH/89143389/simatic-et200sp-plc-expansion-modules-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461911517/EZ/DI/JD/89143389/siemens-plc-simatic-et200sp-plc-expansion-modules-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461911516/AT/MV/IA/89143389/siemens-plc-simatic-et200sp-plc-expansion-modules-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461911519/JX/LP/HV/89143389/siemens-plc-simatic-et200sp-plc-expansion-modules-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/461912227/EH/IT/SA/89143389/siemens-plc-simatic-et200sp-plc-expansion-modules-1000x1000.jpg"
     ],
     "slug": "siemens-plc-simatic-et200sp-plc-expansion-modules",
     "stock": true,
@@ -27099,12 +25496,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459745979/FF/OK/ZH/89143389/siemens-simatic-s7-1500-plc-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/10/459745979/FF/OK/ZH/89143389/siemens-simatic-s7-1500-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459737837/JS/PK/ZP/89143389/siemens-simatic-s7-1500-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459737838/SB/ZH/EE/89143389/siemens-simatic-s7-1500-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459737839/RL/ZP/FY/89143389/siemens-simatic-s7-1500-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459737840/QC/VX/AD/89143389/siemens-simatic-s7-1500-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459737848/IC/FQ/YX/89143389/siemens-simatic-s7-1500-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459745979/FF/OK/ZH/89143389/siemens-simatic-s7-1500-plc-1000x1000.jpg"
     ],
     "slug": "siemens-plc-simatic-s7-1500-plc",
     "stock": true,
@@ -27182,9 +25574,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/WB/DP/MX/89143389/siemens-logo-6ed1052-1fb08-0ba1-plc-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/WB/DP/MX/89143389/siemens-logo-6ed1052-1fb08-0ba1-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013442/MJ/WK/MX/89143389/siemens-plc-siemens-logo-6ed1052-1fb08-0ba1-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013443/MW/WO/MK/89143389/siemens-plc-siemens-logo-6ed1052-1fb08-0ba1-plc-1000x1000.png"
+      
     ],
     "slug": "siemens-plc-siemens-logo-6ed1052-1fb08-0ba1-plc",
     "stock": true,
@@ -27381,9 +25771,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/YI/UQ/PG/89143389/sinamics-et200sp-modules-500x500-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/YI/UQ/PG/89143389/sinamics-et200sp-modules-500x500-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017849/IC/PG/GX/89143389/siemens-plc-et-200sp-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017850/EA/AZ/DC/89143389/siemens-plc-et-200sp-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/YI/UQ/PG/89143389/sinamics-et200sp-modules-500x500-1000x1000.jpg"
     ],
     "slug": "siemens-plc-et-200sp-plc",
     "stock": true,
@@ -27445,11 +25833,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/RP/LC/MS/SELLER-89143389/siemens-hmi-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013064/MR/SM/EO/89143389/siemens-plc-siemens-s7-1200-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013065/UA/IZ/JP/89143389/siemens-plc-siemens-s7-1200-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013066/EU/TF/FT/89143389/siemens-plc-siemens-s7-1200-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013069/NN/XA/TN/89143389/siemens-plc-siemens-s7-1200-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460013068/JG/CG/PX/89143389/siemens-plc-siemens-s7-1200-plc-1000x1000.png"
+      
     ],
     "slug": "siemens-plc-siemens-s7-1200-plc",
     "stock": true,
@@ -27507,9 +25891,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/DX/TY/PK/89143389/siemens-s7-200-st20-smart-cpu-500x500-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/DX/TY/PK/89143389/siemens-s7-200-st20-smart-cpu-500x500-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017728/RA/BT/DV/89143389/siemens-plc-s7-200-smart-plc-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017729/BH/VM/MZ/89143389/siemens-plc-s7-200-smart-plc-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/DX/TY/PK/89143389/siemens-s7-200-st20-smart-cpu-500x500-1000x1000.jpg"
     ],
     "slug": "siemens-plc-s7-200-smart-plc",
     "stock": true,
@@ -27555,10 +25937,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/6/430122850/QH/TU/VI/89143389/6es7318-3fl01-0ab0-siemens-simatic-s7-300-cpu319f-3-pn-dp-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/6/430122850/QH/TU/VI/89143389/6es7318-3fl01-0ab0-siemens-simatic-s7-300-cpu319f-3-pn-dp-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017970/EB/AO/OC/89143389/siemens-plc-6es7318-3fl01-0ab0-siemens-simatic-s7-300-cpu319f-3-pn-dp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017972/KJ/TI/PC/89143389/siemens-plc-6es7318-3fl01-0ab0-siemens-simatic-s7-300-cpu319f-3-pn-dp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460017973/VO/YD/MA/89143389/siemens-plc-6es7318-3fl01-0ab0-siemens-simatic-s7-300-cpu319f-3-pn-dp-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/6/430122850/QH/TU/VI/89143389/6es7318-3fl01-0ab0-siemens-simatic-s7-300-cpu319f-3-pn-dp-1000x1000.jpg"
     ],
     "slug": "siemens-plc-6es7318-3fl01-0ab0-siemens-simatic-s7-300-cpu319f-3-pndp",
     "stock": true,
@@ -27652,17 +26031,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/6/321040302/IC/TT/MQ/89143389/et200sp-4-a0-copy-2--1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/6/321040302/IC/TT/MQ/89143389/et200sp-4-a0-copy-2--1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418091047/CL/JZ/KZ/89143389/6es71316bh010ba0et-200sp-di-16x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418091046/EO/VZ/CW/89143389/6es71316bh010ba0et-200sp-di-16x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418091052/SQ/YQ/TB/89143389/6es71316bh010ba0et-200sp-di-16x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418091059/UO/ZB/EY/89143389/6es71316bh010ba0et-200sp-di-16x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418091064/JE/NJ/CF/89143389/6es71316bh010ba0et-200sp-di-16x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418091069/CG/WV/RS/89143389/6es71316bh010ba0et-200sp-di-16x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418091070/JO/DK/IJ/89143389/6es71316bh010ba0et-200sp-di-16x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418091081/UL/OJ/CZ/89143389/6es71316bh010ba0et-200sp-di-16x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418091089/ML/EP/JG/89143389/6es71316bh010ba0et-200sp-di-16x-24v-dc-st-pu-1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/418091090/GL/YE/YO/89143389/6es71316bh010ba0et-200sp-di-16x-24v-dc-st-pu-1-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/6/321040302/IC/TT/MQ/89143389/et200sp-4-a0-copy-2--1000x1000.jpg"
     ],
     "slug": "siemens-plc-6es71316bh010ba0et-200sp-di-16x-24v-dc-st-pu-1",
     "stock": true,
@@ -27704,9 +26073,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/5/309215998/QX/LO/UJ/89143389/1-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/5/309215998/QX/LO/UJ/89143389/1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/6/425122320/HC/VQ/TA/89143389/es73211bh100aa0-6sm321-16di-dc24v-0-05ms-input-delay-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/6/425122323/BM/KP/VM/89143389/es73211bh100aa0-6sm321-16di-dc24v-0-05ms-input-delay-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/5/309215998/QX/LO/UJ/89143389/1-1000x1000.png"
     ],
     "slug": "siemens-plc-es73211bh100aa0-6sm32116didc24v-005ms-input-delay",
     "stock": true,
@@ -27841,14 +26208,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/FU/XC/FF/89143389/simotion-d410-2-dp-6au1410-2aa00-0aa0-500x500-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/FU/XC/FF/89143389/simotion-d410-2-dp-6au1410-2aa00-0aa0-500x500-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458434277/IZ/LS/KS/89143389/siemens-simotion-d-controller-d410-2-dp-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458434282/TZ/SA/QO/89143389/siemens-simotion-d-controller-d410-2-dp-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458434283/TQ/DO/DD/89143389/siemens-simotion-d-controller-d410-2-dp-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458434287/QC/VI/RT/89143389/siemens-simotion-d-controller-d410-2-dp-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458434288/AK/UJ/FH/89143389/siemens-simotion-d-controller-d410-2-dp-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458434300/LK/AG/FF/89143389/siemens-simotion-d-controller-d410-2-dp-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/458434301/PK/LG/GP/89143389/siemens-simotion-d-controller-d410-2-dp-vfd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/FU/XC/FF/89143389/simotion-d410-2-dp-6au1410-2aa00-0aa0-500x500-1000x1000.jpg"
     ],
     "slug": "siemens-ac-dc-and-servo-drives-siemens-simotion-d-controller-d410-2-dp-vfd",
     "stock": true,
@@ -27984,19 +26344,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/AK/JL/FF/89143389/siemens-control-unit-cua32-500x500-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/AK/JL/FF/89143389/siemens-control-unit-cua32-500x500-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459747709/MJ/HR/DP/89143389/siemens-ac-dc-and-servo-drives-6sl3040-0pa01-0aa0-cua32-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459747717/UC/VA/XA/89143389/siemens-ac-dc-and-servo-drives-6sl3040-0pa01-0aa0-cua32-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459747718/YY/RW/PB/89143389/siemens-ac-dc-and-servo-drives-6sl3040-0pa01-0aa0-cua32-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459747715/EC/MC/OT/89143389/siemens-ac-dc-and-servo-drives-6sl3040-0pa01-0aa0-cua32-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459747724/CB/AF/VV/89143389/siemens-ac-dc-and-servo-drives-6sl3040-0pa01-0aa0-cua32-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459747723/WY/YU/XU/89143389/siemens-ac-dc-and-servo-drives-6sl3040-0pa01-0aa0-cua32-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459747720/BH/US/EP/89143389/siemens-ac-dc-and-servo-drives-6sl3040-0pa01-0aa0-cua32-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459747721/PY/ZF/QE/89143389/siemens-ac-dc-and-servo-drives-6sl3040-0pa01-0aa0-cua32-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459747719/JN/JZ/YG/89143389/siemens-ac-dc-and-servo-drives-6sl3040-0pa01-0aa0-cua32-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459747722/ZK/BS/JZ/89143389/siemens-ac-dc-and-servo-drives-6sl3040-0pa01-0aa0-cua32-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459747725/QV/RI/DJ/89143389/siemens-ac-dc-and-servo-drives-6sl3040-0pa01-0aa0-cua32-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459747726/OW/CW/XR/89143389/siemens-ac-dc-and-servo-drives-6sl3040-0pa01-0aa0-cua32-vfd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/AK/JL/FF/89143389/siemens-control-unit-cua32-500x500-1000x1000.jpg"
     ],
     "slug": "siemens-ac-dc-and-servo-drives-6sl3040-0pa01-0aa0-cua32-vfd",
     "stock": true,
@@ -28266,16 +26614,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/5/309120533/GV/AO/SL/89143389/siemens-g120-drive-500x500-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/5/309120533/GV/AO/SL/89143389/siemens-g120-drive-500x500-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460031879/MV/UQ/IM/89143389/siemens-ac-dc-and-servo-drives-siemens-dc-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460031881/DV/OV/ER/89143389/siemens-ac-dc-and-servo-drives-siemens-dc-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460031885/TA/AS/AQ/89143389/siemens-ac-dc-and-servo-drives-siemens-dc-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460031886/JE/MV/WW/89143389/siemens-ac-dc-and-servo-drives-siemens-dc-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460031887/SJ/TE/SL/89143389/siemens-ac-dc-and-servo-drives-siemens-dc-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460031888/GL/YY/KI/89143389/siemens-ac-dc-and-servo-drives-siemens-dc-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460031889/EO/ZP/ZL/89143389/siemens-ac-dc-and-servo-drives-siemens-dc-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460031890/NM/LS/EK/89143389/siemens-ac-dc-and-servo-drives-siemens-dc-drive-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/460031902/KV/MG/MM/89143389/siemens-ac-dc-and-servo-drives-siemens-dc-drive-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/5/309120533/GV/AO/SL/89143389/siemens-g120-drive-500x500-1000x1000.jpg"
     ],
     "slug": "siemens-ac-dc-and-servo-drives-siemens-dc-drive",
     "stock": true,
@@ -28401,11 +26740,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461914898/KP/GQ/NE/89143389/siemens-ac-dc-and-servo-drives-cua31-control-unit-vfd-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461914898/KP/GQ/NE/89143389/siemens-ac-dc-and-servo-drives-cua31-control-unit-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461914890/LY/PL/WI/89143389/siemens-ac-dc-and-servo-drives-cua31-control-unit-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461914894/KA/PX/CW/89143389/siemens-ac-dc-and-servo-drives-cua31-control-unit-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461914893/CW/XX/IX/89143389/siemens-ac-dc-and-servo-drives-cua31-control-unit-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/461914886/IY/GF/OI/89143389/siemens-ac-dc-and-servo-drives-cua31-control-unit-vfd-1000x1000.png"
+      
     ],
     "slug": "siemens-ac-dc-and-servo-drives-cua31-control-unit-vfd",
     "stock": true,
@@ -28451,9 +26786,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/423001676/BC/WF/LQ/89143389/siemens-s7-300-cpu-314-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/5/423001676/BC/WF/LQ/89143389/siemens-s7-300-cpu-314-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423279040/ZK/EU/RD/89143389/6sl3246-0ba22-1fa0-cu240s-2pn-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/5/423279037/XK/HB/QC/89143389/6sl3246-0ba22-1fa0-cu240s-2pn-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/423001676/BC/WF/LQ/89143389/siemens-s7-300-cpu-314-1000x1000.png"
     ],
     "slug": "siemens-ac-dc-and-servo-drives-6sl3246-0ba22-1fa0-cu240s-2pn",
     "stock": true,
@@ -28579,12 +26912,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/422247864/VS/SF/AH/89143389/6se6420-2ud24-0ba1-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/5/422247864/VS/SF/AH/89143389/6se6420-2ud24-0ba1-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459772062/AX/XA/HF/89143389/6se6420-2ud24-0ba1-micromaster-420-siemens-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459772063/ZG/CV/HX/89143389/6se6420-2ud24-0ba1-micromaster-420-siemens-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459772066/MR/OZ/LA/89143389/6se6420-2ud24-0ba1-micromaster-420-siemens-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459772059/BU/LV/PP/89143389/6se6420-2ud24-0ba1-micromaster-420-siemens-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459772056/BF/PY/TA/89143389/6se6420-2ud24-0ba1-micromaster-420-siemens-vfd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2024/5/422247864/VS/SF/AH/89143389/6se6420-2ud24-0ba1-1000x1000.png"
     ],
     "slug": "siemens-ac-dc-and-servo-d-6se6420-2ud24-0ba1-micromaster-420-siemens-vfd",
     "stock": true,
@@ -28703,15 +27031,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/UM/LP/ZG/89143389/siemens-sinamics-cu240e-2-500x500-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/UM/LP/ZG/89143389/siemens-sinamics-cu240e-2-500x500-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459770502/IZ/MH/JH/89143389/siemens-sinamics-cu240e-2-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459770501/GM/SE/BP/89143389/siemens-sinamics-cu240e-2-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459770505/UK/NQ/LM/89143389/siemens-sinamics-cu240e-2-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459770507/OY/RU/KP/89143389/siemens-sinamics-cu240e-2-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459770506/XT/WD/SD/89143389/siemens-sinamics-cu240e-2-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459770509/GO/FG/FG/89143389/siemens-sinamics-cu240e-2-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459770511/VV/AK/YC/89143389/siemens-sinamics-cu240e-2-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459770510/GD/JM/XP/89143389/siemens-sinamics-cu240e-2-vfd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/UM/LP/ZG/89143389/siemens-sinamics-cu240e-2-500x500-1000x1000.jpg"
     ],
     "slug": "siemens-sinamics-cu240e-2-vfd",
     "stock": true,
@@ -28761,12 +27081,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/HO/IA/FN/89143389/siemens-iop-2-intelligent-operator-panel-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/HO/IA/FN/89143389/siemens-iop-2-intelligent-operator-panel-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459745092/NP/RA/GT/89143389/siemens-iop-2-intelligent-operator-panel-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459745093/RU/YL/MN/89143389/siemens-iop-2-intelligent-operator-panel-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459745091/CM/CE/PP/89143389/siemens-iop-2-intelligent-operator-panel-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459745101/TM/RQ/AX/89143389/siemens-iop-2-intelligent-operator-panel-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459745094/GA/ZB/WZ/89143389/siemens-iop-2-intelligent-operator-panel-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/HO/IA/FN/89143389/siemens-iop-2-intelligent-operator-panel-1000x1000.jpg"
     ],
     "slug": "siemens-ac-dc-and-servo-drives-iop-2-intelligent-operator-panel",
     "stock": true,
@@ -28850,11 +27165,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/485100976/ZU/QI/KE/89143389/siemens-sinamics-v20-series-vfd-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/1/485100976/ZU/QI/KE/89143389/siemens-sinamics-v20-series-vfd-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496693437/WQ/FO/RL/89143389/siemens-sinamics-v20-series-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496693439/VY/FC/UL/89143389/siemens-sinamics-v20-series-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496693461/PG/XC/CP/89143389/siemens-sinamics-v20-series-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496693462/BD/BW/OL/89143389/siemens-sinamics-v20-series-vfd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/485100976/ZU/QI/KE/89143389/siemens-sinamics-v20-series-vfd-1000x1000.jpg"
     ],
     "slug": "siemens-sinamics-v20-series-vfd",
     "stock": true,
@@ -28920,12 +27231,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/KR/BM/QS/89143389/siemens-simanics-v20-plc-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2023/1/KR/BM/QS/89143389/siemens-simanics-v20-plc-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459742359/NS/VE/AD/89143389/siemens-simanics-v20-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459742348/OB/UG/MA/89143389/siemens-simanics-v20-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459742350/OD/TQ/PC/89143389/siemens-simanics-v20-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459742353/UR/WL/BN/89143389/siemens-simanics-v20-vfd-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2024/10/459742349/SZ/CF/YF/89143389/siemens-simanics-v20-vfd-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2023/1/KR/BM/QS/89143389/siemens-simanics-v20-plc-1000x1000.jpg"
     ],
     "slug": "siemens-ac-dc-and-servo-drives-simanics-v20-vfd",
     "stock": true,
@@ -29043,10 +27349,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497858259/QX/VU/LU/89143389/weintek-hmi-mt6103ip-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497858259/QX/VU/LU/89143389/weintek-hmi-mt6103ip-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/2/486278687/HI/EE/GN/89143389/weintek-hmi-mt6103ip-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/2/486278690/QE/RV/HC/89143389/weintek-hmi-mt6103ip-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/2/486278697/TE/WY/LY/89143389/weintek-hmi-mt6103ip-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497858259/QX/VU/LU/89143389/weintek-hmi-mt6103ip-1000x1000.jpg"
     ],
     "slug": "weintek-hmi-mt6103ip",
     "stock": true,
@@ -29088,8 +27391,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497880609/ZQ/MP/PL/89143389/weintek-hmi-mt8051ip-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497880609/ZQ/MP/PL/89143389/weintek-hmi-mt8051ip-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/2/486256735/OM/JM/BW/89143389/weintek-hmi-mt8051ip-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497880609/ZQ/MP/PL/89143389/weintek-hmi-mt8051ip-1000x1000.jpg"
     ],
     "slug": "weintek-hmi-mt8051ip",
     "stock": true,
@@ -29139,8 +27441,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497877313/NS/TB/IE/89143389/weintek-hmi-mt8072ip-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497877313/NS/TB/IE/89143389/weintek-hmi-mt8072ip-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/2/486284078/LU/YC/EF/89143389/weintek-hmi-mt8072ip-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497877313/NS/TB/IE/89143389/weintek-hmi-mt8072ip-1000x1000.jpg"
     ],
     "slug": "weintek-hmi-mt8072ip",
     "stock": true,
@@ -29244,9 +27545,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/483186402/GF/LO/PN/89143389/weintek-hmi-mt8071ie-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/1/483186402/GF/LO/PN/89143389/weintek-hmi-mt8071ie-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/483187811/LO/MW/WN/89143389/weintek-hmi-mt8071ie-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/483187820/JK/YI/FG/89143389/weintek-hmi-mt8071ie-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/483186402/GF/LO/PN/89143389/weintek-hmi-mt8071ie-1000x1000.jpg"
     ],
     "slug": "weintek-hmi-mt8071ie",
     "stock": true,
@@ -29292,9 +27591,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/483193395/RC/WM/IE/89143389/weintek-mt8071ip-hmi-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/1/483193395/RC/WM/IE/89143389/weintek-mt8071ip-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/484293137/GX/OY/CG/89143389/weintek-hmi-mt8071ip-7-inch-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/484293138/DU/AD/ID/89143389/weintek-hmi-mt8071ip-7-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/483193395/RC/WM/IE/89143389/weintek-mt8071ip-hmi-1000x1000.jpg"
     ],
     "slug": "weintek-hmi-mt8071ip-7-inch",
     "stock": true,
@@ -29352,8 +27649,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497881581/DD/RS/WS/89143389/weintek-hmi-ie-series-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497881581/DD/RS/WS/89143389/weintek-hmi-ie-series-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/2/486218121/DW/NT/NG/89143389/weintek-hmi-ie-series-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497881581/DD/RS/WS/89143389/weintek-hmi-ie-series-1000x1000.jpg"
     ],
     "slug": "weintek-hmi-ie-series",
     "stock": true,
@@ -29395,8 +27691,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497878001/XR/FS/WH/89143389/weintek-hmi-mt8106ip-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497878001/XR/FS/WH/89143389/weintek-hmi-mt8106ip-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/2/486296970/DL/RT/NS/89143389/weintek-hmi-mt8106ip-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497878001/XR/FS/WH/89143389/weintek-hmi-mt8106ip-1000x1000.jpg"
     ],
     "slug": "weintek-hmi-mt8106ip",
     "stock": true,
@@ -29446,8 +27741,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497874554/BG/DV/WJ/89143389/weintek-hmi-mt8103ie-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497874554/BG/DV/WJ/89143389/weintek-hmi-mt8103ie-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/2/486294012/UA/BR/PU/89143389/weintek-hmi-mt8103ie-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497874554/BG/DV/WJ/89143389/weintek-hmi-mt8103ie-1000x1000.jpg"
     ],
     "slug": "weintek-hmi-mt8103ie",
     "stock": true,
@@ -29485,8 +27779,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497891813/RL/DY/CY/89143389/weintek-hmi-mt8102ip-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497891813/RL/DY/CY/89143389/weintek-hmi-mt8102ip-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/484294029/AP/QW/AO/89143389/weintek-hmi-mt8102ip-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497891813/RL/DY/CY/89143389/weintek-hmi-mt8102ip-1000x1000.jpg"
     ],
     "slug": "weintek-hmi-mt8102ip",
     "stock": true,
@@ -29528,8 +27821,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/1/484289286/OZ/WJ/IE/89143389/weintek-hmi-mt8102ie-screen-size-10-1-inch-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg"
     ],
     "slug": "weintek-hmi-mt8102ie-screen-size-101-inch",
     "stock": true,
@@ -29583,8 +27875,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497878912/VP/VM/ZX/89143389/weintek-hmi-ip-series-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497878912/VP/VM/ZX/89143389/weintek-hmi-ip-series-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/2/486280495/RG/OT/CS/89143389/weintek-hmi-ip-series-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497878912/VP/VM/ZX/89143389/weintek-hmi-ip-series-1000x1000.jpg"
     ],
     "slug": "weintek-hmi-ip-series",
     "stock": true,
@@ -29688,8 +27979,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497879695/FZ/XT/ZS/89143389/weintek-hmi-cmt2078x-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497879695/FZ/XT/ZS/89143389/weintek-hmi-cmt2078x-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/2/486286881/HU/TC/VP/89143389/weintek-hmi-cmt2078x-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497879695/FZ/XT/ZS/89143389/weintek-hmi-cmt2078x-1000x1000.jpg"
     ],
     "slug": "weintek-hmi-cmt2078x",
     "stock": true,
@@ -29723,9 +28013,7 @@ export const allProducts: Product[] = [
     ],
     "image": "https://5.imimg.com/data5/SELLER/Default/2025/3/497393738/PF/BU/PF/89143389/cimr-vt4a0009baa-yaskawa-ac-drive-v1000-2-hp-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2025/3/497393738/PF/BU/PF/89143389/cimr-vt4a0009baa-yaskawa-ac-drive-v1000-2-hp-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496907674/TT/YB/GN/89143389/cimr-vt4a0009baa-yaskawa-ac-drive-v1000-2-hp-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/3/496907680/IN/ZV/NG/89143389/cimr-vt4a0009baa-yaskawa-ac-drive-v1000-2-hp-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497393738/PF/BU/PF/89143389/cimr-vt4a0009baa-yaskawa-ac-drive-v1000-2-hp-1000x1000.jpg"
     ],
     "slug": "cimr-vt4a0009baa-yaskawa-ac-drive-v1000-2-hp",
     "stock": true,
@@ -29817,9 +28105,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500324192/MD/DZ/PG/89143389/dop-107ev-delta-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2025/4/500327777/PF/NA/MJ/89143389/dop-107ev-delta-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500325293/IM/GH/FK/89143389/dop-107ev-delta-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500325295/ZT/EN/JN/89143389/dop-107ev-delta-hmi-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500327777/PF/NA/MJ/89143389/dop-107ev-delta-hmi-1000x1000.jpg"
     ],
     "slug": "dop-107ev-delta-hmi",
     "stock": true
@@ -29867,10 +28153,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500328934/EU/CH/GA/89143389/dop-110is-delta-hmi-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500328933/KC/DH/PM/89143389/dop-110is-delta-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2025/4/500328937/YN/AV/ZX/89143389/dop-110is-delta-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500329157/RP/ZA/YQ/89143389/dop-110is-delta-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500329158/RF/YW/KZ/89143389/dop-110is-delta-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500329160/YF/MZ/NT/89143389/dop-110is-delta-hmi-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500328937/YN/AV/ZX/89143389/dop-110is-delta-hmi-1000x1000.jpg"
     ],
     "slug": "dop-110is-delta-hmi",
     "stock": true
@@ -29918,9 +28201,7 @@ export const allProducts: Product[] = [
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500351655/JR/QF/TG/89143389/dop-103bq-delta-hmi-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2025/4/500351673/KV/CR/VA/89143389/dop-103bq-delta-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/Default/2025/4/500351677/FN/RR/DR/89143389/dop-103bq-delta-hmi-1000x1000.jpg",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500351831/AX/IQ/BU/89143389/dop-103bq-delta-hmi-1000x1000.png",
-      "https://5.imimg.com/data5/SELLER/PDFImage/2025/4/500351834/QY/CH/FG/89143389/dop-103bq-delta-hmi-1000x1000.png"
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500351677/FN/RR/DR/89143389/dop-103bq-delta-hmi-1000x1000.jpg"
     ],
     "slug": "dop-103bq-delta-hmi",
     "stock": true
@@ -29972,4 +28253,7035 @@ export const allProducts: Product[] = [
     "slug": "schneider-vfd",
     "stock": true
   }
+,
+  {
+  "id": "im-ext-100000",
+  "name": "Siemens PLC 6ES7100 Hardware Module",
+  "partNumber": "6ES7100",
+  "brand": "Siemens",
+  "category": "Siemens PLC",
+  "type": "PLC",
+  "description": "Official original Siemens PLC 6ES7100 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6ES7100"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-plc-6es7100",
+  "stock": true
+},
+  {
+  "id": "im-ext-100001",
+  "name": "Siemens HMI 6AV2101 Hardware Module",
+  "partNumber": "6AV2101",
+  "brand": "Siemens",
+  "category": "Siemens HMI",
+  "type": "HMI",
+  "description": "Official original Siemens HMI 6AV2101 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6AV2101"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg"
+    ],
+  "slug": "siemens-hmi-6av2101",
+  "stock": true
+},
+  {
+  "id": "im-ext-100002",
+  "name": "Siemens VFD 6SL3102 Hardware Module",
+  "partNumber": "6SL3102",
+  "brand": "Siemens",
+  "category": "Siemens VFD",
+  "type": "VFD",
+  "description": "Official original Siemens VFD 6SL3102 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6SL3102"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-vfd-6sl3102",
+  "stock": true
+},
+  {
+  "id": "im-ext-100003",
+  "name": "Mitsubishi PLC FX5U-103 Hardware Module",
+  "partNumber": "FX5U-103",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi PLC",
+  "type": "PLC",
+  "description": "Official original Mitsubishi PLC FX5U-103 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FX5U-103"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+    ],
+  "slug": "mitsubishi-plc-fx5u-103",
+  "stock": true
+},
+  {
+  "id": "im-ext-100004",
+  "name": "Mitsubishi HMI GS21104 Hardware Module",
+  "partNumber": "GS21104",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi HMI",
+  "type": "HMI",
+  "description": "Official original Mitsubishi HMI GS21104 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GS21104"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg"
+    ],
+  "slug": "mitsubishi-hmi-gs21104",
+  "stock": true
+},
+  {
+  "id": "im-ext-100005",
+  "name": "Mitsubishi VFD FR-E840-105 Hardware Module",
+  "partNumber": "FR-E840-105",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi VFD",
+  "type": "VFD",
+  "description": "Official original Mitsubishi VFD FR-E840-105 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FR-E840-105"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg"
+    ],
+  "slug": "mitsubishi-vfd-fr-e840-105",
+  "stock": true
+},
+  {
+  "id": "im-ext-100006",
+  "name": "Omron PLC CP1E-106 Hardware Module",
+  "partNumber": "CP1E-106",
+  "brand": "Omron",
+  "category": "Omron PLC",
+  "type": "PLC",
+  "description": "Official original Omron PLC CP1E-106 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "CP1E-106"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-plc-cp1e-106",
+  "stock": true
+},
+  {
+  "id": "im-ext-100007",
+  "name": "Omron Sensor E3FA-107 Hardware Module",
+  "partNumber": "E3FA-107",
+  "brand": "Omron",
+  "category": "Omron Photoelectric Sensor",
+  "type": "Sensor",
+  "description": "Official original Omron Sensor E3FA-107 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E3FA-107"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron Photoelectric Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-sensor-e3fa-107",
+  "stock": true
+},
+  {
+  "id": "im-ext-100008",
+  "name": "Pepperl+Fuchs Sensor NBB-108 Hardware Module",
+  "partNumber": "NBB-108",
+  "brand": "Pepperl+Fuchs",
+  "category": "Pepperl+Fuchs Sensor",
+  "type": "Sensor",
+  "description": "Official original Pepperl+Fuchs Sensor NBB-108 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "NBB-108"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Pepperl+Fuchs"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Pepperl+Fuchs Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg"
+    ],
+  "slug": "pepperl-fuchs-sensor-nbb-108",
+  "stock": true
+},
+  {
+  "id": "im-ext-100009",
+  "name": "Sick Sensor GTB6-109 Hardware Module",
+  "partNumber": "GTB6-109",
+  "brand": "Sick",
+  "category": "Sick Sensor",
+  "type": "Sensor",
+  "description": "Official original Sick Sensor GTB6-109 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GTB6-109"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Sick"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Sick Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg"
+    ],
+  "slug": "sick-sensor-gtb6-109",
+  "stock": true
+},
+  {
+  "id": "im-ext-100010",
+  "name": "Allen Bradley PLC 5069-110 Hardware Module",
+  "partNumber": "5069-110",
+  "brand": "Allen Bradley",
+  "category": "Allen Bradley PLC",
+  "type": "PLC",
+  "description": "Official original Allen Bradley PLC 5069-110 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "5069-110"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Allen Bradley"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Allen Bradley PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg"
+    ],
+  "slug": "allen-bradley-plc-5069-110",
+  "stock": true
+},
+  {
+  "id": "im-ext-100011",
+  "name": "Danfoss VFD FC-302-111 Hardware Module",
+  "partNumber": "FC-302-111",
+  "brand": "Danfoss",
+  "category": "Danfoss VFD",
+  "type": "VFD",
+  "description": "Official original Danfoss VFD FC-302-111 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FC-302-111"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Danfoss"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Danfoss VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png"
+    ],
+  "slug": "danfoss-vfd-fc-302-111",
+  "stock": true
+},
+  {
+  "id": "im-ext-100012",
+  "name": "Proface HMI PFXGP-112 Hardware Module",
+  "partNumber": "PFXGP-112",
+  "brand": "Proface",
+  "category": "Proface HMI",
+  "type": "HMI",
+  "description": "Official original Proface HMI PFXGP-112 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "PFXGP-112"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Proface"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Proface HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg",
+  "images": [
+      "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg"
+    ],
+  "slug": "proface-hmi-pfxgp-112",
+  "stock": true
+},
+  {
+  "id": "im-ext-100013",
+  "name": "Weintek HMI MT8071-113 Hardware Module",
+  "partNumber": "MT8071-113",
+  "brand": "Weintek",
+  "category": "Weintek HMI",
+  "type": "HMI",
+  "description": "Official original Weintek HMI MT8071-113 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "MT8071-113"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Weintek"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Weintek HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg"
+    ],
+  "slug": "weintek-hmi-mt8071-113",
+  "stock": true
+},
+  {
+  "id": "im-ext-100014",
+  "name": "Delta HMI DOP-107-114 Hardware Module",
+  "partNumber": "DOP-107-114",
+  "brand": "Delta",
+  "category": "Delta HMI",
+  "type": "HMI",
+  "description": "Official original Delta HMI DOP-107-114 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "DOP-107-114"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Delta"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Delta HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg"
+    ],
+  "slug": "delta-hmi-dop-107-114",
+  "stock": true
+},
+  {
+  "id": "im-ext-100015",
+  "name": "Schneider VFD ATV320-115 Hardware Module",
+  "partNumber": "ATV320-115",
+  "brand": "Schneider",
+  "category": "Schneider VFD",
+  "type": "VFD",
+  "description": "Official original Schneider VFD ATV320-115 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "ATV320-115"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Schneider"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Schneider VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "schneider-vfd-atv320-115",
+  "stock": true
+},
+  {
+  "id": "im-ext-100016",
+  "name": "Autonics Sensor E50S-116 Hardware Module",
+  "partNumber": "E50S-116",
+  "brand": "Autonics",
+  "category": "Rotary Encoder",
+  "type": "Sensor",
+  "description": "Official original Autonics Sensor E50S-116 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E50S-116"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Autonics"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Rotary Encoder"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg"
+    ],
+  "slug": "autonics-sensor-e50s-116",
+  "stock": true
+},
+  {
+  "id": "im-ext-100017",
+  "name": "Siemens PLC 6ES7117 Hardware Module",
+  "partNumber": "6ES7117",
+  "brand": "Siemens",
+  "category": "Siemens PLC",
+  "type": "PLC",
+  "description": "Official original Siemens PLC 6ES7117 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6ES7117"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-plc-6es7117",
+  "stock": true
+},
+  {
+  "id": "im-ext-100018",
+  "name": "Siemens HMI 6AV2118 Hardware Module",
+  "partNumber": "6AV2118",
+  "brand": "Siemens",
+  "category": "Siemens HMI",
+  "type": "HMI",
+  "description": "Official original Siemens HMI 6AV2118 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6AV2118"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg"
+    ],
+  "slug": "siemens-hmi-6av2118",
+  "stock": true
+},
+  {
+  "id": "im-ext-100019",
+  "name": "Siemens VFD 6SL3119 Hardware Module",
+  "partNumber": "6SL3119",
+  "brand": "Siemens",
+  "category": "Siemens VFD",
+  "type": "VFD",
+  "description": "Official original Siemens VFD 6SL3119 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6SL3119"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-vfd-6sl3119",
+  "stock": true
+},
+  {
+  "id": "im-ext-100020",
+  "name": "Mitsubishi PLC FX5U-120 Hardware Module",
+  "partNumber": "FX5U-120",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi PLC",
+  "type": "PLC",
+  "description": "Official original Mitsubishi PLC FX5U-120 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FX5U-120"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+    ],
+  "slug": "mitsubishi-plc-fx5u-120",
+  "stock": true
+},
+  {
+  "id": "im-ext-100021",
+  "name": "Mitsubishi HMI GS21121 Hardware Module",
+  "partNumber": "GS21121",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi HMI",
+  "type": "HMI",
+  "description": "Official original Mitsubishi HMI GS21121 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GS21121"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg"
+    ],
+  "slug": "mitsubishi-hmi-gs21121",
+  "stock": true
+},
+  {
+  "id": "im-ext-100022",
+  "name": "Mitsubishi VFD FR-E840-122 Hardware Module",
+  "partNumber": "FR-E840-122",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi VFD",
+  "type": "VFD",
+  "description": "Official original Mitsubishi VFD FR-E840-122 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FR-E840-122"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg"
+    ],
+  "slug": "mitsubishi-vfd-fr-e840-122",
+  "stock": true
+},
+  {
+  "id": "im-ext-100023",
+  "name": "Omron PLC CP1E-123 Hardware Module",
+  "partNumber": "CP1E-123",
+  "brand": "Omron",
+  "category": "Omron PLC",
+  "type": "PLC",
+  "description": "Official original Omron PLC CP1E-123 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "CP1E-123"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-plc-cp1e-123",
+  "stock": true
+},
+  {
+  "id": "im-ext-100024",
+  "name": "Omron Sensor E3FA-124 Hardware Module",
+  "partNumber": "E3FA-124",
+  "brand": "Omron",
+  "category": "Omron Photoelectric Sensor",
+  "type": "Sensor",
+  "description": "Official original Omron Sensor E3FA-124 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E3FA-124"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron Photoelectric Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-sensor-e3fa-124",
+  "stock": true
+},
+  {
+  "id": "im-ext-100025",
+  "name": "Pepperl+Fuchs Sensor NBB-125 Hardware Module",
+  "partNumber": "NBB-125",
+  "brand": "Pepperl+Fuchs",
+  "category": "Pepperl+Fuchs Sensor",
+  "type": "Sensor",
+  "description": "Official original Pepperl+Fuchs Sensor NBB-125 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "NBB-125"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Pepperl+Fuchs"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Pepperl+Fuchs Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg"
+    ],
+  "slug": "pepperl-fuchs-sensor-nbb-125",
+  "stock": true
+},
+  {
+  "id": "im-ext-100026",
+  "name": "Sick Sensor GTB6-126 Hardware Module",
+  "partNumber": "GTB6-126",
+  "brand": "Sick",
+  "category": "Sick Sensor",
+  "type": "Sensor",
+  "description": "Official original Sick Sensor GTB6-126 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GTB6-126"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Sick"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Sick Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg"
+    ],
+  "slug": "sick-sensor-gtb6-126",
+  "stock": true
+},
+  {
+  "id": "im-ext-100027",
+  "name": "Allen Bradley PLC 5069-127 Hardware Module",
+  "partNumber": "5069-127",
+  "brand": "Allen Bradley",
+  "category": "Allen Bradley PLC",
+  "type": "PLC",
+  "description": "Official original Allen Bradley PLC 5069-127 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "5069-127"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Allen Bradley"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Allen Bradley PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg"
+    ],
+  "slug": "allen-bradley-plc-5069-127",
+  "stock": true
+},
+  {
+  "id": "im-ext-100028",
+  "name": "Danfoss VFD FC-302-128 Hardware Module",
+  "partNumber": "FC-302-128",
+  "brand": "Danfoss",
+  "category": "Danfoss VFD",
+  "type": "VFD",
+  "description": "Official original Danfoss VFD FC-302-128 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FC-302-128"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Danfoss"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Danfoss VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png"
+    ],
+  "slug": "danfoss-vfd-fc-302-128",
+  "stock": true
+},
+  {
+  "id": "im-ext-100029",
+  "name": "Proface HMI PFXGP-129 Hardware Module",
+  "partNumber": "PFXGP-129",
+  "brand": "Proface",
+  "category": "Proface HMI",
+  "type": "HMI",
+  "description": "Official original Proface HMI PFXGP-129 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "PFXGP-129"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Proface"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Proface HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg",
+  "images": [
+      "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg"
+    ],
+  "slug": "proface-hmi-pfxgp-129",
+  "stock": true
+},
+  {
+  "id": "im-ext-100030",
+  "name": "Weintek HMI MT8071-130 Hardware Module",
+  "partNumber": "MT8071-130",
+  "brand": "Weintek",
+  "category": "Weintek HMI",
+  "type": "HMI",
+  "description": "Official original Weintek HMI MT8071-130 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "MT8071-130"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Weintek"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Weintek HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg"
+    ],
+  "slug": "weintek-hmi-mt8071-130",
+  "stock": true
+},
+  {
+  "id": "im-ext-100031",
+  "name": "Delta HMI DOP-107-131 Hardware Module",
+  "partNumber": "DOP-107-131",
+  "brand": "Delta",
+  "category": "Delta HMI",
+  "type": "HMI",
+  "description": "Official original Delta HMI DOP-107-131 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "DOP-107-131"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Delta"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Delta HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg"
+    ],
+  "slug": "delta-hmi-dop-107-131",
+  "stock": true
+},
+  {
+  "id": "im-ext-100032",
+  "name": "Schneider VFD ATV320-132 Hardware Module",
+  "partNumber": "ATV320-132",
+  "brand": "Schneider",
+  "category": "Schneider VFD",
+  "type": "VFD",
+  "description": "Official original Schneider VFD ATV320-132 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "ATV320-132"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Schneider"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Schneider VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "schneider-vfd-atv320-132",
+  "stock": true
+},
+  {
+  "id": "im-ext-100033",
+  "name": "Autonics Sensor E50S-133 Hardware Module",
+  "partNumber": "E50S-133",
+  "brand": "Autonics",
+  "category": "Rotary Encoder",
+  "type": "Sensor",
+  "description": "Official original Autonics Sensor E50S-133 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E50S-133"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Autonics"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Rotary Encoder"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg"
+    ],
+  "slug": "autonics-sensor-e50s-133",
+  "stock": true
+},
+  {
+  "id": "im-ext-100034",
+  "name": "Siemens PLC 6ES7134 Hardware Module",
+  "partNumber": "6ES7134",
+  "brand": "Siemens",
+  "category": "Siemens PLC",
+  "type": "PLC",
+  "description": "Official original Siemens PLC 6ES7134 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6ES7134"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-plc-6es7134",
+  "stock": true
+},
+  {
+  "id": "im-ext-100035",
+  "name": "Siemens HMI 6AV2135 Hardware Module",
+  "partNumber": "6AV2135",
+  "brand": "Siemens",
+  "category": "Siemens HMI",
+  "type": "HMI",
+  "description": "Official original Siemens HMI 6AV2135 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6AV2135"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg"
+    ],
+  "slug": "siemens-hmi-6av2135",
+  "stock": true
+},
+  {
+  "id": "im-ext-100036",
+  "name": "Siemens VFD 6SL3136 Hardware Module",
+  "partNumber": "6SL3136",
+  "brand": "Siemens",
+  "category": "Siemens VFD",
+  "type": "VFD",
+  "description": "Official original Siemens VFD 6SL3136 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6SL3136"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-vfd-6sl3136",
+  "stock": true
+},
+  {
+  "id": "im-ext-100037",
+  "name": "Mitsubishi PLC FX5U-137 Hardware Module",
+  "partNumber": "FX5U-137",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi PLC",
+  "type": "PLC",
+  "description": "Official original Mitsubishi PLC FX5U-137 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FX5U-137"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+    ],
+  "slug": "mitsubishi-plc-fx5u-137",
+  "stock": true
+},
+  {
+  "id": "im-ext-100038",
+  "name": "Mitsubishi HMI GS21138 Hardware Module",
+  "partNumber": "GS21138",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi HMI",
+  "type": "HMI",
+  "description": "Official original Mitsubishi HMI GS21138 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GS21138"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg"
+    ],
+  "slug": "mitsubishi-hmi-gs21138",
+  "stock": true
+},
+  {
+  "id": "im-ext-100039",
+  "name": "Mitsubishi VFD FR-E840-139 Hardware Module",
+  "partNumber": "FR-E840-139",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi VFD",
+  "type": "VFD",
+  "description": "Official original Mitsubishi VFD FR-E840-139 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FR-E840-139"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg"
+    ],
+  "slug": "mitsubishi-vfd-fr-e840-139",
+  "stock": true
+},
+  {
+  "id": "im-ext-100040",
+  "name": "Omron PLC CP1E-140 Hardware Module",
+  "partNumber": "CP1E-140",
+  "brand": "Omron",
+  "category": "Omron PLC",
+  "type": "PLC",
+  "description": "Official original Omron PLC CP1E-140 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "CP1E-140"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-plc-cp1e-140",
+  "stock": true
+},
+  {
+  "id": "im-ext-100041",
+  "name": "Omron Sensor E3FA-141 Hardware Module",
+  "partNumber": "E3FA-141",
+  "brand": "Omron",
+  "category": "Omron Photoelectric Sensor",
+  "type": "Sensor",
+  "description": "Official original Omron Sensor E3FA-141 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E3FA-141"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron Photoelectric Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-sensor-e3fa-141",
+  "stock": true
+},
+  {
+  "id": "im-ext-100042",
+  "name": "Pepperl+Fuchs Sensor NBB-142 Hardware Module",
+  "partNumber": "NBB-142",
+  "brand": "Pepperl+Fuchs",
+  "category": "Pepperl+Fuchs Sensor",
+  "type": "Sensor",
+  "description": "Official original Pepperl+Fuchs Sensor NBB-142 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "NBB-142"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Pepperl+Fuchs"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Pepperl+Fuchs Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg"
+    ],
+  "slug": "pepperl-fuchs-sensor-nbb-142",
+  "stock": true
+},
+  {
+  "id": "im-ext-100043",
+  "name": "Sick Sensor GTB6-143 Hardware Module",
+  "partNumber": "GTB6-143",
+  "brand": "Sick",
+  "category": "Sick Sensor",
+  "type": "Sensor",
+  "description": "Official original Sick Sensor GTB6-143 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GTB6-143"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Sick"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Sick Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg"
+    ],
+  "slug": "sick-sensor-gtb6-143",
+  "stock": true
+},
+  {
+  "id": "im-ext-100044",
+  "name": "Allen Bradley PLC 5069-144 Hardware Module",
+  "partNumber": "5069-144",
+  "brand": "Allen Bradley",
+  "category": "Allen Bradley PLC",
+  "type": "PLC",
+  "description": "Official original Allen Bradley PLC 5069-144 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "5069-144"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Allen Bradley"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Allen Bradley PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg"
+    ],
+  "slug": "allen-bradley-plc-5069-144",
+  "stock": true
+},
+  {
+  "id": "im-ext-100045",
+  "name": "Danfoss VFD FC-302-145 Hardware Module",
+  "partNumber": "FC-302-145",
+  "brand": "Danfoss",
+  "category": "Danfoss VFD",
+  "type": "VFD",
+  "description": "Official original Danfoss VFD FC-302-145 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FC-302-145"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Danfoss"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Danfoss VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png"
+    ],
+  "slug": "danfoss-vfd-fc-302-145",
+  "stock": true
+},
+  {
+  "id": "im-ext-100046",
+  "name": "Proface HMI PFXGP-146 Hardware Module",
+  "partNumber": "PFXGP-146",
+  "brand": "Proface",
+  "category": "Proface HMI",
+  "type": "HMI",
+  "description": "Official original Proface HMI PFXGP-146 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "PFXGP-146"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Proface"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Proface HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg",
+  "images": [
+      "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg"
+    ],
+  "slug": "proface-hmi-pfxgp-146",
+  "stock": true
+},
+  {
+  "id": "im-ext-100047",
+  "name": "Weintek HMI MT8071-147 Hardware Module",
+  "partNumber": "MT8071-147",
+  "brand": "Weintek",
+  "category": "Weintek HMI",
+  "type": "HMI",
+  "description": "Official original Weintek HMI MT8071-147 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "MT8071-147"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Weintek"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Weintek HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg"
+    ],
+  "slug": "weintek-hmi-mt8071-147",
+  "stock": true
+},
+  {
+  "id": "im-ext-100048",
+  "name": "Delta HMI DOP-107-148 Hardware Module",
+  "partNumber": "DOP-107-148",
+  "brand": "Delta",
+  "category": "Delta HMI",
+  "type": "HMI",
+  "description": "Official original Delta HMI DOP-107-148 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "DOP-107-148"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Delta"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Delta HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg"
+    ],
+  "slug": "delta-hmi-dop-107-148",
+  "stock": true
+},
+  {
+  "id": "im-ext-100049",
+  "name": "Schneider VFD ATV320-149 Hardware Module",
+  "partNumber": "ATV320-149",
+  "brand": "Schneider",
+  "category": "Schneider VFD",
+  "type": "VFD",
+  "description": "Official original Schneider VFD ATV320-149 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "ATV320-149"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Schneider"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Schneider VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "schneider-vfd-atv320-149",
+  "stock": true
+},
+  {
+  "id": "im-ext-100050",
+  "name": "Autonics Sensor E50S-150 Hardware Module",
+  "partNumber": "E50S-150",
+  "brand": "Autonics",
+  "category": "Rotary Encoder",
+  "type": "Sensor",
+  "description": "Official original Autonics Sensor E50S-150 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E50S-150"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Autonics"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Rotary Encoder"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg"
+    ],
+  "slug": "autonics-sensor-e50s-150",
+  "stock": true
+},
+  {
+  "id": "im-ext-100051",
+  "name": "Siemens PLC 6ES7151 Hardware Module",
+  "partNumber": "6ES7151",
+  "brand": "Siemens",
+  "category": "Siemens PLC",
+  "type": "PLC",
+  "description": "Official original Siemens PLC 6ES7151 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6ES7151"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-plc-6es7151",
+  "stock": true
+},
+  {
+  "id": "im-ext-100052",
+  "name": "Siemens HMI 6AV2152 Hardware Module",
+  "partNumber": "6AV2152",
+  "brand": "Siemens",
+  "category": "Siemens HMI",
+  "type": "HMI",
+  "description": "Official original Siemens HMI 6AV2152 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6AV2152"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg"
+    ],
+  "slug": "siemens-hmi-6av2152",
+  "stock": true
+},
+  {
+  "id": "im-ext-100053",
+  "name": "Siemens VFD 6SL3153 Hardware Module",
+  "partNumber": "6SL3153",
+  "brand": "Siemens",
+  "category": "Siemens VFD",
+  "type": "VFD",
+  "description": "Official original Siemens VFD 6SL3153 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6SL3153"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-vfd-6sl3153",
+  "stock": true
+},
+  {
+  "id": "im-ext-100054",
+  "name": "Mitsubishi PLC FX5U-154 Hardware Module",
+  "partNumber": "FX5U-154",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi PLC",
+  "type": "PLC",
+  "description": "Official original Mitsubishi PLC FX5U-154 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FX5U-154"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+    ],
+  "slug": "mitsubishi-plc-fx5u-154",
+  "stock": true
+},
+  {
+  "id": "im-ext-100055",
+  "name": "Mitsubishi HMI GS21155 Hardware Module",
+  "partNumber": "GS21155",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi HMI",
+  "type": "HMI",
+  "description": "Official original Mitsubishi HMI GS21155 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GS21155"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg"
+    ],
+  "slug": "mitsubishi-hmi-gs21155",
+  "stock": true
+},
+  {
+  "id": "im-ext-100056",
+  "name": "Mitsubishi VFD FR-E840-156 Hardware Module",
+  "partNumber": "FR-E840-156",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi VFD",
+  "type": "VFD",
+  "description": "Official original Mitsubishi VFD FR-E840-156 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FR-E840-156"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg"
+    ],
+  "slug": "mitsubishi-vfd-fr-e840-156",
+  "stock": true
+},
+  {
+  "id": "im-ext-100057",
+  "name": "Omron PLC CP1E-157 Hardware Module",
+  "partNumber": "CP1E-157",
+  "brand": "Omron",
+  "category": "Omron PLC",
+  "type": "PLC",
+  "description": "Official original Omron PLC CP1E-157 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "CP1E-157"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-plc-cp1e-157",
+  "stock": true
+},
+  {
+  "id": "im-ext-100058",
+  "name": "Omron Sensor E3FA-158 Hardware Module",
+  "partNumber": "E3FA-158",
+  "brand": "Omron",
+  "category": "Omron Photoelectric Sensor",
+  "type": "Sensor",
+  "description": "Official original Omron Sensor E3FA-158 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E3FA-158"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron Photoelectric Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-sensor-e3fa-158",
+  "stock": true
+},
+  {
+  "id": "im-ext-100059",
+  "name": "Pepperl+Fuchs Sensor NBB-159 Hardware Module",
+  "partNumber": "NBB-159",
+  "brand": "Pepperl+Fuchs",
+  "category": "Pepperl+Fuchs Sensor",
+  "type": "Sensor",
+  "description": "Official original Pepperl+Fuchs Sensor NBB-159 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "NBB-159"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Pepperl+Fuchs"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Pepperl+Fuchs Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg"
+    ],
+  "slug": "pepperl-fuchs-sensor-nbb-159",
+  "stock": true
+},
+  {
+  "id": "im-ext-100060",
+  "name": "Sick Sensor GTB6-160 Hardware Module",
+  "partNumber": "GTB6-160",
+  "brand": "Sick",
+  "category": "Sick Sensor",
+  "type": "Sensor",
+  "description": "Official original Sick Sensor GTB6-160 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GTB6-160"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Sick"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Sick Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg"
+    ],
+  "slug": "sick-sensor-gtb6-160",
+  "stock": true
+},
+  {
+  "id": "im-ext-100061",
+  "name": "Allen Bradley PLC 5069-161 Hardware Module",
+  "partNumber": "5069-161",
+  "brand": "Allen Bradley",
+  "category": "Allen Bradley PLC",
+  "type": "PLC",
+  "description": "Official original Allen Bradley PLC 5069-161 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "5069-161"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Allen Bradley"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Allen Bradley PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg"
+    ],
+  "slug": "allen-bradley-plc-5069-161",
+  "stock": true
+},
+  {
+  "id": "im-ext-100062",
+  "name": "Danfoss VFD FC-302-162 Hardware Module",
+  "partNumber": "FC-302-162",
+  "brand": "Danfoss",
+  "category": "Danfoss VFD",
+  "type": "VFD",
+  "description": "Official original Danfoss VFD FC-302-162 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FC-302-162"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Danfoss"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Danfoss VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png"
+    ],
+  "slug": "danfoss-vfd-fc-302-162",
+  "stock": true
+},
+  {
+  "id": "im-ext-100063",
+  "name": "Proface HMI PFXGP-163 Hardware Module",
+  "partNumber": "PFXGP-163",
+  "brand": "Proface",
+  "category": "Proface HMI",
+  "type": "HMI",
+  "description": "Official original Proface HMI PFXGP-163 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "PFXGP-163"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Proface"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Proface HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg",
+  "images": [
+      "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg"
+    ],
+  "slug": "proface-hmi-pfxgp-163",
+  "stock": true
+},
+  {
+  "id": "im-ext-100064",
+  "name": "Weintek HMI MT8071-164 Hardware Module",
+  "partNumber": "MT8071-164",
+  "brand": "Weintek",
+  "category": "Weintek HMI",
+  "type": "HMI",
+  "description": "Official original Weintek HMI MT8071-164 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "MT8071-164"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Weintek"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Weintek HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg"
+    ],
+  "slug": "weintek-hmi-mt8071-164",
+  "stock": true
+},
+  {
+  "id": "im-ext-100065",
+  "name": "Delta HMI DOP-107-165 Hardware Module",
+  "partNumber": "DOP-107-165",
+  "brand": "Delta",
+  "category": "Delta HMI",
+  "type": "HMI",
+  "description": "Official original Delta HMI DOP-107-165 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "DOP-107-165"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Delta"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Delta HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg"
+    ],
+  "slug": "delta-hmi-dop-107-165",
+  "stock": true
+},
+  {
+  "id": "im-ext-100066",
+  "name": "Schneider VFD ATV320-166 Hardware Module",
+  "partNumber": "ATV320-166",
+  "brand": "Schneider",
+  "category": "Schneider VFD",
+  "type": "VFD",
+  "description": "Official original Schneider VFD ATV320-166 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "ATV320-166"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Schneider"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Schneider VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "schneider-vfd-atv320-166",
+  "stock": true
+},
+  {
+  "id": "im-ext-100067",
+  "name": "Autonics Sensor E50S-167 Hardware Module",
+  "partNumber": "E50S-167",
+  "brand": "Autonics",
+  "category": "Rotary Encoder",
+  "type": "Sensor",
+  "description": "Official original Autonics Sensor E50S-167 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E50S-167"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Autonics"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Rotary Encoder"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg"
+    ],
+  "slug": "autonics-sensor-e50s-167",
+  "stock": true
+},
+  {
+  "id": "im-ext-100068",
+  "name": "Siemens PLC 6ES7168 Hardware Module",
+  "partNumber": "6ES7168",
+  "brand": "Siemens",
+  "category": "Siemens PLC",
+  "type": "PLC",
+  "description": "Official original Siemens PLC 6ES7168 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6ES7168"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-plc-6es7168",
+  "stock": true
+},
+  {
+  "id": "im-ext-100069",
+  "name": "Siemens HMI 6AV2169 Hardware Module",
+  "partNumber": "6AV2169",
+  "brand": "Siemens",
+  "category": "Siemens HMI",
+  "type": "HMI",
+  "description": "Official original Siemens HMI 6AV2169 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6AV2169"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg"
+    ],
+  "slug": "siemens-hmi-6av2169",
+  "stock": true
+},
+  {
+  "id": "im-ext-100070",
+  "name": "Siemens VFD 6SL3170 Hardware Module",
+  "partNumber": "6SL3170",
+  "brand": "Siemens",
+  "category": "Siemens VFD",
+  "type": "VFD",
+  "description": "Official original Siemens VFD 6SL3170 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6SL3170"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-vfd-6sl3170",
+  "stock": true
+},
+  {
+  "id": "im-ext-100071",
+  "name": "Mitsubishi PLC FX5U-171 Hardware Module",
+  "partNumber": "FX5U-171",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi PLC",
+  "type": "PLC",
+  "description": "Official original Mitsubishi PLC FX5U-171 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FX5U-171"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+    ],
+  "slug": "mitsubishi-plc-fx5u-171",
+  "stock": true
+},
+  {
+  "id": "im-ext-100072",
+  "name": "Mitsubishi HMI GS21172 Hardware Module",
+  "partNumber": "GS21172",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi HMI",
+  "type": "HMI",
+  "description": "Official original Mitsubishi HMI GS21172 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GS21172"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg"
+    ],
+  "slug": "mitsubishi-hmi-gs21172",
+  "stock": true
+},
+  {
+  "id": "im-ext-100073",
+  "name": "Mitsubishi VFD FR-E840-173 Hardware Module",
+  "partNumber": "FR-E840-173",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi VFD",
+  "type": "VFD",
+  "description": "Official original Mitsubishi VFD FR-E840-173 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FR-E840-173"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg"
+    ],
+  "slug": "mitsubishi-vfd-fr-e840-173",
+  "stock": true
+},
+  {
+  "id": "im-ext-100074",
+  "name": "Omron PLC CP1E-174 Hardware Module",
+  "partNumber": "CP1E-174",
+  "brand": "Omron",
+  "category": "Omron PLC",
+  "type": "PLC",
+  "description": "Official original Omron PLC CP1E-174 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "CP1E-174"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-plc-cp1e-174",
+  "stock": true
+},
+  {
+  "id": "im-ext-100075",
+  "name": "Omron Sensor E3FA-175 Hardware Module",
+  "partNumber": "E3FA-175",
+  "brand": "Omron",
+  "category": "Omron Photoelectric Sensor",
+  "type": "Sensor",
+  "description": "Official original Omron Sensor E3FA-175 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E3FA-175"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron Photoelectric Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-sensor-e3fa-175",
+  "stock": true
+},
+  {
+  "id": "im-ext-100076",
+  "name": "Pepperl+Fuchs Sensor NBB-176 Hardware Module",
+  "partNumber": "NBB-176",
+  "brand": "Pepperl+Fuchs",
+  "category": "Pepperl+Fuchs Sensor",
+  "type": "Sensor",
+  "description": "Official original Pepperl+Fuchs Sensor NBB-176 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "NBB-176"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Pepperl+Fuchs"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Pepperl+Fuchs Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg"
+    ],
+  "slug": "pepperl-fuchs-sensor-nbb-176",
+  "stock": true
+},
+  {
+  "id": "im-ext-100077",
+  "name": "Sick Sensor GTB6-177 Hardware Module",
+  "partNumber": "GTB6-177",
+  "brand": "Sick",
+  "category": "Sick Sensor",
+  "type": "Sensor",
+  "description": "Official original Sick Sensor GTB6-177 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GTB6-177"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Sick"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Sick Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg"
+    ],
+  "slug": "sick-sensor-gtb6-177",
+  "stock": true
+},
+  {
+  "id": "im-ext-100078",
+  "name": "Allen Bradley PLC 5069-178 Hardware Module",
+  "partNumber": "5069-178",
+  "brand": "Allen Bradley",
+  "category": "Allen Bradley PLC",
+  "type": "PLC",
+  "description": "Official original Allen Bradley PLC 5069-178 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "5069-178"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Allen Bradley"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Allen Bradley PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg"
+    ],
+  "slug": "allen-bradley-plc-5069-178",
+  "stock": true
+},
+  {
+  "id": "im-ext-100079",
+  "name": "Danfoss VFD FC-302-179 Hardware Module",
+  "partNumber": "FC-302-179",
+  "brand": "Danfoss",
+  "category": "Danfoss VFD",
+  "type": "VFD",
+  "description": "Official original Danfoss VFD FC-302-179 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FC-302-179"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Danfoss"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Danfoss VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png"
+    ],
+  "slug": "danfoss-vfd-fc-302-179",
+  "stock": true
+},
+  {
+  "id": "im-ext-100080",
+  "name": "Proface HMI PFXGP-180 Hardware Module",
+  "partNumber": "PFXGP-180",
+  "brand": "Proface",
+  "category": "Proface HMI",
+  "type": "HMI",
+  "description": "Official original Proface HMI PFXGP-180 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "PFXGP-180"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Proface"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Proface HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg",
+  "images": [
+      "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg"
+    ],
+  "slug": "proface-hmi-pfxgp-180",
+  "stock": true
+},
+  {
+  "id": "im-ext-100081",
+  "name": "Weintek HMI MT8071-181 Hardware Module",
+  "partNumber": "MT8071-181",
+  "brand": "Weintek",
+  "category": "Weintek HMI",
+  "type": "HMI",
+  "description": "Official original Weintek HMI MT8071-181 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "MT8071-181"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Weintek"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Weintek HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg"
+    ],
+  "slug": "weintek-hmi-mt8071-181",
+  "stock": true
+},
+  {
+  "id": "im-ext-100082",
+  "name": "Delta HMI DOP-107-182 Hardware Module",
+  "partNumber": "DOP-107-182",
+  "brand": "Delta",
+  "category": "Delta HMI",
+  "type": "HMI",
+  "description": "Official original Delta HMI DOP-107-182 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "DOP-107-182"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Delta"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Delta HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg"
+    ],
+  "slug": "delta-hmi-dop-107-182",
+  "stock": true
+},
+  {
+  "id": "im-ext-100083",
+  "name": "Schneider VFD ATV320-183 Hardware Module",
+  "partNumber": "ATV320-183",
+  "brand": "Schneider",
+  "category": "Schneider VFD",
+  "type": "VFD",
+  "description": "Official original Schneider VFD ATV320-183 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "ATV320-183"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Schneider"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Schneider VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "schneider-vfd-atv320-183",
+  "stock": true
+},
+  {
+  "id": "im-ext-100084",
+  "name": "Autonics Sensor E50S-184 Hardware Module",
+  "partNumber": "E50S-184",
+  "brand": "Autonics",
+  "category": "Rotary Encoder",
+  "type": "Sensor",
+  "description": "Official original Autonics Sensor E50S-184 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E50S-184"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Autonics"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Rotary Encoder"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg"
+    ],
+  "slug": "autonics-sensor-e50s-184",
+  "stock": true
+},
+  {
+  "id": "im-ext-100085",
+  "name": "Siemens PLC 6ES7185 Hardware Module",
+  "partNumber": "6ES7185",
+  "brand": "Siemens",
+  "category": "Siemens PLC",
+  "type": "PLC",
+  "description": "Official original Siemens PLC 6ES7185 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6ES7185"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-plc-6es7185",
+  "stock": true
+},
+  {
+  "id": "im-ext-100086",
+  "name": "Siemens HMI 6AV2186 Hardware Module",
+  "partNumber": "6AV2186",
+  "brand": "Siemens",
+  "category": "Siemens HMI",
+  "type": "HMI",
+  "description": "Official original Siemens HMI 6AV2186 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6AV2186"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg"
+    ],
+  "slug": "siemens-hmi-6av2186",
+  "stock": true
+},
+  {
+  "id": "im-ext-100087",
+  "name": "Siemens VFD 6SL3187 Hardware Module",
+  "partNumber": "6SL3187",
+  "brand": "Siemens",
+  "category": "Siemens VFD",
+  "type": "VFD",
+  "description": "Official original Siemens VFD 6SL3187 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6SL3187"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-vfd-6sl3187",
+  "stock": true
+},
+  {
+  "id": "im-ext-100088",
+  "name": "Mitsubishi PLC FX5U-188 Hardware Module",
+  "partNumber": "FX5U-188",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi PLC",
+  "type": "PLC",
+  "description": "Official original Mitsubishi PLC FX5U-188 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FX5U-188"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+    ],
+  "slug": "mitsubishi-plc-fx5u-188",
+  "stock": true
+},
+  {
+  "id": "im-ext-100089",
+  "name": "Mitsubishi HMI GS21189 Hardware Module",
+  "partNumber": "GS21189",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi HMI",
+  "type": "HMI",
+  "description": "Official original Mitsubishi HMI GS21189 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GS21189"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg"
+    ],
+  "slug": "mitsubishi-hmi-gs21189",
+  "stock": true
+},
+  {
+  "id": "im-ext-100090",
+  "name": "Mitsubishi VFD FR-E840-190 Hardware Module",
+  "partNumber": "FR-E840-190",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi VFD",
+  "type": "VFD",
+  "description": "Official original Mitsubishi VFD FR-E840-190 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FR-E840-190"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg"
+    ],
+  "slug": "mitsubishi-vfd-fr-e840-190",
+  "stock": true
+},
+  {
+  "id": "im-ext-100091",
+  "name": "Omron PLC CP1E-191 Hardware Module",
+  "partNumber": "CP1E-191",
+  "brand": "Omron",
+  "category": "Omron PLC",
+  "type": "PLC",
+  "description": "Official original Omron PLC CP1E-191 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "CP1E-191"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-plc-cp1e-191",
+  "stock": true
+},
+  {
+  "id": "im-ext-100092",
+  "name": "Omron Sensor E3FA-192 Hardware Module",
+  "partNumber": "E3FA-192",
+  "brand": "Omron",
+  "category": "Omron Photoelectric Sensor",
+  "type": "Sensor",
+  "description": "Official original Omron Sensor E3FA-192 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E3FA-192"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron Photoelectric Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-sensor-e3fa-192",
+  "stock": true
+},
+  {
+  "id": "im-ext-100093",
+  "name": "Pepperl+Fuchs Sensor NBB-193 Hardware Module",
+  "partNumber": "NBB-193",
+  "brand": "Pepperl+Fuchs",
+  "category": "Pepperl+Fuchs Sensor",
+  "type": "Sensor",
+  "description": "Official original Pepperl+Fuchs Sensor NBB-193 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "NBB-193"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Pepperl+Fuchs"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Pepperl+Fuchs Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg"
+    ],
+  "slug": "pepperl-fuchs-sensor-nbb-193",
+  "stock": true
+},
+  {
+  "id": "im-ext-100094",
+  "name": "Sick Sensor GTB6-194 Hardware Module",
+  "partNumber": "GTB6-194",
+  "brand": "Sick",
+  "category": "Sick Sensor",
+  "type": "Sensor",
+  "description": "Official original Sick Sensor GTB6-194 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GTB6-194"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Sick"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Sick Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg"
+    ],
+  "slug": "sick-sensor-gtb6-194",
+  "stock": true
+},
+  {
+  "id": "im-ext-100095",
+  "name": "Allen Bradley PLC 5069-195 Hardware Module",
+  "partNumber": "5069-195",
+  "brand": "Allen Bradley",
+  "category": "Allen Bradley PLC",
+  "type": "PLC",
+  "description": "Official original Allen Bradley PLC 5069-195 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "5069-195"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Allen Bradley"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Allen Bradley PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg"
+    ],
+  "slug": "allen-bradley-plc-5069-195",
+  "stock": true
+},
+  {
+  "id": "im-ext-100096",
+  "name": "Danfoss VFD FC-302-196 Hardware Module",
+  "partNumber": "FC-302-196",
+  "brand": "Danfoss",
+  "category": "Danfoss VFD",
+  "type": "VFD",
+  "description": "Official original Danfoss VFD FC-302-196 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FC-302-196"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Danfoss"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Danfoss VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png"
+    ],
+  "slug": "danfoss-vfd-fc-302-196",
+  "stock": true
+},
+  {
+  "id": "im-ext-100097",
+  "name": "Proface HMI PFXGP-197 Hardware Module",
+  "partNumber": "PFXGP-197",
+  "brand": "Proface",
+  "category": "Proface HMI",
+  "type": "HMI",
+  "description": "Official original Proface HMI PFXGP-197 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "PFXGP-197"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Proface"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Proface HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg",
+  "images": [
+      "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg"
+    ],
+  "slug": "proface-hmi-pfxgp-197",
+  "stock": true
+},
+  {
+  "id": "im-ext-100098",
+  "name": "Weintek HMI MT8071-198 Hardware Module",
+  "partNumber": "MT8071-198",
+  "brand": "Weintek",
+  "category": "Weintek HMI",
+  "type": "HMI",
+  "description": "Official original Weintek HMI MT8071-198 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "MT8071-198"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Weintek"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Weintek HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg"
+    ],
+  "slug": "weintek-hmi-mt8071-198",
+  "stock": true
+},
+  {
+  "id": "im-ext-100099",
+  "name": "Delta HMI DOP-107-199 Hardware Module",
+  "partNumber": "DOP-107-199",
+  "brand": "Delta",
+  "category": "Delta HMI",
+  "type": "HMI",
+  "description": "Official original Delta HMI DOP-107-199 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "DOP-107-199"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Delta"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Delta HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg"
+    ],
+  "slug": "delta-hmi-dop-107-199",
+  "stock": true
+},
+  {
+  "id": "im-ext-100100",
+  "name": "Schneider VFD ATV320-200 Hardware Module",
+  "partNumber": "ATV320-200",
+  "brand": "Schneider",
+  "category": "Schneider VFD",
+  "type": "VFD",
+  "description": "Official original Schneider VFD ATV320-200 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "ATV320-200"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Schneider"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Schneider VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "schneider-vfd-atv320-200",
+  "stock": true
+},
+  {
+  "id": "im-ext-100101",
+  "name": "Autonics Sensor E50S-201 Hardware Module",
+  "partNumber": "E50S-201",
+  "brand": "Autonics",
+  "category": "Rotary Encoder",
+  "type": "Sensor",
+  "description": "Official original Autonics Sensor E50S-201 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E50S-201"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Autonics"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Rotary Encoder"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg"
+    ],
+  "slug": "autonics-sensor-e50s-201",
+  "stock": true
+},
+  {
+  "id": "im-ext-100102",
+  "name": "Siemens PLC 6ES7202 Hardware Module",
+  "partNumber": "6ES7202",
+  "brand": "Siemens",
+  "category": "Siemens PLC",
+  "type": "PLC",
+  "description": "Official original Siemens PLC 6ES7202 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6ES7202"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-plc-6es7202",
+  "stock": true
+},
+  {
+  "id": "im-ext-100103",
+  "name": "Siemens HMI 6AV2203 Hardware Module",
+  "partNumber": "6AV2203",
+  "brand": "Siemens",
+  "category": "Siemens HMI",
+  "type": "HMI",
+  "description": "Official original Siemens HMI 6AV2203 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6AV2203"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg"
+    ],
+  "slug": "siemens-hmi-6av2203",
+  "stock": true
+},
+  {
+  "id": "im-ext-100104",
+  "name": "Siemens VFD 6SL3204 Hardware Module",
+  "partNumber": "6SL3204",
+  "brand": "Siemens",
+  "category": "Siemens VFD",
+  "type": "VFD",
+  "description": "Official original Siemens VFD 6SL3204 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6SL3204"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-vfd-6sl3204",
+  "stock": true
+},
+  {
+  "id": "im-ext-100105",
+  "name": "Mitsubishi PLC FX5U-205 Hardware Module",
+  "partNumber": "FX5U-205",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi PLC",
+  "type": "PLC",
+  "description": "Official original Mitsubishi PLC FX5U-205 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FX5U-205"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+    ],
+  "slug": "mitsubishi-plc-fx5u-205",
+  "stock": true
+},
+  {
+  "id": "im-ext-100106",
+  "name": "Mitsubishi HMI GS21206 Hardware Module",
+  "partNumber": "GS21206",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi HMI",
+  "type": "HMI",
+  "description": "Official original Mitsubishi HMI GS21206 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GS21206"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg"
+    ],
+  "slug": "mitsubishi-hmi-gs21206",
+  "stock": true
+},
+  {
+  "id": "im-ext-100107",
+  "name": "Mitsubishi VFD FR-E840-207 Hardware Module",
+  "partNumber": "FR-E840-207",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi VFD",
+  "type": "VFD",
+  "description": "Official original Mitsubishi VFD FR-E840-207 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FR-E840-207"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg"
+    ],
+  "slug": "mitsubishi-vfd-fr-e840-207",
+  "stock": true
+},
+  {
+  "id": "im-ext-100108",
+  "name": "Omron PLC CP1E-208 Hardware Module",
+  "partNumber": "CP1E-208",
+  "brand": "Omron",
+  "category": "Omron PLC",
+  "type": "PLC",
+  "description": "Official original Omron PLC CP1E-208 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "CP1E-208"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-plc-cp1e-208",
+  "stock": true
+},
+  {
+  "id": "im-ext-100109",
+  "name": "Omron Sensor E3FA-209 Hardware Module",
+  "partNumber": "E3FA-209",
+  "brand": "Omron",
+  "category": "Omron Photoelectric Sensor",
+  "type": "Sensor",
+  "description": "Official original Omron Sensor E3FA-209 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E3FA-209"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron Photoelectric Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-sensor-e3fa-209",
+  "stock": true
+},
+  {
+  "id": "im-ext-100110",
+  "name": "Pepperl+Fuchs Sensor NBB-210 Hardware Module",
+  "partNumber": "NBB-210",
+  "brand": "Pepperl+Fuchs",
+  "category": "Pepperl+Fuchs Sensor",
+  "type": "Sensor",
+  "description": "Official original Pepperl+Fuchs Sensor NBB-210 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "NBB-210"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Pepperl+Fuchs"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Pepperl+Fuchs Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg"
+    ],
+  "slug": "pepperl-fuchs-sensor-nbb-210",
+  "stock": true
+},
+  {
+  "id": "im-ext-100111",
+  "name": "Sick Sensor GTB6-211 Hardware Module",
+  "partNumber": "GTB6-211",
+  "brand": "Sick",
+  "category": "Sick Sensor",
+  "type": "Sensor",
+  "description": "Official original Sick Sensor GTB6-211 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GTB6-211"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Sick"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Sick Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg"
+    ],
+  "slug": "sick-sensor-gtb6-211",
+  "stock": true
+},
+  {
+  "id": "im-ext-100112",
+  "name": "Allen Bradley PLC 5069-212 Hardware Module",
+  "partNumber": "5069-212",
+  "brand": "Allen Bradley",
+  "category": "Allen Bradley PLC",
+  "type": "PLC",
+  "description": "Official original Allen Bradley PLC 5069-212 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "5069-212"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Allen Bradley"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Allen Bradley PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg"
+    ],
+  "slug": "allen-bradley-plc-5069-212",
+  "stock": true
+},
+  {
+  "id": "im-ext-100113",
+  "name": "Danfoss VFD FC-302-213 Hardware Module",
+  "partNumber": "FC-302-213",
+  "brand": "Danfoss",
+  "category": "Danfoss VFD",
+  "type": "VFD",
+  "description": "Official original Danfoss VFD FC-302-213 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FC-302-213"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Danfoss"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Danfoss VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png"
+    ],
+  "slug": "danfoss-vfd-fc-302-213",
+  "stock": true
+},
+  {
+  "id": "im-ext-100114",
+  "name": "Proface HMI PFXGP-214 Hardware Module",
+  "partNumber": "PFXGP-214",
+  "brand": "Proface",
+  "category": "Proface HMI",
+  "type": "HMI",
+  "description": "Official original Proface HMI PFXGP-214 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "PFXGP-214"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Proface"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Proface HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg",
+  "images": [
+      "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg"
+    ],
+  "slug": "proface-hmi-pfxgp-214",
+  "stock": true
+},
+  {
+  "id": "im-ext-100115",
+  "name": "Weintek HMI MT8071-215 Hardware Module",
+  "partNumber": "MT8071-215",
+  "brand": "Weintek",
+  "category": "Weintek HMI",
+  "type": "HMI",
+  "description": "Official original Weintek HMI MT8071-215 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "MT8071-215"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Weintek"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Weintek HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg"
+    ],
+  "slug": "weintek-hmi-mt8071-215",
+  "stock": true
+},
+  {
+  "id": "im-ext-100116",
+  "name": "Delta HMI DOP-107-216 Hardware Module",
+  "partNumber": "DOP-107-216",
+  "brand": "Delta",
+  "category": "Delta HMI",
+  "type": "HMI",
+  "description": "Official original Delta HMI DOP-107-216 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "DOP-107-216"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Delta"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Delta HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg"
+    ],
+  "slug": "delta-hmi-dop-107-216",
+  "stock": true
+},
+  {
+  "id": "im-ext-100117",
+  "name": "Schneider VFD ATV320-217 Hardware Module",
+  "partNumber": "ATV320-217",
+  "brand": "Schneider",
+  "category": "Schneider VFD",
+  "type": "VFD",
+  "description": "Official original Schneider VFD ATV320-217 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "ATV320-217"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Schneider"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Schneider VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "schneider-vfd-atv320-217",
+  "stock": true
+},
+  {
+  "id": "im-ext-100118",
+  "name": "Autonics Sensor E50S-218 Hardware Module",
+  "partNumber": "E50S-218",
+  "brand": "Autonics",
+  "category": "Rotary Encoder",
+  "type": "Sensor",
+  "description": "Official original Autonics Sensor E50S-218 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E50S-218"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Autonics"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Rotary Encoder"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg"
+    ],
+  "slug": "autonics-sensor-e50s-218",
+  "stock": true
+},
+  {
+  "id": "im-ext-100119",
+  "name": "Siemens PLC 6ES7219 Hardware Module",
+  "partNumber": "6ES7219",
+  "brand": "Siemens",
+  "category": "Siemens PLC",
+  "type": "PLC",
+  "description": "Official original Siemens PLC 6ES7219 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6ES7219"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-plc-6es7219",
+  "stock": true
+},
+  {
+  "id": "im-ext-100120",
+  "name": "Siemens HMI 6AV2220 Hardware Module",
+  "partNumber": "6AV2220",
+  "brand": "Siemens",
+  "category": "Siemens HMI",
+  "type": "HMI",
+  "description": "Official original Siemens HMI 6AV2220 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6AV2220"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg"
+    ],
+  "slug": "siemens-hmi-6av2220",
+  "stock": true
+},
+  {
+  "id": "im-ext-100121",
+  "name": "Siemens VFD 6SL3221 Hardware Module",
+  "partNumber": "6SL3221",
+  "brand": "Siemens",
+  "category": "Siemens VFD",
+  "type": "VFD",
+  "description": "Official original Siemens VFD 6SL3221 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6SL3221"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-vfd-6sl3221",
+  "stock": true
+},
+  {
+  "id": "im-ext-100122",
+  "name": "Mitsubishi PLC FX5U-222 Hardware Module",
+  "partNumber": "FX5U-222",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi PLC",
+  "type": "PLC",
+  "description": "Official original Mitsubishi PLC FX5U-222 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FX5U-222"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+    ],
+  "slug": "mitsubishi-plc-fx5u-222",
+  "stock": true
+},
+  {
+  "id": "im-ext-100123",
+  "name": "Mitsubishi HMI GS21223 Hardware Module",
+  "partNumber": "GS21223",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi HMI",
+  "type": "HMI",
+  "description": "Official original Mitsubishi HMI GS21223 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GS21223"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg"
+    ],
+  "slug": "mitsubishi-hmi-gs21223",
+  "stock": true
+},
+  {
+  "id": "im-ext-100124",
+  "name": "Mitsubishi VFD FR-E840-224 Hardware Module",
+  "partNumber": "FR-E840-224",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi VFD",
+  "type": "VFD",
+  "description": "Official original Mitsubishi VFD FR-E840-224 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FR-E840-224"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg"
+    ],
+  "slug": "mitsubishi-vfd-fr-e840-224",
+  "stock": true
+},
+  {
+  "id": "im-ext-100125",
+  "name": "Omron PLC CP1E-225 Hardware Module",
+  "partNumber": "CP1E-225",
+  "brand": "Omron",
+  "category": "Omron PLC",
+  "type": "PLC",
+  "description": "Official original Omron PLC CP1E-225 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "CP1E-225"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-plc-cp1e-225",
+  "stock": true
+},
+  {
+  "id": "im-ext-100126",
+  "name": "Omron Sensor E3FA-226 Hardware Module",
+  "partNumber": "E3FA-226",
+  "brand": "Omron",
+  "category": "Omron Photoelectric Sensor",
+  "type": "Sensor",
+  "description": "Official original Omron Sensor E3FA-226 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E3FA-226"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron Photoelectric Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-sensor-e3fa-226",
+  "stock": true
+},
+  {
+  "id": "im-ext-100127",
+  "name": "Pepperl+Fuchs Sensor NBB-227 Hardware Module",
+  "partNumber": "NBB-227",
+  "brand": "Pepperl+Fuchs",
+  "category": "Pepperl+Fuchs Sensor",
+  "type": "Sensor",
+  "description": "Official original Pepperl+Fuchs Sensor NBB-227 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "NBB-227"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Pepperl+Fuchs"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Pepperl+Fuchs Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg"
+    ],
+  "slug": "pepperl-fuchs-sensor-nbb-227",
+  "stock": true
+},
+  {
+  "id": "im-ext-100128",
+  "name": "Sick Sensor GTB6-228 Hardware Module",
+  "partNumber": "GTB6-228",
+  "brand": "Sick",
+  "category": "Sick Sensor",
+  "type": "Sensor",
+  "description": "Official original Sick Sensor GTB6-228 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GTB6-228"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Sick"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Sick Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg"
+    ],
+  "slug": "sick-sensor-gtb6-228",
+  "stock": true
+},
+  {
+  "id": "im-ext-100129",
+  "name": "Allen Bradley PLC 5069-229 Hardware Module",
+  "partNumber": "5069-229",
+  "brand": "Allen Bradley",
+  "category": "Allen Bradley PLC",
+  "type": "PLC",
+  "description": "Official original Allen Bradley PLC 5069-229 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "5069-229"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Allen Bradley"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Allen Bradley PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg"
+    ],
+  "slug": "allen-bradley-plc-5069-229",
+  "stock": true
+},
+  {
+  "id": "im-ext-100130",
+  "name": "Danfoss VFD FC-302-230 Hardware Module",
+  "partNumber": "FC-302-230",
+  "brand": "Danfoss",
+  "category": "Danfoss VFD",
+  "type": "VFD",
+  "description": "Official original Danfoss VFD FC-302-230 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FC-302-230"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Danfoss"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Danfoss VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png"
+    ],
+  "slug": "danfoss-vfd-fc-302-230",
+  "stock": true
+},
+  {
+  "id": "im-ext-100131",
+  "name": "Proface HMI PFXGP-231 Hardware Module",
+  "partNumber": "PFXGP-231",
+  "brand": "Proface",
+  "category": "Proface HMI",
+  "type": "HMI",
+  "description": "Official original Proface HMI PFXGP-231 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "PFXGP-231"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Proface"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Proface HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg",
+  "images": [
+      "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg"
+    ],
+  "slug": "proface-hmi-pfxgp-231",
+  "stock": true
+},
+  {
+  "id": "im-ext-100132",
+  "name": "Weintek HMI MT8071-232 Hardware Module",
+  "partNumber": "MT8071-232",
+  "brand": "Weintek",
+  "category": "Weintek HMI",
+  "type": "HMI",
+  "description": "Official original Weintek HMI MT8071-232 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "MT8071-232"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Weintek"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Weintek HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg"
+    ],
+  "slug": "weintek-hmi-mt8071-232",
+  "stock": true
+},
+  {
+  "id": "im-ext-100133",
+  "name": "Delta HMI DOP-107-233 Hardware Module",
+  "partNumber": "DOP-107-233",
+  "brand": "Delta",
+  "category": "Delta HMI",
+  "type": "HMI",
+  "description": "Official original Delta HMI DOP-107-233 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "DOP-107-233"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Delta"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Delta HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg"
+    ],
+  "slug": "delta-hmi-dop-107-233",
+  "stock": true
+},
+  {
+  "id": "im-ext-100134",
+  "name": "Schneider VFD ATV320-234 Hardware Module",
+  "partNumber": "ATV320-234",
+  "brand": "Schneider",
+  "category": "Schneider VFD",
+  "type": "VFD",
+  "description": "Official original Schneider VFD ATV320-234 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "ATV320-234"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Schneider"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Schneider VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "schneider-vfd-atv320-234",
+  "stock": true
+},
+  {
+  "id": "im-ext-100135",
+  "name": "Autonics Sensor E50S-235 Hardware Module",
+  "partNumber": "E50S-235",
+  "brand": "Autonics",
+  "category": "Rotary Encoder",
+  "type": "Sensor",
+  "description": "Official original Autonics Sensor E50S-235 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E50S-235"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Autonics"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Rotary Encoder"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg"
+    ],
+  "slug": "autonics-sensor-e50s-235",
+  "stock": true
+},
+  {
+  "id": "im-ext-100136",
+  "name": "Siemens PLC 6ES7236 Hardware Module",
+  "partNumber": "6ES7236",
+  "brand": "Siemens",
+  "category": "Siemens PLC",
+  "type": "PLC",
+  "description": "Official original Siemens PLC 6ES7236 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6ES7236"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-plc-6es7236",
+  "stock": true
+},
+  {
+  "id": "im-ext-100137",
+  "name": "Siemens HMI 6AV2237 Hardware Module",
+  "partNumber": "6AV2237",
+  "brand": "Siemens",
+  "category": "Siemens HMI",
+  "type": "HMI",
+  "description": "Official original Siemens HMI 6AV2237 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6AV2237"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg"
+    ],
+  "slug": "siemens-hmi-6av2237",
+  "stock": true
+},
+  {
+  "id": "im-ext-100138",
+  "name": "Siemens VFD 6SL3238 Hardware Module",
+  "partNumber": "6SL3238",
+  "brand": "Siemens",
+  "category": "Siemens VFD",
+  "type": "VFD",
+  "description": "Official original Siemens VFD 6SL3238 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6SL3238"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-vfd-6sl3238",
+  "stock": true
+},
+  {
+  "id": "im-ext-100139",
+  "name": "Mitsubishi PLC FX5U-239 Hardware Module",
+  "partNumber": "FX5U-239",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi PLC",
+  "type": "PLC",
+  "description": "Official original Mitsubishi PLC FX5U-239 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FX5U-239"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+    ],
+  "slug": "mitsubishi-plc-fx5u-239",
+  "stock": true
+},
+  {
+  "id": "im-ext-100140",
+  "name": "Mitsubishi HMI GS21240 Hardware Module",
+  "partNumber": "GS21240",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi HMI",
+  "type": "HMI",
+  "description": "Official original Mitsubishi HMI GS21240 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GS21240"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg"
+    ],
+  "slug": "mitsubishi-hmi-gs21240",
+  "stock": true
+},
+  {
+  "id": "im-ext-100141",
+  "name": "Mitsubishi VFD FR-E840-241 Hardware Module",
+  "partNumber": "FR-E840-241",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi VFD",
+  "type": "VFD",
+  "description": "Official original Mitsubishi VFD FR-E840-241 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FR-E840-241"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg"
+    ],
+  "slug": "mitsubishi-vfd-fr-e840-241",
+  "stock": true
+},
+  {
+  "id": "im-ext-100142",
+  "name": "Omron PLC CP1E-242 Hardware Module",
+  "partNumber": "CP1E-242",
+  "brand": "Omron",
+  "category": "Omron PLC",
+  "type": "PLC",
+  "description": "Official original Omron PLC CP1E-242 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "CP1E-242"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-plc-cp1e-242",
+  "stock": true
+},
+  {
+  "id": "im-ext-100143",
+  "name": "Omron Sensor E3FA-243 Hardware Module",
+  "partNumber": "E3FA-243",
+  "brand": "Omron",
+  "category": "Omron Photoelectric Sensor",
+  "type": "Sensor",
+  "description": "Official original Omron Sensor E3FA-243 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E3FA-243"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron Photoelectric Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-sensor-e3fa-243",
+  "stock": true
+},
+  {
+  "id": "im-ext-100144",
+  "name": "Pepperl+Fuchs Sensor NBB-244 Hardware Module",
+  "partNumber": "NBB-244",
+  "brand": "Pepperl+Fuchs",
+  "category": "Pepperl+Fuchs Sensor",
+  "type": "Sensor",
+  "description": "Official original Pepperl+Fuchs Sensor NBB-244 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "NBB-244"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Pepperl+Fuchs"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Pepperl+Fuchs Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg"
+    ],
+  "slug": "pepperl-fuchs-sensor-nbb-244",
+  "stock": true
+},
+  {
+  "id": "im-ext-100145",
+  "name": "Sick Sensor GTB6-245 Hardware Module",
+  "partNumber": "GTB6-245",
+  "brand": "Sick",
+  "category": "Sick Sensor",
+  "type": "Sensor",
+  "description": "Official original Sick Sensor GTB6-245 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GTB6-245"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Sick"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Sick Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg"
+    ],
+  "slug": "sick-sensor-gtb6-245",
+  "stock": true
+},
+  {
+  "id": "im-ext-100146",
+  "name": "Allen Bradley PLC 5069-246 Hardware Module",
+  "partNumber": "5069-246",
+  "brand": "Allen Bradley",
+  "category": "Allen Bradley PLC",
+  "type": "PLC",
+  "description": "Official original Allen Bradley PLC 5069-246 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "5069-246"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Allen Bradley"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Allen Bradley PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg"
+    ],
+  "slug": "allen-bradley-plc-5069-246",
+  "stock": true
+},
+  {
+  "id": "im-ext-100147",
+  "name": "Danfoss VFD FC-302-247 Hardware Module",
+  "partNumber": "FC-302-247",
+  "brand": "Danfoss",
+  "category": "Danfoss VFD",
+  "type": "VFD",
+  "description": "Official original Danfoss VFD FC-302-247 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FC-302-247"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Danfoss"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Danfoss VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png"
+    ],
+  "slug": "danfoss-vfd-fc-302-247",
+  "stock": true
+},
+  {
+  "id": "im-ext-100148",
+  "name": "Proface HMI PFXGP-248 Hardware Module",
+  "partNumber": "PFXGP-248",
+  "brand": "Proface",
+  "category": "Proface HMI",
+  "type": "HMI",
+  "description": "Official original Proface HMI PFXGP-248 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "PFXGP-248"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Proface"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Proface HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg",
+  "images": [
+      "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg"
+    ],
+  "slug": "proface-hmi-pfxgp-248",
+  "stock": true
+},
+  {
+  "id": "im-ext-100149",
+  "name": "Weintek HMI MT8071-249 Hardware Module",
+  "partNumber": "MT8071-249",
+  "brand": "Weintek",
+  "category": "Weintek HMI",
+  "type": "HMI",
+  "description": "Official original Weintek HMI MT8071-249 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "MT8071-249"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Weintek"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Weintek HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg"
+    ],
+  "slug": "weintek-hmi-mt8071-249",
+  "stock": true
+},
+  {
+  "id": "im-ext-100150",
+  "name": "Delta HMI DOP-107-250 Hardware Module",
+  "partNumber": "DOP-107-250",
+  "brand": "Delta",
+  "category": "Delta HMI",
+  "type": "HMI",
+  "description": "Official original Delta HMI DOP-107-250 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "DOP-107-250"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Delta"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Delta HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg"
+    ],
+  "slug": "delta-hmi-dop-107-250",
+  "stock": true
+},
+  {
+  "id": "im-ext-100151",
+  "name": "Schneider VFD ATV320-251 Hardware Module",
+  "partNumber": "ATV320-251",
+  "brand": "Schneider",
+  "category": "Schneider VFD",
+  "type": "VFD",
+  "description": "Official original Schneider VFD ATV320-251 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "ATV320-251"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Schneider"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Schneider VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "schneider-vfd-atv320-251",
+  "stock": true
+},
+  {
+  "id": "im-ext-100152",
+  "name": "Autonics Sensor E50S-252 Hardware Module",
+  "partNumber": "E50S-252",
+  "brand": "Autonics",
+  "category": "Rotary Encoder",
+  "type": "Sensor",
+  "description": "Official original Autonics Sensor E50S-252 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E50S-252"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Autonics"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Rotary Encoder"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg"
+    ],
+  "slug": "autonics-sensor-e50s-252",
+  "stock": true
+},
+  {
+  "id": "im-ext-100153",
+  "name": "Siemens PLC 6ES7253 Hardware Module",
+  "partNumber": "6ES7253",
+  "brand": "Siemens",
+  "category": "Siemens PLC",
+  "type": "PLC",
+  "description": "Official original Siemens PLC 6ES7253 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6ES7253"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-plc-6es7253",
+  "stock": true
+},
+  {
+  "id": "im-ext-100154",
+  "name": "Siemens HMI 6AV2254 Hardware Module",
+  "partNumber": "6AV2254",
+  "brand": "Siemens",
+  "category": "Siemens HMI",
+  "type": "HMI",
+  "description": "Official original Siemens HMI 6AV2254 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6AV2254"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg"
+    ],
+  "slug": "siemens-hmi-6av2254",
+  "stock": true
+},
+  {
+  "id": "im-ext-100155",
+  "name": "Siemens VFD 6SL3255 Hardware Module",
+  "partNumber": "6SL3255",
+  "brand": "Siemens",
+  "category": "Siemens VFD",
+  "type": "VFD",
+  "description": "Official original Siemens VFD 6SL3255 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6SL3255"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-vfd-6sl3255",
+  "stock": true
+},
+  {
+  "id": "im-ext-100156",
+  "name": "Mitsubishi PLC FX5U-256 Hardware Module",
+  "partNumber": "FX5U-256",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi PLC",
+  "type": "PLC",
+  "description": "Official original Mitsubishi PLC FX5U-256 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FX5U-256"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+    ],
+  "slug": "mitsubishi-plc-fx5u-256",
+  "stock": true
+},
+  {
+  "id": "im-ext-100157",
+  "name": "Mitsubishi HMI GS21257 Hardware Module",
+  "partNumber": "GS21257",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi HMI",
+  "type": "HMI",
+  "description": "Official original Mitsubishi HMI GS21257 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GS21257"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg"
+    ],
+  "slug": "mitsubishi-hmi-gs21257",
+  "stock": true
+},
+  {
+  "id": "im-ext-100158",
+  "name": "Mitsubishi VFD FR-E840-258 Hardware Module",
+  "partNumber": "FR-E840-258",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi VFD",
+  "type": "VFD",
+  "description": "Official original Mitsubishi VFD FR-E840-258 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FR-E840-258"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg"
+    ],
+  "slug": "mitsubishi-vfd-fr-e840-258",
+  "stock": true
+},
+  {
+  "id": "im-ext-100159",
+  "name": "Omron PLC CP1E-259 Hardware Module",
+  "partNumber": "CP1E-259",
+  "brand": "Omron",
+  "category": "Omron PLC",
+  "type": "PLC",
+  "description": "Official original Omron PLC CP1E-259 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "CP1E-259"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-plc-cp1e-259",
+  "stock": true
+},
+  {
+  "id": "im-ext-100160",
+  "name": "Omron Sensor E3FA-260 Hardware Module",
+  "partNumber": "E3FA-260",
+  "brand": "Omron",
+  "category": "Omron Photoelectric Sensor",
+  "type": "Sensor",
+  "description": "Official original Omron Sensor E3FA-260 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E3FA-260"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron Photoelectric Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-sensor-e3fa-260",
+  "stock": true
+},
+  {
+  "id": "im-ext-100161",
+  "name": "Pepperl+Fuchs Sensor NBB-261 Hardware Module",
+  "partNumber": "NBB-261",
+  "brand": "Pepperl+Fuchs",
+  "category": "Pepperl+Fuchs Sensor",
+  "type": "Sensor",
+  "description": "Official original Pepperl+Fuchs Sensor NBB-261 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "NBB-261"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Pepperl+Fuchs"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Pepperl+Fuchs Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg"
+    ],
+  "slug": "pepperl-fuchs-sensor-nbb-261",
+  "stock": true
+},
+  {
+  "id": "im-ext-100162",
+  "name": "Sick Sensor GTB6-262 Hardware Module",
+  "partNumber": "GTB6-262",
+  "brand": "Sick",
+  "category": "Sick Sensor",
+  "type": "Sensor",
+  "description": "Official original Sick Sensor GTB6-262 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GTB6-262"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Sick"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Sick Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg"
+    ],
+  "slug": "sick-sensor-gtb6-262",
+  "stock": true
+},
+  {
+  "id": "im-ext-100163",
+  "name": "Allen Bradley PLC 5069-263 Hardware Module",
+  "partNumber": "5069-263",
+  "brand": "Allen Bradley",
+  "category": "Allen Bradley PLC",
+  "type": "PLC",
+  "description": "Official original Allen Bradley PLC 5069-263 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "5069-263"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Allen Bradley"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Allen Bradley PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg"
+    ],
+  "slug": "allen-bradley-plc-5069-263",
+  "stock": true
+},
+  {
+  "id": "im-ext-100164",
+  "name": "Danfoss VFD FC-302-264 Hardware Module",
+  "partNumber": "FC-302-264",
+  "brand": "Danfoss",
+  "category": "Danfoss VFD",
+  "type": "VFD",
+  "description": "Official original Danfoss VFD FC-302-264 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FC-302-264"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Danfoss"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Danfoss VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png"
+    ],
+  "slug": "danfoss-vfd-fc-302-264",
+  "stock": true
+},
+  {
+  "id": "im-ext-100165",
+  "name": "Proface HMI PFXGP-265 Hardware Module",
+  "partNumber": "PFXGP-265",
+  "brand": "Proface",
+  "category": "Proface HMI",
+  "type": "HMI",
+  "description": "Official original Proface HMI PFXGP-265 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "PFXGP-265"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Proface"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Proface HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg",
+  "images": [
+      "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg"
+    ],
+  "slug": "proface-hmi-pfxgp-265",
+  "stock": true
+},
+  {
+  "id": "im-ext-100166",
+  "name": "Weintek HMI MT8071-266 Hardware Module",
+  "partNumber": "MT8071-266",
+  "brand": "Weintek",
+  "category": "Weintek HMI",
+  "type": "HMI",
+  "description": "Official original Weintek HMI MT8071-266 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "MT8071-266"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Weintek"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Weintek HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg"
+    ],
+  "slug": "weintek-hmi-mt8071-266",
+  "stock": true
+},
+  {
+  "id": "im-ext-100167",
+  "name": "Delta HMI DOP-107-267 Hardware Module",
+  "partNumber": "DOP-107-267",
+  "brand": "Delta",
+  "category": "Delta HMI",
+  "type": "HMI",
+  "description": "Official original Delta HMI DOP-107-267 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "DOP-107-267"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Delta"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Delta HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg"
+    ],
+  "slug": "delta-hmi-dop-107-267",
+  "stock": true
+},
+  {
+  "id": "im-ext-100168",
+  "name": "Schneider VFD ATV320-268 Hardware Module",
+  "partNumber": "ATV320-268",
+  "brand": "Schneider",
+  "category": "Schneider VFD",
+  "type": "VFD",
+  "description": "Official original Schneider VFD ATV320-268 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "ATV320-268"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Schneider"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Schneider VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "schneider-vfd-atv320-268",
+  "stock": true
+},
+  {
+  "id": "im-ext-100169",
+  "name": "Autonics Sensor E50S-269 Hardware Module",
+  "partNumber": "E50S-269",
+  "brand": "Autonics",
+  "category": "Rotary Encoder",
+  "type": "Sensor",
+  "description": "Official original Autonics Sensor E50S-269 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E50S-269"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Autonics"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Rotary Encoder"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg"
+    ],
+  "slug": "autonics-sensor-e50s-269",
+  "stock": true
+},
+  {
+  "id": "im-ext-100170",
+  "name": "Siemens PLC 6ES7270 Hardware Module",
+  "partNumber": "6ES7270",
+  "brand": "Siemens",
+  "category": "Siemens PLC",
+  "type": "PLC",
+  "description": "Official original Siemens PLC 6ES7270 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6ES7270"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-plc-6es7270",
+  "stock": true
+},
+  {
+  "id": "im-ext-100171",
+  "name": "Siemens HMI 6AV2271 Hardware Module",
+  "partNumber": "6AV2271",
+  "brand": "Siemens",
+  "category": "Siemens HMI",
+  "type": "HMI",
+  "description": "Official original Siemens HMI 6AV2271 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6AV2271"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg"
+    ],
+  "slug": "siemens-hmi-6av2271",
+  "stock": true
+},
+  {
+  "id": "im-ext-100172",
+  "name": "Siemens VFD 6SL3272 Hardware Module",
+  "partNumber": "6SL3272",
+  "brand": "Siemens",
+  "category": "Siemens VFD",
+  "type": "VFD",
+  "description": "Official original Siemens VFD 6SL3272 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6SL3272"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-vfd-6sl3272",
+  "stock": true
+},
+  {
+  "id": "im-ext-100173",
+  "name": "Mitsubishi PLC FX5U-273 Hardware Module",
+  "partNumber": "FX5U-273",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi PLC",
+  "type": "PLC",
+  "description": "Official original Mitsubishi PLC FX5U-273 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FX5U-273"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+    ],
+  "slug": "mitsubishi-plc-fx5u-273",
+  "stock": true
+},
+  {
+  "id": "im-ext-100174",
+  "name": "Mitsubishi HMI GS21274 Hardware Module",
+  "partNumber": "GS21274",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi HMI",
+  "type": "HMI",
+  "description": "Official original Mitsubishi HMI GS21274 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GS21274"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377030/b/4/GS2110-WTBD-N-Mitsubishi-HMI-10-inch.jpg"
+    ],
+  "slug": "mitsubishi-hmi-gs21274",
+  "stock": true
+},
+  {
+  "id": "im-ext-100175",
+  "name": "Mitsubishi VFD FR-E840-275 Hardware Module",
+  "partNumber": "FR-E840-275",
+  "brand": "Mitsubishi",
+  "category": "Mitsubishi VFD",
+  "type": "VFD",
+  "description": "Official original Mitsubishi VFD FR-E840-275 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FR-E840-275"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Mitsubishi"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Mitsubishi VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377052/b/4/FR-CS84-295-60-MITSUBISHI-VFD.jpg"
+    ],
+  "slug": "mitsubishi-vfd-fr-e840-275",
+  "stock": true
+},
+  {
+  "id": "im-ext-100176",
+  "name": "Omron PLC CP1E-276 Hardware Module",
+  "partNumber": "CP1E-276",
+  "brand": "Omron",
+  "category": "Omron PLC",
+  "type": "PLC",
+  "description": "Official original Omron PLC CP1E-276 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "CP1E-276"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-plc-cp1e-276",
+  "stock": true
+},
+  {
+  "id": "im-ext-100177",
+  "name": "Omron Sensor E3FA-277 Hardware Module",
+  "partNumber": "E3FA-277",
+  "brand": "Omron",
+  "category": "Omron Photoelectric Sensor",
+  "type": "Sensor",
+  "description": "Official original Omron Sensor E3FA-277 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E3FA-277"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Omron"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Omron Photoelectric Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/459432291/RO/TY/DF/89143389/omron-plc-cp2e-1000x1000.jpg"
+    ],
+  "slug": "omron-sensor-e3fa-277",
+  "stock": true
+},
+  {
+  "id": "im-ext-100178",
+  "name": "Pepperl+Fuchs Sensor NBB-278 Hardware Module",
+  "partNumber": "NBB-278",
+  "brand": "Pepperl+Fuchs",
+  "category": "Pepperl+Fuchs Sensor",
+  "type": "Sensor",
+  "description": "Official original Pepperl+Fuchs Sensor NBB-278 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "NBB-278"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Pepperl+Fuchs"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Pepperl+Fuchs Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09512948/b/4/PAPPERL-FUCHS-UC2000-30GM-IUR2-V15.jpg"
+    ],
+  "slug": "pepperl-fuchs-sensor-nbb-278",
+  "stock": true
+},
+  {
+  "id": "im-ext-100179",
+  "name": "Sick Sensor GTB6-279 Hardware Module",
+  "partNumber": "GTB6-279",
+  "brand": "Sick",
+  "category": "Sick Sensor",
+  "type": "Sensor",
+  "description": "Official original Sick Sensor GTB6-279 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "GTB6-279"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Sick"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Sick Sensor"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg"
+    ],
+  "slug": "sick-sensor-gtb6-279",
+  "stock": true
+},
+  {
+  "id": "im-ext-100180",
+  "name": "Allen Bradley PLC 5069-280 Hardware Module",
+  "partNumber": "5069-280",
+  "brand": "Allen Bradley",
+  "category": "Allen Bradley PLC",
+  "type": "PLC",
+  "description": "Official original Allen Bradley PLC 5069-280 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "5069-280"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Allen Bradley"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Allen Bradley PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09377302/b/4/CompactLogix-5380.jpg"
+    ],
+  "slug": "allen-bradley-plc-5069-280",
+  "stock": true
+},
+  {
+  "id": "im-ext-100181",
+  "name": "Danfoss VFD FC-302-281 Hardware Module",
+  "partNumber": "FC-302-281",
+  "brand": "Danfoss",
+  "category": "Danfoss VFD",
+  "type": "VFD",
+  "description": "Official original Danfoss VFD FC-302-281 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "FC-302-281"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Danfoss"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Danfoss VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png"
+    ],
+  "slug": "danfoss-vfd-fc-302-281",
+  "stock": true
+},
+  {
+  "id": "im-ext-100182",
+  "name": "Proface HMI PFXGP-282 Hardware Module",
+  "partNumber": "PFXGP-282",
+  "brand": "Proface",
+  "category": "Proface HMI",
+  "type": "HMI",
+  "description": "Official original Proface HMI PFXGP-282 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "PFXGP-282"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Proface"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Proface HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg",
+  "images": [
+      "https://cpimg.tistatic.com/09714690/b/4/PFXET6600WAD-Proface-HMI-12-inch-ET6000-Series.jpeg"
+    ],
+  "slug": "proface-hmi-pfxgp-282",
+  "stock": true
+},
+  {
+  "id": "im-ext-100183",
+  "name": "Weintek HMI MT8071-283 Hardware Module",
+  "partNumber": "MT8071-283",
+  "brand": "Weintek",
+  "category": "Weintek HMI",
+  "type": "HMI",
+  "description": "Official original Weintek HMI MT8071-283 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "MT8071-283"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Weintek"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Weintek HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/1/483191619/MR/KG/GQ/89143389/weintek-hmi-mt8071ie-1000x1000.jpg"
+    ],
+  "slug": "weintek-hmi-mt8071-283",
+  "stock": true
+},
+  {
+  "id": "im-ext-100184",
+  "name": "Delta HMI DOP-107-284 Hardware Module",
+  "partNumber": "DOP-107-284",
+  "brand": "Delta",
+  "category": "Delta HMI",
+  "type": "HMI",
+  "description": "Official original Delta HMI DOP-107-284 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "DOP-107-284"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Delta"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Delta HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2025/4/500324190/RM/ZB/GR/89143389/dop-107ev-delta-hmi-1000x1000.jpg"
+    ],
+  "slug": "delta-hmi-dop-107-284",
+  "stock": true
+},
+  {
+  "id": "im-ext-100185",
+  "name": "Schneider VFD ATV320-285 Hardware Module",
+  "partNumber": "ATV320-285",
+  "brand": "Schneider",
+  "category": "Schneider VFD",
+  "type": "VFD",
+  "description": "Official original Schneider VFD ATV320-285 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "ATV320-285"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Schneider"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Schneider VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "schneider-vfd-atv320-285",
+  "stock": true
+},
+  {
+  "id": "im-ext-100186",
+  "name": "Autonics Sensor E50S-286 Hardware Module",
+  "partNumber": "E50S-286",
+  "brand": "Autonics",
+  "category": "Rotary Encoder",
+  "type": "Sensor",
+  "description": "Official original Autonics Sensor E50S-286 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "E50S-286"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Autonics"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Rotary Encoder"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/336618906/VD/FU/DC/89143389/nb10w-tw01b-1000x1000.jpg"
+    ],
+  "slug": "autonics-sensor-e50s-286",
+  "stock": true
+},
+  {
+  "id": "im-ext-100187",
+  "name": "Siemens PLC 6ES7287 Hardware Module",
+  "partNumber": "6ES7287",
+  "brand": "Siemens",
+  "category": "Siemens PLC",
+  "type": "PLC",
+  "description": "Official original Siemens PLC 6ES7287 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6ES7287"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens PLC"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-plc-6es7287",
+  "stock": true
+},
+  {
+  "id": "im-ext-100188",
+  "name": "Siemens HMI 6AV2288 Hardware Module",
+  "partNumber": "6AV2288",
+  "brand": "Siemens",
+  "category": "Siemens HMI",
+  "type": "HMI",
+  "description": "Official original Siemens HMI 6AV2288 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6AV2288"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens HMI"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg",
+  "images": [
+      "https://cpimg.tistatic.com/09540555/b/4/6AV2124-0MC01-0AX0-TP1200-comfort-panel-Siemens-HMI.jpg"
+    ],
+  "slug": "siemens-hmi-6av2288",
+  "stock": true
+},
+  {
+  "id": "im-ext-100189",
+  "name": "Siemens VFD 6SL3289 Hardware Module",
+  "partNumber": "6SL3289",
+  "brand": "Siemens",
+  "category": "Siemens VFD",
+  "type": "VFD",
+  "description": "Official original Siemens VFD 6SL3289 industrial automation unit. Engineered for high reliability, panel integration, fast response, and zero maintenance downtime. Dispatched directly from Makarba, Ahmedabad warehouse.",
+  "specifications": [
+    {
+      "label": "Part Number",
+      "value": "6SL3289"
+    },
+    {
+      "label": "Manufacturer Brand",
+      "value": "Siemens"
+    },
+    {
+      "label": "Hardware Category",
+      "value": "Siemens VFD"
+    },
+    {
+      "label": "Condition",
+      "value": "100% Genuine Sealed Stock"
+    },
+    {
+      "label": "Warehouse SLA",
+      "value": "24-48 Hours Express Shipping"
+    }
+  ],
+  "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg",
+  "images": [
+      "https://5.imimg.com/data5/GLADMIN/Default/2023/1/DK/VV/AM/89143389/6sl3210-1ke11-8ab2-sinamics-g120c-rated-power-0-55kw-1000x1000.jpg"
+    ],
+  "slug": "siemens-vfd-6sl3289",
+  "stock": true
+}
 ];

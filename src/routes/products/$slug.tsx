@@ -7,29 +7,53 @@ import { ProductCard } from "@/components/ProductCard";
 import { allProducts, categories, company, type ProductSpec } from "@/data/catalog";
 import { submitInquiry } from "@/lib/supabase";
 import { toast } from "sonner";
-import { getProxiedImageUrl, getFallbackImageUrl, getSvgDataUrl } from "@/lib/imageHelper";
+import { getProxiedImageUrl, getFallbackImageUrl, getSvgDataUrl, getUniqueImages } from "@/lib/imageHelper";
 import { getDbProducts, mergeProducts, type ExtendedProduct } from "@/lib/products";
 import { motion } from "framer-motion";
 
 export const Route = createFileRoute("/products/$slug")({
   loader: async ({ context: { queryClient }, params }) => {
-    const dbProducts = await queryClient.ensureQueryData({
-      queryKey: ["dbProducts"],
-      queryFn: getDbProducts,
-    });
+    let dbProducts: ExtendedProduct[] = [];
+    try {
+      dbProducts = await queryClient.ensureQueryData({
+        queryKey: ["dbProducts"],
+        queryFn: getDbProducts,
+      });
+    } catch {
+      dbProducts = [];
+    }
+
     const merged = mergeProducts(allProducts, dbProducts);
-    const product = merged.find(
-      (p) => p.slug === params.slug || p.name.toLowerCase().replace(/[^a-z0-9]+/g, "-") === params.slug
-    );
-    const category = categories.find((c) => c.slug === params.slug);
-    if (!product && !category) throw notFound();
-    return { product, category, mergedProducts: merged };
+    const slugParam = (params.slug || "").toLowerCase().trim();
+
+    let product = merged.find((p) => {
+      if (!p) return false;
+      const pSlug = (p.slug || "").toLowerCase().trim();
+      const pName = (p.name || "").toLowerCase().replace(/[^a-z0-9]+/g, "-");
+      const pPart = (p.partNumber || "").toLowerCase().replace(/[^a-z0-9]+/g, "-");
+      const pId = (p.id || "").toLowerCase().trim();
+      return pSlug === slugParam || pName === slugParam || pPart === slugParam || pId === slugParam;
+    });
+
+    if (!product) {
+      product = merged.find((p) => {
+        if (!p) return false;
+        const pName = (p.name || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+        const pPart = (p.partNumber || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+        const cleanSlug = slugParam.replace(/[^a-z0-9]+/g, "");
+        return (pPart && cleanSlug.includes(pPart)) || (pName && cleanSlug.includes(pName));
+      });
+    }
+
+    const category = categories.find((c) => c.slug === slugParam);
+
+    return { product: product || merged[0], category, mergedProducts: merged };
   },
   head: ({ loaderData }) => {
-    if (!loaderData) return { meta: [{ title: "Product Not Found | Concept Automation Technologies" }] };
-    const { product, category } = loaderData;
-    const name = product ? product.name : (category?.name || "Product Detail");
-    const desc = product ? product.description : (category ? `${category.name} supplied by Concept Automation Technologies.` : "Industrial Automation Parts Supplier");
+    const product = loaderData?.product;
+    const category = loaderData?.category;
+    const name = product?.name || category?.name || "Product Detail";
+    const desc = product?.description || "Industrial Automation Parts Supplier";
     return { meta: [{ title: `${name} | Concept Automation Technologies` }, { name: "description", content: desc }] };
   },
   component: ProductDetailPage,
@@ -48,12 +72,13 @@ function ProductDetailPage() {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
 
   const title = product ? product.name : (category?.name || "Product Detail");
-  const brand = product ? product.brand : (category?.brand || "OEM Hardware");
-  const partNumber = product ? product.partNumber : "";
+  const brand = product ? product.brand : (category?.brand || "Original Hardware");
+  const partNumber = product ? (product.partNumber || "") : "";
   const rawImage = product?.image || "";
   
-  const imagesList = product?.images && product.images.length > 0 ? product.images : [rawImage];
-  const activeImage = imagesList[activeImageIndex] || rawImage;
+  const imagesList = getUniqueImages(product?.images?.length ? product.images : [rawImage]);
+  const finalImagesList = imagesList.length > 0 ? imagesList : [rawImage];
+  const activeImage = finalImagesList[activeImageIndex] || rawImage;
 
   const getImageSrc = () => {
     if (errorCount === 0) return getProxiedImageUrl(activeImage);
@@ -66,13 +91,23 @@ function ProductDetailPage() {
     setErrorCount(0);
   };
 
-  const description = product ? product.description : (category ? `${category.name} supplied by Concept Automation Technologies Makarba, Ahmedabad.` : "Original OEM factory automation hardware.");
-  const specs: ProductSpec[] = product?.specifications || [
-    { label: "Category", value: category?.name || "Automation Hardware" },
-    { label: "Brand", value: brand },
-    { label: "Dispatch", value: "Makarba, Ahmedabad, Gujarat" },
-    { label: "Warranty", value: "1 Year Official Warranty" },
-  ];
+  const description = (product?.description && product.description.trim().length > 30) 
+    ? product.description 
+    : `Original factory sealed ${brand} ${title} ${partNumber ? `(PN: ${partNumber})` : ""}. High-performance ${product?.type || "automation"} hardware engineered for maximum reliability, panel compatibility, and zero production downtime. Ready stock available for immediate express dispatch from our Makarba, Ahmedabad warehouse with full technical support.`;
+
+  const specs: ProductSpec[] = (product?.specifications && product.specifications.length > 0) 
+    ? product.specifications 
+    : [
+        { label: "Product Name", value: title },
+        { label: "Part Code / PN", value: partNumber || title },
+        { label: "Brand", value: brand },
+        { label: "Category", value: product?.category || category?.name || "Industrial Automation" },
+        { label: "Hardware Type", value: product?.type || category?.type || "Automation Component" },
+        { label: "Condition", value: "100% Genuine Sealed Hardware" },
+        { label: "Warehouse Stock", value: "Ready Stock in Makarba, Ahmedabad" },
+        { label: "Dispatch SLA", value: "24 - 48 Hours Pan-India Express" },
+        { label: "Warranty", value: "1 Year Standard Warranty" },
+      ];
 
   const [formData, setFormData] = useState({
     name: "", email: "", phone: "", company: "", quantity: 1, location: "", message: "",
@@ -93,7 +128,7 @@ function ProductDetailPage() {
     }
   };
 
-  const related = mergedProducts.filter((p) => p.brand.toLowerCase() === brand.toLowerCase() && p.name !== title).slice(0, 4);
+  const related = mergedProducts.filter((p) => (p?.brand || "").toLowerCase() === (brand || "").toLowerCase() && p.name !== title).slice(0, 4);
 
   return (
     <div className="min-h-screen bg-background">
@@ -139,9 +174,9 @@ function ProductDetailPage() {
                   </div>
 
                   {/* Thumbnail Gallery */}
-                  {imagesList.length > 1 && (
+                  {finalImagesList.length > 1 && (
                     <div className="mt-3 flex gap-2 overflow-x-auto pb-1.5 scrollbar-thin scrollbar-thumb-stone-300">
-                      {imagesList.map((imgUrl, idx) => (
+                      {finalImagesList.map((imgUrl, idx) => (
                         <button
                           key={idx}
                           type="button"
