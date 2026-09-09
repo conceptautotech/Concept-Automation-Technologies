@@ -42,26 +42,26 @@ export function Footer() {
 
   return (
     <>
-      <footer className="bg-slate-100 text-slate-700 border-t border-slate-200">
-        {/* Accent Top Line */}
+      <footer className="bg-slate-200 text-slate-800 border-t border-slate-300">
+        {/* Subtle Accent Top Line */}
         <div className="h-0.5 w-full bg-slate-300" />
 
-        {/* Main 4-Column Layout */}
-        <div className="mx-auto max-w-7xl px-4 py-10 sm:py-14 sm:px-6">
-          <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        {/* Main 4-Column Layout - Short Height */}
+        <div className="mx-auto max-w-7xl px-4 py-6 sm:py-7 sm:px-6">
+          <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
             
-            {/* COLUMN 1: BRANDS */}
+            {/* COLUMN 1: BRANDS — 2-column compact layout */}
             <div>
-              <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-slate-800 mb-5">
+              <h3 className="text-xs font-extrabold uppercase tracking-widest text-slate-900 mb-2">
                 BRANDS
               </h3>
-              <ul className="space-y-3 text-xs sm:text-sm font-medium text-slate-600">
+              <ul className="grid grid-cols-2 gap-x-2 gap-y-1 text-xs font-semibold text-slate-700">
                 {FOOTER_BRANDS.map((b) => (
                   <li key={b}>
                     <Link
                       to="/products"
                       search={{ q: b }}
-                      className="hover:text-primary transition-colors block"
+                      className="hover:text-primary transition-colors block truncate"
                     >
                       {b}
                     </Link>
@@ -72,16 +72,16 @@ export function Footer() {
 
             {/* COLUMN 2: CATEGORIES */}
             <div>
-              <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-slate-800 mb-5">
+              <h3 className="text-xs font-extrabold uppercase tracking-widest text-slate-900 mb-2">
                 CATEGORIES
               </h3>
-              <ul className="space-y-3 text-xs sm:text-sm font-medium text-slate-600">
+              <ul className="space-y-1 text-xs font-semibold text-slate-700">
                 {FOOTER_CATEGORIES.map((cat) => (
                   <li key={cat.name}>
                     <Link
                       to="/products"
                       search={{ q: cat.query }}
-                      className="hover:text-primary transition-colors block"
+                      className="hover:text-primary transition-colors block truncate"
                     >
                       {cat.name}
                     </Link>
@@ -92,16 +92,16 @@ export function Footer() {
 
             {/* COLUMN 3: QUICK LINKS */}
             <div>
-              <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-slate-800 mb-5">
+              <h3 className="text-xs font-extrabold uppercase tracking-widest text-slate-900 mb-2">
                 QUICK LINKS
               </h3>
-              <ul className="space-y-3 text-xs sm:text-sm font-medium text-slate-600">
+              <ul className="space-y-1 text-xs font-semibold text-slate-700">
                 {QUICK_LINKS.map((link) => (
                   <li key={link.name}>
                     <Link
                       to="/products"
                       search={{ q: link.query }}
-                      className="hover:text-primary transition-colors block leading-relaxed"
+                      className="hover:text-primary transition-colors block truncate"
                     >
                       {link.name}
                     </Link>
@@ -111,40 +111,37 @@ export function Footer() {
             </div>
 
             {/* COLUMN 4: CONTACT INFORMATION */}
-            <div className="space-y-4">
-              <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-slate-800 mb-5">
+            <div>
+              <h3 className="text-xs font-extrabold uppercase tracking-widest text-slate-900 mb-2">
                 CONTACT US
               </h3>
               
-              <div className="text-xs sm:text-sm text-slate-600 space-y-3 font-medium leading-relaxed">
+              <div className="text-xs text-slate-700 space-y-1 font-medium leading-snug">
                 <p>
-                  <strong className="text-slate-800 font-extrabold">Contact:</strong>{" "}
-                  <a href={`tel:${company.phoneRaw}`} className="hover:text-primary font-mono font-bold text-slate-800">
+                  <strong className="text-slate-900 font-extrabold">Contact:</strong>{" "}
+                  <a href={`tel:${company.phoneRaw}`} className="hover:text-primary font-mono font-bold text-slate-900">
                     {company.phone}
                   </a>
                 </p>
-                <p className="break-all">
-                  <strong className="text-slate-800 font-extrabold">Email:</strong>{" "}
-                  <a href={`mailto:${company.email}`} className="hover:text-primary text-slate-800 font-semibold">
+                <p className="truncate">
+                  <strong className="text-slate-900 font-extrabold">Email:</strong>{" "}
+                  <a href={`mailto:${company.email}`} className="hover:text-primary text-slate-900 font-semibold">
                     {company.email}
                   </a>
                 </p>
                 <p>
-                  <strong className="text-slate-800 font-extrabold">Hours:</strong> Monday – Saturday (10:00am – 07:00pm IST)
+                  <strong className="text-slate-900 font-extrabold">Hours:</strong> Mon – Sat (10:00am – 7:00pm)
                 </p>
-                <div>
-                  <strong className="text-slate-800 font-extrabold">Address:</strong>{" "}
-                  <span className="text-slate-600 leading-relaxed block mt-1">
-                    D-303, 3rd Floor, Titanium Business Park, Makarba Road, Makarba, Ahmedabad - 380051, Gujarat, India
-                  </span>
-                </div>
+                <p className="line-clamp-2 text-slate-600">
+                  <strong className="text-slate-900 font-extrabold">Address:</strong> D-303, Titanium Business Park, Makarba, Ahmedabad
+                </p>
 
-                <div className="pt-3">
+                <div className="pt-1.5">
                   <button
                     onClick={() => setInquiryOpen(true)}
-                    className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 hover:bg-[#ea580c] active:scale-98 px-5 py-2.5 text-xs font-extrabold uppercase tracking-wider text-white transition-all shadow-sm cursor-pointer"
+                    className="w-full inline-flex items-center justify-center gap-1.5 rounded-xl bg-slate-900 hover:bg-[#ea580c] active:scale-98 px-3 py-1.5 text-xs font-extrabold uppercase tracking-wider text-white transition-all shadow-xs cursor-pointer"
                   >
-                    <MessageSquare className="h-4 w-4 text-white" /> Request Price Quote
+                    <MessageSquare className="h-3.5 w-3.5 text-white" /> Request Price Quote
                   </button>
                 </div>
               </div>
@@ -152,29 +149,26 @@ export function Footer() {
 
           </div>
 
-          {/* Centered Brand & Logo Section */}
-          <div className="mt-10 pt-6 border-t border-slate-200 text-center flex flex-col items-center justify-center gap-2">
-            <Link to="/" className="inline-flex items-center gap-2.5 group">
-              <div className="h-9 w-9 rounded-xl bg-white p-1 border border-slate-200 shadow-2xs group-hover:scale-105 transition-transform">
+          {/* Bottom Bar: Logo & Copyright in one compact horizontal row */}
+          <div className="mt-4 pt-3 border-t border-slate-300 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate-600">
+            <Link to="/" className="inline-flex items-center gap-2 group">
+              <div className="h-6 w-6 rounded-lg bg-white p-0.5 border border-slate-300 shadow-2xs group-hover:scale-105 transition-transform">
                 <img
                   src="/logo.jpg"
                   alt="Concept Automation Technologies"
                   className="h-full w-full object-contain"
-                  width={36}
-                  height={36}
+                  width={24}
+                  height={24}
                 />
               </div>
-              <div className="font-display text-sm sm:text-base font-extrabold uppercase tracking-tight text-slate-800">
+              <div className="font-display text-xs font-extrabold uppercase tracking-tight text-slate-900">
                 CONCEPT <span className="text-[#ea580c]">AUTOMATION</span> TECHNOLOGIES
               </div>
             </Link>
-          </div>
 
-          {/* Copyright Footer Bar */}
-          <div className="mt-3 text-center text-xs font-medium text-slate-500">
-            <p>
-              Copyright © {new Date().getFullYear()} <strong className="text-slate-800 font-semibold">Concept Automation Technologies</strong>. All Rights Reserved.
-            </p>
+            <div className="text-[11px] font-semibold text-slate-600 text-center sm:text-right">
+              Copyright © {new Date().getFullYear()} <strong className="text-slate-900 font-bold">Concept Automation Technologies</strong>. All Rights Reserved.
+            </div>
           </div>
         </div>
       </footer>
@@ -183,4 +177,3 @@ export function Footer() {
     </>
   );
 }
-
