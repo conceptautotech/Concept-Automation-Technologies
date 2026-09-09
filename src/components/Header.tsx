@@ -44,12 +44,12 @@ export function Header() {
     <>
       <header className={`sticky top-0 z-40 bg-background/95 backdrop-blur-md transition-shadow duration-300 ${scrolled ? "shadow-md" : "border-b border-border"}`}>
         {/* Top Info Bar — Light High-Contrast Professional Slate */}
-        <div className="hidden bg-slate-200/70 text-slate-900 border-b border-slate-300/80 md:block">
+        <div className="hidden bg-slate-100 text-slate-800 border-b border-slate-200 md:block">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2 text-xs font-extrabold tracking-wide">
-            <span>GSTIN: <span className="font-mono text-slate-950 bg-white px-2 py-0.5 rounded border border-slate-300 font-extrabold">{company.gst}</span></span>
+            <span>GSTIN: <span className="font-mono text-slate-900 bg-white px-2 py-0.5 rounded border border-slate-300 font-extrabold">{company.gst}</span></span>
             <div className="flex items-center gap-6">
-              <a href={`tel:${company.phoneRaw}`} className="flex items-center gap-1.5 text-slate-900 hover:text-primary transition-colors">
-                <Phone className="h-3 w-3 text-slate-800" /> {company.phone}
+              <a href={`tel:${company.phoneRaw}`} className="flex items-center gap-1.5 text-slate-800 hover:text-primary transition-colors">
+                <Phone className="h-3 w-3 text-slate-700" /> {company.phone}
               </a>
               <span className="text-slate-400">|</span>
               <span>{company.address}</span>
@@ -61,7 +61,7 @@ export function Header() {
         <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-3 sm:px-6">
           {/* Logo & Brand Name */}
           <Link to="/" className="flex items-center gap-3 shrink-0 group">
-            <div className="relative rounded-2xl bg-white p-1 border-2 border-slate-200 shadow-md group-hover:border-accent group-hover:shadow-lg transition-all">
+            <div className="relative rounded-2xl bg-white p-1 border-2 border-slate-200 shadow-md group-hover:border-[#ea580c] group-hover:shadow-lg transition-all">
               <img
                 src="/logo.jpg"
                 alt="Concept Automation Technologies"
@@ -71,8 +71,8 @@ export function Header() {
               />
             </div>
             <div className="flex flex-col">
-              <span className="font-display text-lg sm:text-2xl font-extrabold tracking-tight text-slate-900 leading-none">
-                CONCEPT <span className="text-accent">AUTOMATION</span>
+              <span className="font-display text-lg sm:text-2xl font-extrabold tracking-tight text-slate-700 leading-none">
+                CONCEPT <span className="text-[#ea580c]">AUTOMATION</span>
               </span>
               <span className="text-[10px] sm:text-[11px] font-extrabold uppercase tracking-[0.25em] text-slate-500 mt-0.5">
                 TECHNOLOGIES
@@ -85,7 +85,7 @@ export function Header() {
               <div key={item.to} className="group relative">
                 <Link
                   to={item.to}
-                  activeProps={{ className: "!bg-primary !text-primary-foreground" }}
+                  activeProps={{ className: "!bg-slate-900 !text-white" }}
                   className="flex items-center gap-1 rounded-lg px-4 py-2 text-xs font-bold uppercase tracking-wider text-foreground transition-all hover:bg-muted hover:text-primary"
                 >
                   {item.label}
@@ -96,7 +96,7 @@ export function Header() {
                 {item.label === "Products" && (
                   <div className="invisible absolute -left-28 top-full grid w-[680px] grid-cols-3 gap-5 rounded-2xl border border-border bg-card p-6 opacity-0 shadow-2xl transition-all duration-200 group-hover:visible group-hover:opacity-100 z-50 animate-fade-up">
                     <div className="col-span-3 border-b border-border pb-3 flex items-center justify-between">
-                      <span className="text-[11px] font-extrabold uppercase tracking-[0.15em] text-accent">All Hardware Categories</span>
+                      <span className="text-[11px] font-extrabold uppercase tracking-[0.15em] text-slate-600">All Hardware Categories</span>
                       <Link to="/products" className="text-xs font-bold text-foreground hover:text-primary flex items-center gap-1">
                         View Full Catalog <ArrowRight className="h-3.5 w-3.5" />
                       </Link>
@@ -107,7 +107,7 @@ export function Header() {
                       {categories.filter(c => c.type === 'PLC').map((c) => (
                         <Link key={c.slug} to="/products" search={{ q: c.name }}
                           className="flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-xs font-semibold text-foreground hover:bg-muted hover:text-primary transition-colors">
-                          <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+                          <span className="h-1.5 w-1.5 rounded-full bg-slate-400" />
                           {c.name}
                         </Link>
                       ))}
@@ -118,7 +118,7 @@ export function Header() {
                       {categories.filter(c => c.type === 'HMI').map((c) => (
                         <Link key={c.slug} to="/products" search={{ q: c.name }}
                           className="flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-xs font-semibold text-foreground hover:bg-muted hover:text-primary transition-colors">
-                          <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+                          <span className="h-1.5 w-1.5 rounded-full bg-slate-400" />
                           {c.name}
                         </Link>
                       ))}
@@ -129,7 +129,7 @@ export function Header() {
                       {categories.filter(c => c.type !== 'PLC' && c.type !== 'HMI').map((c) => (
                         <Link key={c.slug} to="/products" search={{ q: c.name }}
                           className="flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-xs font-semibold text-foreground hover:bg-muted hover:text-primary transition-colors">
-                          <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+                          <span className="h-1.5 w-1.5 rounded-full bg-slate-400" />
                           {c.name}
                         </Link>
                       ))}
@@ -152,9 +152,9 @@ export function Header() {
 
             <button
               onClick={() => setInquiryOpen(true)}
-              className="hidden sm:inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-accent transition-all shadow-sm"
+              className="hidden sm:inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] transition-all shadow-md"
             >
-              <MessageSquare className="h-3.5 w-3.5 text-accent" /> Get Quick Quote
+              <MessageSquare className="h-3.5 w-3.5 text-white" /> Get Quick Quote
             </button>
 
             <button
@@ -181,7 +181,7 @@ export function Header() {
               />
               <button
                 type="submit"
-                className="shrink-0 rounded-xl bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-accent transition-colors"
+                className="shrink-0 rounded-xl bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] transition-colors"
               >
                 Search
               </button>
@@ -193,7 +193,7 @@ export function Header() {
       {/* Mobile Drawer */}
       {open && (
         <>
-          <div className="fixed inset-0 z-40 bg-slate-900/60 backdrop-blur-sm animate-fade-in" onClick={() => setOpen(false)} />
+          <div className="fixed inset-0 z-40 bg-slate-700/50 backdrop-blur-sm animate-fade-in" onClick={() => setOpen(false)} />
           <div className="fixed inset-y-0 right-0 z-50 w-[85vw] max-w-sm bg-background shadow-2xl animate-slide-right flex flex-col">
             <div className="flex items-center justify-between border-b border-border px-6 py-4 bg-white">
               <span className="font-display text-sm font-bold uppercase tracking-wider text-foreground">Menu</span>
@@ -220,7 +220,7 @@ export function Header() {
                 href={`tel:${company.phoneRaw}`}
                 className="flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-bold text-foreground hover:bg-muted"
               >
-                <Phone className="h-4 w-4 text-accent" />
+                <Phone className="h-4 w-4 text-[#ea580c]" />
                 Call {company.phone}
               </a>
             </nav>
@@ -228,9 +228,9 @@ export function Header() {
             <div className="border-t border-border p-4 bg-white">
               <button
                 onClick={() => { setOpen(false); setInquiryOpen(true); }}
-                className="flex w-full items-center justify-center gap-2 rounded-xl bg-primary py-3.5 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-accent transition-colors shadow"
+                className="flex w-full items-center justify-center gap-2 rounded-xl bg-primary py-3.5 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] transition-colors shadow"
               >
-                <MessageSquare className="h-4 w-4 text-accent" /> Request Quote
+                <MessageSquare className="h-4 w-4 text-white" /> Request Quote
               </button>
             </div>
           </div>

@@ -42,9 +42,9 @@ export function Footer() {
 
   return (
     <>
-      <footer className="bg-slate-50 text-slate-700 border-t border-slate-200">
+      <footer className="bg-slate-100 text-slate-700 border-t border-slate-200">
         {/* Accent Top Line */}
-        <div className="h-1 w-full bg-accent" />
+        <div className="h-0.5 w-full bg-slate-300" />
 
         {/* Main 4-Column Layout */}
         <div className="mx-auto max-w-7xl px-4 py-10 sm:py-14 sm:px-6">
@@ -52,7 +52,7 @@ export function Footer() {
             
             {/* COLUMN 1: BRANDS */}
             <div>
-              <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-slate-900 mb-5">
+              <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-slate-800 mb-5">
                 BRANDS
               </h3>
               <ul className="space-y-3 text-xs sm:text-sm font-medium text-slate-600">
@@ -72,7 +72,7 @@ export function Footer() {
 
             {/* COLUMN 2: CATEGORIES */}
             <div>
-              <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-slate-900 mb-5">
+              <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-slate-800 mb-5">
                 CATEGORIES
               </h3>
               <ul className="space-y-3 text-xs sm:text-sm font-medium text-slate-600">
@@ -92,7 +92,7 @@ export function Footer() {
 
             {/* COLUMN 3: QUICK LINKS */}
             <div>
-              <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-slate-900 mb-5">
+              <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-slate-800 mb-5">
                 QUICK LINKS
               </h3>
               <ul className="space-y-3 text-xs sm:text-sm font-medium text-slate-600">
@@ -112,28 +112,28 @@ export function Footer() {
 
             {/* COLUMN 4: CONTACT INFORMATION */}
             <div className="space-y-4">
-              <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-slate-900 mb-5">
+              <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-slate-800 mb-5">
                 CONTACT US
               </h3>
               
               <div className="text-xs sm:text-sm text-slate-600 space-y-3 font-medium leading-relaxed">
                 <p>
-                  <strong className="text-slate-900 font-extrabold">Contact:</strong>{" "}
-                  <a href={`tel:${company.phoneRaw}`} className="hover:text-primary font-mono font-bold text-slate-900">
+                  <strong className="text-slate-800 font-extrabold">Contact:</strong>{" "}
+                  <a href={`tel:${company.phoneRaw}`} className="hover:text-primary font-mono font-bold text-slate-800">
                     {company.phone}
                   </a>
                 </p>
                 <p className="break-all">
-                  <strong className="text-slate-900 font-extrabold">Email:</strong>{" "}
-                  <a href={`mailto:${company.email}`} className="hover:text-primary text-slate-900 font-semibold">
+                  <strong className="text-slate-800 font-extrabold">Email:</strong>{" "}
+                  <a href={`mailto:${company.email}`} className="hover:text-primary text-slate-800 font-semibold">
                     {company.email}
                   </a>
                 </p>
                 <p>
-                  <strong className="text-slate-900 font-extrabold">Hours:</strong> Monday – Saturday (10:00am – 07:00pm IST)
+                  <strong className="text-slate-800 font-extrabold">Hours:</strong> Monday – Saturday (10:00am – 07:00pm IST)
                 </p>
                 <div>
-                  <strong className="text-slate-900 font-extrabold">Address:</strong>{" "}
+                  <strong className="text-slate-800 font-extrabold">Address:</strong>{" "}
                   <span className="text-slate-600 leading-relaxed block mt-1">
                     D-303, 3rd Floor, Titanium Business Park, Makarba Road, Makarba, Ahmedabad - 380051, Gujarat, India
                   </span>
@@ -142,9 +142,9 @@ export function Footer() {
                 <div className="pt-3">
                   <button
                     onClick={() => setInquiryOpen(true)}
-                    className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-primary hover:bg-blue-700 active:scale-98 px-5 py-2.5 text-xs font-extrabold uppercase tracking-wider text-white transition-all shadow-sm cursor-pointer"
+                    className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 hover:bg-[#ea580c] active:scale-98 px-5 py-2.5 text-xs font-extrabold uppercase tracking-wider text-white transition-all shadow-sm cursor-pointer"
                   >
-                    <MessageSquare className="h-4 w-4 text-amber-400" /> Request Price Quote
+                    <MessageSquare className="h-4 w-4 text-white" /> Request Price Quote
                   </button>
                 </div>
               </div>
@@ -164,8 +164,8 @@ export function Footer() {
                   height={36}
                 />
               </div>
-              <div className="font-display text-sm sm:text-base font-extrabold uppercase tracking-tight text-slate-900">
-                CONCEPT <span className="text-amber-600">AUTOMATION</span> TECHNOLOGIES
+              <div className="font-display text-sm sm:text-base font-extrabold uppercase tracking-tight text-slate-800">
+                CONCEPT <span className="text-[#ea580c]">AUTOMATION</span> TECHNOLOGIES
               </div>
             </Link>
           </div>

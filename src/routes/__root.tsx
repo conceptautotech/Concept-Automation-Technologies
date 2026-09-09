@@ -57,10 +57,10 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 
       <main className="flex-1 flex items-center justify-center py-16 px-4">
         <div className="max-w-lg w-full text-center bg-white p-8 rounded-3xl border border-slate-200 shadow-xl">
-          <div className="mx-auto h-16 w-16 rounded-2xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-600 mb-4 font-black text-xl">
+          <div className="mx-auto h-16 w-16 rounded-2xl bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-600 mb-4 font-black text-xl">
             !
           </div>
-          <h1 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
+          <h1 className="text-xl sm:text-2xl font-extrabold text-slate-800 tracking-tight">
             Product Details Refreshing
           </h1>
           <p className="mt-2 text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
@@ -71,7 +71,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <button
               onClick={handleReset}
-              className="inline-flex items-center justify-center rounded-xl bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all hover:bg-blue-700 shadow-md cursor-pointer"
+              className="inline-flex items-center justify-center rounded-xl bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all hover:bg-[#c2410c] shadow-md cursor-pointer"
             >
               Reload Page
             </button>

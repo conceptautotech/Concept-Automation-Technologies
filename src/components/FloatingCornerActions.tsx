@@ -45,18 +45,18 @@ export function FloatingCornerActions() {
         <button
           onClick={() => setInquiryModalOpen(true)}
           title="Email Inquiry"
-          className="group flex h-10 w-10 items-center justify-center rounded-r-xl bg-primary text-primary-foreground shadow-md hover:w-32 hover:bg-accent transition-all duration-200"
+          className="group flex h-10 w-10 items-center justify-center rounded-r-xl bg-slate-900 text-white shadow-md hover:w-32 hover:bg-[#ea580c] transition-all duration-200"
         >
-          <Mail className="h-4 w-4 shrink-0 text-amber-400" />
+          <Mail className="h-4 w-4 shrink-0 text-white" />
           <span className="ml-2 hidden text-[10px] font-bold uppercase tracking-wider group-hover:inline">Email</span>
         </button>
 
         <a
           href={`tel:${company.phoneRaw}`}
           title="Call Us"
-          className="group flex h-10 w-10 items-center justify-center rounded-r-xl bg-primary/90 text-primary-foreground shadow-md hover:w-32 hover:bg-accent transition-all duration-200"
+          className="group flex h-10 w-10 items-center justify-center rounded-r-xl bg-slate-900/90 text-white shadow-md hover:w-32 hover:bg-[#ea580c] transition-all duration-200"
         >
-          <Phone className="h-4 w-4 shrink-0 text-amber-400" />
+          <Phone className="h-4 w-4 shrink-0 text-white" />
           <span className="ml-2 hidden text-[10px] font-bold uppercase tracking-wider group-hover:inline">Call</span>
         </a>
 
@@ -83,9 +83,9 @@ export function FloatingCornerActions() {
         {/* Assistant panel */}
         {assistantOpen && (
           <div className="w-80 sm:w-96 rounded-2xl border border-border bg-card shadow-2xl overflow-hidden animate-scale-in">
-            <div className="bg-primary p-4 text-white flex items-center justify-between">
+            <div className="bg-slate-900 p-4 text-white flex items-center justify-between">
               <div className="flex items-center gap-2.5">
-                <div className="relative flex h-8 w-8 items-center justify-center rounded-full bg-emerald-500 text-white font-bold text-xs">
+                <div className="relative flex h-8 w-8 items-center justify-center rounded-full bg-slate-600 text-white font-bold text-xs">
                   CA
                   <span className="absolute bottom-0 right-0 h-2 w-2 rounded-full bg-emerald-400 border-2 border-primary" />
                 </div>
@@ -115,7 +115,7 @@ export function FloatingCornerActions() {
 
               <div className="grid grid-cols-2 gap-2">
                 <button onClick={() => { setAssistantOpen(false); setInquiryModalOpen(true); }}
-                  className="rounded-xl border border-border bg-muted py-2 text-[11px] font-bold text-foreground hover:bg-accent hover:text-white transition-all">
+                  className="rounded-xl border border-border bg-muted py-2 text-[11px] font-bold text-foreground hover:bg-[#c2410c] hover:text-white transition-all">
                   Request Quote
                 </button>
                 <a href={`https://wa.me/${company.whatsapp.replace(/[^0-9]/g, "")}`} target="_blank" rel="noreferrer"
@@ -134,7 +134,7 @@ export function FloatingCornerActions() {
                     value={chatMessage} onChange={(e) => setChatMessage(e.target.value)}
                     className="w-full rounded-xl border border-border bg-card px-3 py-2 text-xs text-foreground focus:outline-none focus:ring-1 focus:ring-primary" />
                   <button type="submit" disabled={chatLoading}
-                    className="rounded-xl bg-primary px-3 py-2 text-white hover:bg-accent transition-colors">
+                    className="rounded-xl bg-primary px-3 py-2 text-white hover:bg-[#c2410c] transition-colors">
                     <Send className="h-3.5 w-3.5" />
                   </button>
                 </form>

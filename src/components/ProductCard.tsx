@@ -26,6 +26,7 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
   const [modalOpen, setModalOpen] = useState(false);
   const [errorCount, setErrorCount] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
   const navigate = useNavigate();
   const slug = product.slug || (product.name || "product").toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
@@ -84,12 +85,19 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         onClick={handleCardClick}
-        className="group relative flex flex-col overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-xs transition-all duration-300 hover:shadow-xl hover:border-primary/40 cursor-pointer"
+        className="group relative flex flex-col overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-xs transition-all duration-300 hover:shadow-xl hover:border-[#ea580c]/60 cursor-pointer"
       >
         {/* Product Image Container — Pure White */}
         <div className="relative aspect-square overflow-hidden bg-white p-5 border-b border-slate-100 flex items-center justify-center">
+          {/* Shimmer Placeholder while loading */}
+          {!imageLoaded && (
+            <div className="absolute inset-0 bg-slate-50 skeleton-shimmer flex items-center justify-center">
+              <div className="h-6 w-6 rounded-full border-2 border-slate-200 border-t-[#ea580c] animate-spin opacity-40" />
+            </div>
+          )}
+
           {/* Brand Badge */}
-          <span className="absolute left-3.5 top-3.5 z-10 rounded-lg bg-primary px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-white shadow-xs">
+          <span className="absolute left-3.5 top-3.5 z-10 rounded-lg bg-slate-900 px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-white shadow-xs">
             {product.brand || product.category.split(" ")[0]}
           </span>
 
@@ -106,24 +114,30 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
             alt={displayTitle}
             loading="lazy"
             referrerPolicy="no-referrer"
-            onError={() => setErrorCount((prev) => prev + 1)}
+            onLoad={() => setImageLoaded(true)}
+            onError={() => {
+              setErrorCount((prev) => prev + 1);
+              setImageLoaded(true);
+            }}
             animate={{ scale: isHovered ? 1.05 : 1 }}
             transition={{ duration: 0.3 }}
-            className="h-full w-full object-contain transition-transform duration-300"
+            className={`h-full w-full object-contain transition-all duration-500 ${
+              imageLoaded ? "opacity-100 scale-100" : "opacity-0 scale-95"
+            }`}
           />
         </div>
 
         {/* Content Box */}
         <div className="flex flex-1 flex-col justify-between p-4 sm:p-5 gap-3.5 bg-white">
           <div>
-            <span className="text-[10px] font-bold uppercase tracking-widest text-amber-600/90 block mb-1.5">
+            <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500 block mb-1.5">
               {product.category}
             </span>
 
             <Link
               to="/products/$slug"
               params={{ slug }}
-              className="text-xs sm:text-sm font-extrabold leading-snug text-slate-900 line-clamp-2 min-h-[2.4rem] group-hover:text-primary transition-colors block"
+              className="text-xs sm:text-sm font-extrabold leading-snug text-[#222222] line-clamp-2 min-h-[2.4rem] group-hover:text-primary transition-colors block"
             >
               {displayTitle}
             </Link>
@@ -147,9 +161,9 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
           <div className="pt-3.5 border-t border-slate-100 flex items-center justify-between gap-2.5 mt-auto">
             <button
               onClick={(e) => { e.stopPropagation(); setModalOpen(true); }}
-              className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl bg-primary hover:bg-blue-700 active:scale-98 px-3 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all shadow-sm cursor-pointer"
+              className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl bg-slate-900 hover:bg-[#ea580c] active:scale-98 px-3 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all shadow-sm cursor-pointer"
             >
-              <MessageSquare className="h-3.5 w-3.5 text-amber-400" /> Get Quote
+              <MessageSquare className="h-3.5 w-3.5 text-white" /> Get Quote
             </button>
 
             <Link

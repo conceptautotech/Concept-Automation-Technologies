@@ -161,7 +161,7 @@ function ProductDetailPage() {
                   className="space-y-4"
                 >
                   <div className="relative overflow-hidden rounded-2xl border border-border bg-white p-4 sm:p-6 flex items-center justify-center shadow-sm min-h-[250px] sm:min-h-[380px]">
-                    <span className="absolute left-4 top-4 z-10 rounded-full bg-primary px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-white">
+                    <span className="absolute left-4 top-4 z-10 rounded-full bg-slate-900 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-white">
                       {brand}
                     </span>
                     <img
@@ -241,9 +241,9 @@ function ProductDetailPage() {
                       nameInput?.focus();
                     }, 400);
                   }}
-                  className="mt-4 inline-flex items-center gap-2 rounded-xl bg-primary hover:bg-indigo-700 text-white font-semibold text-sm px-6 py-3 shadow-md shadow-blue-500/10 cursor-pointer transition-all active:scale-98"
+                  className="mt-4 inline-flex items-center gap-2 rounded-xl bg-[#ea580c] hover:bg-[#c2410c] text-white font-semibold text-sm px-6 py-3 shadow-md shadow-orange-500/20 cursor-pointer transition-all active:scale-98"
                 >
-                  <MessageSquare className="h-4 w-4 text-amber-400" /> Get A Quote
+                  <MessageSquare className="h-4 w-4 text-white" /> Get A Quote
                 </button>
               </div>
 
@@ -265,7 +265,7 @@ function ProductDetailPage() {
               </div>
 
               {/* Quote Form */}
-              <div id="quote-form" className="rounded-2xl border border-accent/20 bg-accent/5 p-5 sm:p-6 shadow-sm">
+              <div id="quote-form" className="rounded-2xl border border-slate-200 bg-slate-50/50 p-5 sm:p-6 shadow-sm">
                 <h3 className="font-display text-base font-bold text-foreground flex items-center gap-2">
                   <MessageSquare className="h-4 w-4 text-accent" /> Get Official Price Quote
                 </h3>
@@ -281,21 +281,21 @@ function ProductDetailPage() {
                     <div className="grid gap-3 sm:grid-cols-2">
                       <input type="text" required placeholder="Your Name *" value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-stone-400 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20" />
+                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#ea580c] focus:outline-none focus:ring-2 focus:ring-[#ea580c]/20" />
                       <input type="tel" required placeholder="Phone / WhatsApp *" value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-stone-400 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20" />
+                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#ea580c] focus:outline-none focus:ring-2 focus:ring-[#ea580c]/20" />
                     </div>
                     <div className="grid gap-3 sm:grid-cols-2">
                       <input type="email" required placeholder="Work Email *" value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-stone-400 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20" />
+                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#ea580c] focus:outline-none focus:ring-2 focus:ring-[#ea580c]/20" />
                       <input type="number" min={1} placeholder="Quantity" value={formData.quantity}
                         onChange={(e) => setFormData({ ...formData, quantity: parseInt(e.target.value) || 1 })}
-                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-stone-400 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20" />
+                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#ea580c] focus:outline-none focus:ring-2 focus:ring-[#ea580c]/20" />
                     </div>
                     <button type="submit" disabled={loading}
-                      className="w-full rounded-xl bg-primary py-3 text-sm font-semibold text-white hover:bg-accent transition-colors disabled:opacity-50 shadow">
+                      className="w-full rounded-xl bg-[#ea580c] py-3 text-sm font-semibold text-white hover:bg-[#c2410c] transition-colors disabled:opacity-50 shadow">
                       {loading ? "Submitting..." : "Submit Price Quote Request"}
                     </button>
                   </form>

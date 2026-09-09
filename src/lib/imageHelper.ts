@@ -76,14 +76,14 @@ export function getSvgDataUrl(name: string, brand?: string): string {
   const cleanBrand = (brand || "CONCEPT AUTOMATION").toUpperCase();
   
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" fill="none">
-    <rect width="400" height="400" fill="#0F172A"/>
-    <rect x="20" y="20" width="360" height="360" rx="16" fill="#1E293B" stroke="#334155" stroke-width="2"/>
-    <circle cx="200" cy="160" r="48" fill="#F97316" fill-opacity="0.1" stroke="#F97316" stroke-width="3"/>
-    <path d="M185 160L195 170L215 150" stroke="#F97316" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="50" y="240" width="300" height="28" rx="6" fill="#F97316" fill-opacity="0.2"/>
-    <text x="200" y="259" fill="#F97316" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="2">${cleanBrand}</text>
-    <text x="200" y="300" fill="#F8FAFC" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle">${cleanName}</text>
-    <text x="200" y="330" fill="#94A3B8" font-family="sans-serif" font-size="11" text-anchor="middle">100% Original Stock</text>
+    <rect width="400" height="400" fill="#F8FAFC"/>
+    <rect x="20" y="20" width="360" height="360" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+    <circle cx="200" cy="160" r="48" fill="#ea580c" fill-opacity="0.1" stroke="#ea580c" stroke-width="3"/>
+    <path d="M185 160L195 170L215 150" stroke="#ea580c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="50" y="240" width="300" height="28" rx="6" fill="#ea580c" fill-opacity="0.2"/>
+    <text x="200" y="259" fill="#ea580c" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="2">${cleanBrand}</text>
+    <text x="200" y="300" fill="#0f172a" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle">${cleanName}</text>
+    <text x="200" y="330" fill="#64748B" font-family="sans-serif" font-size="11" text-anchor="middle">100% Original Stock</text>
   </svg>`;
 
   return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;

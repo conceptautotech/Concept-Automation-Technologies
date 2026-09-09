@@ -1590,7 +1590,7 @@ export const allProducts: Product[] = [
     "id": "im-2855147961297",
     "name": "Abb Vfd Acs560 01 12a6 4",
     "partNumber": "ABBVFDACS5600112A64",
-    "brand": "Abb",
+    "brand": "ABB",
     "category": "Abb Vfd",
     "type": "VFD",
     "price": "₹ 28757/Piece",

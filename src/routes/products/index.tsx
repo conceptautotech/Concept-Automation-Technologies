@@ -37,6 +37,13 @@ function Products() {
   const [selectedType, setSelectedType] = useState<string>("All");
   const [inquiryModalOpen, setInquiryModalOpen] = useState(false);
 
+  // Progressive scroll-loading parameters
+  const INITIAL_BATCH = 12;
+  const BATCH_SIZE = 8;
+  const [visibleCount, setVisibleCount] = useState(INITIAL_BATCH);
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const sentinelRef = useRef<HTMLDivElement | null>(null);
+
   const { data: dbProducts = [] } = useQuery({
     queryKey: ["dbProducts"],
     queryFn: getDbProducts,
@@ -52,14 +59,24 @@ function Products() {
   }, [searchParams.q]);
 
   const dynamicBrands = useMemo(() => {
-    const brandSet = new Set<string>();
+    // Map lower-cased brand to canonical display name, ensuring Abb & ABB merge into ABB
+    const brandMap = new Map<string, string>();
     mergedProducts.forEach((p) => {
-      const b = (p.brand || "").trim();
-      if (b) {
-        brandSet.add(b);
+      let b = (p.brand || "").trim();
+      if (!b) return;
+      if (b.toLowerCase() === "abb") b = "ABB";
+      const key = b.toLowerCase();
+      if (!brandMap.has(key)) {
+        brandMap.set(key, b);
+      } else {
+        // Prefer uppercase abbreviation if available
+        const current = brandMap.get(key)!;
+        if (b === b.toUpperCase() && current !== current.toUpperCase()) {
+          brandMap.set(key, b);
+        }
       }
     });
-    return Array.from(brandSet).sort((a, b) => a.localeCompare(b));
+    return Array.from(brandMap.values()).sort((a, b) => a.localeCompare(b));
   }, [mergedProducts]);
 
   const filteredProducts = useMemo(() => {
@@ -111,6 +128,48 @@ function Products() {
     });
   }, [selectedBrand, selectedType, searchQuery, mergedProducts]);
 
+  // Reset visible batch count whenever filters or search query change
+  useEffect(() => {
+    setVisibleCount(INITIAL_BATCH);
+    setIsLoadingMore(false);
+  }, [selectedBrand, selectedType, searchQuery]);
+
+  const visibleProducts = useMemo(() => {
+    return filteredProducts.slice(0, visibleCount);
+  }, [filteredProducts, visibleCount]);
+
+  const hasMore = visibleCount < filteredProducts.length;
+
+  const loadMore = useCallback(() => {
+    if (isLoadingMore || !hasMore) return;
+    setIsLoadingMore(true);
+    setTimeout(() => {
+      setVisibleCount((prev) => Math.min(prev + BATCH_SIZE, filteredProducts.length));
+      setIsLoadingMore(false);
+    }, 400); // 400ms smooth loading animation window
+  }, [isLoadingMore, hasMore, filteredProducts.length]);
+
+  useEffect(() => {
+    const el = sentinelRef.current;
+    if (!el || !hasMore) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          loadMore();
+        }
+      },
+      {
+        root: null,
+        rootMargin: "200px",
+        threshold: 0.05,
+      }
+    );
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [hasMore, loadMore]);
+
   const resetFilters = () => {
     setSelectedBrand("All");
     setSelectedType("All");
@@ -156,7 +215,7 @@ function Products() {
 
       <main>
         {/* Page Header Banner */}
-        <div className="border-b border-border bg-gradient-to-r from-blue-50/40 via-background to-slate-100/40 py-8 sm:py-14 text-foreground">
+        <div className="border-b border-border bg-gradient-to-r from-[#f5f5f5] via-white to-[#f5f5f5] py-8 sm:py-14 text-foreground">
           <motion.div 
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
@@ -187,7 +246,7 @@ function Products() {
                   placeholder="Search model, part number, brand..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full rounded-2xl border border-slate-200 bg-slate-50/50 pl-10 pr-10 py-2.5 text-xs text-slate-800 font-semibold placeholder-slate-400 focus:border-primary focus:bg-white focus:outline-none focus:ring-4 focus:ring-primary/5 transition-all shadow-inner"
+                  className="w-full rounded-2xl border border-slate-200 bg-slate-50/50 pl-10 pr-10 py-2.5 text-xs text-slate-800 font-semibold placeholder-slate-400 focus:border-[#ea580c] focus:bg-white focus:outline-none focus:ring-4 focus:ring-[#ea580c]/20 transition-all shadow-inner"
                 />
                 {searchQuery && (
                   <button onClick={() => setSearchQuery("")} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 transition-colors">
@@ -221,7 +280,7 @@ function Products() {
                     onClick={() => setSelectedType(t)}
                     className={`rounded-full px-3.5 py-1.5 text-xs font-extrabold transition-all cursor-pointer ${
                       selectedType === t
-                        ? "bg-primary text-white shadow-md shadow-blue-500/10 scale-[1.02]"
+                        ? "bg-slate-900 text-white shadow-sm scale-[1.02]"
                         : "bg-slate-50 text-slate-700 border border-slate-200 hover:bg-slate-100 hover:border-slate-300"
                     }`}
                   >
@@ -238,7 +297,7 @@ function Products() {
                 onClick={() => setSelectedBrand("All")}
                 className={`rounded-full px-3.5 py-1 text-xs font-extrabold transition-all cursor-pointer ${
                   selectedBrand === "All"
-                    ? "bg-accent text-white shadow-md shadow-orange-500/10 scale-[1.02]"
+                    ? "bg-slate-900 text-white shadow-sm scale-[1.02]"
                     : "bg-slate-50 text-slate-700 border border-slate-200 hover:bg-slate-100 hover:border-slate-300"
                 }`}
               >
@@ -250,7 +309,7 @@ function Products() {
                   onClick={() => setSelectedBrand(b)}
                   className={`rounded-full px-3.5 py-1 text-xs font-extrabold transition-all cursor-pointer ${
                     selectedBrand === b
-                      ? "bg-accent text-white shadow-md shadow-orange-500/10 scale-[1.02]"
+                      ? "bg-slate-900 text-white shadow-sm scale-[1.02]"
                       : "bg-slate-50 text-slate-700 border border-slate-200 hover:bg-slate-100 hover:border-slate-300"
                   }`}
                 >
@@ -266,16 +325,76 @@ function Products() {
           {filteredProducts.length === 0 ? (
             <div className="rounded-3xl border border-border bg-card p-12 text-center shadow-sm">
               <p className="text-muted-foreground text-sm font-semibold">No products match your filter criteria.</p>
-              <button onClick={resetFilters} className="mt-4 rounded-xl bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-accent">
+              <button onClick={resetFilters} className="mt-4 rounded-xl bg-slate-900 px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#ea580c]">
                 Clear Filters
               </button>
             </div>
           ) : (
-            <div className="grid gap-3 grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
-              {filteredProducts.map((p, idx) => (
-                <ProductCard key={p.id} product={p} index={idx} />
-              ))}
-            </div>
+            <>
+              {/* Render Visible Batch of Products */}
+              <div className="grid gap-3 grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
+                {visibleProducts.map((p, idx) => (
+                  <ProductCard key={p.id} product={p} index={idx} />
+                ))}
+              </div>
+
+              {/* Animated Loading Skeletons on Scroll */}
+              {isLoadingMore && (
+                <div className="mt-3 grid gap-3 grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
+                  {[...Array(4)].map((_, i) => (
+                    <div
+                      key={`skeleton-${i}`}
+                      className="relative flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white p-4 shadow-xs"
+                    >
+                      <div className="relative aspect-square w-full rounded-xl bg-slate-100 skeleton-shimmer flex items-center justify-center overflow-hidden">
+                        <div className="h-6 w-6 rounded-full border-2 border-slate-200 border-t-[#ea580c] animate-spin opacity-50" />
+                      </div>
+                      <div className="mt-3 space-y-2">
+                        <div className="h-2.5 w-1/3 rounded-full bg-slate-200 skeleton-shimmer" />
+                        <div className="h-3.5 w-3/4 rounded-full bg-slate-200 skeleton-shimmer" />
+                        <div className="h-2.5 w-1/2 rounded-full bg-slate-100 skeleton-shimmer" />
+                      </div>
+                      <div className="mt-4 pt-3 border-t border-slate-100 flex gap-2">
+                        <div className="h-8 flex-1 rounded-xl bg-slate-200 skeleton-shimmer" />
+                        <div className="h-8 w-14 rounded-xl bg-slate-100 skeleton-shimmer" />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {/* Scroll Sentinel & Status Indicator */}
+              <div ref={sentinelRef} className="py-8 flex flex-col items-center justify-center gap-3">
+                {hasMore && (
+                  <div className="flex flex-col items-center gap-2">
+                    <div className="inline-flex items-center gap-2.5 rounded-full bg-slate-100 border border-slate-200 px-4 py-2 text-xs font-bold text-slate-700 shadow-2xs">
+                      <span className="relative flex h-2.5 w-2.5">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#ea580c] opacity-75" />
+                        <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#ea580c]" />
+                      </span>
+                      <span>Loading more products as you scroll... ({visibleProducts.length} of {filteredProducts.length})</span>
+                    </div>
+
+                    <button
+                      onClick={loadMore}
+                      disabled={isLoadingMore}
+                      className="text-[11px] font-extrabold uppercase tracking-wider text-slate-500 hover:text-[#ea580c] transition-colors cursor-pointer"
+                    >
+                      {isLoadingMore ? "Loading batch..." : "Click to load more directly"}
+                    </button>
+                  </div>
+                )}
+
+                {!hasMore && filteredProducts.length > INITIAL_BATCH && (
+                  <div className="text-center py-4 border-t border-slate-200 w-full max-w-md">
+                    <span className="inline-flex items-center gap-2 rounded-full bg-slate-100 border border-slate-200 px-4 py-1.5 text-xs font-bold text-slate-600 shadow-2xs">
+                      <span className="h-2 w-2 rounded-full bg-emerald-500" />
+                      All {filteredProducts.length} verified products loaded
+                    </span>
+                  </div>
+                )}
+              </div>
+            </>
           )}
         </div>
       </main>

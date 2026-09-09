@@ -183,11 +183,11 @@ function AdminPortal() {
             <p className="mt-1 text-xs font-semibold text-slate-500 uppercase tracking-wider mb-4">
               Concept Automation Technologies
             </p>
-            <div className="rounded-2xl bg-amber-50/50 border border-amber-200/60 p-3.5 text-left text-[11px] text-amber-900/90 font-medium">
+            <div className="rounded-2xl bg-slate-100/60 border border-slate-200 p-3.5 text-left text-[11px] text-slate-800 font-medium">
               <span className="font-bold text-accent">Default Access:</span>
               <ul className="mt-1 space-y-0.5 list-disc list-inside">
-                <li>Username: <code className="bg-amber-100/80 px-1 py-0.5 rounded font-mono text-[10px] font-bold text-amber-950">admin</code></li>
-                <li>Password: <code className="bg-amber-100/80 px-1 py-0.5 rounded font-mono text-[10px] font-bold text-amber-950">concept@admin123</code></li>
+                <li>Username: <code className="bg-slate-200/80 px-1 py-0.5 rounded font-mono text-[10px] font-bold text-slate-800">admin</code></li>
+                <li>Password: <code className="bg-slate-200/80 px-1 py-0.5 rounded font-mono text-[10px] font-bold text-slate-800">concept@admin123</code></li>
               </ul>
             </div>
           </div>
@@ -246,15 +246,15 @@ function AdminPortal() {
         {/* Forgot Password Reset Modal */}
         {isForgotOpen && (
           <div className="fixed inset-0 z-50 flex items-center justify-center font-sans">
-            <div className="absolute inset-0 bg-stone-900/60 backdrop-blur-sm transition-opacity" onClick={() => setIsForgotOpen(false)} />
+            <div className="absolute inset-0 bg-slate-700/50 backdrop-blur-sm transition-opacity" onClick={() => setIsForgotOpen(false)} />
             
             <div className="relative w-full max-w-md bg-white rounded-3xl p-6 shadow-2xl animate-fade-in border border-[#e7e5e4] mx-4">
               <div className="flex justify-between items-center border-b border-[#e7e5e4] pb-4 mb-4">
                 <div className="flex items-center gap-2">
-                  <span className="rounded-lg bg-amber-50 p-2 text-[#b45309]">
+                  <span className="rounded-lg bg-slate-100 p-2 text-slate-600">
                     <AlertTriangle className="h-4 w-4" />
                   </span>
-                  <h3 className="text-sm font-extrabold text-[#1a130f]">
+                  <h3 className="text-sm font-extrabold text-slate-800">
                     Forgot Admin Credentials
                   </h3>
                 </div>
@@ -270,7 +270,7 @@ function AdminPortal() {
                   </p>
                   
                   <div>
-                    <label className="text-[11px] font-bold text-[#1a130f] block mb-1">Registered Admin Email</label>
+                    <label className="text-[11px] font-bold text-slate-800 block mb-1">Registered Admin Email</label>
                     <input
                       type="text"
                       disabled
@@ -286,14 +286,14 @@ function AdminPortal() {
                     <button
                       type="button"
                       onClick={() => setIsForgotOpen(false)}
-                      className="rounded-xl border border-[#e7e5e4] bg-white px-4 py-2 text-xs font-bold text-[#1a130f] hover:bg-stone-50 transition-all cursor-pointer"
+                      className="rounded-xl border border-[#e7e5e4] bg-white px-4 py-2 text-xs font-bold text-slate-800 hover:bg-stone-50 transition-all cursor-pointer"
                     >
                       Cancel
                     </button>
                     <button
                       type="submit"
                       disabled={isSendingLink}
-                      className="rounded-xl bg-[#1a130f] hover:bg-[#b45309] text-white px-4 py-2 text-xs font-bold transition-all cursor-pointer shadow-md disabled:opacity-50"
+                      className="rounded-xl bg-slate-700 hover:bg-slate-800 text-white px-4 py-2 text-xs font-bold transition-all cursor-pointer shadow-md disabled:opacity-50"
                     >
                       {isSendingLink ? "Sending..." : "Send Login Link"}
                     </button>
@@ -309,7 +309,7 @@ function AdminPortal() {
                     <button
                       type="button"
                       onClick={() => setIsForgotOpen(false)}
-                      className="rounded-xl bg-[#1a130f] hover:bg-[#b45309] text-white px-5 py-2 text-xs font-bold transition-all cursor-pointer shadow-md"
+                      className="rounded-xl bg-slate-700 hover:bg-slate-800 text-white px-5 py-2 text-xs font-bold transition-all cursor-pointer shadow-md"
                     >
                       Close Window
                     </button>
@@ -850,20 +850,20 @@ function DashboardView({ onLogout }: DashboardViewProps) {
           <div className="flex flex-wrap items-center gap-3">
             <button
               onClick={() => setIsSettingsOpen(true)}
-              className="inline-flex items-center gap-1.5 rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs font-bold uppercase tracking-wider text-[#1a130f] hover:bg-stone-50 transition-all cursor-pointer shadow-sm"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs font-bold uppercase tracking-wider text-slate-800 hover:bg-stone-50 transition-all cursor-pointer shadow-sm"
               title="Admin Credentials Settings"
             >
               <SlidersHorizontal className="h-4 w-4 text-stone-600" /> Credentials
             </button>
             <button
               onClick={handleOpenAdd}
-              className="inline-flex items-center gap-1.5 rounded-xl bg-[#1a130f] px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#b45309] transition-all shadow-md cursor-pointer"
+              className="inline-flex items-center gap-1.5 rounded-xl bg-slate-700 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-slate-800 transition-all shadow-md cursor-pointer"
             >
-              <Plus className="h-4 w-4 text-amber-400" /> Add Product
+              <Plus className="h-4 w-4 text-slate-300" /> Add Product
             </button>
             <button
               onClick={() => refetch()}
-              className="inline-flex items-center gap-1.5 rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs font-bold uppercase tracking-wider text-[#1a130f] hover:bg-stone-50 transition-all cursor-pointer shadow-sm"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs font-bold uppercase tracking-wider text-slate-800 hover:bg-stone-50 transition-all cursor-pointer shadow-sm"
               title="Refresh Products"
             >
               <RefreshCw className={`h-3.5 w-3.5 ${isFetching ? "animate-spin" : ""}`} />
@@ -887,15 +887,15 @@ function DashboardView({ onLogout }: DashboardViewProps) {
             }}
             className={`rounded-2xl border p-5 shadow-sm cursor-pointer select-none transition-all duration-200 hover:shadow-md hover:scale-[1.02] ${
               selectedTypeFilter === "All"
-                ? "border-[#b45309] bg-[#b45309]/5 ring-1 ring-[#b45309]/30"
-                : "border-[#e7e5e4] bg-white hover:border-[#b45309]/50"
+                ? "border-slate-400 bg-slate-100 ring-1 ring-slate-300/40"
+                : "border-[#e7e5e4] bg-white hover:border-slate-400/50"
             }`}
           >
             <div className="flex items-center gap-3 text-slate-500 mb-2">
-              <Package className="h-5 w-5 text-[#b45309]" />
+              <Package className="h-5 w-5 text-slate-600" />
               <span className="text-xs font-bold uppercase tracking-wider">Total Catalog</span>
             </div>
-            <p className="text-3xl font-extrabold text-[#1a130f]">{metrics.total}</p>
+            <p className="text-3xl font-extrabold text-slate-800">{metrics.total}</p>
             <p className="text-[10px] text-slate-400 font-semibold mt-1">Click to view all</p>
           </div>
 
@@ -947,15 +947,15 @@ function DashboardView({ onLogout }: DashboardViewProps) {
             }}
             className={`rounded-2xl border p-5 shadow-sm cursor-pointer select-none transition-all duration-200 hover:shadow-md hover:scale-[1.02] ${
               selectedTypeFilter === "VFD"
-                ? "border-amber-500 bg-amber-50/40 ring-1 ring-amber-500/30"
-                : "border-[#e7e5e4] bg-white hover:border-[#b45309]/50"
+                ? "border-amber-500 bg-slate-100/40 ring-1 ring-amber-500/30"
+                : "border-[#e7e5e4] bg-white hover:border-slate-400/50"
             }`}
           >
-            <div className="flex items-center gap-3 text-[#b45309] mb-2">
+            <div className="flex items-center gap-3 text-slate-600 mb-2">
               <Zap className="h-5 w-5" />
               <span className="text-xs font-bold uppercase tracking-wider text-slate-500">VFDs & Drives</span>
             </div>
-            <p className="text-3xl font-extrabold text-[#b45309]">{metrics.vfdCount}</p>
+            <p className="text-3xl font-extrabold text-slate-600">{metrics.vfdCount}</p>
             <p className="text-[10px] text-slate-400 font-semibold mt-1">Click to filter VFDs</p>
           </div>
 
@@ -989,7 +989,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
               placeholder="Search products by model, name, brand, part number..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full rounded-xl border border-[#e7e5e4] bg-white pl-10 pr-4 py-2.5 text-xs text-[#1a130f] font-semibold placeholder-slate-400 focus:border-[#1a130f] focus:outline-none focus:ring-1 focus:ring-[#1a130f]/20 shadow-sm"
+              className="w-full rounded-xl border border-[#e7e5e4] bg-white pl-10 pr-4 py-2.5 text-xs text-slate-800 font-semibold placeholder-slate-400 focus:border-slate-400 focus:outline-none focus:ring-1 focus:ring-slate-300/30 shadow-sm"
             />
           </div>
 
@@ -999,7 +999,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
               <select
                 value={selectedBrand}
                 onChange={(e) => setSelectedBrand(e.target.value)}
-                className="rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs font-bold text-[#1a130f] focus:border-[#1a130f] focus:outline-none"
+                className="rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs font-bold text-slate-800 focus:border-slate-400 focus:outline-none"
               >
                 <option value="All">All Brands</option>
                 {dynamicBrands.map((b) => (
@@ -1015,7 +1015,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
               <select
                 value={selectedTypeFilter}
                 onChange={(e) => setSelectedTypeFilter(e.target.value)}
-                className="rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs font-bold text-[#1a130f] focus:border-[#1a130f] focus:outline-none"
+                className="rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs font-bold text-slate-800 focus:border-slate-400 focus:outline-none"
               >
                 <option value="All">All Types</option>
                 {dynamicTypes.map((t) => (
@@ -1032,7 +1032,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                   setSelectedCustomFilter("All");
                   setSelectedTypeFilter("All");
                 }}
-                className="rounded-xl border border-[#e7e5e4] bg-stone-100 hover:bg-stone-200 px-3 py-2 text-xs font-bold text-[#1a130f] transition-all cursor-pointer"
+                className="rounded-xl border border-[#e7e5e4] bg-stone-100 hover:bg-stone-200 px-3 py-2 text-xs font-bold text-slate-800 transition-all cursor-pointer"
               >
                 Clear
               </button>
@@ -1079,27 +1079,27 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                             alt={currentName}
                             className="h-full w-full object-contain"
                             onError={(e) => {
-                              (e.target as HTMLImageElement).src = `https://placehold.co/100x100/ffffff/1a130f?text=${currentBrand}`;
+                              (e.target as HTMLImageElement).src = `https://placehold.co/100x100/ffffff/334155?text=${currentBrand}`;
                             }}
                           />
                         </div>
                       </td>
-                      <td className="p-4 font-mono font-bold text-[#1a130f]">
+                      <td className="p-4 font-mono font-bold text-slate-800">
                         <input
                           type="text"
                           value={currentPartNumber}
                           onChange={(e) => handleInlineChange(p.slug, "partNumber", e.target.value)}
-                          className="bg-transparent hover:bg-stone-100/60 hover:border-stone-200 focus:bg-white focus:border-stone-300 border border-transparent rounded px-2 py-1 text-xs font-mono font-bold text-[#1a130f] w-full transition-all focus:outline-none focus:ring-1 focus:ring-[#1a130f]/10"
+                          className="bg-transparent hover:bg-stone-100/60 hover:border-stone-200 focus:bg-white focus:border-stone-300 border border-transparent rounded px-2 py-1 text-xs font-mono font-bold text-slate-800 w-full transition-all focus:outline-none focus:ring-1 focus:ring-slate-300/20"
                           placeholder="Part Number"
                         />
                       </td>
                       <td className="p-4 space-y-1">
-                        <div className="font-bold text-[#1a130f] text-sm flex items-center gap-2">
+                        <div className="font-bold text-slate-800 text-sm flex items-center gap-2">
                           <input
                             type="text"
                             value={currentName}
                             onChange={(e) => handleInlineChange(p.slug, "name", e.target.value)}
-                            className="bg-transparent hover:bg-stone-100/60 hover:border-stone-200 focus:bg-white focus:border-stone-300 border border-transparent rounded px-2 py-1 text-xs font-bold text-[#1a130f] w-full transition-all focus:outline-none focus:ring-1 focus:ring-[#1a130f]/10"
+                            className="bg-transparent hover:bg-stone-100/60 hover:border-stone-200 focus:bg-white focus:border-stone-300 border border-transparent rounded px-2 py-1 text-xs font-bold text-slate-800 w-full transition-all focus:outline-none focus:ring-1 focus:ring-slate-300/20"
                             placeholder="Product Name"
                           />
                           {p.isDeleted && (
@@ -1114,7 +1114,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                               type="text"
                               value={currentBrand}
                               onChange={(e) => handleInlineChange(p.slug, "brand", e.target.value)}
-                              className="rounded bg-stone-100 border border-stone-200/60 hover:border-stone-300 px-1.5 py-0.5 text-[9px] font-extrabold text-[#1a130f] w-24 text-center focus:bg-white focus:outline-none transition-all"
+                              className="rounded bg-stone-100 border border-stone-200/60 hover:border-stone-300 px-1.5 py-0.5 text-[9px] font-extrabold text-slate-800 w-24 text-center focus:bg-white focus:outline-none transition-all"
                               placeholder="Brand"
                               list="brands-datalist"
                             />
@@ -1124,7 +1124,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                               type="text"
                               value={currentCategory}
                               onChange={(e) => handleInlineChange(p.slug, "category", e.target.value)}
-                              className="rounded bg-amber-50 border border-amber-200/60 hover:border-amber-300 px-1.5 py-0.5 text-[9px] font-extrabold text-[#b45309] w-28 text-center focus:bg-white focus:outline-none transition-all"
+                              className="rounded bg-slate-100 border border-slate-200 hover:border-amber-300 px-1.5 py-0.5 text-[9px] font-extrabold text-slate-600 w-28 text-center focus:bg-white focus:outline-none transition-all"
                               placeholder="Category"
                             />
                           </div>
@@ -1146,7 +1146,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                             <span className={`rounded border px-1.5 py-0.5 text-[9px] font-bold select-none ${
                               p.isDeleted
                                 ? "bg-rose-50 border-rose-200 text-rose-700"
-                                : "bg-amber-50 border-amber-200 text-amber-800"
+                                : "bg-slate-100 border-slate-200 text-slate-800"
                             }`}>
                               {p.isDeleted ? "Deleted Override" : "Modified Defaults"}
                             </span>
@@ -1162,7 +1162,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                           type="text"
                           value={currentPrice}
                           onChange={(e) => handleInlineChange(p.slug, "price", e.target.value)}
-                          className="bg-transparent hover:bg-stone-100/60 hover:border-stone-200 focus:bg-white focus:border-stone-300 border border-transparent rounded px-2 py-1 text-xs font-bold text-[#1a130f] w-full text-center transition-all focus:outline-none focus:ring-1 focus:ring-[#1a130f]/10 font-semibold"
+                          className="bg-transparent hover:bg-stone-100/60 hover:border-stone-200 focus:bg-white focus:border-stone-300 border border-transparent rounded px-2 py-1 text-xs font-bold text-slate-800 w-full text-center transition-all focus:outline-none focus:ring-1 focus:ring-slate-300/20 font-semibold"
                           placeholder="Price"
                         />
                       </td>
@@ -1180,7 +1180,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                           {!p.isDeleted && (
                             <button
                               onClick={() => handleOpenEdit(p)}
-                              className="inline-flex items-center justify-center h-7 w-7 rounded-lg bg-slate-100 text-[#1a130f] hover:bg-slate-200 border border-stone-200 transition-colors"
+                              className="inline-flex items-center justify-center h-7 w-7 rounded-lg bg-slate-100 text-slate-800 hover:bg-slate-200 border border-stone-200 transition-colors"
                               title="Edit Details"
                             >
                               <Edit className="h-3.5 w-3.5" />
@@ -1208,7 +1208,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                               {dbProducts.some(dbp => dbp.slug === p.slug) && (
                                 <button
                                   onClick={() => handleDeleteRevert(p)}
-                                  className="inline-flex items-center justify-center h-7 w-7 rounded-lg bg-amber-50 text-amber-800 border border-amber-200 hover:bg-amber-100 transition-colors"
+                                  className="inline-flex items-center justify-center h-7 w-7 rounded-lg bg-slate-100 text-slate-800 border border-slate-200 hover:bg-amber-100 transition-colors"
                                   title={p.isDeleted ? "Restore Product" : "Revert Stock/Details"}
                                 >
                                   <RotateCcw className="h-3.5 w-3.5" />
@@ -1243,7 +1243,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                           alt={p.name}
                           className="h-full w-full object-contain"
                           onError={(e) => {
-                            (e.target as HTMLImageElement).src = `https://placehold.co/100x100/ffffff/1a130f?text=${p.brand}`;
+                            (e.target as HTMLImageElement).src = `https://placehold.co/100x100/ffffff/334155?text=${p.brand}`;
                           }}
                         />
                       </div>
@@ -1251,10 +1251,10 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                       {/* Details */}
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-1.5 flex-wrap">
-                          <span className="font-mono font-bold text-[10px] text-[#1a130f]">
+                          <span className="font-mono font-bold text-[10px] text-slate-800">
                             {p.partNumber || "—"}
                           </span>
-                          <span className="rounded bg-stone-100 border border-stone-200 px-1 py-0.2 text-[8px] font-extrabold text-[#1a130f]">
+                          <span className="rounded bg-stone-100 border border-stone-200 px-1 py-0.2 text-[8px] font-extrabold text-slate-800">
                             {p.brand}
                           </span>
                           {p.isCustom ? (
@@ -1265,13 +1265,13 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                             <span className={`rounded border px-1.5 py-0.5 text-[9px] font-bold ${
                               p.isDeleted
                                 ? "bg-rose-50 border-rose-200 text-rose-700"
-                                : "bg-amber-50 border-amber-200 text-amber-700"
+                                : "bg-slate-100 border-slate-200 text-slate-700"
                             }`}>
                               {p.isDeleted ? "Deleted" : "Modified"}
                             </span>
                           ) : null}
                         </div>
-                        <h4 className="font-bold text-[#1a130f] text-xs line-clamp-2 mt-0.5 flex items-center gap-1.5">
+                        <h4 className="font-bold text-slate-800 text-xs line-clamp-2 mt-0.5 flex items-center gap-1.5">
                           {p.name}
                           {p.isDeleted && (
                             <span className="rounded bg-rose-100 border border-rose-200 px-1.5 py-0.5 text-[7px] font-extrabold text-rose-700 no-underline">
@@ -1288,7 +1288,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                         <button
                           type="button"
                           onClick={() => handleOpenEdit(p)}
-                          className="inline-flex items-center justify-center h-7 px-3 rounded-lg bg-white text-[#1a130f] hover:bg-slate-100 border border-stone-200 transition-colors text-[10px] font-bold uppercase tracking-wider gap-1"
+                          className="inline-flex items-center justify-center h-7 px-3 rounded-lg bg-white text-slate-800 hover:bg-slate-100 border border-stone-200 transition-colors text-[10px] font-bold uppercase tracking-wider gap-1"
                         >
                           <Edit className="h-3 w-3" /> Edit
                         </button>
@@ -1316,7 +1316,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                             <button
                               type="button"
                               onClick={() => handleDeleteRevert(p)}
-                              className="inline-flex items-center justify-center h-7 px-3 rounded-lg bg-amber-50 text-amber-800 border border-amber-200 hover:bg-amber-100 transition-colors text-[10px] font-bold uppercase tracking-wider gap-1"
+                              className="inline-flex items-center justify-center h-7 px-3 rounded-lg bg-slate-100 text-slate-800 border border-slate-200 hover:bg-amber-100 transition-colors text-[10px] font-bold uppercase tracking-wider gap-1"
                               title={p.isDeleted ? "Restore Product" : "Revert"}
                             >
                               <RotateCcw className="h-3 w-3" /> {p.isDeleted ? "Restore" : "Revert"}
@@ -1339,7 +1339,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                   type="button"
                   disabled={currentPage === 1}
                   onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
-                  className="relative inline-flex items-center rounded-xl border border-[#e7e5e4] bg-white px-4 py-2 text-xs font-bold text-[#1a130f] hover:bg-stone-50 disabled:opacity-50"
+                  className="relative inline-flex items-center rounded-xl border border-[#e7e5e4] bg-white px-4 py-2 text-xs font-bold text-slate-800 hover:bg-stone-50 disabled:opacity-50"
                 >
                   Previous
                 </button>
@@ -1347,7 +1347,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                   type="button"
                   disabled={currentPage === totalPages}
                   onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
-                  className="relative ml-3 inline-flex items-center rounded-xl border border-[#e7e5e4] bg-white px-4 py-2 text-xs font-bold text-[#1a130f] hover:bg-stone-50 disabled:opacity-50"
+                  className="relative ml-3 inline-flex items-center rounded-xl border border-[#e7e5e4] bg-white px-4 py-2 text-xs font-bold text-slate-800 hover:bg-stone-50 disabled:opacity-50"
                 >
                   Next
                 </button>
@@ -1355,11 +1355,11 @@ function DashboardView({ onLogout }: DashboardViewProps) {
               <div className="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
                 <div>
                   <p className="text-xs text-slate-500 font-semibold">
-                    Showing <span className="font-bold text-[#1a130f]">{(currentPage - 1) * ITEMS_PER_PAGE + 1}</span> to{" "}
-                    <span className="font-bold text-[#1a130f]">
+                    Showing <span className="font-bold text-slate-800">{(currentPage - 1) * ITEMS_PER_PAGE + 1}</span> to{" "}
+                    <span className="font-bold text-slate-800">
                       {Math.min(currentPage * ITEMS_PER_PAGE, filteredProductsList.length)}
                     </span>{" "}
-                    of <span className="font-bold text-[#1a130f]">{filteredProductsList.length}</span> products
+                    of <span className="font-bold text-slate-800">{filteredProductsList.length}</span> products
                   </p>
                 </div>
                 <div>
@@ -1368,7 +1368,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                       type="button"
                       disabled={currentPage === 1}
                       onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
-                      className="relative inline-flex items-center rounded-lg border border-[#e7e5e4] bg-white px-2.5 py-1.5 text-xs font-bold text-[#1a130f] hover:bg-stone-50 disabled:opacity-50 cursor-pointer"
+                      className="relative inline-flex items-center rounded-lg border border-[#e7e5e4] bg-white px-2.5 py-1.5 text-xs font-bold text-slate-800 hover:bg-stone-50 disabled:opacity-50 cursor-pointer"
                     >
                       Previous
                     </button>
@@ -1390,8 +1390,8 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                           onClick={() => setCurrentPage(page as number)}
                           className={`relative inline-flex items-center rounded-lg px-3 py-1.5 text-xs font-bold cursor-pointer transition-all ${
                             currentPage === page
-                              ? "bg-[#1a130f] text-white shadow-sm"
-                              : "bg-white text-[#1a130f] border border-[#e7e5e4] hover:bg-stone-50"
+                              ? "bg-slate-700 text-white shadow-sm"
+                              : "bg-white text-slate-800 border border-[#e7e5e4] hover:bg-stone-50"
                           }`}
                         >
                           {page}
@@ -1402,7 +1402,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                       type="button"
                       disabled={currentPage === totalPages}
                       onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
-                      className="relative inline-flex items-center rounded-lg border border-[#e7e5e4] bg-white px-2.5 py-1.5 text-xs font-bold text-[#1a130f] hover:bg-stone-50 disabled:opacity-50 cursor-pointer"
+                      className="relative inline-flex items-center rounded-lg border border-[#e7e5e4] bg-white px-2.5 py-1.5 text-xs font-bold text-slate-800 hover:bg-stone-50 disabled:opacity-50 cursor-pointer"
                     >
                       Next
                     </button>
@@ -1419,15 +1419,15 @@ function DashboardView({ onLogout }: DashboardViewProps) {
       {/* Add / Edit Product Slide-over Sheet Modal */}
       {isFormOpen && (
         <div className="fixed inset-0 z-50 overflow-hidden font-sans">
-          <div className="absolute inset-0 bg-stone-900/60 backdrop-blur-sm transition-opacity" onClick={() => setIsFormOpen(false)} />
+          <div className="absolute inset-0 bg-slate-700/50 backdrop-blur-sm transition-opacity" onClick={() => setIsFormOpen(false)} />
           
           <div className="fixed inset-y-0 right-0 pl-10 max-w-full flex">
             <div className="w-screen max-w-2xl bg-white shadow-2xl flex flex-col h-full">
               {/* Sheet Header */}
-              <div className="bg-[#1a130f] text-white p-6 flex items-center justify-between">
+              <div className="bg-slate-700 text-white p-6 flex items-center justify-between">
                 <div>
                   <h2 className="font-display text-lg font-bold text-white flex items-center gap-2">
-                    {editingProduct ? <Edit className="h-5 w-5 text-amber-400" /> : <Plus className="h-5 w-5 text-amber-400" />}
+                    {editingProduct ? <Edit className="h-5 w-5 text-slate-300" /> : <Plus className="h-5 w-5 text-slate-300" />}
                     {editingProduct ? `Edit Details: ${editingProduct.partNumber}` : "Add New Product"}
                   </h2>
                   <p className="text-[10px] text-slate-300 font-semibold uppercase tracking-wider mt-0.5">
@@ -1447,13 +1447,13 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                 
                 {/* Basic Section */}
                 <div className="space-y-4">
-                  <h3 className="text-xs font-extrabold uppercase tracking-wider text-[#b45309] border-b border-stone-100 pb-1">
+                  <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-600 border-b border-stone-100 pb-1">
                     Basic Info
                   </h3>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
-                      <label className="text-[11px] font-bold text-[#1a130f] block mb-1">
+                      <label className="text-[11px] font-bold text-slate-800 block mb-1">
                         Product Name *
                       </label>
                       <input
@@ -1462,12 +1462,12 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                         value={name}
                         onChange={(e) => handleNameChange(e.target.value)}
                         placeholder="e.g. Siemens SIMATIC S7-1200 CPU 1214C"
-                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-slate-800 font-semibold focus:border-slate-400 focus:outline-none shadow-sm"
                       />
                     </div>
 
                     <div>
-                      <label className="text-[11px] font-bold text-[#1a130f] block mb-1">
+                      <label className="text-[11px] font-bold text-slate-800 block mb-1">
                         Part Number *
                       </label>
                       <input
@@ -1476,14 +1476,14 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                         value={partNumber}
                         onChange={(e) => setPartNumber(e.target.value)}
                         placeholder="e.g. 6ES7214-1AG40-0XB0"
-                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs font-mono text-[#1a130f] font-bold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs font-mono text-slate-800 font-bold focus:border-slate-400 focus:outline-none shadow-sm"
                       />
                     </div>
                   </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                     <div>
-                      <label className="text-[11px] font-bold text-[#1a130f] block mb-1">
+                      <label className="text-[11px] font-bold text-slate-800 block mb-1">
                         Brand *
                       </label>
                       <input
@@ -1492,7 +1492,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                         value={brand}
                         onChange={(e) => setBrand(e.target.value)}
                         placeholder="e.g. Siemens or Delta"
-                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-[#1a130f] font-bold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-slate-800 font-bold focus:border-slate-400 focus:outline-none shadow-sm"
                         list="brands-datalist"
                       />
                       <datalist id="brands-datalist">
@@ -1503,7 +1503,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                     </div>
 
                     <div>
-                      <label className="text-[11px] font-bold text-[#1a130f] block mb-1">
+                      <label className="text-[11px] font-bold text-slate-800 block mb-1">
                         Category *
                       </label>
                       <input
@@ -1512,7 +1512,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                         value={category}
                         onChange={(e) => setCategory(e.target.value)}
                         placeholder="e.g. Siemens PLC or SENSORS"
-                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-slate-800 font-semibold focus:border-slate-400 focus:outline-none shadow-sm"
                         list="categories-list"
                       />
                       <datalist id="categories-list">
@@ -1523,7 +1523,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                     </div>
 
                     <div>
-                      <label className="text-[11px] font-bold text-[#1a130f] block mb-1">
+                      <label className="text-[11px] font-bold text-slate-800 block mb-1">
                         Product Type *
                       </label>
                       <input
@@ -1532,7 +1532,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                         value={type}
                         onChange={(e) => setType(e.target.value)}
                         placeholder="e.g. PLC, HMI, VFD, Sensor"
-                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-[#1a130f] font-bold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-slate-800 font-bold focus:border-slate-400 focus:outline-none shadow-sm"
                         list="types-datalist"
                       />
                       <datalist id="types-datalist">
@@ -1545,7 +1545,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
 
                   <div className="grid grid-cols-1 gap-4">
                     <div>
-                      <label className="text-[11px] font-bold text-[#1a130f] block mb-1">
+                      <label className="text-[11px] font-bold text-slate-800 block mb-1">
                         Price (e.g. ₹ 8,000/Piece or On Request)
                       </label>
                       <input
@@ -1553,7 +1553,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                         value={price}
                         onChange={(e) => setPrice(e.target.value)}
                         placeholder="On Request"
-                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                        className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-slate-800 font-semibold focus:border-slate-400 focus:outline-none shadow-sm"
                       />
                     </div>
                   </div>
@@ -1561,12 +1561,12 @@ function DashboardView({ onLogout }: DashboardViewProps) {
 
                 {/* Presentation Section */}
                 <div className="space-y-4">
-                  <h3 className="text-xs font-extrabold uppercase tracking-wider text-[#b45309] border-b border-stone-100 pb-1">
+                  <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-600 border-b border-stone-100 pb-1">
                     Details & Image
                   </h3>
 
                   <div>
-                    <label className="text-[11px] font-bold text-[#1a130f] block mb-1">
+                    <label className="text-[11px] font-bold text-slate-800 block mb-1">
                       Description
                     </label>
                     <textarea
@@ -1574,12 +1574,12 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                       value={description}
                       onChange={(e) => setDescription(e.target.value)}
                       placeholder="Enter a descriptive overview of the product, including its features and common applications..."
-                      className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                      className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-slate-800 font-semibold focus:border-slate-400 focus:outline-none shadow-sm"
                     />
                   </div>
 
                   <div>
-                    <label className="text-[11px] font-bold text-[#1a130f] block mb-1">
+                    <label className="text-[11px] font-bold text-slate-800 block mb-1">
                       Product Image
                     </label>
                     <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
@@ -1587,7 +1587,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                         <div className="flex-1 w-full">
                           <label className="flex flex-col items-center justify-center border border-dashed border-[#e7e5e4] rounded-xl py-6 bg-stone-50/50 hover:bg-stone-50 cursor-pointer transition-colors shadow-sm text-center">
                             <Upload className="h-5 w-5 text-slate-400 mb-1" />
-                            <span className="text-xs text-[#1a130f] font-bold">Upload Image File</span>
+                            <span className="text-xs text-slate-800 font-bold">Upload Image File</span>
                             <span className="text-[9px] text-slate-400 mt-0.5">PNG, JPG, JPEG, WEBP up to 5MB</span>
                             <input
                               type="file"
@@ -1604,7 +1604,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                           value={imageUrl}
                           onChange={(e) => setImageUrl(e.target.value)}
                           placeholder="https://images.example.com/products/siemens.jpg"
-                          className="flex-1 w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                          className="flex-1 w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-slate-800 font-semibold focus:border-slate-400 focus:outline-none shadow-sm"
                         />
                       )}
 
@@ -1634,7 +1634,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                       <button
                         type="button"
                         onClick={() => setShowUrlInput(!showUrlInput)}
-                        className="text-[10px] font-bold text-[#b45309] hover:underline"
+                        className="text-[10px] font-bold text-slate-600 hover:underline"
                       >
                         {showUrlInput ? "← Upload image file instead" : "Or paste an image URL instead →"}
                       </button>
@@ -1648,13 +1648,13 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                 {/* Technical Specifications Section */}
                 <div className="space-y-4">
                   <div className="flex items-center justify-between border-b border-stone-100 pb-1">
-                    <h3 className="text-xs font-extrabold uppercase tracking-wider text-[#b45309]">
+                    <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-600">
                       Technical Specifications
                     </h3>
                     <button
                       type="button"
                       onClick={handleAddSpecField}
-                      className="inline-flex items-center gap-1 rounded-lg bg-stone-100 hover:bg-[#b45309] hover:text-white px-2 py-1 text-[10px] font-extrabold text-[#1a130f] transition-all cursor-pointer border border-stone-200"
+                      className="inline-flex items-center gap-1 rounded-lg bg-stone-100 hover:bg-slate-800 hover:text-white px-2 py-1 text-[10px] font-extrabold text-slate-800 transition-all cursor-pointer border border-stone-200"
                     >
                       <Plus className="h-3 w-3" /> Add Spec Row
                     </button>
@@ -1674,7 +1674,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                             value={spec.label}
                             onChange={(e) => handleUpdateSpecField(idx, "label", e.target.value)}
                             placeholder="Label (e.g. Supply Voltage)"
-                            className="flex-1 rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                            className="flex-1 rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-slate-800 font-semibold focus:border-slate-400 focus:outline-none shadow-sm"
                             list="specs-labels-datalist"
                           />
                           <input
@@ -1683,7 +1683,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                             value={spec.value}
                             onChange={(e) => handleUpdateSpecField(idx, "value", e.target.value)}
                             placeholder="Value (e.g. 24V DC)"
-                            className="flex-1 rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                            className="flex-1 rounded-xl border border-[#e7e5e4] bg-white px-3 py-2 text-xs text-slate-800 font-semibold focus:border-slate-400 focus:outline-none shadow-sm"
                           />
                           <button
                             type="button"
@@ -1703,13 +1703,13 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                   <button
                     type="button"
                     onClick={() => setIsFormOpen(false)}
-                    className="rounded-xl border border-[#e7e5e4] bg-white px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-[#1a130f] hover:bg-stone-50 transition-all cursor-pointer shadow-sm"
+                    className="rounded-xl border border-[#e7e5e4] bg-white px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-slate-800 hover:bg-stone-50 transition-all cursor-pointer shadow-sm"
                   >
                     Cancel
                   </button>
                   <button
                     type="submit"
-                    className="rounded-xl bg-[#1a130f] hover:bg-[#b45309] px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all cursor-pointer shadow-md"
+                    className="rounded-xl bg-slate-700 hover:bg-slate-800 px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all cursor-pointer shadow-md"
                   >
                     Save Product
                   </button>
@@ -1724,12 +1724,12 @@ function DashboardView({ onLogout }: DashboardViewProps) {
       {/* Account Settings Modal */}
       {isSettingsOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center font-sans">
-          <div className="absolute inset-0 bg-stone-900/60 backdrop-blur-sm transition-opacity" onClick={() => setIsSettingsOpen(false)} />
+          <div className="absolute inset-0 bg-slate-700/50 backdrop-blur-sm transition-opacity" onClick={() => setIsSettingsOpen(false)} />
           
           <div className="relative w-full max-w-md bg-white rounded-3xl p-6 shadow-2xl animate-fade-in border border-[#e7e5e4] mx-4">
             <div className="flex justify-between items-center border-b border-[#e7e5e4] pb-4 mb-4">
               <div>
-                <h3 className="text-sm font-extrabold text-[#1a130f]">Admin Account Settings</h3>
+                <h3 className="text-sm font-extrabold text-slate-800">Admin Account Settings</h3>
                 <p className="text-[10px] text-slate-400 font-semibold mt-0.5">Change login username and password</p>
               </div>
               <button onClick={() => setIsSettingsOpen(false)} className="rounded-full p-1 hover:bg-stone-100 transition-colors">
@@ -1739,47 +1739,47 @@ function DashboardView({ onLogout }: DashboardViewProps) {
 
             <form onSubmit={handleSaveAccountSettings} className="space-y-4">
               <div>
-                <label className="text-[11px] font-bold text-[#1a130f] block mb-1">New Username *</label>
+                <label className="text-[11px] font-bold text-slate-800 block mb-1">New Username *</label>
                 <input
                   type="text"
                   required
                   value={newUsername}
                   onChange={(e) => setNewUsername(e.target.value)}
                   placeholder="e.g. admin"
-                  className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                  className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-slate-800 font-semibold focus:border-slate-400 focus:outline-none shadow-sm"
                 />
               </div>
 
               <div>
-                <label className="text-[11px] font-bold text-[#1a130f] block mb-1">New Password</label>
+                <label className="text-[11px] font-bold text-slate-800 block mb-1">New Password</label>
                 <input
                   type="password"
                   value={newPassword}
                   onChange={(e) => setNewPassword(e.target.value)}
                   placeholder="Leave blank to keep current password"
-                  className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                  className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-slate-800 font-semibold focus:border-slate-400 focus:outline-none shadow-sm"
                 />
               </div>
 
               <div>
-                <label className="text-[11px] font-bold text-[#1a130f] block mb-1">Confirm New Password</label>
+                <label className="text-[11px] font-bold text-slate-800 block mb-1">Confirm New Password</label>
                 <input
                   type="password"
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
                   placeholder="Confirm new password"
-                  className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                  className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-slate-800 font-semibold focus:border-slate-400 focus:outline-none shadow-sm"
                 />
               </div>
 
               <div>
-                <label className="text-[11px] font-bold text-[#1a130f] block mb-1">New Security Recovery Key</label>
+                <label className="text-[11px] font-bold text-slate-800 block mb-1">New Security Recovery Key</label>
                 <input
                   type="text"
                   value={newRecoveryKey}
                   onChange={(e) => setNewRecoveryKey(e.target.value)}
                   placeholder="Set custom key (leave blank to keep current)"
-                  className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                  className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-slate-800 font-semibold focus:border-slate-400 focus:outline-none shadow-sm"
                 />
                 <span className="text-[9px] text-slate-400 mt-1 block">
                   * Backup recovery key (default: concept@recovery2026).
@@ -1787,14 +1787,14 @@ function DashboardView({ onLogout }: DashboardViewProps) {
               </div>
 
               <div>
-                <label className="text-[11px] font-bold text-[#1a130f] block mb-1">Registered Admin Email *</label>
+                <label className="text-[11px] font-bold text-slate-800 block mb-1">Registered Admin Email *</label>
                 <input
                   type="email"
                   required
                   value={newEmail}
                   onChange={(e) => setNewEmail(e.target.value)}
                   placeholder="e.g. sales@concept-auto-tech.com"
-                  className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-[#1a130f] font-semibold focus:border-[#1a130f] focus:outline-none shadow-sm"
+                  className="w-full rounded-xl border border-[#e7e5e4] bg-white px-3 py-2.5 text-xs text-slate-800 font-semibold focus:border-slate-400 focus:outline-none shadow-sm"
                 />
                 <span className="text-[9px] text-slate-400 mt-1 block">
                   * Receives 6-digit OTP verification codes during password recovery.
@@ -1805,13 +1805,13 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                 <button
                   type="button"
                   onClick={() => setIsSettingsOpen(false)}
-                  className="rounded-xl border border-[#e7e5e4] bg-white px-4 py-2 text-xs font-bold text-[#1a130f] hover:bg-stone-50 transition-all cursor-pointer"
+                  className="rounded-xl border border-[#e7e5e4] bg-white px-4 py-2 text-xs font-bold text-slate-800 hover:bg-stone-50 transition-all cursor-pointer"
                 >
                   Cancel
                 </button>
                 <button
                   type="submit"
-                  className="rounded-xl bg-[#1a130f] hover:bg-[#b45309] text-white px-4 py-2 text-xs font-bold transition-all cursor-pointer shadow-md"
+                  className="rounded-xl bg-slate-700 hover:bg-slate-800 text-white px-4 py-2 text-xs font-bold transition-all cursor-pointer shadow-md"
                 >
                   Save Settings
                 </button>

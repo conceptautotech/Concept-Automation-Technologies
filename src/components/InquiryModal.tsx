@@ -49,10 +49,10 @@ export function InquiryModal({ isOpen, onClose, productName = "", partNumber = "
     }
   };
 
-  const inputClass = "w-full rounded-lg border border-border bg-card px-4 py-2.5 text-xs text-foreground placeholder-stone-400 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary";
+  const inputClass = "w-full rounded-lg border border-border bg-card px-4 py-2.5 text-xs text-foreground placeholder-stone-400 focus:border-[#ea580c] focus:outline-none focus:ring-1 focus:ring-[#ea580c]/25";
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/60 p-4 backdrop-blur-sm animate-fade-in" onClick={onClose}>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-700/50 p-4 backdrop-blur-sm animate-fade-in" onClick={onClose}>
       <div className="relative w-full max-w-lg overflow-hidden rounded-2xl border border-border bg-background shadow-2xl animate-scale-in" onClick={(e) => e.stopPropagation()}>
         {/* Header */}
         <div className="bg-primary px-6 py-4 text-white flex items-center justify-between">
@@ -72,7 +72,7 @@ export function InquiryModal({ isOpen, onClose, productName = "", partNumber = "
               </p>
               <button
                 onClick={() => { setSubmitted(false); onClose(); }}
-                className="mt-5 w-full rounded-lg bg-primary py-2.5 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-accent transition-colors"
+                className="mt-5 w-full rounded-lg bg-primary py-2.5 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] transition-colors"
               >
                 Done
               </button>
@@ -100,7 +100,7 @@ export function InquiryModal({ isOpen, onClose, productName = "", partNumber = "
                 className={`${inputClass} resize-none`} />
 
               <button type="submit" disabled={loading}
-                className="w-full flex items-center justify-center gap-2 rounded-lg bg-primary py-3 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-accent transition-colors disabled:opacity-50"
+                className="w-full flex items-center justify-center gap-2 rounded-lg bg-primary py-3 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] transition-colors disabled:opacity-50"
               >
                 {loading ? "Submitting..." : <><Send className="h-4 w-4 text-accent" /> Submit Inquiry</>}
               </button>
