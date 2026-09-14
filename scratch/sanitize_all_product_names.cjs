@@ -39,14 +39,26 @@ function extractModelCode(text, specsObj = {}) {
 function sanitizeTitle(rawTitle, brand, category, specsObj = {}, desc = '') {
   let t = cleanText(rawTitle);
 
-  // 1. Remove prefixes like "Description:", "Product Details:", "General Specifications:", "Technical Data:"
+  // 1. Remove category banner headers glued to product titles (e.g. "ABB general purpose drives ACS560, 0.75 to 160 kWABB ACS560...")
+  if (brand && brand !== 'Industrial Automation') {
+    const bEsc = brand.replace('+', '\\+');
+    const gluedPattern = new RegExp(`^.*?\\b(?:kW|HP|V|Phase|drives|series|controllers|systems|models|units|panel)\\s*(${bEsc})\\b`, 'i');
+    const m = t.match(gluedPattern);
+    if (m) {
+      const secondBrandIdx = t.indexOf(m[1], 5);
+      if (secondBrandIdx > -1) {
+        t = t.slice(secondBrandIdx).trim();
+      }
+    }
+  }
+
+  // 1b. Remove prefixes like "Description:", "Product Details:", "General Specifications:", "Technical Data:"
   t = t.replace(/^(Description|Product Details|General Specifications|Technical Data|Overview|Features|Product Name)\s*:\s*/i, '').trim();
 
   // 2. Remove duplicate brand mentions at the beginning (e.g. "ABB Abb ACS560...", "Siemens Siemens...")
   const brandLower = (brand || '').toLowerCase();
   if (brandLower) {
-    // Check if starts with brand twice (e.g. "ABB Abb", "Siemens Siemens")
-    const doubleBrandRegex = new RegExp(`^(${brand})\\s+(${brand})\\b`, 'i');
+    const doubleBrandRegex = new RegExp(`^(${brand.replace('+', '\\+')})\\s+(${brand.replace('+', '\\+')})\\b`, 'i');
     t = t.replace(doubleBrandRegex, '$1');
   }
 
@@ -116,9 +128,10 @@ function main() {
   console.log("=== SANITIZING ALL 968 PRODUCT NAMES & DESCRIPTIONS ===");
 
   const content = fs.readFileSync('src/data/catalog.ts', 'utf8');
-  const startIdx = content.indexOf('export const PRODUCTS: Product[] = [');
-  const endIdx = content.indexOf(';\n\nexport const allProducts');
-  const jsonText = content.substring(startIdx + 'export const PRODUCTS: Product[] = '.length, endIdx).trim();
+  const startIdx = content.indexOf('export const PRODUCTS: Product[] =');
+  const bracketIdx = content.indexOf('[\n  {', startIdx) !== -1 ? content.indexOf('[\n  {', startIdx) : content.indexOf('[\r\n  {', startIdx);
+  const endIdx = content.lastIndexOf('];');
+  const jsonText = content.substring(bracketIdx, endIdx + 1).trim();
 
   const products = JSON.parse(jsonText);
   let sanitizedCount = 0;
