@@ -1,13 +1,13 @@
-import { createFileRoute, useSearch } from "@tanstack/react-router";
+import { createFileRoute, useSearch, useNavigate } from "@tanstack/react-router";
 import { useState, useMemo, useEffect, useRef, useCallback } from "react";
 import { Search, SlidersHorizontal, X, Check, Filter } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ProductCard } from "@/components/ProductCard";
-import { allProducts } from "@/data/catalog";
+import { allProducts, brands } from "@/data/catalog";
 import { InquiryModal } from "@/components/InquiryModal";
 import { useQuery } from "@tanstack/react-query";
-import { getDbProducts, mergeProducts } from "@/lib/products";
+import { getDbProducts, mergeProducts, normalizeBrand } from "@/lib/products";
 import { motion } from "framer-motion";
 
 export const Route = createFileRoute("/products/")({
@@ -31,8 +31,9 @@ const productTypes = [
 ] as const;
 
 function Products() {
-  const searchParams = useSearch({ strict: false }) as { q?: string };
-  const [searchQuery, setSearchQuery] = useState(searchParams.q || "");
+  const navigate = useNavigate();
+  const searchParams = useSearch({ strict: false }) as { q?: string; brand?: string; type?: string };
+  const [searchQuery, setSearchQuery] = useState("");
   const [selectedBrand, setSelectedBrand] = useState<string>("All");
   const [selectedType, setSelectedType] = useState<string>("All");
   const [inquiryModalOpen, setInquiryModalOpen] = useState(false);
@@ -54,35 +55,132 @@ function Products() {
     return mergeProducts(allProducts, dbProducts);
   }, [dbProducts]);
 
-  useEffect(() => {
-    if (searchParams.q) setSearchQuery(searchParams.q);
-  }, [searchParams.q]);
-
   const dynamicBrands = useMemo(() => {
-    // Map lower-cased brand to canonical display name, ensuring Abb & ABB merge into ABB
     const brandMap = new Map<string, string>();
     mergedProducts.forEach((p) => {
       let b = (p.brand || "").trim();
       if (!b) return;
-      if (b.toLowerCase() === "abb") b = "ABB";
-      const key = b.toLowerCase();
-      if (!brandMap.has(key)) {
-        brandMap.set(key, b);
-      } else {
-        // Prefer uppercase abbreviation if available
-        const current = brandMap.get(key)!;
-        if (b === b.toUpperCase() && current !== current.toUpperCase()) {
-          brandMap.set(key, b);
-        }
+      const normalizedKey = normalizeBrand(b);
+      const stdMatch = brands.find((sb) => normalizeBrand(sb) === normalizedKey);
+      const displayName = stdMatch || b;
+      if (!brandMap.has(normalizedKey)) {
+        brandMap.set(normalizedKey, displayName);
       }
     });
     return Array.from(brandMap.values()).sort((a, b) => a.localeCompare(b));
   }, [mergedProducts]);
 
+  // Sync state from incoming URL search params
+  useEffect(() => {
+    const qParam = (searchParams["q"] || "").trim();
+    const brandParam = (searchParams["brand"] || "").trim();
+    const typeParam = (searchParams["type"] || "").trim();
+
+    let targetBrand = "All";
+    let targetType = "All";
+    let targetQuery = "";
+
+    if (brandParam) {
+      const matched = dynamicBrands.find((b) => normalizeBrand(b) === normalizeBrand(brandParam)) ||
+                      brands.find((b) => normalizeBrand(b) === normalizeBrand(brandParam));
+      targetBrand = matched || brandParam;
+    }
+
+    if (typeParam) {
+      const matchedType = productTypes.find((t) => t.toLowerCase() === typeParam.toLowerCase());
+      targetType = matchedType || typeParam;
+    }
+
+    if (qParam) {
+      // Is qParam a brand name?
+      const matchedBrand = dynamicBrands.find((b) => normalizeBrand(b) === normalizeBrand(qParam)) ||
+                           brands.find((b) => normalizeBrand(b) === normalizeBrand(qParam));
+      if (matchedBrand) {
+        if (!brandParam) {
+          targetBrand = matchedBrand;
+        }
+      } else {
+        // Is qParam a type name?
+        const matchedType = productTypes.find((t) => t.toLowerCase() === qParam.toLowerCase());
+        if (matchedType && matchedType !== "All") {
+          if (!typeParam) {
+            targetType = matchedType;
+          }
+        } else {
+          targetQuery = qParam;
+        }
+      }
+    }
+
+    setSelectedBrand(targetBrand);
+    setSelectedType(targetType);
+    setSearchQuery(targetQuery);
+  }, [searchParams, dynamicBrands]);
+
+  const updateUrl = useCallback((b: string, t: string, q: string) => {
+    const search: Record<string, string> = {};
+    if (b && b !== "All") search["brand"] = b;
+    if (t && t !== "All") search["type"] = t;
+    if (q && q.trim()) search["q"] = q.trim();
+    navigate({ to: "/products", search: search as any, replace: true });
+  }, [navigate]);
+
+  const handleBrandClick = (b: string) => {
+    setSelectedBrand(b);
+    let nextQuery = searchQuery;
+
+    const normQ = normalizeBrand(searchQuery);
+    const isQueryABrand = dynamicBrands.some((db) => normalizeBrand(db) === normQ) ||
+                          brands.some((sb) => normalizeBrand(sb) === normQ);
+
+    if (isQueryABrand) {
+      nextQuery = "";
+      setSearchQuery("");
+    } else if (searchQuery && b !== "All") {
+      const cleanQ = searchQuery.toLowerCase().trim();
+      const hasMatch = mergedProducts.some((p) => {
+        const brandMatch = normalizeBrand(p.brand || "") === normalizeBrand(b);
+        const text = `${p.name} ${p.partNumber} ${p.brand} ${p.category} ${p.type} ${p.description}`.toLowerCase();
+        return brandMatch && text.includes(cleanQ);
+      });
+      if (!hasMatch) {
+        nextQuery = "";
+        setSearchQuery("");
+      }
+    }
+
+    updateUrl(b, selectedType, nextQuery);
+  };
+
+  const handleTypeClick = (t: string) => {
+    setSelectedType(t);
+    let nextQuery = searchQuery;
+
+    const isQueryAType = productTypes.some((pt) => pt.toLowerCase() === searchQuery.toLowerCase().trim());
+    if (isQueryAType) {
+      nextQuery = "";
+      setSearchQuery("");
+    }
+
+    updateUrl(selectedBrand, t, nextQuery);
+  };
+
+  const handleSearchChange = (val: string) => {
+    setSearchQuery(val);
+    updateUrl(selectedBrand, selectedType, val);
+  };
+
+  const resetFilters = () => {
+    setSelectedBrand("All");
+    setSelectedType("All");
+    setSearchQuery("");
+    navigate({ to: "/products", search: {}, replace: true });
+  };
+
   const filteredProducts = useMemo(() => {
     const searchTerms = searchQuery.toLowerCase().trim().split(/\s+/).filter(Boolean);
     return mergedProducts.filter((product) => {
-      const matchesBrand = selectedBrand === "All" || (product.brand || "").toLowerCase() === selectedBrand.toLowerCase();
+      const matchesBrand = selectedBrand === "All" || normalizeBrand(product.brand || "") === normalizeBrand(selectedBrand);
       const matchesType = selectedType === "All" || (() => {
         const pType = (product.type || "").toLowerCase().trim();
         const pCat = (product.category || "").toLowerCase().trim();
@@ -155,7 +253,7 @@ function Products() {
 
     const observer = new IntersectionObserver(
       (entries) => {
-        if (entries[0].isIntersecting) {
+        if (entries[0]?.isIntersecting) {
           loadMore();
         }
       },
@@ -169,12 +267,6 @@ function Products() {
     observer.observe(el);
     return () => observer.disconnect();
   }, [hasMore, loadMore]);
-
-  const resetFilters = () => {
-    setSelectedBrand("All");
-    setSelectedType("All");
-    setSearchQuery("");
-  };
 
   // ── Scroll-direction tracker: hide filters on scroll-down, show on scroll-up ──
   const [filterBarHidden, setFilterBarHidden] = useState(false);
@@ -245,11 +337,11 @@ function Products() {
                   type="text"
                   placeholder="Search model, part number, brand..."
                   value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
+                  onChange={(e) => handleSearchChange(e.target.value)}
                   className="w-full rounded-2xl border border-slate-200 bg-slate-50/50 pl-10 pr-10 py-2.5 text-xs text-slate-800 font-semibold placeholder-slate-400 focus:border-[#ea580c] focus:bg-white focus:outline-none focus:ring-4 focus:ring-[#ea580c]/20 transition-all shadow-inner"
                 />
                 {searchQuery && (
-                  <button onClick={() => setSearchQuery("")} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 transition-colors">
+                  <button onClick={() => handleSearchChange("")} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 transition-colors cursor-pointer">
                     <X className="h-4 w-4" />
                   </button>
                 )}
@@ -277,7 +369,7 @@ function Products() {
                 {productTypes.map((t) => (
                   <button
                     key={t}
-                    onClick={() => setSelectedType(t)}
+                    onClick={() => handleTypeClick(t)}
                     className={`rounded-full px-3.5 py-1.5 text-xs font-extrabold transition-all cursor-pointer ${
                       selectedType === t
                         ? "bg-slate-900 text-white shadow-sm scale-[1.02]"
@@ -294,9 +386,9 @@ function Products() {
             <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 pt-1">
               <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500 mr-1 shrink-0 select-none">BRAND:</span>
               <button
-                onClick={() => setSelectedBrand("All")}
+                onClick={() => handleBrandClick("All")}
                 className={`rounded-full px-3.5 py-1 text-xs font-extrabold transition-all cursor-pointer ${
-                  selectedBrand === "All"
+                  selectedBrand === "All" || normalizeBrand(selectedBrand) === "all"
                     ? "bg-slate-900 text-white shadow-sm scale-[1.02]"
                     : "bg-slate-50 text-slate-700 border border-slate-200 hover:bg-slate-100 hover:border-slate-300"
                 }`}
@@ -306,9 +398,9 @@ function Products() {
               {dynamicBrands.map((b) => (
                 <button
                   key={b}
-                  onClick={() => setSelectedBrand(b)}
+                  onClick={() => handleBrandClick(b)}
                   className={`rounded-full px-3.5 py-1 text-xs font-extrabold transition-all cursor-pointer ${
-                    selectedBrand === b
+                    normalizeBrand(selectedBrand) === normalizeBrand(b)
                       ? "bg-slate-900 text-white shadow-sm scale-[1.02]"
                       : "bg-slate-50 text-slate-700 border border-slate-200 hover:bg-slate-100 hover:border-slate-300"
                   }`}

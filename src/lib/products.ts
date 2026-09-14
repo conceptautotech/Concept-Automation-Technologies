@@ -27,6 +27,20 @@ export interface ExtendedProduct extends Product {
 }
 
 /**
+ * Normalize brand string to canonical lower-cased matching key to prevent mismatches
+ */
+export function normalizeBrand(brand: string): string {
+  if (!brand) return "";
+  const b = brand.trim().toLowerCase();
+  if (b === "abb") return "abb";
+  if (b === "allen bradley" || b === "allen-bradley" || b === "ab" || b === "rockwell") return "allen bradley";
+  if (b === "pepperl+fuchs" || b === "pepperl fuchs" || b === "pepperl+ fuchs" || b === "p+f") return "pepperl+fuchs";
+  if (b === "phoenix contact" || b === "phoenix") return "phoenix contact";
+  if (b === "proface" || b === "pro-face") return "proface";
+  return b;
+}
+
+/**
  * Fetch all products from Supabase products table
  */
 export async function getDbProducts(): Promise<DbProduct[]> {
@@ -132,16 +146,21 @@ export function mergeProducts(staticProducts: Product[], dbProducts: DbProduct[]
     const mergedItem: ExtendedProduct = {
       id: dbP.id || existing?.id || dbP.slug,
       name: dbP.name,
+      title: dbP.name,
       partNumber: dbP.part_number,
       brand: dbP.brand,
       category: dbP.category,
       type: dbP.type as any,
       price: dbP.price || existing?.price || "On Request",
+      priceNumeric: existing?.priceNumeric || 0,
       description: dbP.description || "",
+      specs: existing?.specs || {},
       specifications: filteredSpecs,
       image: dbP.image || "",
       slug: dbP.slug,
       stock: dbP.stock,
+      inStock: dbP.stock,
+      rating: existing?.rating || 4.9,
       stockCount: dbP.stock_count,
       isCustom: dbP.is_custom,
       isDeleted: dbP.is_deleted || false,

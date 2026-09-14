@@ -54,7 +54,7 @@ export function Footer() {
                   <li key={b}>
                     <Link
                       to="/products"
-                      search={{ q: b }}
+                      search={{ brand: b }}
                       className="hover:text-primary transition-colors block"
                     >
                       {b}
@@ -82,7 +82,7 @@ export function Footer() {
                   <li key={cat.name}>
                     <Link
                       to="/products"
-                      search={{ q: cat.query }}
+                      search={{ type: cat.query }}
                       className="hover:text-primary transition-colors block"
                     >
                       {cat.name}

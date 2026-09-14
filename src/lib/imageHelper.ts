@@ -11,24 +11,12 @@ const FALLBACK_IMAGES: Record<string, string> = {
   "default": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
 };
 
-export function getFallbackImageUrl(brand?: string, type?: string): string {
-  const b = (brand || "").toLowerCase();
-  const t = (type || "").toLowerCase();
-  const key = `${b}-${t}`;
-
-  const val = FALLBACK_IMAGES[key];
-  if (val) return val;
-  if (b.includes("siemens")) return FALLBACK_IMAGES["siemens-plc"] ?? FALLBACK_IMAGES["default"]!;
-  if (b.includes("mitsubishi")) return FALLBACK_IMAGES["mitsubishi-plc"] ?? FALLBACK_IMAGES["default"]!;
-  if (b.includes("omron")) return FALLBACK_IMAGES["omron-plc"] ?? FALLBACK_IMAGES["default"]!;
-  if (b.includes("pepperl")) return FALLBACK_IMAGES["pepperl+fuchs-sensor"] ?? FALLBACK_IMAGES["default"]!;
-  if (b.includes("allen")) return FALLBACK_IMAGES["allen bradley-plc"] ?? FALLBACK_IMAGES["default"]!;
-
-  return FALLBACK_IMAGES["default"] ?? "";
+export function getFallbackImageUrl(brand?: string, type?: string, name?: string, partNumber?: string): string {
+  return getSvgDataUrl(name || `${brand || 'Industrial'} ${type || 'Hardware'}`, brand, partNumber);
 }
 
 export function getProxiedImageUrl(rawUrl?: string): string {
-  if (!rawUrl) return FALLBACK_IMAGES["default"] ?? "";
+  if (!rawUrl) return getSvgDataUrl("Industrial Hardware");
   if (!rawUrl.startsWith("http")) return rawUrl;
   
   let cleanUrl = rawUrl;
@@ -70,20 +58,35 @@ export function getUniqueImages(images?: string[]): string[] {
   return result;
 }
 
-// Generate inline SVG placeholder data URL when network images fail completely
-export function getSvgDataUrl(name: string, brand?: string): string {
-  const cleanName = (name || "Automation Hardware").replace(/[^a-zA-Z0-9\s-+]/g, "").slice(0, 28);
+// Generate inline SVG placeholder data URL when network images fail completely or for generic placeholders
+export function getSvgDataUrl(name: string, brand?: string, partNumber?: string): string {
+  const cleanName = (name || "Automation Hardware").replace(/[^a-zA-Z0-9\s-+]/g, "").slice(0, 32);
   const cleanBrand = (brand || "CONCEPT AUTOMATION").toUpperCase();
-  
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" fill="none">
-    <rect width="400" height="400" fill="#F8FAFC"/>
-    <rect x="20" y="20" width="360" height="360" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
-    <circle cx="200" cy="160" r="48" fill="#ea580c" fill-opacity="0.1" stroke="#ea580c" stroke-width="3"/>
-    <path d="M185 160L195 170L215 150" stroke="#ea580c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="50" y="240" width="300" height="28" rx="6" fill="#ea580c" fill-opacity="0.2"/>
-    <text x="200" y="259" fill="#ea580c" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="2">${cleanBrand}</text>
-    <text x="200" y="300" fill="#0f172a" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle">${cleanName}</text>
-    <text x="200" y="330" fill="#64748B" font-family="sans-serif" font-size="11" text-anchor="middle">100% Original Stock</text>
+  const cleanPn = (partNumber || "").toUpperCase().trim();
+
+  // Brand-specific accent colors for crisp visual identification
+  let brandColor = "#ea580c"; // default orange accent
+  const bLower = (brand || "").toLowerCase();
+  if (bLower.includes("siemens")) brandColor = "#009999";
+  else if (bLower.includes("mitsubishi")) brandColor = "#e60012";
+  else if (bLower.includes("omron")) brandColor = "#005bb5";
+  else if (bLower.includes("abb")) brandColor = "#ff0000";
+  else if (bLower.includes("schneider")) brandColor = "#009639";
+  else if (bLower.includes("delta")) brandColor = "#00875a";
+  else if (bLower.includes("allen") || bLower.includes("ab")) brandColor = "#af272f";
+  else if (bLower.includes("proface")) brandColor = "#1e293b";
+
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="280" viewBox="0 0 400 280" fill="none">
+    <rect width="400" height="280" fill="#F8FAFC"/>
+    <rect x="16" y="16" width="368" height="248" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+    <rect x="16" y="16" width="368" height="6" fill="${brandColor}"/>
+    <circle cx="200" cy="95" r="30" fill="${brandColor}" fill-opacity="0.1" stroke="${brandColor}" stroke-width="2.5"/>
+    <path d="M190 95L197 102L212 87" stroke="${brandColor}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="200" y="150" fill="${brandColor}" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="1.5">${cleanBrand}</text>
+    <text x="200" y="176" fill="#0f172a" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" text-anchor="middle">${cleanName}</text>
+    ${cleanPn ? `<rect x="110" y="190" width="180" height="24" rx="5" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="200" y="206" fill="#334155" font-family="monospace" font-size="10" font-weight="700" text-anchor="middle">PN: ${cleanPn}</text>` : ''}
+    <text x="200" y="238" fill="#64748B" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="600" text-anchor="middle">100% Genuine Sealed Stock</text>
   </svg>`;
 
   return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;

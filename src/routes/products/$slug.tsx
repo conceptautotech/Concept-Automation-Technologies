@@ -8,12 +8,12 @@ import { allProducts, categories, company, type ProductSpec } from "@/data/catal
 import { submitInquiry } from "@/lib/supabase";
 import { toast } from "sonner";
 import { getProxiedImageUrl, getFallbackImageUrl, getSvgDataUrl, getUniqueImages } from "@/lib/imageHelper";
-import { getDbProducts, mergeProducts, type ExtendedProduct } from "@/lib/products";
+import { getDbProducts, mergeProducts, type DbProduct, type ExtendedProduct } from "@/lib/products";
 import { motion } from "framer-motion";
 
 export const Route = createFileRoute("/products/$slug")({
   loader: async ({ context: { queryClient }, params }) => {
-    let dbProducts: ExtendedProduct[] = [];
+    let dbProducts: DbProduct[] = [];
     try {
       dbProducts = await queryClient.ensureQueryData({
         queryKey: ["dbProducts"],

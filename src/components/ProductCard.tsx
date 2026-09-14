@@ -34,10 +34,20 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
   const getCleanTitle = () => {
     let raw = (product.name || "").trim();
     const brand = (product.brand || "").trim();
+    if (brand && raw.toLowerCase().startsWith(`${brand.toLowerCase()} ${brand.toLowerCase()}`)) {
+      raw = raw.slice(brand.length).trim();
+    }
     if (brand && raw.toLowerCase().endsWith(brand.toLowerCase())) {
       raw = raw.slice(0, raw.length - brand.length).trim();
     }
-    return raw;
+    return raw
+      .replace(/&trade;/gi, "")
+      .replace(/&reg;/gi, "")
+      .replace(/&ndash;/gi, "-")
+      .replace(/&quot;/gi, '"')
+      .replace(/^(Description|Product Details|General Specifications)\s*:\s*/i, "")
+      .replace(/[\s.,\/-]+$/, "")
+      .trim();
   };
 
   // Only show PN badge if it's a real model code with numbers/dashes
@@ -57,14 +67,17 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
   const secondaryImage = cleanImages.length > 1 ? cleanImages.find((img) => img !== product.image) || cleanImages[1] : null;
 
   const getImageSrc = () => {
-    if (errorCount === 0) {
+    if (errorCount === 0 && product.image) {
       if (isHovered && secondaryImage) {
         return getProxiedImageUrl(secondaryImage);
       }
+      const imgLower = product.image.toLowerCase();
+      if (imgLower.includes("sinamics-g120c") && !(product.name || "").toLowerCase().includes("sinamics") && !(product.name || "").toLowerCase().includes("g120")) {
+        return getSvgDataUrl(displayTitle, product.brand, product.partNumber);
+      }
       return getProxiedImageUrl(product.image);
     }
-    if (errorCount === 1) return getFallbackImageUrl(product.brand, product.type);
-    return getSvgDataUrl(product.name, product.brand);
+    return getFallbackImageUrl(product.brand, product.type, displayTitle, product.partNumber);
   };
 
   const handleCardClick = (e: React.MouseEvent) => {
@@ -81,29 +94,29 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-30px" }}
         transition={{ duration: 0.3, delay: Math.min(index * 0.05, 0.3) }}
-        whileHover={{ y: -4, transition: { duration: 0.2 } }}
+        whileHover={{ y: -3, transition: { duration: 0.2 } }}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         onClick={handleCardClick}
-        className="group relative flex flex-col overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-xs transition-all duration-300 hover:shadow-xl hover:border-[#ea580c]/60 cursor-pointer"
+        className="group relative flex flex-col overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-xs transition-all duration-300 hover:shadow-lg hover:border-[#ea580c]/60 cursor-pointer"
       >
-        {/* Product Image Container — Pure White */}
-        <div className="relative aspect-square overflow-hidden bg-white p-5 border-b border-slate-100 flex items-center justify-center">
+        {/* Compact Product Image Container */}
+        <div className="relative h-36 sm:h-44 w-full overflow-hidden bg-white p-3 border-b border-slate-100 flex items-center justify-center">
           {/* Shimmer Placeholder while loading */}
           {!imageLoaded && (
             <div className="absolute inset-0 bg-slate-50 skeleton-shimmer flex items-center justify-center">
-              <div className="h-6 w-6 rounded-full border-2 border-slate-200 border-t-[#ea580c] animate-spin opacity-40" />
+              <div className="h-5 w-5 rounded-full border-2 border-slate-200 border-t-[#ea580c] animate-spin opacity-40" />
             </div>
           )}
 
           {/* Brand Badge */}
-          <span className="absolute left-3.5 top-3.5 z-10 rounded-lg bg-slate-900 px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-white shadow-xs">
+          <span className="absolute left-2.5 top-2.5 z-10 rounded-md bg-slate-900 px-2 py-0.5 text-[9px] font-extrabold uppercase tracking-wider text-white shadow-2xs">
             {product.brand || product.category.split(" ")[0]}
           </span>
 
           {/* Secondary Image Indicator if available */}
           {cleanImages.length > 1 && (
-            <span className="absolute right-3.5 top-3.5 z-10 rounded-full bg-white/90 backdrop-blur-sm border border-slate-200/80 px-2 py-0.5 text-[9px] font-bold text-slate-600 shadow-2xs">
+            <span className="absolute right-2.5 top-2.5 z-10 rounded-full bg-white/90 backdrop-blur-sm border border-slate-200/80 px-2 py-0.5 text-[9px] font-bold text-slate-600 shadow-2xs">
               {cleanImages.length} Photos
             </span>
           )}
@@ -121,57 +134,56 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
             }}
             animate={{ scale: isHovered ? 1.05 : 1 }}
             transition={{ duration: 0.3 }}
-            className={`h-full w-full object-contain transition-all duration-500 ${
+            className={`h-full w-full object-contain transition-all duration-300 ${
               imageLoaded ? "opacity-100 scale-100" : "opacity-0 scale-95"
             }`}
           />
         </div>
 
-        {/* Content Box */}
-        <div className="flex flex-1 flex-col justify-between p-4 sm:p-5 gap-3.5 bg-white">
+        {/* Compact Content Box */}
+        <div className="flex flex-1 flex-col justify-between p-3 sm:p-3.5 gap-2 bg-white">
           <div>
-            <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500 block mb-1.5">
-              {product.category}
-            </span>
+            <div className="flex items-center justify-between gap-1 mb-1">
+              <span className="text-[9px] font-extrabold uppercase tracking-wider text-slate-400 truncate">
+                {product.category}
+              </span>
+              {isRealPartNumber() && (
+                <span className="font-mono text-[9px] font-bold text-slate-700 bg-slate-100 border border-slate-200 px-1.5 py-0.5 rounded truncate shrink-0 max-w-[120px]">
+                  {product.partNumber}
+                </span>
+              )}
+            </div>
 
             <Link
               to="/products/$slug"
               params={{ slug }}
-              className="text-xs sm:text-sm font-extrabold leading-snug text-[#222222] line-clamp-2 min-h-[2.4rem] group-hover:text-primary transition-colors block"
+              className="text-xs sm:text-sm font-extrabold leading-tight text-slate-900 line-clamp-2 group-hover:text-primary transition-colors block mb-1"
             >
               {displayTitle}
             </Link>
 
             {product.description && (
-              <p className="mt-2 text-xs text-slate-500 leading-relaxed font-normal line-clamp-2">
-                {product.description}
+              <p className="text-[11px] leading-relaxed text-slate-500 line-clamp-2 font-normal">
+                {product.description.replace(/^Description\s*:\s*/i, "")}
               </p>
-            )}
-
-            {isRealPartNumber() && (
-              <div className="mt-3 flex items-center gap-1.5">
-                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">PN:</span>
-                <span className="font-mono text-[10px] sm:text-xs font-bold text-slate-700 bg-slate-100/90 border border-slate-200/80 px-2 py-0.5 rounded-md truncate max-w-[200px]">
-                  {product.partNumber}
-                </span>
-              </div>
             )}
           </div>
 
-          <div className="pt-3.5 border-t border-slate-100 flex items-center justify-between gap-2.5 mt-auto">
+          {/* Action Buttons Row */}
+          <div className="pt-2 border-t border-slate-100 flex items-center gap-2 mt-auto">
             <button
               onClick={(e) => { e.stopPropagation(); setModalOpen(true); }}
-              className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl bg-slate-900 hover:bg-[#ea580c] active:scale-98 px-3 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all shadow-sm cursor-pointer"
+              className="flex-1 inline-flex items-center justify-center gap-1 rounded-lg bg-slate-900 hover:bg-[#ea580c] active:scale-98 px-2.5 py-2 text-[11px] font-bold uppercase tracking-wider text-white transition-all shadow-xs cursor-pointer"
             >
-              <MessageSquare className="h-3.5 w-3.5 text-white" /> Get Quote
+              <MessageSquare className="h-3 w-3 text-white" /> Get Quote
             </button>
 
             <Link
               to="/products/$slug"
               params={{ slug }}
-              className="inline-flex items-center justify-center gap-1 rounded-xl border border-slate-200 bg-slate-50/80 hover:bg-slate-100 active:scale-98 px-3 py-2.5 text-xs font-bold text-slate-700 hover:text-slate-900 transition-all shadow-2xs"
+              className="inline-flex items-center justify-center gap-1 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 hover:text-primary active:scale-98 px-2.5 py-2 text-[11px] font-bold text-slate-700 transition-all shadow-2xs shrink-0"
             >
-              Details <ArrowRight className="h-3 w-3 text-slate-400" />
+              Read More <ArrowRight className="h-3 w-3 text-slate-400 group-hover:text-primary" />
             </Link>
           </div>
         </div>

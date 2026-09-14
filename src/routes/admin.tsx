@@ -419,7 +419,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
       part_number: finalPartNumber,
       brand: edits.brand !== undefined ? edits.brand.trim() : p.brand,
       category: finalCategory,
-      type: edits.type !== undefined ? edits.type.trim() : p.type,
+      type: (edits.type !== undefined ? edits.type.trim() : p.type) || "PLC",
       price: edits.price !== undefined ? edits.price.trim() : p.price || "On Request",
       description: p.description || "",
       image: p.image || "",

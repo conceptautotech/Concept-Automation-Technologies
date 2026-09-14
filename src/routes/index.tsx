@@ -133,8 +133,8 @@ const topBrandsGrid = [
   { name: "Allen Bradley", desc: "CompactLogix & PowerFlex", count: "280+ Stock" },
   { name: "Omron", desc: "Micro Controllers & Sensors", count: "390+ Stock" },
   { name: "Pepperl+Fuchs", desc: "Inductive & Photoelectric", count: "220+ Stock" },
-  { name: "Autonics", desc: "Rotary Encoders & Counters", count: "180+ Stock" },
-  { name: "Delta", desc: "VFD AC Drives & Servos", count: "150+ Stock" },
+  { name: "Proface", desc: "Graphic Touch Terminals & HMIs", count: "190+ Stock" },
+  { name: "IFM", desc: "IO-Link & Industrial Sensors", count: "170+ Stock" },
   { name: "Danfoss", desc: "VLT Automation Drives", count: "140+ Stock" },
 ];
 
@@ -463,7 +463,7 @@ function Index() {
             {[...brands, ...brands, ...brands].map((b, idx) => (
               <div
                 key={idx}
-                onClick={() => navigate({ to: "/products", search: { q: b } as any })}
+                onClick={() => navigate({ to: "/products", search: { brand: b } as any })}
                 className="flex items-center gap-3 cursor-pointer group"
               >
                 <span className="h-2 w-2 rounded-full bg-accent group-hover:scale-125 transition-transform" />
@@ -500,7 +500,7 @@ function Index() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: idx * 0.08 }}
-                  onClick={() => navigate({ to: "/products", search: { q: cat.query } as any })}
+                  onClick={() => navigate({ to: "/products", search: { type: cat.query } as any })}
                   className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-xl hover:border-primary/50 transition-all duration-300 cursor-pointer flex flex-col justify-between text-center"
                 >
                   <div className="flex items-center justify-between border-b border-slate-100 pb-3 mb-4">
@@ -589,9 +589,9 @@ function Index() {
         <section className="py-16 sm:py-20 bg-background border-b border-border">
           <div className="mx-auto max-w-7xl px-4 sm:px-6">
             <div className="text-center max-w-2xl mx-auto mb-10">
-              <span className="eyebrow">GLOBAL MANUFACTURERS</span>
+              <span className="eyebrow">GLOBAL BRANDS</span>
               <h2 className="mt-2 font-display text-3xl font-extrabold text-foreground sm:text-4xl">
-                Associated Hardware Brands
+                Hardware Brands
               </h2>
               <p className="mt-2 text-xs sm:text-sm text-muted-foreground font-semibold">
                 Direct stockists & traders for leading industrial automation brands.
@@ -606,7 +606,7 @@ function Index() {
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.3, delay: idx * 0.05 }}
-                  onClick={() => navigate({ to: "/products", search: { q: brand.name } as any })}
+                  onClick={() => navigate({ to: "/products", search: { brand: brand.name } as any })}
                   className="rounded-2xl border border-border bg-card p-5 text-center shadow-sm hover:border-accent hover:shadow-md transition-all cursor-pointer group"
                 >
                   <div className="font-display text-base sm:text-lg font-extrabold uppercase text-foreground group-hover:text-primary transition-colors">
@@ -764,7 +764,7 @@ function Index() {
                   <div className="h-10 w-10 rounded-xl bg-muted flex items-center justify-center mb-3">
                     <ShieldCheck className="h-5 w-5 text-foreground" />
                   </div>
-                  <h4 className="font-display text-base font-extrabold uppercase text-foreground">100% Genuine Guarantee</h4>
+                  <h4 className="font-display text-base font-extrabold uppercase text-foreground">Genuine Guarantee</h4>
                   <p className="mt-1.5 text-xs text-muted-foreground font-medium leading-relaxed">
                     Every PLC, HMI, and drive includes official factory seal, serial number validation, and 12-month coverage.
                   </p>
