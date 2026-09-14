@@ -1,0 +1,1388 @@
+{
+  "company": {
+    "glid": 89143389,
+    "alias": "conceptautomationtechnologies",
+    "companyName": "Concept Automation Technologies",
+    "mcat0": 208883,
+    "pnsNumber": "+91-7942794542",
+    "responseRate": "83",
+    "companyLogo": "https://5.imimg.com/data5/SELLER/Logo/2023/5/309197612/RL/SG/SX/89143389/c-120x120.jpg",
+    "serviceName": "MDC.",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "top8Products": [
+      {
+        "id": 2855001676733,
+        "name": "Mitsubishi PLC MELSEC IQ-F SERIES FX5U-80MT ESS",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-250x250.jpg",
+        "mcatId": "207435",
+        "catId": "80"
+      },
+      {
+        "id": 2855007063962,
+        "name": "Mitsubishi PLC FX3S-10MR/ES",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454496916/GJ/VD/OF/89143389/fx3s-10mr-ds-mitsubishi-250x250.jpg",
+        "mcatId": "207435",
+        "catId": "80"
+      },
+      {
+        "id": 2855024238962,
+        "name": "Mitsubishi PLC FX3S-14MT/DSS",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454798306/MU/RV/MR/89143389/download-250x250.jpg",
+        "mcatId": "207435",
+        "catId": "80"
+      },
+      {
+        "id": 2855025943191,
+        "name": "Mitsubishi PLC FX3S-30MT/DSS",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454883724/MH/GH/TX/89143389/fx3s-30mt-dss-mitsubishi-plc-250x250.jpg",
+        "mcatId": "207435",
+        "catId": "80"
+      },
+      {
+        "id": 2855024339733,
+        "name": "Mitsubishi PLC FX3S-14MT/ES",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454811680/WE/XN/WE/89143389/fx3s-14mt-es-mitsubishi-plc-250x250.jpg",
+        "mcatId": "207435",
+        "catId": "80"
+      },
+      {
+        "id": 27630683230,
+        "name": "SIEMENS PLC S7 200 SMART 6ES72881SR300AA0,CPU SR30, AC/DC/Relay, 18DI/12DO",
+        "image": "https://5.imimg.com/data5/GLADMIN/Default/2023/3/JV/NQ/PQ/89143389/cpu-sr40-ac-dc-relay-24di-16do-6es72881sr400aa1-250x250.jpg",
+        "mcatId": "181556",
+        "catId": "80"
+      },
+      {
+        "id": 2851224135297,
+        "name": "Siemens PLC 6ES73327ND020AB0 SM332, 4AA, 0-10V, 0-5V,+/-10V,+/-20mA",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/461920670/KZ/DF/FA/89143389/siemens-plc-6es73327nd020ab0-sm332-4aa-0-10v-0-5v-10v-20ma-250x250.jpg",
+        "mcatId": "181556",
+        "catId": "80"
+      },
+      {
+        "id": 2849707828473,
+        "name": "Siemens PLC IM151-8 PN/DP CPU Interface Module",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/JS/CW/MA/89143389/siemens-et200s-im151-8-pn-dp-cpu-500x500-250x250.jpg",
+        "mcatId": "181556",
+        "catId": "80"
+      },
+      {
+        "id": 2851223793912,
+        "name": "Siemens PLC 6ES73401CH020AE0  CP340 w. RS422/485 interface",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/423012831/ZK/UJ/TG/89143389/siemens-s7-300-analog-module-sm-334-6es73340ce010aa0-250x250.png",
+        "mcatId": "181556",
+        "catId": "80"
+      },
+      {
+        "id": 2849758737048,
+        "name": "Siemens PLC 6SL3244-0BB12-1FA0 CU240E-2PN",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/423012150/LZ/YO/OJ/89143389/siemens-s7-300-cpu-314-250x250.png",
+        "mcatId": "181556",
+        "catId": "80"
+      },
+      {
+        "id": 2855025772797,
+        "name": "Mitsubishi PLC FX3S-30MR/ES-2AD",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454875789/NS/MJ/UD/89143389/fx3s-30mr-es-2ad-mitsubishi-plc-250x250.jpg",
+        "mcatId": "207435",
+        "catId": "80"
+      },
+      {
+        "id": 2855026200773,
+        "name": "Mitsubishi PLC FX3S-30MT/ESS-2AD",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454894578/OE/VC/SU/89143389/fx3s-30mt-ess-2ad-mitsubishi-plc-250x250.jpg",
+        "mcatId": "207435",
+        "catId": "80"
+      },
+      {
+        "id": 2855026277788,
+        "name": "Mitsubishi PLC FX3S-CNV-ADP",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454898061/ZP/VR/IZ/89143389/fx3s-cnv-adp-mitsubishi-plc-250x250.jpg",
+        "mcatId": "207435",
+        "catId": "80"
+      },
+      {
+        "id": 2855065105330,
+        "name": "Mitsubishi Plc FX3U-64MT/ESS",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/455765825/GA/BN/UT/89143389/mitsubishi-plc-fx3u-64mt-es-250x250.jpg",
+        "mcatId": "207435",
+        "catId": "80"
+      },
+      {
+        "id": 2855065481630,
+        "name": "Mitsubishi Plc FX3U-80MR/ES",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/455784396/PC/LU/BJ/89143389/mitsubishi-plc-fx3u-80mr-es-250x250.jpg",
+        "mcatId": "207435",
+        "catId": "80"
+      },
+      {
+        "id": 2851224136148,
+        "name": "Siemens PLC 6es71951gc000xa0et200m, Mounting Rail, 2000 Mm",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/VG/KR/DT/89143389/simatic-s7-300-cpu-314c-2-dp-1--250x250.png",
+        "mcatId": "181556",
+        "catId": "80"
+      },
+      {
+        "id": 2851223762662,
+        "name": "Siemens PLC 6ES73502AH010AE0 FM350-2, Counter Mod., 8 Channels, 20KHz",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2023/5/309219216/CN/CL/GO/89143389/fm-250x250.png",
+        "mcatId": "181556",
+        "catId": "80"
+      },
+      {
+        "id": 2851223792991,
+        "name": "Siemens CPU 6ES73552CH000AE0 TEMP.-Control unit FM355-2C, 4 chan.",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2023/5/309218698/DH/KP/FP/89143389/fm-250x250.png",
+        "mcatId": "181556",
+        "catId": "80"
+      },
+      {
+        "id": 2851223792555,
+        "name": "Siemens PLC 6ES73525AH010AE0  FM 352-5, Boolean Processor 12DE/8DA",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2023/5/309219164/GO/LS/FZ/89143389/fm-250x250.png",
+        "mcatId": "181556",
+        "catId": "80"
+      },
+      {
+        "id": 2851223793033,
+        "name": "Siemens PLC 6ES73552SH000AE0 TEMP.-Control unit FM355-2S, 4 chan.",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2023/5/309218491/EA/NH/SI/89143389/fm-250x250.png",
+        "mcatId": "181556",
+        "catId": "80"
+      }
+    ],
+    "isPaid": true,
+    "rcvCountry": "India",
+    "rcvCityId": 70472,
+    "rcvCustType": 199,
+    "seller_rating": "4.9",
+    "rating_count": "14",
+    "membersince": "7 yrs",
+    "gst_verified_flag": 1,
+    "verified_exporter_flag": "0",
+    "catalogue_url": "https://www.indiamart.com/conceptautomationtechnologies/",
+    "glb_cntCd": "IN",
+    "businessType": "Retailer",
+    "userCountry": "IN",
+    "showEnquiry": true
+  },
+  "pageType": "category",
+  "showAds": false,
+  "proserve": "P",
+  "categories": [
+    {
+      "name": "Mitsubishi PLC",
+      "products": [
+        {
+          "display_id": 2855001676733,
+          "name": "Mitsubishi PLC MELSEC IQ-F SERIES FX5U-80MT ESS",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-125x125.jpg",
+          "mcatId": "207435",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855007063962,
+          "name": "Mitsubishi PLC FX3S-10MR/ES",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/9/454496916/GJ/VD/OF/89143389/fx3s-10mr-ds-mitsubishi-125x125.jpg",
+          "mcatId": "207435",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855024238962,
+          "name": "Mitsubishi PLC FX3S-14MT/DSS",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/9/454798306/MU/RV/MR/89143389/download-125x125.jpg",
+          "mcatId": "207435",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855025943191,
+          "name": "Mitsubishi PLC FX3S-30MT/DSS",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/9/454883724/MH/GH/TX/89143389/fx3s-30mt-dss-mitsubishi-plc-125x125.jpg",
+          "mcatId": "207435",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855024339733,
+          "name": "Mitsubishi PLC FX3S-14MT/ES",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/9/454811680/WE/XN/WE/89143389/fx3s-14mt-es-mitsubishi-plc-125x125.jpg",
+          "mcatId": "207435",
+          "catId": "80"
+        }
+      ]
+    },
+    {
+      "name": "Siemens PLC",
+      "products": [
+        {
+          "display_id": 27630683230,
+          "name": "SIEMENS PLC S7 200 SMART 6ES72881SR300AA0,CPU SR30, AC/DC/Relay, 18DI/12DO",
+          "img125": "https://5.imimg.com/data5/GLADMIN/Default/2023/3/JV/NQ/PQ/89143389/cpu-sr40-ac-dc-relay-24di-16do-6es72881sr400aa1-125x125.jpg",
+          "mcatId": "181556",
+          "catId": "80"
+        },
+        {
+          "display_id": 2851224135297,
+          "name": "Siemens PLC 6ES73327ND020AB0 SM332, 4AA, 0-10V, 0-5V,+/-10V,+/-20mA",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/10/461920670/KZ/DF/FA/89143389/siemens-plc-6es73327nd020ab0-sm332-4aa-0-10v-0-5v-10v-20ma-125x125.jpg",
+          "mcatId": "181556",
+          "catId": "80"
+        },
+        {
+          "display_id": 2849707828473,
+          "name": "Siemens PLC IM151-8 PN/DP CPU Interface Module",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2023/1/JS/CW/MA/89143389/siemens-et200s-im151-8-pn-dp-cpu-500x500-125x125.jpg",
+          "mcatId": "181556",
+          "catId": "80"
+        },
+        {
+          "display_id": 2851223793912,
+          "name": "Siemens PLC 6ES73401CH020AE0  CP340 w. RS422/485 interface",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/5/423012831/ZK/UJ/TG/89143389/siemens-s7-300-analog-module-sm-334-6es73340ce010aa0-125x125.png",
+          "mcatId": "181556",
+          "catId": "80"
+        },
+        {
+          "display_id": 2849758737048,
+          "name": "Siemens PLC 6SL3244-0BB12-1FA0 CU240E-2PN",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/5/423012150/LZ/YO/OJ/89143389/siemens-s7-300-cpu-314-125x125.png",
+          "mcatId": "181556",
+          "catId": "80"
+        }
+      ]
+    },
+    {
+      "name": "Mitsubishi Programmable Logic Controller",
+      "products": [
+        {
+          "display_id": 2855025772797,
+          "name": "Mitsubishi PLC FX3S-30MR/ES-2AD",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/9/454875789/NS/MJ/UD/89143389/fx3s-30mr-es-2ad-mitsubishi-plc-125x125.jpg",
+          "mcatId": "207435",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855026200773,
+          "name": "Mitsubishi PLC FX3S-30MT/ESS-2AD",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/9/454894578/OE/VC/SU/89143389/fx3s-30mt-ess-2ad-mitsubishi-plc-125x125.jpg",
+          "mcatId": "207435",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855026277788,
+          "name": "Mitsubishi PLC FX3S-CNV-ADP",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/9/454898061/ZP/VR/IZ/89143389/fx3s-cnv-adp-mitsubishi-plc-125x125.jpg",
+          "mcatId": "207435",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855065105330,
+          "name": "Mitsubishi Plc FX3U-64MT/ESS",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/10/455765825/GA/BN/UT/89143389/mitsubishi-plc-fx3u-64mt-es-125x125.jpg",
+          "mcatId": "207435",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855065481630,
+          "name": "Mitsubishi Plc FX3U-80MR/ES",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/10/455784396/PC/LU/BJ/89143389/mitsubishi-plc-fx3u-80mr-es-125x125.jpg",
+          "mcatId": "207435",
+          "catId": "80"
+        }
+      ]
+    },
+    {
+      "name": "Siemens CPU",
+      "products": [
+        {
+          "display_id": 2851224136148,
+          "name": "Siemens PLC 6es71951gc000xa0et200m, Mounting Rail, 2000 Mm",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2023/1/VG/KR/DT/89143389/simatic-s7-300-cpu-314c-2-dp-1--125x125.png",
+          "mcatId": "181556",
+          "catId": "80"
+        },
+        {
+          "display_id": 2851223762662,
+          "name": "Siemens PLC 6ES73502AH010AE0 FM350-2, Counter Mod., 8 Channels, 20KHz",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2023/5/309219216/CN/CL/GO/89143389/fm-125x125.png",
+          "mcatId": "181556",
+          "catId": "80"
+        },
+        {
+          "display_id": 2851223792991,
+          "name": "Siemens CPU 6ES73552CH000AE0 TEMP.-Control unit FM355-2C, 4 chan.",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2023/5/309218698/DH/KP/FP/89143389/fm-125x125.png",
+          "mcatId": "181556",
+          "catId": "80"
+        },
+        {
+          "display_id": 2851223792555,
+          "name": "Siemens PLC 6ES73525AH010AE0  FM 352-5, Boolean Processor 12DE/8DA",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2023/5/309219164/GO/LS/FZ/89143389/fm-125x125.png",
+          "mcatId": "181556",
+          "catId": "80"
+        },
+        {
+          "display_id": 2851223793033,
+          "name": "Siemens PLC 6ES73552SH000AE0 TEMP.-Control unit FM355-2S, 4 chan.",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2023/5/309218491/EA/NH/SI/89143389/fm-125x125.png",
+          "mcatId": "181556",
+          "catId": "80"
+        }
+      ]
+    },
+    {
+      "name": "Proface HMI",
+      "products": [
+        {
+          "display_id": 27145114097,
+          "name": "Proface PFXGP4301TAD HMI Touch Panel",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2022/12/CK/KN/OX/89143389/proface-pfxgp4301tad-125x125.jpg",
+          "mcatId": "110762",
+          "catId": "80"
+        },
+        {
+          "display_id": 27145113833,
+          "name": "Proface GP-4621T GP4000 Standard Series HMI Touch Panel",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2022/12/YK/NI/AQ/89143389/proface-gp4000-standard-series-hmi-125x125.jpg",
+          "mcatId": "110762",
+          "catId": "80"
+        },
+        {
+          "display_id": 27145113930,
+          "name": "Proface PFXGP4114T2D 4.3 Inch HMI Touch Panel",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2022/12/IU/KH/ZM/89143389/proface-4-3-inch-clour-hmi-125x125.jpg",
+          "mcatId": "110762",
+          "catId": "80"
+        },
+        {
+          "display_id": 27145111930,
+          "name": "Proface HMI SP5000 Series Touch Panel",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2023/1/LO/QF/LG/89143389/proface-sp5000-series-touch-panel-125x125.jpg",
+          "mcatId": "110762",
+          "catId": "80"
+        },
+        {
+          "display_id": 2851234765930,
+          "name": "PROFACE HMI PFXET6400WAD Proface 7 Inch Wide HMI",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/10/455796742/FC/ZJ/NG/89143389/proface-hmi-pfxet6400wad-proface-7-inch-wide-hmi-125x125.jpg",
+          "mcatId": "110762",
+          "catId": "80"
+        }
+      ]
+    },
+    {
+      "name": "Fuji Ac Drive",
+      "products": [
+        {
+          "display_id": 27145057712,
+          "name": "Fuji Frenic Ace AC Drive",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2023/1/PD/EE/TX/89143389/fuji-frenic-ace-ac-drive-125x125.jpg",
+          "mcatId": "182089",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855202038662,
+          "name": "Fuji VFD FRN0001C2S-6U",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/10/461528736/ZT/XN/NU/89143389/fuji-vfd-frn0001c2s-6u-125x125.jpg",
+          "mcatId": "182089",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855202039312,
+          "name": "Fuji VFD FRN0004C2S-7U",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/10/461527294/RJ/OF/JY/89143389/fuji-vfd-frn0004c2s-7u-125x125.jpg",
+          "mcatId": "182089",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855202038788,
+          "name": "Fuji VFD FRN0002C2S-6U",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/10/461528826/WV/NL/PJ/89143389/fuji-vfd-frn0002c2s-6u-125x125.jpg",
+          "mcatId": "182089",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855202039573,
+          "name": "Fuji VFD FRN0010C2S-7U",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/10/461529527/MP/OX/UL/89143389/fuji-vfd-frn0010c2s-7u-125x125.jpg",
+          "mcatId": "182089",
+          "catId": "80"
+        }
+      ]
+    },
+    {
+      "name": "Danfoss VFD",
+      "products": [
+        {
+          "display_id": 2854345619691,
+          "name": "Danfoss VFD 132F 0026 (5 hp, 4 KW VLT Micro Drive )",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/6/430384625/FD/ZE/HU/89143389/132f-0026-5-hp-4-kw-vlt-micro-drive-125x125.jpg",
+          "mcatId": "182093",
+          "catId": "80"
+        },
+        {
+          "display_id": 2854345925812,
+          "name": "136Z6506 ( 5.5 KW/ 7.5 HP VLT Micro Drive)",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/6/430396788/WQ/ZZ/YJ/89143389/136z6506-5-5-kw-7-5-hp-vlt-micro-drive-125x125.jpg",
+          "mcatId": "182093",
+          "catId": "80"
+        },
+        {
+          "display_id": 2854345378448,
+          "name": "132F 0020 ( 2 hp, 1.5 KW VLT Micro Drive )",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/6/430371387/DD/CY/AS/89143389/132f-0020-2-hp-1-5-kw-vlt-micro-drive-125x125.jpg",
+          "mcatId": "182093",
+          "catId": "80"
+        },
+        {
+          "display_id": 2854345227748,
+          "name": "Danfoss VFD 132F 0018 (1 hp. .75 KW, VLT Micro Drive)",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/6/430366709/WC/SE/TA/89143389/132f-0018-1-hp-75-kw-vlt-micro-drive-125x125.jpg",
+          "mcatId": "182093",
+          "catId": "80"
+        },
+        {
+          "display_id": 2854345481573,
+          "name": "Danfoss VFD 132F 0022 ( 3 hp, 2.2 KW VLT Micro Drive )",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/6/430371387/DD/CY/AS/89143389/132f-0020-2-hp-1-5-kw-vlt-micro-drive-125x125.jpg",
+          "mcatId": "182093",
+          "catId": "80"
+        }
+      ]
+    },
+    {
+      "name": "Allen Bradley Vfd",
+      "products": [
+        {
+          "display_id": 2851652148773,
+          "name": "Allen Bradley VFD Powerflex Vfd Ac Drive",
+          "img125": "https://5.imimg.com//5.imimg.com/data5/SELLER/PDFImage/2024/10/460029765/TE/CE/QJ/89143389/allen-bradley-vfd-powerflex-vfd-ac-drive-125x125.png",
+          "mcatId": "186301",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855155176530,
+          "name": "Allen Bradley VFD - 22F-A011N103",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/10/459426296/VM/WP/YV/89143389/allen-bradley-22f-a011n103-125x125.jpg",
+          "mcatId": "186301",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855155176830,
+          "name": "Allen Bradley VFD -  22F-D6P0N103",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/10/459422634/TF/QJ/ZZ/89143389/allen-bradley-22f-d6p0n103-125x125.jpg",
+          "mcatId": "186301",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855155177562,
+          "name": "Allen Bradley VFD -  22F-A4P2N103",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/10/459363553/IP/AH/PL/89143389/allen-bradley-power-flex-4m-ac-drives-22f-a4p2n103-240vac-1ph-4-2-amps-0-75-kw-1-hp-125x125.jpg",
+          "mcatId": "186301",
+          "catId": "80"
+        },
+        {
+          "display_id": 2855155177688,
+          "name": "ALLEN-BRADLEY VFD - 22F-A4P2N113",
+          "img125": "https://5.imimg.com/data5/SELLER/Default/2024/10/459365005/NO/KI/VQ/89143389/22f-a4p2n113-allen-bradley-22fa4p2n113-125x125.jpg",
+          "mcatId": "186301",
+          "catId": "80"
+        }
+      ]
+    },
+    {
+      "name": "Abb Vfd",
+      "products": [
+        {
+          "display_id": 2855147963088,
+          "name": "ABB VFD ACS560-01-206A-4  VFD, 150HP",
+          "mcatId": 149699416,
+          "catId": 149699416
+        },
+        {
+          "display_id": 2855147961548,
+          "name": "ABB VFD 440v Acs560-01-025a-4",
+          "mcatId": 149699416,
+          "catId": 149699416
+        },
+        {
+          "display_id": 2855147962130,
+          "name": "ABB VFD  ACS560-01-073A 4  VFD",
+          "mcatId": 149699416,
+          "catId": 149699416
+        },
+        {
+          "display_id": 2855147963233,
+          "name": "ABB VFD general purpose drives ACS560, 0.75 to 160 kW",
+          "mcatId": 149699416,
+          "catId": 149699416
+        },
+        {
+          "display_id": 2855147961655,
+          "name": "ABB VFD ACS560-01-033A-4",
+          "mcatId": 149699416,
+          "catId": 149699416
+        }
+      ]
+    },
+    {
+      "name": "Pepperl And Fuchs Sensors",
+      "products": [
+        {
+          "display_id": 2855095454433,
+          "name": "Pepperl and Fuchs OBD500-18GM60-E5-IR-1C",
+          "mcatId": 149366732,
+          "catId": 149366732
+        },
+        {
+          "display_id": 2855095457130,
+          "name": "Pepperl and Fuchs OBD200-18GM60-E4-IR-1C",
+          "mcatId": 149366732,
+          "catId": 149366732
+        },
+        {
+          "display_id": 2855095454762,
+          "name": "Pepperl and Fuchs RLK39-54-Z/31/40A/116",
+          "mcatId": 149366732,
+          "catId": 149366732
+        },
+        {
+          "display_id": 2855130246597,
+          "name": "Pepperl And Fuchs Sensors ML100-55/102/115",
+          "mcatId": 149366732,
+          "catId": 149366732
+        },
+        {
+          "display_id": 2855127059088,
+          "name": "Pepperl And Fuchs Sensors GLV18-8-450/115/120",
+          "mcatId": 149366732,
+          "catId": 149366732
+        }
+      ]
+    },
+    {
+      "name": "Siemens HMI",
+      "products": [
+        {
+          "display_id": 2854347070855,
+          "name": "Siemens HMI 6AV6545-0CC10-0AX0 SIMATIC TP270 10\" TOUCH PANEL",
+          "mcatId": 84653011,
+          "catId": 84653011
+        },
+        {
+          "display_id": 2854352075755,
+          "name": "Siemens HMI 6AV6642-0DC01-1AX1 (SIMATIC OP 177B 6\" DP blue mode STN  )",
+          "mcatId": 84653011,
+          "catId": 84653011
+        },
+        {
+          "display_id": 2854352435012,
+          "name": "Siemens HMI 6AV6647-0AJ11-3AX0 SIMATIC HMI KP400 Basic Color PN, Basic",
+          "mcatId": 84653011,
+          "catId": 84653011
+        },
+        {
+          "display_id": 22409277391,
+          "name": "Siemens Hmi Touch Panel",
+          "mcatId": 84653011,
+          "catId": 84653011
+        },
+        {
+          "display_id": 2851651386197,
+          "name": "Siemens HMI 6AV2124-1GC01-0AX0  SIEMENS HMI SIMATIC KP700 Comfort",
+          "mcatId": 84653011,
+          "catId": 84653011
+        }
+      ]
+    },
+    {
+      "name": "Allen Bradley PLC",
+      "products": [
+        {
+          "display_id": 2854346992812,
+          "name": "Allen Bradley Plc 1766-L32BXBA Allen Bradley PLC",
+          "mcatId": 145092576,
+          "catId": 145092576
+        },
+        {
+          "display_id": 2854346853555,
+          "name": "Allen Bradley Plc 1761-CBL-HM02 Allen Bradley 1761-CBL-HM02 Series C, Used PLCH",
+          "mcatId": 145092576,
+          "catId": 145092576
+        },
+        {
+          "display_id": 2855151260397,
+          "name": "Allen Bradley PLC 1766 L32bwa",
+          "mcatId": 145092576,
+          "catId": 145092576
+        },
+        {
+          "display_id": 2855151260530,
+          "name": "Allen Bradley PLC 1762 Ir4",
+          "mcatId": 145092576,
+          "catId": 145092576
+        },
+        {
+          "display_id": 2855475087373,
+          "name": "MicroLogix 1400 32 Point Controller 1766-L32BWAA",
+          "mcatId": 145092576,
+          "catId": 145092576
+        }
+      ]
+    },
+    {
+      "name": "MITSUBISHI HMI",
+      "products": [
+        {
+          "display_id": 2855088609830,
+          "name": "Mitsubishi Hmi GT2710-VTBD 10.4 inch",
+          "mcatId": 149291144,
+          "catId": 149291144
+        },
+        {
+          "display_id": 2855088404791,
+          "name": "Mitsubishi Hmi GT2710-STBA 8.4 inch",
+          "mcatId": 149291144,
+          "catId": 149291144
+        },
+        {
+          "display_id": 2855088560888,
+          "name": "Mitsubishi Hmi GT2710-VTBA 10.4 inch",
+          "mcatId": 149291144,
+          "catId": 149291144
+        },
+        {
+          "display_id": 2855086826297,
+          "name": "Mitsubishi Hmi GT2510-VTBD 10.4 inch",
+          "mcatId": 149291144,
+          "catId": 149291144
+        },
+        {
+          "display_id": 2855087067630,
+          "name": "Mitsubishi Hmi GT2107-WTBD 7 inch",
+          "mcatId": 149291144,
+          "catId": 149291144
+        }
+      ]
+    },
+    {
+      "name": "Schneider Drives",
+      "products": [
+        {
+          "display_id": 2855197231355,
+          "name": "Schneider Vfd ATV610D11N4",
+          "mcatId": 149955431,
+          "catId": 149955431
+        },
+        {
+          "display_id": 2855197232355,
+          "name": "Schneider Vfd ATV610U22N4",
+          "mcatId": 149955431,
+          "catId": 149955431
+        },
+        {
+          "display_id": 2855197232488,
+          "name": "Schneider Vfd ATV610U30N4",
+          "mcatId": 149955431,
+          "catId": 149955431
+        },
+        {
+          "display_id": 2855197232048,
+          "name": "Schneider Vfd ATV610U07N4",
+          "mcatId": 149955431,
+          "catId": 149955431
+        },
+        {
+          "display_id": 2855196245312,
+          "name": "Schneider Vfd Atv610d37n4",
+          "mcatId": 149955431,
+          "catId": 149955431
+        }
+      ]
+    },
+    {
+      "name": "Siemens VFD",
+      "products": [
+        {
+          "display_id": 2851224132088,
+          "name": "Siemens AC DC and Servo Drives 6ES73221BP000AA0SM322 64DA, DC24V, 0,3A P-write",
+          "mcatId": 84651668,
+          "catId": 84651668
+        },
+        {
+          "display_id": 2849758737188,
+          "name": "Siemens AC DC and Servo Drives 6SL3246-0BA22-1FA0 CU240S-2PN",
+          "mcatId": 84651668,
+          "catId": 84651668
+        },
+        {
+          "display_id": 2849707888597,
+          "name": "Siemens AC DC and Servo Drives  6SL3040-0PA01-0AA0 CUA32 VFD",
+          "mcatId": 84651668,
+          "catId": 84651668
+        },
+        {
+          "display_id": 2850865077712,
+          "name": "Siemens AC DC and Servo Drives Siemens Dc Drive",
+          "mcatId": 84651668,
+          "catId": 84651668
+        },
+        {
+          "display_id": 2854157153433,
+          "name": "Siemens AC DC and Servo D 6SE6420-2UD24-0BA1   MICROMASTER 420 SIEMENS VFD",
+          "mcatId": 84651668,
+          "catId": 84651668
+        }
+      ]
+    },
+    {
+      "name": "Weintek HMI",
+      "products": [
+        {
+          "display_id": 2855668447755,
+          "name": "Weintek HMI MT8071iE",
+          "mcatId": 152437403,
+          "catId": 152437403
+        },
+        {
+          "display_id": 2855668448148,
+          "name": "Weintek HMI, Mt8071ip , 7 inch",
+          "mcatId": 152437403,
+          "catId": 152437403
+        },
+        {
+          "display_id": 2855668447888,
+          "name": "Weintek HMI MT6103iP",
+          "mcatId": 152437403,
+          "catId": 152437403
+        },
+        {
+          "display_id": 2855668447633,
+          "name": "Weintek Hmi Ie Series",
+          "mcatId": 152437403,
+          "catId": 152437403
+        },
+        {
+          "display_id": 2855668447473,
+          "name": "Weintek HMI MT8106iP",
+          "mcatId": 152437403,
+          "catId": 152437403
+        }
+      ]
+    },
+    {
+      "name": "Omron Photoelectric Sensor",
+      "products": [
+        {
+          "display_id": 2858979984797,
+          "name": "Omron photoelectric sensor E3FA-DP12",
+          "mcatId": 156577676,
+          "catId": 156577676
+        },
+        {
+          "display_id": 2858981240933,
+          "name": "Omron retro-reflective photoelectric sensor E3FA-RP11",
+          "mcatId": 156577676,
+          "catId": 156577676
+        },
+        {
+          "display_id": 2858978586062,
+          "name": "Omron Photoelectric Sensors E3FA-DP25",
+          "mcatId": 156577676,
+          "catId": 156577676
+        },
+        {
+          "display_id": 2858981818748,
+          "name": "Omron retro-reflective photoelectric sensor E3FA-RN11",
+          "mcatId": 156577676,
+          "catId": 156577676
+        },
+        {
+          "display_id": 2858996079888,
+          "name": "Omron Photoelectric Sensor E3Z-D61",
+          "mcatId": 156577676,
+          "catId": 156577676
+        }
+      ]
+    },
+    {
+      "name": "Omron HMI",
+      "products": [
+        {
+          "display_id": 2852112182933,
+          "name": "Omron HMI NB10W-TW01B Omron 10inch HMI",
+          "mcatId": 149367611,
+          "catId": 149367611
+        },
+        {
+          "display_id": 2852111960148,
+          "name": "Omron HMI NB7W-TW00B Omron 7inch HMI",
+          "mcatId": 149367611,
+          "catId": 149367611
+        },
+        {
+          "display_id": 2854742230691,
+          "name": "Omron HMI 12.1 inch HMI",
+          "mcatId": 149367611,
+          "catId": 149367611
+        },
+        {
+          "display_id": 2855058937297,
+          "name": "Omron Hmi NS15-TX01S-V2",
+          "mcatId": 149367611,
+          "catId": 149367611
+        },
+        {
+          "display_id": 2855058878512,
+          "name": "Omron Hmi NS15-TX01B-V2",
+          "mcatId": 149367611,
+          "catId": 149367611
+        }
+      ]
+    },
+    {
+      "name": "IFM Sensor",
+      "products": [
+        {
+          "display_id": 2857430539330,
+          "name": "Ac5205 IFM Sensor",
+          "mcatId": 161881705,
+          "catId": 161881705
+        },
+        {
+          "display_id": 2857447701548,
+          "name": "Ib5124 IFM Sensor",
+          "mcatId": 161881705,
+          "catId": 161881705
+        },
+        {
+          "display_id": 2857448164733,
+          "name": "Inductive Proximity Sensor",
+          "mcatId": 161881705,
+          "catId": 161881705
+        },
+        {
+          "display_id": 2857432742273,
+          "name": "Ifm Sensor",
+          "mcatId": 161881705,
+          "catId": 161881705
+        },
+        {
+          "display_id": 2857448482697,
+          "name": "IFM Photoelectric Distance Sensor",
+          "mcatId": 161881705,
+          "catId": 161881705
+        }
+      ]
+    },
+    {
+      "name": "Mitsubishi Servo Drives",
+      "products": [
+        {
+          "display_id": 2855158113191,
+          "name": "MITSUBISHI SERVO DRIVE MR-J4-350B",
+          "mcatId": 148019469,
+          "catId": 148019469
+        },
+        {
+          "display_id": 2855158113230,
+          "name": "Mitsubishi Servo Drive - MR-J4-100A",
+          "mcatId": 148019469,
+          "catId": 148019469
+        },
+        {
+          "display_id": 2855158112555,
+          "name": "Mitsubishi Servo Drives - MR-J4-20A-RJ",
+          "mcatId": 148019469,
+          "catId": 148019469
+        },
+        {
+          "display_id": 2855158112033,
+          "name": "MITSUBISHI SERVO MR-J4-350B",
+          "mcatId": 148019469,
+          "catId": 148019469
+        },
+        {
+          "display_id": 2855158112430,
+          "name": "Mitsubishi Servo Drives - MR-J4-350B-RJ",
+          "mcatId": 148019469,
+          "catId": 148019469
+        }
+      ]
+    },
+    {
+      "name": "Encoder",
+      "products": [
+        {
+          "display_id": 2859410637212,
+          "name": "AC61/0012EQ.72OLB  Hengstler ACURO Absolute Encoder",
+          "mcatId": 156578058,
+          "catId": 156578058
+        },
+        {
+          "display_id": 2859410564497,
+          "name": "RC58/0012EK.42SGB   absolute rotary encoder from Hengstler",
+          "mcatId": 156578058,
+          "catId": 156578058
+        },
+        {
+          "display_id": 2859419274773,
+          "name": "E40S6-1000-3-T-24 Autonics Encoder",
+          "mcatId": 156578058,
+          "catId": 156578058
+        },
+        {
+          "display_id": 2855440886691,
+          "name": "Baumer Incremental Encoders, EIL580-SC10.5LN.02500.A, 8 To 30 Vdc",
+          "mcatId": 156578058,
+          "catId": 156578058
+        },
+        {
+          "display_id": 2859418670573,
+          "name": "E6C2-CWZ6C 1000P/R 2M Omron Encoder",
+          "mcatId": 156578058,
+          "catId": 156578058
+        }
+      ]
+    },
+    {
+      "name": "Delta Hmi",
+      "products": [
+        {
+          "display_id": 2856314000497,
+          "name": "DOP-107EV - Delta HMI",
+          "mcatId": 150656015,
+          "catId": 150656015
+        },
+        {
+          "display_id": 2856314171748,
+          "name": "DOP-110IS - Delta HMI",
+          "mcatId": 150656015,
+          "catId": 150656015
+        },
+        {
+          "display_id": 2856314259162,
+          "name": "DOP-112WX - Delta HMI",
+          "mcatId": 150656015,
+          "catId": 150656015
+        },
+        {
+          "display_id": 2856314395062,
+          "name": "Delta HMI TP04G-AS2",
+          "mcatId": 150656015,
+          "catId": 150656015
+        },
+        {
+          "display_id": 2856314971248,
+          "name": "Delta DOP-W Series",
+          "mcatId": 150656015,
+          "catId": 150656015
+        }
+      ]
+    },
+    {
+      "name": "Phoenix Contact",
+      "products": [
+        {
+          "display_id": 2857462196191,
+          "name": "1085256 FL SWITCH 1008N",
+          "mcatId": 161830170,
+          "catId": 161830170
+        },
+        {
+          "display_id": 2857462311891,
+          "name": "Phoenix Contact  1085039 FL SWITCH 1005N",
+          "mcatId": 161830170,
+          "catId": 161830170
+        },
+        {
+          "display_id": 2857462369155,
+          "name": "Phoenix Contact  2891002 FL SWITCH SFNB 8TX",
+          "mcatId": 161830170,
+          "catId": 161830170
+        },
+        {
+          "display_id": 2857463203312,
+          "name": "2891001 FL SWITCH SFNB 5TX",
+          "mcatId": 161830170,
+          "catId": 161830170
+        },
+        {
+          "display_id": 2857462253873,
+          "name": "2967060 PLC-RSC- 24DC/21-21",
+          "mcatId": 161830170,
+          "catId": 161830170
+        }
+      ]
+    },
+    {
+      "name": "PILZ SAFETY RELAY",
+      "products": [
+        {
+          "display_id": 2859110046097,
+          "name": "PNOZ X2.8P  safety relay",
+          "mcatId": 166988910,
+          "catId": 166988910
+        },
+        {
+          "display_id": 2859112309248,
+          "name": "PNOZ X7 Safety Relay",
+          "mcatId": 166988910,
+          "catId": 166988910
+        },
+        {
+          "display_id": 2859109953033,
+          "name": "PNOZ X2.1 safety relay",
+          "mcatId": 166988910,
+          "catId": 166988910
+        },
+        {
+          "display_id": 2859114188588,
+          "name": "PNOZ c1  Safety Relay",
+          "mcatId": 166988910,
+          "catId": 166988910
+        },
+        {
+          "display_id": 2859110105530,
+          "name": "PNOZ X3 Safety Relay",
+          "mcatId": 166988910,
+          "catId": 166988910
+        }
+      ]
+    },
+    {
+      "name": "IFM Temperature Sensor",
+      "products": [
+        {
+          "display_id": 2857431740262,
+          "name": "SBY332 IFM Sensor",
+          "mcatId": 161719562,
+          "catId": 161719562
+        },
+        {
+          "display_id": 2857430597291,
+          "name": "IFM Temperature Sensor",
+          "mcatId": 161719562,
+          "catId": 161719562
+        }
+      ]
+    },
+    {
+      "name": "Siemens Servo Drive",
+      "products": [
+        {
+          "display_id": 2848990984655,
+          "name": "Siemens AC DC and Servo Driv S120 Drive 6SL3120-1TE21-8AD0 S120 VFD",
+          "mcatId": 156577441,
+          "catId": 156577441
+        },
+        {
+          "display_id": 2849708014948,
+          "name": "Siemens AC DC and Servo Drives Siemens Simotion D controller D410-2 DP VFD",
+          "mcatId": 156577441,
+          "catId": 156577441
+        }
+      ]
+    },
+    {
+      "name": "Phtoelectric Sensor",
+      "products": [
+        {
+          "display_id": 2855292723662,
+          "name": "Autonics Make Sensors Photo Sensors BH300-DDT",
+          "mcatId": 151205467,
+          "catId": 151205467
+        },
+        {
+          "display_id": 2857572161048,
+          "name": "Autonics Photoelectric Sensor",
+          "mcatId": 151205467,
+          "catId": 151205467
+        }
+      ]
+    },
+    {
+      "name": "Omron Plc",
+      "products": [
+        {
+          "display_id": 2855075420262,
+          "name": "Omron Plc CP2E",
+          "mcatId": 149370670,
+          "catId": 149370670
+        },
+        {
+          "display_id": 2854060512662,
+          "name": "Omron Plc Module",
+          "mcatId": 149370670,
+          "catId": 149370670
+        }
+      ]
+    },
+    {
+      "name": "Photoelectric Sensor",
+      "products": [
+        {
+          "display_id": 2855128143162,
+          "name": "Pepperl And Fuchs Sensors ML100-55/95/103",
+          "mcatId": 151205395,
+          "catId": 151205395
+        },
+        {
+          "display_id": 2859770494591,
+          "name": "Fiber Optic Sensors",
+          "mcatId": 151205395,
+          "catId": 151205395
+        }
+      ]
+    },
+    {
+      "name": "Fuji Drives",
+      "products": [
+        {
+          "display_id": 2855203522533,
+          "name": "Fuji VFD FRN0001C2S-2U",
+          "mcatId": 149987702,
+          "catId": 149987702
+        }
+      ]
+    },
+    {
+      "name": "Sick Photoelectric Sensor",
+      "products": [
+        {
+          "display_id": 2855292877755,
+          "name": "Photoelectric Sensors GTB6-P1212",
+          "mcatId": 152341743,
+          "catId": 152341743
+        }
+      ]
+    },
+    {
+      "name": "FUJI HMI",
+      "products": [
+        {
+          "display_id": 2855616623297,
+          "name": "Fuji 7 Inch Hmi Ts1070s",
+          "mcatId": 152341759,
+          "catId": 152341759
+        }
+      ]
+    },
+    {
+      "name": "OMRON VFD",
+      "products": [
+        {
+          "display_id": 2855616621455,
+          "name": "3g3mx2-A4015-V1 Omron Vfd",
+          "mcatId": 152341760,
+          "catId": 152341760
+        }
+      ]
+    },
+    {
+      "name": "Rotary Encoder",
+      "products": [
+        {
+          "display_id": 2857219698597,
+          "name": "Rotary Encoders .",
+          "mcatId": 156362796,
+          "catId": 156362796
+        }
+      ]
+    },
+    {
+      "name": "Autonics Rotary Encoder",
+      "products": [
+        {
+          "display_id": 2855961671233,
+          "name": "Autonics Optic Rotary Incremental Encoder",
+          "mcatId": 156577852,
+          "catId": 156577852
+        }
+      ]
+    },
+    {
+      "name": "Presage Vibration Sensor",
+      "products": [
+        {
+          "display_id": 2858914059062,
+          "name": "Presage Products VIBO Vibration Sensor",
+          "mcatId": 166423732,
+          "catId": 166423732
+        }
+      ]
+    },
+    {
+      "name": "IFM IO Link Master",
+      "products": [
+        {
+          "display_id": 2858887943833,
+          "name": "IFM AL1402 IO-Link Master PFL PN 8P IP67 IO-Link master with PROFINET interface",
+          "mcatId": 166536246,
+          "catId": 166536246
+        }
+      ]
+    },
+    {
+      "name": "Schneider Plc",
+      "products": [
+        {
+          "display_id": 2855616619933,
+          "name": "Ethernet,Rs485 Tm200ce40u Schneider Plc 40io 24 Di 16 Do Npn With Ethernet",
+          "mcatId": 152324531,
+          "catId": 152324531
+        }
+      ]
+    },
+    {
+      "name": "Shaft Encoder",
+      "products": [
+        {
+          "display_id": 27145057591,
+          "name": "Shaft Encoder .",
+          "mcatId": 84715682,
+          "catId": 84715682
+        }
+      ]
+    },
+    {
+      "name": "PLC HMI VFD Programming Services",
+      "products": [
+        {
+          "display_id": 2859182054473,
+          "name": "Mitsubishi PLC Programming Service",
+          "mcatId": 167187327,
+          "catId": 167187327
+        }
+      ]
+    },
+    {
+      "name": "Mitsubishi Vfd",
+      "products": [
+        {
+          "display_id": 2852121650773,
+          "name": "Mitsubishi VFD FR-D740-022-E16",
+          "mcatId": 149221655,
+          "catId": 149221655
+        },
+        {
+          "display_id": 2858076541755,
+          "name": "Mitsubishi VFD",
+          "mcatId": 149221655,
+          "catId": 149221655
+        }
+      ]
+    },
+    {
+      "name": "Delta Plc",
+      "products": [
+        {
+          "display_id": 2856314613533,
+          "name": "DOP-103BQ - Delta HMI",
+          "mcatId": 151226855,
+          "catId": 151226855
+        }
+      ]
+    },
+    {
+      "name": "Yaskawa Ac Drives",
+      "products": [
+        {
+          "display_id": 2855616620562,
+          "name": "CIMR-VT4A0009BAA - Yaskawa Ac Drive V1000, 2 HP",
+          "mcatId": 152341761,
+          "catId": 152341761
+        }
+      ]
+    },
+    {
+      "name": "Allen Bradley Hmi",
+      "products": [
+        {
+          "display_id": 2855151707230,
+          "name": "Allen Bradley HMI Panelview 800 2711R-T7T 7",
+          "mcatId": 149733834,
+          "catId": 149733834
+        }
+      ]
+    },
+    {
+      "name": "Schneider Vfd",
+      "products": [
+        {
+          "display_id": 2850756566812,
+          "name": "Schneider Vfd .",
+          "mcatId": 149437225,
+          "catId": 149437225
+        }
+      ]
+    },
+    {
+      "name": "Input And Output Module",
+      "products": [
+        {
+          "display_id": 2855700073848,
+          "name": "Micrologic digital output module",
+          "mcatId": 156363496,
+          "catId": 156363496
+        }
+      ]
+    },
+    {
+      "name": "Inovance Vfd",
+      "products": [
+        {
+          "display_id": 2855815343012,
+          "name": "Inovance VFD, for Industrial, Digital",
+          "mcatId": 155669227,
+          "catId": 155669227
+        }
+      ]
+    },
+    {
+      "name": "Siemens Servo Motors",
+      "products": [
+        {
+          "display_id": 2849707843248,
+          "name": "Siemens Simotics S-1FK7 Synchronous Motor",
+          "mcatId": 167606109,
+          "catId": 167606109
+        }
+      ]
+    },
+    {
+      "name": "Siemens IPC",
+      "products": [
+        {
+          "display_id": 2859173405248,
+          "name": "Siemens IPC 6AV7241-5BC00-0DA0 SIMATIC IPC477E (15\" Multitouch)",
+          "mcatId": 167161863,
+          "catId": 167161863
+        }
+      ]
+    },
+    {
+      "name": "Ethernet Switch",
+      "products": [
+        {
+          "display_id": 2857463723248,
+          "name": "Unmanaged Ethernet Switches",
+          "mcatId": 167606026,
+          "catId": 167606026
+        }
+      ]
+    },
+    {
+      "name": "Sensor",
+      "products": [
+        {
+          "display_id": 2858076555097,
+          "name": "Slot Sensor",
+          "mcatId": 150450945,
+          "catId": 150450945
+        }
+      ]
+    }
+  ]
+}

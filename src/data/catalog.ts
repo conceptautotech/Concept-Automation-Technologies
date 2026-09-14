@@ -7693,9 +7693,9 @@ export const PRODUCTS: Product[] = [
         "value": "12 Months Warranty"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458190011/AA/BB/CC/89143389/omron-e6c2-cwz6c-encoder-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458190011/AA/BB/CC/89143389/omron-e6c2-cwz6c-encoder-1000x1000.jpg"
     ],
     "slug": "omron-e6c2-cwz6c-1000p-r-2m-incremental-rotary-encoder",
     "stock": true,
@@ -7778,9 +7778,9 @@ export const PRODUCTS: Product[] = [
         "value": "12 Months Warranty"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458174565/OT/RM/OO/89143389/pepperl-fuchs-rvi58n-encoder-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458174565/OT/RM/OO/89143389/pepperl-fuchs-rvi58n-encoder-1000x1000.jpg"
     ],
     "slug": "pepperl-fuchs-rvi58n-011k1r61n-02048-incremental-rotary-encoder-2048-ppr",
     "stock": true,
@@ -7853,9 +7853,9 @@ export const PRODUCTS: Product[] = [
         "value": "12 Months Warranty"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458174565/OT/RM/OO/89143389/pepperl-fuchs-rvi58n-encoder-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458174565/OT/RM/OO/89143389/pepperl-fuchs-rvi58n-encoder-1000x1000.jpg"
     ],
     "slug": "pepperl-fuchs-rvi58n-011k1r61n-01024-incremental-rotary-encoder-1024-ppr-htl-push-pull-output",
     "stock": true,
@@ -7938,9 +7938,9 @@ export const PRODUCTS: Product[] = [
         "value": "12 Months Warranty"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458189912/XX/YY/ZZ/89143389/omron-e6b2-cwz6c-encoder-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458189912/XX/YY/ZZ/89143389/omron-e6b2-cwz6c-encoder-1000x1000.jpg"
     ],
     "slug": "omron-e6b2-cwz6c-1000p-r-2m-rotary-encoder",
     "stock": true,
@@ -13575,7 +13575,7 @@ export const PRODUCTS: Product[] = [
         "value": "12 Months Warranty"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/456081130/BB/EF/PH/89143389/mitsubishi-plc-fx5u-64mt-es-1000x1000.jpg",
     "images": [
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
       "https://5.imimg.com/data5/SELLER/Default/2024/9/454300717/DZ/WS/WB/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
@@ -23129,9 +23129,9 @@ export const PRODUCTS: Product[] = [
         "value": "12 Months Warranty"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458191200/DD/EE/FF/89143389/omron-e3z-d61-sensor-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458191200/DD/EE/FF/89143389/omron-e3z-d61-sensor-1000x1000.jpg"
     ],
     "slug": "product-description-e3z-d61-photoelectric-sensor",
     "stock": true,
@@ -23535,9 +23535,9 @@ export const PRODUCTS: Product[] = [
         "value": "12 Months Warranty"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458191200/DD/EE/FF/89143389/omron-e3z-d61-sensor-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458191200/DD/EE/FF/89143389/omron-e3z-d61-sensor-1000x1000.jpg"
     ],
     "slug": "the-omron-e3z-d61-photoelectric-sensor-is-a-compact-and-highly-reliable-diffuse-reflective-sensor-designed-for-accurate-object-detection-in-industrial-automation-applications-it-features-a-built-in-amplifier-and-operates-using-infrared-light-to-detect-objects-without-requiring-a-reflector",
     "stock": true,
@@ -23757,9 +23757,9 @@ export const PRODUCTS: Product[] = [
         "value": "12 Months Warranty"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/458191200/DD/EE/FF/89143389/omron-e3z-d61-sensor-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/458191200/DD/EE/FF/89143389/omron-e3z-d61-sensor-1000x1000.jpg"
     ],
     "slug": "product-description-e3z-d86-photoelectric-sensor",
     "stock": true,
@@ -33747,9 +33747,9 @@ export const PRODUCTS: Product[] = [
         "value": "12 Months Warranty"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2024/10/457012355/DD/EE/FF/89143389/siemens-et-200sp-module-1000x1000.jpg",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2024/10/457012355/DD/EE/FF/89143389/siemens-et-200sp-module-1000x1000.jpg"
     ],
     "slug": "6es71316bf610aa0simatic-et-200sp-digital-input-module-di-8x-24v-dc-src-ba-type-1-iec-61131-source-input-npn-m-reading-packing-unit-1-piece-fits-to-bu-type-a0-colour-code-cc02-input-delay-time-0-05-20ms-module-diagnostics-for-supply-voltage-simatic-et-200sp-digital-input-module-di-8x-24v-dc-src-ba-type-1-iec-61131-source-input-npn-m-reading-packing-unit-1-piece-fits-to-bu-type-a0-colour-code-cc02-input-delay-time-0-05-20ms-module-diagnostics-for-supply-voltage",
     "stock": true,
@@ -42259,9 +42259,9 @@ export const PRODUCTS: Product[] = [
         "value": "Danfoss FC-360 VLT Automation "
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623411619/QU/OG/LM/89143389/danfoss-fc-360-vlt-automation-drives-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623411619/QU/OG/LM/89143389/danfoss-fc-360-vlt-automation-drives-1000x1000.png"
     ],
     "slug": "danfoss-fc-360-vlt-automation-drives",
     "stock": true,
@@ -42297,9 +42297,9 @@ export const PRODUCTS: Product[] = [
         "value": "Danfoss Frequency Inverter"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623421164/TX/OQ/YP/89143389/danfoss-frequency-inverter-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623421164/TX/OQ/YP/89143389/danfoss-frequency-inverter-1000x1000.png"
     ],
     "slug": "danfoss-frequency-inverter",
     "stock": true,
@@ -42335,9 +42335,9 @@ export const PRODUCTS: Product[] = [
         "value": "Danfoss FC 302 VLT Automation "
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png"
     ],
     "slug": "danfoss-fc-302-vlt-automation-drive",
     "stock": true,
@@ -42411,9 +42411,9 @@ export const PRODUCTS: Product[] = [
         "value": "Danfoss FC 360 VLT Automation "
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623410403/UN/RH/ZB/89143389/danfoss-fc-360-vlt-automation-drive-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623410403/UN/RH/ZB/89143389/danfoss-fc-360-vlt-automation-drive-1000x1000.png"
     ],
     "slug": "danfoss-fc-360-vlt-automation-drive",
     "stock": true,
@@ -42449,9 +42449,9 @@ export const PRODUCTS: Product[] = [
         "value": "Danfoss FC 302 VLT Automation "
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623454213/QA/SV/OL/89143389/danfoss-fc-302-vlt-automation-drive-1000x1000.png"
     ],
     "slug": "danfoss-fc-302-vlt-automation-drives",
     "stock": true,
@@ -42487,9 +42487,9 @@ export const PRODUCTS: Product[] = [
         "value": "Danfoss Fc360 Vfd Drives"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623443442/RU/AX/GI/89143389/danfoss-fc360-vfd-drives-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623443442/RU/AX/GI/89143389/danfoss-fc360-vfd-drives-1000x1000.png"
     ],
     "slug": "danfoss-fc360-vfd-drives",
     "stock": true,
@@ -42525,9 +42525,9 @@ export const PRODUCTS: Product[] = [
         "value": "Danfoss FC 360 VFD"
       }
     ],
-    "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2026/7/623410403/UN/RH/ZB/89143389/danfoss-fc-360-vlt-automation-drive-1000x1000.png",
     "images": [
-      "https://5.imimg.com/data5/SELLER/Default/2024/9/454300714/IX/YL/ZC/89143389/melsec-iq-f-series-fx5u-80mt-ess-1000x1000.jpg"
+      "https://5.imimg.com/data5/SELLER/Default/2026/7/623410403/UN/RH/ZB/89143389/danfoss-fc-360-vlt-automation-drive-1000x1000.png"
     ],
     "slug": "danfoss-fc-360-vfd",
     "stock": true,
