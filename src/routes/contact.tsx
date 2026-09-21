@@ -60,7 +60,7 @@ function Contact() {
           >
             <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-accent">Direct Support & Inquiries</span>
             <h1 className="mt-2 font-display text-3xl font-extrabold tracking-tight sm:text-5xl">
-              Contact Concept Automation
+              Get in Touch with Concept Automation Technologies
             </h1>
             <p className="mt-3 max-w-2xl text-sm text-muted-foreground leading-relaxed sm:text-base">
               Send your part number or technical specs. Our sales desk responds with stock availability and quotations.

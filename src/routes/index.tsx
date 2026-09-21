@@ -148,11 +148,15 @@ const networkStats = [
 ];
 
 const keyIndustries = [
-  { id: "pharma", title: "Pharma Industry", desc: "Supplying high-reliability PLC controllers, HMI touchscreens, and temperature control modules for cleanrooms, batch processing machinery, and tablet press systems.", image: "https://5.imimg.com/data5/SELLER/Default/2024/6/430445480/OY/HF/BF/89143389/1766-l32bxba-ab-plc-1000x1000.jpg" },
-  { id: "textile", title: "Textile & Packaging", desc: "Direct supply of high-speed motion sync modules, variable frequency drives (VFDs) for tension control, and sensor kits for automated wrapping and weaving machinery.", image: "https://5.imimg.com/data5/SELLER/Default/2024/10/459045515/XB/PU/GR/89143389/abb-acs560-01-206a-4-vfd-150hp-1000x1000.jpg" },
-  { id: "automotive", title: "Automotive Lines", desc: "Sourcing and importing robust safety light curtains, PLC CPUs, industrial Ethernet cables, and fieldbus I/O modules for assembly and manufacturing lines.", image: "https://5.imimg.com/data5/SELLER/Default/2024/10/455791406/PL/CC/HP/89143389/allen-bradley-plc-1000x1000.jpg" },
-  { id: "plastic", title: "Plastic & Paper", desc: "Supplying vector control AC drives, precise PID heating control modules, and heavy-duty shaft encoders for extruders, winding machines, and paper rollers.", image: "https://5.imimg.com/data5/SELLER/Default/2024/11/465622363/SM/RQ/NW/89143389/photoelectric-sensors-gtb6-p1212-1000x1000.jpg" },
-  { id: "machine", title: "Panel Builders", desc: "Primary trade supplier of genuine PLCs, HMIs, VFDs, and sensors to electrical panel builders and automation integrators at competitive wholesale rates.", image: "https://5.imimg.com/data5/SELLER/Default/2024/10/459210232/SC/TB/EH/89143389/allen-bradley-panelview-800-2711r-t7t-7-1000x1000.jpg" },
+  { id: "machine-builders", title: "Machine Builders & OEMs", desc: "PLCs, HMIs, VFDs and I/O modules for OEM machine design and build, with fast replenishment cycles for production runs.", icon: "🏗️" },
+  { id: "end-mfg", title: "End Manufacturing Factories", desc: "Ready stock of automation spares and controllers for in-house production lines, minimising downtime during breakdowns.", icon: "🏭" },
+  { id: "mfg-industries", title: "Manufacturing Industries", desc: "Servo drives, encoders and sensors for precision manufacturing applications across metals, plastics, textiles and food.", icon: "⚙️" },
+  { id: "process", title: "Process Industries", desc: "Temperature controllers, SMPS, fieldbus I/O and safety relays for continuous process plants — chemical, pharma and oil & gas.", icon: "🔬" },
+  { id: "material", title: "Material Handling", desc: "Variable frequency drives, motion controllers and inductive sensors for conveyors, hoists, AGVs and warehouse automation.", icon: "📦" },
+  { id: "panel-builders", title: "Panel Builders", desc: "Wholesale supply of PLCs, HMIs, MCBs, contactors and wiring accessories to electrical panel fabricators at trade prices.", icon: "🔌" },
+  { id: "integrators", title: "System Integrators & Solution Providers", desc: "Multi-brand automation hardware from a single source — Siemens, Mitsubishi, Allen Bradley, Omron and more, with technical cross-reference support.", icon: "🔗" },
+  { id: "maintenance", title: "Maintenance & Plant Engineering", desc: "Emergency stock for plant breakdown support — same-day dispatch on critical spare PLCs, drives, sensors and power supplies.", icon: "🛠️" },
+  { id: "resellers", title: "Industrial Resellers", desc: "Competitive wholesale pricing for resellers and regional distributors looking to stock popular automation brands and part numbers.", icon: "🤝" },
 ];
 
 const reviews = [
@@ -163,7 +167,6 @@ const reviews = [
 
 function Index() {
   const [activeBrandTab, setActiveBrandTab] = useState<(typeof heroBrandTabs)[number]>(heroBrandTabs[0]!);
-  const [activeIndustry, setActiveIndustry] = useState<(typeof keyIndustries)[number]>(keyIndustries[0]!);
   const [catalogBrandFilter, setCatalogBrandFilter] = useState("All");
   const [heroSearch, setHeroSearch] = useState("");
   const [inquiryModalOpen, setInquiryModalOpen] = useState(false);
@@ -292,7 +295,7 @@ function Index() {
                   <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-600" />
                 </span>
                 <span className="text-xs font-extrabold uppercase tracking-wider text-slate-800">
-                  Makarba Warehouse Active · 1,500+ Ready Industrial Hardware Parts
+                  Industrial Automation Products. Reliable Sourcing. Competitive Prices.
                 </span>
               </div>
 
@@ -625,66 +628,96 @@ function Index() {
         </section>
 
         {/* ═══════════════════════════════════════════════════════ */}
-        {/* NEW SECTION 3: "WHY CHOOSE US" 4 BENEFIT CARDS          */}
+        {/* WHY CHOOSE CONCEPT AUTOMATION                          */}
         {/* ═══════════════════════════════════════════════════════ */}
-        <section className="py-16 sm:py-24 bg-slate-50 text-slate-800 border-b border-slate-200">
+        <section className="py-20 sm:py-28 bg-white border-b border-slate-100 overflow-hidden">
           <div className="mx-auto max-w-7xl px-4 sm:px-6">
-            <div className="text-center max-w-2xl mx-auto mb-12">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 border border-amber-200 px-3.5 py-1 text-xs font-extrabold uppercase tracking-widest text-accent">
-                <Award className="h-3.5 w-3.5 text-accent" /> Trust Credentials
-              </span>
-              <h2 className="mt-3 font-display text-3xl sm:text-4xl font-extrabold text-slate-800">
-                Why Choose Concept Automation?
-              </h2>
-              <p className="mt-2 text-xs sm:text-sm text-slate-600 font-semibold">
-                Delivering genuine industrial hardware, technical clarity, and rapid dispatch across India.
-              </p>
-            </div>
 
-            <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-              {[
-                {
-                  icon: ShieldCheck,
-                  title: "100% Genuine Hardware",
-                  desc: "We supply brand-new, factory-sealed automation hardware from trusted global brands with full serial verification.",
-                },
-                {
-                  icon: Cpu,
-                  title: "Expert Technical Support",
-                  desc: "Our sales & application engineers assist in part cross-referencing, legacy replacement, and system selection.",
-                },
-                {
-                  icon: BadgePercent,
-                  title: "Wholesale Price Advantage",
-                  desc: "Direct bulk sourcing enables us to offer competitive wholesale pricing to panel builders, traders, and plant units.",
-                },
-                {
-                  icon: Clock,
-                  title: "Express 24-48h Delivery",
-                  desc: "With ready stock in Makarba, Ahmedabad, we ensure immediate courier dispatch for minimal plant downtime.",
-                },
-              ].map((item, idx) => (
-                <motion.div
-                  key={item.title}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: idx * 0.1 }}
-                  className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm text-left flex flex-col justify-between hover:shadow-md hover:border-accent transition-all"
+            {/* Two-column layout: sticky headline left, cards right */}
+            <div className="grid gap-12 lg:grid-cols-5 lg:gap-16 lg:items-start">
+
+              {/* Left — headline block */}
+              <motion.div
+                initial={{ opacity: 0, x: -24 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+                className="lg:col-span-2 lg:sticky lg:top-28"
+              >
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-accent/10 border border-accent/20 px-3.5 py-1 text-xs font-extrabold uppercase tracking-widest text-accent">
+                  <Award className="h-3.5 w-3.5" /> Why Choose Us
+                </span>
+                <h2 className="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 leading-tight">
+                  Why Choose Concept Automation Technologies?
+                </h2>
+                <p className="mt-4 text-base text-slate-500 leading-relaxed">
+                  We make industrial automation hardware easy to source — genuine products, transparent pricing, and fast response from a team that understands your requirements.
+                </p>
+                <button
+                  onClick={() => openQuote("General Inquiry", "")}
+                  className="mt-8 inline-flex items-center gap-2 rounded-xl bg-primary px-7 py-3.5 text-sm font-bold text-white hover:bg-accent transition-all shadow-lg"
                 >
-                  <div>
-                    <div className="h-12 w-12 rounded-2xl bg-amber-50 border border-amber-200 flex items-center justify-center text-accent mb-5">
-                      <item.icon className="h-6 w-6" />
+                  <MessageSquare className="h-4 w-4" /> Get a Quote
+                </button>
+              </motion.div>
+
+              {/* Right — 5 feature cards */}
+              <div className="lg:col-span-3 flex flex-col gap-4">
+                {[
+                  {
+                    icon: ShieldCheck,
+                    color: "bg-emerald-50 border-emerald-200 text-emerald-600",
+                    title: "Genuine Products",
+                    desc: "We source industrial automation products through established and reliable supply channels — every item is brand-new and factory-sealed.",
+                  },
+                  {
+                    icon: BadgePercent,
+                    color: "bg-blue-50 border-blue-200 text-blue-600",
+                    title: "Competitive Pricing",
+                    desc: "Our multi-brand sourcing network allows us to offer competitive commercial pricing for individual requirements and bulk enquiries.",
+                  },
+                  {
+                    icon: Zap,
+                    color: "bg-amber-50 border-amber-200 text-amber-600",
+                    title: "Quick Response",
+                    desc: "Send us your required model number, MLFB or part number and our team can assist with availability and quotation — same business day.",
+                  },
+                  {
+                    icon: Layers,
+                    color: "bg-violet-50 border-violet-200 text-violet-600",
+                    title: "Multi-Brand Supply",
+                    desc: "Source products from multiple leading automation brands — Siemens, Mitsubishi, Allen Bradley, Omron, ABB and more — through a single supplier.",
+                  },
+                  {
+                    icon: Globe,
+                    color: "bg-orange-50 border-orange-200 text-orange-600",
+                    title: "Pan-India Supply",
+                    desc: "We serve customers across India through our industrial automation supply network with express dispatch from our Ahmedabad warehouse.",
+                  },
+                ].map((item, idx) => (
+                  <motion.div
+                    key={item.title}
+                    initial={{ opacity: 0, x: 24 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.4, delay: idx * 0.08 }}
+                    className="group flex items-start gap-5 rounded-2xl border border-slate-200 bg-white p-6 hover:shadow-md hover:border-accent/30 transition-all duration-300"
+                  >
+                    <div className={`shrink-0 rounded-xl border p-3 ${item.color}`}>
+                      <item.icon className="h-5 w-5" />
                     </div>
-                    <h3 className="font-display text-lg font-extrabold text-slate-800">
-                      {item.title}
-                    </h3>
-                    <p className="mt-2 text-xs text-slate-600 leading-relaxed font-medium">
-                      {item.desc}
-                    </p>
-                  </div>
-                </motion.div>
-              ))}
+                    <div>
+                      <h3 className="text-base font-extrabold text-slate-900 group-hover:text-accent transition-colors">
+                        {item.title}
+                      </h3>
+                      <p className="mt-1 text-sm text-slate-500 leading-relaxed">
+                        {item.desc}
+                      </p>
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+
             </div>
           </div>
         </section>
@@ -789,66 +822,61 @@ function Index() {
         {/* ═══════════════════════════════════════════════════════ */}
         <section className="py-16 sm:py-24 bg-muted border-t border-border">
           <div className="mx-auto max-w-7xl px-4 sm:px-6">
-            <div className="text-center max-w-2xl mx-auto mb-8">
+
+            <div className="text-center max-w-2xl mx-auto mb-14">
               <span className="eyebrow">INDUSTRIES WE SUPPLY</span>
-              <h2 className="mt-1 font-display text-2xl sm:text-4xl font-extrabold text-foreground">
-                Where We Supply Products
+              <h2 className="mt-2 font-display text-2xl sm:text-4xl font-extrabold text-foreground">
+                Who We Serve
               </h2>
+              <p className="mt-3 text-sm text-muted-foreground font-medium">
+                We supply automation hardware across a wide range of industries and trade channels — from plant floor to panel shop.
+              </p>
             </div>
 
-            <div className="flex overflow-x-auto gap-2 pb-2 mb-8 justify-start lg:justify-center scrollbar-none">
-              {keyIndustries.map((ind) => (
-                <button
+            <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+              {keyIndustries.map((ind, idx) => (
+                <motion.div
                   key={ind.id}
-                  onClick={() => setActiveIndustry(ind)}
-                  className={`shrink-0 rounded-xl px-5 py-3 text-xs font-bold uppercase tracking-wider transition-all ${
-                    activeIndustry.id === ind.id
-                      ? "bg-primary text-primary-foreground shadow-lg scale-105"
-                      : "bg-card text-foreground border border-border hover:bg-muted"
-                  }`}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.35, delay: idx * 0.06 }}
+                  className="group flex gap-4 rounded-2xl border border-border bg-card p-5 hover:border-accent/40 hover:shadow-md transition-all duration-300"
                 >
-                  {ind.title}
-                </button>
+                  <div className="shrink-0 text-2xl w-10 h-10 flex items-center justify-center rounded-xl bg-accent/10 border border-accent/20">
+                    {ind.icon}
+                  </div>
+                  <div>
+                    <h3 className="font-display text-sm font-extrabold text-foreground group-hover:text-accent transition-colors">
+                      {ind.title}
+                    </h3>
+                    <p className="mt-1 text-xs text-muted-foreground leading-relaxed">
+                      {ind.desc}
+                    </p>
+                  </div>
+                </motion.div>
               ))}
+
+              {/* CTA card — fills the last grid slot */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.35, delay: 0.54 }}
+                className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-accent/40 bg-accent/5 p-5 text-center gap-3"
+              >
+                <span className="text-2xl">📞</span>
+                <p className="text-sm font-bold text-foreground">Don't see your industry?</p>
+                <p className="text-xs text-muted-foreground">We supply to all sectors. Get in touch and we'll source it.</p>
+                <button
+                  onClick={() => openQuote("Industry Inquiry", "")}
+                  className="mt-1 rounded-xl bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-accent transition-colors"
+                >
+                  Contact Us
+                </button>
+              </motion.div>
             </div>
 
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={activeIndustry.id}
-                initial={{ opacity: 0, y: 15 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -15 }}
-                transition={{ duration: 0.3 }}
-                className="rounded-3xl border border-border bg-card p-6 sm:p-8 shadow-lg"
-              >
-                <div className="grid gap-6 lg:grid-cols-12 items-center">
-                  <div className="lg:col-span-7 space-y-4">
-                    <span className="text-[10px] font-extrabold uppercase tracking-widest text-accent">
-                      Targeted Industry Supply
-                    </span>
-                    <h3 className="font-display text-2xl sm:text-3xl font-extrabold uppercase text-foreground">
-                      {activeIndustry.title}
-                    </h3>
-                    <p className="text-xs sm:text-sm text-muted-foreground font-medium leading-relaxed">
-                      {activeIndustry.desc}
-                    </p>
-                    <button
-                      onClick={() => openQuote(activeIndustry.title, "")}
-                      className="inline-flex items-center gap-2 rounded-xl bg-slate-900 hover:bg-[#ea580c] px-6 py-3 text-xs font-bold uppercase tracking-wider text-white transition-colors"
-                    >
-                      Inquire for Bulk Supply <ArrowRight className="h-4 w-4 text-slate-300" />
-                    </button>
-                  </div>
-                  <div className="lg:col-span-5 flex justify-center">
-                    <img
-                      src={activeIndustry.image}
-                      alt={activeIndustry.title}
-                      className="h-44 sm:h-56 w-full max-w-xs object-contain rounded-2xl bg-background p-4 border border-border"
-                    />
-                  </div>
-                </div>
-              </motion.div>
-            </AnimatePresence>
           </div>
         </section>
 
@@ -912,6 +940,51 @@ function Index() {
                   </div>
                 </motion.div>
               </motion.div>
+            </div>
+          </div>
+        </section>
+
+        {/* ═══════════════════════════════════════════════════════ */}
+        {/* INDEPENDENT RESELLER NOTICE                            */}
+        {/* ═══════════════════════════════════════════════════════ */}
+        <section className="py-12 sm:py-16 bg-slate-50 border-t border-border">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6">
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-10 shadow-sm">
+              <div className="flex flex-col lg:flex-row lg:items-start lg:gap-12 gap-6">
+                {/* Left: Positioning Statement */}
+                <div className="lg:w-2/5 shrink-0">
+                  <span className="text-[10px] font-extrabold uppercase tracking-widest text-[#ea580c] block mb-2">Who We Are</span>
+                  <h2 className="font-display text-xl sm:text-2xl font-extrabold text-slate-900 leading-snug">
+                    Independent Automation Products Reseller
+                  </h2>
+                  <p className="mt-3 text-sm sm:text-base text-slate-600 leading-relaxed">
+                    Concept Automation Technologies is an independent industrial automation products trading and resale company supplying PLCs, HMIs, VFDs, servo systems, sensors, encoders, industrial PCs and other automation components from multiple leading manufacturers. We source products through established commercial supply channels.
+                  </p>
+                </div>
+
+                {/* Right: Disclaimer Points */}
+                <div className="lg:w-3/5 rounded-xl border border-amber-200 bg-amber-50 px-5 py-4">
+                  <span className="text-[10px] font-extrabold uppercase tracking-widest text-amber-700 block mb-3">Brand & Trademark Notice</span>
+                  <ul className="space-y-2 text-xs sm:text-sm text-amber-900 leading-relaxed">
+                    <li className="flex items-start gap-2">
+                      <span className="mt-1 h-1.5 w-1.5 rounded-full bg-amber-400 shrink-0" />
+                      We are not an authorized distributor, dealer, representative, partner or affiliate of any manufacturer displayed on this website unless specifically stated otherwise.
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="mt-1 h-1.5 w-1.5 rounded-full bg-amber-400 shrink-0" />
+                      Product names, trademarks, logos and brand names belong to their respective manufacturers and are used solely for product identification and reference.
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="mt-1 h-1.5 w-1.5 rounded-full bg-amber-400 shrink-0" />
+                      The appearance of a manufacturer's brand on this website does not imply authorization, endorsement, sponsorship, partnership or affiliation.
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="mt-1 h-1.5 w-1.5 rounded-full bg-amber-400 shrink-0" />
+                      Customers should verify the exact product model, specifications, compatibility, warranty terms and manufacturer support before ordering.
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </section>
