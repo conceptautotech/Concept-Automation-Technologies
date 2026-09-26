@@ -1,0 +1,9 @@
+import re
+import html as html_module
+
+with open('scratch/mitsubishi_plc_desktop.html', 'r', encoding='utf-8', errors='ignore') as f:
+    html = f.read()
+
+pos = 68099
+snippet = html[pos:pos+3000]
+print(snippet.encode('ascii', errors='replace').decode('ascii'))
