@@ -5,7 +5,6 @@ import {
   Globe,
   Truck,
   Award,
-  Users,
   BadgeCheck,
   Building2,
   Phone,
@@ -21,7 +20,6 @@ import {
   FileCheck,
   Factory,
   Clock,
-  ExternalLink,
   ChevronRight,
   CheckCheck,
 } from "lucide-react";
@@ -188,33 +186,33 @@ function About() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 text-foreground font-sans pb-16 sm:pb-0">
+    <div className="min-h-screen bg-slate-50 text-slate-900 font-sans pb-16 sm:pb-0">
       <Header />
 
       <main>
         {/* ══════════════════════════════════════════════════════════ */}
-        {/* 1. HERO SECTION                                           */}
+        {/* 1. HERO SECTION (CLEAN PURE LIGHT THEME)                   */}
         {/* ══════════════════════════════════════════════════════════ */}
-        <section className="relative overflow-hidden bg-slate-900 text-white pt-24 pb-20 sm:pt-32 sm:pb-28">
-          {/* Subtle Industrial Grid & Ambient Lighting */}
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff0a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff0a_1px,transparent_1px)] bg-[size:44px_44px] opacity-40 pointer-events-none" />
-          <div className="absolute -top-32 -right-32 w-96 h-96 bg-[#ea580c]/20 rounded-full blur-[100px] pointer-events-none" />
-          <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-blue-600/15 rounded-full blur-[100px] pointer-events-none" />
+        <section className="relative overflow-hidden bg-gradient-to-b from-white via-slate-50/70 to-white py-16 sm:py-24 border-b border-slate-200/90">
+          {/* Subtle Clean Industrial Grid Background */}
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,#00000008_1px,transparent_1px),linear-gradient(to_bottom,#00000008_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none" />
+          <div className="absolute -top-24 right-10 w-96 h-96 bg-orange-400/8 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute -bottom-24 left-10 w-96 h-96 bg-amber-400/8 rounded-full blur-3xl pointer-events-none" />
 
           <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
-            {/* Breadcrumb / Status Badge */}
+            {/* Status Pill */}
             <motion.div
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
-              className="inline-flex items-center gap-2 rounded-full border border-slate-700 bg-slate-800/80 backdrop-blur-md px-4 py-1.5 text-xs font-semibold text-slate-300 shadow-inner"
+              className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-1.5 text-xs font-semibold text-slate-700 shadow-xs"
             >
-              <span className="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
+              <span className="flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
               <span>ESTABLISHED 2022</span>
-              <span className="text-slate-500">•</span>
-              <span className="text-orange-400 font-bold">AHMEDABAD, GUJARAT</span>
-              <span className="text-slate-500">•</span>
-              <span className="text-slate-300">TRUST SEAL CERTIFIED</span>
+              <span className="text-slate-300">•</span>
+              <span className="text-[#ea580c] font-bold">AHMEDABAD, GUJARAT</span>
+              <span className="text-slate-300">•</span>
+              <span className="text-slate-600 font-medium">TRUST SEAL CERTIFIED</span>
             </motion.div>
 
             {/* Display Headline */}
@@ -222,10 +220,10 @@ function About() {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="mt-6 font-display text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-4xl mx-auto"
+              className="mt-6 font-display text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-tight max-w-4xl mx-auto"
             >
               Powering India's Industrial Floors with{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] via-orange-400 to-amber-300">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] via-orange-600 to-amber-600">
                 Verified OEM Automation
               </span>
             </motion.h1>
@@ -235,7 +233,7 @@ function About() {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="mt-6 text-base sm:text-lg lg:text-xl text-slate-300 leading-relaxed max-w-3xl mx-auto font-normal"
+              className="mt-5 text-base sm:text-lg text-slate-600 leading-relaxed max-w-3xl mx-auto font-normal"
             >
               Concept Automation Technologies is an independent multi-brand wholesale stockist and distributor of PLCs, HMIs, VFD inverter drives, servo systems, and precision sensors. From our centralized Makarba distribution hub in Ahmedabad, we guarantee rapid emergency dispatches and transparent wholesale pricing.
             </motion.p>
@@ -245,11 +243,11 @@ function About() {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="mt-9 flex flex-wrap items-center justify-center gap-3.5"
+              className="mt-8 flex flex-wrap items-center justify-center gap-3.5"
             >
               <button
                 onClick={() => setInquiryOpen(true)}
-                className="inline-flex items-center gap-2.5 rounded-xl bg-primary px-7 py-3.5 text-sm font-bold text-white hover:bg-[#c2410c] active:scale-[0.98] transition-all shadow-lg shadow-orange-950/40 cursor-pointer"
+                className="inline-flex items-center gap-2.5 rounded-xl bg-primary px-7 py-3.5 text-sm font-bold text-white hover:bg-[#c2410c] active:scale-[0.98] transition-all shadow-md shadow-orange-500/20 cursor-pointer"
               >
                 <MessageSquare className="h-4 w-4" />
                 Request Hardware Quote
@@ -257,10 +255,10 @@ function About() {
 
               <Link
                 to="/products"
-                className="inline-flex items-center gap-2 rounded-xl bg-slate-800 border border-slate-700 px-6 py-3.5 text-sm font-bold text-slate-200 hover:bg-slate-700 hover:text-white transition-all shadow-md"
+                className="inline-flex items-center gap-2 rounded-xl bg-white border border-slate-300 hover:border-slate-400 px-6 py-3.5 text-sm font-bold text-slate-800 hover:bg-slate-50 transition-all shadow-xs"
               >
                 Explore 530+ Parts Catalog
-                <ArrowRight className="h-4 w-4 text-orange-400" />
+                <ArrowRight className="h-4 w-4 text-[#ea580c]" />
               </Link>
 
               <a
@@ -269,18 +267,18 @@ function About() {
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-emerald-600/20 border border-emerald-500/40 px-5 py-3.5 text-sm font-bold text-emerald-300 hover:bg-emerald-600/30 transition-all"
+                className="inline-flex items-center gap-2 rounded-xl bg-emerald-50 border border-emerald-300 px-5 py-3.5 text-sm font-bold text-emerald-800 hover:bg-emerald-100 transition-all"
               >
-                <Phone className="h-4 w-4 text-emerald-400" />
+                <Phone className="h-4 w-4 text-emerald-600" />
                 WhatsApp Trade Desk
               </a>
             </motion.div>
           </div>
 
           {/* ══════════════════════════════════════════════════════════ */}
-          {/* 4-CARD HERO METRIC STAT RIBBON                            */}
+          {/* 4-CARD HERO METRIC STAT RIBBON (LIGHT THEME)              */}
           {/* ══════════════════════════════════════════════════════════ */}
-          <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 mt-16">
+          <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 mt-14">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-5">
               {keyMetrics.map((metric, idx) => (
                 <motion.div
@@ -288,20 +286,20 @@ function About() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4, delay: 0.15 + idx * 0.08 }}
-                  className="rounded-2xl border border-slate-700/80 bg-slate-800/60 backdrop-blur-md p-5 sm:p-6 hover:border-orange-500/40 hover:bg-slate-800 transition-all group"
+                  className="rounded-2xl border border-slate-200 bg-white p-5 sm:p-6 shadow-sm hover:border-[#ea580c]/50 hover:shadow-md transition-all group"
                 >
                   <div className="flex items-center justify-between">
-                    <span className="font-display text-3xl sm:text-4xl font-black text-white tracking-tight group-hover:text-orange-400 transition-colors">
+                    <span className="font-display text-3xl sm:text-4xl font-black text-slate-900 tracking-tight group-hover:text-[#ea580c] transition-colors">
                       {metric.value}
                     </span>
-                    <div className="rounded-xl bg-slate-700/70 p-2.5 text-orange-400 border border-slate-600/60">
+                    <div className="rounded-xl bg-orange-50 p-2.5 text-[#ea580c] border border-orange-100">
                       <metric.icon className="h-5 w-5" />
                     </div>
                   </div>
-                  <div className="mt-3 text-xs sm:text-sm font-bold text-slate-200">
+                  <div className="mt-3 text-xs sm:text-sm font-bold text-slate-900">
                     {metric.label}
                   </div>
-                  <div className="mt-1 text-[11px] sm:text-xs text-slate-400 leading-normal">
+                  <div className="mt-1 text-[11px] sm:text-xs text-slate-500 leading-normal">
                     {metric.subtext}
                   </div>
                 </motion.div>
@@ -311,9 +309,9 @@ function About() {
         </section>
 
         {/* ══════════════════════════════════════════════════════════ */}
-        {/* 2. VERIFIED CREDENTIALS & TRUST BADGES                     */}
+        {/* 2. VERIFIED CREDENTIALS & TRUST BADGES (LIGHT THEME)       */}
         {/* ══════════════════════════════════════════════════════════ */}
-        <section className="bg-white border-b border-slate-200 py-8 sm:py-10 shadow-xs">
+        <section className="bg-white border-b border-slate-200 py-8 sm:py-10">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
@@ -347,10 +345,10 @@ function About() {
                   copyValue: company.address,
                   actionText: "Copy Address",
                 },
-              ].map((item, idx) => (
+              ].map((item) => (
                 <div
                   key={item.badge}
-                  className="flex items-start gap-3.5 p-4 rounded-xl border border-slate-100 bg-slate-50/70 hover:bg-white hover:border-slate-300 hover:shadow-sm transition-all group"
+                  className="flex items-start gap-3.5 p-4 rounded-xl border border-slate-200/80 bg-slate-50/70 hover:bg-white hover:border-slate-300 hover:shadow-xs transition-all group"
                 >
                   <div className="rounded-xl bg-white border border-slate-200 p-2.5 shadow-2xs shrink-0 text-[#ea580c] group-hover:scale-105 transition-transform">
                     <item.icon className="h-5 w-5" />
@@ -391,7 +389,7 @@ function About() {
         </section>
 
         {/* ══════════════════════════════════════════════════════════ */}
-        {/* 3. CORPORATE STORY & ENTERPRISE PROFILE                    */}
+        {/* 3. CORPORATE STORY & ENTERPRISE PROFILE (LIGHT THEME)      */}
         {/* ══════════════════════════════════════════════════════════ */}
         <section className="py-16 sm:py-24 bg-white">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
@@ -405,7 +403,7 @@ function About() {
                 className="lg:col-span-7 space-y-6"
               >
                 <div>
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-orange-50 border border-orange-200/60 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-orange-50 border border-orange-200 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
                     <Building2 className="h-3.5 w-3.5" />
                     Corporate Profile & Mission
                   </span>
@@ -427,8 +425,8 @@ function About() {
                 </div>
 
                 {/* Founder Quote Card */}
-                <div className="rounded-2xl border border-orange-200/80 bg-gradient-to-br from-orange-50/60 via-white to-amber-50/40 p-6 shadow-xs relative overflow-hidden">
-                  <div className="absolute top-2 right-4 text-6xl font-serif text-orange-200/40 select-none pointer-events-none">
+                <div className="rounded-2xl border border-orange-200 bg-gradient-to-br from-orange-50/70 via-white to-amber-50/50 p-6 shadow-xs relative overflow-hidden">
+                  <div className="absolute top-2 right-4 text-6xl font-serif text-orange-200/50 select-none pointer-events-none">
                     “
                   </div>
                   <p className="relative z-10 text-sm sm:text-base font-medium italic text-slate-800 leading-relaxed">
@@ -436,7 +434,7 @@ function About() {
                   </p>
                   <div className="mt-4 pt-3 border-t border-orange-100 flex items-center justify-between">
                     <div className="flex items-center gap-3">
-                      <div className="h-10 w-10 rounded-full bg-slate-900 text-white flex items-center justify-center font-display font-extrabold text-xs shadow-sm">
+                      <div className="h-10 w-10 rounded-full bg-slate-800 text-white flex items-center justify-center font-display font-extrabold text-xs shadow-sm">
                         GC
                       </div>
                       <div>
@@ -457,47 +455,47 @@ function About() {
 
                 {/* Quick Facility Details */}
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
-                  <div className="rounded-xl border border-slate-100 bg-slate-50 p-3 text-center">
-                    <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 block">Hub Location</span>
+                  <div className="rounded-xl border border-slate-200 bg-slate-50 p-3 text-center">
+                    <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500 block">Hub Location</span>
                     <span className="text-xs font-bold text-slate-800 mt-0.5 block">Titanium Business Park</span>
                   </div>
-                  <div className="rounded-xl border border-slate-100 bg-slate-50 p-3 text-center">
-                    <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 block">Business Nature</span>
+                  <div className="rounded-xl border border-slate-200 bg-slate-50 p-3 text-center">
+                    <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500 block">Business Nature</span>
                     <span className="text-xs font-bold text-slate-800 mt-0.5 block">Wholesale & Stockist</span>
                   </div>
-                  <div className="col-span-2 sm:col-span-1 rounded-xl border border-slate-100 bg-slate-50 p-3 text-center">
-                    <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 block">Operating Hours</span>
+                  <div className="col-span-2 sm:col-span-1 rounded-xl border border-slate-200 bg-slate-50 p-3 text-center">
+                    <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500 block">Operating Hours</span>
                     <span className="text-xs font-bold text-slate-800 mt-0.5 block">Mon–Sat 9:30 AM – 7 PM</span>
                   </div>
                 </div>
               </motion.div>
 
-              {/* Right Column: Interactive Enterprise Dossier Card (5 cols) */}
+              {/* Right Column: Clean Light Enterprise Dossier Card (5 cols) */}
               <motion.div
                 initial={{ opacity: 0, x: 20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.1 }}
-                className="lg:col-span-5 rounded-2xl border border-slate-200 bg-white shadow-xl overflow-hidden"
+                className="lg:col-span-5 rounded-2xl border border-slate-200 bg-white shadow-lg overflow-hidden"
               >
-                {/* Header */}
-                <div className="bg-slate-900 text-white p-5 sm:p-6 border-b border-slate-800">
+                {/* Clean Light Header */}
+                <div className="bg-slate-100/90 text-slate-900 p-5 sm:p-6 border-b border-slate-200">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
-                      <div className="rounded-xl bg-[#ea580c] p-2.5 text-white shadow-md">
+                      <div className="rounded-xl bg-[#ea580c] p-2.5 text-white shadow-sm">
                         <Building2 className="h-5 w-5" />
                       </div>
                       <div>
-                        <div className="text-sm font-extrabold tracking-wide">
+                        <div className="text-sm font-extrabold tracking-wide text-slate-900">
                           Enterprise Dossier
                         </div>
-                        <div className="text-[11px] text-slate-400 font-mono mt-0.5">
+                        <div className="text-[11px] text-slate-500 font-mono mt-0.5">
                           Commercial & Statutory Records
                         </div>
                       </div>
                     </div>
-                    <span className="text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-2 py-0.5 rounded-full">
-                      Active
+                    <span className="text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 px-2.5 py-0.5 rounded-full">
+                      Verified Active
                     </span>
                   </div>
                 </div>
@@ -507,7 +505,7 @@ function About() {
                   {companyDossier.map((row) => (
                     <div
                       key={row.label}
-                      className="px-5 py-3.5 flex items-start justify-between gap-4 hover:bg-slate-50/80 transition-colors"
+                      className="px-5 py-3.5 flex items-start justify-between gap-4 hover:bg-slate-50 transition-colors"
                     >
                       <dt className="text-slate-500 font-bold uppercase tracking-wider text-[10px] shrink-0 pt-0.5">
                         {row.label}
@@ -539,10 +537,10 @@ function About() {
                 </div>
 
                 {/* Actions */}
-                <div className="p-5 bg-slate-50 border-t border-slate-100 space-y-2.5">
+                <div className="p-5 bg-slate-50 border-t border-slate-200 space-y-2.5">
                   <button
                     onClick={() => setInquiryOpen(true)}
-                    className="w-full rounded-xl bg-primary hover:bg-[#c2410c] py-3 text-xs sm:text-sm font-bold text-white transition-all flex items-center justify-center gap-2 shadow-sm cursor-pointer"
+                    className="w-full rounded-xl bg-primary hover:bg-[#c2410c] py-3 text-xs sm:text-sm font-bold text-white transition-all flex items-center justify-center gap-2 shadow-xs cursor-pointer"
                   >
                     <MessageSquare className="h-4 w-4" /> Request Official Proforma Quotation
                   </button>
@@ -560,9 +558,9 @@ function About() {
         </section>
 
         {/* ══════════════════════════════════════════════════════════ */}
-        {/* 4. CORE CAPABILITIES & ADVANTAGES                          */}
+        {/* 4. CORE CAPABILITIES & ADVANTAGES (LIGHT THEME)            */}
         {/* ══════════════════════════════════════════════════════════ */}
-        <section className="py-16 sm:py-24 bg-slate-100/70 border-t border-slate-200">
+        <section className="py-16 sm:py-24 bg-slate-50 border-t border-slate-200">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-orange-100 border border-orange-200 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
@@ -585,14 +583,14 @@ function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: idx * 0.06 }}
-                  className="rounded-2xl bg-white border border-slate-200/90 p-6 sm:p-7 hover:border-orange-500/50 hover:shadow-lg transition-all flex flex-col justify-between group"
+                  className="rounded-2xl bg-white border border-slate-200 p-6 sm:p-7 hover:border-orange-400 hover:shadow-md transition-all flex flex-col justify-between group"
                 >
                   <div>
                     <div className="flex items-center justify-between mb-4">
-                      <div className="rounded-xl bg-orange-50 border border-orange-200/60 p-3 text-[#ea580c] group-hover:bg-[#ea580c] group-hover:text-white transition-colors">
+                      <div className="rounded-xl bg-orange-50 border border-orange-100 p-3 text-[#ea580c] group-hover:bg-[#ea580c] group-hover:text-white transition-colors">
                         <item.icon className="h-5 w-5" />
                       </div>
-                      <span className="text-[10px] font-extrabold uppercase tracking-widest text-slate-400 bg-slate-100 px-2.5 py-1 rounded-full">
+                      <span className="text-[10px] font-extrabold uppercase tracking-widest text-slate-500 bg-slate-100 px-2.5 py-1 rounded-full">
                         {item.tag}
                       </span>
                     </div>
@@ -605,9 +603,9 @@ function About() {
                     </p>
                   </div>
 
-                  <div className="mt-6 pt-4 border-t border-slate-100 flex items-center text-xs font-bold text-slate-400 group-hover:text-[#ea580c] transition-colors">
+                  <div className="mt-6 pt-4 border-t border-slate-100 flex items-center text-xs font-bold text-slate-500 group-hover:text-[#ea580c] transition-colors">
                     Verified Operational Standard
-                    <CheckCheck className="h-4 w-4 ml-1.5 text-emerald-500" />
+                    <CheckCheck className="h-4 w-4 ml-1.5 text-emerald-600" />
                   </div>
                 </motion.div>
               ))}
@@ -616,7 +614,7 @@ function About() {
         </section>
 
         {/* ══════════════════════════════════════════════════════════ */}
-        {/* 5. SOURCING & FULFILLMENT WORKFLOW                         */}
+        {/* 5. SOURCING & FULFILLMENT WORKFLOW (LIGHT THEME)           */}
         {/* ══════════════════════════════════════════════════════════ */}
         <section className="py-16 sm:py-24 bg-white border-t border-slate-200">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
@@ -637,14 +635,14 @@ function About() {
               {fulfillmentSteps.map((step, idx) => (
                 <div
                   key={step.step}
-                  className="relative rounded-2xl border border-slate-200 bg-slate-50/60 p-6 hover:bg-white hover:border-orange-300 hover:shadow-md transition-all flex flex-col justify-between"
+                  className="relative rounded-2xl border border-slate-200 bg-slate-50/70 p-6 hover:bg-white hover:border-orange-300 hover:shadow-sm transition-all flex flex-col justify-between"
                 >
                   <div>
                     <div className="flex items-center justify-between mb-4">
-                      <span className="font-display text-2xl font-black text-[#ea580c] bg-orange-100/60 px-3 py-1 rounded-xl">
+                      <span className="font-display text-2xl font-black text-[#ea580c] bg-orange-100/80 px-3 py-1 rounded-xl">
                         {step.step}
                       </span>
-                      <div className="p-2 rounded-lg bg-white border border-slate-200 text-slate-600">
+                      <div className="p-2 rounded-lg bg-white border border-slate-200 text-slate-700">
                         <step.icon className="h-4 w-4" />
                       </div>
                     </div>
@@ -657,7 +655,7 @@ function About() {
                     </p>
                   </div>
 
-                  <div className="mt-6 pt-3 border-t border-slate-200/60 flex items-center text-[11px] font-semibold text-slate-500">
+                  <div className="mt-6 pt-3 border-t border-slate-200/80 flex items-center text-[11px] font-semibold text-slate-500">
                     Step {idx + 1} of 4 Completed Seamlessly
                   </div>
                 </div>
@@ -667,25 +665,26 @@ function About() {
         </section>
 
         {/* ══════════════════════════════════════════════════════════ */}
-        {/* 6. INDUSTRIES & CLIENTELE WE SERVE                         */}
+        {/* 6. TARGET SECTORS & INDUSTRIES (CLEAN LIGHT THEME)         */}
         {/* ══════════════════════════════════════════════════════════ */}
-        <section className="py-16 sm:py-20 bg-slate-900 text-white">
+        <section className="py-16 sm:py-20 bg-slate-50 border-t border-slate-200">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
             <div className="grid gap-10 lg:grid-cols-12 items-center">
               <div className="lg:col-span-5 space-y-4">
-                <span className="text-xs font-extrabold uppercase tracking-widest text-orange-400">
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-orange-100 border border-orange-200 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
+                  <Factory className="h-3.5 w-3.5" />
                   Target Sectors
                 </span>
-                <h2 className="font-display text-2xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
+                <h2 className="font-display text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
                   Trusted Across Diverse Manufacturing Sectors
                 </h2>
-                <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-                  Our ready stock supports critical applications across high-precision manufacturing, processing factories, and industrial OEM builders.
+                <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
+                  Our ready stock supports critical applications across high-precision manufacturing, processing factories, and industrial OEM builders throughout India.
                 </p>
                 <div className="pt-2">
                   <Link
                     to="/products"
-                    className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-orange-400 hover:text-orange-300 hover:underline"
+                    className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#ea580c] hover:underline"
                   >
                     View products categorized by application <ArrowRight className="h-4 w-4" />
                   </Link>
@@ -696,15 +695,15 @@ function About() {
                 {industriesServed.map((ind) => (
                   <div
                     key={ind.name}
-                    className="rounded-2xl border border-slate-800 bg-slate-800/80 p-5 hover:border-slate-700 hover:bg-slate-800 transition-all"
+                    className="rounded-2xl border border-slate-200 bg-white p-5 hover:border-orange-300 hover:shadow-xs transition-all"
                   >
-                    <div className="rounded-xl bg-slate-700/60 p-2.5 text-orange-400 w-fit mb-3">
+                    <div className="rounded-xl bg-orange-50 border border-orange-100 p-2.5 text-[#ea580c] w-fit mb-3">
                       <ind.icon className="h-5 w-5" />
                     </div>
-                    <h3 className="text-sm font-extrabold text-white">
+                    <h3 className="text-sm font-extrabold text-slate-900">
                       {ind.name}
                     </h3>
-                    <p className="mt-1 text-xs text-slate-400 leading-relaxed">
+                    <p className="mt-1 text-xs text-slate-500 leading-relaxed">
                       {ind.desc}
                     </p>
                   </div>
@@ -715,7 +714,7 @@ function About() {
         </section>
 
         {/* ══════════════════════════════════════════════════════════ */}
-        {/* 7. BRANDS WE STOCK & SUPPLY                                */}
+        {/* 7. BRANDS WE STOCK & SUPPLY (LIGHT THEME)                  */}
         {/* ══════════════════════════════════════════════════════════ */}
         <section className="py-16 sm:py-24 bg-white border-t border-slate-200">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
@@ -740,7 +739,7 @@ function About() {
                     key={brandName}
                     to="/products"
                     search={{ brand: brandName }}
-                    className="group rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-xs sm:text-sm font-bold text-slate-700 hover:border-[#ea580c] hover:bg-orange-50 hover:text-[#ea580c] transition-all shadow-2xs flex items-center gap-2"
+                    className="group rounded-xl border border-slate-200 bg-slate-50/80 px-4 py-2.5 text-xs sm:text-sm font-bold text-slate-700 hover:border-[#ea580c] hover:bg-orange-50 hover:text-[#ea580c] transition-all shadow-2xs flex items-center gap-2"
                   >
                     <span className="h-2 w-2 rounded-full bg-slate-300 group-hover:bg-[#ea580c] transition-colors" />
                     <span>{brandName}</span>
@@ -818,29 +817,28 @@ function About() {
         </section>
 
         {/* ══════════════════════════════════════════════════════════ */}
-        {/* 9. BOTTOM CONVERSION CTA BANNER                            */}
+        {/* 9. BOTTOM CONVERSION CTA BANNER (CLEAN PURE LIGHT THEME)   */}
         {/* ══════════════════════════════════════════════════════════ */}
-        <section className="relative overflow-hidden bg-slate-900 text-white py-16 sm:py-20 border-t border-slate-800">
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff0a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff0a_1px,transparent_1px)] bg-[size:32px_32px] opacity-30 pointer-events-none" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[36rem] h-[36rem] bg-[#ea580c]/15 rounded-full blur-[120px] pointer-events-none" />
+        <section className="relative overflow-hidden bg-gradient-to-br from-orange-50/80 via-white to-amber-50/60 py-16 sm:py-20 border-t border-slate-200">
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:32px_32px] pointer-events-none" />
 
           <div className="relative z-10 mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center space-y-6">
-            <span className="inline-flex items-center gap-2 rounded-full bg-[#ea580c]/20 border border-[#ea580c]/40 px-3.5 py-1 text-xs font-extrabold uppercase tracking-wider text-orange-400">
+            <span className="inline-flex items-center gap-2 rounded-full bg-orange-100 border border-orange-200 px-3.5 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
               <Zap className="h-3.5 w-3.5" /> Ready Stock & Immediate Dispatch
             </span>
 
-            <h2 className="font-display text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
+            <h2 className="font-display text-2xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
               Have an Urgent Breakdown or Require a Wholesale Bill of Materials?
             </h2>
 
-            <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
-              Connect directly with our Makarba trade desk. Share your required part codes, target price, or plant breakdown status for priority handling.
+            <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">
+              Connect directly with our Makarba trade desk in Ahmedabad. Share your required part codes, target price, or plant breakdown status for priority handling.
             </p>
 
             <div className="pt-2 flex flex-wrap items-center justify-center gap-3.5">
               <button
                 onClick={() => setInquiryOpen(true)}
-                className="inline-flex items-center gap-2.5 rounded-xl bg-primary px-8 py-4 text-sm font-bold text-white hover:bg-[#c2410c] transition-all shadow-xl shadow-orange-950/50 cursor-pointer"
+                className="inline-flex items-center gap-2.5 rounded-xl bg-primary px-8 py-4 text-sm font-bold text-white hover:bg-[#c2410c] transition-all shadow-md shadow-orange-500/20 cursor-pointer"
               >
                 <MessageSquare className="h-4 w-4" />
                 Submit Part Inquiry
@@ -848,7 +846,7 @@ function About() {
 
               <a
                 href={`tel:${company.phoneRaw}`}
-                className="inline-flex items-center gap-2 rounded-xl bg-white border border-slate-200 px-6 py-4 text-sm font-bold text-slate-900 hover:bg-slate-100 transition-all shadow-md"
+                className="inline-flex items-center gap-2 rounded-xl bg-white border border-slate-300 hover:bg-slate-50 px-6 py-4 text-sm font-bold text-slate-900 transition-all shadow-xs"
               >
                 <Phone className="h-4 w-4 text-[#ea580c]" />
                 Call Trade Desk: {company.phone}
@@ -860,26 +858,26 @@ function About() {
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-emerald-600 px-6 py-4 text-sm font-bold text-white hover:bg-emerald-500 transition-all shadow-md"
+                className="inline-flex items-center gap-2 rounded-xl bg-emerald-600 px-6 py-4 text-sm font-bold text-white hover:bg-emerald-700 transition-all shadow-xs"
               >
                 <MessageSquare className="h-4 w-4" />
                 WhatsApp Us
               </a>
             </div>
 
-            <div className="pt-6 border-t border-slate-800 flex flex-wrap items-center justify-center gap-6 text-xs text-slate-400">
+            <div className="pt-6 border-t border-slate-200/80 flex flex-wrap items-center justify-center gap-6 text-xs text-slate-500 font-medium">
               <span className="flex items-center gap-1.5">
                 <MapPin className="h-3.5 w-3.5 text-[#ea580c]" />
                 Makarba, Ahmedabad, Gujarat - 380051
               </span>
               <span>•</span>
               <span className="flex items-center gap-1.5">
-                <FileCheck className="h-3.5 w-3.5 text-emerald-400" />
+                <FileCheck className="h-3.5 w-3.5 text-emerald-600" />
                 GSTIN: 24ASYPC3254A1Z0
               </span>
               <span>•</span>
               <span className="flex items-center gap-1.5">
-                <Clock className="h-3.5 w-3.5 text-blue-400" />
+                <Clock className="h-3.5 w-3.5 text-blue-600" />
                 Dispatch within 24–48 Hours
               </span>
             </div>
