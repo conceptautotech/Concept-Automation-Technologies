@@ -1,14 +1,29 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import {
   MessageSquare,
   ShieldCheck,
-  FileText,
   Globe,
   Truck,
   Award,
   Users,
   BadgeCheck,
   Building2,
+  Phone,
+  MapPin,
+  CheckCircle2,
+  Copy,
+  Check,
+  ArrowRight,
+  Zap,
+  RefreshCw,
+  Cpu,
+  Layers,
+  FileCheck,
+  Factory,
+  Clock,
+  ExternalLink,
+  ChevronRight,
+  CheckCheck,
 } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -20,93 +35,274 @@ import { motion } from "framer-motion";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "Company Profile & Trust Credentials | Concept Automation Technologies" },
+      {
+        title:
+          "About Us | Concept Automation Technologies — Industrial Automation Stockist & Distributor",
+      },
       {
         name: "description",
         content:
-          "Learn about Concept Automation Technologies, established in 2022. Independent reseller and wholesale stockist of Siemens, Mitsubishi, Omron, Proface, and AB automation hardware in Ahmedabad.",
+          "Concept Automation Technologies (Est. 2022, Ahmedabad, Gujarat) is a trusted wholesale trader, stockist, and distributor of authentic Siemens, Mitsubishi, Omron, Proface, Allen Bradley, Schneider, Danfoss, and Fuji automation hardware.",
       },
     ],
   }),
   component: About,
 });
 
-const companyRows = [
-  { label: "Legal Name", val: "Concept Automation Technologies" },
-  { label: "Nature of Business", val: "Wholesale Trader, Importer & Exporter" },
-  { label: "Legal Status", val: "Sole Proprietorship" },
-  { label: "Established", val: "2022" },
-  { label: "GSTIN", val: "24ASYPC3254A1Z0", mono: true },
-  { label: "IEC Code", val: "********54A", mono: true },
-  { label: "Employees", val: "Up to 10 People" },
-  { label: "IndiaMART", val: "Trust Seal Verified" },
+const companyDossier = [
+  { label: "Legal Entity Name", val: "Concept Automation Technologies", mono: false },
+  { label: "Nature of Business", val: "Wholesale Trader, Importer & Stockist", mono: false },
+  { label: "Proprietor / Leadership", val: "Mr. Gaurang Mahendrabhai Chavda", mono: false },
+  { label: "Year of Establishment", val: "2022 (Registered in Ahmedabad, Gujarat)", mono: false },
+  { label: "GSTIN Number", val: "24ASYPC3254A1Z0", mono: true, copyable: true },
+  { label: "Import Export Code (IEC)", val: "********54A (Authorized Global Trade)", mono: true },
+  { label: "Warehouse & Trade Desk", val: "D-303, Titanium Business Park, Makarba, Ahmedabad - 380051", mono: false, copyable: true },
+  { label: "IndiaMART Verification", val: "Trust Seal Certified Enterprise", mono: false },
+  { label: "Primary Operations", val: "Pan-India Express Supply (24–48 Hrs Dispatch)", mono: false },
 ];
 
-const strengths = [
-  { icon: ShieldCheck, title: "100% Genuine Stock", desc: "Factory-sealed OEM parts, directly sourced." },
-  { icon: Truck, title: "24–48 Hr Dispatch", desc: "Express pan-India delivery from Ahmedabad." },
-  { icon: Globe, title: "Import Export Code", desc: "Valid IEC for global procurement channels." },
-  { icon: Users, title: "Technical Support", desc: "Cross-referencing guidance from our engineers." },
+const keyMetrics = [
+  {
+    value: "500+",
+    label: "Active Authentic SKUs",
+    subtext: "In-stock ready hardware in Makarba warehouse",
+    icon: Layers,
+  },
+  {
+    value: "24–48h",
+    label: "Pan-India Express Dispatch",
+    subtext: "Same-day courier for emergency machine downtime",
+    icon: Truck,
+  },
+  {
+    value: "20+",
+    label: "Leading OEM Brands",
+    subtext: "Mitsubishi, Siemens, Omron, AB, Proface & more",
+    icon: Cpu,
+  },
+  {
+    value: "100%",
+    label: "Genuine OEM Hardware",
+    subtext: "Factory-sealed units with GST tax invoicing",
+    icon: ShieldCheck,
+  },
+];
+
+const coreStrengths = [
+  {
+    icon: ShieldCheck,
+    title: "100% Genuine OEM Hardware",
+    desc: "Every product supplied by Concept Automation Technologies is brand-new, factory-sealed, and sourced strictly through established industrial trade lines with full serial verification.",
+    tag: "Authentic Sourcing",
+  },
+  {
+    icon: Zap,
+    title: "Zero-Downtime Ready Stock",
+    desc: "We maintain ready inventory of critical PLCs, HMIs, VFDs, and sensors in our Ahmedabad facility to rescue manufacturing plants from costly line stoppages.",
+    tag: "Ready Inventory",
+  },
+  {
+    icon: RefreshCw,
+    title: "Technical Cross-Referencing",
+    desc: "Facing an obsolete or backordered model? Our seasoned technical engineers assist with drop-in replacements, voltage specs, and compatible firmware alternatives.",
+    tag: "Engineering Support",
+  },
+  {
+    icon: Globe,
+    title: "Global Procurement Channels",
+    desc: "With a valid Import Export Code (IEC), we source hard-to-find and international automation variants quickly from trusted global trading networks.",
+    tag: "Global IEC Access",
+  },
+  {
+    icon: Truck,
+    title: "Express 24–48h Dispatch",
+    desc: "Strategic warehousing in Ahmedabad's transit hub allows expedited dispatches via DTDC, Blue Dart, SafeExpress, and Trackon across every industrial state in India.",
+    tag: "Pan-India Logistics",
+  },
+  {
+    icon: FileCheck,
+    title: "100% GST Tax Compliant",
+    desc: "Clean commercial transactions with verified GST tax invoicing, formal proforma quotes, and smooth input tax credit (ITC) reconciliation for institutional buyers.",
+    tag: "B2B Compliance",
+  },
+];
+
+const fulfillmentSteps = [
+  {
+    step: "01",
+    title: "Part Code Inquiry",
+    desc: "Share your exact part number, technical specification, or a photograph of the failed unit via WhatsApp or Web Quote.",
+    icon: MessageSquare,
+  },
+  {
+    step: "02",
+    title: "Stock & Price Verification",
+    desc: "Our trade desk confirms warehouse availability within minutes and provides a formal GST proforma invoice at wholesale rates.",
+    icon: Clock,
+  },
+  {
+    step: "03",
+    title: "Multi-Point QA Inspection",
+    desc: "Physical inspection of box seal, model code, serials, and anti-static protective wrapping to guarantee flawless factory condition.",
+    icon: BadgeCheck,
+  },
+  {
+    step: "04",
+    title: "Tracked Express Dispatch",
+    desc: "Air or express surface dispatch with real-time consignment tracking, delivered directly to your plant gate in 24 to 48 hours.",
+    icon: Truck,
+  },
+];
+
+const industriesServed = [
+  {
+    name: "Control Panel Builders & OEMs",
+    desc: "High-volume supply of PLCs, power supplies, terminals, and HMIs for turnkey automation panels.",
+    icon: Factory,
+  },
+  {
+    name: "Pharma & Chemical Process Plants",
+    desc: "Precision sensors, explosion-proof inverters, and high-reliability controllers for continuous batching.",
+    icon: Layers,
+  },
+  {
+    name: "Automotive & Heavy Engineering",
+    desc: "High-speed servo drives, optical encoders, and heavy-duty VFDs for assembly lines and robotics.",
+    icon: Cpu,
+  },
+  {
+    name: "Packaging, Textile & Food Processing",
+    desc: "Rotary encoders, proximity sensors, temperature modules, and touch HMIs for high-speed machines.",
+    icon: RefreshCw,
+  },
 ];
 
 function About() {
   const [inquiryOpen, setInquiryOpen] = useState(false);
+  const [copiedItem, setCopiedItem] = useState<string | null>(null);
+
+  const handleCopy = (text: string, key: string) => {
+    navigator.clipboard.writeText(text);
+    setCopiedItem(key);
+    setTimeout(() => setCopiedItem(null), 2500);
+  };
 
   return (
-    <div className="min-h-screen bg-background text-foreground font-sans pb-16 sm:pb-0">
+    <div className="min-h-screen bg-slate-50 text-foreground font-sans pb-16 sm:pb-0">
       <Header />
 
       <main>
-        {/* ── HERO BANNER ─────────────────────────────────────── */}
-        <section className="relative overflow-hidden bg-gradient-to-b from-slate-50 to-white py-20 sm:py-28 border-b border-border">
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,#ea580c08_1px,transparent_1px),linear-gradient(to_bottom,#ea580c08_1px,transparent_1px)] bg-[size:40px_40px]" />
-          <div className="absolute top-0 right-0 w-[28rem] h-[28rem] bg-accent/5 rounded-full blur-3xl pointer-events-none" />
+        {/* ══════════════════════════════════════════════════════════ */}
+        {/* 1. HERO SECTION                                           */}
+        {/* ══════════════════════════════════════════════════════════ */}
+        <section className="relative overflow-hidden bg-slate-900 text-white pt-24 pb-20 sm:pt-32 sm:pb-28">
+          {/* Subtle Industrial Grid & Ambient Lighting */}
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff0a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff0a_1px,transparent_1px)] bg-[size:44px_44px] opacity-40 pointer-events-none" />
+          <div className="absolute -top-32 -right-32 w-96 h-96 bg-[#ea580c]/20 rounded-full blur-[100px] pointer-events-none" />
+          <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-blue-600/15 rounded-full blur-[100px] pointer-events-none" />
 
-          <div className="relative z-10 mx-auto max-w-3xl px-6 text-center">
-            <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-              <span className="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-white px-4 py-1.5 text-xs font-extrabold uppercase tracking-widest text-accent shadow-sm">
-                <BadgeCheck className="h-3.5 w-3.5" /> Established 2022 · Verified Trader
+          <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
+            {/* Breadcrumb / Status Badge */}
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4 }}
+              className="inline-flex items-center gap-2 rounded-full border border-slate-700 bg-slate-800/80 backdrop-blur-md px-4 py-1.5 text-xs font-semibold text-slate-300 shadow-inner"
+            >
+              <span className="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
+              <span>ESTABLISHED 2022</span>
+              <span className="text-slate-500">•</span>
+              <span className="text-orange-400 font-bold">AHMEDABAD, GUJARAT</span>
+              <span className="text-slate-500">•</span>
+              <span className="text-slate-300">TRUST SEAL CERTIFIED</span>
+            </motion.div>
+
+            {/* Display Headline */}
+            <motion.h1
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className="mt-6 font-display text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-4xl mx-auto"
+            >
+              Powering India's Industrial Floors with{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] via-orange-400 to-amber-300">
+                Verified OEM Automation
               </span>
-              <h1 className="mt-5 font-display text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl text-slate-900">
-                About Us
-              </h1>
-              <p className="mt-5 text-base sm:text-lg text-slate-500 leading-relaxed max-w-xl mx-auto">
-                Independent automation products reseller supplying PLCs, HMIs, VFDs, servo systems, sensors, encoders and industrial PCs from multiple leading manufacturers.
-              </p>
+            </motion.h1>
+
+            {/* Sub-headline */}
+            <motion.p
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="mt-6 text-base sm:text-lg lg:text-xl text-slate-300 leading-relaxed max-w-3xl mx-auto font-normal"
+            >
+              Concept Automation Technologies is an independent multi-brand wholesale stockist and distributor of PLCs, HMIs, VFD inverter drives, servo systems, and precision sensors. From our centralized Makarba distribution hub in Ahmedabad, we guarantee rapid emergency dispatches and transparent wholesale pricing.
+            </motion.p>
+
+            {/* Call to Actions */}
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="mt-9 flex flex-wrap items-center justify-center gap-3.5"
+            >
               <button
                 onClick={() => setInquiryOpen(true)}
-                className="mt-8 inline-flex items-center gap-2 rounded-xl bg-primary px-7 py-3.5 text-sm font-bold text-white hover:bg-[#c2410c] transition-all shadow-lg"
+                className="inline-flex items-center gap-2.5 rounded-xl bg-primary px-7 py-3.5 text-sm font-bold text-white hover:bg-[#c2410c] active:scale-[0.98] transition-all shadow-lg shadow-orange-950/40 cursor-pointer"
               >
-                <MessageSquare className="h-4 w-4" /> Request a Quote
+                <MessageSquare className="h-4 w-4" />
+                Request Hardware Quote
               </button>
+
+              <Link
+                to="/products"
+                className="inline-flex items-center gap-2 rounded-xl bg-slate-800 border border-slate-700 px-6 py-3.5 text-sm font-bold text-slate-200 hover:bg-slate-700 hover:text-white transition-all shadow-md"
+              >
+                Explore 530+ Parts Catalog
+                <ArrowRight className="h-4 w-4 text-orange-400" />
+              </Link>
+
+              <a
+                href={`https://wa.me/${company.whatsapp}?text=${encodeURIComponent(
+                  "Hello Concept Automation Technologies, I would like to inquire about automation hardware availability and wholesale pricing."
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl bg-emerald-600/20 border border-emerald-500/40 px-5 py-3.5 text-sm font-bold text-emerald-300 hover:bg-emerald-600/30 transition-all"
+              >
+                <Phone className="h-4 w-4 text-emerald-400" />
+                WhatsApp Trade Desk
+              </a>
             </motion.div>
           </div>
-        </section>
 
-        {/* ── TRUST BADGES ────────────────────────────────────── */}
-        <section className="py-14 sm:py-16 bg-white border-b border-border">
-          <div className="mx-auto max-w-5xl px-6">
-            <div className="grid gap-5 grid-cols-2 md:grid-cols-4">
-              {[
-                { icon: Award, label: "IndiaMART Certified", val: "Trust Seal Verified" },
-                { icon: ShieldCheck, label: "Original Guarantee", val: "100% Genuine Parts" },
-                { icon: FileText, label: "GST Compliant", val: company.gst, mono: true },
-                { icon: Globe, label: "Global Trade Code", val: "IEC: ********54A" },
-              ].map((badge, idx) => (
+          {/* ══════════════════════════════════════════════════════════ */}
+          {/* 4-CARD HERO METRIC STAT RIBBON                            */}
+          {/* ══════════════════════════════════════════════════════════ */}
+          <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 mt-16">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-5">
+              {keyMetrics.map((metric, idx) => (
                 <motion.div
-                  key={badge.label}
+                  key={metric.label}
                   initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: idx * 0.07 }}
-                  className="flex flex-col items-center text-center rounded-2xl border border-slate-100 bg-slate-50 p-6 hover:border-accent/30 hover:bg-white transition-all duration-300"
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.4, delay: 0.15 + idx * 0.08 }}
+                  className="rounded-2xl border border-slate-700/80 bg-slate-800/60 backdrop-blur-md p-5 sm:p-6 hover:border-orange-500/40 hover:bg-slate-800 transition-all group"
                 >
-                  <div className="rounded-xl bg-white border border-slate-200 p-3 shadow-sm">
-                    <badge.icon className="h-5 w-5 text-accent" />
+                  <div className="flex items-center justify-between">
+                    <span className="font-display text-3xl sm:text-4xl font-black text-white tracking-tight group-hover:text-orange-400 transition-colors">
+                      {metric.value}
+                    </span>
+                    <div className="rounded-xl bg-slate-700/70 p-2.5 text-orange-400 border border-slate-600/60">
+                      <metric.icon className="h-5 w-5" />
+                    </div>
                   </div>
-                  <div className="mt-4 text-[10px] font-bold text-slate-400 uppercase tracking-widest">{badge.label}</div>
-                  <div className={`mt-1 text-sm font-extrabold text-slate-800 ${badge.mono ? "font-mono text-xs" : ""}`}>
-                    {badge.val}
+                  <div className="mt-3 text-xs sm:text-sm font-bold text-slate-200">
+                    {metric.label}
+                  </div>
+                  <div className="mt-1 text-[11px] sm:text-xs text-slate-400 leading-normal">
+                    {metric.subtext}
                   </div>
                 </motion.div>
               ))}
@@ -114,168 +310,578 @@ function About() {
           </div>
         </section>
 
-        {/* ── CORPORATE STORY ─────────────────────────────────── */}
-        <section className="py-20 sm:py-24 bg-background">
-          <div className="mx-auto max-w-6xl px-6">
-            <div className="grid gap-16 lg:grid-cols-2 lg:items-start">
+        {/* ══════════════════════════════════════════════════════════ */}
+        {/* 2. VERIFIED CREDENTIALS & TRUST BADGES                     */}
+        {/* ══════════════════════════════════════════════════════════ */}
+        <section className="bg-white border-b border-slate-200 py-8 sm:py-10 shadow-xs">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {[
+                {
+                  badge: "IndiaMART Verified",
+                  title: "Trust Seal Certified",
+                  sub: "Official B2B Trader in Ahmedabad",
+                  icon: Award,
+                  actionText: "Verified Profile",
+                },
+                {
+                  badge: "Official GSTIN",
+                  title: company.gst,
+                  sub: "100% Tax Compliant B2B Billing",
+                  icon: FileCheck,
+                  copyValue: company.gst,
+                  actionText: "Copy GSTIN",
+                },
+                {
+                  badge: "Global Import Code",
+                  title: "IEC: ********54A",
+                  sub: "Authorized International Procurement",
+                  icon: Globe,
+                  actionText: "DGFT Registered",
+                },
+                {
+                  badge: "Central Warehouse Hub",
+                  title: "Titanium Business Park",
+                  sub: "Makarba, Ahmedabad - 380051",
+                  icon: Building2,
+                  copyValue: company.address,
+                  actionText: "Copy Address",
+                },
+              ].map((item, idx) => (
+                <div
+                  key={item.badge}
+                  className="flex items-start gap-3.5 p-4 rounded-xl border border-slate-100 bg-slate-50/70 hover:bg-white hover:border-slate-300 hover:shadow-sm transition-all group"
+                >
+                  <div className="rounded-xl bg-white border border-slate-200 p-2.5 shadow-2xs shrink-0 text-[#ea580c] group-hover:scale-105 transition-transform">
+                    <item.icon className="h-5 w-5" />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <div className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500">
+                      {item.badge}
+                    </div>
+                    <div className="text-xs sm:text-sm font-extrabold text-slate-900 truncate mt-0.5 font-mono">
+                      {item.title}
+                    </div>
+                    <div className="text-[11px] text-slate-500 truncate mt-0.5">
+                      {item.sub}
+                    </div>
+                    {item.copyValue && (
+                      <button
+                        onClick={() => handleCopy(item.copyValue!, item.badge)}
+                        className="mt-2 inline-flex items-center gap-1 text-[11px] font-bold text-[#ea580c] hover:underline cursor-pointer"
+                      >
+                        {copiedItem === item.badge ? (
+                          <>
+                            <Check className="h-3 w-3 text-emerald-600" />
+                            <span className="text-emerald-600">Copied to Clipboard!</span>
+                          </>
+                        ) : (
+                          <>
+                            <Copy className="h-3 w-3" />
+                            <span>{item.actionText}</span>
+                          </>
+                        )}
+                      </button>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
-              {/* Left: Story */}
+        {/* ══════════════════════════════════════════════════════════ */}
+        {/* 3. CORPORATE STORY & ENTERPRISE PROFILE                    */}
+        {/* ══════════════════════════════════════════════════════════ */}
+        <section className="py-16 sm:py-24 bg-white">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+            <div className="grid gap-12 lg:grid-cols-12 items-start">
+              {/* Left Column: Narrative & Mission (7 cols) */}
               <motion.div
-                initial={{ opacity: 0, x: -24 }}
+                initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
+                className="lg:col-span-7 space-y-6"
               >
-                <span className="text-xs font-extrabold uppercase tracking-widest text-accent">Corporate History</span>
-                <h2 className="mt-3 font-display text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight">
-                  Concept Automation Technologies
-                </h2>
+                <div>
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-orange-50 border border-orange-200/60 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
+                    <Building2 className="h-3.5 w-3.5" />
+                    Corporate Profile & Mission
+                  </span>
+                  <h2 className="mt-3 font-display text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+                    Bridging Global Automation Hardware with Indian Industry
+                  </h2>
+                </div>
 
-                <div className="mt-8 space-y-5 text-base text-slate-600 leading-relaxed">
+                <div className="space-y-4 text-sm sm:text-base text-slate-600 leading-relaxed">
                   <p>
-                    Established as a sole proprietorship firm in <strong className="text-slate-800">2022</strong> at Ahmedabad, Gujarat, we have built our reputation as a trusted wholesale trader, importer, and exporter of industrial automation hardware across India.
+                    Established as a dedicated sole proprietorship firm in <strong className="text-slate-900 font-bold">2022</strong> at Ahmedabad, Gujarat, <strong className="text-slate-900 font-bold">Concept Automation Technologies</strong> was founded by <strong className="text-slate-900 font-bold">Mr. Gaurang Mahendrabhai Chavda</strong> to eliminate the frustrating supply bottlenecks faced by modern industrial plants and system integrators.
                   </p>
                   <p>
-                    Our product range covers <strong className="text-slate-800">Mitsubishi PLCs, Proface HMIs, Siemens CPUs, Omron controllers, Danfoss drives, and Pepperl+Fuchs sensors</strong>. We maintain ready warehouse stock in Makarba to ensure zero downtime for our clients during breakdowns and urgent projects.
+                    Industrial plants lose thousands of dollars every hour a machine line sits idle waiting for an automation replacement. We address this vulnerability by maintaining an expansive, ready inventory of <strong className="text-slate-800">Mitsubishi MELSEC PLCs, Siemens SIMATIC CPUs, Proface touch HMIs, Omron micro-controllers, Danfoss VLT inverters, ABB drives, and Pepperl+Fuchs sensors</strong> right in our Makarba central warehouse.
                   </p>
                   <p>
-                    Our experienced technical team provides cross-referencing support, guiding engineers to the right part code quickly. We are committed to transparency, tax compliance, and long-term trade partnerships.
+                    Whether supporting emergency breakdown dispatches, turnkey panel assembly projects, or routine component procurement, our experienced technical desk cross-references exact part codes, confirms firmware versions, and ensures transparent B2B execution.
                   </p>
                 </div>
 
-                {/* Quote */}
-                <div className="mt-8 border-l-4 border-accent pl-5 py-1">
-                  <p className="text-base text-slate-700 italic leading-relaxed">
-                    "We aim to play a vital role in the global supply chain for industrial automation, supporting panel builders, traders, and plants with verified components."
+                {/* Founder Quote Card */}
+                <div className="rounded-2xl border border-orange-200/80 bg-gradient-to-br from-orange-50/60 via-white to-amber-50/40 p-6 shadow-xs relative overflow-hidden">
+                  <div className="absolute top-2 right-4 text-6xl font-serif text-orange-200/40 select-none pointer-events-none">
+                    “
+                  </div>
+                  <p className="relative z-10 text-sm sm:text-base font-medium italic text-slate-800 leading-relaxed">
+                    "Our objective is simple: provide panel builders, traders, and manufacturing plants with verified industrial automation hardware at genuine wholesale prices, dispatched the very same day so production lines never wait."
                   </p>
-                  <span className="mt-2 block text-xs font-bold uppercase tracking-wider text-slate-400">
-                    — Gaurang Chavda, Proprietor
-                  </span>
+                  <div className="mt-4 pt-3 border-t border-orange-100 flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <div className="h-10 w-10 rounded-full bg-slate-900 text-white flex items-center justify-center font-display font-extrabold text-xs shadow-sm">
+                        GC
+                      </div>
+                      <div>
+                        <div className="text-sm font-extrabold text-slate-900">
+                          Mr. Gaurang M. Chavda
+                        </div>
+                        <div className="text-xs text-slate-500 font-medium">
+                          Founder & Sole Proprietor
+                        </div>
+                      </div>
+                    </div>
+                    <div className="hidden sm:flex items-center gap-1.5 text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2.5 py-1 rounded-full">
+                      <CheckCircle2 className="h-3.5 w-3.5" />
+                      Trade Desk Active
+                    </div>
+                  </div>
                 </div>
 
-                <div className="mt-8 flex items-center gap-6 text-xs font-semibold text-slate-500">
-                  <span className="flex items-center gap-1.5">
-                    <span className="h-2 w-2 rounded-full bg-emerald-400" /> Active Trade Desk
-                  </span>
-                  <span>📍 Makarba, Ahmedabad</span>
+                {/* Quick Facility Details */}
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
+                  <div className="rounded-xl border border-slate-100 bg-slate-50 p-3 text-center">
+                    <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 block">Hub Location</span>
+                    <span className="text-xs font-bold text-slate-800 mt-0.5 block">Titanium Business Park</span>
+                  </div>
+                  <div className="rounded-xl border border-slate-100 bg-slate-50 p-3 text-center">
+                    <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 block">Business Nature</span>
+                    <span className="text-xs font-bold text-slate-800 mt-0.5 block">Wholesale & Stockist</span>
+                  </div>
+                  <div className="col-span-2 sm:col-span-1 rounded-xl border border-slate-100 bg-slate-50 p-3 text-center">
+                    <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 block">Operating Hours</span>
+                    <span className="text-xs font-bold text-slate-800 mt-0.5 block">Mon–Sat 9:30 AM – 7 PM</span>
+                  </div>
                 </div>
               </motion.div>
 
-              {/* Right: Company Profile Card */}
+              {/* Right Column: Interactive Enterprise Dossier Card (5 cols) */}
               <motion.div
-                initial={{ opacity: 0, x: 24 }}
+                initial={{ opacity: 0, x: 20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.1 }}
-                className="rounded-2xl border border-slate-200 bg-white overflow-hidden shadow-sm"
+                className="lg:col-span-5 rounded-2xl border border-slate-200 bg-white shadow-xl overflow-hidden"
               >
-                <div className="flex items-center gap-3 px-6 py-5 bg-slate-900 text-white">
-                  <div className="rounded-lg bg-white/10 p-2">
-                    <Building2 className="h-5 w-5 text-white" />
-                  </div>
-                  <div>
-                    <div className="text-sm font-extrabold">Official Company Profile</div>
-                    <div className="text-[10px] text-slate-400 uppercase tracking-wider mt-0.5">Corporate & Legal Credentials</div>
+                {/* Header */}
+                <div className="bg-slate-900 text-white p-5 sm:p-6 border-b border-slate-800">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <div className="rounded-xl bg-[#ea580c] p-2.5 text-white shadow-md">
+                        <Building2 className="h-5 w-5" />
+                      </div>
+                      <div>
+                        <div className="text-sm font-extrabold tracking-wide">
+                          Enterprise Dossier
+                        </div>
+                        <div className="text-[11px] text-slate-400 font-mono mt-0.5">
+                          Commercial & Statutory Records
+                        </div>
+                      </div>
+                    </div>
+                    <span className="text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-2 py-0.5 rounded-full">
+                      Active
+                    </span>
                   </div>
                 </div>
 
-                <div className="divide-y divide-slate-100">
-                  {companyRows.map((row) => (
-                    <div key={row.label} className="flex items-start justify-between px-6 py-3.5 gap-4">
-                      <dt className="text-xs font-bold text-slate-400 uppercase tracking-wider shrink-0 pt-0.5">{row.label}</dt>
-                      <dd className={`text-right text-sm font-semibold text-slate-800 ${row.mono ? "font-mono text-xs" : ""}`}>
-                        {row.val}
+                {/* Table Data Rows */}
+                <div className="divide-y divide-slate-100 text-xs">
+                  {companyDossier.map((row) => (
+                    <div
+                      key={row.label}
+                      className="px-5 py-3.5 flex items-start justify-between gap-4 hover:bg-slate-50/80 transition-colors"
+                    >
+                      <dt className="text-slate-500 font-bold uppercase tracking-wider text-[10px] shrink-0 pt-0.5">
+                        {row.label}
+                      </dt>
+                      <dd className="text-right flex items-center gap-1.5 justify-end">
+                        <span
+                          className={`font-semibold text-slate-900 ${
+                            row.mono ? "font-mono text-xs font-bold text-slate-800" : ""
+                          }`}
+                        >
+                          {row.val}
+                        </span>
+                        {row.copyable && (
+                          <button
+                            onClick={() => handleCopy(row.val, row.label)}
+                            title="Copy to clipboard"
+                            className="p-1 text-slate-400 hover:text-[#ea580c] rounded transition-colors shrink-0 cursor-pointer"
+                          >
+                            {copiedItem === row.label ? (
+                              <Check className="h-3.5 w-3.5 text-emerald-600" />
+                            ) : (
+                              <Copy className="h-3.5 w-3.5" />
+                            )}
+                          </button>
+                        )}
                       </dd>
                     </div>
                   ))}
                 </div>
 
-                <div className="px-6 py-5 border-t border-slate-100">
+                {/* Actions */}
+                <div className="p-5 bg-slate-50 border-t border-slate-100 space-y-2.5">
                   <button
                     onClick={() => setInquiryOpen(true)}
-                    className="w-full rounded-xl bg-primary hover:bg-[#c2410c] py-3 text-sm font-bold text-white transition-all flex items-center justify-center gap-2 shadow cursor-pointer"
+                    className="w-full rounded-xl bg-primary hover:bg-[#c2410c] py-3 text-xs sm:text-sm font-bold text-white transition-all flex items-center justify-center gap-2 shadow-sm cursor-pointer"
                   >
-                    <MessageSquare className="h-4 w-4" /> Request Price Quote
+                    <MessageSquare className="h-4 w-4" /> Request Official Proforma Quotation
                   </button>
+
+                  <a
+                    href={`tel:${company.phoneRaw}`}
+                    className="w-full rounded-xl bg-white border border-slate-300 hover:bg-slate-100 py-2.5 text-xs font-bold text-slate-700 transition-all flex items-center justify-center gap-2"
+                  >
+                    <Phone className="h-3.5 w-3.5 text-[#ea580c]" /> Call Trade Desk: {company.phone}
+                  </a>
                 </div>
               </motion.div>
-
             </div>
           </div>
         </section>
 
-        {/* ── STRENGTHS ───────────────────────────────────────── */}
-        <section className="py-16 sm:py-20 bg-slate-50 border-t border-border">
-          <div className="mx-auto max-w-5xl px-6">
-            <div className="text-center mb-12">
-              <span className="text-xs font-extrabold uppercase tracking-widest text-accent">Why Choose Us</span>
-              <h2 className="mt-2 font-display text-2xl sm:text-3xl font-extrabold text-slate-900">Our Core Strengths</h2>
+        {/* ══════════════════════════════════════════════════════════ */}
+        {/* 4. CORE CAPABILITIES & ADVANTAGES                          */}
+        {/* ══════════════════════════════════════════════════════════ */}
+        <section className="py-16 sm:py-24 bg-slate-100/70 border-t border-slate-200">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+            <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-orange-100 border border-orange-200 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
+                <Zap className="h-3.5 w-3.5" />
+                Why Industrial Plants Partner With Us
+              </span>
+              <h2 className="mt-3 font-display text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+                Our Core Operational Strengths
+              </h2>
+              <p className="mt-3 text-sm sm:text-base text-slate-600">
+                Engineered to provide factory maintenance leads, procurement managers, and panel builders a seamless, reliable supply experience.
+              </p>
             </div>
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {strengths.map((s, idx) => (
+
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {coreStrengths.map((item, idx) => (
                 <motion.div
-                  key={s.title}
+                  key={item.title}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: idx * 0.08 }}
-                  className="rounded-2xl bg-white border border-slate-200 p-6 hover:shadow-md hover:border-accent/30 transition-all"
+                  transition={{ duration: 0.4, delay: idx * 0.06 }}
+                  className="rounded-2xl bg-white border border-slate-200/90 p-6 sm:p-7 hover:border-orange-500/50 hover:shadow-lg transition-all flex flex-col justify-between group"
                 >
-                  <div className="rounded-xl bg-slate-50 border border-slate-200 p-3 w-fit">
-                    <s.icon className="h-5 w-5 text-accent" />
+                  <div>
+                    <div className="flex items-center justify-between mb-4">
+                      <div className="rounded-xl bg-orange-50 border border-orange-200/60 p-3 text-[#ea580c] group-hover:bg-[#ea580c] group-hover:text-white transition-colors">
+                        <item.icon className="h-5 w-5" />
+                      </div>
+                      <span className="text-[10px] font-extrabold uppercase tracking-widest text-slate-400 bg-slate-100 px-2.5 py-1 rounded-full">
+                        {item.tag}
+                      </span>
+                    </div>
+
+                    <h3 className="text-base sm:text-lg font-extrabold text-slate-900 group-hover:text-[#ea580c] transition-colors">
+                      {item.title}
+                    </h3>
+                    <p className="mt-2 text-xs sm:text-sm text-slate-600 leading-relaxed">
+                      {item.desc}
+                    </p>
                   </div>
-                  <h3 className="mt-4 text-sm font-extrabold text-slate-900">{s.title}</h3>
-                  <p className="mt-1.5 text-sm text-slate-500 leading-relaxed">{s.desc}</p>
+
+                  <div className="mt-6 pt-4 border-t border-slate-100 flex items-center text-xs font-bold text-slate-400 group-hover:text-[#ea580c] transition-colors">
+                    Verified Operational Standard
+                    <CheckCheck className="h-4 w-4 ml-1.5 text-emerald-500" />
+                  </div>
                 </motion.div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* ── BRANDS STOCKED ──────────────────────────────────── */}
-        <section className="py-16 sm:py-20 bg-white border-t border-border">
-          <div className="mx-auto max-w-5xl px-6 text-center">
-            <span className="text-xs font-extrabold uppercase tracking-widest text-accent">Our Catalog</span>
-            <h2 className="mt-2 font-display text-2xl sm:text-3xl font-extrabold text-slate-900 mb-10">
-              Brands We Supply
-            </h2>
-            <div className="flex flex-wrap justify-center gap-2.5">
-              {brands.filter(b => b !== "All").map((b) => (
-                <span
-                  key={b}
-                  className="rounded-full border border-slate-200 bg-slate-50 px-4 py-1.5 text-sm font-semibold text-slate-700 hover:border-accent/40 hover:text-accent transition-colors"
+        {/* ══════════════════════════════════════════════════════════ */}
+        {/* 5. SOURCING & FULFILLMENT WORKFLOW                         */}
+        {/* ══════════════════════════════════════════════════════════ */}
+        <section className="py-16 sm:py-24 bg-white border-t border-slate-200">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+            <div className="text-center max-w-2xl mx-auto mb-14">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 border border-slate-200 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-slate-700">
+                <Clock className="h-3.5 w-3.5 text-[#ea580c]" />
+                Streamlined Procurement Process
+              </span>
+              <h2 className="mt-3 font-display text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+                From Part Inquiry to Your Factory Floor
+              </h2>
+              <p className="mt-3 text-sm sm:text-base text-slate-600">
+                How our Ahmedabad trade desk fulfills domestic and institutional orders with speed and precision.
+              </p>
+            </div>
+
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {fulfillmentSteps.map((step, idx) => (
+                <div
+                  key={step.step}
+                  className="relative rounded-2xl border border-slate-200 bg-slate-50/60 p-6 hover:bg-white hover:border-orange-300 hover:shadow-md transition-all flex flex-col justify-between"
                 >
-                  {b}
-                </span>
+                  <div>
+                    <div className="flex items-center justify-between mb-4">
+                      <span className="font-display text-2xl font-black text-[#ea580c] bg-orange-100/60 px-3 py-1 rounded-xl">
+                        {step.step}
+                      </span>
+                      <div className="p-2 rounded-lg bg-white border border-slate-200 text-slate-600">
+                        <step.icon className="h-4 w-4" />
+                      </div>
+                    </div>
+
+                    <h3 className="text-base font-extrabold text-slate-900">
+                      {step.title}
+                    </h3>
+                    <p className="mt-2 text-xs sm:text-sm text-slate-600 leading-relaxed">
+                      {step.desc}
+                    </p>
+                  </div>
+
+                  <div className="mt-6 pt-3 border-t border-slate-200/60 flex items-center text-[11px] font-semibold text-slate-500">
+                    Step {idx + 1} of 4 Completed Seamlessly
+                  </div>
+                </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* ── RESELLER DISCLAIMER ─────────────────────────────── */}
-        <section className="py-14 bg-amber-50 border-t border-amber-100">
-          <div className="mx-auto max-w-4xl px-6">
-            <div className="text-center mb-8">
-              <span className="text-xs font-extrabold uppercase tracking-widest text-amber-600">Transparency Notice</span>
-              <h2 className="mt-2 font-display text-xl sm:text-2xl font-extrabold text-amber-900">
-                Independent Reseller & Brand Disclaimer
+        {/* ══════════════════════════════════════════════════════════ */}
+        {/* 6. INDUSTRIES & CLIENTELE WE SERVE                         */}
+        {/* ══════════════════════════════════════════════════════════ */}
+        <section className="py-16 sm:py-20 bg-slate-900 text-white">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+            <div className="grid gap-10 lg:grid-cols-12 items-center">
+              <div className="lg:col-span-5 space-y-4">
+                <span className="text-xs font-extrabold uppercase tracking-widest text-orange-400">
+                  Target Sectors
+                </span>
+                <h2 className="font-display text-2xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
+                  Trusted Across Diverse Manufacturing Sectors
+                </h2>
+                <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
+                  Our ready stock supports critical applications across high-precision manufacturing, processing factories, and industrial OEM builders.
+                </p>
+                <div className="pt-2">
+                  <Link
+                    to="/products"
+                    className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-orange-400 hover:text-orange-300 hover:underline"
+                  >
+                    View products categorized by application <ArrowRight className="h-4 w-4" />
+                  </Link>
+                </div>
+              </div>
+
+              <div className="lg:col-span-7 grid gap-4 sm:grid-cols-2">
+                {industriesServed.map((ind) => (
+                  <div
+                    key={ind.name}
+                    className="rounded-2xl border border-slate-800 bg-slate-800/80 p-5 hover:border-slate-700 hover:bg-slate-800 transition-all"
+                  >
+                    <div className="rounded-xl bg-slate-700/60 p-2.5 text-orange-400 w-fit mb-3">
+                      <ind.icon className="h-5 w-5" />
+                    </div>
+                    <h3 className="text-sm font-extrabold text-white">
+                      {ind.name}
+                    </h3>
+                    <p className="mt-1 text-xs text-slate-400 leading-relaxed">
+                      {ind.desc}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ══════════════════════════════════════════════════════════ */}
+        {/* 7. BRANDS WE STOCK & SUPPLY                                */}
+        {/* ══════════════════════════════════════════════════════════ */}
+        <section className="py-16 sm:py-24 bg-white border-t border-slate-200">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
+            <div className="max-w-2xl mx-auto mb-10">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-orange-100 border border-orange-200 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
+                <Cpu className="h-3.5 w-3.5" />
+                Comprehensive Brand Coverage
+              </span>
+              <h2 className="mt-3 font-display text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+                Global Industrial Brands We Stock
               </h2>
-              <p className="mt-3 text-sm sm:text-base text-amber-800 leading-relaxed max-w-2xl mx-auto">
-                Concept Automation Technologies is an independent industrial automation products trading and resale company supplying PLCs, HMIs, VFDs, servo systems, sensors, encoders, industrial PCs and other automation components from multiple leading manufacturers. We source products through established commercial supply channels.
+              <p className="mt-3 text-sm sm:text-base text-slate-600">
+                Click any brand below to explore available in-stock parts, modules, and pricing in our live catalog.
               </p>
             </div>
+
+            <div className="flex flex-wrap justify-center gap-2.5 sm:gap-3 max-w-4xl mx-auto">
+              {brands
+                .filter((b) => b !== "All")
+                .map((brandName) => (
+                  <Link
+                    key={brandName}
+                    to="/products"
+                    search={{ brand: brandName }}
+                    className="group rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-xs sm:text-sm font-bold text-slate-700 hover:border-[#ea580c] hover:bg-orange-50 hover:text-[#ea580c] transition-all shadow-2xs flex items-center gap-2"
+                  >
+                    <span className="h-2 w-2 rounded-full bg-slate-300 group-hover:bg-[#ea580c] transition-colors" />
+                    <span>{brandName}</span>
+                    <ChevronRight className="h-3.5 w-3.5 opacity-0 group-hover:opacity-100 transition-opacity -ml-1 text-[#ea580c]" />
+                  </Link>
+                ))}
+            </div>
+
+            <div className="mt-10 pt-6 border-t border-slate-100 flex flex-wrap items-center justify-center gap-4 text-xs font-semibold text-slate-500">
+              <span>Looking for an unlisted model?</span>
+              <button
+                onClick={() => setInquiryOpen(true)}
+                className="text-[#ea580c] font-bold hover:underline inline-flex items-center gap-1 cursor-pointer"
+              >
+                Send Us Your Bill of Materials (BOM) <ArrowRight className="h-3.5 w-3.5" />
+              </button>
+            </div>
+          </div>
+        </section>
+
+        {/* ══════════════════════════════════════════════════════════ */}
+        {/* 8. TRANSPARENCY & INDEPENDENT RESELLER DISCLAIMER          */}
+        {/* ══════════════════════════════════════════════════════════ */}
+        <section className="py-16 bg-amber-50/70 border-t border-amber-200/80">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <div className="text-center max-w-2xl mx-auto mb-8">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-100 border border-amber-300 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-amber-800">
+                <ShieldCheck className="h-3.5 w-3.5 text-amber-700" />
+                Transparency & Legal Notice
+              </span>
+              <h2 className="mt-3 font-display text-xl sm:text-3xl font-extrabold text-amber-950 tracking-tight">
+                Independent Reseller & Trademark Policy
+              </h2>
+              <p className="mt-2 text-xs sm:text-sm text-amber-800 leading-relaxed">
+                Concept Automation Technologies is an independent industrial automation hardware trading company. We believe in 100% legal clarity and fair trade practices.
+              </p>
+            </div>
+
             <div className="grid gap-4 sm:grid-cols-2">
               {[
-                "We are not an authorized distributor, dealer, representative, partner or affiliate of any manufacturer displayed on this website unless specifically stated otherwise.",
-                "Product names, trademarks, logos and brand names belong to their respective manufacturers and are used solely for product identification and reference.",
-                "The appearance of a manufacturer's brand on this website does not imply authorization, endorsement, sponsorship, partnership or affiliation.",
-                "Customers should verify exact product model, specifications, compatibility, warranty terms and manufacturer support before ordering.",
-              ].map((point, idx) => (
-                <div key={idx} className="flex items-start gap-3 rounded-xl bg-white border border-amber-200 px-4 py-4">
-                  <span className="mt-1 h-2 w-2 rounded-full bg-amber-400 shrink-0" />
-                  <p className="text-sm text-amber-900 leading-relaxed">{point}</p>
+                {
+                  title: "Independent Commercial Trading",
+                  text: "Concept Automation Technologies is an independent reseller, wholesale trader, and stockist. We are not an authorized distributor, direct agent, or franchise representative of the manufacturers displayed on this website unless explicitly stated.",
+                },
+                {
+                  title: "Trademark & Copyright Attribution",
+                  text: "All brand names, logos, registered trademarks, series designations (e.g. MELSEC, SIMATIC, CompactLogix, VLT, GOT, PanelView) are the exclusive property of their respective OEM patent holders and are utilized strictly for product identification and technical compatibility.",
+                },
+                {
+                  title: "No Implied Affiliation or Sponsorship",
+                  text: "The catalog listing, display, or description of any OEM brand does not imply endorsement, sponsorship, direct warranty liability, or affiliation by the original equipment manufacturer.",
+                },
+                {
+                  title: "Pre-Order Verification Recommended",
+                  text: "Customers, panel builders, and plant engineers are advised to verify exact part number codes, voltage tolerances, hardware series, and manufacturer specifications prior to order placement. Our technical desk assists with cross-checks.",
+                },
+              ].map((item, idx) => (
+                <div
+                  key={idx}
+                  className="rounded-xl bg-white border border-amber-200 p-5 shadow-2xs flex items-start gap-3.5"
+                >
+                  <span className="h-2 w-2 rounded-full bg-amber-500 shrink-0 mt-1.5" />
+                  <div>
+                    <h3 className="text-xs font-extrabold uppercase tracking-wider text-amber-900 mb-1">
+                      {item.title}
+                    </h3>
+                    <p className="text-xs text-amber-950/80 leading-relaxed">
+                      {item.text}
+                    </p>
+                  </div>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ══════════════════════════════════════════════════════════ */}
+        {/* 9. BOTTOM CONVERSION CTA BANNER                            */}
+        {/* ══════════════════════════════════════════════════════════ */}
+        <section className="relative overflow-hidden bg-slate-900 text-white py-16 sm:py-20 border-t border-slate-800">
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff0a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff0a_1px,transparent_1px)] bg-[size:32px_32px] opacity-30 pointer-events-none" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[36rem] h-[36rem] bg-[#ea580c]/15 rounded-full blur-[120px] pointer-events-none" />
+
+          <div className="relative z-10 mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center space-y-6">
+            <span className="inline-flex items-center gap-2 rounded-full bg-[#ea580c]/20 border border-[#ea580c]/40 px-3.5 py-1 text-xs font-extrabold uppercase tracking-wider text-orange-400">
+              <Zap className="h-3.5 w-3.5" /> Ready Stock & Immediate Dispatch
+            </span>
+
+            <h2 className="font-display text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
+              Have an Urgent Breakdown or Require a Wholesale Bill of Materials?
+            </h2>
+
+            <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
+              Connect directly with our Makarba trade desk. Share your required part codes, target price, or plant breakdown status for priority handling.
+            </p>
+
+            <div className="pt-2 flex flex-wrap items-center justify-center gap-3.5">
+              <button
+                onClick={() => setInquiryOpen(true)}
+                className="inline-flex items-center gap-2.5 rounded-xl bg-primary px-8 py-4 text-sm font-bold text-white hover:bg-[#c2410c] transition-all shadow-xl shadow-orange-950/50 cursor-pointer"
+              >
+                <MessageSquare className="h-4 w-4" />
+                Submit Part Inquiry
+              </button>
+
+              <a
+                href={`tel:${company.phoneRaw}`}
+                className="inline-flex items-center gap-2 rounded-xl bg-white border border-slate-200 px-6 py-4 text-sm font-bold text-slate-900 hover:bg-slate-100 transition-all shadow-md"
+              >
+                <Phone className="h-4 w-4 text-[#ea580c]" />
+                Call Trade Desk: {company.phone}
+              </a>
+
+              <a
+                href={`https://wa.me/${company.whatsapp}?text=${encodeURIComponent(
+                  "Hello, I need an immediate quote and stock check for automation hardware."
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl bg-emerald-600 px-6 py-4 text-sm font-bold text-white hover:bg-emerald-500 transition-all shadow-md"
+              >
+                <MessageSquare className="h-4 w-4" />
+                WhatsApp Us
+              </a>
+            </div>
+
+            <div className="pt-6 border-t border-slate-800 flex flex-wrap items-center justify-center gap-6 text-xs text-slate-400">
+              <span className="flex items-center gap-1.5">
+                <MapPin className="h-3.5 w-3.5 text-[#ea580c]" />
+                Makarba, Ahmedabad, Gujarat - 380051
+              </span>
+              <span>•</span>
+              <span className="flex items-center gap-1.5">
+                <FileCheck className="h-3.5 w-3.5 text-emerald-400" />
+                GSTIN: 24ASYPC3254A1Z0
+              </span>
+              <span>•</span>
+              <span className="flex items-center gap-1.5">
+                <Clock className="h-3.5 w-3.5 text-blue-400" />
+                Dispatch within 24–48 Hours
+              </span>
             </div>
           </div>
         </section>
