@@ -28,6 +28,8 @@ const productTypes = [
   "SERVO DRIVE SYSTEM",
   "SENSORS",
   "ENCODERS",
+  "MODULES",
+  "SAFETY RELAYS",
 ] as const;
 
 function Products() {
@@ -209,6 +211,14 @@ function Products() {
               pName.includes("touch") ||
               pName.includes("panelview") ||
               pName.includes("comfort panel")
+            );
+          if (sType === "modules" || sType === "module")
+            return (
+              pType.includes("module") || pCat.includes("module") || pName.includes("module")
+            );
+          if (sType === "safety relays" || sType === "safety" || sType === "relay" || sType === "relays")
+            return (
+              pType.includes("relay") || pCat.includes("relay") || pName.includes("relay") || pName.includes("pilz")
             );
           return pType === sType || pType.includes(sType) || pCat.includes(sType);
         })();

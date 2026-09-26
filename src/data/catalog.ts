@@ -70,60 +70,49 @@ export const brands = [
 ];
 
 export const categories: Category[] = [
-  {
-    "name": "Mitsubishi PLC",
-    "slug": "mitsubishi-plc",
-    "brand": "Mitsubishi",
-    "type": "PLC"
-  },
-  {
-    "name": "Siemens PLC",
-    "slug": "siemens-plc",
-    "brand": "Siemens",
-    "type": "PLC"
-  },
-  {
-    "name": "Allen Bradley PLC",
-    "slug": "allen-bradley-plc",
-    "brand": "Allen Bradley",
-    "type": "PLC"
-  },
-  {
-    "name": "Proface HMI",
-    "slug": "proface-hmi",
-    "brand": "Proface",
-    "type": "HMI"
-  },
-  {
-    "name": "Siemens HMI",
-    "slug": "siemens-hmi",
-    "brand": "Siemens",
-    "type": "HMI"
-  },
-  {
-    "name": "Fuji VFD",
-    "slug": "fuji-vfd",
-    "brand": "Fuji",
-    "type": "VFD"
-  },
-  {
-    "name": "Danfoss VFD",
-    "slug": "danfoss-vfd",
-    "brand": "Danfoss",
-    "type": "VFD"
-  },
-  {
-    "name": "Pepperl+Fuchs Sensor",
-    "slug": "pepperl-fuchs-sensor",
-    "brand": "Pepperl+Fuchs",
-    "type": "Sensor"
-  },
-  {
-    "name": "Omron Sensor",
-    "slug": "omron-sensor",
-    "brand": "Omron",
-    "type": "Sensor"
-  }
+  // --- PLC Systems & Modules ---
+  { name: "Mitsubishi PLC", slug: "mitsubishi-plc", brand: "Mitsubishi", type: "PLC" },
+  { name: "Siemens PLC", slug: "siemens-plc", brand: "Siemens", type: "PLC" },
+  { name: "Siemens CPU", slug: "siemens-cpu", brand: "Siemens", type: "PLC" },
+  { name: "Allen Bradley PLC", slug: "allen-bradley-plc", brand: "Allen Bradley", type: "PLC" },
+  { name: "Omron PLC", slug: "omron-plc", brand: "Omron", type: "PLC" },
+  { name: "Delta PLC", slug: "delta-plc", brand: "Delta", type: "PLC" },
+  { name: "Schneider PLC", slug: "schneider-plc", brand: "Schneider", type: "PLC" },
+  { name: "Input & Output Modules", slug: "input-output-module", brand: "All", type: "PLC" },
+
+  // --- HMI Touch Panels ---
+  { name: "Proface HMI", slug: "proface-hmi", brand: "Proface", type: "HMI" },
+  { name: "Siemens HMI", slug: "siemens-hmi", brand: "Siemens", type: "HMI" },
+  { name: "Mitsubishi HMI", slug: "mitsubishi-hmi", brand: "Mitsubishi", type: "HMI" },
+  { name: "Weintek HMI", slug: "weintek-hmi", brand: "Weintek", type: "HMI" },
+  { name: "Omron HMI", slug: "omron-hmi", brand: "Omron", type: "HMI" },
+  { name: "Delta HMI", slug: "delta-hmi", brand: "Delta", type: "HMI" },
+  { name: "Fuji HMI", slug: "fuji-hmi", brand: "Fuji", type: "HMI" },
+  { name: "Allen Bradley HMI", slug: "allen-bradley-hmi", brand: "Allen Bradley", type: "HMI" },
+
+  // --- VFD & Inverter Drives ---
+  { name: "Fuji AC Drive & VFD", slug: "fuji-vfd", brand: "Fuji", type: "VFD" },
+  { name: "Danfoss VFD", slug: "danfoss-vfd", brand: "Danfoss", type: "VFD" },
+  { name: "ABB VFD", slug: "abb-vfd", brand: "ABB", type: "VFD" },
+  { name: "Allen Bradley VFD", slug: "allen-bradley-vfd", brand: "Allen Bradley", type: "VFD" },
+  { name: "Siemens VFD", slug: "siemens-vfd", brand: "Siemens", type: "VFD" },
+  { name: "Schneider Drives & VFD", slug: "schneider-vfd", brand: "Schneider", type: "VFD" },
+  { name: "Mitsubishi VFD", slug: "mitsubishi-vfd", brand: "Mitsubishi", type: "VFD" },
+  { name: "Omron VFD", slug: "omron-vfd", brand: "Omron", type: "VFD" },
+  { name: "Inovance VFD", slug: "inovance-vfd", brand: "Inovance", type: "VFD" },
+  { name: "Yaskawa AC Drives", slug: "yaskawa-ac-drives", brand: "Yaskawa", type: "VFD" },
+
+  // --- Sensors, Servo & Safety Automation ---
+  { name: "Pepperl+Fuchs Sensor", slug: "pepperl-fuchs-sensor", brand: "Pepperl+Fuchs", type: "Sensors" },
+  { name: "Omron Sensor", slug: "omron-sensor", brand: "Omron", type: "Sensors" },
+  { name: "Sick Sensor", slug: "sick-sensor", brand: "SICK", type: "Sensors" },
+  { name: "IFM Sensor", slug: "ifm-sensor", brand: "IFM", type: "Sensors" },
+  { name: "Autonics Rotary Encoder", slug: "autonics-encoder", brand: "Autonics", type: "Sensors" },
+  { name: "Mitsubishi Servo Drives", slug: "mitsubishi-servo", brand: "Mitsubishi", type: "Sensors" },
+  { name: "Siemens Servo Motors", slug: "siemens-servo", brand: "Siemens", type: "Sensors" },
+  { name: "Pilz Safety Relay", slug: "pilz-safety-relay", brand: "Pilz", type: "Sensors" },
+  { name: "Phoenix Contact", slug: "phoenix-contact", brand: "Phoenix Contact", type: "Sensors" },
+  { name: "Siemens IPC", slug: "siemens-ipc", brand: "Siemens", type: "Sensors" }
 ];
 
 export const PRODUCTS: Product[] = [

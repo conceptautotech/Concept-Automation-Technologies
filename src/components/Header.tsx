@@ -18,6 +18,7 @@ export function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [scrolled, setScrolled] = useState(false);
+  const [mobileCategoriesOpen, setMobileCategoriesOpen] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -94,45 +95,106 @@ export function Header() {
 
                 {/* Mega Menu */}
                 {item.label === "Products" && (
-                  <div className="invisible absolute -left-28 top-full grid w-[680px] grid-cols-3 gap-5 rounded-2xl border border-border bg-card p-6 opacity-0 shadow-2xl transition-all duration-200 group-hover:visible group-hover:opacity-100 z-50 animate-fade-up">
-                    <div className="col-span-3 border-b border-border pb-3 flex items-center justify-between">
-                      <span className="text-[11px] font-extrabold uppercase tracking-[0.15em] text-slate-600">All Hardware Categories</span>
-                      <Link to="/products" className="text-xs font-bold text-foreground hover:text-primary flex items-center gap-1">
-                        View Full Catalog <ArrowRight className="h-3.5 w-3.5" />
-                      </Link>
-                    </div>
-
-                    <div className="space-y-1">
-                      <div className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground mb-2">PLC Systems</div>
-                      {categories.filter(c => c.type === 'PLC').map((c) => (
-                        <Link key={c.slug} to="/products" search={{ q: c.name }}
-                          className="flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-xs font-semibold text-foreground hover:bg-muted hover:text-primary transition-colors">
-                          <span className="h-1.5 w-1.5 rounded-full bg-slate-400" />
-                          {c.name}
+                  <div className="invisible absolute -left-52 lg:-left-80 top-full pt-2 opacity-0 shadow-2xl transition-all duration-200 group-hover:visible group-hover:opacity-100 z-50 animate-fade-up">
+                    <div className="w-[880px] max-w-[calc(100vw-2rem)] rounded-2xl border border-border bg-card p-6 shadow-2xl">
+                      {/* Top Bar */}
+                      <div className="border-b border-border pb-3 mb-4 flex items-center justify-between">
+                        <div className="flex items-center gap-2">
+                          <span className="text-[11px] font-extrabold uppercase tracking-[0.15em] text-slate-700">All Hardware Categories</span>
+                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-orange-100 text-[#ea580c]">530+ Verified Items</span>
+                        </div>
+                        <Link to="/products" className="text-xs font-bold text-foreground hover:text-primary flex items-center gap-1 transition-colors">
+                          View Full Catalog <ArrowRight className="h-3.5 w-3.5" />
                         </Link>
-                      ))}
-                    </div>
+                      </div>
 
-                    <div className="space-y-1">
-                      <div className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground mb-2">HMI Panels</div>
-                      {categories.filter(c => c.type === 'HMI').map((c) => (
-                        <Link key={c.slug} to="/products" search={{ q: c.name }}
-                          className="flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-xs font-semibold text-foreground hover:bg-muted hover:text-primary transition-colors">
-                          <span className="h-1.5 w-1.5 rounded-full bg-slate-400" />
-                          {c.name}
-                        </Link>
-                      ))}
-                    </div>
+                      {/* 4 Category Columns */}
+                      <div className="grid grid-cols-4 gap-5">
+                        {/* Col 1: PLC Systems & Modules */}
+                        <div className="space-y-1">
+                          <div className="text-[11px] font-extrabold uppercase tracking-wider text-slate-800 pb-1.5 border-b border-slate-100 flex items-center gap-1.5">
+                            <span className="h-2 w-2 rounded-sm bg-[#ea580c]" />
+                            PLC Systems & I/O
+                          </div>
+                          <div className="pt-1 flex flex-col space-y-0.5">
+                            {categories.filter(c => c.type === 'PLC').map((c) => (
+                              <Link key={c.slug} to="/products" search={{ q: c.name }}
+                                className="group/item flex items-center gap-2 rounded-lg px-2 py-1 text-xs font-semibold text-slate-700 hover:bg-orange-50 hover:text-[#ea580c] transition-colors">
+                                <span className="h-1.5 w-1.5 rounded-full bg-slate-300 group-hover/item:bg-[#ea580c] transition-colors" />
+                                {c.name}
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
 
-                    <div className="space-y-1">
-                      <div className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground mb-2">VFD Drives & Sensors</div>
-                      {categories.filter(c => c.type !== 'PLC' && c.type !== 'HMI').map((c) => (
-                        <Link key={c.slug} to="/products" search={{ q: c.name }}
-                          className="flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-xs font-semibold text-foreground hover:bg-muted hover:text-primary transition-colors">
-                          <span className="h-1.5 w-1.5 rounded-full bg-slate-400" />
-                          {c.name}
+                        {/* Col 2: HMI Panels */}
+                        <div className="space-y-1">
+                          <div className="text-[11px] font-extrabold uppercase tracking-wider text-slate-800 pb-1.5 border-b border-slate-100 flex items-center gap-1.5">
+                            <span className="h-2 w-2 rounded-sm bg-[#ea580c]" />
+                            HMI Touch Panels
+                          </div>
+                          <div className="pt-1 flex flex-col space-y-0.5">
+                            {categories.filter(c => c.type === 'HMI').map((c) => (
+                              <Link key={c.slug} to="/products" search={{ q: c.name }}
+                                className="group/item flex items-center gap-2 rounded-lg px-2 py-1 text-xs font-semibold text-slate-700 hover:bg-orange-50 hover:text-[#ea580c] transition-colors">
+                                <span className="h-1.5 w-1.5 rounded-full bg-slate-300 group-hover/item:bg-[#ea580c] transition-colors" />
+                                {c.name}
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+
+                        {/* Col 3: VFD Drives */}
+                        <div className="space-y-1">
+                          <div className="text-[11px] font-extrabold uppercase tracking-wider text-slate-800 pb-1.5 border-b border-slate-100 flex items-center gap-1.5">
+                            <span className="h-2 w-2 rounded-sm bg-[#ea580c]" />
+                            VFD & AC Drives
+                          </div>
+                          <div className="pt-1 flex flex-col space-y-0.5">
+                            {categories.filter(c => c.type === 'VFD').map((c) => (
+                              <Link key={c.slug} to="/products" search={{ q: c.name }}
+                                className="group/item flex items-center gap-2 rounded-lg px-2 py-1 text-xs font-semibold text-slate-700 hover:bg-orange-50 hover:text-[#ea580c] transition-colors">
+                                <span className="h-1.5 w-1.5 rounded-full bg-slate-300 group-hover/item:bg-[#ea580c] transition-colors" />
+                                {c.name}
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+
+                        {/* Col 4: Sensors, Servo & Safety */}
+                        <div className="space-y-1">
+                          <div className="text-[11px] font-extrabold uppercase tracking-wider text-slate-800 pb-1.5 border-b border-slate-100 flex items-center gap-1.5">
+                            <span className="h-2 w-2 rounded-sm bg-[#ea580c]" />
+                            Sensors & Automation
+                          </div>
+                          <div className="pt-1 flex flex-col space-y-0.5">
+                            {categories.filter(c => c.type === 'Sensors').map((c) => (
+                              <Link key={c.slug} to="/products" search={{ q: c.name }}
+                                className="group/item flex items-center gap-2 rounded-lg px-2 py-1 text-xs font-semibold text-slate-700 hover:bg-orange-50 hover:text-[#ea580c] transition-colors">
+                                <span className="h-1.5 w-1.5 rounded-full bg-slate-300 group-hover/item:bg-[#ea580c] transition-colors" />
+                                {c.name}
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Quick Filter Footer */}
+                      <div className="border-t border-border pt-3 mt-4 flex flex-wrap items-center justify-between gap-2 bg-slate-50/70 -mx-6 -mb-6 p-4 rounded-b-2xl">
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                          <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 mr-1">Filter By Type:</span>
+                          <Link to="/products" search={{ type: "PLC" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#ea580c] hover:text-[#ea580c] rounded-md transition-colors shadow-xs">PLC</Link>
+                          <Link to="/products" search={{ type: "HMI" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#ea580c] hover:text-[#ea580c] rounded-md transition-colors shadow-xs">HMI</Link>
+                          <Link to="/products" search={{ type: "VFD" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#ea580c] hover:text-[#ea580c] rounded-md transition-colors shadow-xs">VFD</Link>
+                          <Link to="/products" search={{ type: "SENSORS" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#ea580c] hover:text-[#ea580c] rounded-md transition-colors shadow-xs">Sensors</Link>
+                          <Link to="/products" search={{ type: "ENCODERS" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#ea580c] hover:text-[#ea580c] rounded-md transition-colors shadow-xs">Encoders</Link>
+                          <Link to="/products" search={{ type: "SERVO DRIVE SYSTEM" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#ea580c] hover:text-[#ea580c] rounded-md transition-colors shadow-xs">Servo</Link>
+                          <Link to="/products" search={{ type: "MODULES" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#ea580c] hover:text-[#ea580c] rounded-md transition-colors shadow-xs">Modules</Link>
+                        </div>
+                        <Link to="/products" className="text-xs font-bold text-[#ea580c] hover:underline flex items-center gap-1 shrink-0">
+                          Explore All Products <ArrowRight className="h-3.5 w-3.5" />
                         </Link>
-                      ))}
+                      </div>
                     </div>
                   </div>
                 )}
@@ -202,16 +264,51 @@ export function Header() {
               </button>
             </div>
 
-            <nav className="flex-1 overflow-y-auto px-4 py-4">
+            <nav className="flex-1 overflow-y-auto px-4 py-4 space-y-1">
               {nav.map((item) => (
-                <Link
-                  key={item.to}
-                  to={item.to}
-                  onClick={() => setOpen(false)}
-                  className="flex items-center gap-3 rounded-lg px-4 py-3.5 text-sm font-bold uppercase text-foreground hover:bg-muted hover:text-primary transition-colors"
-                >
-                  {item.label}
-                </Link>
+                <div key={item.to}>
+                  <div className="flex items-center justify-between rounded-lg hover:bg-muted transition-colors">
+                    <Link
+                      to={item.to}
+                      onClick={() => setOpen(false)}
+                      className="flex-1 px-4 py-3 text-sm font-bold uppercase text-foreground hover:text-primary transition-colors"
+                    >
+                      {item.label}
+                    </Link>
+                    {item.label === "Products" && (
+                      <button
+                        type="button"
+                        onClick={() => setMobileCategoriesOpen(!mobileCategoriesOpen)}
+                        className="p-3 text-slate-500 hover:text-primary transition-colors"
+                        aria-label="Toggle all categories"
+                      >
+                        <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${mobileCategoriesOpen ? "rotate-180" : ""}`} />
+                      </button>
+                    )}
+                  </div>
+
+                  {item.label === "Products" && mobileCategoriesOpen && (
+                    <div className="pl-3 pr-2 py-2 bg-slate-50 rounded-xl my-1 border border-slate-200 space-y-1">
+                      <div className="text-[10px] font-bold uppercase tracking-wider text-slate-500 px-2 py-1">
+                        All Hardware Categories
+                      </div>
+                      <div className="max-h-64 overflow-y-auto space-y-0.5 pr-1">
+                        {categories.map((c) => (
+                          <Link
+                            key={c.slug}
+                            to="/products"
+                            search={{ q: c.name }}
+                            onClick={() => setOpen(false)}
+                            className="flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-xs font-semibold text-slate-700 hover:bg-white hover:text-[#ea580c] transition-colors"
+                          >
+                            <span className="h-1.5 w-1.5 rounded-full bg-slate-300" />
+                            {c.name}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
               ))}
 
               <div className="my-4 border-t border-border" />
