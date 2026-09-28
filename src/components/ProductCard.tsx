@@ -71,10 +71,6 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
       if (isHovered && secondaryImage) {
         return getProxiedImageUrl(secondaryImage);
       }
-      const imgLower = product.image.toLowerCase();
-      if (imgLower.includes("sinamics-g120c") && !(product.name || "").toLowerCase().includes("sinamics") && !(product.name || "").toLowerCase().includes("g120")) {
-        return getSvgDataUrl(displayTitle, product.brand, product.partNumber);
-      }
       return getProxiedImageUrl(product.image);
     }
     return getFallbackImageUrl(product.brand, product.type, displayTitle, product.partNumber);

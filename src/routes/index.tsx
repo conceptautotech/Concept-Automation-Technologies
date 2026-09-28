@@ -206,7 +206,7 @@ function Index() {
         "Allen Bradley",
         "Proface",
         "Fuji",
-        "Hengstler",
+        "Pepperl+Fuchs",
         "ABB",
         "Omron",
       ];
@@ -214,12 +214,10 @@ function Index() {
       const usedIds = new Set<string>();
 
       for (const make of targetMakes) {
-        // Find best representative product for each make
         const product = activeProducts.find(
           (p) =>
             !usedIds.has(p.id) &&
             (p.brand || "").toLowerCase() === make.toLowerCase() &&
-            // Avoid generic accessories if possible
             !(p.name || "").toLowerCase().includes("safety relay")
         ) || activeProducts.find(
           (p) =>
@@ -233,7 +231,6 @@ function Index() {
         }
       }
 
-      // If any brand slot wasn't filled, fill with remaining distinct brand products
       if (picked.length < 8) {
         for (const p of activeProducts) {
           if (picked.length >= 8) break;
@@ -249,7 +246,7 @@ function Index() {
     }
     const targetBrand = catalogBrandFilter.toLowerCase() === "sensors" ? "sensor" : catalogBrandFilter.toLowerCase();
     if (targetBrand === "sensor") {
-      return activeProducts.filter((p) => (p.type || "").toLowerCase().includes("sensor") || (p.category || "").toLowerCase().includes("sensor")).slice(0, 8);
+      return activeProducts.filter((p) => (p.type || "").toUpperCase() === "SENSORS" || (p.category || "").toUpperCase().includes("SENSOR")).slice(0, 8);
     }
     return activeProducts.filter((p) => (p?.brand || "").toLowerCase() === targetBrand).slice(0, 8);
   }, [catalogBrandFilter, mergedProducts]);

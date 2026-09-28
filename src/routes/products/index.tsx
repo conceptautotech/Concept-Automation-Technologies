@@ -153,83 +153,37 @@ function Products() {
       const matchesType =
         selectedType === "All" ||
         (() => {
-          const pType = (product.type || "").toLowerCase().trim();
-          const pCat = (product.category || "").toLowerCase().trim();
-          const pName = (product.name || "").toLowerCase().trim();
-          const pDesc = (product.description || "").toLowerCase().trim();
-          const sType = selectedType.toLowerCase().trim();
+          const sType = selectedType.toUpperCase().trim();
+          const pType = (product.type || "").toUpperCase().trim();
+          const pCat = (product.category || "").toUpperCase().trim();
 
-          if (sType === "encoders" || sType === "encoder")
-            return (
-              pType.includes("encoder") ||
-              pCat.includes("encoder") ||
-              pName.includes("encoder") ||
-              pDesc.includes("encoder")
-            );
-          if (sType === "sensors" || sType === "sensor") {
-            if (
-              pType.includes("encoder") ||
-              pCat.includes("encoder") ||
-              pName.includes("encoder")
-            )
-              return false;
-            return (
-              pType.includes("sensor") ||
-              pCat.includes("sensor") ||
-              pName.includes("sensor") ||
-              pDesc.includes("sensor")
-            );
-          }
-          if (sType === "servo drive system" || sType === "servo")
-            return (
-              pType.includes("servo") || pCat.includes("servo") || pName.includes("servo")
-            );
-          if (sType === "vfd")
-            return (
-              pType.includes("vfd") ||
-              pCat.includes("vfd") ||
-              pName.includes("vfd") ||
-              pName.includes("drive") ||
-              pName.includes("frenic") ||
-              pName.includes("freqrol") ||
-              pName.includes("sinamics")
-            );
-          if (sType === "plc")
-            return (
-              pType === "plc" ||
-              pCat.includes("plc") ||
-              pName.includes("plc") ||
-              pName.includes("simatic") ||
-              pName.includes("melsec") ||
-              pName.includes("compactlogix")
-            );
-          if (sType === "hmi")
-            return (
-              pType === "hmi" ||
-              pCat.includes("hmi") ||
-              pName.includes("hmi") ||
-              pName.includes("touch") ||
-              pName.includes("panelview") ||
-              pName.includes("comfort panel")
-            );
-          if (sType === "modules" || sType === "module")
-            return (
-              pType.includes("module") || pCat.includes("module") || pName.includes("module")
-            );
-          if (sType === "safety relays" || sType === "safety" || sType === "relay" || sType === "relays")
-            return (
-              pType.includes("relay") || pCat.includes("relay") || pName.includes("relay") || pName.includes("pilz")
-            );
-          return pType === sType || pType.includes(sType) || pCat.includes(sType);
+          if (pType === sType) return true;
+
+          if (sType === "PLC") return pType === "PLC" || pCat === "PLC SYSTEMS";
+          if (sType === "HMI") return pType === "HMI" || pCat === "HMI & TOUCH PANELS";
+          if (sType === "VFD") return pType === "VFD" || pCat === "VFD & AC DRIVES";
+          if (sType === "SENSORS") return pType === "SENSORS" || pCat === "SENSORS & ENCODERS";
+          if (sType === "ENCODERS") return pType === "ENCODERS" || pCat === "SENSORS & ENCODERS";
+          if (sType === "MODULES") return pType === "MODULES" || pCat === "MODULES & ACCESSORIES";
+          if (sType === "SAFETY RELAYS") return pType === "SAFETY RELAYS";
+          if (sType === "SERVO DRIVE SYSTEM") return pType === "SERVO DRIVE SYSTEM";
+
+          return false;
         })();
 
-      const searchableText =
-        `${product.name} ${product.partNumber} ${product.brand} ${product.category} ${product.type} ${product.description}`.toLowerCase();
       const cleanQuery = searchQuery.toLowerCase().trim();
+      const searchableTitle = `${product.name} ${product.partNumber} ${product.brand} ${product.category} ${product.type}`.toLowerCase();
+
       const matchesSearch =
         searchTerms.length === 0 ||
-        searchableText.includes(cleanQuery) ||
-        searchTerms.every((term) => searchableText.includes(term));
+        searchableTitle.includes(cleanQuery) ||
+        searchTerms.every((term) => {
+          if (searchableTitle.includes(term)) return true;
+          if (product.specs) {
+            return Object.values(product.specs).some((val) => typeof val === "string" && val.toLowerCase().includes(term));
+          }
+          return false;
+        });
 
       return matchesBrand && matchesType && matchesSearch;
     });
