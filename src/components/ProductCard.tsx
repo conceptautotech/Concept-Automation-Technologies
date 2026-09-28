@@ -169,7 +169,7 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
           <div className="pt-2 border-t border-slate-100 flex items-center gap-2 mt-auto">
             <button
               onClick={(e) => { e.stopPropagation(); setModalOpen(true); }}
-              className="flex-1 inline-flex items-center justify-center gap-1 rounded-lg bg-[#ea580c] hover:bg-[#c2410c] active:scale-98 px-2.5 py-2 text-[11px] font-bold uppercase tracking-wider text-white transition-all shadow-xs cursor-pointer"
+              className="flex-1 inline-flex items-center justify-center gap-1 rounded-lg bg-[#1e3a5f] hover:bg-[#152e4d] active:scale-98 px-2.5 py-2 text-[11px] font-bold uppercase tracking-wider text-white transition-all shadow-xs cursor-pointer"
             >
               <MessageSquare className="h-3 w-3 text-white" /> Get Quote
             </button>

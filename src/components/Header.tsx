@@ -86,7 +86,7 @@ export function Header() {
               <div key={item.to} className="group relative">
                 <Link
                   to={item.to}
-                  activeProps={{ className: "!bg-[#ea580c] !text-white shadow-sm" }}
+                  activeProps={{ className: "!bg-[#1e3a5f] !text-white shadow-sm" }}
                   className="flex items-center gap-1 rounded-lg px-4 py-2 text-xs font-bold uppercase tracking-wider text-foreground transition-all hover:bg-muted hover:text-primary"
                 >
                   {item.label}
