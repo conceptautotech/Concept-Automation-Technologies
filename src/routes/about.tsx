@@ -47,18 +47,6 @@ export const Route = createFileRoute("/about")({
   component: About,
 });
 
-const companyDossier = [
-  { label: "Legal Entity Name", val: "Concept Automation Technologies", mono: false },
-  { label: "Nature of Business", val: "Wholesale Trader, Importer & Stockist", mono: false },
-  { label: "Proprietor / Leadership", val: "Mr. Gaurang Mahendrabhai Chavda", mono: false },
-  { label: "Year of Establishment", val: "2022 (Registered in Ahmedabad, Gujarat)", mono: false },
-  { label: "GSTIN Number", val: "24ASYPC3254A1Z0", mono: true, copyable: true },
-  { label: "Import Export Code (IEC)", val: "********54A (Authorized Global Trade)", mono: true },
-  { label: "Warehouse & Trade Desk", val: "D-303, Titanium Business Park, Makarba, Ahmedabad - 380051", mono: false, copyable: true },
-  { label: "IndiaMART Verification", val: "Trust Seal Certified Enterprise", mono: false },
-  { label: "Primary Operations", val: "Pan-India Express Supply (24–48 Hrs Dispatch)", mono: false },
-];
-
 const keyMetrics = [
   {
     value: "500+",
@@ -311,78 +299,58 @@ function About() {
         </section>
 
         {/* ══════════════════════════════════════════════════════════ */}
-        {/* 2. VERIFIED CREDENTIALS & TRUST BADGES (LIGHT THEME)       */}
+        {/* 2. VERIFIED ACCREDITATION RIBBON (CLEAN & STREAMLINED)     */}
         {/* ══════════════════════════════════════════════════════════ */}
-        <section className="bg-white border-b border-slate-200 py-8 sm:py-10">
+        <section className="bg-slate-100/70 border-b border-slate-200/80 py-5 sm:py-6">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
               {[
                 {
-                  badge: "IndiaMART Verified",
-                  title: "Trust Seal Certified",
-                  sub: "Official B2B Trader in Ahmedabad",
+                  badge: "IndiaMART Certified",
+                  title: "TrustSeal Verified",
+                  desc: "Verified B2B Wholesale Trader",
                   icon: Award,
-                  actionText: "Verified Profile",
+                  color: "text-[#ea580c]",
                 },
                 {
-                  badge: "Official GSTIN",
-                  title: company.gst,
-                  sub: "100% Tax Compliant B2B Billing",
+                  badge: "Tax Compliant",
+                  title: "100% GST Invoicing",
+                  desc: "Full Input Tax Credit (ITC)",
                   icon: FileCheck,
-                  copyValue: company.gst,
-                  actionText: "Copy GSTIN",
+                  color: "text-emerald-700",
                 },
                 {
-                  badge: "Global Import Code",
-                  title: "IEC: ********54A",
-                  sub: "Authorized International Procurement",
+                  badge: "International Trade",
+                  title: "DGFT IEC Registered",
+                  desc: "Global OEM Procurement Access",
                   icon: Globe,
-                  actionText: "DGFT Registered",
+                  color: "text-[#1e3a5f]",
                 },
                 {
-                  badge: "Central Warehouse Hub",
-                  title: "Titanium Business Park",
-                  sub: "Makarba, Ahmedabad - 380051",
+                  badge: "Central Logistics",
+                  title: "Makarba Transit Hub",
+                  desc: "Express 24–48h Pan-India Dispatch",
                   icon: Building2,
-                  copyValue: company.address,
-                  actionText: "Copy Address",
+                  color: "text-[#ea580c]",
                 },
               ].map((item) => (
                 <div
                   key={item.badge}
-                  className="flex items-start gap-3.5 p-4 rounded-xl border border-slate-200/80 bg-slate-50/70 hover:bg-white hover:border-slate-300 hover:shadow-xs transition-all group"
+                  className="flex items-center gap-3 p-3 sm:p-3.5 rounded-xl border border-slate-200 bg-white shadow-2xs hover:shadow-xs transition-all"
                 >
-                  <div className="rounded-xl bg-white border border-slate-200 p-2.5 shadow-2xs shrink-0 text-[#ea580c] group-hover:scale-105 transition-transform">
-                    <item.icon className="h-5 w-5" />
+                  <div className={`rounded-xl bg-slate-50 border border-slate-200/90 p-2 shrink-0 ${item.color}`}>
+                    <item.icon className="h-4 sm:h-5 w-4 sm:w-5" />
                   </div>
                   <div className="min-w-0 flex-1">
-                    <div className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500">
+                    <div className="text-[9px] font-extrabold uppercase tracking-widest text-slate-400 truncate">
                       {item.badge}
                     </div>
-                    <div className="text-xs sm:text-sm font-extrabold text-slate-800 truncate mt-0.5 font-mono">
+                    <div className="text-xs sm:text-sm font-extrabold text-slate-800 truncate">
                       {item.title}
                     </div>
-                    <div className="text-[11px] text-slate-500 truncate mt-0.5">
-                      {item.sub}
+                    <div className="text-[10px] text-slate-500 truncate hidden sm:block">
+                      {item.desc}
                     </div>
-                    {item.copyValue && (
-                      <button
-                        onClick={() => handleCopy(item.copyValue!, item.badge)}
-                        className="mt-2 inline-flex items-center gap-1 text-[11px] font-bold text-[#ea580c] hover:underline cursor-pointer"
-                      >
-                        {copiedItem === item.badge ? (
-                          <>
-                            <Check className="h-3 w-3 text-emerald-600" />
-                            <span className="text-emerald-600">Copied to Clipboard!</span>
-                          </>
-                        ) : (
-                          <>
-                            <Copy className="h-3 w-3" />
-                            <span>{item.actionText}</span>
-                          </>
-                        )}
-                      </button>
-                    )}
                   </div>
                 </div>
               ))}
@@ -391,52 +359,89 @@ function About() {
         </section>
 
         {/* ══════════════════════════════════════════════════════════ */}
-        {/* 3. CORPORATE STORY & ENTERPRISE PROFILE (LIGHT THEME)      */}
+        {/* 3. CORPORATE STORY & ENTERPRISE PROFILE (PERFECTLY ORGANIZED) */}
         {/* ══════════════════════════════════════════════════════════ */}
         <section className="py-16 sm:py-24 bg-white">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-            <div className="grid gap-12 lg:grid-cols-12 items-start">
-              {/* Left Column: Narrative & Mission (7 cols) */}
+            {/* Unified Section Header */}
+            <div className="max-w-3xl mb-12">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-orange-50 border border-orange-200 px-3.5 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
+                <Building2 className="h-3.5 w-3.5" />
+                Corporate Profile & Mission
+              </span>
+              <h2 className="mt-3 font-display text-2xl sm:text-4xl font-extrabold text-slate-800 tracking-tight leading-tight">
+                Bridging Global Automation Hardware with Indian Industry
+              </h2>
+              <p className="mt-3 text-sm sm:text-base text-slate-600 leading-relaxed">
+                Established as a dedicated sole proprietorship firm in <strong className="text-slate-800 font-bold">2022</strong> at Ahmedabad, Gujarat, <strong className="text-slate-800 font-bold">Concept Automation Technologies</strong> was founded by <strong className="text-slate-800 font-bold">Mr. Gaurang Mahendrabhai Chavda</strong> to eliminate supply bottlenecks and machine downtime for manufacturing plants, panel builders, and system integrators across India.
+              </p>
+            </div>
+
+            <div className="grid gap-10 lg:grid-cols-12 items-start">
+              {/* Left Column: 3 Structured Strategic Pillars + Leadership (7 cols) */}
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
-                className="lg:col-span-7 space-y-6"
+                className="lg:col-span-7 space-y-5"
               >
-                <div>
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-orange-50 border border-orange-200 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
-                    <Building2 className="h-3.5 w-3.5" />
-                    Corporate Profile & Mission
-                  </span>
-                  <h2 className="mt-3 font-display text-2xl sm:text-4xl font-extrabold text-slate-800 tracking-tight leading-tight">
-                    Bridging Global Automation Hardware with Indian Industry
-                  </h2>
+                {/* 3 Strategic Capability Cards */}
+                <div className="space-y-3.5">
+                  <div className="flex items-start gap-4 p-4 sm:p-5 rounded-2xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:border-orange-300 hover:shadow-xs transition-all">
+                    <div className="rounded-xl bg-orange-100/80 border border-orange-200 p-2.5 text-[#ea580c] shrink-0 mt-0.5">
+                      <Zap className="h-5 w-5" />
+                    </div>
+                    <div>
+                      <h3 className="text-sm sm:text-base font-extrabold text-slate-800">
+                        Expansive Makarba Ready Inventory
+                      </h3>
+                      <p className="mt-1 text-xs sm:text-sm text-slate-600 leading-relaxed">
+                        We maintain in-stock inventories of Mitsubishi MELSEC PLCs, Siemens SIMATIC CPUs, Proface touch HMIs, Omron micro-controllers, Danfoss VLT inverters, and Pepperl+Fuchs sensors right in our central Ahmedabad facility.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4 p-4 sm:p-5 rounded-2xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:border-emerald-300 hover:shadow-xs transition-all">
+                    <div className="rounded-xl bg-emerald-100/80 border border-emerald-200 p-2.5 text-emerald-700 shrink-0 mt-0.5">
+                      <ShieldCheck className="h-5 w-5" />
+                    </div>
+                    <div>
+                      <h3 className="text-sm sm:text-base font-extrabold text-slate-800">
+                        100% Genuine OEM Hardware & Invoicing
+                      </h3>
+                      <p className="mt-1 text-xs sm:text-sm text-slate-600 leading-relaxed">
+                        Every module is brand-new, factory-sealed, and supplied with official GST tax invoices for seamless input tax credit (ITC) reconciliation and complete commercial transparency.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4 p-4 sm:p-5 rounded-2xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:border-slate-400 hover:shadow-xs transition-all">
+                    <div className="rounded-xl bg-slate-200/80 border border-slate-300 p-2.5 text-[#1e3a5f] shrink-0 mt-0.5">
+                      <Truck className="h-5 w-5" />
+                    </div>
+                    <div>
+                      <h3 className="text-sm sm:text-base font-extrabold text-slate-800">
+                        Rapid 24–48h Breakdown Dispatch
+                      </h3>
+                      <p className="mt-1 text-xs sm:text-sm text-slate-600 leading-relaxed">
+                        Expedited daily dispatches via DTDC, SafeExpress, Trackon, and Blue Dart guarantee fastest plant delivery across Gujarat, Maharashtra, and industrial corridors nationwide.
+                      </p>
+                    </div>
+                  </div>
                 </div>
 
-                <div className="space-y-4 text-sm sm:text-base text-slate-600 leading-relaxed">
-                  <p>
-                    Established as a dedicated sole proprietorship firm in <strong className="text-slate-800 font-bold">2022</strong> at Ahmedabad, Gujarat, <strong className="text-slate-800 font-bold">Concept Automation Technologies</strong> was founded by <strong className="text-slate-800 font-bold">Mr. Gaurang Mahendrabhai Chavda</strong> to eliminate the frustrating supply bottlenecks faced by modern industrial plants and system integrators.
-                  </p>
-                  <p>
-                    Industrial plants lose thousands of dollars every hour a machine line sits idle waiting for an automation replacement. We address this vulnerability by maintaining an expansive, ready inventory of <strong className="text-slate-800">Mitsubishi MELSEC PLCs, Siemens SIMATIC CPUs, Proface touch HMIs, Omron micro-controllers, Danfoss VLT inverters, ABB drives, and Pepperl+Fuchs sensors</strong> right in our Makarba central warehouse.
-                  </p>
-                  <p>
-                    Whether supporting emergency breakdown dispatches, turnkey panel assembly projects, or routine component procurement, our experienced technical desk cross-references exact part codes, confirms firmware versions, and ensures transparent B2B execution.
-                  </p>
-                </div>
-
-                {/* Founder Quote Card */}
-                <div className="rounded-2xl border border-orange-200 bg-gradient-to-br from-orange-50/70 via-white to-amber-50/50 p-6 shadow-xs relative overflow-hidden">
-                  <div className="absolute top-2 right-4 text-6xl font-serif text-orange-200/50 select-none pointer-events-none">
+                {/* Founder Leadership & Endorsement Card */}
+                <div className="rounded-2xl border border-orange-200 bg-gradient-to-br from-orange-50/80 via-white to-amber-50/40 p-5 sm:p-6 shadow-xs relative overflow-hidden">
+                  <div className="absolute top-2 right-4 text-6xl font-serif text-orange-200/40 select-none pointer-events-none">
                     “
                   </div>
-                  <p className="relative z-10 text-sm sm:text-base font-medium italic text-slate-800 leading-relaxed">
+                  <p className="relative z-10 text-xs sm:text-sm font-medium italic text-slate-800 leading-relaxed">
                     "Our objective is simple: provide panel builders, traders, and manufacturing plants with verified industrial automation hardware at genuine wholesale prices, dispatched the very same day so production lines never wait."
                   </p>
-                  <div className="mt-4 pt-3 border-t border-orange-100 flex items-center justify-between">
+                  <div className="mt-4 pt-3.5 border-t border-orange-100 flex items-center justify-between flex-wrap gap-3">
                     <div className="flex items-center gap-3">
-                      <div className="h-10 w-10 rounded-full bg-slate-800 text-white flex items-center justify-center font-display font-extrabold text-xs shadow-sm">
+                      <div className="h-10 w-10 rounded-full bg-[#1e3a5f] text-white flex items-center justify-center font-display font-extrabold text-xs shadow-sm">
                         GC
                       </div>
                       <div>
@@ -448,108 +453,174 @@ function About() {
                         </div>
                       </div>
                     </div>
-                    <div className="hidden sm:flex items-center gap-1.5 text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2.5 py-1 rounded-full">
+                    <div className="flex items-center gap-1.5 text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full">
                       <CheckCircle2 className="h-3.5 w-3.5" />
-                      Trade Desk Active
+                      Direct Trade Desk Oversight
                     </div>
-                  </div>
-                </div>
-
-                {/* Quick Facility Details */}
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
-                  <div className="rounded-xl border border-slate-200 bg-slate-50 p-3 text-center">
-                    <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500 block">Hub Location</span>
-                    <span className="text-xs font-bold text-slate-800 mt-0.5 block">Titanium Business Park</span>
-                  </div>
-                  <div className="rounded-xl border border-slate-200 bg-slate-50 p-3 text-center">
-                    <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500 block">Business Nature</span>
-                    <span className="text-xs font-bold text-slate-800 mt-0.5 block">Wholesale & Stockist</span>
-                  </div>
-                  <div className="col-span-2 sm:col-span-1 rounded-xl border border-slate-200 bg-slate-50 p-3 text-center">
-                    <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500 block">Operating Hours</span>
-                    <span className="text-xs font-bold text-slate-800 mt-0.5 block">Mon–Sat 9:30 AM – 7 PM</span>
                   </div>
                 </div>
               </motion.div>
 
-              {/* Right Column: Clean Light Enterprise Dossier Card (5 cols) */}
+              {/* Right Column: Clean Segmented Enterprise Dossier Card (5 cols) */}
               <motion.div
                 initial={{ opacity: 0, x: 20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.1 }}
-                className="lg:col-span-5 rounded-2xl border border-slate-200 bg-white shadow-lg overflow-hidden"
+                className="lg:col-span-5 rounded-2xl border border-slate-200 bg-white shadow-md overflow-hidden"
               >
-                {/* Clean Light Header */}
-                <div className="bg-slate-100/90 text-slate-800 p-5 sm:p-6 border-b border-slate-200">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-3">
-                      <div className="rounded-xl bg-[#ea580c] p-2.5 text-white shadow-sm">
-                        <Building2 className="h-5 w-5" />
+                {/* Dossier Card Header */}
+                <div className="bg-[#1e3a5f] text-white p-5 border-b border-slate-700 flex items-center justify-between">
+                  <div className="flex items-center gap-3">
+                    <div className="rounded-xl bg-white/10 p-2.5 text-white border border-white/20">
+                      <Building2 className="h-5 w-5 text-orange-400" />
+                    </div>
+                    <div>
+                      <div className="text-sm font-extrabold tracking-wide">
+                        Enterprise Dossier
                       </div>
-                      <div>
-                        <div className="text-sm font-extrabold tracking-wide text-slate-800">
-                          Enterprise Dossier
-                        </div>
-                        <div className="text-[11px] text-slate-500 font-mono mt-0.5">
-                          Commercial & Statutory Records
-                        </div>
+                      <div className="text-[11px] text-slate-300 font-mono mt-0.5">
+                        Statutory, Commercial & Tax Records
                       </div>
                     </div>
-                    <span className="text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 px-2.5 py-0.5 rounded-full">
-                      Verified Active
-                    </span>
+                  </div>
+                  <span className="text-[10px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-400/40 px-2.5 py-1 rounded-full flex items-center gap-1">
+                    <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                    Verified Active
+                  </span>
+                </div>
+
+                {/* Dossier Structured Content */}
+                <div className="divide-y divide-slate-100 text-xs">
+                  {/* Block 1: Entity Name & Legal Status */}
+                  <div className="p-4 hover:bg-slate-50/60 transition-colors">
+                    <div className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400">
+                      Legal Entity Name
+                    </div>
+                    <div className="text-sm font-extrabold text-slate-800 mt-0.5">
+                      Concept Automation Technologies
+                    </div>
+                    <div className="text-[11px] text-slate-500 mt-0.5">
+                      Sole Proprietorship Firm · Est. 2022 (Ahmedabad, Gujarat)
+                    </div>
+                  </div>
+
+                  {/* Block 2: Proprietor & Business Category */}
+                  <div className="p-4 grid grid-cols-2 gap-3 hover:bg-slate-50/60 transition-colors">
+                    <div>
+                      <div className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400">
+                        Proprietor / Head
+                      </div>
+                      <div className="text-xs font-bold text-slate-800 mt-0.5">
+                        Mr. Gaurang M. Chavda
+                      </div>
+                    </div>
+                    <div>
+                      <div className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400">
+                        Nature of Trade
+                      </div>
+                      <div className="text-xs font-bold text-slate-800 mt-0.5">
+                        Wholesale Stockist & Importer
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Block 3: GSTIN Registration with Instant Copy */}
+                  <div className="p-4 flex items-center justify-between gap-3 hover:bg-slate-50/60 transition-colors">
+                    <div>
+                      <div className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400">
+                        GSTIN Registration Number
+                      </div>
+                      <div className="font-mono text-xs font-bold text-slate-800 mt-0.5">
+                        {company.gst}
+                      </div>
+                      <div className="text-[10px] text-emerald-700 font-semibold mt-0.5">
+                        100% Tax Compliant B2B Billing
+                      </div>
+                    </div>
+                    <button
+                      onClick={() => handleCopy(company.gst, "GSTIN")}
+                      className="inline-flex items-center gap-1 rounded-lg border border-slate-200 bg-slate-50 px-2.5 py-1.5 text-[11px] font-bold text-slate-700 hover:border-[#ea580c] hover:text-[#ea580c] transition-all cursor-pointer shrink-0"
+                    >
+                      {copiedItem === "GSTIN" ? (
+                        <>
+                          <Check className="h-3.5 w-3.5 text-emerald-600" />
+                          <span className="text-emerald-600">Copied!</span>
+                        </>
+                      ) : (
+                        <>
+                          <Copy className="h-3.5 w-3.5" />
+                          <span>Copy GSTIN</span>
+                        </>
+                      )}
+                    </button>
+                  </div>
+
+                  {/* Block 4: IEC & IndiaMART Verification */}
+                  <div className="p-4 grid grid-cols-2 gap-3 hover:bg-slate-50/60 transition-colors">
+                    <div>
+                      <div className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400">
+                        Import Export Code (IEC)
+                      </div>
+                      <div className="font-mono text-xs font-bold text-slate-800 mt-0.5">
+                        ********54A
+                      </div>
+                      <div className="text-[10px] text-emerald-700 font-semibold mt-0.5">
+                        DGFT Registered Global Trade
+                      </div>
+                    </div>
+                    <div>
+                      <div className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400">
+                        IndiaMART Credentials
+                      </div>
+                      <div className="text-xs font-bold text-slate-800 mt-0.5">
+                        TrustSeal Certified
+                      </div>
+                      <div className="text-[10px] text-emerald-700 font-semibold mt-0.5">
+                        Verified B2B Enterprise
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Block 5: Makarba Facility & Logistics */}
+                  <div className="p-4 hover:bg-slate-50/60 transition-colors">
+                    <div className="flex items-center justify-between">
+                      <div className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400">
+                        Central Warehouse & Trade Desk
+                      </div>
+                      <button
+                        onClick={() => handleCopy(company.address, "Address")}
+                        className="text-[10px] font-bold text-[#ea580c] hover:underline inline-flex items-center gap-1 cursor-pointer"
+                      >
+                        {copiedItem === "Address" ? (
+                          <span className="text-emerald-600 font-bold">Copied!</span>
+                        ) : (
+                          <span>Copy Address</span>
+                        )}
+                      </button>
+                    </div>
+                    <div className="text-xs font-semibold text-slate-800 mt-1 leading-snug">
+                      {company.address}
+                    </div>
+                    <div className="mt-1.5 flex items-center justify-between text-[10px] text-slate-500 font-medium">
+                      <span>Mon–Sat: 9:30 AM – 7:00 PM</span>
+                      <span className="text-emerald-700 font-bold">Pan-India Express Dispatch</span>
+                    </div>
                   </div>
                 </div>
 
-                {/* Table Data Rows */}
-                <div className="divide-y divide-slate-100 text-xs">
-                  {companyDossier.map((row) => (
-                    <div
-                      key={row.label}
-                      className="px-5 py-3.5 flex items-start justify-between gap-4 hover:bg-slate-50 transition-colors"
-                    >
-                      <dt className="text-slate-500 font-bold uppercase tracking-wider text-[10px] shrink-0 pt-0.5">
-                        {row.label}
-                      </dt>
-                      <dd className="text-right flex items-center gap-1.5 justify-end">
-                        <span
-                          className={`font-semibold text-slate-800 ${
-                            row.mono ? "font-mono text-xs font-bold text-slate-800" : ""
-                          }`}
-                        >
-                          {row.val}
-                        </span>
-                        {row.copyable && (
-                          <button
-                            onClick={() => handleCopy(row.val, row.label)}
-                            title="Copy to clipboard"
-                            className="p-1 text-slate-400 hover:text-[#ea580c] rounded transition-colors shrink-0 cursor-pointer"
-                          >
-                            {copiedItem === row.label ? (
-                              <Check className="h-3.5 w-3.5 text-emerald-600" />
-                            ) : (
-                              <Copy className="h-3.5 w-3.5" />
-                            )}
-                          </button>
-                        )}
-                      </dd>
-                    </div>
-                  ))}
-                </div>
-
-                {/* Actions */}
-                <div className="p-5 bg-slate-50 border-t border-slate-200 space-y-2.5">
+                {/* Dossier Actions */}
+                <div className="p-4 sm:p-5 bg-slate-50 border-t border-slate-200 space-y-2.5">
                   <button
                     onClick={() => setInquiryOpen(true)}
-                    className="w-full rounded-xl bg-primary hover:bg-[#c2410c] py-3 text-xs sm:text-sm font-bold text-white transition-all flex items-center justify-center gap-2 shadow-xs cursor-pointer"
+                    className="w-full rounded-xl bg-[#ea580c] hover:bg-[#c2410c] py-3 text-xs sm:text-sm font-bold text-white transition-all flex items-center justify-center gap-2 shadow-xs cursor-pointer active:scale-98"
                   >
                     <MessageSquare className="h-4 w-4" /> Request Official Proforma Quotation
                   </button>
 
                   <a
                     href={`tel:${company.phoneRaw}`}
-                    className="w-full rounded-xl bg-white border border-slate-300 hover:bg-slate-100 py-2.5 text-xs font-bold text-slate-700 transition-all flex items-center justify-center gap-2"
+                    className="w-full rounded-xl bg-white border border-slate-300 hover:bg-slate-100 py-2.5 text-xs font-bold text-slate-800 transition-all flex items-center justify-center gap-2"
                   >
                     <Phone className="h-3.5 w-3.5 text-[#ea580c]" /> Call Trade Desk: {company.phone}
                   </a>

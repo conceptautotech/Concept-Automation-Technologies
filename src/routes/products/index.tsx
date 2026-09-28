@@ -1,6 +1,6 @@
 import { createFileRoute, useSearch, useNavigate } from "@tanstack/react-router";
 import { useState, useMemo, useEffect, useRef, useCallback } from "react";
-import { Search, X, SlidersHorizontal, ChevronDown } from "lucide-react";
+import { Search, X, SlidersHorizontal, ChevronDown, LayoutGrid, Grid, List } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ProductCard } from "@/components/ProductCard";
@@ -39,6 +39,7 @@ function Products() {
   const [selectedBrand, setSelectedBrand] = useState<string>("All");
   const [selectedType, setSelectedType] = useState<string>("All");
   const [inquiryModalOpen, setInquiryModalOpen] = useState(false);
+  const [viewMode, setViewMode] = useState<"grid" | "compact" | "list">("grid");
 
   const INITIAL_BATCH = 16;
   const BATCH_SIZE = 12;
@@ -352,13 +353,62 @@ function Products() {
                 isActive={selectedBrand !== "All"}
               />
 
-              {/* Divider + count + reset — right aligned */}
-              <div className="flex items-end gap-3 ml-auto">
+              {/* Divider + count + view mode + reset — right aligned */}
+              <div className="flex items-end gap-2.5 ml-auto flex-wrap">
+                {/* View Mode Toggle */}
+                <div className="flex flex-col gap-1">
+                  <span className="text-[9px] font-extrabold uppercase tracking-widest text-slate-400 px-0.5">
+                    View
+                  </span>
+                  <div className="flex items-center rounded-xl border border-slate-200 bg-slate-50 p-1 gap-1 h-[42px]">
+                    <button
+                      type="button"
+                      onClick={() => setViewMode("grid")}
+                      title="Spacious Grid (Clean & Modern)"
+                      className={`inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-bold transition-all cursor-pointer ${
+                        viewMode === "grid"
+                          ? "bg-white text-[#1e3a5f] shadow-xs"
+                          : "text-slate-400 hover:text-slate-700"
+                      }`}
+                    >
+                      <LayoutGrid className="h-3.5 w-3.5" />
+                      <span className="hidden md:inline">Spacious</span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setViewMode("compact")}
+                      title="Compact Grid (Dense)"
+                      className={`inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-bold transition-all cursor-pointer ${
+                        viewMode === "compact"
+                          ? "bg-white text-[#1e3a5f] shadow-xs"
+                          : "text-slate-400 hover:text-slate-700"
+                      }`}
+                    >
+                      <Grid className="h-3.5 w-3.5" />
+                      <span className="hidden md:inline">Compact</span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setViewMode("list")}
+                      title="List View (Table)"
+                      className={`inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-bold transition-all cursor-pointer ${
+                        viewMode === "list"
+                          ? "bg-white text-[#1e3a5f] shadow-xs"
+                          : "text-slate-400 hover:text-slate-700"
+                      }`}
+                    >
+                      <List className="h-3.5 w-3.5" />
+                      <span className="hidden md:inline">List</span>
+                    </button>
+                  </div>
+                </div>
+
+                {/* Results count */}
                 <div className="flex flex-col gap-1">
                   <span className="text-[9px] font-extrabold uppercase tracking-widest text-slate-400 px-0.5">
                     Results
                   </span>
-                  <span className={`rounded-xl border px-3 py-2.5 text-xs font-bold whitespace-nowrap ${
+                  <span className={`rounded-xl border px-3 py-2.5 text-xs font-bold whitespace-nowrap h-[42px] flex items-center ${
                     hasActiveFilters
                       ? "border-slate-300 bg-slate-100 text-slate-800"
                       : "border-slate-200 bg-slate-50 text-slate-600"
@@ -371,7 +421,7 @@ function Products() {
                 {hasActiveFilters && (
                   <button
                     onClick={resetFilters}
-                    className="flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-xs font-bold text-slate-600 hover:border-[#ea580c] hover:text-[#ea580c] transition-all whitespace-nowrap self-end"
+                    className="flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-xs font-bold text-slate-600 hover:border-[#ea580c] hover:text-[#ea580c] transition-all whitespace-nowrap h-[42px] cursor-pointer"
                   >
                     <X className="h-3.5 w-3.5" />
                     Clear
@@ -430,29 +480,62 @@ function Products() {
             </div>
           ) : (
             <>
-              <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-                {visibleProducts.map((p, idx) => (
-                  <ProductCard key={p.id} product={p} index={idx} />
-                ))}
-              </div>
+              {viewMode === "list" ? (
+                <div className="flex flex-col gap-3">
+                  {visibleProducts.map((p, idx) => (
+                    <ProductCard key={p.id} product={p} index={idx} layout="list" />
+                  ))}
+                </div>
+              ) : viewMode === "compact" ? (
+                <div className="grid gap-3.5 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+                  {visibleProducts.map((p, idx) => (
+                    <ProductCard key={p.id} product={p} index={idx} layout="compact" />
+                  ))}
+                </div>
+              ) : (
+                <div className="grid gap-5 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                  {visibleProducts.map((p, idx) => (
+                    <ProductCard key={p.id} product={p} index={idx} layout="grid" />
+                  ))}
+                </div>
+              )}
 
               {/* Skeletons while loading next batch */}
               {isLoadingMore && (
-                <div className="mt-4 grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-                  {[...Array(5)].map((_, i) => (
-                    <div
-                      key={`skeleton-${i}`}
-                      className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm"
-                    >
-                      <div className="aspect-square w-full rounded-xl bg-slate-100 animate-pulse" />
-                      <div className="mt-3 space-y-2">
-                        <div className="h-2.5 w-1/3 rounded-full bg-slate-200 animate-pulse" />
-                        <div className="h-3 w-3/4 rounded-full bg-slate-200 animate-pulse" />
-                        <div className="h-2.5 w-1/2 rounded-full bg-slate-100 animate-pulse" />
+                viewMode === "list" ? (
+                  <div className="mt-4 flex flex-col gap-3">
+                    {[...Array(4)].map((_, i) => (
+                      <div key={`sk-${i}`} className="h-24 w-full rounded-2xl border border-slate-200 bg-white p-4 animate-pulse flex items-center gap-4">
+                        <div className="h-16 w-16 rounded-xl bg-slate-100 shrink-0" />
+                        <div className="flex-1 space-y-2">
+                          <div className="h-3 w-1/4 rounded bg-slate-200" />
+                          <div className="h-4 w-1/2 rounded bg-slate-200" />
+                          <div className="h-3 w-1/3 rounded bg-slate-100" />
+                        </div>
                       </div>
-                    </div>
-                  ))}
-                </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className={`mt-4 grid gap-4 ${
+                    viewMode === "compact"
+                      ? "grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
+                      : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+                  }`}>
+                    {[...Array(4)].map((_, i) => (
+                      <div
+                        key={`skeleton-${i}`}
+                        className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm"
+                      >
+                        <div className="aspect-square w-full rounded-xl bg-slate-100 animate-pulse" />
+                        <div className="mt-3 space-y-2">
+                          <div className="h-2.5 w-1/3 rounded-full bg-slate-200 animate-pulse" />
+                          <div className="h-3 w-3/4 rounded-full bg-slate-200 animate-pulse" />
+                          <div className="h-2.5 w-1/2 rounded-full bg-slate-100 animate-pulse" />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )
               )}
 
               {/* Sentinel */}
