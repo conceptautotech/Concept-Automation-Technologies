@@ -72,7 +72,7 @@ function ProductDetailPage() {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
 
   const title = product ? product.name : (category?.name || "Product Detail");
-  const brand = product ? product.brand : (category?.brand || "Original Hardware");
+  const brand = product ? product.brand : (category?.brand || "Genuine Products");
   const partNumber = product ? (product.partNumber || "") : "";
   const rawImage = product?.image || "";
   
@@ -93,7 +93,7 @@ function ProductDetailPage() {
 
   const description = (product?.description && product.description.trim().length > 30) 
     ? product.description 
-    : `Original factory sealed ${brand} ${title} ${partNumber ? `(PN: ${partNumber})` : ""}. High-performance ${product?.type || "automation"} hardware engineered for maximum reliability, panel compatibility, and zero production downtime. Ready stock available for immediate express dispatch from our Makarba, Ahmedabad warehouse with full technical support.`;
+    : `100% Genuine factory sealed ${brand} ${title} ${partNumber ? `(PN: ${partNumber})` : ""}. High-performance ${product?.type || "automation"} hardware engineered for maximum reliability, panel compatibility, and zero production downtime. Ready stock available for immediate express dispatch from our Makarba, Ahmedabad warehouse with full technical support.`;
 
   const specs: ProductSpec[] = (product?.specifications && product.specifications.length > 0) 
     ? product.specifications 
@@ -161,7 +161,7 @@ function ProductDetailPage() {
                   className="space-y-4"
                 >
                   <div className="relative overflow-hidden rounded-2xl border border-border bg-white p-4 sm:p-6 flex items-center justify-center shadow-sm min-h-[250px] sm:min-h-[380px]">
-                    <span className="absolute left-4 top-4 z-10 rounded-full bg-slate-900 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-white">
+                    <span className="absolute left-4 top-4 z-10 rounded-full bg-white/95 backdrop-blur-sm border border-slate-200 px-3.5 py-1 text-[11px] font-extrabold uppercase tracking-wider text-slate-800 shadow-sm">
                       {brand}
                     </span>
                     <img
@@ -183,7 +183,7 @@ function ProductDetailPage() {
                           onClick={() => handleThumbnailClick(idx)}
                           className={`relative aspect-square w-16 h-16 overflow-hidden rounded-xl border-2 bg-white p-1 flex items-center justify-center shrink-0 transition-all ${
                             activeImageIndex === idx 
-                              ? "border-accent shadow-sm ring-1 ring-accent/25" 
+                              ? "border-[#ea580c] shadow-sm ring-1 ring-[#ea580c]/25" 
                               : "border-border opacity-70 hover:opacity-100 hover:border-muted-foreground"
                           }`}
                         >
@@ -206,7 +206,7 @@ function ProductDetailPage() {
                       { icon: Truck, label: "Express Dispatch" },
                     ].map((b) => (
                       <div key={b.label} className="rounded-xl border border-border bg-card p-3 text-center shadow-sm">
-                        <b.icon className="mx-auto h-4 w-4 text-accent mb-1" />
+                        <b.icon className="mx-auto h-4 w-4 text-[#ea580c] mb-1" />
                         <div className="text-[10px] font-semibold text-foreground">{b.label}</div>
                       </div>
                     ))}
@@ -226,8 +226,9 @@ function ProductDetailPage() {
                 <span className="eyebrow">{brand} Industrial Automation</span>
                 <h1 className="mt-2 font-display text-2xl font-extrabold text-foreground sm:text-3xl">{title}</h1>
                 {partNumber && (
-                  <div className="mt-1 text-sm font-mono text-muted-foreground">
-                    Part: <strong className="text-accent">{partNumber}</strong>
+                  <div className="mt-1 text-sm font-mono text-muted-foreground flex items-center gap-1.5">
+                    <span>Part:</span>
+                    <strong className="text-slate-800 bg-slate-100 px-2.5 py-0.5 rounded border border-slate-200 text-xs font-bold">{partNumber}</strong>
                   </div>
                 )}
                 
@@ -249,7 +250,7 @@ function ProductDetailPage() {
 
               {/* Specs */}
               <div className="rounded-2xl border border-border bg-card overflow-hidden shadow-sm">
-                <div className="bg-muted px-5 py-3 border-b border-border text-[11px] font-bold uppercase tracking-[0.15em] text-muted-foreground">
+                <div className="bg-slate-100 px-5 py-3 border-b border-slate-200 text-[11px] font-extrabold uppercase tracking-[0.15em] text-slate-700">
                   Technical Specifications
                 </div>
                 <table className="w-full text-left text-sm">
@@ -267,7 +268,7 @@ function ProductDetailPage() {
               {/* Quote Form */}
               <div id="quote-form" className="rounded-2xl border border-slate-200 bg-slate-50/50 p-5 sm:p-6 shadow-sm">
                 <h3 className="font-display text-base font-bold text-foreground flex items-center gap-2">
-                  <MessageSquare className="h-4 w-4 text-accent" /> Get Official Price Quote
+                  <MessageSquare className="h-4 w-4 text-[#ea580c]" /> Get Official Price Quote
                 </h3>
                 <p className="mt-1 text-xs text-muted-foreground mb-4">Direct response from our sales desk.</p>
 

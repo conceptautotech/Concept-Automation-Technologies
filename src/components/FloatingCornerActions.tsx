@@ -45,7 +45,7 @@ export function FloatingCornerActions() {
         <button
           onClick={() => setInquiryModalOpen(true)}
           title="Email Inquiry"
-          className="group flex h-10 w-10 items-center justify-center rounded-r-xl bg-slate-900 text-white shadow-md hover:w-32 hover:bg-[#ea580c] transition-all duration-200"
+          className="group flex h-10 w-10 items-center justify-center rounded-r-xl bg-slate-700 text-white shadow-md hover:w-32 hover:bg-slate-800 transition-all duration-200"
         >
           <Mail className="h-4 w-4 shrink-0 text-white" />
           <span className="ml-2 hidden text-[10px] font-bold uppercase tracking-wider group-hover:inline">Email</span>
@@ -54,7 +54,7 @@ export function FloatingCornerActions() {
         <a
           href={`tel:${company.phoneRaw}`}
           title="Call Us"
-          className="group flex h-10 w-10 items-center justify-center rounded-r-xl bg-slate-900/90 text-white shadow-md hover:w-32 hover:bg-[#ea580c] transition-all duration-200"
+          className="group flex h-10 w-10 items-center justify-center rounded-r-xl bg-[#ea580c] text-white shadow-md hover:w-32 hover:bg-[#c2410c] transition-all duration-200"
         >
           <Phone className="h-4 w-4 shrink-0 text-white" />
           <span className="ml-2 hidden text-[10px] font-bold uppercase tracking-wider group-hover:inline">Call</span>
@@ -76,25 +76,25 @@ export function FloatingCornerActions() {
         {showScrollTop && (
           <button onClick={scrollToTop} title="Back to Top"
             className="flex h-10 w-10 items-center justify-center rounded-full bg-card border border-border text-foreground shadow-lg hover:scale-110 transition-transform">
-            <ArrowUp className="h-4 w-4 text-accent" />
+            <ArrowUp className="h-4 w-4 text-slate-600" />
           </button>
         )}
 
         {/* Assistant panel */}
         {assistantOpen && (
           <div className="w-80 sm:w-96 rounded-2xl border border-border bg-card shadow-2xl overflow-hidden animate-scale-in">
-            <div className="bg-slate-900 p-4 text-white flex items-center justify-between">
+            <div className="bg-[#ea580c] p-4 text-white flex items-center justify-between">
               <div className="flex items-center gap-2.5">
-                <div className="relative flex h-8 w-8 items-center justify-center rounded-full bg-slate-600 text-white font-bold text-xs">
+                <div className="relative flex h-8 w-8 items-center justify-center rounded-full bg-white/20 text-white font-bold text-xs">
                   CA
-                  <span className="absolute bottom-0 right-0 h-2 w-2 rounded-full bg-emerald-400 border-2 border-primary" />
+                  <span className="absolute bottom-0 right-0 h-2 w-2 rounded-full bg-emerald-400 border-2 border-white" />
                 </div>
                 <div>
                   <h4 className="font-display text-sm font-bold">Automation Assistant</h4>
-                  <p className="text-[10px] text-slate-300">Online · Quick Support</p>
+                  <p className="text-[10px] text-orange-100">Online · Quick Support</p>
                 </div>
               </div>
-              <button onClick={() => setAssistantOpen(false)} className="rounded-full p-1 text-white/60 hover:bg-white/10 hover:text-white">
+              <button onClick={() => setAssistantOpen(false)} className="rounded-full p-1 text-white/80 hover:bg-white/10 hover:text-white">
                 <X className="h-4 w-4" />
               </button>
             </div>
@@ -105,17 +105,17 @@ export function FloatingCornerActions() {
               </div>
 
               <div className="rounded-xl border border-border p-3 space-y-1.5 text-xs">
-                <a href={`tel:${company.phoneRaw}`} className="flex items-center gap-2 text-foreground hover:text-accent">
-                  <Phone className="h-3.5 w-3.5 text-accent" /> <span className="font-mono">{company.phone}</span>
+                <a href={`tel:${company.phoneRaw}`} className="flex items-center gap-2 text-foreground hover:text-[#ea580c]">
+                  <Phone className="h-3.5 w-3.5 text-slate-600" /> <span className="font-mono">{company.phone}</span>
                 </a>
-                <a href={`mailto:${company.email}`} className="flex items-center gap-2 text-foreground hover:text-accent">
-                  <Mail className="h-3.5 w-3.5 text-accent" /> <span>{company.email}</span>
+                <a href={`mailto:${company.email}`} className="flex items-center gap-2 text-foreground hover:text-[#ea580c]">
+                  <Mail className="h-3.5 w-3.5 text-slate-600" /> <span>{company.email}</span>
                 </a>
               </div>
 
               <div className="grid grid-cols-2 gap-2">
                 <button onClick={() => { setAssistantOpen(false); setInquiryModalOpen(true); }}
-                  className="rounded-xl border border-border bg-muted py-2 text-[11px] font-bold text-foreground hover:bg-[#c2410c] hover:text-white transition-all">
+                  className="rounded-xl bg-[#ea580c] text-white py-2 text-[11px] font-bold hover:bg-[#c2410c] transition-all text-center">
                   Request Quote
                 </button>
                 <a href={`https://wa.me/${company.whatsapp.replace(/[^0-9]/g, "")}`} target="_blank" rel="noreferrer"
@@ -132,9 +132,9 @@ export function FloatingCornerActions() {
                 <form onSubmit={handleAssistantSend} className="flex gap-2 pt-2 border-t border-border">
                   <input type="text" placeholder="Type part code or query..."
                     value={chatMessage} onChange={(e) => setChatMessage(e.target.value)}
-                    className="w-full rounded-xl border border-border bg-card px-3 py-2 text-xs text-foreground focus:outline-none focus:ring-1 focus:ring-primary" />
+                    className="w-full rounded-xl border border-border bg-card px-3 py-2 text-xs text-foreground focus:outline-none focus:ring-1 focus:ring-[#ea580c]" />
                   <button type="submit" disabled={chatLoading}
-                    className="rounded-xl bg-primary px-3 py-2 text-white hover:bg-[#c2410c] transition-colors">
+                    className="rounded-xl bg-[#ea580c] px-3 py-2 text-white hover:bg-[#c2410c] transition-colors">
                     <Send className="h-3.5 w-3.5" />
                   </button>
                 </form>
@@ -147,7 +147,7 @@ export function FloatingCornerActions() {
         <button onClick={() => setAssistantOpen((v) => !v)}
           className="relative flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-emerald-600 text-white shadow-xl hover:scale-110 hover:bg-emerald-500 transition-all animate-whatsapp-pulse">
           <MessageCircle className="h-6 w-6 sm:h-7 sm:w-7" />
-          <span className="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-accent text-[9px] font-bold text-white border-2 border-white shadow">
+          <span className="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-[#ea580c] text-[9px] font-bold text-white border-2 border-white shadow">
             1
           </span>
         </button>
@@ -158,28 +158,28 @@ export function FloatingCornerActions() {
       {/* ═══════════════════════════════════════════════════════ */}
       <nav className="block sm:hidden fixed bottom-0 inset-x-0 z-50 bg-white/95 backdrop-blur-md text-slate-700 border-t border-border shadow-lg">
         <div className="grid grid-cols-5 items-center py-2 px-1 text-center font-semibold">
-          <Link to="/" className="flex flex-col items-center justify-center py-1 text-slate-500 hover:text-primary transition-colors">
-            <Home className="h-4 w-4 text-primary mb-0.5" />
+          <Link to="/" className="flex flex-col items-center justify-center py-1 text-slate-600 hover:text-[#ea580c] transition-colors">
+            <Home className="h-4 w-4 text-slate-600 mb-0.5" />
             <span className="text-[9px] font-bold uppercase tracking-tight">Home</span>
           </Link>
 
-          <Link to="/products" className="flex flex-col items-center justify-center py-1 text-slate-500 hover:text-primary transition-colors">
-            <Package className="h-4 w-4 text-primary mb-0.5" />
+          <Link to="/products" className="flex flex-col items-center justify-center py-1 text-slate-600 hover:text-[#ea580c] transition-colors">
+            <Package className="h-4 w-4 text-[#ea580c] mb-0.5" />
             <span className="text-[9px] font-bold uppercase tracking-tight">Catalog</span>
           </Link>
 
-          <button onClick={() => setInquiryModalOpen(true)} className="flex flex-col items-center justify-center py-1 text-slate-500 hover:text-primary transition-colors">
-            <MessageSquare className="h-4 w-4 text-accent mb-0.5" />
+          <button onClick={() => setInquiryModalOpen(true)} className="flex flex-col items-center justify-center py-1 text-slate-600 hover:text-[#ea580c] transition-colors">
+            <MessageSquare className="h-4 w-4 text-slate-600 mb-0.5" />
             <span className="text-[9px] font-bold uppercase tracking-tight">Quote</span>
           </button>
 
-          <a href={`tel:${company.phoneRaw}`} className="flex flex-col items-center justify-center py-1 text-slate-500 hover:text-primary transition-colors">
+          <a href={`tel:${company.phoneRaw}`} className="flex flex-col items-center justify-center py-1 text-slate-600 hover:text-emerald-600 transition-colors">
             <Phone className="h-4 w-4 text-emerald-600 mb-0.5" />
             <span className="text-[9px] font-bold uppercase tracking-tight">Call</span>
           </a>
 
-          <button onClick={scrollToTop} className="flex flex-col items-center justify-center py-1 text-slate-500 hover:text-primary transition-colors">
-            <ArrowUp className="h-4 w-4 text-accent mb-0.5" />
+          <button onClick={scrollToTop} className="flex flex-col items-center justify-center py-1 text-slate-600 hover:text-slate-800 transition-colors">
+            <ArrowUp className="h-4 w-4 text-slate-500 mb-0.5" />
             <span className="text-[9px] font-bold uppercase tracking-tight">Top</span>
           </button>
         </div>

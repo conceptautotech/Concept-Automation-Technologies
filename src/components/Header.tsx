@@ -47,7 +47,7 @@ export function Header() {
         {/* Top Info Bar — Light High-Contrast Professional Slate */}
         <div className="hidden bg-slate-100 text-slate-800 border-b border-slate-200 md:block">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2 text-xs font-extrabold tracking-wide">
-            <span>GSTIN: <span className="font-mono text-slate-900 bg-white px-2 py-0.5 rounded border border-slate-300 font-extrabold">{company.gst}</span></span>
+            <span>GSTIN: <span className="font-mono text-slate-800 bg-white px-2 py-0.5 rounded border border-slate-300 font-extrabold">{company.gst}</span></span>
             <div className="flex items-center gap-6">
               <a href={`tel:${company.phoneRaw}`} className="flex items-center gap-1.5 text-slate-800 hover:text-primary transition-colors">
                 <Phone className="h-3 w-3 text-slate-700" /> {company.phone}
@@ -86,7 +86,7 @@ export function Header() {
               <div key={item.to} className="group relative">
                 <Link
                   to={item.to}
-                  activeProps={{ className: "!bg-slate-900 !text-white" }}
+                  activeProps={{ className: "!bg-[#ea580c] !text-white shadow-sm" }}
                   className="flex items-center gap-1 rounded-lg px-4 py-2 text-xs font-bold uppercase tracking-wider text-foreground transition-all hover:bg-muted hover:text-primary"
                 >
                   {item.label}
@@ -101,7 +101,7 @@ export function Header() {
                       <div className="border-b border-border pb-3 mb-4 flex items-center justify-between">
                         <div className="flex items-center gap-2">
                           <span className="text-[11px] font-extrabold uppercase tracking-[0.15em] text-slate-700">All Hardware Categories</span>
-                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-orange-100 text-[#ea580c]">530+ Verified Items</span>
+                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-100 text-slate-700 border border-slate-200">530+ Verified Items</span>
                         </div>
                         <Link to="/products" className="text-xs font-bold text-foreground hover:text-primary flex items-center gap-1 transition-colors">
                           View Full Catalog <ArrowRight className="h-3.5 w-3.5" />

@@ -288,10 +288,10 @@ function Products() {
             transition={{ duration: 0.4 }}
             className="mx-auto max-w-7xl px-4 sm:px-6"
           >
-            <span className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-accent">
+            <span className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-[#ea580c]">
               Complete Catalog
             </span>
-            <h1 className="mt-1 font-display text-2xl font-extrabold text-slate-900 sm:text-3xl">
+            <h1 className="mt-1 font-display text-2xl font-extrabold text-slate-800 sm:text-3xl">
               Industrial Automation Products
             </h1>
             <p className="mt-1.5 text-sm text-slate-500">
@@ -360,7 +360,7 @@ function Products() {
                   </span>
                   <span className={`rounded-xl border px-3 py-2.5 text-xs font-bold whitespace-nowrap ${
                     hasActiveFilters
-                      ? "border-[#ea580c]/30 bg-[#ea580c]/8 text-[#ea580c]"
+                      ? "border-slate-300 bg-slate-100 text-slate-800"
                       : "border-slate-200 bg-slate-50 text-slate-600"
                   }`}>
                     {filteredProducts.length} products
@@ -395,7 +395,7 @@ function Products() {
                   </span>
                 )}
                 {selectedBrand !== "All" && (
-                  <span className="inline-flex items-center gap-1 rounded-md bg-[#ea580c] px-2.5 py-1 text-[10px] font-extrabold text-white">
+                  <span className="inline-flex items-center gap-1 rounded-md bg-[#1e3a5f] px-2.5 py-1 text-[10px] font-extrabold text-white">
                     Brand: {selectedBrand}
                     <button onClick={() => handleBrandChange("All")}>
                       <X className="h-2.5 w-2.5" />
@@ -403,7 +403,7 @@ function Products() {
                   </span>
                 )}
                 {searchQuery && (
-                  <span className="inline-flex items-center gap-1 rounded-md bg-[#ea580c] px-2.5 py-1 text-[10px] font-extrabold text-white">
+                  <span className="inline-flex items-center gap-1 rounded-md bg-slate-700 px-2.5 py-1 text-[10px] font-extrabold text-white">
                     "{searchQuery}"
                     <button onClick={() => handleSearchChange("")}>
                       <X className="h-2.5 w-2.5" />
@@ -423,7 +423,7 @@ function Products() {
               <p className="text-slate-600 text-sm font-semibold">No products match your filters.</p>
               <button
                 onClick={resetFilters}
-                className="mt-4 rounded-xl bg-slate-900 px-5 py-2.5 text-xs font-bold text-white hover:bg-[#ea580c] transition-colors"
+                className="mt-4 rounded-xl bg-[#ea580c] px-5 py-2.5 text-xs font-bold text-white hover:bg-[#c2410c] transition-colors shadow-sm"
               >
                 Clear All Filters
               </button>

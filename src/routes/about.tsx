@@ -186,7 +186,7 @@ function About() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 font-sans pb-16 sm:pb-0">
+    <div className="min-h-screen bg-slate-50 text-slate-800 font-sans pb-16 sm:pb-0">
       <Header />
 
       <main>
@@ -195,7 +195,7 @@ function About() {
         {/* ══════════════════════════════════════════════════════════ */}
         <section className="relative overflow-hidden bg-gradient-to-b from-white via-slate-50/70 to-white py-16 sm:py-24 border-b border-slate-200/90">
           {/* Subtle Clean Industrial Grid Background */}
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,#00000008_1px,transparent_1px),linear-gradient(to_bottom,#00000008_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none" />
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,#ea580c08_1px,transparent_1px),linear-gradient(to_bottom,#ea580c08_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none" />
           <div className="absolute -top-24 right-10 w-96 h-96 bg-orange-400/8 rounded-full blur-3xl pointer-events-none" />
           <div className="absolute -bottom-24 left-10 w-96 h-96 bg-amber-400/8 rounded-full blur-3xl pointer-events-none" />
 
@@ -220,7 +220,7 @@ function About() {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="mt-6 font-display text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-tight max-w-4xl mx-auto"
+              className="mt-6 font-display text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-800 leading-tight max-w-4xl mx-auto"
             >
               Powering India's Industrial Floors with{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] via-orange-600 to-amber-600">
@@ -280,30 +280,32 @@ function About() {
           {/* ══════════════════════════════════════════════════════════ */}
           <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 mt-14">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-5">
-              {keyMetrics.map((metric, idx) => (
-                <motion.div
-                  key={metric.label}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.4, delay: 0.15 + idx * 0.08 }}
-                  className="rounded-2xl border border-slate-200 bg-white p-5 sm:p-6 shadow-sm hover:border-[#ea580c]/50 hover:shadow-md transition-all group"
-                >
-                  <div className="flex items-center justify-between">
-                    <span className="font-display text-3xl sm:text-4xl font-black text-slate-900 tracking-tight group-hover:text-[#ea580c] transition-colors">
-                      {metric.value}
-                    </span>
-                    <div className="rounded-xl bg-orange-50 p-2.5 text-[#ea580c] border border-orange-100">
-                      <metric.icon className="h-5 w-5" />
+              {keyMetrics.map((metric, idx) => {
+                return (
+                  <motion.div
+                    key={metric.label}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.4, delay: 0.15 + idx * 0.08 }}
+                    className="rounded-2xl border border-slate-200 bg-white p-5 sm:p-6 shadow-sm transition-all group hover:border-[#ea580c]/50 hover:shadow-md"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="font-display text-3xl sm:text-4xl font-extrabold text-slate-800 tracking-tight transition-colors group-hover:text-[#ea580c]">
+                        {metric.value}
+                      </span>
+                      <div className="rounded-xl p-2.5 border bg-orange-50 text-[#ea580c] border-orange-100">
+                        <metric.icon className="h-5 w-5" />
+                      </div>
                     </div>
-                  </div>
-                  <div className="mt-3 text-xs sm:text-sm font-bold text-slate-900">
-                    {metric.label}
-                  </div>
-                  <div className="mt-1 text-[11px] sm:text-xs text-slate-500 leading-normal">
-                    {metric.subtext}
-                  </div>
-                </motion.div>
-              ))}
+                    <div className="mt-3 text-xs sm:text-sm font-bold text-slate-800">
+                      {metric.label}
+                    </div>
+                    <div className="mt-1 text-[11px] sm:text-xs text-slate-500 leading-normal">
+                      {metric.subtext}
+                    </div>
+                  </motion.div>
+                );
+              })}
             </div>
           </div>
         </section>
@@ -357,7 +359,7 @@ function About() {
                     <div className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500">
                       {item.badge}
                     </div>
-                    <div className="text-xs sm:text-sm font-extrabold text-slate-900 truncate mt-0.5 font-mono">
+                    <div className="text-xs sm:text-sm font-extrabold text-slate-800 truncate mt-0.5 font-mono">
                       {item.title}
                     </div>
                     <div className="text-[11px] text-slate-500 truncate mt-0.5">
@@ -407,14 +409,14 @@ function About() {
                     <Building2 className="h-3.5 w-3.5" />
                     Corporate Profile & Mission
                   </span>
-                  <h2 className="mt-3 font-display text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+                  <h2 className="mt-3 font-display text-2xl sm:text-4xl font-extrabold text-slate-800 tracking-tight leading-tight">
                     Bridging Global Automation Hardware with Indian Industry
                   </h2>
                 </div>
 
                 <div className="space-y-4 text-sm sm:text-base text-slate-600 leading-relaxed">
                   <p>
-                    Established as a dedicated sole proprietorship firm in <strong className="text-slate-900 font-bold">2022</strong> at Ahmedabad, Gujarat, <strong className="text-slate-900 font-bold">Concept Automation Technologies</strong> was founded by <strong className="text-slate-900 font-bold">Mr. Gaurang Mahendrabhai Chavda</strong> to eliminate the frustrating supply bottlenecks faced by modern industrial plants and system integrators.
+                    Established as a dedicated sole proprietorship firm in <strong className="text-slate-800 font-bold">2022</strong> at Ahmedabad, Gujarat, <strong className="text-slate-800 font-bold">Concept Automation Technologies</strong> was founded by <strong className="text-slate-800 font-bold">Mr. Gaurang Mahendrabhai Chavda</strong> to eliminate the frustrating supply bottlenecks faced by modern industrial plants and system integrators.
                   </p>
                   <p>
                     Industrial plants lose thousands of dollars every hour a machine line sits idle waiting for an automation replacement. We address this vulnerability by maintaining an expansive, ready inventory of <strong className="text-slate-800">Mitsubishi MELSEC PLCs, Siemens SIMATIC CPUs, Proface touch HMIs, Omron micro-controllers, Danfoss VLT inverters, ABB drives, and Pepperl+Fuchs sensors</strong> right in our Makarba central warehouse.
@@ -438,7 +440,7 @@ function About() {
                         GC
                       </div>
                       <div>
-                        <div className="text-sm font-extrabold text-slate-900">
+                        <div className="text-sm font-extrabold text-slate-800">
                           Mr. Gaurang M. Chavda
                         </div>
                         <div className="text-xs text-slate-500 font-medium">
@@ -479,14 +481,14 @@ function About() {
                 className="lg:col-span-5 rounded-2xl border border-slate-200 bg-white shadow-lg overflow-hidden"
               >
                 {/* Clean Light Header */}
-                <div className="bg-slate-100/90 text-slate-900 p-5 sm:p-6 border-b border-slate-200">
+                <div className="bg-slate-100/90 text-slate-800 p-5 sm:p-6 border-b border-slate-200">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
                       <div className="rounded-xl bg-[#ea580c] p-2.5 text-white shadow-sm">
                         <Building2 className="h-5 w-5" />
                       </div>
                       <div>
-                        <div className="text-sm font-extrabold tracking-wide text-slate-900">
+                        <div className="text-sm font-extrabold tracking-wide text-slate-800">
                           Enterprise Dossier
                         </div>
                         <div className="text-[11px] text-slate-500 font-mono mt-0.5">
@@ -512,7 +514,7 @@ function About() {
                       </dt>
                       <dd className="text-right flex items-center gap-1.5 justify-end">
                         <span
-                          className={`font-semibold text-slate-900 ${
+                          className={`font-semibold text-slate-800 ${
                             row.mono ? "font-mono text-xs font-bold text-slate-800" : ""
                           }`}
                         >
@@ -567,7 +569,7 @@ function About() {
                 <Zap className="h-3.5 w-3.5" />
                 Why Industrial Plants Partner With Us
               </span>
-              <h2 className="mt-3 font-display text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+              <h2 className="mt-3 font-display text-2xl sm:text-4xl font-extrabold text-slate-800 tracking-tight">
                 Our Core Operational Strengths
               </h2>
               <p className="mt-3 text-sm sm:text-base text-slate-600">
@@ -595,7 +597,7 @@ function About() {
                       </span>
                     </div>
 
-                    <h3 className="text-base sm:text-lg font-extrabold text-slate-900 group-hover:text-[#ea580c] transition-colors">
+                    <h3 className="text-base sm:text-lg font-extrabold text-slate-800 group-hover:text-[#ea580c] transition-colors">
                       {item.title}
                     </h3>
                     <p className="mt-2 text-xs sm:text-sm text-slate-600 leading-relaxed">
@@ -623,7 +625,7 @@ function About() {
                 <Clock className="h-3.5 w-3.5 text-[#ea580c]" />
                 Streamlined Procurement Process
               </span>
-              <h2 className="mt-3 font-display text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+              <h2 className="mt-3 font-display text-2xl sm:text-4xl font-extrabold text-slate-800 tracking-tight">
                 From Part Inquiry to Your Factory Floor
               </h2>
               <p className="mt-3 text-sm sm:text-base text-slate-600">
@@ -639,7 +641,7 @@ function About() {
                 >
                   <div>
                     <div className="flex items-center justify-between mb-4">
-                      <span className="font-display text-2xl font-black text-[#ea580c] bg-orange-100/80 px-3 py-1 rounded-xl">
+                      <span className="font-display text-2xl font-extrabold text-[#ea580c] bg-orange-100/80 px-3 py-1 rounded-xl">
                         {step.step}
                       </span>
                       <div className="p-2 rounded-lg bg-white border border-slate-200 text-slate-700">
@@ -647,7 +649,7 @@ function About() {
                       </div>
                     </div>
 
-                    <h3 className="text-base font-extrabold text-slate-900">
+                    <h3 className="text-base font-extrabold text-slate-800">
                       {step.title}
                     </h3>
                     <p className="mt-2 text-xs sm:text-sm text-slate-600 leading-relaxed">
@@ -675,7 +677,7 @@ function About() {
                   <Factory className="h-3.5 w-3.5" />
                   Target Sectors
                 </span>
-                <h2 className="font-display text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+                <h2 className="font-display text-2xl sm:text-4xl font-extrabold text-slate-800 tracking-tight leading-tight">
                   Trusted Across Diverse Manufacturing Sectors
                 </h2>
                 <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
@@ -700,7 +702,7 @@ function About() {
                     <div className="rounded-xl bg-orange-50 border border-orange-100 p-2.5 text-[#ea580c] w-fit mb-3">
                       <ind.icon className="h-5 w-5" />
                     </div>
-                    <h3 className="text-sm font-extrabold text-slate-900">
+                    <h3 className="text-sm font-extrabold text-slate-800">
                       {ind.name}
                     </h3>
                     <p className="mt-1 text-xs text-slate-500 leading-relaxed">
@@ -723,7 +725,7 @@ function About() {
                 <Cpu className="h-3.5 w-3.5" />
                 Comprehensive Brand Coverage
               </span>
-              <h2 className="mt-3 font-display text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+              <h2 className="mt-3 font-display text-2xl sm:text-4xl font-extrabold text-slate-800 tracking-tight">
                 Global Industrial Brands We Stock
               </h2>
               <p className="mt-3 text-sm sm:text-base text-slate-600">
@@ -820,14 +822,14 @@ function About() {
         {/* 9. BOTTOM CONVERSION CTA BANNER (CLEAN PURE LIGHT THEME)   */}
         {/* ══════════════════════════════════════════════════════════ */}
         <section className="relative overflow-hidden bg-gradient-to-br from-orange-50/80 via-white to-amber-50/60 py-16 sm:py-20 border-t border-slate-200">
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,#00000006_1px,transparent_1px),linear-gradient(to_bottom,#00000006_1px,transparent_1px)] bg-[size:32px_32px] pointer-events-none" />
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,#ea580c06_1px,transparent_1px),linear-gradient(to_bottom,#ea580c06_1px,transparent_1px)] bg-[size:32px_32px] pointer-events-none" />
 
           <div className="relative z-10 mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center space-y-6">
             <span className="inline-flex items-center gap-2 rounded-full bg-orange-100 border border-orange-200 px-3.5 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
               <Zap className="h-3.5 w-3.5" /> Ready Stock & Immediate Dispatch
             </span>
 
-            <h2 className="font-display text-2xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+            <h2 className="font-display text-2xl sm:text-4xl lg:text-5xl font-extrabold text-slate-800 tracking-tight leading-tight">
               Have an Urgent Breakdown or Require a Wholesale Bill of Materials?
             </h2>
 
@@ -846,7 +848,7 @@ function About() {
 
               <a
                 href={`tel:${company.phoneRaw}`}
-                className="inline-flex items-center gap-2 rounded-xl bg-white border border-slate-300 hover:bg-slate-50 px-6 py-4 text-sm font-bold text-slate-900 transition-all shadow-xs"
+                className="inline-flex items-center gap-2 rounded-xl bg-white border-2 border-slate-300 hover:bg-slate-50 px-6 py-4 text-sm font-bold text-slate-800 transition-all shadow-xs"
               >
                 <Phone className="h-4 w-4 text-[#ea580c]" />
                 Call Trade Desk: {company.phone}
@@ -877,7 +879,7 @@ function About() {
               </span>
               <span>•</span>
               <span className="flex items-center gap-1.5">
-                <Clock className="h-3.5 w-3.5 text-blue-600" />
+                <Clock className="h-3.5 w-3.5 text-slate-600" />
                 Dispatch within 24–48 Hours
               </span>
             </div>

@@ -106,7 +106,7 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
           )}
 
           {/* Brand Badge */}
-          <span className="absolute left-2.5 top-2.5 z-10 rounded-md bg-slate-900 px-2 py-0.5 text-[9px] font-extrabold uppercase tracking-wider text-white shadow-2xs">
+          <span className="absolute left-2.5 top-2.5 z-10 rounded-md bg-white/95 backdrop-blur-sm border border-slate-200 text-slate-800 px-2 py-0.5 text-[9px] font-extrabold uppercase tracking-wider shadow-2xs">
             {product.brand || product.category.split(" ")[0]}
           </span>
 
@@ -153,7 +153,7 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
             <Link
               to="/products/$slug"
               params={{ slug }}
-              className="text-xs sm:text-sm font-extrabold leading-tight text-slate-900 line-clamp-2 group-hover:text-primary transition-colors block mb-1"
+              className="text-xs sm:text-sm font-extrabold leading-tight text-slate-800 line-clamp-2 group-hover:text-primary transition-colors block mb-1"
             >
               {displayTitle}
             </Link>
@@ -169,7 +169,7 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
           <div className="pt-2 border-t border-slate-100 flex items-center gap-2 mt-auto">
             <button
               onClick={(e) => { e.stopPropagation(); setModalOpen(true); }}
-              className="flex-1 inline-flex items-center justify-center gap-1 rounded-lg bg-slate-900 hover:bg-[#ea580c] active:scale-98 px-2.5 py-2 text-[11px] font-bold uppercase tracking-wider text-white transition-all shadow-xs cursor-pointer"
+              className="flex-1 inline-flex items-center justify-center gap-1 rounded-lg bg-[#ea580c] hover:bg-[#c2410c] active:scale-98 px-2.5 py-2 text-[11px] font-bold uppercase tracking-wider text-white transition-all shadow-xs cursor-pointer"
             >
               <MessageSquare className="h-3 w-3 text-white" /> Get Quote
             </button>

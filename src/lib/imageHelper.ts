@@ -83,7 +83,7 @@ export function getSvgDataUrl(name: string, brand?: string, partNumber?: string)
     <circle cx="200" cy="95" r="30" fill="${brandColor}" fill-opacity="0.1" stroke="${brandColor}" stroke-width="2.5"/>
     <path d="M190 95L197 102L212 87" stroke="${brandColor}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
     <text x="200" y="150" fill="${brandColor}" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="1.5">${cleanBrand}</text>
-    <text x="200" y="176" fill="#0f172a" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" text-anchor="middle">${cleanName}</text>
+    <text x="200" y="176" fill="#1e293b" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" text-anchor="middle">${cleanName}</text>
     ${cleanPn ? `<rect x="110" y="190" width="180" height="24" rx="5" fill="#F1F5F9" stroke="#CBD5E1"/>
     <text x="200" y="206" fill="#334155" font-family="monospace" font-size="10" font-weight="700" text-anchor="middle">PN: ${cleanPn}</text>` : ''}
     <text x="200" y="238" fill="#64748B" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="600" text-anchor="middle">100% Genuine Sealed Stock</text>

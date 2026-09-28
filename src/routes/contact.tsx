@@ -58,7 +58,7 @@ function Contact() {
             transition={{ duration: 0.5 }}
             className="mx-auto max-w-7xl px-4 sm:px-6"
           >
-            <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-accent">Direct Support & Inquiries</span>
+            <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#ea580c]">Direct Support & Inquiries</span>
             <h1 className="mt-2 font-display text-3xl font-extrabold tracking-tight sm:text-5xl">
               Get in Touch with Concept Automation Technologies
             </h1>
@@ -78,23 +78,23 @@ function Contact() {
           >
             <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
               <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
-                <Building2 className="h-5 w-5 text-accent shrink-0" />
+                <Building2 className="h-5 w-5 text-[#ea580c] shrink-0" />
                 <div>
                   <h3 className="font-display text-sm font-bold text-slate-800">{company.name}</h3>
-                  <p className="text-xs text-accent font-semibold font-mono">GSTIN: {company.gst}</p>
+                  <p className="text-xs text-slate-600 font-semibold font-mono">GSTIN: {company.gst}</p>
                 </div>
               </div>
 
               <ul className="mt-4 space-y-4 text-sm">
                 <li className="flex items-start gap-3">
-                  <User className="h-4 w-4 text-accent shrink-0 mt-0.5" />
+                  <User className="h-4 w-4 text-slate-500 shrink-0 mt-0.5" />
                   <div>
                     <div className="font-semibold text-slate-800">{company.proprietor}</div>
                     <div className="text-slate-500 text-xs">Proprietor</div>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Phone className="h-4 w-4 text-accent shrink-0 mt-0.5" />
+                  <Phone className="h-4 w-4 text-slate-500 shrink-0 mt-0.5" />
                   <div>
                     <div className="text-[10px] font-bold uppercase tracking-[0.15em] text-slate-400">Phone / WhatsApp</div>
                     <a href={`tel:${company.phoneRaw}`} className="font-mono font-semibold text-slate-800 hover:text-primary transition-colors">
@@ -103,7 +103,7 @@ function Contact() {
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Mail className="h-4 w-4 text-accent shrink-0 mt-0.5" />
+                  <Mail className="h-4 w-4 text-slate-500 shrink-0 mt-0.5" />
                   <div>
                     <div className="text-[10px] font-bold uppercase tracking-[0.15em] text-slate-400">Sales Email</div>
                     <a href={`mailto:${company.email}`} className="font-semibold text-slate-800 hover:text-primary transition-colors">
@@ -112,12 +112,12 @@ function Contact() {
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <MapPin className="h-4 w-4 text-accent shrink-0 mt-0.5" />
+                  <MapPin className="h-4 w-4 text-slate-500 shrink-0 mt-0.5" />
                   <div>
                     <div className="text-[10px] font-bold uppercase tracking-[0.15em] text-slate-400">Office & Warehouse</div>
                     <div className="font-medium text-slate-700 leading-relaxed text-sm">{company.address}</div>
                     <a href={`https://maps.google.com/?q=${encodeURIComponent(company.address)}`} target="_blank" rel="noreferrer"
-                      className="mt-1 inline-flex items-center gap-1 text-xs font-semibold text-accent hover:text-accent/90">
+                      className="mt-1 inline-flex items-center gap-1 text-xs font-semibold text-[#ea580c] hover:underline">
                       View on Google Maps <ExternalLink className="h-3 w-3" />
                     </a>
                   </div>

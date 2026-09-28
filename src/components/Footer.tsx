@@ -37,7 +37,7 @@ export function Footer() {
   return (
     <>
       <footer className="bg-slate-200 text-slate-800 border-t border-slate-300">
-        {/* Subtle Accent Top Line */}
+        {/* Subtle Top Line */}
         <div className="h-0.5 w-full bg-slate-300" />
 
         {/* Main 4-Column Layout - Perfectly Balanced & Spaced */}
@@ -46,7 +46,7 @@ export function Footer() {
             
             {/* COLUMN 1: BRANDS */}
             <div>
-              <h3 className="text-xs font-extrabold uppercase tracking-widest text-slate-900 mb-3.5">
+              <h3 className="text-xs font-extrabold uppercase tracking-widest text-slate-800 mb-3.5">
                 BRANDS
               </h3>
               <ul className="space-y-2 text-xs sm:text-[13px] font-medium text-slate-700">
@@ -64,9 +64,9 @@ export function Footer() {
                 <li className="pt-1">
                   <Link
                     to="/products"
-                    className="inline-flex items-center gap-1 text-[11px] font-extrabold text-slate-900 hover:text-primary uppercase tracking-wider transition-colors"
+                    className="inline-flex items-center gap-1 text-[11px] font-extrabold text-[#ea580c] hover:underline uppercase tracking-wider transition-colors"
                   >
-                    View All Brands <ArrowRight className="h-3 w-3 text-slate-500" />
+                    View All Brands <ArrowRight className="h-3 w-3 text-[#ea580c]" />
                   </Link>
                 </li>
               </ul>
@@ -74,7 +74,7 @@ export function Footer() {
 
             {/* COLUMN 2: CATEGORIES */}
             <div>
-              <h3 className="text-xs font-extrabold uppercase tracking-widest text-slate-900 mb-3.5">
+              <h3 className="text-xs font-extrabold uppercase tracking-widest text-slate-800 mb-3.5">
                 CATEGORIES
               </h3>
               <ul className="space-y-2 text-xs sm:text-[13px] font-medium text-slate-700">
@@ -94,7 +94,7 @@ export function Footer() {
 
             {/* COLUMN 3: QUICK LINKS */}
             <div>
-              <h3 className="text-xs font-extrabold uppercase tracking-widest text-slate-900 mb-3.5">
+              <h3 className="text-xs font-extrabold uppercase tracking-widest text-slate-800 mb-3.5">
                 QUICK LINKS
               </h3>
               <ul className="space-y-2 text-xs sm:text-[13px] font-medium text-slate-700">
@@ -114,34 +114,34 @@ export function Footer() {
 
             {/* COLUMN 4: CONTACT INFORMATION */}
             <div>
-              <h3 className="text-xs font-extrabold uppercase tracking-widest text-slate-900 mb-3.5">
+              <h3 className="text-xs font-extrabold uppercase tracking-widest text-slate-800 mb-3.5">
                 CONTACT US
               </h3>
               
               <div className="text-xs sm:text-[13px] text-slate-700 space-y-2 font-medium leading-relaxed">
                 <p>
-                  <strong className="text-slate-900 font-extrabold">Phone:</strong>{" "}
-                  <a href={`tel:${company.phoneRaw}`} className="hover:text-primary font-mono font-bold text-slate-900">
+                  <strong className="text-slate-800 font-extrabold">Phone:</strong>{" "}
+                  <a href={`tel:${company.phoneRaw}`} className="hover:text-primary font-mono font-bold text-slate-800">
                     {company.phone}
                   </a>
                 </p>
                 <p className="truncate">
-                  <strong className="text-slate-900 font-extrabold">Email:</strong>{" "}
-                  <a href={`mailto:${company.email}`} className="hover:text-primary text-slate-900 font-semibold">
+                  <strong className="text-slate-800 font-extrabold">Email:</strong>{" "}
+                  <a href={`mailto:${company.email}`} className="hover:text-primary text-slate-800 font-semibold">
                     {company.email}
                   </a>
                 </p>
                 <p>
-                  <strong className="text-slate-900 font-extrabold">Hours:</strong> Mon – Sat (10:00am – 7:00pm)
+                  <strong className="text-slate-800 font-extrabold">Hours:</strong> Mon – Sat (10:00am – 7:00pm)
                 </p>
                 <p className="line-clamp-2 text-slate-600">
-                  <strong className="text-slate-900 font-extrabold">Address:</strong> Titanium Business Park, Makarba, Ahmedabad
+                  <strong className="text-slate-800 font-extrabold">Address:</strong> Titanium Business Park, Makarba, Ahmedabad
                 </p>
 
                 <div className="pt-2">
                   <button
                     onClick={() => setInquiryOpen(true)}
-                    className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 hover:bg-[#ea580c] active:scale-98 px-4 py-2.5 text-xs font-extrabold uppercase tracking-wider text-white transition-all shadow-xs cursor-pointer"
+                    className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-[#ea580c] hover:bg-[#c2410c] active:scale-98 px-4 py-2.5 text-xs font-extrabold uppercase tracking-wider text-white transition-all shadow-xs cursor-pointer"
                   >
                     <MessageSquare className="h-3.5 w-3.5 text-white" /> Request Price Quote
                   </button>
@@ -163,13 +163,13 @@ export function Footer() {
                   height={28}
                 />
               </div>
-              <div className="font-display text-xs sm:text-sm font-extrabold uppercase tracking-tight text-slate-900">
+              <div className="font-display text-xs sm:text-sm font-extrabold uppercase tracking-tight text-slate-800">
                 CONCEPT <span className="text-[#ea580c]">AUTOMATION</span> TECHNOLOGIES
               </div>
             </Link>
 
             <div className="text-xs font-semibold text-slate-600 text-center sm:text-right">
-              Copyright © {new Date().getFullYear()} <strong className="text-slate-900 font-bold">Concept Automation Technologies</strong>. All Rights Reserved.
+              Copyright © {new Date().getFullYear()} <strong className="text-slate-800 font-bold">Concept Automation Technologies</strong>. All Rights Reserved.
             </div>
           </div>
         </div>

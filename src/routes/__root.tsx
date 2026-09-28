@@ -57,7 +57,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 
       <main className="flex-1 flex items-center justify-center py-16 px-4">
         <div className="max-w-lg w-full text-center bg-white p-8 rounded-3xl border border-slate-200 shadow-xl">
-          <div className="mx-auto h-16 w-16 rounded-2xl bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-600 mb-4 font-black text-xl">
+          <div className="mx-auto h-16 w-16 rounded-2xl bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-600 mb-4 font-extrabold text-xl">
             !
           </div>
           <h1 className="text-xl sm:text-2xl font-extrabold text-slate-800 tracking-tight">

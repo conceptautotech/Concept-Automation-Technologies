@@ -907,15 +907,15 @@ function DashboardView({ onLogout }: DashboardViewProps) {
             }}
             className={`rounded-2xl border p-5 shadow-sm cursor-pointer select-none transition-all duration-200 hover:shadow-md hover:scale-[1.02] ${
               selectedTypeFilter === "PLC"
-                ? "border-blue-500 bg-blue-50/40 ring-1 ring-blue-500/30"
-                : "border-[#e7e5e4] bg-white hover:border-blue-500/50"
+                ? "border-slate-400 bg-slate-100 ring-1 ring-slate-400/30"
+                : "border-[#e7e5e4] bg-white hover:border-slate-300"
             }`}
           >
-            <div className="flex items-center gap-3 text-blue-600 mb-2">
+            <div className="flex items-center gap-3 text-slate-800 mb-2">
               <Cpu className="h-5 w-5" />
               <span className="text-xs font-bold uppercase tracking-wider text-slate-500">PLC Controllers</span>
             </div>
-            <p className="text-3xl font-extrabold text-blue-600">{metrics.plcCount}</p>
+            <p className="text-3xl font-extrabold text-slate-800">{metrics.plcCount}</p>
             <p className="text-[10px] text-slate-400 font-semibold mt-1">Click to filter PLCs</p>
           </div>
 
@@ -1133,13 +1133,13 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                               type="text"
                               value={currentType}
                               onChange={(e) => handleInlineChange(p.slug, "type", e.target.value)}
-                              className="rounded bg-blue-50 border border-blue-200/60 hover:border-blue-300 px-1.5 py-0.5 text-[9px] font-bold text-blue-700 w-24 text-center focus:bg-white focus:outline-none transition-all"
+                              className="rounded bg-slate-100 border border-slate-200 hover:border-slate-300 px-1.5 py-0.5 text-[9px] font-bold text-slate-700 w-24 text-center focus:bg-white focus:outline-none transition-all"
                               placeholder="Type"
                               list="types-datalist"
                             />
                           </div>
                           {p.isCustom ? (
-                            <span className="rounded bg-blue-50 border border-blue-200 px-1.5 py-0.5 text-[9px] font-bold text-blue-700 select-none">
+                            <span className="rounded bg-slate-100 border border-slate-200 px-1.5 py-0.5 text-[9px] font-bold text-slate-700 select-none">
                               Custom Added
                             </span>
                           ) : dbProducts.some(dbp => dbp.slug === p.slug) ? (
@@ -1258,7 +1258,7 @@ function DashboardView({ onLogout }: DashboardViewProps) {
                             {p.brand}
                           </span>
                           {p.isCustom ? (
-                            <span className="rounded bg-blue-50 border border-blue-200 px-1 py-0.2 text-[8px] font-bold text-blue-700">
+                            <span className="rounded bg-slate-100 border border-slate-200 px-1 py-0.2 text-[8px] font-bold text-slate-700">
                               Custom
                             </span>
                           ) : dbProducts.some(dbp => dbp.slug === p.slug) ? (
