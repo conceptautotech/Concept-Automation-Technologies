@@ -155,6 +155,93 @@
   border: 1px solid rgba(231, 229, 228, 0.9);
 }
 
+/* ════════════════════════════════════════════════════════════════ */
+/* GLASS COLORED BLUE BUTTONS                                      */
+/* ════════════════════════════════════════════════════════════════ */
+
+/* Variant 1: Vibrant Cobalt Glass (Default) - Deep translucent blue with glossy specular shine */
+.btn-glass-blue {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(29, 78, 216, 0.92) 0%, rgba(37, 99, 235, 0.88) 50%, rgba(30, 64, 175, 0.94) 100%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(191, 219, 254, 0.45);
+  color: #ffffff !important;
+  box-shadow: 
+    inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.45),
+    0 4px 14px -2px rgba(29, 78, 216, 0.35);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-glass-blue::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.02) 100%);
+  border-radius: inherit;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.btn-glass-blue:hover {
+  background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 50%, #1e40af 100%);
+  border-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 
+    inset 0 1px 2px 0 rgba(255, 255, 255, 0.65),
+    0 8px 24px -2px rgba(29, 78, 216, 0.5);
+  transform: translateY(-1.5px);
+}
+
+.btn-glass-blue:hover::before {
+  opacity: 0.45;
+}
+
+.btn-glass-blue:active {
+  transform: scale(0.98);
+}
+
+/* Variant 2: Frosted Ice-Blue Glass (Soft Tinted Option) */
+.btn-glass-blue-frosted {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(29, 78, 216, 0.12) 0%, rgba(37, 99, 235, 0.18) 50%, rgba(14, 165, 233, 0.14) 100%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(59, 130, 246, 0.38);
+  color: #1d4ed8 !important;
+  box-shadow: 
+    inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.9),
+    0 2px 8px -2px rgba(29, 78, 216, 0.18);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-glass-blue-frosted::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.05) 100%);
+  border-radius: inherit;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.btn-glass-blue-frosted:hover {
+  background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 50%, #1e40af 100%);
+  border-color: #1d4ed8;
+  color: #ffffff !important;
+  box-shadow: 
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.4),
+    0 8px 24px -2px rgba(29, 78, 216, 0.4);
+  transform: translateY(-1.5px);
+}
+
 @keyframes whatsappPulse {
   0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.6); }
   70% { box-shadow: 0 0 0 12px rgba(16, 185, 129, 0); }

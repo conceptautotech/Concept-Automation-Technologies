@@ -200,9 +200,9 @@ export function ProductCard({ product, index = 0, layout = "grid" }: ProductCard
           <div className="flex sm:flex-col items-center gap-2 shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-slate-100">
             <button
               onClick={(e) => { e.stopPropagation(); setModalOpen(true); }}
-              className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-slate-50/90 hover:bg-[#ea580c] hover:border-[#ea580c] text-slate-700 hover:text-white active:scale-98 px-4 py-2 text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-2xs hover:shadow-md hover:shadow-orange-500/20 cursor-pointer whitespace-nowrap group/btn"
+              className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 rounded-xl btn-glass-blue active:scale-98 px-4 py-2 text-xs font-bold uppercase tracking-wider cursor-pointer whitespace-nowrap group/btn"
             >
-              <MessageSquare className="h-3.5 w-3.5 text-[#ea580c] group-hover/btn:text-white transition-colors" /> Get Quote
+              <MessageSquare className="h-3.5 w-3.5 text-white/90 group-hover/btn:text-white transition-colors" /> Get Quote
             </button>
             <Link
               to="/products/$slug"
@@ -323,9 +323,9 @@ export function ProductCard({ product, index = 0, layout = "grid" }: ProductCard
             <button
               type="button"
               onClick={(e) => { e.stopPropagation(); setModalOpen(true); }}
-              className={`flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-slate-50/90 hover:bg-[#ea580c] hover:border-[#ea580c] text-slate-700 hover:text-white active:scale-98 ${isCompact ? "px-2 py-2 text-[11px]" : "px-3 py-2 text-xs"} font-bold uppercase tracking-wider transition-all duration-200 shadow-2xs hover:shadow-md hover:shadow-orange-500/20 cursor-pointer group/btn`}
+              className={`flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl btn-glass-blue active:scale-98 ${isCompact ? "px-2 py-2 text-[11px]" : "px-3 py-2 text-xs"} font-bold uppercase tracking-wider cursor-pointer group/btn`}
             >
-              <MessageSquare className="h-3.5 w-3.5 text-[#ea580c] group-hover/btn:text-white transition-colors" />
+              <MessageSquare className="h-3.5 w-3.5 text-white/90 group-hover/btn:text-white transition-colors" />
               <span>Get Quote</span>
             </button>
 
