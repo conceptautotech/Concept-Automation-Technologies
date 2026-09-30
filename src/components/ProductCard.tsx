@@ -202,7 +202,7 @@ export function ProductCard({ product, index = 0, layout = "grid" }: ProductCard
               onClick={(e) => { e.stopPropagation(); setModalOpen(true); }}
               className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 rounded-xl btn-glass-blue active:scale-98 px-4 py-2 text-xs font-bold uppercase tracking-wider cursor-pointer whitespace-nowrap group/btn"
             >
-              <MessageSquare className="h-3.5 w-3.5 text-white/90 group-hover/btn:text-white transition-colors" /> Get Quote
+              <MessageSquare className="h-3.5 w-3.5 text-[#ea580c] group-hover/btn:text-white transition-colors" /> Get Quote
             </button>
             <Link
               to="/products/$slug"
@@ -325,7 +325,7 @@ export function ProductCard({ product, index = 0, layout = "grid" }: ProductCard
               onClick={(e) => { e.stopPropagation(); setModalOpen(true); }}
               className={`flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl btn-glass-blue active:scale-98 ${isCompact ? "px-2 py-2 text-[11px]" : "px-3 py-2 text-xs"} font-bold uppercase tracking-wider cursor-pointer group/btn`}
             >
-              <MessageSquare className="h-3.5 w-3.5 text-white/90 group-hover/btn:text-white transition-colors" />
+              <MessageSquare className="h-3.5 w-3.5 text-[#ea580c] group-hover/btn:text-white transition-colors" />
               <span>Get Quote</span>
             </button>
 
