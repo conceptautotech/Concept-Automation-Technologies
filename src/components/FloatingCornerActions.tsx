@@ -83,7 +83,7 @@ export function FloatingCornerActions() {
         {/* Assistant panel */}
         {assistantOpen && (
           <div className="w-80 sm:w-96 rounded-2xl border border-border bg-card shadow-2xl overflow-hidden animate-scale-in">
-            <div className="bg-[#ea580c] p-4 text-white flex items-center justify-between">
+            <div className="bg-[#1d4ed8] p-4 text-white flex items-center justify-between">
               <div className="flex items-center gap-2.5">
                 <div className="relative flex h-8 w-8 items-center justify-center rounded-full bg-white/20 text-white font-bold text-xs">
                   CA
@@ -91,7 +91,7 @@ export function FloatingCornerActions() {
                 </div>
                 <div>
                   <h4 className="font-display text-sm font-bold">Automation Assistant</h4>
-                  <p className="text-[10px] text-orange-100">Online · Quick Support</p>
+                  <p className="text-[10px] text-blue-100">Online · Quick Support</p>
                 </div>
               </div>
               <button onClick={() => setAssistantOpen(false)} className="rounded-full p-1 text-white/80 hover:bg-white/10 hover:text-white">
@@ -105,17 +105,17 @@ export function FloatingCornerActions() {
               </div>
 
               <div className="rounded-xl border border-border p-3 space-y-1.5 text-xs">
-                <a href={`tel:${company.phoneRaw}`} className="flex items-center gap-2 text-foreground hover:text-[#ea580c]">
+                <a href={`tel:${company.phoneRaw}`} className="flex items-center gap-2 text-foreground hover:text-[#1d4ed8]">
                   <Phone className="h-3.5 w-3.5 text-slate-600" /> <span className="font-mono">{company.phone}</span>
                 </a>
-                <a href={`mailto:${company.email}`} className="flex items-center gap-2 text-foreground hover:text-[#ea580c]">
+                <a href={`mailto:${company.email}`} className="flex items-center gap-2 text-foreground hover:text-[#1d4ed8]">
                   <Mail className="h-3.5 w-3.5 text-slate-600" /> <span>{company.email}</span>
                 </a>
               </div>
 
               <div className="grid grid-cols-2 gap-2">
                 <button onClick={() => { setAssistantOpen(false); setInquiryModalOpen(true); }}
-                  className="rounded-xl bg-[#ea580c] text-white py-2 text-[11px] font-bold hover:bg-[#c2410c] transition-all text-center">
+                  className="rounded-xl bg-primary text-white py-2 text-[11px] font-bold hover:bg-[#c2410c] transition-all text-center cursor-pointer shadow-xs">
                   Request Quote
                 </button>
                 <a href={`https://wa.me/${company.whatsapp.replace(/[^0-9]/g, "")}`} target="_blank" rel="noreferrer"
@@ -132,9 +132,9 @@ export function FloatingCornerActions() {
                 <form onSubmit={handleAssistantSend} className="flex gap-2 pt-2 border-t border-border">
                   <input type="text" placeholder="Type part code or query..."
                     value={chatMessage} onChange={(e) => setChatMessage(e.target.value)}
-                    className="w-full rounded-xl border border-border bg-card px-3 py-2 text-xs text-foreground focus:outline-none focus:ring-1 focus:ring-[#ea580c]" />
+                    className="w-full rounded-xl border border-border bg-card px-3 py-2 text-xs text-foreground focus:outline-none focus:ring-1 focus:ring-[#1d4ed8]" />
                   <button type="submit" disabled={chatLoading}
-                    className="rounded-xl bg-[#ea580c] px-3 py-2 text-white hover:bg-[#c2410c] transition-colors">
+                    className="rounded-xl bg-[#1d4ed8] px-3 py-2 text-white hover:bg-[#1e40af] transition-colors">
                     <Send className="h-3.5 w-3.5" />
                   </button>
                 </form>
@@ -158,17 +158,17 @@ export function FloatingCornerActions() {
       {/* ═══════════════════════════════════════════════════════ */}
       <nav className="block sm:hidden fixed bottom-0 inset-x-0 z-50 bg-white/95 backdrop-blur-md text-slate-700 border-t border-border shadow-lg">
         <div className="grid grid-cols-5 items-center py-2 px-1 text-center font-semibold">
-          <Link to="/" className="flex flex-col items-center justify-center py-1 text-slate-600 hover:text-[#ea580c] transition-colors">
+          <Link to="/" className="flex flex-col items-center justify-center py-1 text-slate-600 hover:text-[#1d4ed8] transition-colors">
             <Home className="h-4 w-4 text-slate-600 mb-0.5" />
             <span className="text-[9px] font-bold uppercase tracking-tight">Home</span>
           </Link>
 
-          <Link to="/products" className="flex flex-col items-center justify-center py-1 text-slate-600 hover:text-[#ea580c] transition-colors">
-            <Package className="h-4 w-4 text-[#ea580c] mb-0.5" />
+          <Link to="/products" className="flex flex-col items-center justify-center py-1 text-slate-600 hover:text-[#1d4ed8] transition-colors">
+            <Package className="h-4 w-4 text-[#1d4ed8] mb-0.5" />
             <span className="text-[9px] font-bold uppercase tracking-tight">Catalog</span>
           </Link>
 
-          <button onClick={() => setInquiryModalOpen(true)} className="flex flex-col items-center justify-center py-1 text-slate-600 hover:text-[#ea580c] transition-colors">
+          <button onClick={() => setInquiryModalOpen(true)} className="flex flex-col items-center justify-center py-1 text-slate-600 hover:text-[#1d4ed8] transition-colors">
             <MessageSquare className="h-4 w-4 text-slate-600 mb-0.5" />
             <span className="text-[9px] font-bold uppercase tracking-tight">Quote</span>
           </button>

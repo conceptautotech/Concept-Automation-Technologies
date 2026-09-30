@@ -43,7 +43,7 @@ function Contact() {
     }
   };
 
-  const inputClass = "w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-800 placeholder-slate-400 focus:border-[#ea580c] focus:outline-none focus:ring-2 focus:ring-[#ea580c]/20";
+  const inputClass = "w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-800 placeholder-slate-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20";
 
   return (
     <div className="min-h-screen bg-background">
@@ -51,14 +51,14 @@ function Contact() {
 
       <main>
         {/* Banner */}
-        <section className="bg-gradient-to-r from-[#f5f5f5] via-white to-[#f5f5f5] py-12 sm:py-16 text-foreground border-b border-border">
+        <section className="bg-gradient-to-br from-[#f0f6ff] via-white to-[#f5f8fc] py-12 sm:py-16 text-foreground border-b border-border">
           <motion.div 
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             className="mx-auto max-w-7xl px-4 sm:px-6"
           >
-            <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#ea580c]">Direct Support & Inquiries</span>
+            <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#1d4ed8]">Direct Support & Inquiries</span>
             <h1 className="mt-2 font-display text-3xl font-extrabold tracking-tight sm:text-5xl">
               Get in Touch with Concept Automation Technologies
             </h1>
@@ -78,7 +78,7 @@ function Contact() {
           >
             <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
               <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
-                <Building2 className="h-5 w-5 text-[#ea580c] shrink-0" />
+                <Building2 className="h-5 w-5 text-[#1d4ed8] shrink-0" />
                 <div>
                   <h3 className="font-display text-sm font-bold text-slate-800">{company.name}</h3>
                   <p className="text-xs text-slate-600 font-semibold font-mono">GSTIN: {company.gst}</p>
@@ -117,7 +117,7 @@ function Contact() {
                     <div className="text-[10px] font-bold uppercase tracking-[0.15em] text-slate-400">Office & Warehouse</div>
                     <div className="font-medium text-slate-700 leading-relaxed text-sm">{company.address}</div>
                     <a href={`https://maps.google.com/?q=${encodeURIComponent(company.address)}`} target="_blank" rel="noreferrer"
-                      className="mt-1 inline-flex items-center gap-1 text-xs font-semibold text-[#ea580c] hover:underline">
+                      className="mt-1 inline-flex items-center gap-1 text-xs font-semibold text-[#1d4ed8] hover:underline">
                       View on Google Maps <ExternalLink className="h-3 w-3" />
                     </a>
                   </div>
@@ -166,7 +166,7 @@ function Contact() {
                 </p>
                 <button
                   onClick={() => { setSent(false); setFormData({ name: "", phone: "", email: "", companyName: "", subject: "Industrial Automation Inquiry", message: "" }); }}
-                  className="mt-5 rounded-xl bg-[#ea580c] px-6 py-2.5 text-xs font-semibold text-white hover:bg-[#c2410c] transition-colors"
+                  className="mt-5 rounded-xl bg-[#1d4ed8] px-6 py-2.5 text-xs font-semibold text-white hover:bg-[#1e40af] transition-colors"
                 >
                   Send Another Message
                 </button>
@@ -213,8 +213,9 @@ function Contact() {
                 </div>
 
                 <button type="submit" disabled={loading}
-                  className="w-full flex items-center justify-center gap-2 rounded-xl bg-[#ea580c] py-3.5 text-sm font-semibold text-white hover:bg-[#c2410c] transition-colors disabled:opacity-50">
-                  {loading ? "Submitting..." : <><Send className="h-4 w-4" /> Send Message</>}
+                  className="w-full flex items-center justify-center gap-2 rounded-xl bg-primary py-3.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#c2410c] shadow-md shadow-orange-500/20 transition-all disabled:opacity-50 cursor-pointer"
+                >
+                  {loading ? "Submitting..." : <><Send className="h-4 w-4 text-white" /> Send Message</>}
                 </button>
               </form>
             )}

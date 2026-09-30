@@ -49,7 +49,7 @@ export function InquiryModal({ isOpen, onClose, productName = "", partNumber = "
     }
   };
 
-  const inputClass = "w-full rounded-lg border border-border bg-card px-4 py-2.5 text-xs text-foreground placeholder-stone-400 focus:border-[#ea580c] focus:outline-none focus:ring-1 focus:ring-[#ea580c]/25";
+  const inputClass = "w-full rounded-lg border border-border bg-card px-4 py-2.5 text-xs text-foreground placeholder-stone-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-1 focus:ring-[#1d4ed8]/25";
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-700/50 p-4 backdrop-blur-sm animate-fade-in" onClick={onClose}>
@@ -72,7 +72,7 @@ export function InquiryModal({ isOpen, onClose, productName = "", partNumber = "
               </p>
               <button
                 onClick={() => { setSubmitted(false); onClose(); }}
-                className="mt-5 w-full rounded-lg bg-primary py-2.5 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] transition-colors"
+                className="mt-5 w-full rounded-lg bg-primary py-2.5 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] shadow-md shadow-orange-500/20 transition-colors cursor-pointer"
               >
                 Done
               </button>
@@ -100,9 +100,9 @@ export function InquiryModal({ isOpen, onClose, productName = "", partNumber = "
                 className={`${inputClass} resize-none`} />
 
               <button type="submit" disabled={loading}
-                className="w-full flex items-center justify-center gap-2 rounded-lg bg-primary py-3 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] transition-colors disabled:opacity-50"
+                className="w-full flex items-center justify-center gap-2 rounded-lg bg-primary py-3 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] shadow-md shadow-orange-500/20 transition-colors disabled:opacity-50 cursor-pointer"
               >
-                {loading ? "Submitting..." : <><Send className="h-4 w-4 text-accent" /> Submit Inquiry</>}
+                {loading ? "Submitting..." : <><Send className="h-4 w-4 text-white" /> Submit Inquiry</>}
               </button>
 
               <div className="flex items-center justify-center gap-1.5 pt-1 text-[11px] text-muted-foreground">

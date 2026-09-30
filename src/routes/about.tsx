@@ -181,11 +181,11 @@ function About() {
         {/* ══════════════════════════════════════════════════════════ */}
         {/* 1. HERO SECTION (CLEAN PURE LIGHT THEME)                   */}
         {/* ══════════════════════════════════════════════════════════ */}
-        <section className="relative overflow-hidden bg-gradient-to-b from-white via-slate-50/70 to-white py-16 sm:py-24 border-b border-slate-200/90">
+        <section className="relative overflow-hidden bg-gradient-to-b from-[#f0f6ff] via-white to-[#f5f8fc] py-16 sm:py-24 border-b border-slate-200/90">
           {/* Subtle Clean Industrial Grid Background */}
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,#ea580c08_1px,transparent_1px),linear-gradient(to_bottom,#ea580c08_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none" />
-          <div className="absolute -top-24 right-10 w-96 h-96 bg-orange-400/8 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute -bottom-24 left-10 w-96 h-96 bg-amber-400/8 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,#1d4ed808_1px,transparent_1px),linear-gradient(to_bottom,#1d4ed808_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none" />
+          <div className="absolute -top-24 right-10 w-96 h-96 bg-blue-400/8 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute -bottom-24 left-10 w-96 h-96 bg-blue-300/8 rounded-full blur-3xl pointer-events-none" />
 
           <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
             {/* Status Pill */}
@@ -198,7 +198,7 @@ function About() {
               <span className="flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
               <span>ESTABLISHED 2022</span>
               <span className="text-slate-300">•</span>
-              <span className="text-[#ea580c] font-bold">AHMEDABAD, GUJARAT</span>
+              <span className="text-[#1d4ed8] font-bold">AHMEDABAD, GUJARAT</span>
               <span className="text-slate-300">•</span>
               <span className="text-slate-600 font-medium">TRUST SEAL CERTIFIED</span>
             </motion.div>
@@ -211,7 +211,7 @@ function About() {
               className="mt-6 font-display text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-800 leading-tight max-w-4xl mx-auto"
             >
               Powering India's Industrial Floors with{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] via-orange-600 to-amber-600">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#1d4ed8] via-blue-600 to-indigo-600">
                 Verified OEM Automation
               </span>
             </motion.h1>
@@ -237,7 +237,7 @@ function About() {
                 onClick={() => setInquiryOpen(true)}
                 className="inline-flex items-center gap-2.5 rounded-xl bg-primary px-7 py-3.5 text-sm font-bold text-white hover:bg-[#c2410c] active:scale-[0.98] transition-all shadow-md shadow-orange-500/20 cursor-pointer"
               >
-                <MessageSquare className="h-4 w-4" />
+                <MessageSquare className="h-4 w-4 text-white" />
                 Request Hardware Quote
               </button>
 
@@ -246,7 +246,7 @@ function About() {
                 className="inline-flex items-center gap-2 rounded-xl bg-white border border-slate-300 hover:border-slate-400 px-6 py-3.5 text-sm font-bold text-slate-800 hover:bg-slate-50 transition-all shadow-xs"
               >
                 Explore 530+ Parts Catalog
-                <ArrowRight className="h-4 w-4 text-[#ea580c]" />
+                <ArrowRight className="h-4 w-4 text-[#1d4ed8]" />
               </Link>
 
               <a
@@ -275,13 +275,13 @@ function About() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4, delay: 0.15 + idx * 0.08 }}
-                    className="rounded-2xl border border-slate-200 bg-white p-5 sm:p-6 shadow-sm transition-all group hover:border-[#ea580c]/50 hover:shadow-md"
+                    className="rounded-2xl border border-slate-200 bg-white p-5 sm:p-6 shadow-sm transition-all group hover:border-[#1d4ed8]/50 hover:shadow-md"
                   >
                     <div className="flex items-center justify-between">
-                      <span className="font-display text-3xl sm:text-4xl font-extrabold text-slate-800 tracking-tight transition-colors group-hover:text-[#ea580c]">
+                      <span className="font-display text-3xl sm:text-4xl font-extrabold text-slate-800 tracking-tight transition-colors group-hover:text-[#1d4ed8]">
                         {metric.value}
                       </span>
-                      <div className="rounded-xl p-2.5 border bg-orange-50 text-[#ea580c] border-orange-100">
+                      <div className="rounded-xl p-2.5 border bg-blue-50 text-[#1d4ed8] border-blue-100">
                         <metric.icon className="h-5 w-5" />
                       </div>
                     </div>
@@ -310,7 +310,7 @@ function About() {
                   title: "TrustSeal Verified",
                   desc: "Verified B2B Wholesale Trader",
                   icon: Award,
-                  color: "text-[#ea580c]",
+                  color: "text-[#1d4ed8]",
                 },
                 {
                   badge: "Tax Compliant",
@@ -331,7 +331,7 @@ function About() {
                   title: "Makarba Transit Hub",
                   desc: "Express 24–48h Pan-India Dispatch",
                   icon: Building2,
-                  color: "text-[#ea580c]",
+                  color: "text-[#1d4ed8]",
                 },
               ].map((item) => (
                 <div
@@ -365,7 +365,7 @@ function About() {
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
             {/* Unified Section Header */}
             <div className="max-w-3xl mb-12">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-orange-50 border border-orange-200 px-3.5 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-50 border border-blue-200 px-3.5 py-1 text-xs font-extrabold uppercase tracking-wider text-[#1d4ed8]">
                 <Building2 className="h-3.5 w-3.5" />
                 Corporate Profile & Mission
               </span>
@@ -388,8 +388,8 @@ function About() {
               >
                 {/* 3 Strategic Capability Cards */}
                 <div className="space-y-3.5">
-                  <div className="flex items-start gap-4 p-4 sm:p-5 rounded-2xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:border-orange-300 hover:shadow-xs transition-all">
-                    <div className="rounded-xl bg-orange-100/80 border border-orange-200 p-2.5 text-[#ea580c] shrink-0 mt-0.5">
+                  <div className="flex items-start gap-4 p-4 sm:p-5 rounded-2xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:border-blue-300 hover:shadow-xs transition-all">
+                    <div className="rounded-xl bg-blue-100/80 border border-blue-200 p-2.5 text-[#1d4ed8] shrink-0 mt-0.5">
                       <Zap className="h-5 w-5" />
                     </div>
                     <div>
@@ -432,14 +432,14 @@ function About() {
                 </div>
 
                 {/* Founder Leadership & Endorsement Card */}
-                <div className="rounded-2xl border border-orange-200 bg-gradient-to-br from-orange-50/80 via-white to-amber-50/40 p-5 sm:p-6 shadow-xs relative overflow-hidden">
-                  <div className="absolute top-2 right-4 text-6xl font-serif text-orange-200/40 select-none pointer-events-none">
+                <div className="rounded-2xl border border-blue-200 bg-gradient-to-br from-blue-50/80 via-white to-slate-50/40 p-5 sm:p-6 shadow-xs relative overflow-hidden">
+                  <div className="absolute top-2 right-4 text-6xl font-serif text-blue-200/40 select-none pointer-events-none">
                     “
                   </div>
                   <p className="relative z-10 text-xs sm:text-sm font-medium italic text-slate-800 leading-relaxed">
                     "Our objective is simple: provide panel builders, traders, and manufacturing plants with verified industrial automation hardware at genuine wholesale prices, dispatched the very same day so production lines never wait."
                   </p>
-                  <div className="mt-4 pt-3.5 border-t border-orange-100 flex items-center justify-between flex-wrap gap-3">
+                  <div className="mt-4 pt-3.5 border-t border-blue-100 flex items-center justify-between flex-wrap gap-3">
                     <div className="flex items-center gap-3">
                       <div className="h-10 w-10 rounded-full bg-[#1e3a5f] text-white flex items-center justify-center font-display font-extrabold text-xs shadow-sm">
                         GC
@@ -473,7 +473,7 @@ function About() {
                 <div className="bg-[#1e3a5f] text-white p-5 border-b border-slate-700 flex items-center justify-between">
                   <div className="flex items-center gap-3">
                     <div className="rounded-xl bg-white/10 p-2.5 text-white border border-white/20">
-                      <Building2 className="h-5 w-5 text-orange-400" />
+                      <Building2 className="h-5 w-5 text-blue-300" />
                     </div>
                     <div>
                       <div className="text-sm font-extrabold tracking-wide">
@@ -540,7 +540,7 @@ function About() {
                     </div>
                     <button
                       onClick={() => handleCopy(company.gst, "GSTIN")}
-                      className="inline-flex items-center gap-1 rounded-lg border border-slate-200 bg-slate-50 px-2.5 py-1.5 text-[11px] font-bold text-slate-700 hover:border-[#ea580c] hover:text-[#ea580c] transition-all cursor-pointer shrink-0"
+                      className="inline-flex items-center gap-1 rounded-lg border border-slate-200 bg-slate-50 px-2.5 py-1.5 text-[11px] font-bold text-slate-700 hover:border-[#1d4ed8] hover:text-[#1d4ed8] transition-all cursor-pointer shrink-0"
                     >
                       {copiedItem === "GSTIN" ? (
                         <>
@@ -590,7 +590,7 @@ function About() {
                       </div>
                       <button
                         onClick={() => handleCopy(company.address, "Address")}
-                        className="text-[10px] font-bold text-[#ea580c] hover:underline inline-flex items-center gap-1 cursor-pointer"
+                        className="text-[10px] font-bold text-[#1d4ed8] hover:underline inline-flex items-center gap-1 cursor-pointer"
                       >
                         {copiedItem === "Address" ? (
                           <span className="text-emerald-600 font-bold">Copied!</span>
@@ -613,7 +613,7 @@ function About() {
                 <div className="p-4 sm:p-5 bg-slate-50 border-t border-slate-200 space-y-2.5">
                   <button
                     onClick={() => setInquiryOpen(true)}
-                    className="w-full rounded-xl bg-[#ea580c] hover:bg-[#c2410c] py-3 text-xs sm:text-sm font-bold text-white transition-all flex items-center justify-center gap-2 shadow-xs cursor-pointer active:scale-98"
+                    className="w-full rounded-xl bg-[#1d4ed8] hover:bg-[#1e40af] py-3 text-xs sm:text-sm font-bold text-white transition-all flex items-center justify-center gap-2 shadow-xs cursor-pointer active:scale-98"
                   >
                     <MessageSquare className="h-4 w-4" /> Request Official Proforma Quotation
                   </button>
@@ -622,7 +622,7 @@ function About() {
                     href={`tel:${company.phoneRaw}`}
                     className="w-full rounded-xl bg-white border border-slate-300 hover:bg-slate-100 py-2.5 text-xs font-bold text-slate-800 transition-all flex items-center justify-center gap-2"
                   >
-                    <Phone className="h-3.5 w-3.5 text-[#ea580c]" /> Call Trade Desk: {company.phone}
+                    <Phone className="h-3.5 w-3.5 text-[#1d4ed8]" /> Call Trade Desk: {company.phone}
                   </a>
                 </div>
               </motion.div>
@@ -636,7 +636,7 @@ function About() {
         <section className="py-16 sm:py-24 bg-slate-50 border-t border-slate-200">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-orange-100 border border-orange-200 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-100 border border-blue-200 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-[#1d4ed8]">
                 <Zap className="h-3.5 w-3.5" />
                 Why Industrial Plants Partner With Us
               </span>
@@ -656,11 +656,11 @@ function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: idx * 0.06 }}
-                  className="rounded-2xl bg-white border border-slate-200 p-6 sm:p-7 hover:border-orange-400 hover:shadow-md transition-all flex flex-col justify-between group"
+                  className="rounded-2xl bg-white border border-slate-200 p-6 sm:p-7 hover:border-blue-400 hover:shadow-md transition-all flex flex-col justify-between group"
                 >
                   <div>
                     <div className="flex items-center justify-between mb-4">
-                      <div className="rounded-xl bg-orange-50 border border-orange-100 p-3 text-[#ea580c] group-hover:bg-[#ea580c] group-hover:text-white transition-colors">
+                      <div className="rounded-xl bg-blue-50 border border-blue-100 p-3 text-[#1d4ed8] group-hover:bg-[#1d4ed8] group-hover:text-white transition-colors">
                         <item.icon className="h-5 w-5" />
                       </div>
                       <span className="text-[10px] font-extrabold uppercase tracking-widest text-slate-500 bg-slate-100 px-2.5 py-1 rounded-full">
@@ -668,7 +668,7 @@ function About() {
                       </span>
                     </div>
 
-                    <h3 className="text-base sm:text-lg font-extrabold text-slate-800 group-hover:text-[#ea580c] transition-colors">
+                    <h3 className="text-base sm:text-lg font-extrabold text-slate-800 group-hover:text-[#1d4ed8] transition-colors">
                       {item.title}
                     </h3>
                     <p className="mt-2 text-xs sm:text-sm text-slate-600 leading-relaxed">
@@ -676,7 +676,7 @@ function About() {
                     </p>
                   </div>
 
-                  <div className="mt-6 pt-4 border-t border-slate-100 flex items-center text-xs font-bold text-slate-500 group-hover:text-[#ea580c] transition-colors">
+                  <div className="mt-6 pt-4 border-t border-slate-100 flex items-center text-xs font-bold text-slate-500 group-hover:text-[#1d4ed8] transition-colors">
                     Verified Operational Standard
                     <CheckCheck className="h-4 w-4 ml-1.5 text-emerald-600" />
                   </div>
@@ -693,7 +693,7 @@ function About() {
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto mb-14">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 border border-slate-200 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-slate-700">
-                <Clock className="h-3.5 w-3.5 text-[#ea580c]" />
+                <Clock className="h-3.5 w-3.5 text-[#1d4ed8]" />
                 Streamlined Procurement Process
               </span>
               <h2 className="mt-3 font-display text-2xl sm:text-4xl font-extrabold text-slate-800 tracking-tight">
@@ -708,11 +708,11 @@ function About() {
               {fulfillmentSteps.map((step, idx) => (
                 <div
                   key={step.step}
-                  className="relative rounded-2xl border border-slate-200 bg-slate-50/70 p-6 hover:bg-white hover:border-orange-300 hover:shadow-sm transition-all flex flex-col justify-between"
+                  className="relative rounded-2xl border border-slate-200 bg-slate-50/70 p-6 hover:bg-white hover:border-blue-300 hover:shadow-sm transition-all flex flex-col justify-between"
                 >
                   <div>
                     <div className="flex items-center justify-between mb-4">
-                      <span className="font-display text-2xl font-extrabold text-[#ea580c] bg-orange-100/80 px-3 py-1 rounded-xl">
+                      <span className="font-display text-2xl font-extrabold text-[#1d4ed8] bg-blue-100/80 px-3 py-1 rounded-xl">
                         {step.step}
                       </span>
                       <div className="p-2 rounded-lg bg-white border border-slate-200 text-slate-700">
@@ -744,7 +744,7 @@ function About() {
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
             <div className="grid gap-10 lg:grid-cols-12 items-center">
               <div className="lg:col-span-5 space-y-4">
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-orange-100 border border-orange-200 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-100 border border-blue-200 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-[#1d4ed8]">
                   <Factory className="h-3.5 w-3.5" />
                   Target Sectors
                 </span>
@@ -757,7 +757,7 @@ function About() {
                 <div className="pt-2">
                   <Link
                     to="/products"
-                    className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#ea580c] hover:underline"
+                    className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#1d4ed8] hover:underline"
                   >
                     View products categorized by application <ArrowRight className="h-4 w-4" />
                   </Link>
@@ -768,9 +768,9 @@ function About() {
                 {industriesServed.map((ind) => (
                   <div
                     key={ind.name}
-                    className="rounded-2xl border border-slate-200 bg-white p-5 hover:border-orange-300 hover:shadow-xs transition-all"
+                    className="rounded-2xl border border-slate-200 bg-white p-5 hover:border-blue-300 hover:shadow-xs transition-all"
                   >
-                    <div className="rounded-xl bg-orange-50 border border-orange-100 p-2.5 text-[#ea580c] w-fit mb-3">
+                    <div className="rounded-xl bg-blue-50 border border-blue-100 p-2.5 text-[#1d4ed8] w-fit mb-3">
                       <ind.icon className="h-5 w-5" />
                     </div>
                     <h3 className="text-sm font-extrabold text-slate-800">
@@ -792,7 +792,7 @@ function About() {
         <section className="py-16 sm:py-24 bg-white border-t border-slate-200">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
             <div className="max-w-2xl mx-auto mb-10">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-orange-100 border border-orange-200 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-100 border border-blue-200 px-3 py-1 text-xs font-extrabold uppercase tracking-wider text-[#1d4ed8]">
                 <Cpu className="h-3.5 w-3.5" />
                 Comprehensive Brand Coverage
               </span>
@@ -812,11 +812,11 @@ function About() {
                     key={brandName}
                     to="/products"
                     search={{ brand: brandName }}
-                    className="group rounded-xl border border-slate-200 bg-slate-50/80 px-4 py-2.5 text-xs sm:text-sm font-bold text-slate-700 hover:border-[#ea580c] hover:bg-orange-50 hover:text-[#ea580c] transition-all shadow-2xs flex items-center gap-2"
+                    className="group rounded-xl border border-slate-200 bg-slate-50/80 px-4 py-2.5 text-xs sm:text-sm font-bold text-slate-700 hover:border-[#1d4ed8] hover:bg-blue-50 hover:text-[#1d4ed8] transition-all shadow-2xs flex items-center gap-2"
                   >
-                    <span className="h-2 w-2 rounded-full bg-slate-300 group-hover:bg-[#ea580c] transition-colors" />
+                    <span className="h-2 w-2 rounded-full bg-slate-300 group-hover:bg-[#1d4ed8] transition-colors" />
                     <span>{brandName}</span>
-                    <ChevronRight className="h-3.5 w-3.5 opacity-0 group-hover:opacity-100 transition-opacity -ml-1 text-[#ea580c]" />
+                    <ChevronRight className="h-3.5 w-3.5 opacity-0 group-hover:opacity-100 transition-opacity -ml-1 text-[#1d4ed8]" />
                   </Link>
                 ))}
             </div>
@@ -825,7 +825,7 @@ function About() {
               <span>Looking for an unlisted model?</span>
               <button
                 onClick={() => setInquiryOpen(true)}
-                className="text-[#ea580c] font-bold hover:underline inline-flex items-center gap-1 cursor-pointer"
+                className="text-[#1d4ed8] font-bold hover:underline inline-flex items-center gap-1 cursor-pointer"
               >
                 Send Us Your Bill of Materials (BOM) <ArrowRight className="h-3.5 w-3.5" />
               </button>
@@ -892,11 +892,11 @@ function About() {
         {/* ══════════════════════════════════════════════════════════ */}
         {/* 9. BOTTOM CONVERSION CTA BANNER (CLEAN PURE LIGHT THEME)   */}
         {/* ══════════════════════════════════════════════════════════ */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-orange-50/80 via-white to-amber-50/60 py-16 sm:py-20 border-t border-slate-200">
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,#ea580c06_1px,transparent_1px),linear-gradient(to_bottom,#ea580c06_1px,transparent_1px)] bg-[size:32px_32px] pointer-events-none" />
+        <section className="relative overflow-hidden bg-gradient-to-br from-[#f0f6ff] via-white to-[#f5f8fc] py-16 sm:py-20 border-t border-slate-200">
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,#1d4ed806_1px,transparent_1px),linear-gradient(to_bottom,#1d4ed806_1px,transparent_1px)] bg-[size:32px_32px] pointer-events-none" />
 
           <div className="relative z-10 mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center space-y-6">
-            <span className="inline-flex items-center gap-2 rounded-full bg-orange-100 border border-orange-200 px-3.5 py-1 text-xs font-extrabold uppercase tracking-wider text-[#ea580c]">
+            <span className="inline-flex items-center gap-2 rounded-full bg-blue-100 border border-blue-200 px-3.5 py-1 text-xs font-extrabold uppercase tracking-wider text-[#1d4ed8]">
               <Zap className="h-3.5 w-3.5" /> Ready Stock & Immediate Dispatch
             </span>
 
@@ -913,7 +913,7 @@ function About() {
                 onClick={() => setInquiryOpen(true)}
                 className="inline-flex items-center gap-2.5 rounded-xl bg-primary px-8 py-4 text-sm font-bold text-white hover:bg-[#c2410c] transition-all shadow-md shadow-orange-500/20 cursor-pointer"
               >
-                <MessageSquare className="h-4 w-4" />
+                <MessageSquare className="h-4 w-4 text-white" />
                 Submit Part Inquiry
               </button>
 
@@ -921,7 +921,7 @@ function About() {
                 href={`tel:${company.phoneRaw}`}
                 className="inline-flex items-center gap-2 rounded-xl bg-white border-2 border-slate-300 hover:bg-slate-50 px-6 py-4 text-sm font-bold text-slate-800 transition-all shadow-xs"
               >
-                <Phone className="h-4 w-4 text-[#ea580c]" />
+                <Phone className="h-4 w-4 text-[#1d4ed8]" />
                 Call Trade Desk: {company.phone}
               </a>
 
@@ -940,7 +940,7 @@ function About() {
 
             <div className="pt-6 border-t border-slate-200/80 flex flex-wrap items-center justify-center gap-6 text-xs text-slate-500 font-medium">
               <span className="flex items-center gap-1.5">
-                <MapPin className="h-3.5 w-3.5 text-[#ea580c]" />
+                <MapPin className="h-3.5 w-3.5 text-[#1d4ed8]" />
                 Makarba, Ahmedabad, Gujarat - 380051
               </span>
               <span>•</span>

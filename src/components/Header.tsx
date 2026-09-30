@@ -62,7 +62,7 @@ export function Header() {
         <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-3 sm:px-6">
           {/* Logo & Brand Name */}
           <Link to="/" className="flex items-center gap-3 shrink-0 group">
-            <div className="relative rounded-2xl bg-white p-1 border-2 border-slate-200 shadow-md group-hover:border-[#ea580c] group-hover:shadow-lg transition-all">
+            <div className="relative rounded-2xl bg-white p-1 border-2 border-slate-200 shadow-md group-hover:border-[#1d4ed8] group-hover:shadow-lg transition-all">
               <img
                 src="/logo.jpg"
                 alt="Concept Automation Technologies"
@@ -86,7 +86,7 @@ export function Header() {
               <div key={item.to} className="group relative">
                 <Link
                   to={item.to}
-                  activeProps={{ className: "!bg-[#1e3a5f] !text-white shadow-sm" }}
+                  activeProps={{ className: "!text-[#1d4ed8] !bg-blue-50/90 border border-blue-200/80 shadow-2xs font-extrabold" }}
                   className="flex items-center gap-1 rounded-lg px-4 py-2 text-xs font-bold uppercase tracking-wider text-foreground transition-all hover:bg-muted hover:text-primary"
                 >
                   {item.label}
@@ -101,7 +101,7 @@ export function Header() {
                       <div className="border-b border-border pb-3 mb-4 flex items-center justify-between">
                         <div className="flex items-center gap-2">
                           <span className="text-[11px] font-extrabold uppercase tracking-[0.15em] text-slate-700">All Hardware Categories</span>
-                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-100 text-slate-700 border border-slate-200">530+ Verified Items</span>
+                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-blue-50 text-[#1d4ed8] border border-blue-200">530+ Verified Items</span>
                         </div>
                         <Link to="/products" className="text-xs font-bold text-foreground hover:text-primary flex items-center gap-1 transition-colors">
                           View Full Catalog <ArrowRight className="h-3.5 w-3.5" />
@@ -113,14 +113,14 @@ export function Header() {
                         {/* Col 1: PLC Systems & Modules */}
                         <div className="space-y-1">
                           <div className="text-[11px] font-extrabold uppercase tracking-wider text-slate-800 pb-1.5 border-b border-slate-100 flex items-center gap-1.5">
-                            <span className="h-2 w-2 rounded-sm bg-[#ea580c]" />
+                            <span className="h-2 w-2 rounded-sm bg-[#1d4ed8]" />
                             PLC Systems & I/O
                           </div>
                           <div className="pt-1 flex flex-col space-y-0.5">
                             {categories.filter(c => c.type === 'PLC').map((c) => (
                               <Link key={c.slug} to="/products" search={{ q: c.name }}
-                                className="group/item flex items-center gap-2 rounded-lg px-2 py-1 text-xs font-semibold text-slate-700 hover:bg-orange-50 hover:text-[#ea580c] transition-colors">
-                                <span className="h-1.5 w-1.5 rounded-full bg-slate-300 group-hover/item:bg-[#ea580c] transition-colors" />
+                                className="group/item flex items-center gap-2 rounded-lg px-2 py-1 text-xs font-semibold text-slate-700 hover:bg-blue-50 hover:text-[#1d4ed8] transition-colors">
+                                <span className="h-1.5 w-1.5 rounded-full bg-slate-300 group-hover/item:bg-[#1d4ed8] transition-colors" />
                                 {c.name}
                               </Link>
                             ))}
@@ -130,14 +130,14 @@ export function Header() {
                         {/* Col 2: HMI Panels */}
                         <div className="space-y-1">
                           <div className="text-[11px] font-extrabold uppercase tracking-wider text-slate-800 pb-1.5 border-b border-slate-100 flex items-center gap-1.5">
-                            <span className="h-2 w-2 rounded-sm bg-[#ea580c]" />
+                            <span className="h-2 w-2 rounded-sm bg-[#1d4ed8]" />
                             HMI Touch Panels
                           </div>
                           <div className="pt-1 flex flex-col space-y-0.5">
                             {categories.filter(c => c.type === 'HMI').map((c) => (
                               <Link key={c.slug} to="/products" search={{ q: c.name }}
-                                className="group/item flex items-center gap-2 rounded-lg px-2 py-1 text-xs font-semibold text-slate-700 hover:bg-orange-50 hover:text-[#ea580c] transition-colors">
-                                <span className="h-1.5 w-1.5 rounded-full bg-slate-300 group-hover/item:bg-[#ea580c] transition-colors" />
+                                className="group/item flex items-center gap-2 rounded-lg px-2 py-1 text-xs font-semibold text-slate-700 hover:bg-blue-50 hover:text-[#1d4ed8] transition-colors">
+                                <span className="h-1.5 w-1.5 rounded-full bg-slate-300 group-hover/item:bg-[#1d4ed8] transition-colors" />
                                 {c.name}
                               </Link>
                             ))}
@@ -147,14 +147,14 @@ export function Header() {
                         {/* Col 3: VFD Drives */}
                         <div className="space-y-1">
                           <div className="text-[11px] font-extrabold uppercase tracking-wider text-slate-800 pb-1.5 border-b border-slate-100 flex items-center gap-1.5">
-                            <span className="h-2 w-2 rounded-sm bg-[#ea580c]" />
+                            <span className="h-2 w-2 rounded-sm bg-[#1d4ed8]" />
                             VFD & AC Drives
                           </div>
                           <div className="pt-1 flex flex-col space-y-0.5">
                             {categories.filter(c => c.type === 'VFD').map((c) => (
                               <Link key={c.slug} to="/products" search={{ q: c.name }}
-                                className="group/item flex items-center gap-2 rounded-lg px-2 py-1 text-xs font-semibold text-slate-700 hover:bg-orange-50 hover:text-[#ea580c] transition-colors">
-                                <span className="h-1.5 w-1.5 rounded-full bg-slate-300 group-hover/item:bg-[#ea580c] transition-colors" />
+                                className="group/item flex items-center gap-2 rounded-lg px-2 py-1 text-xs font-semibold text-slate-700 hover:bg-blue-50 hover:text-[#1d4ed8] transition-colors">
+                                <span className="h-1.5 w-1.5 rounded-full bg-slate-300 group-hover/item:bg-[#1d4ed8] transition-colors" />
                                 {c.name}
                               </Link>
                             ))}
@@ -164,14 +164,14 @@ export function Header() {
                         {/* Col 4: Sensors, Servo & Safety */}
                         <div className="space-y-1">
                           <div className="text-[11px] font-extrabold uppercase tracking-wider text-slate-800 pb-1.5 border-b border-slate-100 flex items-center gap-1.5">
-                            <span className="h-2 w-2 rounded-sm bg-[#ea580c]" />
+                            <span className="h-2 w-2 rounded-sm bg-[#1d4ed8]" />
                             Sensors & Automation
                           </div>
                           <div className="pt-1 flex flex-col space-y-0.5">
                             {categories.filter(c => c.type === 'Sensors').map((c) => (
                               <Link key={c.slug} to="/products" search={{ q: c.name }}
-                                className="group/item flex items-center gap-2 rounded-lg px-2 py-1 text-xs font-semibold text-slate-700 hover:bg-orange-50 hover:text-[#ea580c] transition-colors">
-                                <span className="h-1.5 w-1.5 rounded-full bg-slate-300 group-hover/item:bg-[#ea580c] transition-colors" />
+                                className="group/item flex items-center gap-2 rounded-lg px-2 py-1 text-xs font-semibold text-slate-700 hover:bg-blue-50 hover:text-[#1d4ed8] transition-colors">
+                                <span className="h-1.5 w-1.5 rounded-full bg-slate-300 group-hover/item:bg-[#1d4ed8] transition-colors" />
                                 {c.name}
                               </Link>
                             ))}
@@ -183,15 +183,15 @@ export function Header() {
                       <div className="border-t border-border pt-3 mt-4 flex flex-wrap items-center justify-between gap-2 bg-slate-50/70 -mx-6 -mb-6 p-4 rounded-b-2xl">
                         <div className="flex items-center gap-1.5 flex-wrap">
                           <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 mr-1">Filter By Type:</span>
-                          <Link to="/products" search={{ type: "PLC" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#ea580c] hover:text-[#ea580c] rounded-md transition-colors shadow-xs">PLC</Link>
-                          <Link to="/products" search={{ type: "HMI" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#ea580c] hover:text-[#ea580c] rounded-md transition-colors shadow-xs">HMI</Link>
-                          <Link to="/products" search={{ type: "VFD" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#ea580c] hover:text-[#ea580c] rounded-md transition-colors shadow-xs">VFD</Link>
-                          <Link to="/products" search={{ type: "SENSORS" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#ea580c] hover:text-[#ea580c] rounded-md transition-colors shadow-xs">Sensors</Link>
-                          <Link to="/products" search={{ type: "ENCODERS" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#ea580c] hover:text-[#ea580c] rounded-md transition-colors shadow-xs">Encoders</Link>
-                          <Link to="/products" search={{ type: "SERVO DRIVE SYSTEM" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#ea580c] hover:text-[#ea580c] rounded-md transition-colors shadow-xs">Servo</Link>
-                          <Link to="/products" search={{ type: "MODULES" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#ea580c] hover:text-[#ea580c] rounded-md transition-colors shadow-xs">Modules</Link>
+                          <Link to="/products" search={{ type: "PLC" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#1d4ed8] hover:text-[#1d4ed8] rounded-md transition-colors shadow-xs">PLC</Link>
+                          <Link to="/products" search={{ type: "HMI" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#1d4ed8] hover:text-[#1d4ed8] rounded-md transition-colors shadow-xs">HMI</Link>
+                          <Link to="/products" search={{ type: "VFD" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#1d4ed8] hover:text-[#1d4ed8] rounded-md transition-colors shadow-xs">VFD</Link>
+                          <Link to="/products" search={{ type: "SENSORS" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#1d4ed8] hover:text-[#1d4ed8] rounded-md transition-colors shadow-xs">Sensors</Link>
+                          <Link to="/products" search={{ type: "ENCODERS" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#1d4ed8] hover:text-[#1d4ed8] rounded-md transition-colors shadow-xs">Encoders</Link>
+                          <Link to="/products" search={{ type: "SERVO DRIVE SYSTEM" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#1d4ed8] hover:text-[#1d4ed8] rounded-md transition-colors shadow-xs">Servo</Link>
+                          <Link to="/products" search={{ type: "MODULES" }} className="px-2.5 py-1 text-[11px] font-bold bg-white border border-slate-200 hover:border-[#1d4ed8] hover:text-[#1d4ed8] rounded-md transition-colors shadow-xs">Modules</Link>
                         </div>
-                        <Link to="/products" className="text-xs font-bold text-[#ea580c] hover:underline flex items-center gap-1 shrink-0">
+                        <Link to="/products" className="text-xs font-bold text-[#1d4ed8] hover:underline flex items-center gap-1 shrink-0">
                           Explore All Products <ArrowRight className="h-3.5 w-3.5" />
                         </Link>
                       </div>
@@ -214,7 +214,7 @@ export function Header() {
 
             <button
               onClick={() => setInquiryOpen(true)}
-              className="hidden sm:inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] transition-all shadow-md"
+              className="hidden sm:inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] transition-all shadow-md shadow-orange-500/20"
             >
               <MessageSquare className="h-3.5 w-3.5 text-white" /> Get Quick Quote
             </button>
@@ -299,7 +299,7 @@ export function Header() {
                             to="/products"
                             search={{ q: c.name }}
                             onClick={() => setOpen(false)}
-                            className="flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-xs font-semibold text-slate-700 hover:bg-white hover:text-[#ea580c] transition-colors"
+                            className="flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-xs font-semibold text-slate-700 hover:bg-white hover:text-[#1d4ed8] transition-colors"
                           >
                             <span className="h-1.5 w-1.5 rounded-full bg-slate-300" />
                             {c.name}
@@ -317,7 +317,7 @@ export function Header() {
                 href={`tel:${company.phoneRaw}`}
                 className="flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-bold text-foreground hover:bg-muted"
               >
-                <Phone className="h-4 w-4 text-[#ea580c]" />
+                <Phone className="h-4 w-4 text-[#1d4ed8]" />
                 Call {company.phone}
               </a>
             </nav>

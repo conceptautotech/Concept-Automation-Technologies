@@ -183,7 +183,7 @@ function ProductDetailPage() {
                           onClick={() => handleThumbnailClick(idx)}
                           className={`relative aspect-square w-16 h-16 overflow-hidden rounded-xl border-2 bg-white p-1 flex items-center justify-center shrink-0 transition-all ${
                             activeImageIndex === idx 
-                              ? "border-[#ea580c] shadow-sm ring-1 ring-[#ea580c]/25" 
+                              ? "border-[#1d4ed8] shadow-sm ring-1 ring-[#1d4ed8]/25" 
                               : "border-border opacity-70 hover:opacity-100 hover:border-muted-foreground"
                           }`}
                         >
@@ -206,7 +206,7 @@ function ProductDetailPage() {
                       { icon: Truck, label: "Express Dispatch" },
                     ].map((b) => (
                       <div key={b.label} className="rounded-xl border border-border bg-card p-3 text-center shadow-sm">
-                        <b.icon className="mx-auto h-4 w-4 text-[#ea580c] mb-1" />
+                        <b.icon className="mx-auto h-4 w-4 text-[#1d4ed8] mb-1" />
                         <div className="text-[10px] font-semibold text-foreground">{b.label}</div>
                       </div>
                     ))}
@@ -242,7 +242,7 @@ function ProductDetailPage() {
                       nameInput?.focus();
                     }, 400);
                   }}
-                  className="mt-4 inline-flex items-center gap-2 rounded-xl bg-[#ea580c] hover:bg-[#c2410c] text-white font-semibold text-sm px-6 py-3 shadow-md shadow-orange-500/20 cursor-pointer transition-all active:scale-98"
+                  className="mt-4 inline-flex items-center gap-2 rounded-xl bg-primary hover:bg-[#c2410c] text-white font-semibold text-sm px-6 py-3 shadow-md shadow-orange-500/20 cursor-pointer transition-all active:scale-98"
                 >
                   <MessageSquare className="h-4 w-4 text-white" /> Get A Quote
                 </button>
@@ -268,7 +268,7 @@ function ProductDetailPage() {
               {/* Quote Form */}
               <div id="quote-form" className="rounded-2xl border border-slate-200 bg-slate-50/50 p-5 sm:p-6 shadow-sm">
                 <h3 className="font-display text-base font-bold text-foreground flex items-center gap-2">
-                  <MessageSquare className="h-4 w-4 text-[#ea580c]" /> Get Official Price Quote
+                  <MessageSquare className="h-4 w-4 text-[#1d4ed8]" /> Get Official Price Quote
                 </h3>
                 <p className="mt-1 text-xs text-muted-foreground mb-4">Direct response from our sales desk.</p>
 
@@ -282,21 +282,21 @@ function ProductDetailPage() {
                     <div className="grid gap-3 sm:grid-cols-2">
                       <input type="text" required placeholder="Your Name *" value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#ea580c] focus:outline-none focus:ring-2 focus:ring-[#ea580c]/20" />
+                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20" />
                       <input type="tel" required placeholder="Phone / WhatsApp *" value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#ea580c] focus:outline-none focus:ring-2 focus:ring-[#ea580c]/20" />
+                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20" />
                     </div>
                     <div className="grid gap-3 sm:grid-cols-2">
                       <input type="email" required placeholder="Work Email *" value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#ea580c] focus:outline-none focus:ring-2 focus:ring-[#ea580c]/20" />
+                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20" />
                       <input type="number" min={1} placeholder="Quantity" value={formData.quantity}
                         onChange={(e) => setFormData({ ...formData, quantity: parseInt(e.target.value) || 1 })}
-                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#ea580c] focus:outline-none focus:ring-2 focus:ring-[#ea580c]/20" />
+                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20" />
                     </div>
                     <button type="submit" disabled={loading}
-                      className="w-full rounded-xl bg-[#ea580c] py-3 text-sm font-semibold text-white hover:bg-[#c2410c] transition-colors disabled:opacity-50 shadow">
+                      className="w-full rounded-xl bg-primary py-3 text-sm font-bold uppercase tracking-wider text-white hover:bg-[#c2410c] transition-colors disabled:opacity-50 shadow-md shadow-orange-500/20 cursor-pointer">
                       {loading ? "Submitting..." : "Submit Price Quote Request"}
                     </button>
                   </form>

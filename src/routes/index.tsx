@@ -264,16 +264,16 @@ function Index() {
   };
 
   return (
-    <div className="min-h-screen bg-background text-foreground font-sans selection:bg-[#ea580c] selection:text-white pb-16 sm:pb-0">
+    <div className="min-h-screen bg-background text-foreground font-sans selection:bg-[#1d4ed8] selection:text-white pb-16 sm:pb-0">
       <Header />
 
       <main>
         {/* ═══════════════════════════════════════════════════════ */}
         {/* HERO SECTION — Product-Focused Tinted Banner           */}
         {/* ═══════════════════════════════════════════════════════ */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-[#f5f5f5] via-white to-[#f5f5f5] pt-8 pb-14 sm:py-20 border-b border-border">
+        <section className="relative overflow-hidden bg-gradient-to-br from-[#f0f6ff] via-white to-[#f5f8fc] pt-8 pb-14 sm:py-20 border-b border-border">
           {/* Background Orbs */}
-          <div className="absolute top-10 left-10 w-96 h-96 bg-orange-500/5 rounded-full blur-3xl pointer-events-none animate-orb-1" />
+          <div className="absolute top-10 left-10 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl pointer-events-none animate-orb-1" />
           <div className="absolute bottom-10 right-10 w-[30rem] h-[30rem] bg-primary/5 rounded-full blur-3xl pointer-events-none animate-orb-2" />
           
           <div className="absolute inset-0 bg-[linear-gradient(to_right,var(--color-primary)/0.03_1px,transparent_1px),linear-gradient(to_bottom,var(--color-primary)/0.03_1px,transparent_1px)] bg-[size:40px_40px]" />
@@ -307,7 +307,7 @@ function Index() {
                     className="w-full sm:w-72 rounded-xl border border-slate-300 bg-white pl-9 pr-3 py-2 text-xs text-slate-800 font-semibold placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary shadow-sm"
                   />
                 </div>
-                <button type="submit" className="rounded-xl bg-[#ea580c] px-4 py-2 text-xs font-bold text-white hover:bg-[#c2410c] transition-colors shadow shrink-0">
+                <button type="submit" className="rounded-xl bg-[#1d4ed8] px-4 py-2 text-xs font-bold text-white hover:bg-[#1e40af] transition-colors shadow shrink-0 cursor-pointer">
                   Search
                 </button>
               </form>
@@ -324,9 +324,9 @@ function Index() {
                 <button
                   key={tab.id}
                   onClick={() => setActiveBrandTab(tab)}
-                  className={`shrink-0 rounded-xl px-5 py-2.5 text-xs font-extrabold uppercase tracking-wider transition-all duration-300 ${
+                  className={`shrink-0 rounded-xl px-5 py-2.5 text-xs font-extrabold uppercase tracking-wider transition-all duration-300 cursor-pointer ${
                     activeBrandTab.id === tab.id
-                      ? "bg-[#ea580c] text-white shadow-md scale-105 border border-[#ea580c]"
+                      ? "bg-[#1d4ed8] text-white shadow-md scale-105 border border-[#1d4ed8]"
                       : "bg-white text-slate-700 border border-slate-200 hover:bg-slate-50"
                   }`}
                 >
@@ -348,7 +348,7 @@ function Index() {
                     className="space-y-4"
                   >
                     <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-100 px-3.5 py-1 text-xs font-extrabold uppercase tracking-widest text-slate-700 shadow-xs">
-                      <Sparkles className="h-3.5 w-3.5 text-[#ea580c]" /> {activeBrandTab.badge}
+                      <Sparkles className="h-3.5 w-3.5 text-[#1d4ed8]" /> {activeBrandTab.badge}
                     </span>
 
                     <h1 className="font-display text-3xl font-extrabold text-slate-800 sm:text-5xl leading-[1.1] tracking-tight">
@@ -369,7 +369,7 @@ function Index() {
                 >
                   <button
                     onClick={() => openQuote(activeBrandTab.title, activeBrandTab.highlightPart)}
-                    className="group rounded-xl bg-primary px-8 py-3.5 sm:py-4 text-xs font-bold uppercase tracking-wider text-primary-foreground shadow-xl hover:bg-[#c2410c] transition-all flex items-center gap-2"
+                    className="group rounded-xl bg-primary px-8 py-3.5 sm:py-4 text-xs font-bold uppercase tracking-wider text-primary-foreground shadow-xl hover:bg-[#c2410c] shadow-orange-500/20 transition-all flex items-center gap-2 cursor-pointer"
                   >
                     Get Price Quote <ArrowRight className="h-4 w-4 text-slate-300 group-hover:text-white transition-transform group-hover:translate-x-1" />
                   </button>
@@ -378,7 +378,7 @@ function Index() {
                     href={`tel:${company.phoneRaw}`}
                     className="rounded-xl border border-slate-300 bg-white px-7 py-3.5 sm:py-4 text-xs font-bold uppercase tracking-wider text-slate-800 hover:border-primary hover:bg-slate-50 transition-all shadow-sm flex items-center gap-2"
                   >
-                    <Phone className="h-4 w-4 text-[#ea580c]" /> {company.phone}
+                    <Phone className="h-4 w-4 text-[#1d4ed8]" /> {company.phone}
                   </a>
                 </motion.div>
 
@@ -393,7 +393,7 @@ function Index() {
                     <span>100% Genuine Products</span>
                   </div>
                   <div className="flex items-center gap-2 text-xs font-extrabold text-slate-800">
-                    <Truck className="h-4 w-4 text-[#ea580c] shrink-0" />
+                    <Truck className="h-4 w-4 text-[#1d4ed8] shrink-0" />
                     <span>24-48 Hr Dispatch</span>
                   </div>
                   <div className="flex items-center gap-2 text-xs font-extrabold text-slate-800">
@@ -433,7 +433,7 @@ function Index() {
                         <div className="font-display text-sm font-extrabold text-slate-800 uppercase">
                           {activeBrandTab.id === "omron" ? "OMRON AUTOMATION & SENSORS" : `${activeBrandTab.name} Hardware Module`}
                         </div>
-                        <div className="text-xs font-mono font-bold text-[#ea580c] mt-0.5">
+                        <div className="text-xs font-mono font-bold text-[#1d4ed8] mt-0.5">
                           PN: {activeBrandTab.highlightPart}
                         </div>
                       </div>
@@ -443,7 +443,7 @@ function Index() {
                       <span>Dispatch: Makarba, Ahmedabad</span>
                       <button
                         onClick={() => openQuote(activeBrandTab.name, activeBrandTab.highlightPart)}
-                        className="text-[#ea580c] font-extrabold uppercase hover:underline flex items-center gap-1"
+                        className="text-[#ea580c] font-extrabold uppercase hover:underline flex items-center gap-1 cursor-pointer"
                       >
                         Inquire Now <ArrowUpRight className="h-3.5 w-3.5" />
                       </button>
@@ -482,7 +482,7 @@ function Index() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6">
             <div className="text-center max-w-2xl mx-auto mb-12">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 border border-slate-200 px-3.5 py-1 text-xs font-extrabold uppercase tracking-widest text-slate-800">
-                <Layers className="h-3.5 w-3.5 text-[#ea580c]" /> Hardware Range
+                <Layers className="h-3.5 w-3.5 text-[#1d4ed8]" /> Hardware Range
               </span>
               <h2 className="mt-3 font-display text-3xl font-extrabold text-foreground sm:text-4xl">
                 Explore Automation Categories
@@ -504,7 +504,7 @@ function Index() {
                   className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-xl hover:border-primary/50 transition-all duration-300 cursor-pointer flex flex-col justify-between text-center"
                 >
                   <div className="flex items-center justify-between border-b border-slate-100 pb-3 mb-4">
-                    <span className="text-[10px] font-extrabold uppercase tracking-widest text-[#ea580c] bg-amber-50 px-2.5 py-1 rounded-full border border-amber-200/80">
+                    <span className="text-[10px] font-extrabold uppercase tracking-widest text-[#ea580c] bg-orange-50 px-2.5 py-1 rounded-full border border-orange-200/80">
                       {cat.badge}
                     </span>
                     <ArrowUpRight className="h-4 w-4 text-slate-400 group-hover:text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
@@ -522,7 +522,7 @@ function Index() {
                     <h3 className="font-display text-lg font-extrabold text-slate-800 group-hover:text-primary transition-colors">
                       {cat.title}
                     </h3>
-                    <p className="mt-1 text-xs text-[#ea580c] font-medium leading-relaxed">
+                    <p className="mt-1 text-xs text-slate-600 font-medium leading-relaxed">
                       {cat.desc}
                     </p>
                   </div>
@@ -555,7 +555,7 @@ function Index() {
                     onClick={() => setCatalogBrandFilter(b)}
                     className={`rounded-xl px-4 py-2 text-xs font-bold uppercase transition-all ${
                       catalogBrandFilter === b
-                        ? "bg-[#ea580c] text-white shadow-md scale-105 border border-[#ea580c]"
+                        ? "bg-[#1d4ed8] text-white shadow-md scale-105 border border-[#1d4ed8]"
                         : "bg-card text-foreground border border-border hover:bg-muted"
                     }`}
                   >
@@ -575,9 +575,9 @@ function Index() {
             <div className="mt-12 text-center">
               <Link
                 to="/products"
-                className="inline-flex items-center gap-2 rounded-2xl bg-primary px-9 py-4 text-xs font-extrabold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] transition-all shadow-lg hover:shadow-2xl hover:scale-105"
+                className="inline-flex items-center gap-2 rounded-2xl bg-primary px-9 py-4 text-xs font-extrabold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] transition-all shadow-lg shadow-orange-500/20 hover:shadow-2xl hover:scale-105"
               >
-                Explore Full Products Catalog <ArrowRight className="h-4 w-4 text-slate-300" />
+                Explore Full Products Catalog <ArrowRight className="h-4 w-4 text-white" />
               </Link>
             </div>
           </div>
@@ -607,7 +607,7 @@ function Index() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.3, delay: idx * 0.05 }}
                   onClick={() => navigate({ to: "/products", search: { brand: brand.name } as any })}
-                  className="rounded-2xl border border-border bg-card p-5 text-center shadow-sm hover:border-[#ea580c]/50 hover:shadow-md transition-all cursor-pointer group"
+                  className="rounded-2xl border border-border bg-card p-5 text-center shadow-sm hover:border-[#1d4ed8]/50 hover:shadow-md transition-all cursor-pointer group"
                 >
                   <div className="font-display text-base sm:text-lg font-extrabold uppercase text-foreground group-hover:text-primary transition-colors">
                     {brand.name}
@@ -615,7 +615,7 @@ function Index() {
                   <div className="mt-1 text-xs text-muted-foreground font-medium">
                     {brand.desc}
                   </div>
-                  <div className="mt-3 text-[10px] font-extrabold text-slate-700 uppercase tracking-wider bg-amber-50 rounded-full py-0.5 px-2 inline-block border border-amber-200">
+                  <div className="mt-3 text-[10px] font-extrabold text-[#1d4ed8] uppercase tracking-wider bg-blue-50 rounded-full py-0.5 px-2 inline-block border border-blue-200">
                     {brand.count}
                   </div>
                 </motion.div>
@@ -642,7 +642,7 @@ function Index() {
                 className="lg:col-span-2 lg:sticky lg:top-28"
               >
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 border border-slate-200 px-3.5 py-1 text-xs font-extrabold uppercase tracking-widest text-slate-800">
-                  <Award className="h-3.5 w-3.5 text-[#ea580c]" /> Why Choose Us
+                  <Award className="h-3.5 w-3.5 text-[#1d4ed8]" /> Why Choose Us
                 </span>
                 <h2 className="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-800 leading-tight">
                   Why Choose Concept Automation Technologies?
@@ -652,9 +652,9 @@ function Index() {
                 </p>
                 <button
                   onClick={() => openQuote("General Inquiry", "")}
-                  className="mt-8 inline-flex items-center gap-2 rounded-xl bg-primary px-7 py-3.5 text-sm font-bold text-white hover:bg-[#c2410c] transition-all shadow-lg"
+                  className="mt-8 inline-flex items-center gap-2 rounded-xl bg-primary px-7 py-3.5 text-sm font-bold text-white hover:bg-[#c2410c] shadow-lg shadow-orange-500/20 transition-all cursor-pointer"
                 >
-                  <MessageSquare className="h-4 w-4" /> Get a Quote
+                  <MessageSquare className="h-4 w-4 text-white" /> Get a Quote
                 </button>
               </motion.div>
 
@@ -687,7 +687,7 @@ function Index() {
                   },
                   {
                     icon: Globe,
-                    color: "bg-orange-50 border-orange-200 text-orange-600",
+                    color: "bg-blue-50 border-blue-200 text-[#1d4ed8]",
                     title: "Pan-India Supply",
                     desc: "We serve customers across India through our industrial automation supply network with express dispatch from our Ahmedabad warehouse.",
                   },
@@ -698,13 +698,13 @@ function Index() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: idx * 0.08 }}
-                    className="group flex items-start gap-5 rounded-2xl border border-slate-200 bg-white p-6 hover:shadow-md hover:border-[#ea580c]/30 transition-all duration-300"
+                    className="group flex items-start gap-5 rounded-2xl border border-slate-200 bg-white p-6 hover:shadow-md hover:border-[#1d4ed8]/30 transition-all duration-300"
                   >
                     <div className={`shrink-0 rounded-xl border p-3 ${item.color}`}>
                       <item.icon className="h-5 w-5" />
                     </div>
                     <div>
-                      <h3 className="text-base font-extrabold text-slate-800 group-hover:text-[#ea580c] transition-colors">
+                      <h3 className="text-base font-extrabold text-slate-800 group-hover:text-[#1d4ed8] transition-colors">
                         {item.title}
                       </h3>
                       <p className="mt-1 text-sm text-slate-500 leading-relaxed">
@@ -723,7 +723,7 @@ function Index() {
         {/* SUPPLY NETWORK BENTO GRID                               */}
         {/* ═══════════════════════════════════════════════════════ */}
         <section className="py-16 sm:py-24 bg-background relative overflow-hidden">
-          <div className="absolute top-1/4 right-0 w-80 h-80 bg-orange-500/5 rounded-full blur-3xl pointer-events-none animate-orb-2" />
+          <div className="absolute top-1/4 right-0 w-80 h-80 bg-blue-500/5 rounded-full blur-3xl pointer-events-none animate-orb-2" />
 
           <div className="mx-auto max-w-7xl px-4 sm:px-6 relative z-10">
             <div className="text-center max-w-2xl mx-auto mb-10">
@@ -744,7 +744,7 @@ function Index() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.3, delay: i * 0.05 }}
-                  className="rounded-2xl border border-border bg-card p-4 text-center shadow-sm hover:border-[#ea580c]/50 transition-all"
+                  className="rounded-2xl border border-border bg-card p-4 text-center shadow-sm hover:border-[#1d4ed8]/50 transition-all"
                 >
                   <div className="text-[11px] font-extrabold uppercase text-muted-foreground">{st.label}</div>
                   <div className="mt-1.5 font-display text-2xl sm:text-3xl font-extrabold text-foreground">{st.value}</div>
@@ -776,7 +776,7 @@ function Index() {
                   <span>Proprietor: <strong>{company.proprietor}</strong></span>
                   <button
                     onClick={() => openQuote("General Inquiry", "")}
-                    className="rounded-xl bg-[#ea580c] px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#c2410c] transition-colors"
+                    className="rounded-xl bg-primary px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#c2410c] shadow-md shadow-orange-500/20 transition-all cursor-pointer"
                   >
                     Contact Sales Desk
                   </button>
@@ -802,7 +802,7 @@ function Index() {
 
                 <div className="rounded-3xl border border-border bg-card p-6 shadow-sm hover:shadow-md transition-all">
                   <div className="h-10 w-10 rounded-xl bg-muted flex items-center justify-center mb-3">
-                    <Truck className="h-5 w-5 text-[#ea580c]" />
+                    <Truck className="h-5 w-5 text-[#1d4ed8]" />
                   </div>
                   <h4 className="font-display text-base font-extrabold uppercase text-foreground">Pan-India Breakdown Express</h4>
                   <p className="mt-1.5 text-xs text-muted-foreground font-medium leading-relaxed">
@@ -838,13 +838,13 @@ function Index() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.35, delay: idx * 0.06 }}
-                  className="group flex gap-4 rounded-2xl border border-border bg-card p-5 hover:border-[#ea580c]/40 hover:shadow-md transition-all duration-300"
+                  className="group flex gap-4 rounded-2xl border border-border bg-card p-5 hover:border-[#1d4ed8]/40 hover:shadow-md transition-all duration-300"
                 >
-                  <div className="shrink-0 text-2xl w-10 h-10 flex items-center justify-center rounded-xl bg-orange-50 border border-orange-100 text-[#ea580c]">
+                  <div className="shrink-0 text-2xl w-10 h-10 flex items-center justify-center rounded-xl bg-blue-50 border border-blue-100 text-[#1d4ed8]">
                     {ind.icon}
                   </div>
                   <div>
-                    <h3 className="font-display text-sm font-extrabold text-foreground group-hover:text-[#ea580c] transition-colors">
+                    <h3 className="font-display text-sm font-extrabold text-foreground group-hover:text-[#1d4ed8] transition-colors">
                       {ind.title}
                     </h3>
                     <p className="mt-1 text-xs text-muted-foreground leading-relaxed">
@@ -867,7 +867,7 @@ function Index() {
                 <p className="text-xs text-muted-foreground">We supply to all sectors. Get in touch and we'll source it.</p>
                 <button
                   onClick={() => openQuote("Industry Inquiry", "")}
-                  className="mt-1 rounded-xl bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#c2410c] transition-colors"
+                  className="mt-1 rounded-xl bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#c2410c] shadow-sm shadow-orange-500/20 transition-all cursor-pointer"
                 >
                   Contact Us
                 </button>
@@ -950,7 +950,7 @@ function Index() {
               <div className="flex flex-col lg:flex-row lg:items-start lg:gap-12 gap-6">
                 {/* Left: Positioning Statement */}
                 <div className="lg:w-2/5 shrink-0">
-                  <span className="text-[10px] font-extrabold uppercase tracking-widest text-[#ea580c] block mb-2">Who We Are</span>
+                  <span className="text-[10px] font-extrabold uppercase tracking-widest text-[#1d4ed8] block mb-2">Who We Are</span>
                   <h2 className="font-display text-xl sm:text-2xl font-extrabold text-slate-800 leading-snug">
                     Independent Automation Products Reseller
                   </h2>
@@ -991,7 +991,7 @@ function Index() {
         {/* ═══════════════════════════════════════════════════════ */}
         <section className="py-16 sm:py-24 bg-muted relative overflow-hidden border-t border-border">
           {/* Animated Background Glowing Orbs */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[35rem] h-[35rem] bg-orange-500/5 rounded-full blur-3xl pointer-events-none animate-orb-1" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[35rem] h-[35rem] bg-blue-500/5 rounded-full blur-3xl pointer-events-none animate-orb-1" />
 
           <div className="relative z-10 mx-auto max-w-5xl px-4 sm:px-6">
             <motion.div 
@@ -1002,7 +1002,7 @@ function Index() {
               className="rounded-3xl border border-border bg-card p-8 sm:p-14 shadow-xl text-center relative overflow-hidden"
             >
               <span className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-slate-100 px-4 py-1.5 text-xs font-extrabold uppercase tracking-widest text-slate-800">
-                <Zap className="h-3.5 w-3.5 text-[#ea580c]" /> Breakdown & Order Support Desk
+                <Zap className="h-3.5 w-3.5 text-[#1d4ed8]" /> Breakdown & Order Support Desk
               </span>
 
               <h2 className="mt-4 font-display text-2xl sm:text-4xl lg:text-5xl font-extrabold text-foreground leading-tight">
@@ -1016,15 +1016,15 @@ function Index() {
               <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3.5">
                 <button
                   onClick={() => openQuote("General Inquiry", "")}
-                  className="w-full sm:w-auto rounded-xl bg-primary px-8 py-4 text-xs font-extrabold uppercase tracking-wider text-primary-foreground shadow-xl hover:bg-[#c2410c] transition-all flex items-center justify-center gap-2"
+                  className="w-full sm:w-auto rounded-xl bg-primary px-8 py-4 text-xs font-extrabold uppercase tracking-wider text-primary-foreground shadow-xl shadow-orange-500/25 hover:bg-[#c2410c] transition-all flex items-center justify-center gap-2 cursor-pointer"
                 >
-                  <MessageSquare className="h-4 w-4 text-slate-300" /> Request Instant Quote
+                  <MessageSquare className="h-4 w-4 text-white" /> Request Instant Quote
                 </button>
                 <a
                   href={`tel:${company.phoneRaw}`}
                   className="w-full sm:w-auto rounded-xl border-2 border-slate-300 bg-white hover:bg-slate-50 px-8 py-4 text-xs font-extrabold uppercase tracking-wider text-slate-800 transition-all shadow-md flex items-center justify-center gap-2"
                 >
-                  <Phone className="h-4 w-4 text-[#ea580c]" /> Call {company.phone}
+                  <Phone className="h-4 w-4 text-[#1d4ed8]" /> Call {company.phone}
                 </a>
               </div>
             </motion.div>

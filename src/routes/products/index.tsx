@@ -247,7 +247,7 @@ function Products() {
           onChange={(e) => onChange(e.target.value)}
           className={`w-full appearance-none rounded-xl border px-3 pr-8 py-2.5 text-xs font-bold cursor-pointer focus:outline-none focus:ring-2 transition-all ${
             isActive
-              ? "border-[#ea580c] bg-white text-[#ea580c] ring-[#ea580c]/20"
+              ? "border-[#1d4ed8] bg-white text-[#1d4ed8] ring-[#1d4ed8]/20"
               : "border-slate-200 bg-white text-slate-700 hover:border-slate-300 ring-slate-200"
           }`}
         >
@@ -259,7 +259,7 @@ function Products() {
         </select>
         <ChevronDown
           className={`pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 h-3.5 w-3.5 ${
-            isActive ? "text-[#ea580c]" : "text-slate-400"
+            isActive ? "text-[#1d4ed8]" : "text-slate-400"
           }`}
         />
       </div>
@@ -289,7 +289,7 @@ function Products() {
             transition={{ duration: 0.4 }}
             className="mx-auto max-w-7xl px-4 sm:px-6"
           >
-            <span className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-[#ea580c]">
+            <span className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-[#1d4ed8]">
               Complete Catalog
             </span>
             <h1 className="mt-1 font-display text-2xl font-extrabold text-slate-800 sm:text-3xl">
@@ -320,14 +320,14 @@ function Products() {
                     onChange={(e) => handleSearchChange(e.target.value)}
                     className={`w-full rounded-xl border pl-9 pr-8 py-2.5 text-xs font-medium placeholder-slate-400 focus:outline-none focus:ring-2 transition-all ${
                       searchQuery
-                        ? "border-[#ea580c] bg-[#ea580c]/5 text-slate-800 ring-[#ea580c]/20"
+                        ? "border-[#1d4ed8] bg-[#1d4ed8]/5 text-slate-800 ring-[#1d4ed8]/20"
                         : "border-slate-200 bg-white text-slate-800 hover:border-slate-300 ring-slate-200"
                     }`}
                   />
                   {searchQuery && (
                     <button
                       onClick={() => handleSearchChange("")}
-                      className="absolute right-3 top-1/2 -translate-y-1/2 text-[#ea580c] hover:text-[#c2410c]"
+                      className="absolute right-3 top-1/2 -translate-y-1/2 text-[#1d4ed8] hover:text-[#1e40af]"
                     >
                       <X className="h-3.5 w-3.5" />
                     </button>
@@ -367,7 +367,7 @@ function Products() {
                       title="Spacious Grid (Clean & Modern)"
                       className={`inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-bold transition-all cursor-pointer ${
                         viewMode === "grid"
-                          ? "bg-white text-[#1e3a5f] shadow-xs"
+                          ? "bg-white text-[#1d4ed8] shadow-xs"
                           : "text-slate-400 hover:text-slate-700"
                       }`}
                     >
@@ -380,7 +380,7 @@ function Products() {
                       title="Compact Grid (Dense)"
                       className={`inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-bold transition-all cursor-pointer ${
                         viewMode === "compact"
-                          ? "bg-white text-[#1e3a5f] shadow-xs"
+                          ? "bg-white text-[#1d4ed8] shadow-xs"
                           : "text-slate-400 hover:text-slate-700"
                       }`}
                     >
@@ -393,7 +393,7 @@ function Products() {
                       title="List View (Table)"
                       className={`inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-bold transition-all cursor-pointer ${
                         viewMode === "list"
-                          ? "bg-white text-[#1e3a5f] shadow-xs"
+                          ? "bg-white text-[#1d4ed8] shadow-xs"
                           : "text-slate-400 hover:text-slate-700"
                       }`}
                     >
@@ -421,7 +421,7 @@ function Products() {
                 {hasActiveFilters && (
                   <button
                     onClick={resetFilters}
-                    className="flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-xs font-bold text-slate-600 hover:border-[#ea580c] hover:text-[#ea580c] transition-all whitespace-nowrap h-[42px] cursor-pointer"
+                    className="flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-xs font-bold text-slate-600 hover:border-[#1d4ed8] hover:text-[#1d4ed8] transition-all whitespace-nowrap h-[42px] cursor-pointer"
                   >
                     <X className="h-3.5 w-3.5" />
                     Clear
@@ -437,7 +437,7 @@ function Products() {
                   Applied:
                 </span>
                 {selectedType !== "All" && (
-                  <span className="inline-flex items-center gap-1 rounded-md bg-[#ea580c] px-2.5 py-1 text-[10px] font-extrabold text-white">
+                  <span className="inline-flex items-center gap-1 rounded-md bg-[#1d4ed8] px-2.5 py-1 text-[10px] font-extrabold text-white">
                     Type: {selectedType}
                     <button onClick={() => handleTypeChange("All")}>
                       <X className="h-2.5 w-2.5" />
@@ -453,7 +453,7 @@ function Products() {
                   </span>
                 )}
                 {searchQuery && (
-                  <span className="inline-flex items-center gap-1 rounded-md bg-slate-700 px-2.5 py-1 text-[10px] font-extrabold text-white">
+                  <span className="inline-flex items-center gap-1 rounded-md bg-[#1e3a5f] px-2.5 py-1 text-[10px] font-extrabold text-white">
                     "{searchQuery}"
                     <button onClick={() => handleSearchChange("")}>
                       <X className="h-2.5 w-2.5" />
@@ -473,7 +473,7 @@ function Products() {
               <p className="text-slate-600 text-sm font-semibold">No products match your filters.</p>
               <button
                 onClick={resetFilters}
-                className="mt-4 rounded-xl bg-[#ea580c] px-5 py-2.5 text-xs font-bold text-white hover:bg-[#c2410c] transition-colors shadow-sm"
+                className="mt-4 rounded-xl bg-[#1d4ed8] px-5 py-2.5 text-xs font-bold text-white hover:bg-[#1e40af] transition-colors shadow-sm cursor-pointer"
               >
                 Clear All Filters
               </button>
@@ -487,7 +487,7 @@ function Products() {
                   ))}
                 </div>
               ) : viewMode === "compact" ? (
-                <div className="grid gap-3.5 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+                <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5">
                   {visibleProducts.map((p, idx) => (
                     <ProductCard key={p.id} product={p} index={idx} layout="compact" />
                   ))}
@@ -544,15 +544,15 @@ function Products() {
                   <>
                     <div className="inline-flex items-center gap-2 rounded-full bg-white border border-slate-200 px-4 py-2 text-xs font-semibold text-slate-500 shadow-sm">
                       <span className="relative flex h-2 w-2">
-                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#ea580c] opacity-75" />
-                        <span className="relative inline-flex rounded-full h-2 w-2 bg-[#ea580c]" />
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#1d4ed8] opacity-75" />
+                        <span className="relative inline-flex rounded-full h-2 w-2 bg-[#1d4ed8]" />
                       </span>
                       {visibleProducts.length} of {filteredProducts.length} loaded
                     </div>
                     <button
                       onClick={loadMore}
                       disabled={isLoadingMore}
-                      className="text-xs font-bold text-slate-400 hover:text-[#ea580c] transition-colors"
+                      className="text-xs font-bold text-slate-400 hover:text-[#1d4ed8] transition-colors"
                     >
                       Load more
                     </button>

@@ -65,7 +65,7 @@ export function getSvgDataUrl(name: string, brand?: string, partNumber?: string)
   const cleanPn = (partNumber || "").toUpperCase().trim();
 
   // Brand-specific accent colors for crisp visual identification
-  let brandColor = "#ea580c"; // default orange accent
+  let brandColor = "#1d4ed8"; // default corporate blue accent
   const bLower = (brand || "").toLowerCase();
   if (bLower.includes("siemens")) brandColor = "#009999";
   else if (bLower.includes("mitsubishi")) brandColor = "#e60012";

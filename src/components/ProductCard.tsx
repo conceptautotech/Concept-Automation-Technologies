@@ -175,7 +175,7 @@ export function ProductCard({ product, index = 0, layout = "grid" }: ProductCard
             <Link
               to="/products/$slug"
               params={{ slug }}
-              className="text-sm sm:text-base font-bold text-slate-800 hover:text-[#ea580c] transition-colors block line-clamp-1 mb-1"
+              className="text-sm sm:text-base font-bold text-slate-800 hover:text-[#1d4ed8] transition-colors block line-clamp-1 mb-1"
             >
               {displayTitle}
             </Link>
@@ -200,16 +200,16 @@ export function ProductCard({ product, index = 0, layout = "grid" }: ProductCard
           <div className="flex sm:flex-col items-center gap-2 shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-slate-100">
             <button
               onClick={(e) => { e.stopPropagation(); setModalOpen(true); }}
-              className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 rounded-xl bg-[#1e3a5f] hover:bg-[#152e4d] active:scale-98 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all shadow-xs cursor-pointer whitespace-nowrap"
+              className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-slate-50/90 hover:bg-[#ea580c] hover:border-[#ea580c] text-slate-700 hover:text-white active:scale-98 px-4 py-2 text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-2xs hover:shadow-md hover:shadow-orange-500/20 cursor-pointer whitespace-nowrap group/btn"
             >
-              <MessageSquare className="h-3.5 w-3.5 text-white" /> Get Quote
+              <MessageSquare className="h-3.5 w-3.5 text-[#ea580c] group-hover/btn:text-white transition-colors" /> Get Quote
             </button>
             <Link
               to="/products/$slug"
               params={{ slug }}
-              className="inline-flex items-center justify-center gap-1 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-100 hover:text-[#ea580c] px-3.5 py-2 text-xs font-bold text-slate-700 transition-all shrink-0"
+              className="inline-flex items-center justify-center gap-1 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 hover:text-[#1d4ed8] px-3.5 py-2 text-xs font-bold text-slate-700 transition-all shrink-0"
             >
-              Details <ArrowRight className="h-3 w-3 text-slate-400" />
+              Details <ArrowRight className="h-3 w-3 text-slate-400 group-hover:text-[#1d4ed8] transition-transform group-hover:translate-x-0.5" />
             </Link>
           </div>
         </motion.article>
@@ -245,21 +245,19 @@ export function ProductCard({ product, index = 0, layout = "grid" }: ProductCard
           {/* Shimmer Placeholder while loading */}
           {!imageLoaded && (
             <div className="absolute inset-0 bg-slate-50 skeleton-shimmer flex items-center justify-center">
-              <div className="h-5 w-5 rounded-full border-2 border-slate-200 border-t-[#ea580c] animate-spin opacity-40" />
+              <div className="h-5 w-5 rounded-full border-2 border-slate-200 border-t-[#1d4ed8] animate-spin opacity-40" />
             </div>
           )}
 
           {/* Brand Badge */}
-          <span className="absolute left-3 top-3 z-10 rounded-md bg-white/95 backdrop-blur-xs border border-slate-200 text-slate-800 px-2 py-0.5 text-[10px] font-extrabold uppercase tracking-wider shadow-2xs">
+          <span className="absolute left-2.5 top-2.5 z-10 rounded-md bg-white/95 backdrop-blur-xs border border-slate-200 text-slate-800 px-2 py-0.5 text-[10px] font-extrabold uppercase tracking-wider shadow-2xs">
             {displayBrand}
           </span>
 
-          {/* Photo Count Badge */}
-          {cleanImages.length > 1 && (
-            <span className="absolute right-3 top-3 z-10 rounded-full bg-white/95 backdrop-blur-xs border border-slate-200/80 px-2 py-0.5 text-[10px] font-bold text-slate-600 shadow-2xs">
-              {cleanImages.length} Photos
-            </span>
-          )}
+          {/* Stock Status Badge */}
+          <span className="absolute right-2.5 top-2.5 z-10 inline-flex items-center gap-1 rounded-full bg-emerald-50/95 backdrop-blur-xs border border-emerald-200/80 px-2 py-0.5 text-[9px] font-bold text-emerald-700 shadow-2xs">
+            <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" /> In Stock
+          </span>
 
           {/* Product Image with smooth hover zoom */}
           <motion.img
@@ -281,15 +279,15 @@ export function ProductCard({ product, index = 0, layout = "grid" }: ProductCard
         </div>
 
         {/* Content Box */}
-        <div className={`flex flex-1 flex-col justify-between ${isCompact ? "p-3 sm:p-3.5 gap-2" : "p-4 sm:p-5 gap-3"} bg-white`}>
+        <div className={`flex flex-1 flex-col justify-between ${isCompact ? "p-3 gap-2" : "p-4 gap-2.5"} bg-white`}>
           <div>
             {/* Category & Part Number Row */}
-            <div className="flex items-center justify-between gap-1.5 mb-1.5">
-              <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 truncate">
+            <div className="flex items-center justify-between gap-1.5 mb-1">
+              <span className="text-[10px] font-extrabold uppercase tracking-wider text-[#1d4ed8]">
                 {product.category}
               </span>
               {isRealPartNumber() && (
-                <span className="font-mono text-[10px] font-bold text-slate-700 bg-slate-100 border border-slate-200 px-1.5 py-0.5 rounded truncate shrink-0 max-w-[130px]">
+                <span className="font-mono text-[9px] font-bold text-slate-600 bg-slate-100 border border-slate-200 px-1.5 py-0.5 rounded truncate max-w-[120px]">
                   {product.partNumber}
                 </span>
               )}
@@ -299,48 +297,45 @@ export function ProductCard({ product, index = 0, layout = "grid" }: ProductCard
             <Link
               to="/products/$slug"
               params={{ slug }}
-              className={`${isCompact ? "text-xs sm:text-sm" : "text-sm sm:text-base"} font-bold leading-snug text-slate-800 line-clamp-2 group-hover:text-[#ea580c] transition-colors block mb-2`}
+              className={`${isCompact ? "text-xs sm:text-[13px] min-h-[36px]" : "text-sm sm:text-base min-h-[44px]"} font-bold leading-snug text-slate-800 line-clamp-2 group-hover:text-[#1d4ed8] transition-colors block mb-2`}
             >
               {displayTitle}
             </Link>
 
-            {/* Clean Specs or Genuine OEM Stock Tag (eliminates repetitive unspaced text dump) */}
-            {keySpecs.length > 0 ? (
-              <div className="flex flex-wrap items-center gap-1.5 mt-1">
-                {keySpecs.map((s, i) => (
-                  <span key={i} className="inline-flex items-center rounded-md bg-slate-50 border border-slate-200/70 px-2 py-0.5 text-[10px] font-medium text-slate-600">
+            {/* Clean Specs Badge */}
+            <div className="flex flex-wrap items-center gap-1.5 mb-2 min-h-[22px]">
+              {keySpecs.length > 0 ? (
+                keySpecs.map((s, i) => (
+                  <span key={i} className="inline-flex items-center rounded-md bg-slate-100/80 border border-slate-200/80 px-2 py-0.5 text-[10px] font-medium text-slate-600 truncate max-w-[140px]">
                     {s}
                   </span>
-                ))}
-                <span className="inline-flex items-center gap-1 text-[10px] font-bold text-emerald-600">
-                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" /> In Stock
+                ))
+              ) : (
+                <span className="text-[10px] font-medium text-slate-500">
+                  Genuine OEM Hardware · Verified Stock
                 </span>
-              </div>
-            ) : (
-              <div className="flex items-center gap-1.5 text-[11px] font-medium text-slate-500 mt-1">
-                <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 shrink-0" />
-                <span className="text-slate-700 font-semibold">Genuine OEM</span>
-                <span className="text-slate-300">•</span>
-                <span className="text-slate-500 truncate">Ready Stock · Makarba</span>
-              </div>
-            )}
+              )}
+            </div>
           </div>
 
-          {/* Action Buttons Row */}
-          <div className="pt-3 border-t border-slate-100 flex items-center gap-2 mt-auto">
+          {/* Action Button: Clean, Uncluttered, Balanced Harmony */}
+          <div className="pt-2.5 border-t border-slate-100 flex items-center gap-2 mt-auto">
             <button
+              type="button"
               onClick={(e) => { e.stopPropagation(); setModalOpen(true); }}
-              className={`flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl bg-[#1e3a5f] hover:bg-[#152e4d] active:scale-98 ${isCompact ? "px-2.5 py-2 text-[11px]" : "px-3 py-2.5 text-xs"} font-bold uppercase tracking-wider text-white transition-all shadow-xs cursor-pointer`}
+              className={`flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-slate-50/90 hover:bg-[#ea580c] hover:border-[#ea580c] text-slate-700 hover:text-white active:scale-98 ${isCompact ? "px-2 py-2 text-[11px]" : "px-3 py-2 text-xs"} font-bold uppercase tracking-wider transition-all duration-200 shadow-2xs hover:shadow-md hover:shadow-orange-500/20 cursor-pointer group/btn`}
             >
-              <MessageSquare className="h-3.5 w-3.5 text-white" /> Get Quote
+              <MessageSquare className="h-3.5 w-3.5 text-[#ea580c] group-hover/btn:text-white transition-colors" />
+              <span>Get Quote</span>
             </button>
 
             <Link
               to="/products/$slug"
               params={{ slug }}
-              className={`inline-flex items-center justify-center gap-1 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-100 hover:text-[#ea580c] active:scale-98 ${isCompact ? "px-2.5 py-2 text-[11px]" : "px-3 py-2.5 text-xs"} font-bold text-slate-700 transition-all shadow-2xs shrink-0`}
+              title="View Details"
+              className={`inline-flex items-center justify-center rounded-xl border border-slate-200/80 bg-white hover:bg-slate-50 group-hover:border-[#1d4ed8]/40 hover:text-[#1d4ed8] text-slate-400 transition-all ${isCompact ? "h-8 w-8" : "h-9 w-9"} shrink-0`}
             >
-              Details <ArrowRight className="h-3.5 w-3.5 text-slate-400 group-hover:text-[#ea580c] transition-transform group-hover:translate-x-0.5" />
+              <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-0.5 transition-transform" />
             </Link>
           </div>
         </div>

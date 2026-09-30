@@ -64,9 +64,9 @@ export function Footer() {
                 <li className="pt-1">
                   <Link
                     to="/products"
-                    className="inline-flex items-center gap-1 text-[11px] font-extrabold text-[#ea580c] hover:underline uppercase tracking-wider transition-colors"
+                    className="inline-flex items-center gap-1 text-[11px] font-extrabold text-[#1d4ed8] hover:underline uppercase tracking-wider transition-colors"
                   >
-                    View All Brands <ArrowRight className="h-3 w-3 text-[#ea580c]" />
+                    View All Brands <ArrowRight className="h-3 w-3 text-[#1d4ed8]" />
                   </Link>
                 </li>
               </ul>
@@ -141,7 +141,7 @@ export function Footer() {
                 <div className="pt-2">
                   <button
                     onClick={() => setInquiryOpen(true)}
-                    className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-[#ea580c] hover:bg-[#c2410c] active:scale-98 px-4 py-2.5 text-xs font-extrabold uppercase tracking-wider text-white transition-all shadow-xs cursor-pointer"
+                    className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-primary hover:bg-[#c2410c] active:scale-98 px-4 py-2.5 text-xs font-extrabold uppercase tracking-wider text-white transition-all shadow-md shadow-orange-500/20 cursor-pointer"
                   >
                     <MessageSquare className="h-3.5 w-3.5 text-white" /> Request Price Quote
                   </button>

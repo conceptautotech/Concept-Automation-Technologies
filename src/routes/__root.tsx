@@ -71,7 +71,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <button
               onClick={handleReset}
-              className="inline-flex items-center justify-center rounded-xl bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all hover:bg-[#c2410c] shadow-md cursor-pointer"
+              className="inline-flex items-center justify-center rounded-xl bg-primary px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all hover:bg-[#c2410c] shadow-md shadow-orange-500/20 cursor-pointer"
             >
               Reload Page
             </button>
