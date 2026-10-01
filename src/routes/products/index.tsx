@@ -302,12 +302,12 @@ function Products() {
         </div>
 
         {/* ── Sticky Filter Bar ── */}
-        <div className="sticky top-14 sm:top-16 z-30 bg-white border-b border-slate-200 shadow-sm">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 py-3">
-            <div className="flex flex-wrap items-end gap-3">
+        <div className="sticky top-14 sm:top-16 z-30 bg-white border-b border-slate-200 shadow-xs">
+          <div className="mx-auto max-w-7xl px-3 sm:px-6 py-2.5 sm:py-3">
+            <div className="flex flex-col sm:flex-row sm:items-end gap-2.5 sm:gap-3">
 
               {/* Search */}
-              <div className="flex flex-col gap-1 flex-1 min-w-[160px] max-w-xs">
+              <div className="flex flex-col gap-1 w-full sm:w-auto sm:flex-1 sm:max-w-xs">
                 <label className="text-[9px] font-extrabold uppercase tracking-widest text-slate-400 px-0.5">
                   Search
                 </label>
@@ -318,7 +318,7 @@ function Products() {
                     placeholder="Model, part number, brand..."
                     value={searchQuery}
                     onChange={(e) => handleSearchChange(e.target.value)}
-                    className={`w-full rounded-xl border pl-9 pr-8 py-2.5 text-xs font-medium placeholder-slate-400 focus:outline-none focus:ring-2 transition-all ${
+                    className={`w-full rounded-xl border pl-9 pr-8 py-2 text-xs font-medium placeholder-slate-400 focus:outline-none focus:ring-2 transition-all ${
                       searchQuery
                         ? "border-[#1d4ed8] bg-[#1d4ed8]/5 text-slate-800 ring-[#1d4ed8]/20"
                         : "border-slate-200 bg-white text-slate-800 hover:border-slate-300 ring-slate-200"
@@ -335,98 +335,102 @@ function Products() {
                 </div>
               </div>
 
-              {/* Type dropdown */}
-              <SelectDropdown
-                label="Product Type"
-                value={selectedType}
-                onChange={handleTypeChange}
-                options={typeOptions}
-                isActive={selectedType !== "All"}
-              />
+              {/* Dropdowns side-by-side on mobile */}
+              <div className="grid grid-cols-2 gap-2 w-full sm:w-auto sm:flex sm:items-end sm:gap-3">
+                {/* Type dropdown */}
+                <SelectDropdown
+                  label="Product Type"
+                  value={selectedType}
+                  onChange={handleTypeChange}
+                  options={typeOptions}
+                  isActive={selectedType !== "All"}
+                />
 
-              {/* Brand dropdown */}
-              <SelectDropdown
-                label="Brand"
-                value={selectedBrand}
-                onChange={handleBrandChange}
-                options={brandOptions}
-                isActive={selectedBrand !== "All"}
-              />
+                {/* Brand dropdown */}
+                <SelectDropdown
+                  label="Brand"
+                  value={selectedBrand}
+                  onChange={handleBrandChange}
+                  options={brandOptions}
+                  isActive={selectedBrand !== "All"}
+                />
+              </div>
 
-              {/* Divider + count + view mode + reset — right aligned */}
-              <div className="flex items-end gap-2.5 ml-auto flex-wrap">
-                {/* View Mode Toggle */}
-                <div className="flex flex-col gap-1">
-                  <span className="text-[9px] font-extrabold uppercase tracking-widest text-slate-400 px-0.5">
-                    View
-                  </span>
-                  <div className="flex items-center rounded-xl border border-slate-200 bg-slate-50 p-1 gap-1 h-[42px]">
-                    <button
-                      type="button"
-                      onClick={() => setViewMode("grid")}
-                      title="Spacious Grid (Clean & Modern)"
-                      className={`inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-bold transition-all cursor-pointer ${
-                        viewMode === "grid"
-                          ? "bg-white text-[#1d4ed8] shadow-xs"
-                          : "text-slate-400 hover:text-slate-700"
-                      }`}
-                    >
-                      <LayoutGrid className="h-3.5 w-3.5" />
-                      <span className="hidden md:inline">Spacious</span>
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setViewMode("compact")}
-                      title="Compact Grid (Dense)"
-                      className={`inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-bold transition-all cursor-pointer ${
-                        viewMode === "compact"
-                          ? "bg-white text-[#1d4ed8] shadow-xs"
-                          : "text-slate-400 hover:text-slate-700"
-                      }`}
-                    >
-                      <Grid className="h-3.5 w-3.5" />
-                      <span className="hidden md:inline">Compact</span>
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setViewMode("list")}
-                      title="List View (Table)"
-                      className={`inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-bold transition-all cursor-pointer ${
-                        viewMode === "list"
-                          ? "bg-white text-[#1d4ed8] shadow-xs"
-                          : "text-slate-400 hover:text-slate-700"
-                      }`}
-                    >
-                      <List className="h-3.5 w-3.5" />
-                      <span className="hidden md:inline">List</span>
-                    </button>
-                  </div>
-                </div>
-
+              {/* Count + view mode + reset — right aligned */}
+              <div className="flex items-center justify-between sm:justify-end gap-2 w-full sm:w-auto sm:ml-auto pt-1 sm:pt-0 border-t sm:border-t-0 border-slate-100">
                 {/* Results count */}
-                <div className="flex flex-col gap-1">
-                  <span className="text-[9px] font-extrabold uppercase tracking-widest text-slate-400 px-0.5">
+                <div className="flex flex-col gap-0.5 sm:gap-1">
+                  <span className="hidden sm:block text-[9px] font-extrabold uppercase tracking-widest text-slate-400 px-0.5">
                     Results
                   </span>
-                  <span className={`rounded-xl border px-3 py-2.5 text-xs font-bold whitespace-nowrap h-[42px] flex items-center ${
+                  <span className={`rounded-xl border px-2.5 sm:px-3 py-1.5 sm:py-2 text-[11px] sm:text-xs font-bold whitespace-nowrap h-[36px] sm:h-[42px] flex items-center ${
                     hasActiveFilters
                       ? "border-slate-300 bg-slate-100 text-slate-800"
                       : "border-slate-200 bg-slate-50 text-slate-600"
                   }`}>
-                    {filteredProducts.length} products
-                    {hasActiveFilters && " · filtered"}
+                    {filteredProducts.length} <span className="hidden xs:inline ml-1">items</span>
                   </span>
                 </div>
 
-                {hasActiveFilters && (
-                  <button
-                    onClick={resetFilters}
-                    className="flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-xs font-bold text-slate-600 hover:border-[#1d4ed8] hover:text-[#1d4ed8] transition-all whitespace-nowrap h-[42px] cursor-pointer"
-                  >
-                    <X className="h-3.5 w-3.5" />
-                    Clear
-                  </button>
-                )}
+                <div className="flex items-center gap-1.5">
+                  {/* View Mode Toggle */}
+                  <div className="flex flex-col gap-0.5 sm:gap-1">
+                    <span className="hidden sm:block text-[9px] font-extrabold uppercase tracking-widest text-slate-400 px-0.5">
+                      View
+                    </span>
+                    <div className="flex items-center rounded-xl border border-slate-200 bg-slate-50 p-0.5 sm:p-1 gap-0.5 sm:gap-1 h-[36px] sm:h-[42px]">
+                      <button
+                        type="button"
+                        onClick={() => setViewMode("grid")}
+                        title="Spacious Grid (Clean & Modern)"
+                        className={`inline-flex items-center gap-1.5 rounded-lg px-2 sm:px-2.5 py-1 sm:py-1.5 text-xs font-bold transition-all cursor-pointer ${
+                          viewMode === "grid"
+                            ? "bg-white text-[#1d4ed8] shadow-xs"
+                            : "text-slate-400 hover:text-slate-700"
+                        }`}
+                      >
+                        <LayoutGrid className="h-3.5 w-3.5" />
+                        <span className="hidden md:inline">Spacious</span>
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => setViewMode("compact")}
+                        title="Compact Grid (Dense)"
+                        className={`inline-flex items-center gap-1.5 rounded-lg px-2 sm:px-2.5 py-1 sm:py-1.5 text-xs font-bold transition-all cursor-pointer ${
+                          viewMode === "compact"
+                            ? "bg-white text-[#1d4ed8] shadow-xs"
+                            : "text-slate-400 hover:text-slate-700"
+                        }`}
+                      >
+                        <Grid className="h-3.5 w-3.5" />
+                        <span className="hidden md:inline">Compact</span>
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => setViewMode("list")}
+                        title="List View (Table)"
+                        className={`inline-flex items-center gap-1.5 rounded-lg px-2 sm:px-2.5 py-1 sm:py-1.5 text-xs font-bold transition-all cursor-pointer ${
+                          viewMode === "list"
+                            ? "bg-white text-[#1d4ed8] shadow-xs"
+                            : "text-slate-400 hover:text-slate-700"
+                        }`}
+                      >
+                        <List className="h-3.5 w-3.5" />
+                        <span className="hidden md:inline">List</span>
+                      </button>
+                    </div>
+                  </div>
+
+                  {hasActiveFilters && (
+                    <button
+                      onClick={resetFilters}
+                      className="flex items-center gap-1 rounded-xl border border-slate-200 bg-white px-2.5 sm:px-3 py-1.5 sm:py-2 text-[11px] sm:text-xs font-bold text-slate-600 hover:border-[#1d4ed8] hover:text-[#1d4ed8] transition-all whitespace-nowrap h-[36px] sm:h-[42px] cursor-pointer self-end"
+                    >
+                      <X className="h-3 w-3" />
+                      Clear
+                    </button>
+                  )}
+                </div>
               </div>
             </div>
 
@@ -481,19 +485,19 @@ function Products() {
           ) : (
             <>
               {viewMode === "list" ? (
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-2.5 sm:gap-3">
                   {visibleProducts.map((p, idx) => (
                     <ProductCard key={p.id} product={p} index={idx} layout="list" />
                   ))}
                 </div>
               ) : viewMode === "compact" ? (
-                <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5">
+                <div className="grid gap-2 sm:gap-3.5 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5">
                   {visibleProducts.map((p, idx) => (
                     <ProductCard key={p.id} product={p} index={idx} layout="compact" />
                   ))}
                 </div>
               ) : (
-                <div className="grid gap-5 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <div className="grid gap-2.5 sm:gap-5 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                   {visibleProducts.map((p, idx) => (
                     <ProductCard key={p.id} product={p} index={idx} layout="grid" />
                   ))}
@@ -503,7 +507,7 @@ function Products() {
               {/* Skeletons while loading next batch */}
               {isLoadingMore && (
                 viewMode === "list" ? (
-                  <div className="mt-4 flex flex-col gap-3">
+                  <div className="mt-4 flex flex-col gap-2.5 sm:gap-3">
                     {[...Array(4)].map((_, i) => (
                       <div key={`sk-${i}`} className="h-24 w-full rounded-2xl border border-slate-200 bg-white p-4 animate-pulse flex items-center gap-4">
                         <div className="h-16 w-16 rounded-xl bg-slate-100 shrink-0" />
@@ -516,10 +520,10 @@ function Products() {
                     ))}
                   </div>
                 ) : (
-                  <div className={`mt-4 grid gap-4 ${
+                  <div className={`mt-4 grid gap-2.5 sm:gap-4 ${
                     viewMode === "compact"
                       ? "grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
-                      : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+                      : "grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
                   }`}>
                     {[...Array(4)].map((_, i) => (
                       <div

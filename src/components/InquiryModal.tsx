@@ -49,30 +49,30 @@ export function InquiryModal({ isOpen, onClose, productName = "", partNumber = "
     }
   };
 
-  const inputClass = "w-full rounded-lg border border-border bg-card px-4 py-2.5 text-xs text-foreground placeholder-stone-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-1 focus:ring-[#1d4ed8]/25";
+  const inputClass = "w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-base sm:text-xs text-foreground placeholder-stone-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20 transition-all";
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-700/50 p-4 backdrop-blur-sm animate-fade-in" onClick={onClose}>
-      <div className="relative w-full max-w-lg overflow-hidden rounded-2xl border border-border bg-background shadow-2xl animate-scale-in" onClick={(e) => e.stopPropagation()}>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-700/50 p-3 sm:p-4 backdrop-blur-sm animate-fade-in" onClick={onClose}>
+      <div className="relative w-full max-w-lg overflow-hidden rounded-2xl border border-border bg-background shadow-2xl animate-scale-in max-h-[92vh] flex flex-col" onClick={(e) => e.stopPropagation()}>
         {/* Header */}
-        <div className="bg-primary px-6 py-4 text-white flex items-center justify-between">
-          <h2 className="font-display text-sm font-bold uppercase tracking-wider text-white">Get Your Free Quote</h2>
-          <button onClick={onClose} className="rounded-lg p-1.5 text-white/70 hover:bg-white/10 hover:text-white transition-colors">
+        <div className="bg-primary px-5 sm:px-6 py-3.5 sm:py-4 text-white flex items-center justify-between shrink-0">
+          <h2 className="font-display text-xs sm:text-sm font-bold uppercase tracking-wider text-white">Get Your Free Quote</h2>
+          <button onClick={onClose} className="rounded-lg p-1.5 text-white/70 hover:bg-white/10 hover:text-white transition-colors cursor-pointer">
             <X className="h-4 w-4" />
           </button>
         </div>
 
-        <div className="p-5 sm:p-6 max-h-[75vh] overflow-y-auto">
+        <div className="p-4 sm:p-6 overflow-y-auto">
           {submitted ? (
             <div className="py-6 text-center">
-              <CheckCircle2 className="mx-auto h-14 w-14 text-emerald-500" />
-              <h3 className="mt-3 text-base font-bold font-display uppercase tracking-wider text-foreground">Quotation Request Received!</h3>
+              <CheckCircle2 className="mx-auto h-12 w-12 sm:h-14 sm:w-14 text-emerald-500" />
+              <h3 className="mt-3 text-sm sm:text-base font-bold font-display uppercase tracking-wider text-foreground">Quotation Request Received!</h3>
               <p className="mt-2 text-xs text-muted-foreground">
                 Thank you, <strong className="text-foreground">{formData.name}</strong>. We'll email/call you shortly.
               </p>
               <button
                 onClick={() => { setSubmitted(false); onClose(); }}
-                className="mt-5 w-full rounded-lg bg-primary py-2.5 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] shadow-md shadow-orange-500/20 transition-colors cursor-pointer"
+                className="mt-5 w-full rounded-xl bg-primary py-3 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] shadow-md shadow-orange-500/20 transition-colors cursor-pointer"
               >
                 Done
               </button>
@@ -100,7 +100,7 @@ export function InquiryModal({ isOpen, onClose, productName = "", partNumber = "
                 className={`${inputClass} resize-none`} />
 
               <button type="submit" disabled={loading}
-                className="w-full flex items-center justify-center gap-2 rounded-lg bg-primary py-3 text-xs font-bold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] shadow-md shadow-orange-500/20 transition-colors disabled:opacity-50 cursor-pointer"
+                className="w-full flex items-center justify-center gap-2 rounded-xl bg-primary py-3.5 text-xs sm:text-sm font-bold uppercase tracking-wider text-primary-foreground hover:bg-[#c2410c] shadow-md shadow-orange-500/20 transition-colors disabled:opacity-50 cursor-pointer min-h-[44px]"
               >
                 {loading ? "Submitting..." : <><Send className="h-4 w-4 text-white" /> Submit Inquiry</>}
               </button>

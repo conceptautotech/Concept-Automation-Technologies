@@ -271,136 +271,109 @@ function Index() {
         {/* ═══════════════════════════════════════════════════════ */}
         {/* HERO SECTION — Product-Focused Tinted Banner           */}
         {/* ═══════════════════════════════════════════════════════ */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-[#f0f6ff] via-white to-[#f5f8fc] pt-8 pb-14 sm:py-20 border-b border-border">
-          {/* Background Orbs */}
-          <div className="absolute top-10 left-10 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl pointer-events-none animate-orb-1" />
-          <div className="absolute bottom-10 right-10 w-[30rem] h-[30rem] bg-primary/5 rounded-full blur-3xl pointer-events-none animate-orb-2" />
+        <section className="relative overflow-hidden bg-gradient-to-b from-[#f0f6ff] via-white to-[#f8fafd] pt-6 pb-12 sm:py-16 border-b border-border w-full max-w-full">
+          {/* Subtle Background Glows (clamped to prevent overflow) */}
+          <div className="absolute -top-12 -left-12 w-64 h-64 bg-blue-500/8 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute -bottom-12 -right-12 w-64 h-64 bg-orange-500/8 rounded-full blur-3xl pointer-events-none" />
           
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,var(--color-primary)/0.03_1px,transparent_1px),linear-gradient(to_bottom,var(--color-primary)/0.03_1px,transparent_1px)] bg-[size:40px_40px]" />
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(29,78,216,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(29,78,216,0.03)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none" />
 
-          <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6">
-            {/* Top Bar Status */}
-            <motion.div 
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 border-b border-slate-200 pb-5 mb-8"
-            >
-              <div className="flex items-center gap-3">
-                <span className="flex h-2.5 w-2.5 relative">
+          <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 w-full">
+            {/* Elegant Top Badge & GST */}
+            <div className="flex items-center justify-between mb-5 flex-wrap gap-2">
+              <div className="inline-flex items-center gap-2 rounded-full border border-blue-200/80 bg-blue-50/90 px-3.5 py-1 text-[11px] font-bold text-[#1d4ed8] shadow-2xs">
+                <span className="flex h-2 w-2 relative">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
-                  <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-600" />
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
                 </span>
-                <span className="text-xs font-extrabold uppercase tracking-wider text-slate-800">
-                  Industrial Automation Products. Reliable Sourcing. Competitive Prices.
-                </span>
+                <span>Direct Wholesale Stockist & Trader · Ahmedabad</span>
               </div>
+              <div className="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold text-slate-500">
+                <span>GSTIN:</span>
+                <span className="font-mono font-bold text-slate-800 bg-white px-2 py-0.5 rounded border border-slate-200">{company.gst}</span>
+              </div>
+            </div>
 
-              <form onSubmit={handleHeroSearchSubmit} className="flex items-center gap-2">
-                <div className="relative w-full sm:w-auto">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-slate-400" />
-                  <input
-                    type="text"
-                    placeholder="Search part code (e.g. S7-1200)..."
-                    value={heroSearch}
-                    onChange={(e) => setHeroSearch(e.target.value)}
-                    className="w-full sm:w-72 rounded-xl border border-slate-300 bg-white pl-9 pr-3 py-2 text-xs text-slate-800 font-semibold placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary shadow-sm"
-                  />
-                </div>
-                <button type="submit" className="rounded-xl bg-[#1d4ed8] px-4 py-2 text-xs font-bold text-white hover:bg-[#1e40af] transition-colors shadow shrink-0 cursor-pointer">
-                  Search
-                </button>
-              </form>
-            </motion.div>
-
-            {/* Brand Tabs */}
-            <motion.div 
-              initial={{ opacity: 0, y: 15 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.15 }}
-              className="flex overflow-x-auto gap-2 pb-2 mb-8 scrollbar-none"
-            >
-              {heroBrandTabs.map((tab) => (
-                <button
-                  key={tab.id}
-                  onClick={() => setActiveBrandTab(tab)}
-                  className={`shrink-0 rounded-xl px-5 py-2.5 text-xs font-extrabold uppercase tracking-wider transition-all duration-300 cursor-pointer ${
-                    activeBrandTab.id === tab.id
-                      ? "bg-[#1d4ed8] text-white shadow-md scale-105 border border-[#1d4ed8]"
-                      : "bg-white text-slate-700 border border-slate-200 hover:bg-slate-50"
-                  }`}
-                >
-                  {tab.name.includes("Automation") ? tab.name : `${tab.name} Automation`}
-                </button>
-              ))}
-            </motion.div>
+            {/* Sleek Brand Selector Tabs */}
+            <div className="flex overflow-x-auto gap-2 pb-2 mb-6 sm:mb-8 scrollbar-none max-w-full">
+              {heroBrandTabs.map((tab) => {
+                const shortName = tab.id === "siemens" ? "Siemens" : tab.id === "mitsubishi" ? "Mitsubishi" : tab.id === "allenbradley" ? "Allen-Bradley" : "Omron & Sensors";
+                const isActive = activeBrandTab.id === tab.id;
+                return (
+                  <button
+                    key={tab.id}
+                    onClick={() => setActiveBrandTab(tab)}
+                    className={`shrink-0 rounded-xl px-4 py-2 sm:px-5 sm:py-2.5 text-xs font-bold tracking-wide transition-all duration-200 cursor-pointer flex items-center gap-2 ${
+                      isActive
+                        ? "bg-[#1d4ed8] text-white shadow-md shadow-blue-500/20 border border-[#1d4ed8]"
+                        : "bg-white text-slate-700 border border-slate-200 hover:bg-slate-50 hover:border-slate-300"
+                    }`}
+                  >
+                    <span className={`h-1.5 w-1.5 rounded-full ${isActive ? "bg-white" : "bg-[#1d4ed8]"}`} />
+                    <span>{shortName}</span>
+                  </button>
+                );
+              })}
+            </div>
 
             {/* Hero Main Content */}
-            <div className="grid gap-10 lg:grid-cols-12 lg:items-center">
-              <div className="lg:col-span-7 space-y-5">
+            <div className="grid gap-8 lg:grid-cols-12 lg:items-center">
+              <div className="lg:col-span-7 space-y-4 sm:space-y-5">
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={activeBrandTab.id}
-                    initial={{ opacity: 0, x: -20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    exit={{ opacity: 0, x: 20 }}
-                    transition={{ duration: 0.3 }}
-                    className="space-y-4"
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    transition={{ duration: 0.25 }}
+                    className="space-y-3 sm:space-y-4"
                   >
-                    <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-100 px-3.5 py-1 text-xs font-extrabold uppercase tracking-widest text-slate-700 shadow-xs">
+                    <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3.5 py-1 text-[11px] font-extrabold uppercase tracking-widest text-slate-700 shadow-2xs">
                       <Sparkles className="h-3.5 w-3.5 text-[#1d4ed8]" /> {activeBrandTab.badge}
                     </span>
 
-                    <h1 className="font-display text-3xl font-extrabold text-slate-800 sm:text-5xl leading-[1.1] tracking-tight">
+                    <h1 className="font-display text-2xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 leading-[1.15] tracking-tight">
                       {activeBrandTab.title}
                     </h1>
 
-                    <p className="text-base text-slate-700 font-medium leading-relaxed max-w-xl sm:text-lg">
+                    <p className="text-sm sm:text-base text-slate-600 font-normal leading-relaxed max-w-xl">
                       {activeBrandTab.desc}
                     </p>
                   </motion.div>
                 </AnimatePresence>
 
-                <motion.div 
-                  initial={{ opacity: 0, y: 15 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.25 }}
-                  className="flex flex-wrap items-center gap-3.5 pt-2"
-                >
+                <div className="flex flex-col sm:flex-row items-center gap-3 pt-2 w-full">
                   <button
                     onClick={() => openQuote(activeBrandTab.title, activeBrandTab.highlightPart)}
-                    className="group rounded-xl bg-primary px-8 py-3.5 sm:py-4 text-xs font-bold uppercase tracking-wider text-primary-foreground shadow-xl hover:bg-[#c2410c] shadow-orange-500/20 transition-all flex items-center gap-2 cursor-pointer"
+                    className="group rounded-xl bg-gradient-to-r from-[#ea580c] to-[#f97316] px-7 py-3.5 sm:py-4 text-xs sm:text-sm font-bold uppercase tracking-wider text-white shadow-lg shadow-orange-500/25 hover:shadow-orange-500/40 hover:from-[#c2410c] hover:to-[#ea580c] active:scale-95 transition-all flex items-center justify-center gap-2.5 cursor-pointer w-full sm:w-auto"
                   >
-                    Get Price Quote <ArrowRight className="h-4 w-4 text-slate-300 group-hover:text-white transition-transform group-hover:translate-x-1" />
+                    <span>Get Instant Quote</span>
+                    <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </button>
 
                   <a
                     href={`tel:${company.phoneRaw}`}
-                    className="rounded-xl border border-slate-300 bg-white px-7 py-3.5 sm:py-4 text-xs font-bold uppercase tracking-wider text-slate-800 hover:border-primary hover:bg-slate-50 transition-all shadow-sm flex items-center gap-2"
+                    className="rounded-xl border border-slate-200 bg-white hover:bg-slate-50 px-6 py-3.5 sm:py-4 text-xs sm:text-sm font-bold text-slate-800 transition-all shadow-xs flex items-center justify-center gap-2 w-full sm:w-auto hover:border-slate-300"
                   >
-                    <Phone className="h-4 w-4 text-[#1d4ed8]" /> {company.phone}
+                    <Phone className="h-4 w-4 text-[#1d4ed8]" />
+                    <span>{company.phone}</span>
                   </a>
-                </motion.div>
+                </div>
 
-                <motion.div 
-                  initial={{ opacity: 0, y: 15 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.35 }}
-                  className="grid grid-cols-3 gap-3 pt-6 border-t border-slate-200"
-                >
-                  <div className="flex items-center gap-2 text-xs font-extrabold text-slate-800">
+                <div className="grid grid-cols-3 gap-2 sm:gap-3 pt-5 border-t border-slate-200/80">
+                  <div className="flex items-center gap-1.5 sm:gap-2 text-[10px] sm:text-xs font-bold text-slate-700">
                     <ShieldCheck className="h-4 w-4 text-emerald-600 shrink-0" />
-                    <span>100% Genuine Products</span>
+                    <span className="truncate">100% Genuine</span>
                   </div>
-                  <div className="flex items-center gap-2 text-xs font-extrabold text-slate-800">
+                  <div className="flex items-center gap-1.5 sm:gap-2 text-[10px] sm:text-xs font-bold text-slate-700">
                     <Truck className="h-4 w-4 text-[#1d4ed8] shrink-0" />
-                    <span>24-48 Hr Dispatch</span>
+                    <span className="truncate">24-48h Dispatch</span>
                   </div>
-                  <div className="flex items-center gap-2 text-xs font-extrabold text-slate-800">
+                  <div className="flex items-center gap-1.5 sm:gap-2 text-[10px] sm:text-xs font-bold text-slate-700">
                     <Award className="h-4 w-4 text-amber-500 shrink-0" />
-                    <span>1 Year Warranty</span>
+                    <span className="truncate">1 Year Warranty</span>
                   </div>
-                </motion.div>
+                </div>
               </div>
 
               {/* Showcase Card */}
@@ -408,39 +381,39 @@ function Index() {
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={activeBrandTab.id}
-                    initial={{ opacity: 0, scale: 0.95 }}
+                    initial={{ opacity: 0, scale: 0.96 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    exit={{ opacity: 0, scale: 0.95 }}
-                    transition={{ duration: 0.3 }}
-                    className="relative overflow-hidden rounded-3xl bg-white p-6 sm:p-8 shadow-xl text-foreground border border-slate-200"
+                    exit={{ opacity: 0, scale: 0.96 }}
+                    transition={{ duration: 0.25 }}
+                    className="relative overflow-hidden rounded-3xl bg-white p-5 sm:p-7 shadow-xl shadow-slate-200/60 text-foreground border border-slate-200"
                   >
-                    <div className="flex items-center justify-between border-b border-slate-100 pb-4 mb-5">
-                      <div className="text-[11px] font-extrabold uppercase tracking-widest text-slate-800 flex items-center gap-1.5">
-                        <CheckCircle2 className="h-4 w-4 text-emerald-600" /> Makarba Ready Stock
+                    <div className="flex items-center justify-between border-b border-slate-100 pb-3 mb-4">
+                      <div className="text-[10px] sm:text-[11px] font-extrabold uppercase tracking-widest text-slate-800 flex items-center gap-1.5">
+                        <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600" /> Makarba Ready Stock
                       </div>
+                      <span className="text-[10px] font-mono font-bold text-[#1d4ed8] bg-blue-50 border border-blue-200 px-2 py-0.5 rounded-full">
+                        {activeBrandTab.highlightPart}
+                      </span>
                     </div>
 
-                    <div className="rounded-2xl bg-slate-50 p-6 shadow-inner border border-slate-200 text-center relative group">
-                      <div className="h-48 sm:h-56 w-full flex items-center justify-center p-2">
+                    <div className="rounded-2xl bg-gradient-to-b from-slate-50 to-white p-4 sm:p-6 border border-slate-100 text-center relative group">
+                      <div className="h-44 sm:h-56 w-full flex items-center justify-center p-2">
                         <img
                           src={getProxiedImageUrl(activeBrandTab.image)}
                           alt={activeBrandTab.title}
                           referrerPolicy="no-referrer"
-                          className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-110"
+                          className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
                         />
                       </div>
-                      <div className="mt-3 pt-3 border-t border-slate-200">
-                        <div className="font-display text-sm font-extrabold text-slate-800 uppercase">
-                          {activeBrandTab.id === "omron" ? "OMRON AUTOMATION & SENSORS" : `${activeBrandTab.name} Hardware Module`}
-                        </div>
-                        <div className="text-xs font-mono font-bold text-[#1d4ed8] mt-0.5">
-                          PN: {activeBrandTab.highlightPart}
+                      <div className="mt-3 pt-3 border-t border-slate-100">
+                        <div className="font-display text-xs sm:text-sm font-extrabold text-slate-800 uppercase tracking-tight">
+                          {activeBrandTab.id === "omron" ? "Omron Automation & Sensors" : `${activeBrandTab.name} Hardware`}
                         </div>
                       </div>
                     </div>
 
-                    <div className="mt-5 flex items-center justify-between pt-4 border-t border-slate-100 text-xs text-slate-700 font-semibold">
-                      <span>Dispatch: Makarba, Ahmedabad</span>
+                    <div className="mt-4 flex items-center justify-between pt-3 border-t border-slate-100 text-xs text-slate-600 font-medium">
+                      <span>Makarba, Ahmedabad Dispatch</span>
                       <button
                         onClick={() => openQuote(activeBrandTab.name, activeBrandTab.highlightPart)}
                         className="text-[#ea580c] font-extrabold uppercase hover:underline flex items-center gap-1 cursor-pointer"
@@ -492,7 +465,7 @@ function Index() {
               </p>
             </div>
 
-            <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-3 sm:gap-6 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3">
               {featuredCategories.map((cat, idx) => (
                 <motion.div
                   key={cat.title}
@@ -501,16 +474,16 @@ function Index() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: idx * 0.08 }}
                   onClick={() => navigate({ to: "/products", search: { type: cat.query } as any })}
-                  className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-xl hover:border-primary/50 transition-all duration-300 cursor-pointer flex flex-col justify-between text-center"
+                  className="group relative overflow-hidden rounded-2xl sm:rounded-3xl border border-slate-200 bg-white p-3.5 sm:p-6 shadow-xs hover:shadow-xl hover:border-primary/50 transition-all duration-300 cursor-pointer flex flex-col justify-between text-center"
                 >
-                  <div className="flex items-center justify-between border-b border-slate-100 pb-3 mb-4">
-                    <span className="text-[10px] font-extrabold uppercase tracking-widest text-[#ea580c] bg-orange-50 px-2.5 py-1 rounded-full border border-orange-200/80">
+                  <div className="flex items-center justify-between border-b border-slate-100 pb-2 sm:pb-3 mb-2.5 sm:mb-4">
+                    <span className="text-[9px] sm:text-[10px] font-extrabold uppercase tracking-widest text-[#ea580c] bg-orange-50 px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-full border border-orange-200/80 truncate max-w-[100px] sm:max-w-none">
                       {cat.badge}
                     </span>
-                    <ArrowUpRight className="h-4 w-4 text-slate-400 group-hover:text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                    <ArrowUpRight className="h-3.5 sm:h-4 w-3.5 sm:w-4 text-slate-400 group-hover:text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                   </div>
 
-                  <div className="h-52 sm:h-60 w-full flex items-center justify-center p-3 mb-4 bg-white">
+                  <div className="h-28 xs:h-36 sm:h-52 md:h-60 w-full flex items-center justify-center p-1.5 sm:p-3 mb-2 sm:mb-4 bg-white">
                     <img
                       src={cat.image}
                       alt={cat.title}
@@ -519,10 +492,10 @@ function Index() {
                   </div>
 
                   <div className="pt-2 border-t border-slate-100/80">
-                    <h3 className="font-display text-lg font-extrabold text-slate-800 group-hover:text-primary transition-colors">
+                    <h3 className="font-display text-xs sm:text-lg font-extrabold text-slate-800 group-hover:text-primary transition-colors leading-tight">
                       {cat.title}
                     </h3>
-                    <p className="mt-1 text-xs text-slate-600 font-medium leading-relaxed">
+                    <p className="mt-1 text-[11px] sm:text-xs text-slate-600 font-medium leading-relaxed hidden sm:block">
                       {cat.desc}
                     </p>
                   </div>

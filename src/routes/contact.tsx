@@ -43,10 +43,10 @@ function Contact() {
     }
   };
 
-  const inputClass = "w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-800 placeholder-slate-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20";
+  const inputClass = "w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-base sm:text-sm text-slate-800 placeholder-slate-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20 transition-all";
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background pb-16 sm:pb-0">
       <Header />
 
       <main>
@@ -148,20 +148,20 @@ function Contact() {
             initial={{ opacity: 0, x: 25 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-sm"
+            className="rounded-2xl border border-slate-200 bg-white p-5 sm:p-8 shadow-sm"
           >
-            <h2 className="font-display text-xl font-bold text-slate-800 sm:text-2xl">
+            <h2 className="font-display text-lg sm:text-2xl font-bold text-slate-800">
               Send Your Inquiry & Part List
             </h2>
-            <p className="mt-1 text-sm text-slate-500">
+            <p className="mt-1 text-xs sm:text-sm text-slate-500">
               We'll respond with a formal quotation via email or WhatsApp.
             </p>
 
             {sent ? (
-              <div className="mt-8 rounded-2xl border border-slate-200 bg-slate-50 p-8 text-center animate-scale-in">
+              <div className="mt-8 rounded-2xl border border-slate-200 bg-slate-50 p-6 sm:p-8 text-center animate-scale-in">
                 <CheckCircle2 className="mx-auto h-10 w-10 text-slate-600" />
-                <h3 className="mt-3 font-display text-xl font-bold text-slate-800">Message Received!</h3>
-                <p className="mt-2 text-sm text-slate-500">
+                <h3 className="mt-3 font-display text-lg sm:text-xl font-bold text-slate-800">Message Received!</h3>
+                <p className="mt-2 text-xs sm:text-sm text-slate-500">
                   Thank you <strong className="text-slate-800">{formData.name}</strong>. An automation engineer will contact you shortly.
                 </p>
                 <button
@@ -172,8 +172,8 @@ function Contact() {
                 </button>
               </div>
             ) : (
-              <form onSubmit={onSubmit} className="mt-6 space-y-4">
-                <div className="grid gap-4 sm:grid-cols-2">
+              <form onSubmit={onSubmit} className="mt-5 sm:mt-6 space-y-4">
+                <div className="grid gap-3.5 sm:gap-4 sm:grid-cols-2">
                   <div>
                     <label className="block text-xs font-semibold text-slate-700 mb-1.5">Full Name *</label>
                     <input type="text" required placeholder="Your name" value={formData.name}
@@ -186,7 +186,7 @@ function Contact() {
                   </div>
                 </div>
 
-                <div className="grid gap-4 sm:grid-cols-2">
+                <div className="grid gap-3.5 sm:gap-4 sm:grid-cols-2">
                   <div>
                     <label className="block text-xs font-semibold text-slate-700 mb-1.5">Email Address *</label>
                     <input type="email" required placeholder="name@company.com" value={formData.email}
@@ -213,7 +213,7 @@ function Contact() {
                 </div>
 
                 <button type="submit" disabled={loading}
-                  className="w-full flex items-center justify-center gap-2 rounded-xl bg-primary py-3.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#c2410c] shadow-md shadow-orange-500/20 transition-all disabled:opacity-50 cursor-pointer"
+                  className="w-full flex items-center justify-center gap-2 rounded-xl bg-primary py-3.5 text-xs sm:text-sm font-bold uppercase tracking-wider text-white hover:bg-[#c2410c] shadow-md shadow-orange-500/20 transition-all disabled:opacity-50 cursor-pointer min-h-[44px]"
                 >
                   {loading ? "Submitting..." : <><Send className="h-4 w-4 text-white" /> Send Message</>}
                 </button>

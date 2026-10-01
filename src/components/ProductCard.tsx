@@ -136,78 +136,81 @@ export function ProductCard({ product, index = 0, layout = "grid" }: ProductCard
           viewport={{ once: true, margin: "-20px" }}
           transition={{ duration: 0.25, delay: Math.min(index * 0.03, 0.2) }}
           onClick={handleCardClick}
-          className="group relative flex flex-col sm:flex-row items-stretch sm:items-center justify-between overflow-hidden rounded-2xl border border-slate-200/90 bg-white p-3.5 sm:p-4 shadow-xs hover:shadow-lg hover:border-slate-300 transition-all duration-200 cursor-pointer gap-4"
+          className="group relative flex flex-col sm:flex-row items-stretch sm:items-center justify-between overflow-hidden rounded-2xl border border-slate-200/90 bg-white p-3 sm:p-4 shadow-xs hover:shadow-lg hover:border-slate-300 transition-all duration-200 cursor-pointer gap-3 sm:gap-4"
         >
-          {/* Thumbnail */}
-          <div className="relative h-28 w-28 sm:h-24 sm:w-24 shrink-0 rounded-xl bg-slate-50 p-2 border border-slate-100 flex items-center justify-center self-center sm:self-auto">
-            <img
-              src={getImageSrc()}
-              alt={displayTitle}
-              loading="lazy"
-              className="h-full w-full object-contain transition-transform duration-200 group-hover:scale-105"
-            />
-            {cleanImages.length > 1 && (
-              <span className="absolute bottom-1 right-1 rounded-full bg-white/95 border border-slate-200 px-1.5 text-[8px] font-bold text-slate-500 shadow-2xs">
-                {cleanImages.length} photos
-              </span>
-            )}
-          </div>
-
-          {/* Details */}
-          <div className="flex-1 min-w-0">
-            <div className="flex items-center gap-2 mb-1.5 flex-wrap">
-              <span className="rounded-md bg-slate-100 border border-slate-200 text-slate-800 px-2 py-0.5 text-[10px] font-extrabold uppercase tracking-wider">
-                {displayBrand}
-              </span>
-              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">
-                {product.category}
-              </span>
-              {isRealPartNumber() && (
-                <span className="font-mono text-[10px] font-bold text-slate-700 bg-slate-100 border border-slate-200 px-1.5 py-0.5 rounded">
-                  {product.partNumber}
+          {/* Top row on mobile: Thumbnail + Info */}
+          <div className="flex items-center gap-3 sm:gap-4 flex-1 min-w-0">
+            {/* Thumbnail */}
+            <div className="relative h-20 w-20 sm:h-24 sm:w-24 shrink-0 rounded-xl bg-slate-50 p-1.5 sm:p-2 border border-slate-100 flex items-center justify-center">
+              <img
+                src={getImageSrc()}
+                alt={displayTitle}
+                loading="lazy"
+                className="h-full w-full object-contain transition-transform duration-200 group-hover:scale-105"
+              />
+              {cleanImages.length > 1 && (
+                <span className="absolute bottom-1 right-1 rounded-full bg-white/95 border border-slate-200 px-1 sm:px-1.5 text-[8px] font-bold text-slate-500 shadow-2xs">
+                  {cleanImages.length}
                 </span>
               )}
-              <span className="inline-flex items-center gap-1 text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200/60 ml-auto sm:ml-0">
-                <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" /> Ready Stock
-              </span>
             </div>
 
-            <Link
-              to="/products/$slug"
-              params={{ slug }}
-              className="text-sm sm:text-base font-bold text-slate-800 hover:text-[#1d4ed8] transition-colors block line-clamp-1 mb-1"
-            >
-              {displayTitle}
-            </Link>
-
-            {keySpecs.length > 0 ? (
-              <div className="flex items-center gap-2 flex-wrap text-xs text-slate-500">
-                {keySpecs.map((s, i) => (
-                  <span key={i} className="inline-flex items-center rounded bg-slate-50 border border-slate-200/70 px-2 py-0.5 text-[10px] font-medium text-slate-600">
-                    {s}
+            {/* Details */}
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-1.5 mb-1 flex-wrap">
+                <span className="rounded-md bg-slate-100 border border-slate-200 text-slate-800 px-1.5 sm:px-2 py-0.5 text-[9px] sm:text-[10px] font-extrabold uppercase tracking-wider">
+                  {displayBrand}
+                </span>
+                <span className="text-[9px] sm:text-[10px] font-bold text-slate-400 uppercase tracking-wider truncate max-w-[100px] sm:max-w-none">
+                  {product.category}
+                </span>
+                {isRealPartNumber() && (
+                  <span className="font-mono text-[9px] font-bold text-slate-700 bg-slate-100 border border-slate-200 px-1.5 py-0.5 rounded truncate max-w-[90px] sm:max-w-none">
+                    {product.partNumber}
                   </span>
-                ))}
-                <span className="text-[11px] text-slate-400">· 100% Genuine OEM Hardware</span>
+                )}
+                <span className="inline-flex items-center gap-1 text-[9px] sm:text-[10px] font-bold text-emerald-600 bg-emerald-50 px-1.5 sm:px-2 py-0.5 rounded border border-emerald-200/60 ml-auto sm:ml-0">
+                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 shrink-0" /> Ready
+                </span>
               </div>
-            ) : (
-              <p className="text-xs text-slate-500 font-medium">
-                Genuine OEM Hardware · Makarba Warehouse Dispatch · GST Invoice
-              </p>
-            )}
+
+              <Link
+                to="/products/$slug"
+                params={{ slug }}
+                className="text-xs sm:text-base font-bold text-slate-800 hover:text-[#1d4ed8] transition-colors block line-clamp-2 sm:line-clamp-1 mb-1 leading-snug"
+              >
+                {displayTitle}
+              </Link>
+
+              {keySpecs.length > 0 ? (
+                <div className="hidden sm:flex items-center gap-2 flex-wrap text-xs text-slate-500">
+                  {keySpecs.map((s, i) => (
+                    <span key={i} className="inline-flex items-center rounded bg-slate-50 border border-slate-200/70 px-2 py-0.5 text-[10px] font-medium text-slate-600">
+                      {s}
+                    </span>
+                  ))}
+                  <span className="text-[11px] text-slate-400">· 100% Genuine OEM Hardware</span>
+                </div>
+              ) : (
+                <p className="hidden sm:block text-xs text-slate-500 font-medium">
+                  Genuine OEM Hardware · Makarba Warehouse Dispatch · GST Invoice
+                </p>
+              )}
+            </div>
           </div>
 
           {/* Actions */}
           <div className="flex sm:flex-col items-center gap-2 shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-slate-100">
             <button
               onClick={(e) => { e.stopPropagation(); setModalOpen(true); }}
-              className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 rounded-xl btn-glass-blue active:scale-98 px-4 py-2 text-xs font-bold uppercase tracking-wider cursor-pointer whitespace-nowrap group/btn"
+              className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 rounded-xl btn-glass-blue active:scale-95 px-3.5 py-2 text-[11px] sm:text-xs font-bold uppercase tracking-wider cursor-pointer whitespace-nowrap group/btn min-h-[36px]"
             >
               <MessageSquare className="h-3.5 w-3.5 text-[#ea580c] group-hover/btn:text-white transition-colors" /> Get Quote
             </button>
             <Link
               to="/products/$slug"
               params={{ slug }}
-              className="inline-flex items-center justify-center gap-1 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 hover:text-[#1d4ed8] px-3.5 py-2 text-xs font-bold text-slate-700 transition-all shrink-0"
+              className="inline-flex items-center justify-center gap-1 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 hover:text-[#1d4ed8] px-3 py-2 text-[11px] sm:text-xs font-bold text-slate-700 transition-all shrink-0 min-h-[36px]"
             >
               Details <ArrowRight className="h-3 w-3 text-slate-400 group-hover:text-[#1d4ed8] transition-transform group-hover:translate-x-0.5" />
             </Link>
@@ -238,10 +241,10 @@ export function ProductCard({ product, index = 0, layout = "grid" }: ProductCard
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         onClick={handleCardClick}
-        className="group relative flex flex-col overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-xs transition-all duration-300 hover:shadow-xl hover:border-slate-300 cursor-pointer"
+        className="group relative flex flex-col overflow-hidden rounded-xl sm:rounded-2xl border border-slate-200/90 bg-white shadow-xs transition-all duration-300 hover:shadow-xl hover:border-slate-300 cursor-pointer"
       >
         {/* Product Image Container */}
-        <div className={`relative ${isCompact ? "h-36 sm:h-42 p-3" : "h-48 sm:h-52 p-4 sm:p-5"} w-full overflow-hidden bg-slate-50/40 border-b border-slate-100 flex items-center justify-center`}>
+        <div className={`relative ${isCompact ? "h-32 sm:h-42 p-2 sm:p-3" : "h-36 sm:h-48 md:h-52 p-2.5 sm:p-4"} w-full overflow-hidden bg-slate-50/40 border-b border-slate-100 flex items-center justify-center`}>
           {/* Shimmer Placeholder while loading */}
           {!imageLoaded && (
             <div className="absolute inset-0 bg-slate-50 skeleton-shimmer flex items-center justify-center">
@@ -250,13 +253,14 @@ export function ProductCard({ product, index = 0, layout = "grid" }: ProductCard
           )}
 
           {/* Brand Badge */}
-          <span className="absolute left-2.5 top-2.5 z-10 rounded-md bg-white/95 backdrop-blur-xs border border-slate-200 text-slate-800 px-2 py-0.5 text-[10px] font-extrabold uppercase tracking-wider shadow-2xs">
+          <span className="absolute left-2 top-2 z-10 rounded-md bg-white/95 backdrop-blur-xs border border-slate-200 text-slate-800 px-1.5 sm:px-2 py-0.5 text-[9px] sm:text-[10px] font-extrabold uppercase tracking-wider shadow-2xs truncate max-w-[75px] sm:max-w-none">
             {displayBrand}
           </span>
 
           {/* Stock Status Badge */}
-          <span className="absolute right-2.5 top-2.5 z-10 inline-flex items-center gap-1 rounded-full bg-emerald-50/95 backdrop-blur-xs border border-emerald-200/80 px-2 py-0.5 text-[9px] font-bold text-emerald-700 shadow-2xs">
-            <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" /> In Stock
+          <span className="absolute right-2 top-2 z-10 inline-flex items-center gap-1 rounded-full bg-emerald-50/95 backdrop-blur-xs border border-emerald-200/80 px-1.5 sm:px-2 py-0.5 text-[8.5px] sm:text-[9px] font-bold text-emerald-700 shadow-2xs">
+            <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 shrink-0" />
+            <span className="hidden xs:inline sm:inline">In Stock</span>
           </span>
 
           {/* Product Image with smooth hover zoom */}
@@ -279,15 +283,15 @@ export function ProductCard({ product, index = 0, layout = "grid" }: ProductCard
         </div>
 
         {/* Content Box */}
-        <div className={`flex flex-1 flex-col justify-between ${isCompact ? "p-3 gap-2" : "p-4 gap-2.5"} bg-white`}>
+        <div className={`flex flex-1 flex-col justify-between ${isCompact ? "p-2.5 sm:p-3 gap-1.5 sm:gap-2" : "p-2.5 sm:p-4 gap-1.5 sm:gap-2.5"} bg-white`}>
           <div>
             {/* Category & Part Number Row */}
-            <div className="flex items-center justify-between gap-1.5 mb-1">
-              <span className="text-[10px] font-extrabold uppercase tracking-wider text-[#1d4ed8]">
+            <div className="flex items-center justify-between gap-1 mb-1">
+              <span className="text-[9px] sm:text-[10px] font-extrabold uppercase tracking-wider text-[#1d4ed8] truncate">
                 {product.category}
               </span>
               {isRealPartNumber() && (
-                <span className="font-mono text-[9px] font-bold text-slate-600 bg-slate-100 border border-slate-200 px-1.5 py-0.5 rounded truncate max-w-[120px]">
+                <span className="font-mono text-[8.5px] sm:text-[9px] font-bold text-slate-600 bg-slate-100 border border-slate-200 px-1 sm:px-1.5 py-0.5 rounded truncate max-w-[80px] sm:max-w-[120px]">
                   {product.partNumber}
                 </span>
               )}
@@ -297,13 +301,13 @@ export function ProductCard({ product, index = 0, layout = "grid" }: ProductCard
             <Link
               to="/products/$slug"
               params={{ slug }}
-              className={`${isCompact ? "text-xs sm:text-[13px] min-h-[36px]" : "text-sm sm:text-base min-h-[44px]"} font-bold leading-snug text-slate-800 line-clamp-2 group-hover:text-[#1d4ed8] transition-colors block mb-2`}
+              className={`${isCompact ? "text-[11px] sm:text-[13px] min-h-[30px] sm:min-h-[36px]" : "text-xs sm:text-sm md:text-base min-h-[32px] sm:min-h-[44px]"} font-bold leading-tight sm:leading-snug text-slate-800 line-clamp-2 group-hover:text-[#1d4ed8] transition-colors block mb-1.5`}
             >
               {displayTitle}
             </Link>
 
             {/* Clean Specs Badge */}
-            <div className="flex flex-wrap items-center gap-1.5 mb-2 min-h-[22px]">
+            <div className="hidden sm:flex flex-wrap items-center gap-1.5 mb-2 min-h-[22px]">
               {keySpecs.length > 0 ? (
                 keySpecs.map((s, i) => (
                   <span key={i} className="inline-flex items-center rounded-md bg-slate-100/80 border border-slate-200/80 px-2 py-0.5 text-[10px] font-medium text-slate-600 truncate max-w-[140px]">
@@ -319,23 +323,23 @@ export function ProductCard({ product, index = 0, layout = "grid" }: ProductCard
           </div>
 
           {/* Action Button: Clean, Uncluttered, Balanced Harmony */}
-          <div className="pt-2.5 border-t border-slate-100 flex items-center gap-2 mt-auto">
+          <div className="pt-2 border-t border-slate-100 flex items-center gap-1.5 sm:gap-2 mt-auto">
             <button
               type="button"
               onClick={(e) => { e.stopPropagation(); setModalOpen(true); }}
-              className={`flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl btn-glass-blue active:scale-98 ${isCompact ? "px-2 py-2 text-[11px]" : "px-3 py-2 text-xs"} font-bold uppercase tracking-wider cursor-pointer group/btn`}
+              className={`flex-1 inline-flex items-center justify-center gap-1 sm:gap-1.5 rounded-lg sm:rounded-xl btn-glass-blue active:scale-95 ${isCompact ? "px-1.5 py-2 text-[10px]" : "px-2 py-2 sm:px-3 text-[11px] sm:text-xs"} font-bold uppercase tracking-wider cursor-pointer group/btn min-h-[34px] sm:min-h-[38px]`}
             >
-              <MessageSquare className="h-3.5 w-3.5 text-[#ea580c] group-hover/btn:text-white transition-colors" />
-              <span>Get Quote</span>
+              <MessageSquare className="h-3 w-3 sm:h-3.5 sm:w-3.5 text-[#ea580c] group-hover/btn:text-white transition-colors shrink-0" />
+              <span className="truncate">Get Quote</span>
             </button>
 
             <Link
               to="/products/$slug"
               params={{ slug }}
               title="View Details"
-              className={`inline-flex items-center justify-center rounded-xl border border-slate-200/80 bg-white hover:bg-slate-50 group-hover:border-[#1d4ed8]/40 hover:text-[#1d4ed8] text-slate-400 transition-all ${isCompact ? "h-8 w-8" : "h-9 w-9"} shrink-0`}
+              className={`inline-flex items-center justify-center rounded-lg sm:rounded-xl border border-slate-200/80 bg-white hover:bg-slate-50 group-hover:border-[#1d4ed8]/40 hover:text-[#1d4ed8] text-slate-400 transition-all ${isCompact ? "h-8 w-8" : "h-8.5 w-8.5 sm:h-9 sm:w-9"} shrink-0`}
             >
-              <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-0.5 transition-transform" />
+              <ArrowRight className="h-3 w-3 sm:h-3.5 sm:w-3.5 group-hover:translate-x-0.5 transition-transform" />
             </Link>
           </div>
         </div>

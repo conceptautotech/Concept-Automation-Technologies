@@ -131,7 +131,7 @@ function ProductDetailPage() {
   const related = mergedProducts.filter((p) => (p?.brand || "").toLowerCase() === (brand || "").toLowerCase() && p.name !== title).slice(0, 4);
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background pb-16 sm:pb-0">
       <Header />
 
       <main>
@@ -282,21 +282,21 @@ function ProductDetailPage() {
                     <div className="grid gap-3 sm:grid-cols-2">
                       <input type="text" required placeholder="Your Name *" value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20" />
+                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-base sm:text-sm text-foreground placeholder-slate-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20" />
                       <input type="tel" required placeholder="Phone / WhatsApp *" value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20" />
+                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-base sm:text-sm text-foreground placeholder-slate-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20" />
                     </div>
                     <div className="grid gap-3 sm:grid-cols-2">
                       <input type="email" required placeholder="Work Email *" value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20" />
+                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-base sm:text-sm text-foreground placeholder-slate-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20" />
                       <input type="number" min={1} placeholder="Quantity" value={formData.quantity}
                         onChange={(e) => setFormData({ ...formData, quantity: parseInt(e.target.value) || 1 })}
-                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-sm text-foreground placeholder-slate-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20" />
+                        className="w-full rounded-xl border border-border bg-card px-3.5 py-2.5 text-base sm:text-sm text-foreground placeholder-slate-400 focus:border-[#1d4ed8] focus:outline-none focus:ring-2 focus:ring-[#1d4ed8]/20" />
                     </div>
                     <button type="submit" disabled={loading}
-                      className="w-full rounded-xl bg-primary py-3 text-sm font-bold uppercase tracking-wider text-white hover:bg-[#c2410c] transition-colors disabled:opacity-50 shadow-md shadow-orange-500/20 cursor-pointer">
+                      className="w-full rounded-xl bg-primary py-3.5 text-xs sm:text-sm font-bold uppercase tracking-wider text-white hover:bg-[#c2410c] transition-colors disabled:opacity-50 shadow-md shadow-orange-500/20 cursor-pointer min-h-[44px]">
                       {loading ? "Submitting..." : "Submit Price Quote Request"}
                     </button>
                   </form>
@@ -307,10 +307,10 @@ function ProductDetailPage() {
 
           {/* Related */}
           {related.length > 0 && (
-            <div className="mt-14 border-t border-border pt-10">
+            <div className="mt-12 sm:mt-14 border-t border-border pt-8 sm:pt-10">
               <span className="eyebrow">More {brand} Products</span>
-              <h2 className="mt-1 font-display text-xl font-bold text-foreground sm:text-2xl mb-6">Related {brand} Products</h2>
-              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              <h2 className="mt-1 font-display text-xl font-bold text-foreground sm:text-2xl mb-5 sm:mb-6">Related {brand} Products</h2>
+              <div className="grid gap-2.5 sm:gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-4">
                 {related.map((p) => (<ProductCard key={p.id} product={p} />))}
               </div>
             </div>
