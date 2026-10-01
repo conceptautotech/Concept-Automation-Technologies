@@ -26,10 +26,9 @@ export type ContactPayload = {
   message: string;
 };
 
-// The sales email endpoint for FormSubmit.co.
-// Note: FormSubmit will send a one-time activation email for each new domain (including Vercel).
-// Once you click "Activate Form" in that email, submissions from that domain are active.
-const FORM_ENDPOINT = "sales@concept-auto-tech.com";
+// The sales email endpoint / token for FormSubmit.co.
+// Using the unique token protects the naked email and ties directly to sales@concept-auto-tech.com
+const FORM_ENDPOINT = "7a7eec4c7cee793aa638d95fe95f8e05";
 
 /**
  * Send an email notification to the sales team via FormSubmit.co
